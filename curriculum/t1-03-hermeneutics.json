@@ -1,0 +1,1684 @@
+{
+  "id": "hermeneutics",
+  "title": "Hermeneutics",
+  "tier": 1,
+  "tier_name": "Foundations",
+  "description": "How to read the Bible well. This course introduces the theory and practice of biblical interpretation: the nature of Scripture, the historical-grammatical method, literary context, genre, the history of interpretation from the Fathers to the Reformers, the unity of the canon, and the move from exegesis to application. Students practice interpreting narrative, law, poetry, prophecy, gospel, epistle and apocalyptic texts, and learn to test their readings against the rule of faith and the wider church.",
+  "prerequisites": [],
+  "lessons": [
+    {
+      "id": "herm-01",
+      "title": "What Is Hermeneutics? Reading the Bible as the Word of God",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Define hermeneutics, exegesis and application and explain how they relate."
+        },
+        {
+          "id": "o2",
+          "text": "Explain why interpretation is unavoidable for every reader of Scripture."
+        },
+        {
+          "id": "o3",
+          "text": "Describe how the Bible's own claims about itself (inspiration, authority, purpose) shape how we read it."
+        },
+        {
+          "id": "o4",
+          "text": "Identify the reader's presuppositions and the role of the Holy Spirit in understanding Scripture."
+        }
+      ],
+      "scripture_passages": [
+        "2 Timothy 3:14-17",
+        "2 Peter 1:19-21",
+        "Nehemiah 8:1-8",
+        "Luke 24:25-27"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book I, chapters 1-2 and Preface"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 7"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Introduction, Chapter 1 (On Method)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Hermeneutics",
+          "definition": "The theory and principles of interpretation; the study of how meaning is understood."
+        },
+        {
+          "term": "Exegesis",
+          "definition": "Drawing out the meaning of a text in its own context (as opposed to eisegesis, reading one's own ideas into it)."
+        },
+        {
+          "term": "Inspiration",
+          "definition": "The work of the Holy Spirit by which the human authors of Scripture wrote the very word of God (theopneustos, 'God-breathed', 2 Tim 3:16)."
+        },
+        {
+          "term": "Illumination",
+          "definition": "The Holy Spirit's work of enabling readers to understand and receive the truth of Scripture."
+        }
+      ],
+      "discussion_questions": [
+        "Nehemiah 8:8 says the Levites read the Law and 'gave the sense.' What does this tell us about the relationship between reading and interpreting?",
+        "How might a reader's culture, tradition or experience help or hinder understanding of a biblical passage?",
+        "Calvin argues that Scripture is confirmed by the inward testimony of the Spirit. How does this relate to careful study?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which term refers to drawing out the meaning that is actually in a biblical text?",
+          "options": [
+            "Exegesis",
+            "Eisegesis",
+            "Homiletics",
+            "Apologetics"
+          ],
+          "answer": 0,
+          "explanation": "Exegesis 'leads out' the meaning; eisegesis reads meaning into the text."
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "According to 2 Timothy 3:16, all Scripture is",
+          "options": [
+            "written by apostles",
+            "breathed out by God",
+            "preserved without variants",
+            "addressed to the church only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Luke 24:27 Jesus interpreted to the disciples the things concerning himself in",
+          "options": [
+            "the Psalms only",
+            "the writings of the prophets only",
+            "all the Scriptures, beginning with Moses and all the Prophets",
+            "the Gospel of Mark"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "What is the Holy Spirit's work of enabling readers to understand and receive Scripture usually called?",
+          "options": [
+            "Inspiration",
+            "Revelation",
+            "Illumination",
+            "Canonization"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Hermeneutics is best described as",
+          "options": [
+            "a list of Bible facts",
+            "the theory and principles of interpretation",
+            "the translation of Hebrew into Greek",
+            "the history of the canon"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the difference between exegesis and application, and why both matter.",
+          "answer_key": "Exegesis determines what the text meant in its original context (author, audience, language, genre); application brings that meaning to bear on present readers' lives and situations. Both matter because application without exegesis distorts the text, while exegesis without application stops short of Scripture's purpose (2 Tim 3:16-17)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is no one able to read the Bible 'without interpretation'?",
+          "answer_key": "Every reader brings language, culture, assumptions and questions to the text, and every act of understanding involves judging meaning (words, grammar, context, genre). The choice is not whether to interpret but whether to interpret well, self-consciously and faithfully."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HGB"
+    },
+    {
+      "id": "herm-02",
+      "title": "The Nature of Scripture - Divine and Human",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the dual authorship of Scripture (fully divine and fully human) and its implications for interpretation."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize classic Christian claims about the authority, sufficiency and clarity of Scripture."
+        },
+        {
+          "id": "o3",
+          "text": "Explain how the human features of Scripture (languages, cultures, genres, personalities) are part of its divine message."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 19:7-11",
+        "Hebrews 1:1-2",
+        "Jeremiah 36:1-4",
+        "Luke 1:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapters 6 and 8"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "The Bondage of the Will",
+          "section": "Luther's argument for the clarity (perspicuity) of Scripture, early in the treatise"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 1, Articles 8-10"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Dual authorship",
+          "definition": "The teaching that Scripture has both a divine author (God) and human authors, each writing in their own style and setting."
+        },
+        {
+          "term": "Sufficiency",
+          "definition": "Scripture contains all that is necessary for salvation, faith and life."
+        },
+        {
+          "term": "Perspicuity (clarity)",
+          "definition": "The central message of Scripture is clear enough for ordinary believers to understand through ordinary means."
+        },
+        {
+          "term": "Accommodation",
+          "definition": "God's condescending to communicate in human language and forms suited to human capacity (a term used by Calvin)."
+        }
+      ],
+      "discussion_questions": [
+        "Luke 1:1-4 describes Luke's research. How does this human process fit with divine inspiration?",
+        "Luther insisted that Scripture is clear; Erasmus stressed its obscurity. What does each side get right?",
+        "Why does it matter for interpretation that God spoke 'at many times and in various ways' (Heb 1:1)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Luke's prologue (Luke 1:1-4) shows that inspiration",
+          "options": [
+            "excluded human research",
+            "worked through careful human investigation",
+            "happened only through dreams",
+            "applied only to Jesus' words"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The doctrine that Scripture's central message is understandable to ordinary believers is called",
+          "options": [
+            "inerrancy",
+            "perspicuity",
+            "canonicity",
+            "infallibility of the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In the Summa Theologica, Part I, Question 1, Article 10, Aquinas discusses",
+          "options": [
+            "the existence of God",
+            "whether a word of Scripture may have several senses",
+            "the sacrament of baptism",
+            "the fall of the angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Hebrews 1:1-2 contrasts God's speaking through the prophets with his speaking",
+          "options": [
+            "through the Law",
+            "through angels only",
+            "by his Son",
+            "through the church councils"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin's idea of 'accommodation' refers to",
+          "options": [
+            "the church adapting doctrine to culture",
+            "God communicating in forms suited to human capacity",
+            "translating the Bible into Latin",
+            "changing the canon"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What does 'dual authorship' mean, and how should it affect the way we study a biblical book?",
+          "answer_key": "Every book is both God's word and a real human author's writing. So we study the human author's language, setting, purpose and genre (not bypassing them), while receiving the result as God's authoritative word and reading it in light of the whole canon God authored."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "State the doctrine of the sufficiency of Scripture in your own words.",
+          "answer_key": "Scripture contains everything necessary for salvation and for a life of faith and obedience; nothing needs to be added as equally authoritative for these ends, though other sources (reason, tradition, learning) may help us understand it."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HGB"
+    },
+    {
+      "id": "herm-03",
+      "title": "Words and Grammar - The Historical-Grammatical Method",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the historical-grammatical method and its main steps."
+        },
+        {
+          "id": "o2",
+          "text": "Explain how word meaning is determined by usage and context, avoiding common word-study fallacies."
+        },
+        {
+          "id": "o3",
+          "text": "Show how grammar and syntax (e.g. conjunctions, verb forms) carry meaning in a passage."
+        }
+      ],
+      "scripture_passages": [
+        "Ephesians 2:8-10",
+        "Romans 12:1-2",
+        "John 3:16"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapters 10-16 (unknown and ambiguous signs; the value of the original languages)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Ephesians, chapter 2"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Historical-grammatical method",
+          "definition": "Interpretation that seeks the author's intended meaning through the grammar of the original languages and the historical setting."
+        },
+        {
+          "term": "Semantic range",
+          "definition": "The spread of possible meanings a word can have; context selects the meaning in a given use."
+        },
+        {
+          "term": "Etymological fallacy",
+          "definition": "Assuming a word's 'root' or origin determines its meaning in a later text."
+        },
+        {
+          "term": "Illegitimate totality transfer",
+          "definition": "Importing every possible meaning of a word into a single occurrence."
+        }
+      ],
+      "discussion_questions": [
+        "In Ephesians 2:8-10, what does the little word 'for' at the start of verse 10 do to the argument?",
+        "Why is it misleading to say a word 'really means' its root meaning?",
+        "Augustine recommended knowledge of Hebrew and Greek. Why might that still matter when good translations exist?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The meaning of a word in a specific passage is determined primarily by",
+          "options": [
+            "its etymology",
+            "its usage in context",
+            "the English translation",
+            "the longest dictionary definition"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Importing all the possible meanings of a word into one occurrence is called",
+          "options": [
+            "the root fallacy",
+            "illegitimate totality transfer",
+            "anachronism",
+            "proof-texting"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "According to Ephesians 2:8-9, salvation is by grace through",
+          "options": [
+            "works",
+            "baptism",
+            "faith",
+            "the law"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The historical-grammatical method seeks primarily",
+          "options": [
+            "the reader's personal feelings",
+            "the meaning intended by the human author in his setting",
+            "hidden numerical codes",
+            "the most allegorical sense"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Ephesians 2:10 says believers are created in Christ Jesus",
+          "options": [
+            "because of good works",
+            "for good works which God prepared beforehand",
+            "without any purpose",
+            "to keep the law of Moses"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the 'etymological fallacy' and give an example of how it can mislead.",
+          "answer_key": "It is assuming a word's origin or root determines its current meaning. For example, claiming that because a word is built from certain parts it must carry that literal sense everywhere (like 'butterfly' means a fly made of butter). Meaning is set by usage in context, not history of the word."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Name at least three steps in the historical-grammatical method.",
+          "answer_key": "For example — establish the text (and translation), study the historical and cultural setting, identify genre and literary context, analyse grammar and syntax, study key words by usage, trace the flow of argument, and state the author's intended meaning before application."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HGB"
+    },
+    {
+      "id": "herm-04",
+      "title": "Context - Literary, Historical and Canonical",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the importance of literary context (the paragraph, section and book) for interpretation."
+        },
+        {
+          "id": "o2",
+          "text": "Describe how historical and cultural background illuminates a passage."
+        },
+        {
+          "id": "o3",
+          "text": "Identify common misuses of verses taken out of context."
+        },
+        {
+          "id": "o4",
+          "text": "Explain canonical context - reading a passage in light of the whole Bible."
+        }
+      ],
+      "scripture_passages": [
+        "Philippians 4:10-13",
+        "Jeremiah 29:4-14",
+        "Matthew 18:15-20"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Philippians, chapter 4"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book III, chapters 1-4 (resolving ambiguity by the context and the rule of faith)"
+        },
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book I (the Jewish world in the days of Christ)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Literary context",
+          "definition": "The surrounding words, paragraphs and book in which a passage is found."
+        },
+        {
+          "term": "Historical context",
+          "definition": "The time, place, culture, circumstances of author and original audience."
+        },
+        {
+          "term": "Canonical context",
+          "definition": "A passage's place and meaning within the whole of Scripture."
+        },
+        {
+          "term": "Proof-texting",
+          "definition": "Citing isolated verses to support a view without regard to context."
+        }
+      ],
+      "discussion_questions": [
+        "Read Philippians 4:13 in the context of 4:10-12. What is the 'all things' Paul can do?",
+        "Jeremiah 29:11 is often quoted on graduation cards. What does the context (29:4-10) add?",
+        "How does Matthew 18:20 ('where two or three are gathered') read differently in its context of church discipline?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In context, Philippians 4:13 is chiefly about",
+          "options": [
+            "winning athletic contests",
+            "contentment in plenty and in need",
+            "performing miracles",
+            "avoiding persecution"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Jeremiah 29:11 was first addressed to",
+          "options": [
+            "the early church",
+            "the exiles in Babylon",
+            "King David",
+            "the Pharisees"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "According to Jeremiah 29:10, the exile would last",
+          "options": [
+            "forty years",
+            "seventy years",
+            "three days",
+            "a thousand years"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Matthew 18:15-20 is set in the context of",
+          "options": [
+            "prayer meetings",
+            "addressing a brother's sin and church discipline",
+            "the Lord's Supper",
+            "the Sermon on the Mount"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Citing isolated verses without regard to their context is called",
+          "options": [
+            "exegesis",
+            "proof-texting",
+            "typology",
+            "lectio divina"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is the paragraph a better basic unit of interpretation than the individual verse?",
+          "answer_key": "Verse divisions were added much later (16th century) and often cut across thoughts; the author's argument or narrative unit is expressed in paragraphs and larger sections, so a verse's meaning depends on the flow of thought around it."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is canonical context and how can it guard interpretation?",
+          "answer_key": "Reading a passage in light of the whole Bible - its place in the story of redemption and alongside other texts on the topic. It guards against isolating a text, lets Scripture interpret Scripture, and helps us see fulfilment in Christ."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HGB"
+    },
+    {
+      "id": "herm-05",
+      "title": "The History of Interpretation I - The Early Church",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the 'rule of faith' and its role in early Christian interpretation."
+        },
+        {
+          "id": "o2",
+          "text": "Compare the Alexandrian (allegorical) and Antiochene (historical) emphases."
+        },
+        {
+          "id": "o3",
+          "text": "Explain Origen's threefold sense of Scripture and assess its strengths and weaknesses."
+        },
+        {
+          "id": "o4",
+          "text": "Explain Augustine's rule of love (charity) as an interpretive principle."
+        }
+      ],
+      "scripture_passages": [
+        "Galatians 4:21-31",
+        "1 Corinthians 10:1-11",
+        "Matthew 22:34-40"
+      ],
+      "library_readings": [
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book I, chapters 8-10 (the Gnostics' misuse of Scripture and the rule of truth)"
+        },
+        {
+          "author": "Origen",
+          "title": "De Principiis",
+          "section": "Book IV, chapters 1-3 (on the inspiration and interpretation of Scripture)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book I, chapters 35-40, and Book III, chapter 10 (the rule of love)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Rule of faith (regula fidei)",
+          "definition": "A summary of apostolic teaching (close to later creeds) used as a guide and boundary for interpretation."
+        },
+        {
+          "term": "Allegory",
+          "definition": "Reading a text as having a deeper, spiritual meaning beyond the literal; associated with Alexandria and Origen."
+        },
+        {
+          "term": "Antiochene school",
+          "definition": "Interpreters (e.g. Theodore, Chrysostom) who stressed the historical and literal sense, with 'theoria' (spiritual insight) grounded in history."
+        },
+        {
+          "term": "Rule of charity",
+          "definition": "Augustine's principle that interpretation should build up love of God and neighbor."
+        }
+      ],
+      "discussion_questions": [
+        "Paul uses the word 'allegory' (or 'figuratively') in Galatians 4:24. Is Paul doing the same thing as Origen?",
+        "Irenaeus compared the Gnostics to someone rearranging a mosaic of a king into a picture of a dog. What is his point?",
+        "Is Augustine's rule of love a sufficient safeguard in interpretation? Why or why not?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Irenaeus used what concept to show that the Gnostics had distorted Scripture?",
+          "options": [
+            "The fourfold sense",
+            "The rule of truth/faith received from the apostles",
+            "Papal authority",
+            "The Masoretic text"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The school most associated with allegorical interpretation in the early church was",
+          "options": [
+            "Antioch",
+            "Alexandria",
+            "Rome",
+            "Jerusalem"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Origen described the senses of Scripture as analogous to",
+          "options": [
+            "the four Gospels",
+            "body, soul and spirit",
+            "the three persons of the Trinity",
+            "past, present and future"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In 1 Corinthians 10:11 Paul says the events of Israel in the wilderness",
+          "options": [
+            "were myths",
+            "happened as examples and were written for our instruction",
+            "have no relevance to Christians",
+            "were allegories without history"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine taught that an interpretation which does not build up the twofold love of God and neighbor",
+          "options": [
+            "is still correct if grammatical",
+            "has not yet understood Scripture as it should",
+            "must be allegorical",
+            "should be rejected by councils"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What was the 'rule of faith' and how did it function in interpretation?",
+          "answer_key": "A summary of the apostolic faith (one God the Creator, Jesus Christ his Son incarnate, crucified, risen, coming again, the Holy Spirit) handed down in the churches; it served as a guide and boundary so that readings contradicting the apostolic faith (e.g. Gnostic ones) were ruled out."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give one strength and one weakness of allegorical interpretation.",
+          "answer_key": "Strength - it read the whole Bible as Christian Scripture pointing to Christ and sought spiritual nourishment. Weakness - it could become arbitrary, detached from the author's meaning and history, making the text say whatever the interpreter wished."
+        }
+      ]
+    },
+    {
+      "id": "herm-06",
+      "title": "The History of Interpretation II - Medieval to Reformation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the medieval fourfold sense (quadriga) of Scripture."
+        },
+        {
+          "id": "o2",
+          "text": "Describe Aquinas's grounding of spiritual senses in the literal sense."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the Reformers' emphasis on the literal sense, sola Scriptura, and Scripture interpreting Scripture."
+        },
+        {
+          "id": "o4",
+          "text": "Evaluate what later interpreters can learn from both medieval and Reformation approaches."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 55:10-11",
+        "Acts 17:10-12",
+        "Psalm 119:105"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 1, Article 10"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "The Bondage of the Will",
+          "section": "The discussion of the clarity of Scripture (external and internal clarity)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 7 (German Reformation), the Reformers' principle of Scripture and Luther's translation of the Bible"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Quadriga",
+          "definition": "The medieval fourfold sense - literal (historical), allegorical (what to believe), tropological/moral (what to do), anagogical (what to hope for)."
+        },
+        {
+          "term": "Sola Scriptura",
+          "definition": "The Reformation principle that Scripture is the only infallible rule of faith and practice (not the only source of truth, but the supreme norm)."
+        },
+        {
+          "term": "Analogy of faith (analogia fidei)",
+          "definition": "Interpreting unclear passages in light of clearer ones and of the whole of Scripture's teaching."
+        },
+        {
+          "term": "Sensus literalis",
+          "definition": "The literal sense - the meaning intended by the author, including figures of speech."
+        }
+      ],
+      "discussion_questions": [
+        "Why did Aquinas insist that all the spiritual senses are founded on the literal sense?",
+        "What did the Bereans (Acts 17:11) do that the Reformers valued?",
+        "Luther said 'Scripture interprets itself.' What does this mean, and what are its limits?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In the medieval quadriga, the 'anagogical' sense concerns",
+          "options": [
+            "moral behavior",
+            "doctrine to believe",
+            "future hope and the last things",
+            "historical facts"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Aquinas held that the spiritual senses",
+          "options": [
+            "replace the literal sense",
+            "are founded on and presuppose the literal sense",
+            "are always more authoritative",
+            "were invented by Origen and should be rejected"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Bereans in Acts 17:11 are commended because they",
+          "options": [
+            "rejected Paul",
+            "examined the Scriptures daily to see if these things were so",
+            "relied only on tradition",
+            "spoke in tongues"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The 'analogy of faith' means",
+          "options": [
+            "comparing religions",
+            "interpreting Scripture by Scripture and the whole of its teaching",
+            "believing without evidence",
+            "reading allegorically"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Sola Scriptura, as the Reformers meant it, is the claim that Scripture is",
+          "options": [
+            "the only book Christians may read",
+            "the only infallible rule of faith and practice",
+            "to be interpreted only by the pope",
+            "self-interpreting without study"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name and briefly define the four senses of the medieval quadriga.",
+          "answer_key": "Literal/historical (what happened, what the text says); allegorical (what to believe, often about Christ and the church); tropological or moral (how to live); anagogical (what to hope for, the last things/heaven)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How did the Reformers' approach to interpretation differ from the typical medieval approach?",
+          "answer_key": "They emphasized the literal/grammatical sense intended by the author, the priority of Scripture over church tradition as final norm, Scripture interpreting Scripture, the clarity of Scripture for ordinary believers, and study of the original languages - while still reading Scripture christologically."
+        }
+      ],
+      "paper_prompt": "Write a 1,200-1,800 word paper comparing TWO approaches to interpretation from different periods (for example, Origen and Augustine, or Aquinas and Luther). Explain each approach using the assigned library readings, show how each would interpret one specific passage (such as Galatians 4:21-31 or Psalm 23), and evaluate the strengths and weaknesses of each. Cite your sources as (Author, Title, section)."
+    },
+    {
+      "id": "herm-07",
+      "title": "Interpreting Old Testament Narrative",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Identify the elements of narrative (plot, character, setting, point of view, narrator)."
+        },
+        {
+          "id": "o2",
+          "text": "Distinguish between what a narrative describes and what it prescribes."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret a narrative within the larger story of redemption without moralizing."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 22:1-19",
+        "1 Samuel 17:1-54",
+        "Judges 21:25"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Genesis, chapter 22"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVI, chapters 31-32 (on Abraham and the offering of Isaac)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Book IV (on the need for skill in handling Scripture)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Plot",
+          "definition": "The sequence of events in a narrative, usually moving from conflict to resolution."
+        },
+        {
+          "term": "Descriptive vs. prescriptive",
+          "definition": "Narratives describe what happened; they do not necessarily approve or command it."
+        },
+        {
+          "term": "Narrator's evaluation",
+          "definition": "Comments or patterns by which the narrator signals how events should be judged (e.g. Judges 21:25)."
+        },
+        {
+          "term": "Moralizing",
+          "definition": "Reducing a narrative to a moral example ('be brave like David') and missing its theological point."
+        }
+      ],
+      "discussion_questions": [
+        "In 1 Samuel 17, who is the real hero of the story? How does verse 47 shape your answer?",
+        "How does the refrain in Judges 21:25 help us evaluate the stories in Judges?",
+        "What does Genesis 22 reveal about God, and how have Christians read it in light of Christ?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The refrain 'In those days Israel had no king; everyone did what was right in his own eyes' concludes",
+          "options": [
+            "Genesis",
+            "Judges",
+            "Ruth",
+            "2 Kings"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "That a narrative records an action means",
+          "options": [
+            "God always approves of it",
+            "it is described, not necessarily approved or commanded",
+            "it must be imitated",
+            "it is allegorical"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In 1 Samuel 17:47 David declares that",
+          "options": [
+            "his skill will win",
+            "the battle is the LORD's",
+            "Saul must lead the army",
+            "Goliath will surrender"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Genesis 22 God provides",
+          "options": [
+            "a lamb from the flock Abraham brought",
+            "a ram caught in a thicket",
+            "an angel to fight",
+            "a new son"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Reducing a narrative merely to 'be like the hero' is called",
+          "options": [
+            "typology",
+            "moralizing",
+            "exegesis",
+            "canonical reading"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the difference between descriptive and prescriptive texts, with an example.",
+          "answer_key": "Descriptive texts report what happened; prescriptive texts command or teach what should be done. E.g. Jephthah's vow or Israel's actions in Judges 19-21 are described but not endorsed; the narrator signals disapproval."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can we read an OT narrative 'within the larger story of redemption'?",
+          "answer_key": "By asking what the narrative reveals about God and his covenant purposes, how it fits in the progress from creation through Israel to Christ, and how it anticipates or is fulfilled in Christ, rather than treating it only as moral lessons."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/PRH"
+    },
+    {
+      "id": "herm-08",
+      "title": "Interpreting Law and Covenant",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the covenant setting of Old Testament law."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the traditional threefold division of the law (moral, civil, ceremonial) and alternative approaches."
+        },
+        {
+          "id": "o3",
+          "text": "Explain how Christ fulfills the law and how Christians should read OT laws today."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 20:1-17",
+        "Deuteronomy 6:1-9",
+        "Matthew 5:17-20",
+        "Galatians 3:23-29"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 7 (the uses of the law)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Questions 99-104 (moral, ceremonial and judicial precepts)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Ten Commandments (Preface and First Commandment)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Covenant",
+          "definition": "A binding relationship established by God with promises and obligations (e.g. the Sinai covenant)."
+        },
+        {
+          "term": "Threefold division of the law",
+          "definition": "Moral, civil (judicial) and ceremonial laws; a classic framework (Aquinas, Calvin, Westminster)."
+        },
+        {
+          "term": "Uses of the law",
+          "definition": "Calvin's three uses - to convict of sin, to restrain evil in society, and to guide believers."
+        },
+        {
+          "term": "Fulfilment",
+          "definition": "Christ brings the law to its intended goal (Matt 5:17), which changes how its various parts apply."
+        }
+      ],
+      "discussion_questions": [
+        "Why does the Decalogue begin with 'I am the LORD your God, who brought you out of Egypt'?",
+        "What are the strengths and limitations of the moral/civil/ceremonial division?",
+        "Calvin called the third use of the law its 'principal use.' Lutherans often stress the first. Why the difference?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Ten Commandments open by grounding the law in",
+          "options": [
+            "the creation of the world",
+            "God's redemption of Israel from Egypt",
+            "the promise to Noah",
+            "the building of the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The classic threefold division of the law is",
+          "options": [
+            "priestly, prophetic, kingly",
+            "moral, civil (judicial), ceremonial",
+            "old, new, eternal",
+            "written, oral, natural"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Matthew 5:17 Jesus says he came",
+          "options": [
+            "to abolish the Law",
+            "not to abolish but to fulfill",
+            "to add a new law",
+            "to replace the prophets"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Galatians 3:24 Paul describes the law as a",
+          "options": [
+            "curse on the righteous",
+            "guardian (tutor) until Christ came",
+            "permanent covenant",
+            "second gospel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin's 'third use' of the law is",
+          "options": [
+            "to condemn unbelievers",
+            "to restrain crime",
+            "to instruct and exhort believers",
+            "to establish the priesthood"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How should a Christian read an Old Testament ceremonial law such as a sacrifice regulation?",
+          "answer_key": "Understand it in its covenant context and purpose; see how it is fulfilled in Christ (e.g. his once-for-all sacrifice, Hebrews); it is no longer binding as ceremony, but still teaches about God's holiness, sin, atonement and worship."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize Calvin's three uses of the law.",
+          "answer_key": "(1) It shows God's righteousness and convicts us of sin, driving us to Christ; (2) it restrains evildoers through fear of punishment, preserving civil order; (3) it instructs and exhorts believers in God's will (the principal use for Calvin)."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/kot"
+    },
+    {
+      "id": "herm-09",
+      "title": "Interpreting Poetry and Wisdom",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Identify the main features of Hebrew poetry, especially parallelism and imagery."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret figurative language responsibly."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the nature of proverbs and wisdom literature and avoid treating proverbs as promises."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 1",
+        "Psalm 23",
+        "Proverbs 26:4-5",
+        "Proverbs 22:6"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book III, chapters 5-9 and 24-29 (figurative expressions)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Psalm 1"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Parallelism",
+          "definition": "The pairing of lines that echo, contrast or develop one another (synonymous, antithetic, synthetic)."
+        },
+        {
+          "term": "Metaphor",
+          "definition": "Speaking of one thing in terms of another ('The LORD is my shepherd')."
+        },
+        {
+          "term": "Proverb",
+          "definition": "A short, memorable saying expressing a general truth, not an unconditional promise."
+        },
+        {
+          "term": "Wisdom literature",
+          "definition": "Books (Proverbs, Job, Ecclesiastes) exploring skilful living in the fear of the LORD."
+        }
+      ],
+      "discussion_questions": [
+        "Proverbs 26:4 and 26:5 seem to contradict each other. What does their pairing teach about how proverbs work?",
+        "What does the shepherd metaphor communicate in Psalm 23 that a plain statement would not?",
+        "How should Proverbs 22:6 be read by parents whose children stray?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Psalm 1:6 ('the LORD knows the way of the righteous, but the way of the wicked will perish') is an example of",
+          "options": [
+            "synonymous parallelism",
+            "antithetic parallelism",
+            "chiasm only",
+            "prose narrative"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Proverbs 26:4-5 teaches that",
+          "options": [
+            "the Bible contradicts itself",
+            "wisdom requires discerning which proverb fits a situation",
+            "fools should always be answered",
+            "fools should never be answered"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Proverbs are best understood as",
+          "options": [
+            "unconditional promises",
+            "general truths about how life usually works in God's world",
+            "prophecies about Israel",
+            "legal statutes"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The dominant image of Psalm 23 is",
+          "options": [
+            "a king on a throne",
+            "a shepherd caring for his sheep",
+            "a warrior in battle",
+            "a builder"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The foundation of wisdom according to Proverbs is",
+          "options": [
+            "long life",
+            "wealth",
+            "the fear of the LORD",
+            "education"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is it a mistake to treat every proverb as a promise?",
+          "answer_key": "Proverbs express general patterns of life in God's ordered world, compressed and memorable; they are not guarantees for every case. Other wisdom books (Job, Ecclesiastes) show exceptions, and proverbs must be applied with discernment."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Define parallelism and describe two of its types.",
+          "answer_key": "The relationship between paired lines of Hebrew poetry. Synonymous - the second line restates the first; antithetic - the second line contrasts with the first; synthetic/developmental - the second line extends or completes the first."
+        }
+      ]
+    },
+    {
+      "id": "herm-10",
+      "title": "Interpreting Prophecy and Apocalyptic",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the prophets' role as covenant messengers (forth-telling and foretelling)."
+        },
+        {
+          "id": "o2",
+          "text": "Describe patterns of fulfilment, including near and far horizons and fulfilment in Christ."
+        },
+        {
+          "id": "o3",
+          "text": "Identify features of apocalyptic literature and principles for interpreting its symbols."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 7:10-17",
+        "Matthew 1:18-23",
+        "Joel 2:28-32",
+        "Acts 2:14-21",
+        "Daniel 7:1-14"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 43, 66-71 (the debate over Isaiah 7:14)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapters 27-35 (the prophets and Christ)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Daniel, chapter 7"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Covenant lawsuit",
+          "definition": "Prophetic speech charging Israel with covenant breaking and warning of judgment."
+        },
+        {
+          "term": "Prophetic foreshortening",
+          "definition": "Seeing near and distant events together, like mountain peaks, without the valleys between."
+        },
+        {
+          "term": "Apocalyptic",
+          "definition": "A genre (Daniel, Revelation) using visions and symbols to reveal God's sovereign purposes in history and its end."
+        },
+        {
+          "term": "Typology",
+          "definition": "Recognizing persons, events and institutions as patterns that anticipate their fulfilment in Christ."
+        }
+      ],
+      "discussion_questions": [
+        "How does Peter use Joel 2 in Acts 2? What does 'this is what was spoken' imply?",
+        "Isaiah 7:14 had a sign for King Ahaz. How can it also be fulfilled in Jesus (Matt 1:23)?",
+        "What do the 'beasts' and the 'son of man' of Daniel 7 represent, according to the chapter itself (7:17-18)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The prophets' main role was",
+          "options": [
+            "predicting the far future only",
+            "calling God's people to covenant faithfulness, including announcing future judgment and salvation",
+            "writing history books",
+            "leading the army"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Peter introduces his quotation of Joel on the day of Pentecost with the words",
+          "options": [
+            "'Perhaps this is...'",
+            "'This is what was spoken by the prophet Joel'",
+            "'One day this will be...'",
+            "'Moses said...'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Daniel 7:17, the four beasts are explained as",
+          "options": [
+            "four angels",
+            "four kings (kingdoms)",
+            "four apostles",
+            "four seasons"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Matthew 1:23 applies to Jesus the prophecy of",
+          "options": [
+            "Micah 5:2",
+            "Isaiah 7:14",
+            "Psalm 22:1",
+            "Zechariah 9:9"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Seeing near and distant events together in one prophetic picture is called",
+          "options": [
+            "allegory",
+            "prophetic foreshortening",
+            "midrash",
+            "the rule of faith"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are two important principles for interpreting apocalyptic symbols?",
+          "answer_key": "For example - look for interpretations given in the text itself (Dan 7:17; Rev 1:20); read symbols against their OT background; grasp the main point rather than pressing every detail; remember the genre's purpose of revealing God's sovereignty and encouraging endurance."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain 'typology' and give one biblical example.",
+          "answer_key": "Typology sees real historical persons, events or institutions as God-designed patterns anticipating Christ, e.g. the Passover lamb (1 Cor 5:7), Adam (Rom 5:14), the tabernacle and sacrifices (Hebrews), or Jonah (Matt 12:40)."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HGP"
+    },
+    {
+      "id": "herm-11",
+      "title": "Interpreting the Gospels, Parables and Epistles",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the nature of the Gospels as theological biographies and how to read them 'vertically' and 'horizontally'."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret parables by identifying their main point(s) in context."
+        },
+        {
+          "id": "o3",
+          "text": "Trace an argument in an epistle and read it as occasional correspondence."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 15:1-32",
+        "Luke 10:25-37",
+        "Galatians 1:6-10",
+        "1 Corinthians 8:1-13"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book III, chapters 30-37 (the rules of Tyconius)"
+        },
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book III (Jesus' teaching in parables)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Luke, chapter 15"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Parable",
+          "definition": "A story or comparison drawn from ordinary life that teaches truth about the kingdom of God."
+        },
+        {
+          "term": "Horizontal reading",
+          "definition": "Comparing parallel accounts across the Gospels to see each evangelist's emphasis."
+        },
+        {
+          "term": "Occasional letter",
+          "definition": "An epistle written to address specific situations in a church (the 'occasion')."
+        },
+        {
+          "term": "Argument tracing",
+          "definition": "Following the logical connections (therefore, because, but) between statements in an epistle."
+        }
+      ],
+      "discussion_questions": [
+        "Luke 15:1-2 sets the scene for three parables. How does this audience shape their meaning?",
+        "Augustine's interpretation of the Good Samaritan identified the inn as the church. What do you make of that reading?",
+        "How should the 'occasional' nature of 1 Corinthians 8 affect how we apply it today?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The three parables of Luke 15 are addressed to",
+          "options": [
+            "the disciples only",
+            "Pharisees and scribes grumbling that Jesus received sinners",
+            "Roman soldiers",
+            "the crowds at the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The parable of the Good Samaritan answers the question",
+          "options": [
+            "'Who is greatest?'",
+            "'Who is my neighbor?'",
+            "'When will the kingdom come?'",
+            "'Must we pay taxes?'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Reading parallel Gospel accounts side by side to see each writer's emphasis is called",
+          "options": [
+            "vertical reading",
+            "horizontal reading",
+            "allegorizing",
+            "harmonizing away"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "An 'occasional' epistle is one that",
+          "options": [
+            "was written rarely",
+            "addresses particular circumstances in its recipients' situation",
+            "is not inspired",
+            "was written for all people in the same way"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Galatians 1:8 Paul says that anyone who preaches a different gospel",
+          "options": [
+            "should be debated",
+            "is accursed (anathema)",
+            "may be tolerated",
+            "must be baptized again"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the main point of the parable of the prodigal son in its Luke 15 context?",
+          "answer_key": "God joyfully receives repentant sinners, as Jesus does, and the elder brother pictures the grumbling Pharisees who should rejoice with the Father rather than resent grace (15:1-2, 25-32)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why must we understand the situation behind an epistle before applying it?",
+          "answer_key": "Letters answer specific problems and questions; knowing the occasion clarifies what the author meant and helps distinguish enduring principles (e.g. love limiting liberty in 1 Cor 8) from culturally specific expressions."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/gos"
+    },
+    {
+      "id": "herm-12",
+      "title": "From Text to Life - Application, Christ-Centered Reading and the Church",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain a responsible process for moving from original meaning to present application."
+        },
+        {
+          "id": "o2",
+          "text": "Describe Christ-centered (Christotelic) reading of the whole Bible and its safeguards."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the role of the church, tradition and community in interpretation."
+        },
+        {
+          "id": "o4",
+          "text": "Produce a complete interpretation of a passage following the course's method."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 24:44-49",
+        "John 5:39-40",
+        "James 1:22-25",
+        "Acts 15:1-21"
+      ],
+      "library_readings": [
+        {
+          "author": "Vincent of Lérins",
+          "title": "Commonitory",
+          "section": "Chapter 2 (what has been believed everywhere, always, by all)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 1-7 (from understanding to teaching)"
+        },
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, lecture \"On Spiritualizing\""
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Principlizing",
+          "definition": "Identifying the theological principle in a text that bridges its original situation and ours."
+        },
+        {
+          "term": "Christ-centered interpretation",
+          "definition": "Reading all Scripture in relation to Christ, its fulfilment (Luke 24:44)."
+        },
+        {
+          "term": "Vincentian canon",
+          "definition": "'That which has been believed everywhere, always, and by all' - a test of catholic doctrine."
+        },
+        {
+          "term": "Interpretive community",
+          "definition": "The church as the context in which Scripture is read, tested and applied."
+        }
+      ],
+      "discussion_questions": [
+        "In Acts 15 the church resolves an interpretive dispute. What roles do Scripture, experience and community play?",
+        "What are the dangers of 'spiritualizing' a text, according to Spurgeon? Where might it be legitimate?",
+        "How can Christ-centered reading avoid forcing Jesus artificially into every verse?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Luke 24:44 Jesus says everything written about him must be fulfilled in",
+          "options": [
+            "the Gospels",
+            "the Law of Moses, the Prophets and the Psalms",
+            "the letters of Paul",
+            "Isaiah alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "James 1:22 urges believers to be",
+          "options": [
+            "hearers only",
+            "doers of the word, and not hearers only",
+            "teachers of the law",
+            "silent in church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Vincentian canon defines catholic faith as what has been believed",
+          "options": [
+            "by the pope",
+            "everywhere, always, and by all",
+            "by the majority in each age",
+            "only in the apostolic age"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "At the Jerusalem Council (Acts 15), James supports the decision by quoting",
+          "options": [
+            "Isaiah 53",
+            "Amos 9",
+            "Genesis 12",
+            "Psalm 110"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Identifying the theological principle that bridges the text's world and ours is sometimes called",
+          "options": [
+            "allegorizing",
+            "principlizing",
+            "eisegesis",
+            "harmonizing"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the steps you would take to move from a passage's original meaning to faithful present application.",
+          "answer_key": "Establish the original meaning (context, genre, grammar, history); identify the theological truth/principle; consider how the passage fits the whole canon and its fulfilment in Christ; note differences and similarities between their situation and ours; then apply concretely to belief, character and action, tested by the wider church."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is interpretation a communal task and not merely individual?",
+          "answer_key": "The Spirit is given to the church; believers across times and places (tradition, creeds, commentators) help check individual blind spots and errors (Acts 15; Vincent's canon), while Scripture remains the final authority."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word exegetical paper on ONE of these passages: Philippians 2:5-11, Genesis 12:1-3, Psalm 51, or Luke 15:11-32. Follow the course method: (1) literary and historical context, (2) genre, (3) structure and flow of thought, (4) key words and grammar, (5) the passage in the canon and in relation to Christ, (6) the history of interpretation (use at least two library sources, cited as Author, Title, section), and (7) application for today. Include a clear thesis stating the passage's main point.",
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/BBT"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+  # The tutor reads its prompts and the curriculum at runtime
+  included_files = ["prompts/**", "curriculum/**"]
+
+[dev]
+  framework = "#custom"
+  command = "npm run dev"
+  targetPort = 5173
+  port = 8888
+
+# Single-page app: send every other path to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

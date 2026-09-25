@@ -1,0 +1,55 @@
+{
+  "name": "seminary",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "tsx scripts/build-public-curriculum.ts",
+    "build": "vite build",
+    "predev": "tsx scripts/build-public-curriculum.ts",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "validate:curriculum": "tsx scripts/validate-curriculum.ts",
+    "ingest:bible": "tsx scripts/ingest-bible.ts",
+    "ingest:stepbible": "tsx scripts/ingest-stepbible.ts",
+    "ingest:library": "tsx scripts/ingest-library.ts",
+    "test:search": "tsx scripts/test-search.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordovacombat1-maker/Seminary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cordovacombat1-maker/Seminary/issues"
+  },
+  "homepage": "https://github.com/cordovacombat1-maker/Seminary#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "@supabase/supabase-js": "^2.117.1",
+    "dompurify": "^3.4.16",
+    "marked": "^18.0.14",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^6.0.0",
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/node": "^26.6.2",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.6.1",
+    "pg": "^8.23.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.1"
+  },
+  "private": true,
+  "type": "module"
+}

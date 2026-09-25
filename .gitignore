@@ -1,0 +1,12 @@
+node_modules
+dist
+.netlify
+.env
+.env.*
+!.env.example
+scripts/.cache
+scripts/library-texts/*
+!scripts/library-texts/README.md
+src/generated
+*.log
+.DS_Store
