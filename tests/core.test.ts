@@ -5,10 +5,10 @@ import { checkParsing, hebrewMainMorph, hebrewMainStrongs, likeToRegex, normaliz
 import { lessonRequirementsMet, lessonUnlocked } from '../shared/progress';
 import { formatRange, parseReference, rangeSize } from '../shared/refs';
 import { buildWindow, needsSummary } from '../netlify/lib/chat';
-import { rangeFilter } from '../netlify/lib/biblical';
-import { parseLexicon, parseMorphology, parseTagnt, parseTahot } from '../scripts/ingest-stepbible';
-import { parseCsv, parseTabbed, parseWebJson } from '../scripts/ingest-bible';
-import { segmentByWork, stripGutenberg } from '../scripts/ingest-library';
+import { rangeSql } from '../netlify/lib/biblical';
+import { parseLexicon, parseMorphology, parseTagnt, parseTahot } from '../netlify/lib/ingest/stepbible';
+import { parseCsv, parseTabbed, parseWebJson } from '../netlify/lib/ingest/bible';
+import { segmentByWork, stripGutenberg } from '../netlify/lib/ingest/library';
 import { WORK_BY_ID } from '../shared/library';
 
 describe('Bible references', () => {
@@ -42,8 +42,10 @@ describe('Bible references', () => {
     expect(() => parseReference('Rom 3:40')).toThrow();
   });
   it('builds PostgREST range filters', () => {
-    expect(rangeFilter(parseReference('John 3:16-18'))).toBe('and(chapter.eq.3,verse.gte.16,verse.lte.18)');
-    expect(rangeFilter(parseReference('Gen 1:1-3:5'))).toContain('and(chapter.gt.1,chapter.lt.3)');
+    expect(rangeSql(parseReference('John 3:16-18'), 1)).toEqual({ sql: '(chapter = $1 and verse between $2 and $3)', params: [3, 16, 18] });
+    const multi = rangeSql(parseReference('Gen 1:1-3:5'), 3);
+    expect(multi.sql).toContain('(chapter > $3 and chapter < $5)');
+    expect(multi.params).toEqual([1, 1, 3, 5]);
   });
 });
 

@@ -1,6 +1,5 @@
-// The tools the tutor can call. Each runs server-side against Supabase.
+// The tools the tutor can call. Each runs server-side against the app's database.
 import type Anthropic from '@anthropic-ai/sdk';
-import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Lesson } from '../../shared/types';
 import { lexiconEntry, lookupOriginal, lookupVerse, searchLibrary } from './biblical';
 
@@ -41,11 +40,11 @@ export const TUTOR_TOOLS: Anthropic.Tool[] = [
   {
     name: 'search_library',
     description:
-      'Semantic search over the public-domain theology, church history and commentary library (Church Fathers, Augustine, Anselm, Aquinas, Luther, Calvin, Wesley, Arminius, Hodge, Schaff, Edersheim, Matthew Henry, JFB, Spurgeon, etc.). Returns passages with author, title, section and source URL for citation. Use a tradition filter to find a specific tradition\'s own view on a disputed question.',
+      'Keyword search over the public-domain theology, church history and commentary library (Church Fathers, Augustine, Anselm, Aquinas, Luther, Calvin, Wesley, Arminius, Hodge, Schaff, Edersheim, Matthew Henry, JFB, Spurgeon, etc.). Returns passages with author, title, section and source URL for citation. Search with distinctive key words (names, technical terms, phrases the author would use), not whole questions; if nothing comes back, try other words. Use a tradition filter to find a specific tradition\'s own view on a disputed question.',
     input_schema: {
       type: 'object',
       properties: {
-        query: { type: 'string', description: 'What to look for, in natural language.' },
+        query: { type: 'string', description: 'Key words to look for, e.g. "justification faith works" or "Arius Son begotten".' },
         tradition_filter: {
           type: 'string',
           enum: ['Patristic', 'Catholic', 'Lutheran', 'Reformed', 'Wesleyan', 'Anabaptist', 'Other'],
@@ -68,7 +67,6 @@ export const TUTOR_TOOLS: Anthropic.Tool[] = [
 ];
 
 export interface ToolContext {
-  db: SupabaseClient;
   lesson: Lesson;
   markObjective: (objectiveId: string) => Promise<{ allComplete: boolean; remaining: string[] }>;
 }
@@ -89,22 +87,22 @@ export async function runTool(name: string, input: unknown, ctx: ToolContext): P
       case 'lookup_verse': {
         const reference = str(args.reference);
         if (!reference) return { content: 'reference is required', isError: true };
-        return { content: JSON.stringify(await lookupVerse(ctx.db, reference, str(args.translation) || 'BSB')) };
+        return { content: JSON.stringify(await lookupVerse(reference, str(args.translation) || 'BSB')) };
       }
       case 'lookup_original': {
         const reference = str(args.reference);
         if (!reference) return { content: 'reference is required', isError: true };
-        return { content: JSON.stringify(await lookupOriginal(ctx.db, reference)) };
+        return { content: JSON.stringify(await lookupOriginal(reference)) };
       }
       case 'lexicon': {
         const s = str(args.strongs_number);
         if (!s) return { content: 'strongs_number is required', isError: true };
-        return { content: JSON.stringify(await lexiconEntry(ctx.db, s)) };
+        return { content: JSON.stringify(await lexiconEntry(s)) };
       }
       case 'search_library': {
         const query = str(args.query);
         if (!query) return { content: 'query is required', isError: true };
-        const res = await searchLibrary(ctx.db, query, { tradition: str(args.tradition_filter) || null, count: 5 });
+        const res = await searchLibrary(query, { tradition: str(args.tradition_filter) || null, count: 5 });
         return {
           content: JSON.stringify({
             method: res.method,

@@ -11,7 +11,8 @@ import { dailyMessageLimit, MODELS } from '../lib/env';
 import { friendlyMessage, handle, HttpError, json, readJson } from '../lib/http';
 import { assertLessonAccess, getLessonProgress, refreshCompletion, touchLesson } from '../lib/progress';
 import { tutorSystemPrompt } from '../lib/prompts';
-import { adminClient, check, requireUser } from '../lib/supabase';
+import { requireUser } from '../lib/auth';
+import { one, query } from '../lib/db';
 import { runTool, TUTOR_TOOLS } from '../lib/tutor-tools';
 
 export const config: Config = { path: '/api/tutor' };
@@ -29,7 +30,6 @@ const STATUS: Record<string, (i: Record<string, unknown>) => string> = {
 
 export default handle(async (req: Request) => {
   const user = await requireUser(req);
-  const db = adminClient();
 
   if (req.method === 'GET') {
     const lessonId = new URL(req.url).searchParams.get('lessonId') ?? '';
@@ -37,13 +37,13 @@ export default handle(async (req: Request) => {
     await assertLessonAccess(user, course, index);
     const [thread, objectives, progress, usedToday] = await Promise.all([
       loadThread(user.id, lessonId),
-      db.from('objective_progress').select('objective_id').eq('user_id', user.id).eq('lesson_id', lessonId),
+      query<{ objective_id: string }>('select objective_id from objective_progress where user_id = $1 and lesson_id = $2', [user.id, lessonId]),
       getLessonProgress(user.id, lessonId),
       userMessagesToday(user.id),
     ]);
     return json({
       messages: thread,
-      completedObjectives: ((check(objectives) ?? []) as { objective_id: string }[]).map((o) => o.objective_id),
+      completedObjectives: objectives.map((o) => o.objective_id),
       progress,
       dailyLimit: dailyMessageLimit(),
       usedToday,
@@ -70,17 +70,19 @@ export default handle(async (req: Request) => {
 
   let userMessageId: number | null = null;
   if (!body.start) {
-    const inserted = check(
-      await db.from('chat_messages').insert({ user_id: user.id, lesson_id: lesson.id, role: 'user', content: text }).select('id').single(),
-    ) as { id: number };
+    const inserted = (await one<{ id: number }>(
+      "insert into chat_messages (user_id, lesson_id, role, content) values ($1, $2, 'user', $3) returning id",
+      [user.id, lesson.id, text],
+    ))!;
     userMessageId = inserted.id;
     thread = [...thread, { id: inserted.id, role: 'user', content: text, created_at: new Date().toISOString() }];
   }
 
   const progress = await getLessonProgress(user.id, lesson.id);
-  const doneRows = check(
-    await db.from('objective_progress').select('objective_id').eq('user_id', user.id).eq('lesson_id', lesson.id),
-  ) as { objective_id: string }[];
+  const doneRows = await query<{ objective_id: string }>('select objective_id from objective_progress where user_id = $1 and lesson_id = $2', [
+    user.id,
+    lesson.id,
+  ]);
   const completed = new Set(doneRows.map((r) => r.objective_id));
 
   const progressBlock = () => {
@@ -134,14 +136,13 @@ export default handle(async (req: Request) => {
             toolUses.map(async (tu) => {
               send({ t: 'status', v: STATUS[tu.name]?.((tu.input ?? {}) as Record<string, unknown>) ?? 'Working…' });
               const out = await runTool(tu.name, tu.input, {
-                db,
                 lesson,
                 markObjective: async (objectiveId) => {
-                  check(
-                    await db
-                      .from('objective_progress')
-                      .upsert({ user_id: user.id, lesson_id: lesson.id, objective_id: objectiveId }, { onConflict: 'user_id,lesson_id,objective_id', ignoreDuplicates: true }),
-                  );
+                  await query('insert into objective_progress (user_id, lesson_id, objective_id) values ($1, $2, $3) on conflict do nothing', [
+                    user.id,
+                    lesson.id,
+                    objectiveId,
+                  ]);
                   completed.add(objectiveId);
                   const remaining = lesson.objectives.filter((o) => !completed.has(o.id)).map((o) => o.id);
                   return { allComplete: remaining.length === 0, remaining };
@@ -162,9 +163,10 @@ export default handle(async (req: Request) => {
         }
 
         const reply = fullText.trim() || 'I’m sorry — I didn’t manage to write a reply. Could you ask that again?';
-        const saved = check(
-          await db.from('chat_messages').insert({ user_id: user.id, lesson_id: lesson.id, role: 'assistant', content: reply }).select('id').single(),
-        ) as { id: number };
+        const saved = (await one<{ id: number }>(
+          "insert into chat_messages (user_id, lesson_id, role, content) values ($1, $2, 'assistant', $3) returning id",
+          [user.id, lesson.id, reply],
+        ))!;
         send({ t: 'done', messageId: saved.id, userMessageId });
 
         // Keep the running summary up to date (after the student already has their reply)
@@ -187,7 +189,7 @@ export default handle(async (req: Request) => {
                 : friendlyMessage(err),
         });
         if (fullText.trim()) {
-          await db.from('chat_messages').insert({ user_id: user.id, lesson_id: lesson.id, role: 'assistant', content: fullText.trim() });
+          await query("insert into chat_messages (user_id, lesson_id, role, content) values ($1, $2, 'assistant', $3)", [user.id, lesson.id, fullText.trim()]).catch(() => undefined);
         }
       } finally {
         controller.close();

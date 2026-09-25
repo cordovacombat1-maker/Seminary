@@ -11,7 +11,8 @@ import { MODELS } from '../lib/env';
 import { handle, HttpError, json, readJson } from '../lib/http';
 import { lessonForTutor } from '../lib/prompts';
 import { assertLessonAccess, getLessonProgress, refreshCompletion, touchLesson } from '../lib/progress';
-import { adminClient, check, requireUser } from '../lib/supabase';
+import { requireUser } from '../lib/auth';
+import { one, query } from '../lib/db';
 
 export const config: Config = { path: '/api/quiz' };
 
@@ -98,7 +99,6 @@ async function gradeShortAnswers(items: { id: string; question: string; answer_k
 export default handle(async (req: Request) => {
   if (req.method !== 'POST') throw new HttpError(405, 'Method not allowed');
   const user = await requireUser(req);
-  const db = adminClient();
   const body = await readJson<{ action?: string; lessonId?: string; attemptId?: string; answers?: Record<string, unknown> }>(req);
 
   if (body.action === 'start') {
@@ -124,9 +124,10 @@ export default handle(async (req: Request) => {
       questions.push(...lesson.quiz_bank.filter((q) => !used.has(q.id)).map((q) => ({ ...q, source: 'bank' as const })));
     }
     questions = shuffle(questions.slice(0, QUIZ_LENGTH)).map((q, i) => ({ ...q, id: `q${i + 1}` }));
-    const attempt = check(
-      await db.from('quiz_attempts').insert({ user_id: user.id, course_id: course.id, lesson_id: lesson.id, questions }).select('id').single(),
-    ) as { id: string };
+    const attempt = (await one<{ id: string }>(
+      'insert into quiz_attempts (user_id, course_id, lesson_id, questions) values ($1, $2, $3, $4) returning id',
+      [user.id, course.id, lesson.id, JSON.stringify(questions)],
+    ))!;
     return json({
       attemptId: attempt.id,
       passPercent: QUIZ_PASS_PERCENT,
@@ -135,9 +136,12 @@ export default handle(async (req: Request) => {
   }
 
   if (body.action === 'submit') {
-    const attempt = check(
-      await db.from('quiz_attempts').select('*').eq('id', body.attemptId ?? '').eq('user_id', user.id).maybeSingle(),
-    ) as { id: string; lesson_id: string; questions: StoredQuestion[]; submitted_at: string | null } | null;
+    const attemptId = String(body.attemptId ?? '');
+    if (!/^[0-9a-f-]{36}$/i.test(attemptId)) throw new HttpError(404, 'Quiz attempt not found.');
+    const attempt = await one<{ id: string; lesson_id: string; questions: StoredQuestion[]; submitted_at: string | null }>(
+      'select id, lesson_id, questions, submitted_at from quiz_attempts where id = $1 and user_id = $2',
+      [attemptId, user.id],
+    );
     if (!attempt) throw new HttpError(404, 'Quiz attempt not found.');
     if (attempt.submitted_at) throw new HttpError(409, 'This quiz was already submitted. Start a new attempt to retake it.');
     const { course, lesson } = findLesson(attempt.lesson_id);
@@ -168,13 +172,11 @@ export default handle(async (req: Request) => {
     });
     const score = Math.round((results.reduce((s, r) => s + r.credit, 0) / attempt.questions.length) * 1000) / 10;
     const passed = score >= QUIZ_PASS_PERCENT;
-    check(
-      await db
-        .from('quiz_attempts')
-        .update({ answers, results, score, passed, submitted_at: new Date().toISOString() })
-        .eq('id', attempt.id)
-        .eq('user_id', user.id),
+    const updated = await query(
+      'update quiz_attempts set answers = $1, results = $2, score = $3, passed = $4, submitted_at = now() where id = $5 and user_id = $6 and submitted_at is null returning id',
+      [JSON.stringify(answers), JSON.stringify(results), score, passed, attempt.id, user.id],
     );
+    if (!updated.length) throw new HttpError(409, 'This quiz was already submitted. Start a new attempt to retake it.');
     const progress = await getLessonProgress(user.id, lesson.id);
     const best = Math.max(score, Number(progress?.best_quiz_score ?? 0));
     await touchLesson(user.id, course.id, lesson.id, {

@@ -1,10 +1,9 @@
 import { useState, type ReactNode } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../lib/auth';
-import { db } from '../lib/config';
 
 export function Layout({ children }: { children: ReactNode }) {
-  const { session, isAdmin, profile } = useAuth();
+  const { session, isAdmin, profile, logout } = useAuth();
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
   const link = ({ isActive }: { isActive: boolean }) =>
@@ -19,7 +18,7 @@ export function Layout({ children }: { children: ReactNode }) {
       <button
         className="block w-full rounded-md px-3 py-2 text-left text-sm font-medium text-stone-700 hover:bg-stone-100"
         onClick={async () => {
-          await db().auth.signOut();
+          await logout();
           setOpen(false);
           navigate('/');
         }}

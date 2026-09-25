@@ -12,7 +12,8 @@ import { MODELS } from '../lib/env';
 import { handle, HttpError, json, readJson } from '../lib/http';
 import { lessonForTutor } from '../lib/prompts';
 import { assertLessonAccess, refreshCompletion, touchLesson } from '../lib/progress';
-import { adminClient, check, requireUser } from '../lib/supabase';
+import { requireUser } from '../lib/auth';
+import { one } from '../lib/db';
 
 export const config: Config = { path: '/api/paper' };
 
@@ -39,14 +40,13 @@ const clamp = (n: number) => Math.min(5, Math.max(1, Math.round(n)));
 
 export default handle(async (req: Request) => {
   const user = await requireUser(req);
-  const db = adminClient();
   const url = new URL(req.url);
 
   if (req.method === 'GET') {
     const { course, lesson, index } = findLesson(url.searchParams.get('lessonId') ?? '');
     if (!lesson.paper_prompt) throw new HttpError(404, 'This lesson has no paper assignment.');
     await assertLessonAccess(user, course, index);
-    const paper = check(await db.from('papers').select('*').eq('user_id', user.id).eq('lesson_id', lesson.id).maybeSingle());
+    const paper = await one('select * from papers where user_id = $1 and lesson_id = $2', [user.id, lesson.id]);
     return json({ paper, prompt: lesson.paper_prompt, rubric: RUBRIC, passAverage: PAPER_PASS_AVERAGE, minWords: MIN_WORDS });
   }
 
@@ -56,23 +56,26 @@ export default handle(async (req: Request) => {
   await assertLessonAccess(user, course, index);
   const title = (body.title ?? '').trim().slice(0, 300);
   const content = (body.content ?? '').slice(0, MAX_CHARS);
-  const existing = check(await db.from('papers').select('*').eq('user_id', user.id).eq('lesson_id', lesson.id).maybeSingle()) as {
-    id: string;
-    version: number;
-    history: unknown[];
-    status: string;
-  } | null;
+  const existing = await one<{ id: string; version: number; history: unknown[]; status: string }>(
+    'select id, version, history, status from papers where user_id = $1 and lesson_id = $2',
+    [user.id, lesson.id],
+  );
 
-  const base = { user_id: user.id, course_id: course.id, lesson_id: lesson.id, title, prompt: lesson.paper_prompt, content, updated_at: new Date().toISOString() };
+  /** Insert or update this student's paper for the lesson; returns the saved row. */
+  const savePaper = (fields: Record<string, unknown>) => {
+    const row: Record<string, unknown> = { user_id: user.id, course_id: course.id, lesson_id: lesson.id, title, prompt: lesson.paper_prompt, content, updated_at: new Date().toISOString(), ...fields };
+    const cols = Object.keys(row);
+    const params = cols.map((c) => (row[c] !== null && typeof row[c] === 'object' ? JSON.stringify(row[c]) : row[c]));
+    return one(
+      `insert into papers (${cols.join(', ')}) values (${cols.map((_, i) => `$${i + 1}`).join(', ')})
+       on conflict (user_id, lesson_id) do update set ${cols.filter((c) => c !== 'user_id' && c !== 'lesson_id').map((c) => `${c} = excluded.${c}`).join(', ')}
+       returning *`,
+      params,
+    );
+  };
 
   if (req.method === 'PUT') {
-    const saved = check(
-      await db
-        .from('papers')
-        .upsert({ ...base, status: existing?.status === 'graded' ? 'graded' : 'draft' }, { onConflict: 'user_id,lesson_id' })
-        .select('*')
-        .single(),
-    );
+    const saved = await savePaper({ status: existing?.status === 'graded' ? 'graded' : 'draft' });
     await touchLesson(user.id, course.id, lesson.id);
     return json({ paper: saved });
   }
@@ -106,7 +109,7 @@ You cannot check quotations against their sources; if a citation looks doubtful,
   }
   if (!grade) {
     // Save their work so nothing is lost
-    await db.from('papers').upsert({ ...base, status: 'draft' }, { onConflict: 'user_id,lesson_id' });
+    await savePaper({ status: existing?.status === 'graded' ? 'graded' : 'draft' });
     throw new HttpError(503, 'The AI grader is temporarily unavailable. Your paper has been saved as a draft — please submit again in a few minutes.');
   }
   const scores = { thesis: clamp(grade.thesis), exegesis: clamp(grade.exegesis), sources: clamp(grade.sources), reasoning: clamp(grade.reasoning), clarity: clamp(grade.clarity) };
@@ -115,13 +118,7 @@ You cannot check quotations against their sources; if a citation looks doubtful,
   const version = (existing?.version ?? 0) + 1;
   const gradedAt = new Date().toISOString();
   const history = [...(existing?.history ?? []), { version, title, content, scores, average, feedback, graded_at: gradedAt }];
-  const saved = check(
-    await db
-      .from('papers')
-      .upsert({ ...base, status: 'graded', scores, average, feedback, version, history, graded_at: gradedAt }, { onConflict: 'user_id,lesson_id' })
-      .select('*')
-      .single(),
-  );
+  const saved = await savePaper({ status: 'graded', scores, average, feedback, version, history, graded_at: gradedAt });
   const passed = average >= PAPER_PASS_AVERAGE;
   await touchLesson(user.id, course.id, lesson.id, passed ? { paper_passed_at: gradedAt } : {});
   const completion = passed ? await refreshCompletion(user.id, course, lesson) : { lessonCompleted: false, courseCompleted: false };

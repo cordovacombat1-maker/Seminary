@@ -1,12 +1,12 @@
 import type { ReactNode } from 'react';
-import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
+import { Link, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { Alert, Spinner } from './components/ui';
 import { useAuth } from './lib/auth';
 import Account from './pages/Account';
 import Admin from './pages/Admin';
 import Attribution from './pages/Attribution';
-import { Login, ResetPassword, Signup, UpdatePassword } from './pages/Auth';
+import { Login, ResetPassword, Signup } from './pages/Auth';
 import CertificatePage from './pages/Certificate';
 import CoursePage from './pages/Course';
 import Dashboard from './pages/Dashboard';
@@ -26,13 +26,24 @@ function RequireAuth({ children }: { children: ReactNode }) {
 }
 
 function SetupNotice() {
-  const { config, configError } = useAuth();
+  const { config, configError, isAdmin } = useAuth();
   if (configError) return <Alert>We could not load the site settings. Please refresh the page in a moment.</Alert>;
-  if (config?.missing.length) {
+  if (!config) return null;
+  if (!config.database) {
+    return <Alert kind="info">This site is still being set up (its database is created automatically on the first deploy). Please check back in a few minutes.</Alert>;
+  }
+  if (!config.ai) {
     return (
       <Alert kind="info">
-        This site isn&apos;t fully set up yet. (Administrator: add {config.missing.join(', ')} in Netlify&apos;s environment variables,
-        then redeploy. See the README.)
+        The AI tutor is not switched on yet.{' '}
+        {isAdmin ? 'Netlify turns on its built-in AI automatically after the site’s first production deploy on a credit-based plan — see the README.' : 'Please check back soon.'}
+      </Alert>
+    );
+  }
+  if (isAdmin && !config.textsLoaded) {
+    return (
+      <Alert kind="info">
+        Welcome! Next step: <Link className="underline" to="/admin">open the Admin page</Link> and click <strong>Load texts</strong> to load the Bible, Greek/Hebrew data and library.
       </Alert>
     );
   }
@@ -40,13 +51,12 @@ function SetupNotice() {
 }
 
 export default function App() {
-  const { ready, config, passwordRecovery } = useAuth();
+  const { ready, config } = useAuth();
   if (!ready) return <Layout><Spinner /></Layout>;
-  const connected = !!config?.supabaseUrl && !!config?.supabaseAnonKey;
+  const connected = !!config?.database;
   return (
     <Layout>
       <SetupNotice />
-      {passwordRecovery && <Navigate to="/update-password" replace />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/attribution" element={<Attribution />} />
@@ -55,7 +65,6 @@ export default function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/reset-password" element={<ResetPassword />} />
-            <Route path="/update-password" element={<UpdatePassword />} />
             <Route path="/dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} />
             <Route path="/course/:courseId" element={<RequireAuth><CoursePage /></RequireAuth>} />
             <Route path="/lesson/:lessonId" element={<RequireAuth><LessonPage /></RequireAuth>} />

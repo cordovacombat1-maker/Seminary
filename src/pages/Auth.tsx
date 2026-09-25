@@ -1,17 +1,7 @@
 import { useState, type FormEvent } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Alert } from '../components/ui';
-import { db } from '../lib/config';
-
-function friendlyAuthError(msg: string): string {
-  if (/invalid login/i.test(msg)) return 'That email and password don’t match. Please try again.';
-  if (/already registered|already exists/i.test(msg)) return 'An account with that email already exists. Try logging in instead.';
-  if (/password should be|weak/i.test(msg)) return 'Please choose a stronger password (at least 8 characters).';
-  if (/email not confirmed/i.test(msg)) return 'Please confirm your email first — check your inbox for the link we sent.';
-  if (/rate limit/i.test(msg)) return 'Too many attempts. Please wait a few minutes and try again.';
-  if (/fetch|network/i.test(msg)) return 'Could not connect. Check your internet connection and try again.';
-  return msg;
-}
+import { useAuth } from '../lib/auth';
 
 function AuthCard({ title, children }: { title: string; children: React.ReactNode }) {
   return (
@@ -30,15 +20,20 @@ export function Login() {
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const navigate = useNavigate();
+  const { login } = useAuth();
   const from = (useLocation().state as { from?: string } | null)?.from ?? '/dashboard';
   const submit = async (e: FormEvent) => {
     e.preventDefault();
     setBusy(true);
     setError(null);
-    const { error } = await db().auth.signInWithPassword({ email: email.trim(), password });
-    setBusy(false);
-    if (error) setError(friendlyAuthError(error.message));
-    else navigate(from, { replace: true });
+    try {
+      await login(email.trim(), password);
+      navigate(from, { replace: true });
+    } catch (err) {
+      setError((err as Error).message);
+    } finally {
+      setBusy(false);
+    }
   };
   return (
     <AuthCard title="Log in">
@@ -67,35 +62,30 @@ export function Signup() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
-  const [sent, setSent] = useState(false);
   const [busy, setBusy] = useState(false);
   const navigate = useNavigate();
+  const { signup, config } = useAuth();
   const submit = async (e: FormEvent) => {
     e.preventDefault();
     if (password.length < 8) return setError('Please choose a password of at least 8 characters.');
     setBusy(true);
     setError(null);
-    const { data, error } = await db().auth.signUp({
-      email: email.trim(),
-      password,
-      options: { data: { full_name: name.trim() }, emailRedirectTo: `${window.location.origin}/dashboard` },
-    });
-    setBusy(false);
-    if (error) return setError(friendlyAuthError(error.message));
-    if (data.session) navigate('/dashboard');
-    else setSent(true);
+    try {
+      await signup(email.trim(), password, name.trim());
+      navigate('/dashboard');
+    } catch (err) {
+      setError((err as Error).message);
+    } finally {
+      setBusy(false);
+    }
   };
-  if (sent)
-    return (
-      <AuthCard title="Check your email">
-        <p className="text-stone-700">We sent a confirmation link to <strong>{email}</strong>. Click it to activate your account, then log in.</p>
-        <Link to="/login" className="btn-primary mt-6 w-full">Go to log in</Link>
-      </AuthCard>
-    );
   return (
     <AuthCard title="Create your account">
       <form onSubmit={submit} className="space-y-4">
         {error && <Alert>{error}</Alert>}
+        {config && !config.hasAccounts && (
+          <Alert kind="info">You are the first person to sign up, so this account will be the site administrator.</Alert>
+        )}
         <div>
           <label className="label" htmlFor="name">Full name (as it should appear on certificates)</label>
           <input id="name" required className="input" autoComplete="name" value={name} onChange={(e) => setName(e.target.value)} />
@@ -116,65 +106,13 @@ export function Signup() {
 }
 
 export function ResetPassword() {
-  const [email, setEmail] = useState('');
-  const [sent, setSent] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const [busy, setBusy] = useState(false);
-  const submit = async (e: FormEvent) => {
-    e.preventDefault();
-    setBusy(true);
-    const { error } = await db().auth.resetPasswordForEmail(email.trim(), { redirectTo: `${window.location.origin}/update-password` });
-    setBusy(false);
-    if (error) setError(friendlyAuthError(error.message));
-    else setSent(true);
-  };
   return (
-    <AuthCard title="Reset your password">
-      {sent ? (
-        <Alert kind="success">If an account exists for {email}, we’ve emailed a link to reset the password.</Alert>
-      ) : (
-        <form onSubmit={submit} className="space-y-4">
-          {error && <Alert>{error}</Alert>}
-          <div>
-            <label className="label" htmlFor="email">Email</label>
-            <input id="email" type="email" required className="input" value={email} onChange={(e) => setEmail(e.target.value)} />
-          </div>
-          <button className="btn-primary w-full" disabled={busy}>Send reset link</button>
-        </form>
-      )}
-    </AuthCard>
-  );
-}
-
-export function UpdatePassword() {
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState<string | null>(null);
-  const [done, setDone] = useState(false);
-  const navigate = useNavigate();
-  const submit = async (e: FormEvent) => {
-    e.preventDefault();
-    if (password.length < 8) return setError('Please choose a password of at least 8 characters.');
-    const { error } = await db().auth.updateUser({ password });
-    if (error) setError(friendlyAuthError(error.message));
-    else {
-      setDone(true);
-      setTimeout(() => navigate('/dashboard'), 1500);
-    }
-  };
-  return (
-    <AuthCard title="Choose a new password">
-      {done ? (
-        <Alert kind="success">Password updated. Taking you to your dashboard…</Alert>
-      ) : (
-        <form onSubmit={submit} className="space-y-4">
-          {error && <Alert>{error}</Alert>}
-          <div>
-            <label className="label" htmlFor="password">New password</label>
-            <input id="password" type="password" required minLength={8} className="input" autoComplete="new-password" value={password} onChange={(e) => setPassword(e.target.value)} />
-          </div>
-          <button className="btn-primary w-full">Save new password</button>
-        </form>
-      )}
+    <AuthCard title="Forgot your password?">
+      <p className="text-stone-700">
+        Please contact the person who runs this site. They can set a temporary password for you from the Admin page, and you can
+        change it under <strong>Account</strong> after you log in.
+      </p>
+      <Link to="/login" className="btn-primary mt-6 w-full">Back to log in</Link>
     </AuthCard>
   );
 }

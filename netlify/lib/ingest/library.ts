@@ -1,20 +1,8 @@
-// npm run ingest:library              -> loads the "core" volumes (fits Supabase's free plan)
-// npm run ingest:library -- --all     -> loads every volume (needs a paid Supabase plan: ~2-3 GB)
-// npm run ingest:library -- calvin-institutes aquinas-summa   -> only these volume ids
-// npm run ingest:library -- --list    -> show volumes and whether they are loaded
-// Add --force to re-load a volume that is already loaded.
-//
-// For each volume: download a public-domain text (Project Gutenberg or CCEL, or a file you put in
-// scripts/library-texts/<volume-id>.txt), check it is the right book, split it into ~800-token chunks
-// with ~100-token overlap, embed each chunk with Voyage AI (voyage-3), and store it in library_chunks.
-import { existsSync, readFileSync } from 'node:fs';
-import path from 'node:path';
-import { chunkSections, splitIntoSections, type Chunk } from '../shared/chunk';
-import { VOLUMES, WORKS, type Volume, type Work } from '../shared/library';
-import { embed } from '../netlify/lib/voyage';
-import { download, isMain, loadEnv, requireEnv, ROOT, supabaseAdmin, withRetry } from './lib';
-
-const MANUAL_DIR = path.join(ROOT, 'scripts', 'library-texts');
+// Library volumes: download a verified public-domain copy (Project Gutenberg or CCEL), split it
+// into ~800-token passages with ~100-token overlap, and attribute each passage to its work.
+import { chunkSections, splitIntoSections, type Chunk } from '../../../shared/chunk';
+import { WORKS, type Volume, type Work } from '../../../shared/library';
+import { download } from './fetch';
 
 // ---------- downloading ----------
 
@@ -106,13 +94,7 @@ export function stripGutenberg(text: string): string {
   return t;
 }
 
-async function getText(vol: Volume): Promise<{ text: string; url: string } | null> {
-  const manual = path.join(MANUAL_DIR, `${vol.id}.txt`);
-  if (existsSync(manual)) {
-    const text = readFileSync(manual, 'utf8');
-    if (verified(vol, text)) return { text: stripGutenberg(text), url: vol.sourceUrl };
-    console.warn(`  ${manual} does not look like the right book (none of: ${vol.verify.join(', ')}). Ignoring it.`);
-  }
+export async function getText(vol: Volume): Promise<{ text: string; url: string } | null> {
   for (const s of vol.sources) {
     if (s.type === 'gutenberg') {
       const r = await fromGutenberg(vol, s.title, s.author);
@@ -156,7 +138,7 @@ export function segmentByWork(text: string, works: Work[], fallback: Work | null
 
 // ---------- main ----------
 
-interface ChunkRow {
+export interface ChunkRow {
   work_id: string;
   volume_id: string;
   author: string;
@@ -204,63 +186,3 @@ export function buildChunks(vol: Volume, text: string, sourceUrl: string): Chunk
   }
   return rows;
 }
-
-async function main() {
-  loadEnv();
-  const args = process.argv.slice(2);
-  const force = args.includes('--force');
-  const db = supabaseAdmin();
-
-  if (args.includes('--list')) {
-    for (const v of VOLUMES) {
-      const { count } = await db.from('library_chunks').select('id', { count: 'exact', head: true }).eq('volume_id', v.id);
-      console.log(`${(count ?? 0) > 0 ? '✓' : ' '} ${v.id.padEnd(24)} ${v.priority.padEnd(8)} ${String(count ?? 0).padStart(6)} chunks  ${v.label}`);
-    }
-    return;
-  }
-  requireEnv('VOYAGE_API_KEY');
-  const ids = args.filter((a) => !a.startsWith('--'));
-  const selected = ids.length ? VOLUMES.filter((v) => ids.includes(v.id)) : VOLUMES.filter((v) => args.includes('--all') || v.priority === 'core');
-  if (ids.length && selected.length !== ids.length) {
-    console.error(`Unknown volume id(s): ${ids.filter((i) => !VOLUMES.some((v) => v.id === i)).join(', ')}. Run with --list to see ids.`);
-    process.exit(1);
-  }
-  const tokens = selected.reduce((n, v) => n + v.approxTokens, 0);
-  console.log(`Loading ${selected.length} volume(s), roughly ${(tokens / 1e6).toFixed(0)} million tokens.`);
-  console.log(`Voyage cost estimate: about $${((tokens * 1.15) / 1e6 * 0.06).toFixed(2)} after Voyage's free allowance. This can take a while; you can stop and re-run — finished volumes are skipped.\n`);
-
-  const failed: string[] = [];
-  for (const vol of selected) {
-    const { count } = await db.from('library_chunks').select('id', { count: 'exact', head: true }).eq('volume_id', vol.id);
-    if ((count ?? 0) > 0 && !force) {
-      console.log(`✓ ${vol.label} — already loaded (${count} chunks)`);
-      continue;
-    }
-    console.log(`→ ${vol.label}`);
-    const got = await getText(vol);
-    if (!got) {
-      const manual = vol.sources.find((s) => s.type === 'manual');
-      console.warn(`  ✗ Could not get a verified copy. ${manual && manual.type === 'manual' ? manual.hint : `You can download it yourself from ${vol.sourceUrl} (plain text) and save it as scripts/library-texts/${vol.id}.txt, then re-run.`}`);
-      failed.push(vol.id);
-      continue;
-    }
-    const rows = buildChunks(vol, got.text, got.url);
-    console.log(`  ${rows.length.toLocaleString()} chunks from ${got.url}`);
-    if (force) await db.from('library_chunks').delete().eq('volume_id', vol.id);
-    const BATCH = 64;
-    for (let i = 0; i < rows.length; i += BATCH) {
-      const slice = rows.slice(i, i + BATCH);
-      const vectors = await withRetry('Voyage embeddings', () => embed(slice.map((r) => `${r.author}, ${r.title}, ${r.section_ref}\n\n${r.content}`), 'document'), 8);
-      const withVec = slice.map((r, j) => ({ ...r, embedding: JSON.stringify(vectors[j]) }));
-      await withRetry('saving chunks', async () => {
-        const { error } = await db.from('library_chunks').upsert(withVec, { onConflict: 'volume_id,chunk_index' });
-        if (error) throw new Error(error.message);
-      });
-      process.stdout.write(`\r  embedded ${Math.min(i + BATCH, rows.length).toLocaleString()} / ${rows.length.toLocaleString()}`);
-    }
-    process.stdout.write('\n');
-  }
-  console.log(failed.length ? `\nFinished, but ${failed.length} volume(s) could not be downloaded: ${failed.join(', ')} (see messages above).` : '\nFinished. All selected volumes are loaded.');
-}
-
-if (isMain(import.meta.url)) main().catch((e) => { console.error('\n' + (e as Error).message); process.exit(1); });

@@ -1,18 +1,17 @@
-// npm run ingest:stepbible
-// Loads STEPBible data (https://github.com/STEPBible/STEPBible-Data, CC BY 4.0, Tyndale House Cambridge):
+// STEPBible data (https://github.com/STEPBible/STEPBible-Data, CC BY 4.0, Tyndale House Cambridge):
 //   TAGNT (Greek NT) + TAHOT (Hebrew OT)  -> original_words
 //   TBESG + TBESH (lexicons)              -> lexicon
 //   TEGMC + TEHMC (morphology codes)      -> morphology_codes
 //   TIPNR (proper names)                  -> proper_names
 // TTESV is deliberately NOT loaded (it is licensed for non-commercial use only).
-import { hebrewMainMorph, hebrewMainStrongs, parseMorphDescription } from '../shared/morph';
-import { download, isMain, loadEnv, supabaseAdmin, upsertBatches } from './lib';
+import { hebrewMainMorph, hebrewMainStrongs, parseMorphDescription } from '../../../shared/morph';
+import { download } from './fetch';
 
 const RAW = 'https://raw.githubusercontent.com/STEPBible/STEPBible-Data/master/';
 
 // Current file names in the STEPBible repository. If STEPBible renames a file, the script
 // looks it up by prefix through the GitHub API instead.
-const FILES: Record<string, string> = {
+export const FILES: Record<string, string> = {
   TAGNT1: 'Translators Amalgamated OT+NT/TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt',
   TAGNT2: 'Translators Amalgamated OT+NT/TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt',
   TAHOT1: 'Translators Amalgamated OT+NT/TAHOT Gen-Deu - Translators Amalgamated Hebrew OT - STEPBible.org CC BY.txt',
@@ -41,7 +40,7 @@ async function findByPrefix(key: string): Promise<string | null> {
   return tree.find((p) => p.split('/').pop()!.startsWith(stem) && !p.startsWith('Older') && p.endsWith('.txt')) ?? null;
 }
 
-async function getFile(key: string): Promise<string> {
+export async function getFile(key: string): Promise<string> {
   if (key === 'TTESV') throw new Error('TTESV is non-commercial and must not be loaded.');
   const encode = (p: string) => p.split('/').map(encodeURIComponent).join('/');
   let text = await download(RAW + encode(FILES[key]), `stepbible-${key}.txt`);
@@ -227,48 +226,4 @@ export function parseProperNames(text: string) {
   return rows;
 }
 
-const dedupe = (rows: WordRow[]) => [...new Map(rows.map((r) => [`${r.language}.${r.book}.${r.chapter}.${r.verse}.${r.word_num}`, r])).values()];
-
-async function main() {
-  loadEnv();
-  const db = supabaseAdmin();
-  const only = process.argv.slice(2);
-  const want = (k: string) => !only.length || only.includes(k);
-
-  if (want('morphology')) {
-    console.log('\nMorphology codes (TEGMC, TEHMC)…');
-    const rows = [...parseMorphology(await getFile('TEGMC'), 'greek'), ...parseMorphology(await getFile('TEHMC'), 'hebrew')];
-    await upsertBatches(db, 'morphology_codes', rows, 'code');
-  }
-  if (want('lexicon')) {
-    console.log('\nLexicons (TBESG, TBESH)…');
-    const rows = [...parseLexicon(await getFile('TBESG'), 'greek'), ...parseLexicon(await getFile('TBESH'), 'hebrew')];
-    await upsertBatches(db, 'lexicon', rows, 'strongs', 500);
-  }
-  if (want('greek')) {
-    console.log('\nGreek New Testament (TAGNT)…');
-    const rows = dedupe([...parseTagnt(await getFile('TAGNT1')), ...parseTagnt(await getFile('TAGNT2'))]);
-    await upsertBatches(db, 'original_words', rows as unknown as Record<string, unknown>[], 'language,book,chapter,verse,word_num');
-  }
-  if (want('hebrew')) {
-    console.log('\nHebrew Old Testament (TAHOT)…');
-    for (const k of ['TAHOT1', 'TAHOT2', 'TAHOT3', 'TAHOT4']) {
-      const rows = dedupe(parseTahot(await getFile(k)));
-      await upsertBatches(db, 'original_words', rows as unknown as Record<string, unknown>[], 'language,book,chapter,verse,word_num');
-    }
-  }
-  if (want('names')) {
-    console.log('\nProper names (TIPNR)…');
-    const rows = parseProperNames(await getFile('TIPNR'));
-    const { error } = await db.from('proper_names').delete().gte('id', 0);
-    if (error) throw new Error(error.message);
-    for (let i = 0; i < rows.length; i += 1000) {
-      const { error: e } = await db.from('proper_names').insert(rows.slice(i, i + 1000));
-      if (e) throw new Error(e.message);
-    }
-    console.log(`  proper_names: ${rows.length.toLocaleString()}`);
-  }
-  console.log('\nDone. STEPBible data loaded (CC BY 4.0, STEPBible.org / Tyndale House).');
-}
-
-if (isMain(import.meta.url)) main().catch((e) => { console.error('\n' + (e as Error).message); process.exit(1); });
+export const dedupeWords = (rows: WordRow[]) => [...new Map(rows.map((r) => [`${r.language}.${r.book}.${r.chapter}.${r.verse}.${r.word_num}`, r])).values()];

@@ -1,19 +1,18 @@
-// npm run ingest:bible
-// Loads three public-domain English Bibles verse by verse into the bible_verses table:
+// Three public-domain English Bibles, verse by verse, for the bible_verses table:
 //   BSB — Berean Standard Bible (public domain since April 30, 2023) — from bereanbible.com
 //   KJV — King James Version (public domain)
 //   WEB — World English Bible (public domain)
 // If an official site is unreachable, a GitHub mirror of the same public-domain text is used.
-import { BOOKS, findBook } from '../shared/books';
-import { download, isMain, loadEnv, supabaseAdmin, upsertBatches } from './lib';
+import { BOOKS, findBook } from '../../../shared/books';
+import { download } from './fetch';
 
-type Row = { translation: string; book: string; chapter: number; verse: number; text: string };
+export type BibleRow = { translation: string; book: string; chapter: number; verse: number; text: string };
 
 const clean = (s: string) => s.replace(/\s+/g, ' ').replace(/^"|"$/g, '').trim();
 
 /** "Genesis 1:1<TAB>In the beginning…" (the format of bereanbible.com/bsb.txt) */
-export function parseTabbed(text: string, translation: string): Row[] {
-  const rows: Row[] = [];
+export function parseTabbed(text: string, translation: string): BibleRow[] {
+  const rows: BibleRow[] = [];
   for (const line of text.split(/\r?\n/)) {
     const m = line.match(/^(.+?) (\d+):(\d+)\t(.+)$/);
     if (!m) continue;
@@ -25,8 +24,8 @@ export function parseTabbed(text: string, translation: string): Row[] {
 }
 
 /** CSV "Book,Chapter,Verse,Text" (the format of the scrollmapper GitHub mirror) */
-export function parseCsv(text: string, translation: string): Row[] {
-  const rows: Row[] = [];
+export function parseCsv(text: string, translation: string): BibleRow[] {
+  const rows: BibleRow[] = [];
   const lines = text.split(/\r?\n/);
   for (const line of lines.slice(1)) {
     const m = line.match(/^("?)(.+?)\1,(\d+),(\d+),(.*)$/);
@@ -41,13 +40,13 @@ export function parseCsv(text: string, translation: string): Row[] {
 }
 
 /** TehShrike/world-english-bible JSON: a list of paragraph pieces with chapterNumber/verseNumber/value */
-export function parseWebJson(items: { type: string; chapterNumber?: number; verseNumber?: number; value?: string }[], book: string): Row[] {
-  const map = new Map<string, Row>();
+export function parseWebJson(items: { type: string; chapterNumber?: number; verseNumber?: number; value?: string }[], book: string): BibleRow[] {
+  const map = new Map<string, BibleRow>();
   for (const it of items) {
     if (!it.chapterNumber || !it.verseNumber || typeof it.value !== 'string') continue;
     if (!['paragraph text', 'line text'].includes(it.type)) continue;
     const key = `${it.chapterNumber}:${it.verseNumber}`;
-    const row = map.get(key) ?? { translation: 'WEB', book, chapter: it.chapterNumber, verse: it.verseNumber, text: '' };
+    const row: BibleRow = map.get(key) ?? { translation: 'WEB', book, chapter: it.chapterNumber, verse: it.verseNumber, text: '' };
     row.text = clean(`${row.text} ${it.value}`);
     map.set(key, row);
   }
@@ -58,49 +57,32 @@ const WEB_FILES: Record<string, string> = Object.fromEntries(
   BOOKS.map((b) => [b.code, b.name.toLowerCase().replace(/ /g, '').replace('songofsongs', 'songofsolomon')]),
 );
 
-async function loadBsb(): Promise<Row[]> {
+export async function loadBsb(): Promise<BibleRow[]> {
   for (const url of ['https://bereanbible.com/bsb.txt', 'https://berean.bible/downloads/bsb.txt']) {
     const t = await download(url, `bsb-${url.includes('bereanbible') ? 'a' : 'b'}.txt`);
     const rows = t ? parseTabbed(t, 'BSB') : [];
-    if (rows.length > 30000) return (console.log(`  BSB from ${url}`), rows);
+    if (rows.length > 30000) return rows;
   }
   const t = await download('https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/csv/BSB.csv', 'bsb-mirror.csv');
-  console.log('  BSB from GitHub mirror (scrollmapper/bible_databases)');
   return t ? parseCsv(t, 'BSB') : [];
 }
 
-async function loadKjv(): Promise<Row[]> {
+export async function loadKjv(): Promise<BibleRow[]> {
   const t = await download('https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/csv/KJV.csv', 'kjv.csv');
   return t ? parseCsv(t, 'KJV') : [];
 }
 
-async function loadWeb(): Promise<Row[]> {
-  const rows: Row[] = [];
-  for (const b of BOOKS) {
-    const t = await download(`https://raw.githubusercontent.com/TehShrike/world-english-bible/master/json/${WEB_FILES[b.code]}.json`, `web-${b.code}.json`);
-    if (t) rows.push(...parseWebJson(JSON.parse(t), b.code));
+export async function loadWeb(): Promise<BibleRow[]> {
+  const rows: BibleRow[] = [];
+  // 66 small files; fetch 11 at a time
+  for (let i = 0; i < BOOKS.length; i += 11) {
+    const texts = await Promise.all(
+      BOOKS.slice(i, i + 11).map((b) => download(`https://raw.githubusercontent.com/TehShrike/world-english-bible/master/json/${WEB_FILES[b.code]}.json`, `web-${b.code}.json`)),
+    );
+    texts.forEach((t, j) => t && rows.push(...parseWebJson(JSON.parse(t), BOOKS[i + j].code)));
   }
   return rows;
 }
 
-async function main() {
-  loadEnv();
-  const db = supabaseAdmin();
-  const only = process.argv.slice(2).map((s) => s.toUpperCase());
-  for (const [name, loader] of [['BSB', loadBsb], ['KJV', loadKjv], ['WEB', loadWeb]] as const) {
-    if (only.length && !only.includes(name)) continue;
-    console.log(`\n${name}: downloading…`);
-    const rows = await loader();
-    if (rows.length < 30000) {
-      console.error(`  Only ${rows.length} verses found for ${name} — skipping (expected about 31,000). Check your internet connection and try again.`);
-      continue;
-    }
-    // de-duplicate (some sources repeat verse numbers in footnotes)
-    const unique = [...new Map(rows.map((r) => [`${r.book}.${r.chapter}.${r.verse}`, r])).values()];
-    console.log(`  ${unique.length.toLocaleString()} verses. Uploading…`);
-    await upsertBatches(db, 'bible_verses', unique, 'translation,book,chapter,verse');
-  }
-  console.log('\nDone. Bible text loaded.');
-}
-
-if (isMain(import.meta.url)) main().catch((e) => { console.error(e); process.exit(1); });
+/** De-duplicate (some sources repeat verse numbers in footnotes). */
+export const uniqueVerses = (rows: BibleRow[]) => [...new Map(rows.map((r) => [`${r.book}.${r.chapter}.${r.verse}`, r])).values()];

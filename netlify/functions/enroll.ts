@@ -4,7 +4,7 @@ import { courseUnlocked } from '../../shared/progress';
 import { getCourse } from '../lib/curriculum';
 import { handle, HttpError, json, readJson } from '../lib/http';
 import { completedCourseIds, ensureEnrollment } from '../lib/progress';
-import { requireUser } from '../lib/supabase';
+import { requireUser } from '../lib/auth';
 
 export const config: Config = { path: '/api/enroll' };
 

@@ -10,174 +10,95 @@ library of public-domain classics (the church fathers, Reformers, Puritans, Wesl
 
 **What students do:** sign up, open a lesson, work through it with the tutor (who asks questions, quotes
 Scripture and cites the library), pass a 10-question quiz (80% needed), practise Greek and Hebrew parsing against
-real STEPBible morphology, write papers the AI grades on a five-part rubric, and earn a certificate for each
+real STEPBible grammar data, write papers the AI grades on a five-part rubric, and earn a certificate for each
 course. Their transcript shows everything they have done.
 
 ---
 
-## Setting it up (plain English, one step at a time)
+## Setting it up: no keys, no extra accounts
 
-You'll do this once. It takes about an hour, plus waiting while the library loads. You need four accounts. The
-GitHub and Netlify ones already exist.
+Everything runs on Netlify. Netlify creates the database and connects the AI (Claude, through
+**Netlify AI Gateway**) by itself. There are no API keys to create or paste.
 
-| Account | What it's for | Cost |
-|---|---|---|
-| **Anthropic** (Claude) | The AI tutor, quizzes and grading | Pay as you go. Roughly $0.02–0.10 per tutor conversation turn. |
-| **Supabase** | Database and student logins | Free plan to start. **The Pro plan ($25/month) is needed to hold the whole library** (see Step 5). |
-| **Voyage AI** | Makes the library searchable | Loading the core library costs about $3 once. Searching afterwards costs almost nothing. |
-| **Netlify** | Hosts the website | Free plan is fine |
+### Step 1: Check your Netlify plan (one time)
 
-### Step 1: Get an Anthropic (Claude) API key
+Netlify's built-in database and AI only work on its newer **credit-based** plans (Free, Personal or Pro).
 
-1. Go to **https://console.anthropic.com** and sign up, or log in.
-2. Click **Settings → Billing** and add a payment method with some credit (for example, $20).
-3. Click **API Keys → Create Key**. Name it `seminary` and click **Create**.
-4. Copy the key. It starts with `sk-ant-`. Paste it somewhere safe for now, like a note on your computer.
-   **Never share it or put it in GitHub.**
+1. Go to **https://app.netlify.com**, click your team name (top left), then **Billing**.
+2. If your plan is called **Free**, **Personal** or **Pro** and shows **credits**, you're set.
+   If it's an older plan (for example "Starter"), click **Change plan** and choose one of those.
 
-### Step 2: Create the Supabase database
+**About cost.** The AI and the database use your plan's monthly credits.
+- The Free plan includes 300 credits. That's about $1.67 of AI use, enough to try the app yourself but not for
+  regular students.
+- For real use, choose **Personal** ($9/month) or **Pro** ($20/month). You can buy extra credits under
+  **Billing** if you need them.
+- You can watch usage under **Billing → Usage**.
 
-1. Go to **https://supabase.com**, click **Start your project**, and sign up (signing in with GitHub is easiest).
-2. Click **New project**. Name it `seminary`, choose a strong database password (save it), pick the region
-   closest to you, and click **Create new project**. Wait about two minutes.
-3. **Create the tables.** In the left sidebar, click **SQL Editor**, then **New query**.
-   - In another browser tab, open this repository on GitHub and go to the file
-     `supabase/migrations/20260924000000_initial_schema.sql`.
-   - Click the **Copy raw file** button (two overlapping squares, top right of the file).
-   - Go back to Supabase, paste it into the query box, and click **Run**. You should see "Success. No rows returned".
-4. **Tell Supabase your website address.** In the left sidebar, click **Authentication → URL Configuration**.
-   - **Site URL**: your Netlify address, for example `https://your-site-name.netlify.app`.
-   - Under **Redirect URLs**, click **Add URL** and add `https://your-site-name.netlify.app/**`.
-   - Click **Save**.
-5. **Copy your keys.** Click **Project Settings** (the gear icon), then **API** (or **Data API** and **API Keys**,
-   depending on the layout). Copy these three values:
-   - **Project URL**, which looks like `https://abcdefgh.supabase.co`. This is `SUPABASE_URL`.
-   - **anon / public** key. This is `SUPABASE_ANON_KEY`.
-   - **service_role / secret** key (click **Reveal**). This is `SUPABASE_SERVICE_ROLE_KEY`.
-     **This one is powerful, so keep it secret.**
+### Step 2: Let it deploy
 
-> **About sign-up emails:** Supabase sends a "confirm your email" message when someone signs up. On the free plan
-> its built-in mailer only sends a few emails per hour. That's fine for a handful of students. For more, add your own
-> email provider under **Authentication → Emails → SMTP Settings**. You can also turn off **Confirm email** under
-> **Authentication → Sign In / Providers → Email** if you don't need it.
+The code is already on the `main` branch, so Netlify builds the site automatically. The first build also creates
+the database.
 
-### Step 3: Get a Voyage AI key
+1. In Netlify, open your site and click **Deploys**. Wait until the newest deploy says **Published**.
+2. Check **Site configuration → Build & deploy → Branches and deploy contexts**. **Production branch** should
+   be `main`.
 
-1. Go to **https://dash.voyageai.com** and sign up.
-2. Add a payment method under **Billing**. Voyage gives a free allowance, but a card is required for normal speed.
-3. Click **API Keys → Create new secret key**, name it `seminary`, and copy it. This is `VOYAGE_API_KEY`.
+### Step 3: Sign up first (this makes you the administrator)
 
-### Step 4: Add the keys to Netlify
+Open your site and click **Sign up** straight away. **The first account created becomes the administrator.**
+You'll see an **Admin** link at the top.
 
-1. Go to **https://app.netlify.com** and open your site.
-2. Click **Site configuration → Environment variables → Add a variable → Add a single variable**.
-3. Add each of these, one at a time: type the name exactly as shown, paste the value, and click **Create variable**.
+If the site says "the AI tutor is not switched on yet", wait a few minutes and refresh. Netlify turns the AI on
+shortly after the first production deploy.
 
-   | Key | Value |
-   |---|---|
-   | `ANTHROPIC_API_KEY` | from Step 1 |
-   | `SUPABASE_URL` | from Step 2 |
-   | `SUPABASE_ANON_KEY` | from Step 2 |
-   | `SUPABASE_SERVICE_ROLE_KEY` | from Step 2 |
-   | `VOYAGE_API_KEY` | from Step 3 |
-   | `ADMIN_EMAIL` | the email address you'll use to log in as the administrator |
-   | `TUTOR_DAILY_MESSAGE_LIMIT` | *(optional)* the most tutor messages one student can send per day. Default: `150` |
+### Step 4: Load the texts (one click, then keep the page open)
 
-4. Check which branch Netlify publishes: **Site configuration → Build & deploy → Branches and deploy contexts**.
-   **Production branch** should be `main`.
-5. Click **Deploys → Trigger deploy → Deploy site**. After a minute or two, open your site. You should see the
-   home page. If a setting is missing, the site tells you which one.
+1. Click **Admin → Load texts**, then click **Load texts**.
+2. Leave the page open while it works through the list: three Bibles, the Greek and Hebrew data, then about 50
+   library books. It takes roughly 15–30 minutes.
+3. If you close the page or something fails, click the button again later. Finished parts are skipped and failed
+   ones are retried.
 
-### Step 5: Load the Bible, Greek/Hebrew data and library (from your own computer)
+A few library books have no reliable free online copy (for example Keil & Delitzsch). They're marked
+"skipped" and are optional. **Also load the extra library books** adds the remaining, less-used volumes.
 
-The texts are loaded into your database by small programs that you run once from your computer.
-
-**5a. Install the tools (one time only)**
-1. Install **Node.js** (the "LTS" version) from **https://nodejs.org**. Open the downloaded file and click
-   through the installer.
-2. On GitHub, open this repository, click the green **Code** button, then **Download ZIP**. Unzip it somewhere easy
-   to find, like your Desktop.
-
-**5b. Open a terminal in that folder**
-- **Mac:** open the **Terminal** app, type `cd ` (with a space after it), drag the unzipped folder onto the
-  Terminal window, and press **Enter**.
-- **Windows:** open the unzipped folder in File Explorer, click the address bar, type `powershell`, and press
-  **Enter**.
-
-**5c. Install and add your keys**
-1. Type `npm install` and press **Enter**. Wait until it finishes.
-2. In the folder, make a copy of the file `.env.example` and name the copy `.env`. The name is just `.env`, with
-   nothing before the dot.
-   - On a Mac, press **Cmd + Shift + .** to show hidden files if you can't see it.
-   - On Windows, make sure the name doesn't end up as `.env.txt`. To check, turn on
-     **View → File name extensions** in File Explorer.
-3. Open `.env` in a plain-text editor (TextEdit in plain-text mode, or Notepad). Paste your keys after each `=`,
-   exactly as you did in Netlify, and save. **This file stays on your computer. It is never uploaded.**
-
-**5d. Run the loaders, one at a time**
-
-```
-npm run ingest:bible
-npm run ingest:stepbible
-npm run ingest:library
-```
-
-- `ingest:bible` loads the BSB, KJV and WEB, about 93,000 verses. It takes a few minutes.
-- `ingest:stepbible` loads the Greek and Hebrew text, lexicons, grammar codes and proper names from STEPBible.
-  It takes about 10–20 minutes.
-- `ingest:library` downloads the "core" library from Project Gutenberg and CCEL, checks each book is the right
-  one, splits it into passages, and makes them searchable. **This takes hours.** You can stop it (Ctrl + C) and run
-  it again later, and it will skip volumes that are already finished. When it's done, it lists any books it couldn't
-  download. For those, see `scripts/library-texts/README.md`.
-
-**About database size:** The Bible and Greek/Hebrew data fit on Supabase's free plan. **The full core library
-(about 70,000 passages) is larger than the free plan's 500 MB.** To load all of it, upgrade the project to
-**Pro** first: in Supabase, click **Project Settings → Billing** or your organization's **Billing** page. On the
-free plan, you can load a few books at a time instead, for example
-`npm run ingest:library -- calvin-institutes npnf102 anf01`. Run `npm run ingest:library -- --list` to see every
-book id and what's loaded. The app still works if a book is missing. The tutor just tells the student it couldn't
-find that reading.
-
-**5e. Check that search works**
-
-```
-npm run test:search -- "justification by faith"
-```
-
-You should see passages with an author, title, section and source link.
-
-### Step 6: Sign in as the administrator
-
-Open your site, click **Sign up**, and register with the same email you put in `ADMIN_EMAIL`. You'll see an
-**Admin** link that shows every student, their progress, and any tutor answers students have flagged. The
-administrator can open any lesson without prerequisites, which is useful for checking content.
+That's it. Your students can now sign up and start.
 
 ---
 
-## Everyday changes
+## Everyday things
 
+- **A student forgot their password.** Open **Admin → Students** and click **Reset password** next to their name.
+  You'll get a temporary password to give them privately. They can change it under **Account**.
+- **Flagged answers.** Students can click **⚑ Report an error** on any tutor message. Review these under
+  **Admin → Flagged answers**.
+- **Limit AI spending.** In Netlify, go to **Site configuration → Environment variables → Add a variable** and
+  add `TUTOR_DAILY_MESSAGE_LIMIT` with a number, for example `50`. That's the most tutor messages one student can
+  send per day. The default is 150.
+- **Choose a different administrator.** Add the variable `ADMIN_EMAIL` with their email address. This is optional.
 - **Courses and lessons** are plain files in `curriculum/`, one per course. You can edit them on GitHub: open the
-  file, click the pencil icon, make the change, and click **Commit changes**. Netlify redeploys automatically. Library
-  readings must match a book in the library list (`shared/library.ts`), and Scripture references must be real. A
-  developer can check everything with `npm run validate:curriculum`.
+  file, click the pencil icon, make the change, and click **Commit changes**. Netlify redeploys automatically.
+  Library readings must match a book in `shared/library.ts`, and Scripture references must be real. A developer can
+  check everything with `npm run validate:curriculum`.
 - **Your church's or school's position** on disputed questions can go in `prompts/home-position.md`. It's empty on
   purpose. If you leave it empty, the tutor presents the main views fairly and doesn't pick a winner. The shared
   doctrinal floor (the Nicene and Apostles' Creeds) is in `prompts/doctrine.md`. How the tutor teaches is in
   `prompts/tutor.md`.
-- **Cost control:** change `TUTOR_DAILY_MESSAGE_LIMIT` in Netlify. The tutor also sends only the last 20 messages
-  plus a running summary of earlier ones, which keeps long conversations affordable.
 - **Thirdmill:** some lessons have a "Watch: Thirdmill lesson" link that opens thirdmill.org in a new tab. None of
   Thirdmill's content is copied into this app.
 
 ## If something goes wrong
 
-- **The site says a setting is missing:** add that variable in Netlify (Step 4), then trigger a deploy.
-- **"The AI service is busy" or "unavailable":** check your Anthropic balance at console.anthropic.com.
-- **Password reset or confirmation links go to the wrong place:** check the Site URL and Redirect URLs in Supabase
-  (Step 2.4).
-- **Library search finds nothing:** run `npm run ingest:library -- --list` to see which books are loaded, and
-  make sure `VOYAGE_API_KEY` is set in Netlify.
-- **The Greek/Hebrew drill says "No words found":** run `npm run ingest:stepbible` (Step 5d).
+- **"This site is still being set up":** the first deploy hasn't finished creating the database. Wait a few
+  minutes and refresh. If it stays, check that the latest deploy under **Deploys** says Published.
+- **"The AI tutor is not switched on yet":** make sure the site has had a production deploy and is on a
+  credit-based plan (Step 1).
+- **"The AI tutor is temporarily unavailable":** you may be out of credits for the month. Check
+  **Billing → Usage**.
+- **Library search finds nothing:** open **Admin → Load texts** and check that the library books are loaded.
+  Search works on key words, so try distinctive words ("justification faith works") rather than a whole question.
+- **The Greek/Hebrew drill says "No words found":** the Greek & Hebrew texts aren't loaded yet (Step 4).
 
 ---
 
@@ -195,12 +116,16 @@ All sources are credited on the site's **/attribution** page.
 ## For developers
 
 - **Stack:** Vite + React + TypeScript + Tailwind (`src/`); Netlify Functions v2 (`netlify/functions/`, with
-  shared helpers in `netlify/lib/` and `shared/`); Supabase Postgres with pgvector and row-level security on every
-  table (`supabase/migrations/`); Anthropic `claude-sonnet-5` for teaching and paper grading, and
-  `claude-haiku-4-5-20251001` for quizzes, drills and summaries; Voyage `voyage-3` embeddings.
-- **All AI calls are server-side.** The browser only ever gets the Supabase URL and anon key, through
-  `/api/config`. Grades, progress and chat are written only by the functions, using the service-role key.
-- **Commands:** `npm run dev` (Vite only), `netlify dev` (the full app on port 8888, using `.env`),
-  `npm test`, `npm run typecheck`, `npm run validate:curriculum`, and `npm run build`.
-- **End-to-end tests** run against a local imitation of Supabase, Anthropic and Voyage, so no real keys are needed.
-  See `tests/local-stack/README.md`.
+  shared helpers in `netlify/lib/` and `shared/`); Netlify Database (Postgres), with migrations in
+  `netlify/database/migrations/` that Netlify applies on deploy; Claude through Netlify AI Gateway, using
+  `claude-sonnet-5` for teaching and paper grading and `claude-haiku-4-5-20251001` for quizzes, drills and
+  summaries. Library search is Postgres full-text search.
+- **Security model:** the browser never touches the database. Every function checks the login token and only
+  reads or writes the signed-in student's own rows. Grades and progress are written only by the server.
+  - Passwords are hashed with scrypt.
+  - Login tokens are random, and only their SHA-256 hash is stored. Tokens expire after 30 days, and a password
+    reset or change logs out other devices.
+- **Text loading:** `netlify/lib/loader.ts` and `netlify/lib/ingest/`, run one step per request from the Admin page.
+- **Commands:** `netlify dev` (the full app on port 8888, including a local database), `npm test`,
+  `npm run typecheck`, `npm run validate:curriculum`, and `npm run build`.
+- **End-to-end tests** use Netlify's local database and a fake AI service. See `tests/local-stack/README.md`.

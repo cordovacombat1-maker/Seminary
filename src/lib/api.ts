@@ -1,4 +1,4 @@
-import { db } from './config';
+import { getToken } from './config';
 
 export class ApiError extends Error {
   constructor(public status: number, message: string) {
@@ -7,8 +7,7 @@ export class ApiError extends Error {
 }
 
 async function authHeaders(): Promise<Record<string, string>> {
-  const { data } = await db().auth.getSession();
-  const token = data.session?.access_token;
+  const token = getToken();
   return token ? { authorization: `Bearer ${token}` } : {};
 }
 

@@ -85,7 +85,7 @@ export default function Attribution() {
       <section>
         <h2 className="text-2xl font-bold text-burgundy-800">AI</h2>
         <p className="mt-2 leading-relaxed">
-          Tutoring, quizzes and grading are provided by Anthropic’s Claude models. Library search uses Voyage AI embeddings. AI can make mistakes — every tutor
+          Tutoring, quizzes and grading are provided by Anthropic’s Claude models through Netlify’s AI Gateway. AI can make mistakes — every tutor
           message has a “Report an error” button, and reports are reviewed by the school.
         </p>
         <p className="mt-2 leading-relaxed">This program awards certificates of completion. It is not an accredited degree program.</p>

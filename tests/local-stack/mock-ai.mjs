@@ -1,4 +1,4 @@
-// Fake Anthropic Messages API + Voyage embeddings for local tests.
+// Fake Anthropic Messages API for local tests (stands in for Netlify AI Gateway).
 import http from 'node:http';
 
 const PORT = Number(process.env.MOCK_AI_PORT ?? 4010);

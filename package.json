@@ -9,11 +9,7 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "test": "vitest run",
-    "validate:curriculum": "tsx scripts/validate-curriculum.ts",
-    "ingest:bible": "tsx scripts/ingest-bible.ts",
-    "ingest:stepbible": "tsx scripts/ingest-stepbible.ts",
-    "ingest:library": "tsx scripts/ingest-library.ts",
-    "test:search": "tsx scripts/test-search.ts"
+    "validate:curriculum": "tsx scripts/validate-curriculum.ts"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Alert, PageTitle, Spinner } from '../components/ui';
 import { useAuth } from '../lib/auth';
-import { db } from '../lib/config';
+import { api } from '../lib/api';
 import { COURSES, findLesson } from '../lib/curriculum';
 import { useProgress } from '../lib/progress';
 
@@ -14,14 +14,12 @@ export default function Transcript() {
   const [err, setErr] = useState<string | null>(null);
 
   useEffect(() => {
-    Promise.all([
-      db().from('quiz_attempts').select('lesson_id, score, passed, submitted_at').not('submitted_at', 'is', null).order('submitted_at'),
-      db().from('papers').select('lesson_id, title, average, version, graded_at'),
-    ]).then(([q, p]) => {
-      if (q.error || p.error) return setErr('We could not load your scores just now. Please refresh.');
-      setQuizzes(q.data as typeof quizzes);
-      setPapers(p.data as typeof papers);
-    });
+    api<{ quizzes: NonNullable<typeof quizzes>; papers: NonNullable<typeof papers> }>('/api/progress?transcript=1')
+      .then((r) => {
+        setQuizzes(r.quizzes);
+        setPapers(r.papers);
+      })
+      .catch(() => setErr('We could not load your scores just now. Please refresh.'));
   }, []);
 
   if (error || err) return <Alert>{error ?? err}</Alert>;

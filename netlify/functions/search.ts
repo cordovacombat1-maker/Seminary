@@ -2,7 +2,7 @@
 import type { Config } from '@netlify/functions';
 import { searchLibrary } from '../lib/biblical';
 import { handle, HttpError, json } from '../lib/http';
-import { adminClient, requireUser } from '../lib/supabase';
+import { requireUser } from '../lib/auth';
 
 export const config: Config = { path: '/api/search' };
 
@@ -11,6 +11,6 @@ export default handle(async (req: Request) => {
   const url = new URL(req.url);
   const q = (url.searchParams.get('q') ?? '').trim();
   if (!q) throw new HttpError(400, 'Type something to search for.');
-  const res = await searchLibrary(adminClient(), q.slice(0, 500), { tradition: url.searchParams.get('tradition'), count: 10 });
+  const res = await searchLibrary(q.slice(0, 500), { tradition: url.searchParams.get('tradition'), count: 10 });
   return json(res);
 });

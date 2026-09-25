@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import type { LessonProgressRow } from '../../shared/progress';
-import { db } from './config';
+import { api } from './api';
 
 export interface Certificate {
   id: string;
@@ -18,7 +18,7 @@ export interface ProgressData {
   certificates: Certificate[];
 }
 
-/** Everything about the signed-in student's progress (read directly from Supabase; RLS limits it to their rows). */
+/** Everything about the signed-in student's progress. */
 export function useProgress(userId: string | undefined) {
   const [data, setData] = useState<ProgressData | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -26,13 +26,11 @@ export function useProgress(userId: string | undefined) {
   const reload = useCallback(async () => {
     if (!userId) return;
     try {
-      const [lp, en, certs] = await Promise.all([
-        db().from('lesson_progress').select('lesson_id, course_id, tutor_completed_at, quiz_passed_at, paper_passed_at, completed_at, best_quiz_score, last_activity_at'),
-        db().from('enrollments').select('course_id, completed_at'),
-        db().from('certificates').select('id, course_id, course_title, student_name, issued_at'),
-      ]);
-      if (lp.error || en.error || certs.error) throw new Error('db');
-      const lessons = new Map((lp.data as LessonProgressRow[]).map((r) => [r.lesson_id, r]));
+      const res = await api<{ lessons: LessonProgressRow[]; enrollments: { course_id: string; completed_at: string | null }[]; certificates: Certificate[] }>('/api/progress');
+      const lp = { data: res.lessons };
+      const en = { data: res.enrollments };
+      const certs = { data: res.certificates };
+      const lessons = new Map(lp.data.map((r) => [r.lesson_id, r]));
       setData({
         lessons,
         completedLessons: new Set([...lessons.values()].filter((r) => r.completed_at).map((r) => r.lesson_id)),

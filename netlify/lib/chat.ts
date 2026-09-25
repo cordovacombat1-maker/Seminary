@@ -2,7 +2,7 @@
 import type Anthropic from '@anthropic-ai/sdk';
 import { anthropic, textOf } from './anthropic';
 import { MODELS } from './env';
-import { adminClient, check } from './supabase';
+import { query } from './db';
 
 export const HISTORY_WINDOW = 20;
 const SUMMARY_BATCH = 10; // re-summarise once this many messages have fallen out of the window
@@ -15,16 +15,11 @@ export interface ChatRow {
 }
 
 export async function loadThread(userId: string, lessonId: string): Promise<ChatRow[]> {
-  return check(
-    await adminClient()
-      .from('chat_messages')
-      .select('id, role, content, created_at')
-      .eq('user_id', userId)
-      .eq('lesson_id', lessonId)
-      .order('created_at')
-      .order('id')
-      .limit(2000),
-  ) as ChatRow[];
+  return query<ChatRow>(
+    `select id, role, content, created_at from chat_messages
+      where user_id = $1 and lesson_id = $2 order by created_at, id limit 2000`,
+    [userId, lessonId],
+  );
 }
 
 /** The messages actually sent to the model: the last 20, starting with a user turn. */
@@ -73,24 +68,20 @@ export async function updateSummary(
       },
     ],
   });
-  check(
-    await adminClient()
-      .from('lesson_progress')
-      .update({ chat_summary: textOf(res).trim(), summarized_message_count: cutoff })
-      .eq('user_id', userId)
-      .eq('lesson_id', lessonId),
-  );
+  await query('update lesson_progress set chat_summary = $1, summarized_message_count = $2 where user_id = $3 and lesson_id = $4', [
+    textOf(res).trim(),
+    cutoff,
+    userId,
+    lessonId,
+  ]);
 }
 
 export async function userMessagesToday(userId: string): Promise<number> {
   const since = new Date();
   since.setUTCHours(0, 0, 0, 0);
-  const res = await adminClient()
-    .from('chat_messages')
-    .select('id', { count: 'exact', head: true })
-    .eq('user_id', userId)
-    .eq('role', 'user')
-    .gte('created_at', since.toISOString());
-  if (res.error) throw new Error(res.error.message);
-  return res.count ?? 0;
+  const [row] = await query<{ n: number }>(
+    "select count(*)::int as n from chat_messages where user_id = $1 and role = 'user' and created_at >= $2",
+    [userId, since.toISOString()],
+  );
+  return row?.n ?? 0;
 }

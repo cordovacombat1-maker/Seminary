@@ -1,12 +1,22 @@
-import type { Session } from '@supabase/supabase-js';
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from 'react';
-import { api } from './api';
-import { db, loadConfig, type PublicConfig } from './config';
+import { api, ApiError } from './api';
+import { getToken, loadConfig, setToken, type PublicConfig } from './config';
 
 interface Profile {
   id: string;
   email: string;
   full_name: string;
+}
+
+interface Session {
+  user: { id: string; email: string };
+}
+
+interface MeResponse {
+  id: string;
+  email: string;
+  fullName: string;
+  isAdmin: boolean;
 }
 
 interface AuthState {
@@ -17,7 +27,9 @@ interface AuthState {
   profile: Profile | null;
   isAdmin: boolean;
   refreshProfile: () => Promise<void>;
-  passwordRecovery: boolean;
+  login: (email: string, password: string) => Promise<void>;
+  signup: (email: string, password: string, fullName: string) => Promise<void>;
+  logout: () => Promise<void>;
 }
 
 const Ctx = createContext<AuthState | null>(null);
@@ -26,62 +38,51 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [ready, setReady] = useState(false);
   const [config, setConfig] = useState<PublicConfig | null>(null);
   const [configError, setConfigError] = useState<string | null>(null);
-  const [session, setSession] = useState<Session | null>(null);
-  const [profile, setProfile] = useState<Profile | null>(null);
-  const [isAdmin, setIsAdmin] = useState(false);
-  const [passwordRecovery, setPasswordRecovery] = useState(false);
+  const [me, setMe] = useState<MeResponse | null>(null);
 
   const refreshProfile = useCallback(async () => {
-    const { data } = await db().auth.getSession();
-    const uid = data.session?.user.id;
-    if (!uid) {
-      setProfile(null);
-      setIsAdmin(false);
-      return;
-    }
-    const res = await db().from('profiles').select('id, email, full_name').eq('id', uid).maybeSingle();
-    setProfile((res.data as Profile) ?? { id: uid, email: data.session?.user.email ?? '', full_name: '' });
+    if (!getToken()) return setMe(null);
     try {
-      const me = await api<{ isAdmin: boolean }>('/api/me');
-      setIsAdmin(me.isAdmin);
-    } catch {
-      setIsAdmin(false);
+      setMe(await api<MeResponse>('/api/me'));
+    } catch (e) {
+      if (e instanceof ApiError && e.status === 401) setToken(null);
+      setMe(null);
     }
   }, []);
 
   useEffect(() => {
-    let unsub: (() => void) | undefined;
     loadConfig()
       .then(async (cfg) => {
         setConfig(cfg);
-        if (!cfg.supabaseUrl || !cfg.supabaseAnonKey) {
-          setReady(true);
-          return;
-        }
-        const { data } = await db().auth.getSession();
-        setSession(data.session);
-        if (data.session) await refreshProfile();
-        const sub = db().auth.onAuthStateChange((event, s) => {
-          setSession(s);
-          if (event === 'PASSWORD_RECOVERY') setPasswordRecovery(true);
-          if (event === 'SIGNED_IN' || event === 'USER_UPDATED') void refreshProfile();
-          if (event === 'SIGNED_OUT') {
-            setProfile(null);
-            setIsAdmin(false);
-          }
-        });
-        unsub = () => sub.data.subscription.unsubscribe();
-        setReady(true);
+        if (cfg.database) await refreshProfile();
       })
-      .catch((e: Error) => {
-        setConfigError(e.message);
-        setReady(true);
-      });
-    return () => unsub?.();
+      .catch((e: Error) => setConfigError(e.message))
+      .finally(() => setReady(true));
   }, [refreshProfile]);
 
+  const startSession = async (res: { token: string }) => {
+    setToken(res.token);
+    await refreshProfile();
+  };
+
+  const login = async (email: string, password: string) =>
+    startSession(await api<{ token: string }>('/api/auth', { method: 'POST', body: JSON.stringify({ action: 'login', email, password }) }));
+
+  const signup = async (email: string, password: string, fullName: string) =>
+    startSession(await api<{ token: string }>('/api/auth', { method: 'POST', body: JSON.stringify({ action: 'signup', email, password, fullName }) }));
+
+  const logout = async () => {
+    await api('/api/auth', { method: 'POST', body: JSON.stringify({ action: 'logout' }) }).catch(() => undefined);
+    setToken(null);
+    setMe(null);
+  };
+
+  const session = me ? { user: { id: me.id, email: me.email } } : null;
+  const profile = me ? { id: me.id, email: me.email, full_name: me.fullName } : null;
   return (
-    <Ctx.Provider value={{ ready, config, configError, session, profile, isAdmin, refreshProfile, passwordRecovery }}>{children}</Ctx.Provider>
+    <Ctx.Provider value={{ ready, config, configError, session, profile, isAdmin: !!me?.isAdmin, refreshProfile, login, signup, logout }}>
+      {children}
+    </Ctx.Provider>
   );
 }
 

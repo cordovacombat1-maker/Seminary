@@ -3,7 +3,6 @@ import { Link, useParams } from 'react-router-dom';
 import { Alert, Check, Markdown, Spinner } from '../components/ui';
 import { api, streamTutor, type TutorEvent } from '../lib/api';
 import { useAuth } from '../lib/auth';
-import { db } from '../lib/config';
 import { findLesson } from '../lib/curriculum';
 
 interface ChatMessage {
@@ -288,11 +287,13 @@ function MessageBubble({ msg, lessonId, userId, streaming }: { msg: ChatMessage;
   const flag = async (e: FormEvent) => {
     e.preventDefault();
     if (!userId) return;
-    const { error } = await db()
-      .from('flags')
-      .insert({ user_id: userId, lesson_id: lessonId, message_id: msg.id ?? null, message_excerpt: msg.content.slice(0, 1000), reason: reason.trim() });
-    setFlagState(error ? 'error' : 'sent');
-    if (!error) setFlagOpen(false);
+    try {
+      await api('/api/flag', { method: 'POST', body: JSON.stringify({ lessonId, messageId: msg.id ?? null, excerpt: msg.content.slice(0, 1000), reason: reason.trim() }) });
+      setFlagState('sent');
+      setFlagOpen(false);
+    } catch {
+      setFlagState('error');
+    }
   };
   return (
     <div className="max-w-full">

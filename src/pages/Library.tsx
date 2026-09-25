@@ -31,7 +31,7 @@ export default function LibraryPage() {
     try {
       const r = await api<{ results: Hit[]; note?: string; method: string }>(`/api/search?q=${encodeURIComponent(q)}${tradition ? `&tradition=${tradition}` : ''}`);
       setHits(r.results);
-      setNote(r.note ?? (r.method === 'keyword' ? 'Showing keyword matches (semantic search is unavailable right now).' : null));
+      setNote(r.note ?? null);
     } catch (err) {
       setError((err as Error).message);
     } finally {
@@ -42,7 +42,7 @@ export default function LibraryPage() {
     <div className="mx-auto max-w-3xl space-y-6">
       <PageTitle sub="Search the public-domain library — Church Fathers, Reformers, Wesley, Aquinas, commentaries and more. Every result shows its source.">Library</PageTitle>
       <form onSubmit={search} className="flex flex-col gap-2 sm:flex-row">
-        <input className="input flex-1" placeholder="e.g. the Eucharist as sacrifice, justification by faith, the Trinity" value={q} onChange={(e) => setQ(e.target.value)} />
+        <input className="input flex-1" placeholder="Key words, e.g. justification faith, Trinity persons, Eucharist sacrifice" value={q} onChange={(e) => setQ(e.target.value)} />
         <select className="input sm:w-44" value={tradition} onChange={(e) => setTradition(e.target.value)} aria-label="Tradition">
           <option value="">All traditions</option>
           {TRADITIONS.map((t) => <option key={t}>{t}</option>)}
