@@ -28,11 +28,11 @@ function RequireAuth({ children }: { children: ReactNode }) {
 function SetupNotice() {
   const { config, configError } = useAuth();
   if (configError) return <Alert>We could not load the site settings. Please refresh the page in a moment.</Alert>;
-  if (config && (!config.supabaseUrl || !config.supabaseAnonKey)) {
+  if (config?.missing.length) {
     return (
       <Alert kind="info">
-        This site isn&apos;t connected to its database yet. (Administrator: add SUPABASE_URL and SUPABASE_ANON_KEY in Netlify&apos;s
-        environment variables, then redeploy. See the README.)
+        This site isn&apos;t fully set up yet. (Administrator: add {config.missing.join(', ')} in Netlify&apos;s environment variables,
+        then redeploy. See the README.)
       </Alert>
     );
   }

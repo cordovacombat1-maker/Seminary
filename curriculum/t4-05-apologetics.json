@@ -1,0 +1,1661 @@
+{
+  "id": "apologetics",
+  "title": "Apologetics",
+  "tier": 4,
+  "tier_name": "Theology",
+  "description": "The reasoned defense of the Christian faith. Students study the biblical basis and methods of apologetics (classical, evidential, presuppositional, cumulative case, Reformed epistemology), arguments for God's existence, the reliability of Scripture, the resurrection of Jesus, the problem of evil, science and faith, world religions, and cultural apologetics - learning from the early apologists (Justin, Tertullian, Origen, Augustine) and later thinkers (Anselm, Aquinas, Calvin, Hodge), and practicing gentle, respectful conversation.",
+  "prerequisites": [
+    "intro-theology"
+  ],
+  "lessons": [
+    {
+      "id": "apo-01",
+      "title": "The Biblical Basis and Purpose of Apologetics",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Define apologetics and its biblical basis (1 Peter 3:15; Acts 17; Jude 3)."
+        },
+        {
+          "id": "o2",
+          "text": "Distinguish defensive and offensive apologetics and their relation to evangelism."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the virtues required of an apologist."
+        }
+      ],
+      "scripture_passages": [
+        "1 Peter 3:15-16",
+        "Acts 17:16-34",
+        "2 Corinthians 10:3-5",
+        "Jude 1:3"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "First Apology",
+          "section": "Chapters 1-5 (the appeal for a fair hearing)"
+        },
+        {
+          "author": "Mathetes",
+          "title": "Epistle to Diognetus",
+          "section": "Chapters 1-7"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book I, Preface and chapters 1-7 (answering pagan blame for Rome's fall)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Apologia",
+          "definition": "A reasoned defense, as in a court (1 Pet 3:15)."
+        },
+        {
+          "term": "Negative (defensive) apologetics",
+          "definition": "Answering objections to Christianity."
+        },
+        {
+          "term": "Positive (offensive) apologetics",
+          "definition": "Giving reasons for Christian belief."
+        },
+        {
+          "term": "Gentleness and respect",
+          "definition": "The manner required of apologists (1 Pet 3:15-16)."
+        }
+      ],
+      "discussion_questions": [
+        "What does 1 Peter 3:15-16 teach about both the content and manner of apologetics?",
+        "How did Paul adapt his approach at Athens?",
+        "Why did Augustine write the City of God?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Peter 3:15 tells believers to be ready to give a defense",
+          "options": [
+            "with anger",
+            "with gentleness and respect",
+            "only to officials",
+            "without reasons"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Greek word 'apologia' means",
+          "options": [
+            "apology/regret",
+            "defense",
+            "attack",
+            "sermon"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine wrote the City of God in response to",
+          "options": [
+            "the Arian crisis",
+            "pagan claims that Christianity caused Rome's fall (410)",
+            "the Pelagians",
+            "the Donatists"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Justin Martyr addressed his First Apology to",
+          "options": [
+            "the Jews",
+            "the emperor Antoninus Pius and his sons",
+            "the bishop of Rome",
+            "Trypho"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 10:5 speaks of taking every thought captive to",
+          "options": [
+            "philosophy",
+            "obey Christ",
+            "the law",
+            "the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the purpose of apologetics?",
+          "answer_key": "To defend the truth of Christianity against objections, give positive reasons for faith, remove intellectual obstacles to the gospel, strengthen believers' confidence, and glorify God - always in service of evangelism and with gentleness and respect."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What virtues must an apologist have?",
+          "answer_key": "Humility, gentleness, respect, patience, honesty (not overstating arguments), a good conscience and consistent life, love for the person, dependence on the Spirit, and knowledge of Scripture and the objections."
+        }
+      ]
+    },
+    {
+      "id": "apo-02",
+      "title": "Apologetic Methods",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare classical, evidential, presuppositional, cumulative case and Reformed epistemology approaches."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate each method's strengths and weaknesses."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the role of the Holy Spirit in producing faith."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 1:18-21",
+        "John 20:30-31",
+        "1 Corinthians 1:18-25",
+        "Acts 26:24-29"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 1, Article 8 (arguing with those who deny the faith)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapters 7-8 (the Spirit's testimony and the rational proofs of Scripture)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Introduction, Chapter 3 (the use of reason in religion)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Classical apologetics",
+          "definition": "First natural theology, then historical evidence for Christianity."
+        },
+        {
+          "term": "Evidentialism",
+          "definition": "Historical and empirical evidence (e.g. the resurrection) as the main case."
+        },
+        {
+          "term": "Presuppositionalism",
+          "definition": "Arguing from the necessity of the Christian worldview for reason itself."
+        },
+        {
+          "term": "Reformed epistemology",
+          "definition": "Belief in God can be properly basic without arguments."
+        }
+      ],
+      "discussion_questions": [
+        "Aquinas says we can argue with those who accept some revelation, and answer objections of those who accept none. How?",
+        "Calvin gives rational proofs for Scripture but says they are secondary. Why?",
+        "Which method best fits Paul's practice in Acts?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Aquinas holds that against an opponent who accepts no revelation we cannot prove the articles of faith but can",
+          "options": [
+            "ignore him",
+            "answer his objections",
+            "force him",
+            "prove them by reason anyway"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Calvin taught that rational proofs for Scripture's credibility are",
+          "options": [
+            "useless",
+            "helpful secondary aids, but conviction comes from the Spirit's testimony",
+            "the foundation of faith",
+            "forbidden"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Presuppositional apologetics emphasizes",
+          "options": [
+            "probability arguments",
+            "that the Christian worldview is the necessary precondition of reason and meaning",
+            "miracles today",
+            "experience only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Acts 26 Festus says Paul is out of his mind, and Paul replies he speaks",
+          "options": [
+            "in tongues",
+            "true and rational words",
+            "in riddles",
+            "only to Agrippa"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Reformed epistemology argues belief in God can be",
+          "options": [
+            "proved mathematically",
+            "properly basic (rational without inference from other beliefs)",
+            "irrational but good",
+            "only probable"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare classical and presuppositional apologetics.",
+          "answer_key": "Classical - begins with shared rational ground, using arguments for God's existence (theism) then historical evidence (Christ, resurrection). Presuppositional - denies neutral ground, arguing that only the Christian worldview makes sense of logic, morality and science, and exposing the inconsistency of unbelief."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the role of the Holy Spirit in apologetics?",
+          "answer_key": "Arguments can remove obstacles and show reasonableness, but saving faith is the Spirit's work, opening hearts to the truth (Acts 16:14; 1 Cor 2:14; Calvin's testimony of the Spirit); apologists rely on him in prayer."
+        }
+      ]
+    },
+    {
+      "id": "apo-03",
+      "title": "Arguments for God I - Cosmological and Teleological",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Present the cosmological argument (Aquinas; kalam)."
+        },
+        {
+          "id": "o2",
+          "text": "Present the teleological (design) argument including fine-tuning."
+        },
+        {
+          "id": "o3",
+          "text": "Answer common objections."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:1",
+        "Psalm 19:1-4",
+        "Romans 1:20",
+        "Hebrews 3:4"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 2, Article 3 (the five ways)"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book X, chapter 6 (the creatures say 'We are not your God; he made us')"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Part I, Chapter 1 (the cosmological and teleological arguments)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Contingency",
+          "definition": "Dependence on something else for existence."
+        },
+        {
+          "term": "Kalam argument",
+          "definition": "Whatever begins to exist has a cause; the universe began to exist; therefore it has a cause."
+        },
+        {
+          "term": "Fine-tuning",
+          "definition": "The precise values of physical constants necessary for life."
+        },
+        {
+          "term": "Principle of sufficient reason",
+          "definition": "Everything has an explanation for its existence."
+        }
+      ],
+      "discussion_questions": [
+        "Does the cosmological argument show the cause is personal? Why?",
+        "How would you answer 'Who made God?'",
+        "How does Augustine's 'we are not your God' passage function apologetically?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The kalam argument's first premise is",
+          "options": [
+            "God exists",
+            "whatever begins to exist has a cause",
+            "the universe is eternal",
+            "design implies a designer"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Aquinas's fifth way argues from",
+          "options": [
+            "motion",
+            "the governance/design of things toward ends",
+            "degrees of being",
+            "contingency"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Hebrews 3:4 says every house is built by someone, but the builder of all things is",
+          "options": [
+            "nature",
+            "God",
+            "Moses",
+            "chance"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The objection 'Who made God?' is answered by noting that God, as necessary being,",
+          "options": [
+            "was made by another god",
+            "has no beginning and needs no cause",
+            "is part of the universe",
+            "does not exist"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Fine-tuning refers to",
+          "options": [
+            "musical instruments",
+            "the life-permitting precision of physical constants",
+            "biblical chronology",
+            "church music"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Present the cosmological argument from contingency in your own words.",
+          "answer_key": "Things in the world exist contingently (they might not have existed and depend on causes); an infinite chain of dependent causes explains nothing; so there must be a necessary being that exists of itself and causes all contingent things - which we call God."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How might an apologist present the fine-tuning argument, and what objection must be answered?",
+          "answer_key": "Many constants of nature fall within extremely narrow life-permitting ranges; this is best explained by design rather than chance or necessity. Objections include the multiverse hypothesis and the anthropic principle, which apologists answer by noting the multiverse is speculative and itself may require fine-tuning."
+        }
+      ]
+    },
+    {
+      "id": "apo-04",
+      "title": "Arguments for God II - Ontological, Moral and Experiential",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Present and evaluate Anselm's ontological argument."
+        },
+        {
+          "id": "o2",
+          "text": "Present the moral argument."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate arguments from desire, consciousness and religious experience."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 2:14-16",
+        "Ecclesiastes 3:11",
+        "Psalm 42:1-2"
+      ],
+      "library_readings": [
+        {
+          "author": "Anselm",
+          "title": "Proslogion",
+          "section": "Chapters 2-4"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book I, chapter 1 and Book X, chapters 20-23 (the universal desire for happiness in God)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 3 (the sense of divinity)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ontological argument",
+          "definition": "God as the greatest conceivable being must exist in reality."
+        },
+        {
+          "term": "Moral argument",
+          "definition": "Objective moral values require a transcendent ground."
+        },
+        {
+          "term": "Argument from desire",
+          "definition": "Innate desire for transcendent joy points to its object."
+        },
+        {
+          "term": "Sensus divinitatis",
+          "definition": "The innate awareness of God (Calvin)."
+        }
+      ],
+      "discussion_questions": [
+        "Why have philosophers found the ontological argument both fascinating and suspicious?",
+        "How do you respond to 'You can be good without God'?",
+        "How does Augustine's restless heart function as an argument?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Anselm argues that if God existed only in the mind, then",
+          "options": [
+            "God is imaginary",
+            "something greater could be conceived (existing in reality too)",
+            "God is evil",
+            "atheism is true"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The moral argument claims that objective moral obligations are best explained by",
+          "options": [
+            "evolution alone",
+            "a transcendent moral lawgiver",
+            "culture",
+            "individual preference"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 2:15 says Gentiles show that the work of the law is",
+          "options": [
+            "unknown to them",
+            "written on their hearts",
+            "impossible",
+            "only for Israel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Ecclesiastes 3:11 says God has put into man's heart",
+          "options": [
+            "fear",
+            "eternity",
+            "the law",
+            "wisdom only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The reply 'you can be good without God' confuses",
+          "options": [
+            "ethics and politics",
+            "knowing morality with the grounding of objective morality",
+            "law and gospel",
+            "faith and reason"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "State the moral argument and respond to one objection.",
+          "answer_key": "If God does not exist, objective moral values and duties do not exist; they do exist; therefore God exists. Objection - atheists can be moral: yes, but the question is what grounds objective morality, not whether people can recognize and follow it."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Evaluate the ontological argument.",
+          "answer_key": "It shows the concept of God includes necessary existence and has persuaded some (e.g. modal versions); critics (Gaunilo, Kant) object that existence is not a perfection or that concepts cannot establish reality. Many see it as clarifying rather than compelling."
+        }
+      ]
+    },
+    {
+      "id": "apo-05",
+      "title": "The Reliability of the Bible",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the manuscript evidence for the Old and New Testaments."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate the historical reliability of the Gospels and Acts."
+        },
+        {
+          "id": "o3",
+          "text": "Respond to claims about contradictions and 'lost gospels'."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 1:1-4",
+        "2 Peter 1:16",
+        "Acts 26:26"
+      ],
+      "library_readings": [
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book III, chapters 24-25 and 39"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book III, chapters 1-3 and 11"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapter 12 (comparing manuscripts)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Textual criticism",
+          "definition": "Establishing the original text from manuscripts."
+        },
+        {
+          "term": "Manuscript evidence",
+          "definition": "Thousands of Greek NT manuscripts plus early translations and citations."
+        },
+        {
+          "term": "Undesigned coincidences",
+          "definition": "Incidental agreements among independent accounts."
+        },
+        {
+          "term": "Gnostic gospels",
+          "definition": "Later writings like the Gospel of Thomas, not accepted as Scripture."
+        }
+      ],
+      "discussion_questions": [
+        "How does the NT manuscript evidence compare with other ancient texts?",
+        "Why did Irenaeus reject the Gnostic gospels?",
+        "What do Paul's words 'this was not done in a corner' (Acts 26:26) suggest?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The number of Greek manuscripts of the New Testament is roughly",
+          "options": [
+            "about 50",
+            "about 500",
+            "more than 5,000",
+            "exactly 27"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Acts 26:26 records Paul saying the events of Christ were",
+          "options": [
+            "secret",
+            "not done in a corner",
+            "unprovable",
+            "legends"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Irenaeus accepted exactly how many Gospels?",
+          "options": [
+            "one",
+            "three",
+            "four",
+            "many"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Gospel of Thomas is generally dated",
+          "options": [
+            "before Mark",
+            "to the second century, later than the canonical Gospels",
+            "to the Reformation",
+            "to 400 BC"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Papias (cited by Eusebius) connects Mark's Gospel with",
+          "options": [
+            "Paul",
+            "Peter's preaching",
+            "John",
+            "Thomas"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the evidence for the textual reliability of the New Testament.",
+          "answer_key": "Over 5,000 Greek manuscripts (some from the 2nd-3rd centuries), thousands of early translations, and extensive patristic citations allow the text to be reconstructed with high confidence; variants are mostly minor and none overturns a core doctrine."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why were the Gnostic gospels not accepted?",
+          "answer_key": "They were late (2nd century and after), lacked apostolic origin, contradicted the rule of faith (denying creation's goodness, the incarnation and bodily resurrection), and were not received by the churches."
+        }
+      ]
+    },
+    {
+      "id": "apo-06",
+      "title": "The Resurrection of Jesus",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Present the historical case for the resurrection (minimal facts, empty tomb, appearances, origin of the church)."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate alternative explanations (theft, hallucination, swoon, legend)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the resurrection's significance for faith."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 15:1-20",
+        "Mark 16:1-8",
+        "John 20:1-29",
+        "Acts 2:22-36"
+      ],
+      "library_readings": [
+        {
+          "author": "Athanasius",
+          "title": "On the Incarnation of the Word",
+          "section": "Sections 26-32 (proofs of the resurrection from its effects)"
+        },
+        {
+          "author": "Origen",
+          "title": "Against Celsus",
+          "section": "Book II, chapters 55-63 (answering Celsus on the resurrection)"
+        },
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book V (the resurrection)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Minimal facts",
+          "definition": "Facts about Jesus' death and appearances accepted by most historians."
+        },
+        {
+          "term": "Empty tomb",
+          "definition": "The discovery that Jesus' tomb was empty."
+        },
+        {
+          "term": "Hallucination theory",
+          "definition": "The claim that the appearances were visions."
+        },
+        {
+          "term": "Swoon theory",
+          "definition": "The claim that Jesus did not really die."
+        }
+      ],
+      "discussion_questions": [
+        "How does Origen answer Celsus's charge that the witnesses were a 'hysterical woman'?",
+        "Why is the conversion of James and Paul significant evidence?",
+        "How does Athanasius argue from the effects of the resurrection?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 15:6 says the risen Christ appeared to more than",
+          "options": [
+            "ten",
+            "fifty",
+            "five hundred brothers at one time",
+            "twelve"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The theory that Jesus did not really die on the cross is the",
+          "options": [
+            "hallucination theory",
+            "swoon theory",
+            "theft theory",
+            "legend theory"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Athanasius argues that Christ is alive because",
+          "options": [
+            "the tomb was guarded",
+            "he is working in his disciples who despise death",
+            "the church says so",
+            "Pilate admitted it"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Origen replied to Celsus's claim about the witnesses by pointing out",
+          "options": [
+            "there were no women",
+            "that the appearances were to many, and the disciples risked their lives for it",
+            "Celsus was a Christian",
+            "the Gospels agree perfectly"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Peter's Pentecost sermon argues that David foresaw",
+          "options": [
+            "the temple",
+            "the resurrection of the Christ (Psalm 16)",
+            "Rome's fall",
+            "his own return"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "List the 'minimal facts' commonly used in the argument for the resurrection.",
+          "answer_key": "Jesus died by crucifixion; his disciples believed he rose and appeared to them; the skeptic James and persecutor Paul were converted by appearances; the tomb was empty (widely though not universally accepted); the disciples proclaimed the resurrection early in Jerusalem."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Evaluate the hallucination theory.",
+          "answer_key": "It cannot explain group appearances to many at once, appearances to skeptics, the empty tomb, the physical nature of appearances, or why hallucinations would produce belief in resurrection (rather than a vision of a dead man); hallucinations are individual experiences."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper presenting the historical case for the resurrection of Jesus. State the key facts, evaluate at least three alternative theories, engage at least two library sources (such as Athanasius, Origen, Augustine, Edersheim or Schaff; cite as Author, Title, section), and explain how you would present the case in a real conversation with gentleness and respect."
+    },
+    {
+      "id": "apo-07",
+      "title": "The Problem of Evil",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Distinguish the logical, evidential and existential problems of evil."
+        },
+        {
+          "id": "o2",
+          "text": "Present the free will defense and greater-good theodicies."
+        },
+        {
+          "id": "o3",
+          "text": "Offer a pastoral, Christ-centered response to suffering."
+        }
+      ],
+      "scripture_passages": [
+        "Job 38:1-7",
+        "Genesis 50:20",
+        "Romans 8:18-25",
+        "Revelation 21:3-5"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 10-15 and 27 (evil as privation; God brings good out of evil)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XI, chapters 17-18 and 22-23 (evil and the beauty of the whole)"
+        },
+        {
+          "author": "Lactantius",
+          "title": "The Divine Institutes",
+          "section": "Book VII, chapters 4-5 (why God permitted evil)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Logical problem of evil",
+          "definition": "The claim that God and evil are logically incompatible."
+        },
+        {
+          "term": "Evidential problem of evil",
+          "definition": "The claim that evil makes God's existence improbable."
+        },
+        {
+          "term": "Free will defense",
+          "definition": "Moral evil results from the misuse of freedom, which God permits for greater goods."
+        },
+        {
+          "term": "Privation theory",
+          "definition": "Evil is not a thing but the absence or corruption of good."
+        }
+      ],
+      "discussion_questions": [
+        "How does the privation theory help answer where evil came from?",
+        "Does Job's encounter with God answer the problem of evil?",
+        "How would you respond to a grieving friend who asks 'Why?'"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The logical problem of evil claims God and evil are",
+          "options": [
+            "compatible",
+            "logically contradictory",
+            "improbable together",
+            "both illusions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine taught that evil is",
+          "options": [
+            "a substance created by God",
+            "the privation or corruption of good",
+            "an eternal principle",
+            "matter"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 8:18 says present sufferings are not worth comparing with",
+          "options": [
+            "past sins",
+            "the glory to be revealed to us",
+            "others' sufferings",
+            "the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The free will defense argues that moral evil arises from",
+          "options": [
+            "God's direct causation",
+            "creatures' misuse of freedom",
+            "matter",
+            "fate"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Revelation 21:4 promises that God will",
+          "options": [
+            "explain every suffering",
+            "wipe away every tear and end death",
+            "remove memory",
+            "punish Job"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the free will defense against the logical problem of evil.",
+          "answer_key": "It is possible that God has good reason to create free creatures capable of genuine love and moral goodness; such freedom entails the possibility of evil; so God and evil are not logically contradictory - defeating the claim of logical incompatibility."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does the cross shape a Christian response to evil?",
+          "answer_key": "God does not stand aloof but enters suffering in Christ, bearing sin and injustice, defeating evil through the cross and resurrection, and promising a new creation where evil ends - giving hope and grounds to trust God amid unanswered questions."
+        }
+      ]
+    },
+    {
+      "id": "apo-08",
+      "title": "Faith and Science",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe models of the relationship between science and faith (conflict, independence, dialogue, integration)."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate the Galileo affair and the historical 'conflict thesis'."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss origins debates (creation, evolution, intelligent design) charitably."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 104:24",
+        "Proverbs 25:2",
+        "Colossians 1:16-17"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XI, chapter 6 (the world made with time) and Book XII, chapter 10 (on the age of the world)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 5, section 2 (astronomy and medicine reveal God's wisdom)"
+        },
+        {
+          "author": "Basil of Caesarea",
+          "title": "On the Holy Spirit",
+          "section": "Chapter 16 (the Spirit's work in creation's order)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Conflict thesis",
+          "definition": "The disputed claim that science and religion are historically at war."
+        },
+        {
+          "term": "Methodological naturalism",
+          "definition": "Science's practice of explaining nature by natural causes."
+        },
+        {
+          "term": "Theistic evolution / evolutionary creation",
+          "definition": "God used evolutionary processes."
+        },
+        {
+          "term": "Intelligent design",
+          "definition": "The argument that some features of nature are best explained by design."
+        }
+      ],
+      "discussion_questions": [
+        "Why is the 'conflict thesis' historically inaccurate?",
+        "How does Christian belief in an orderly Creator support science?",
+        "How should Christians who disagree about origins treat one another?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Proverbs 25:2 says it is the glory of kings to",
+          "options": [
+            "conceal things",
+            "search things out",
+            "wage war",
+            "build temples"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Calvin said that the study of astronomy and medicine",
+          "options": [
+            "is dangerous",
+            "reveals God's wisdom",
+            "should be avoided",
+            "replaces Scripture"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Many historians today regard the 'conflict thesis' as",
+          "options": [
+            "well established",
+            "a myth or oversimplification",
+            "Galileo's own view",
+            "the medieval view"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Methodological naturalism is",
+          "options": [
+            "a denial of God",
+            "a working method of science seeking natural explanations",
+            "a theological creed",
+            "intelligent design"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine warned Christians against",
+          "options": [
+            "studying nature",
+            "making claims about nature that contradict what is known, bringing Scripture into ridicule",
+            "reading Genesis",
+            "believing in creation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is Christian theism hospitable to science?",
+          "answer_key": "It teaches that the world is created by a rational God (orderly, intelligible), is not divine (so can be studied), is contingent (so must be investigated empirically), and that humans in God's image can understand it; many pioneers of modern science were believers."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize the main Christian views on origins.",
+          "answer_key": "Young-earth creation (literal recent six days), old-earth creation (day-age, progressive creation), evolutionary creation/theistic evolution (God used evolution), intelligent design (detectable design in nature); all affirm God as Creator; believers should discuss them charitably."
+        }
+      ]
+    },
+    {
+      "id": "apo-09",
+      "title": "Christianity and World Religions",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the core beliefs of Judaism, Islam, Hinduism and Buddhism."
+        },
+        {
+          "id": "o2",
+          "text": "Compare exclusivism, inclusivism and pluralism."
+        },
+        {
+          "id": "o3",
+          "text": "Engage adherents of other religions respectfully and faithfully."
+        }
+      ],
+      "scripture_passages": [
+        "John 14:6",
+        "Acts 4:12",
+        "Acts 17:22-31",
+        "Romans 2:14-16"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "Second Apology",
+          "section": "Chapters 10 and 13 (the seeds of the Word in philosophers)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 1-10 (a Christian-Jewish dialogue)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book VIII, chapters 5-12 (Plato and the Platonists compared with Christianity)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Exclusivism (particularism)",
+          "definition": "Salvation only through explicit faith in Christ."
+        },
+        {
+          "term": "Inclusivism",
+          "definition": "Salvation only through Christ, but possibly for some without explicit knowledge of him."
+        },
+        {
+          "term": "Pluralism",
+          "definition": "Many religions as equally valid paths."
+        },
+        {
+          "term": "Logos spermatikos",
+          "definition": "Justin's idea of 'seeds of the Word' in all people."
+        }
+      ],
+      "discussion_questions": [
+        "How did Justin appreciate truth in Greek philosophy while holding Christ unique?",
+        "How does Justin's Dialogue model respectful disagreement?",
+        "Compare exclusivism and inclusivism with reference to Acts 4:12 and Romans 2."
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Acts 4:12 says there is salvation in no one else, for there is no other name",
+          "options": [
+            "except Moses",
+            "under heaven given among men by which we must be saved",
+            "in Israel",
+            "of the prophets"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Justin taught that philosophers had",
+          "options": [
+            "no truth at all",
+            "seeds of the Word (partial truth)",
+            "complete truth",
+            "a separate revelation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Islam's central confession denies",
+          "options": [
+            "one God",
+            "the deity of Christ and the Trinity",
+            "prophets",
+            "judgment"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Pluralism holds that",
+          "options": [
+            "only Christianity is true",
+            "the major religions are equally valid paths to God",
+            "all religions are false",
+            "Christ saves all through the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine considered the Platonists",
+          "options": [
+            "the worst philosophers",
+            "the nearest to Christianity among philosophers, though lacking the incarnation and humility",
+            "Christians",
+            "atheists"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare exclusivism, inclusivism and pluralism.",
+          "answer_key": "Exclusivism - salvation only through Christ received by explicit faith; inclusivism - salvation only through Christ's work but possibly applied to some who have not explicitly heard; pluralism - multiple religions are equally valid responses to the divine. Traditional orthodoxy rejects pluralism."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should Christians engage people of other faiths?",
+          "answer_key": "With respect, listening, accurate understanding of their beliefs, acknowledging truths they hold, clearly presenting Christ's uniqueness, living with integrity, praying for them, and trusting the Spirit - as Paul did in Athens and Justin with Trypho."
+        }
+      ]
+    },
+    {
+      "id": "apo-10",
+      "title": "Answering Objections - Miracles, Exclusivity, Hell and Hypocrisy",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Answer objections to miracles (Hume)."
+        },
+        {
+          "id": "o2",
+          "text": "Answer objections about exclusivity, hell and the church's failures."
+        },
+        {
+          "id": "o3",
+          "text": "Practice responding to objections with questions and empathy."
+        }
+      ],
+      "scripture_passages": [
+        "John 20:30-31",
+        "Romans 3:3-4",
+        "2 Peter 3:9",
+        "Matthew 23:1-12"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XXI, chapters 5-9 (answering objections to the incredible) and Book XXII, chapter 5"
+        },
+        {
+          "author": "Origen",
+          "title": "Against Celsus",
+          "section": "Book I, chapters 9-12 (faith and reason) and Book III, chapters 44-55 (the charge that Christianity appeals to the ignorant)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Hume's argument",
+          "definition": "Uniform experience weighs against any miracle report."
+        },
+        {
+          "term": "Hypocrisy objection",
+          "definition": "The church's failures disprove Christianity."
+        },
+        {
+          "term": "Inclusivity paradox",
+          "definition": "Every worldview, including pluralism, is exclusive in some way."
+        },
+        {
+          "term": "Charity principle",
+          "definition": "Interpreting objections at their strongest."
+        }
+      ],
+      "discussion_questions": [
+        "How did Augustine answer pagan skepticism about miracles and the incredible?",
+        "Does the church's failure undermine Christianity's truth?",
+        "How can questions be more effective than answers in apologetic conversations?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Hume argued that a miracle report is always outweighed by",
+          "options": [
+            "Scripture",
+            "the uniform experience of the laws of nature",
+            "philosophy",
+            "the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Celsus accused Christians of appealing only to",
+          "options": [
+            "the educated",
+            "the uneducated and simple",
+            "Jews",
+            "soldiers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 3:3-4 says human unfaithfulness does not nullify",
+          "options": [
+            "the law",
+            "the faithfulness of God",
+            "the church",
+            "baptism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Matthew 23 Jesus condemns",
+          "options": [
+            "tax collectors",
+            "religious hypocrisy of scribes and Pharisees",
+            "Romans",
+            "Samaritans"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A common response to 'all religions are equally true' is that the claim is itself",
+          "options": [
+            "humble",
+            "exclusive of other views",
+            "Christian",
+            "proven"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Respond to Hume's argument against miracles.",
+          "answer_key": "Hume's argument assumes what it seeks to prove (that nature is closed and experience uniform against miracles); if God exists miracles are possible; testimony must be weighed case by case; the resurrection has strong evidence; background knowledge of God changes probabilities."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How would you respond to 'The church is full of hypocrites'?",
+          "answer_key": "Acknowledge failures honestly (Jesus himself condemned hypocrisy); Christianity's truth rests on Christ, not Christians' performance; the gospel is for sinners; point to the many examples of transformed lives and Christ's own perfect character."
+        }
+      ]
+    },
+    {
+      "id": "apo-11",
+      "title": "Cultural Apologetics and the Christian Worldview",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the Christian worldview and compare it with naturalism and postmodernism."
+        },
+        {
+          "id": "o2",
+          "text": "Explain how truth, beauty, goodness and meaning point to God."
+        },
+        {
+          "id": "o3",
+          "text": "Engage contemporary culture's questions (identity, justice, meaning)."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 12:2",
+        "Colossians 2:2-10",
+        "Philippians 4:8"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIX, chapters 1-4 and 11-13 (the supreme good and true peace)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapter 40 (plundering the Egyptians - using truth wherever found)"
+        },
+        {
+          "author": "Mathetes",
+          "title": "Epistle to Diognetus",
+          "section": "Chapters 5-6 (Christians in culture)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Worldview",
+          "definition": "A comprehensive framework of beliefs about reality, knowledge and value."
+        },
+        {
+          "term": "Naturalism",
+          "definition": "Only nature exists; no God or supernatural."
+        },
+        {
+          "term": "Postmodernism",
+          "definition": "Skepticism toward metanarratives and objective truth."
+        },
+        {
+          "term": "Spoiling the Egyptians",
+          "definition": "Augustine's image for using truth found in pagan culture."
+        }
+      ],
+      "discussion_questions": [
+        "How does Augustine argue that only the city of God finds true peace and the supreme good?",
+        "What does 'plundering the Egyptians' mean for engaging culture?",
+        "How can Christians answer questions of identity and meaning today?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine used the image of Israel taking Egyptian gold to describe",
+          "options": [
+            "stealing",
+            "using truths from pagan learning in God's service",
+            "the exodus only",
+            "church wealth"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Naturalism holds that",
+          "options": [
+            "God exists in nature",
+            "only natural entities and causes exist",
+            "nature is evil",
+            "miracles are common"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine taught that the supreme good is",
+          "options": [
+            "pleasure",
+            "eternal life and peace in God",
+            "virtue alone",
+            "knowledge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Colossians 2:3 says in Christ are hidden",
+          "options": [
+            "secret rituals",
+            "all the treasures of wisdom and knowledge",
+            "the laws",
+            "mysteries of Egypt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Postmodernism is characterized by",
+          "options": [
+            "confidence in reason",
+            "skepticism toward grand narratives and universal truth claims",
+            "belief in progress",
+            "biblical literalism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare the Christian worldview with naturalism on meaning and morality.",
+          "answer_key": "Christianity grounds meaning, human dignity and objective morality in a personal Creator and his purposes; naturalism must explain meaning and morality as products of unguided processes, making objective purpose and moral obligation hard to justify."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can Christians engage culture wisely?",
+          "answer_key": "Affirm truth, goodness and beauty wherever found (plundering the Egyptians), expose idols and inconsistencies, live distinctively (Diognetus), answer culture's real questions with the gospel, and seek the common good."
+        }
+      ]
+    },
+    {
+      "id": "apo-12",
+      "title": "Apologetics in Practice - Conversation and Evangelism",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Integrate apologetics with evangelism and discipleship."
+        },
+        {
+          "id": "o2",
+          "text": "Practice a conversational approach (listening, questions, story)."
+        },
+        {
+          "id": "o3",
+          "text": "Prepare a personal apologetic for a specific audience."
+        }
+      ],
+      "scripture_passages": [
+        "Colossians 4:5-6",
+        "Acts 17:1-4",
+        "John 4:1-26",
+        "2 Timothy 2:24-26"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 1-8 (Justin's conversion through conversation)"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book V, chapters 13-14 and Book VI, chapters 3-5 (how Ambrose's teaching removed Augustine's obstacles)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, Prologue (adapting to different hearers)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Pre-evangelism",
+          "definition": "Removing obstacles and building interest before sharing the gospel."
+        },
+        {
+          "term": "Conversational apologetics",
+          "definition": "Using questions and listening to engage."
+        },
+        {
+          "term": "Plausibility structures",
+          "definition": "The social and cultural conditions that make beliefs seem believable."
+        },
+        {
+          "term": "Seasoned with salt",
+          "definition": "Paul's image for gracious, fitting speech (Col 4:6)."
+        }
+      ],
+      "discussion_questions": [
+        "How did an old man's conversation lead to Justin's conversion?",
+        "How did Ambrose's preaching remove Augustine's intellectual obstacles?",
+        "How does Jesus engage the Samaritan woman?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Colossians 4:6 says let your speech always be",
+          "options": [
+            "forceful",
+            "gracious, seasoned with salt",
+            "brief",
+            "formal"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Justin was converted after conversing with",
+          "options": [
+            "Trypho",
+            "an old man by the sea who pointed him to the prophets",
+            "the emperor",
+            "a Stoic teacher"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine's obstacles regarding the Old Testament were removed through",
+          "options": [
+            "Manichaean teachers",
+            "Ambrose's spiritual interpretation",
+            "Platonist books only",
+            "Monica's arguments"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "2 Timothy 2:24-25 says the Lord's servant must correct opponents",
+          "options": [
+            "harshly",
+            "with gentleness",
+            "publicly",
+            "never"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In John 4 Jesus begins his conversation with the Samaritan woman by",
+          "options": [
+            "rebuking her",
+            "asking for a drink",
+            "quoting the law",
+            "performing a miracle"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How should apologetics serve evangelism?",
+          "answer_key": "By removing intellectual obstacles, answering sincere questions and building credibility so that the gospel can be heard, always pointing to Christ and calling for response, while trusting the Spirit and loving the person."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe a conversational approach to apologetics.",
+          "answer_key": "Listen carefully, ask questions to understand the person's beliefs and reasons, find common ground, gently expose inconsistencies, share personal testimony and the gospel story, answer specific objections, and invite ongoing conversation."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper preparing a personal apologetic for a specific audience (for example a skeptical university student, a Muslim neighbor, a grieving friend, or a spiritual-but-not-religious coworker). Identify their likely questions and assumptions, choose and justify an apologetic method, present your main arguments and gospel presentation, and draw on at least two library sources (cite as Author, Title, section)."
+    }
+  ]
+}

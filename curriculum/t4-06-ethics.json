@@ -1,0 +1,1668 @@
+{
+  "id": "ethics",
+  "title": "Christian Ethics",
+  "tier": 4,
+  "tier_name": "Theology",
+  "description": "How Christians discern and do what is good. Students study the foundations of Christian ethics (Scripture, natural law, virtue, the Ten Commandments, love), major ethical methods (divine command, natural law, virtue, situational and consequentialist alternatives), and apply them to life and death, sexuality and marriage, wealth and work, truth-telling, war and peace, justice and race, the state, technology and creation care. Where faithful Christians disagree (e.g. just war and pacifism) the major views are presented from their sources.",
+  "prerequisites": [
+    "intro-theology"
+  ],
+  "lessons": [
+    {
+      "id": "eth-01",
+      "title": "Foundations of Christian Ethics",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the theological foundations of ethics (God's character, creation, redemption, new creation)."
+        },
+        {
+          "id": "o2",
+          "text": "Distinguish Christian ethics from secular ethical systems."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the relationship between law, gospel and the moral life."
+        }
+      ],
+      "scripture_passages": [
+        "Leviticus 19:2",
+        "Micah 6:8",
+        "Matthew 22:34-40",
+        "Ephesians 4:17-5:2"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XV, chapter 22 (virtue as rightly ordered love)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Questions 1-5 (the last end of man: happiness)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 6 (the Christian life)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ethics",
+          "definition": "The study of right and wrong, good and evil, virtue and vice."
+        },
+        {
+          "term": "Ordo amoris",
+          "definition": "Augustine's 'order of love' - loving things according to their true worth."
+        },
+        {
+          "term": "Telos",
+          "definition": "The goal or end of human life (for Aquinas, beatitude in God)."
+        },
+        {
+          "term": "Imitatio Dei / Christi",
+          "definition": "Imitating God and Christ as the pattern of ethics."
+        }
+      ],
+      "discussion_questions": [
+        "How does Augustine's definition of virtue as 'rightly ordered love' shape ethics?",
+        "Why does Aquinas begin ethics with the question of happiness?",
+        "How does Ephesians 4-5 ground ethics in the gospel?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine defined virtue briefly as",
+          "options": [
+            "courage",
+            "the order of love (rightly ordered love)",
+            "obedience to rulers",
+            "knowledge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Aquinas taught that the ultimate end of human life is",
+          "options": [
+            "pleasure",
+            "wealth",
+            "beatitude - seeing God",
+            "virtue alone"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Jesus summarized the law as love of God and",
+          "options": [
+            "love of self",
+            "love of neighbor as oneself",
+            "love of Israel",
+            "love of the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Leviticus 19:2 grounds Israel's ethics in",
+          "options": [
+            "tradition",
+            "God's holiness",
+            "the king's decrees",
+            "reason"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Ephesians 5:1 says, 'Be imitators of God, as",
+          "options": [
+            "servants'",
+            "beloved children'",
+            "priests'",
+            "citizens'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Christian ethics differ from secular ethics?",
+          "answer_key": "It is grounded in God's character and revelation, human beings as created in his image and fallen, redemption in Christ and the Spirit's power, aimed at God's glory and the new creation - not merely human reason, utility or autonomy."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain Augustine's 'order of love'.",
+          "answer_key": "Sin is disordered love - loving lesser goods more than greater, creatures more than the Creator; virtue is loving God supremely and all things in right relation to him; ethics is reordering our loves."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp?vs=mbd"
+    },
+    {
+      "id": "eth-02",
+      "title": "Ethical Methods - Divine Command, Natural Law and Virtue",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain divine command theory and the Euthyphro dilemma."
+        },
+        {
+          "id": "o2",
+          "text": "Explain natural law ethics (Aquinas)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain virtue ethics and its Christian form."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 2:14-15",
+        "Galatians 5:22-23",
+        "2 Peter 1:5-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Questions 90-94 (law; natural law)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Questions 55-62 (virtues, including the theological virtues)"
+        },
+        {
+          "author": "Ambrose",
+          "title": "On the Duties of the Clergy",
+          "section": "Book I, chapters 24-50 (the cardinal virtues)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Divine command theory",
+          "definition": "Right is what God commands."
+        },
+        {
+          "term": "Euthyphro dilemma",
+          "definition": "Is something good because God commands it, or does God command it because it is good?"
+        },
+        {
+          "term": "Natural law",
+          "definition": "Moral order knowable by reason, reflecting God's eternal law."
+        },
+        {
+          "term": "Cardinal virtues",
+          "definition": "Prudence, justice, fortitude and temperance; with the theological virtues faith, hope and love."
+        }
+      ],
+      "discussion_questions": [
+        "How do Christian theologians answer the Euthyphro dilemma?",
+        "What are the first precepts of natural law according to Aquinas?",
+        "How did Ambrose adapt Cicero's virtues to Christian ethics?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Aquinas defines law as an ordinance of reason for the common good, made by",
+          "options": [
+            "the people",
+            "him who has care of the community, and promulgated",
+            "the church only",
+            "nature"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The first precept of natural law according to Aquinas is",
+          "options": [
+            "love your neighbor",
+            "good is to be done and pursued, and evil avoided",
+            "obey the king",
+            "worship God"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The four cardinal virtues are prudence, justice, fortitude and",
+          "options": [
+            "faith",
+            "temperance",
+            "love",
+            "humility"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The theological virtues are",
+          "options": [
+            "prudence, justice, courage",
+            "faith, hope and love",
+            "wisdom, knowledge, understanding",
+            "patience, kindness, gentleness"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Ambrose's On the Duties of the Clergy is modeled on a work by",
+          "options": [
+            "Plato",
+            "Cicero",
+            "Seneca",
+            "Aristotle"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How do Christian theologians typically resolve the Euthyphro dilemma?",
+          "answer_key": "Goodness is grounded neither in arbitrary commands nor in a standard above God, but in God's own good nature; his commands express his character, so they are neither arbitrary nor subject to an external standard."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain natural law in Aquinas.",
+          "answer_key": "The eternal law in God's mind is partially knowable to rational creatures as natural law, through their natural inclinations (to preserve life, procreate and educate, know God, live in society); its first precept is to do good and avoid evil; human and divine law build upon it."
+        }
+      ]
+    },
+    {
+      "id": "eth-03",
+      "title": "The Ten Commandments as a Framework for Ethics",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the Ten Commandments' structure and interpretation (Luther, Calvin, Aquinas)."
+        },
+        {
+          "id": "o2",
+          "text": "Apply the principles of interpretation (positive duties, heart-level, synecdoche)."
+        },
+        {
+          "id": "o3",
+          "text": "Relate the Decalogue to the law of love."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 20:1-17",
+        "Deuteronomy 5:6-21",
+        "Romans 13:8-10"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Ten Commandments"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 8, sections 6-10 (rules for interpreting the law)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Question 100"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Two tables",
+          "definition": "Commandments on love of God and love of neighbor."
+        },
+        {
+          "term": "Synecdoche",
+          "definition": "A command naming one sin to represent a whole class."
+        },
+        {
+          "term": "Positive and negative precepts",
+          "definition": "Each prohibition implies a duty and vice versa (Calvin)."
+        },
+        {
+          "term": "Spiritual interpretation",
+          "definition": "The law addresses the heart, not only outward acts (Matt 5)."
+        }
+      ],
+      "discussion_questions": [
+        "Luther explains each commandment with 'We should fear and love God so that...'. Why?",
+        "How does Calvin's rule that prohibitions imply positive duties expand the commandments?",
+        "How does Romans 13:8-10 relate love and law?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Luther explains the First Commandment by asking what your heart",
+          "options": [
+            "fears most",
+            "clings to and trusts in (that is your god)",
+            "hates",
+            "desires to know"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Calvin's rule of interpretation holds that a prohibition implies",
+          "options": [
+            "nothing more",
+            "the opposite positive duty",
+            "only outward acts",
+            "exceptions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 13:10 says love is the",
+          "options": [
+            "end of the law",
+            "fulfilling of the law",
+            "opposite of law",
+            "first commandment"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The 'two tables' of the law concern",
+          "options": [
+            "Jews and Gentiles",
+            "duties to God and duties to neighbor",
+            "priests and kings",
+            "past and future"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The commandment 'You shall not murder' in Calvin's reading also requires",
+          "options": [
+            "nothing positive",
+            "protecting and promoting the neighbor's life",
+            "avoiding all anger only",
+            "pacifism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain Calvin's principles for interpreting the Decalogue.",
+          "answer_key": "The law is spiritual, addressing the heart; each command includes more than its words (synecdoche - the worst example stands for a whole class); prohibitions imply positive duties and vice versa; the two tables relate to love for God and neighbor."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do the Ten Commandments relate to love?",
+          "answer_key": "They spell out what love for God and neighbor looks like; love fulfills the law (Rom 13:8-10), and the law guides love concretely."
+        }
+      ]
+    },
+    {
+      "id": "eth-04",
+      "title": "Discernment - Scripture, Conscience and Wisdom",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe a method for ethical decision-making (situation, norm, motive)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the role of conscience and Christian liberty."
+        },
+        {
+          "id": "o3",
+          "text": "Apply wisdom to cases where Scripture does not speak directly."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 12:1-2",
+        "Romans 14:13-23",
+        "Hebrews 5:14",
+        "Philippians 1:9-11"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 19 (Christian liberty and conscience)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Question 19, Articles 5-6 (whether an erring conscience binds)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapter 32 (counsel for those who fear doing good and those who act rashly)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Conscience",
+          "definition": "The moral judgment applying principles to one's own actions."
+        },
+        {
+          "term": "Adiaphora",
+          "definition": "Matters morally indifferent in themselves."
+        },
+        {
+          "term": "Normative, situational, existential perspectives",
+          "definition": "A threefold approach to ethical decision (the law, the situation, the person)."
+        },
+        {
+          "term": "Casuistry",
+          "definition": "Case-based moral reasoning."
+        }
+      ],
+      "discussion_questions": [
+        "Aquinas says an erring conscience binds. What does this mean for pastoral counsel?",
+        "How should Romans 14 shape decisions on disputed matters?",
+        "How is discernment trained (Heb 5:14)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Hebrews 5:14 says the mature have their powers of discernment trained by",
+          "options": [
+            "age",
+            "constant practice to distinguish good from evil",
+            "visions",
+            "education only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Aquinas holds that acting against conscience, even an erring one, is",
+          "options": [
+            "good",
+            "sinful",
+            "neutral",
+            "always excused"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 14:23 says whatever does not proceed from faith is",
+          "options": [
+            "neutral",
+            "sin",
+            "allowed",
+            "wisdom"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "'Casuistry' refers to",
+          "options": [
+            "church law",
+            "case-based moral reasoning",
+            "a heresy",
+            "Stoic ethics"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Philippians 1:9-10 prays that love may abound in knowledge and discernment so that you may",
+          "options": [
+            "win debates",
+            "approve what is excellent",
+            "keep the Sabbath",
+            "avoid suffering"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe a Christian method for making an ethical decision.",
+          "answer_key": "Pray; gather the facts (situation); identify relevant biblical norms and principles; consider motives and character (existential); seek wise counsel and the church's tradition; weigh conscience and love for others; decide and act, trusting God's grace."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the role of conscience?",
+          "answer_key": "A God-given faculty judging our actions by the moral standard we hold; it must be educated by Scripture; we should not violate it (Rom 14:23), yet it can err and needs correction."
+        }
+      ]
+    },
+    {
+      "id": "eth-05",
+      "title": "The Sanctity of Life - Abortion, Euthanasia and Bioethics",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the biblical basis for the sanctity of human life."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate abortion, euthanasia and end-of-life decisions."
+        },
+        {
+          "id": "o3",
+          "text": "Address reproductive technologies and bioethics with care."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 9:6",
+        "Psalm 139:13-16",
+        "Exodus 20:13",
+        "Jeremiah 1:5"
+      ],
+      "library_readings": [
+        {
+          "author": "Anonymous",
+          "title": "The Didache (Teaching of the Twelve Apostles)",
+          "section": "Chapter 2 (you shall not murder a child by abortion)"
+        },
+        {
+          "author": "Tertullian",
+          "title": "Apology",
+          "section": "Chapter 9 (Christian rejection of infanticide and abortion)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Second Part of the Second Part (II-II), Question 64 (murder; killing and self-defense)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Sanctity of life",
+          "definition": "Human life is sacred as God's image-bearer."
+        },
+        {
+          "term": "Euthanasia",
+          "definition": "Intentionally ending a patient's life to relieve suffering."
+        },
+        {
+          "term": "Double effect",
+          "definition": "The principle that an action with a good intended effect and a foreseen bad effect may be permissible under conditions (Aquinas)."
+        },
+        {
+          "term": "Palliative care",
+          "definition": "Care focused on relieving suffering at the end of life."
+        }
+      ],
+      "discussion_questions": [
+        "How did the early church's stance on abortion and infanticide contrast with Roman culture?",
+        "How does the principle of double effect apply to end-of-life care?",
+        "How can churches minister compassionately to those affected by abortion?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Didache commands, 'You shall not murder a child by",
+          "options": [
+            "war'",
+            "abortion, nor kill that which is born'",
+            "neglect'",
+            "magic only'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Tertullian wrote that for Christians, since murder is forbidden,",
+          "options": [
+            "abortion is allowed",
+            "it is not lawful to destroy even the fetus in the womb",
+            "infanticide is private",
+            "only adults are protected"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The principle of double effect originates in Aquinas's discussion of",
+          "options": [
+            "lying",
+            "killing in self-defense",
+            "war only",
+            "theft"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Psalm 139:13 says, 'You knitted me together",
+          "options": [
+            "at birth'",
+            "in my mother's womb'",
+            "in childhood'",
+            "at baptism'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Palliative care aims to",
+          "options": [
+            "hasten death",
+            "relieve suffering while not intending death",
+            "cure all illness",
+            "replace medicine"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the biblical case for the sanctity of human life.",
+          "answer_key": "Humans are made in God's image (Gen 1:27; 9:6); God forms and knows persons in the womb (Ps 139; Jer 1:5); murder is forbidden (Exod 20:13); Christ took human nature from conception; the church from the beginning rejected abortion and infanticide."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Distinguish euthanasia from withholding burdensome treatment.",
+          "answer_key": "Euthanasia intentionally causes death; withholding or withdrawing extraordinary or disproportionately burdensome treatment accepts death as foreseen but not intended, allowing natural death while caring for the patient - generally permitted in Christian ethics."
+        }
+      ]
+    },
+    {
+      "id": "eth-06",
+      "title": "Marriage, Sexuality and Gender",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the biblical theology of marriage and sexuality."
+        },
+        {
+          "id": "o2",
+          "text": "Address divorce and remarriage views (Catholic, Erasmian/Protestant, permanence)."
+        },
+        {
+          "id": "o3",
+          "text": "Address contemporary questions about sexuality and gender with truth and compassion."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 2:18-25",
+        "Matthew 19:3-12",
+        "1 Corinthians 6:9-20",
+        "Ephesians 5:22-33"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIV, chapters 22-24 (marriage in paradise)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 8, sections 41-44 (the seventh commandment)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 19 (on marriage, 1 Corinthians 7)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Covenant marriage",
+          "definition": "Marriage as a lifelong covenant between a man and a woman."
+        },
+        {
+          "term": "Goods of marriage",
+          "definition": "Augustine's offspring, fidelity and sacrament."
+        },
+        {
+          "term": "Exception clause",
+          "definition": "'except for sexual immorality' (Matt 19:9)."
+        },
+        {
+          "term": "Chastity",
+          "definition": "Sexual integrity in singleness and marriage."
+        }
+      ],
+      "discussion_questions": [
+        "What do Augustine's three goods of marriage contribute to Christian ethics?",
+        "Compare views of divorce and remarriage from Matthew 19 and 1 Corinthians 7.",
+        "How can churches uphold biblical sexual ethics with compassion and pastoral wisdom?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Matthew 19:4-6 Jesus grounds marriage in",
+          "options": [
+            "Moses' law",
+            "God's creation of male and female and 'the two shall become one flesh'",
+            "Roman law",
+            "custom"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine's three goods of marriage are offspring, fidelity and",
+          "options": [
+            "wealth",
+            "sacrament (permanent bond)",
+            "pleasure",
+            "status"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The 'exception clause' is found in",
+          "options": [
+            "Mark 10",
+            "Matthew 19:9",
+            "Luke 16",
+            "Romans 7"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 6:18 commands believers to",
+          "options": [
+            "tolerate immorality",
+            "flee sexual immorality",
+            "avoid marriage",
+            "judge outsiders"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Chrysostom's homilies on 1 Corinthians 7 treat marriage as",
+          "options": [
+            "evil",
+            "honorable, though virginity has a special calling",
+            "unnecessary",
+            "a sacrament of rank"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the main views on divorce and remarriage.",
+          "answer_key": "Catholic - a valid sacramental marriage is indissoluble (annulment declares none existed); many Protestants (Erasmian/Westminster) - divorce permitted for adultery and desertion (Matt 19:9; 1 Cor 7:15) with freedom to remarry; permanence view - no remarriage while the spouse lives."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the biblical theology of sexuality?",
+          "answer_key": "Sexuality is God's good gift, designed for the covenant union of husband and wife, for unity, procreation and joy, picturing Christ and the church; outside that covenant it is prohibited; singleness is honorable; all are called to chastity and receive grace for failure."
+        }
+      ]
+    },
+    {
+      "id": "eth-07",
+      "title": "Wealth, Work and Economic Justice",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate a theology of work and vocation."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate teaching on wealth, poverty and generosity."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss economic justice and care for the poor."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 2:15",
+        "Deuteronomy 15:7-11",
+        "Luke 12:13-34",
+        "1 Timothy 6:6-19"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Use of Money' and 'The Good Steward'"
+        },
+        {
+          "author": "Ambrose",
+          "title": "On the Duties of the Clergy",
+          "section": "Book II, chapters 15-21 (liberality and care for the poor)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Second Part of the Second Part (II-II), Questions 66, 77 and 78 (theft; fraud; usury)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Stewardship",
+          "definition": "Managing God's resources for his purposes."
+        },
+        {
+          "term": "Usury",
+          "definition": "Charging interest (historically condemned, later redefined as exorbitant interest)."
+        },
+        {
+          "term": "Jubilee",
+          "definition": "The Old Testament year of release and restoration (Lev 25)."
+        },
+        {
+          "term": "Preferential care for the poor",
+          "definition": "Scripture's concern for the vulnerable."
+        }
+      ],
+      "discussion_questions": [
+        "Apply Wesley's three rules to modern careers and investments.",
+        "What does Jesus teach about wealth in Luke 12?",
+        "Aquinas taught that in urgent need, taking what is necessary is not theft. Why?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Wesley's rules in 'The Use of Money' are gain all you can, save all you can and",
+          "options": [
+            "spend all you can",
+            "give all you can",
+            "invest all you can",
+            "keep all you can"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Genesis 2:15 says God put man in the garden to",
+          "options": [
+            "rest",
+            "work it and keep it",
+            "rule animals only",
+            "avoid work"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Luke 12:15 Jesus warns, 'Be on your guard against all",
+          "options": [
+            "poverty'",
+            "covetousness'",
+            "taxes'",
+            "work'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Timothy 6:10 says the love of money is",
+          "options": [
+            "necessary",
+            "a root of all kinds of evils",
+            "a gift",
+            "neutral"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aquinas held that in cases of urgent necessity",
+          "options": [
+            "property is absolute",
+            "all things are common, so taking what is necessary is not theft",
+            "stealing is always wrong",
+            "the poor have no rights"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is a Christian theology of work?",
+          "answer_key": "Work is part of God's good creation mandate (Gen 2:15), marred by the fall (toil) but redeemed; all honest work can be done for the Lord (Col 3:23) as vocation, serving neighbors and cultivating creation, while Sabbath rest reminds us work is not ultimate."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Scripture teach about wealth?",
+          "answer_key": "Wealth is a gift to be stewarded, not an idol; it brings danger (greed, pride, false security); God requires generosity, justice, care for the poor and contentment; Jesus calls disciples to seek the kingdom first and be rich toward God."
+        }
+      ]
+    },
+    {
+      "id": "eth-08",
+      "title": "Truth-Telling and Speech",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the biblical ethic of truthfulness."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate hard cases (lying to save life - the midwives, Rahab) in Augustine, Aquinas and Calvin."
+        },
+        {
+          "id": "o3",
+          "text": "Apply the ninth commandment to speech, media and reputation."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 1:15-21",
+        "Joshua 2:1-14",
+        "Ephesians 4:25-29",
+        "James 3:1-12"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 18-22 (lying)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Second Part of the Second Part (II-II), Question 110 (lying)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Eighth Commandment (false witness)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Lie",
+          "definition": "Asserting what one believes to be false with intent to deceive."
+        },
+        {
+          "term": "Mental reservation",
+          "definition": "A debated technique of speaking truthfully while concealing."
+        },
+        {
+          "term": "Ninth commandment",
+          "definition": "'You shall not bear false witness' (Reformed numbering)."
+        },
+        {
+          "term": "Slander and gossip",
+          "definition": "Harming a neighbor's reputation through speech."
+        }
+      ],
+      "discussion_questions": [
+        "Augustine held that every lie is sinful. How does he treat the Hebrew midwives?",
+        "How do Calvin and others differ on Rahab?",
+        "How does Luther apply the commandment to protecting a neighbor's reputation?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine held that",
+          "options": [
+            "lies to save life are good",
+            "every lie is a sin, though some are less grievous",
+            "lying is never sinful",
+            "only lies under oath are sins"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Aquinas classifies lies into officious (helpful), jocose (in jest), and",
+          "options": [
+            "white",
+            "mischievous (harmful)",
+            "protective",
+            "noble"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Luther's explanation of the commandment against false witness urges us to",
+          "options": [
+            "expose every sin publicly",
+            "defend our neighbor, speak well of him and put the best construction on everything",
+            "stay silent always",
+            "judge motives"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Ephesians 4:25 commands, 'Having put away falsehood, let each one of you",
+          "options": [
+            "be silent'",
+            "speak the truth with his neighbor'",
+            "judge his neighbor'",
+            "confess to elders'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "James 3:8 says no human being can tame",
+          "options": [
+            "anger",
+            "the tongue",
+            "desire",
+            "pride"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare views on lying to save a life.",
+          "answer_key": "Augustine and Aquinas - lying is always wrong; God rewarded the midwives' mercy, not their deception; one should find other ways (silence, evasion). Others (many Protestant ethicists) argue those who forfeit the right to truth (murderers) may be deceived, citing Rahab and the midwives. All agree truthfulness is the norm."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Luther apply the command against false witness?",
+          "answer_key": "It forbids lying, slander, gossip and judging others' secret sins; we must defend our neighbor's reputation, speak well of them and interpret their actions charitably; public sins may be addressed by proper authorities."
+        }
+      ]
+    },
+    {
+      "id": "eth-09",
+      "title": "War, Peace and Violence",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain just war theory (Augustine, Aquinas)."
+        },
+        {
+          "id": "o2",
+          "text": "Present Christian pacifism (early church, Anabaptists) from its sources."
+        },
+        {
+          "id": "o3",
+          "text": "Apply to self-defense, policing and modern warfare."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 5:38-48",
+        "Romans 12:17-13:7",
+        "Luke 3:14",
+        "Isaiah 2:2-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIX, chapters 7 and 12-13 (war and peace)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Second Part of the Second Part (II-II), Question 40 (war)"
+        },
+        {
+          "author": "Tertullian",
+          "title": "Apology",
+          "section": "Chapters 30-37 (Christians, the emperor and the refusal of violence)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Just war theory",
+          "definition": "Criteria for justly going to war (just cause, legitimate authority, right intention) and conduct in war."
+        },
+        {
+          "term": "Pacifism",
+          "definition": "Rejection of participation in war and violence."
+        },
+        {
+          "term": "Jus ad bellum / jus in bello",
+          "definition": "Justice of going to war / justice in the conduct of war."
+        },
+        {
+          "term": "Noncombatant immunity",
+          "definition": "Civilians must not be intentionally targeted."
+        }
+      ],
+      "discussion_questions": [
+        "Present the strongest case for just war and for Christian pacifism.",
+        "What does John the Baptist's instruction to soldiers (Luke 3:14) imply?",
+        "How do Romans 12:19 and 13:4 relate?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Aquinas's three conditions for a just war are legitimate authority, just cause and",
+          "options": [
+            "victory likely",
+            "right intention",
+            "papal approval",
+            "equal armies"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine describes the wise man as waging just wars",
+          "options": [
+            "with joy",
+            "with lamentation, because of the necessity",
+            "never",
+            "for glory"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "John the Baptist told soldiers to",
+          "options": [
+            "leave the army",
+            "not extort money or accuse falsely, and be content with their wages",
+            "fight Rome",
+            "become priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Isaiah 2:4 envisions nations beating swords into",
+          "options": [
+            "spears",
+            "plowshares",
+            "crowns",
+            "idols"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Romans 13:4 says the governing authority",
+          "options": [
+            "has no right to punish",
+            "does not bear the sword in vain",
+            "must be pacifist",
+            "is evil"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "State the strongest case for Christian pacifism.",
+          "answer_key": "Jesus' teaching to love enemies and not resist evil (Matt 5), his own nonviolence and the cross, the early church's widespread refusal of military service, the church as a distinct kingdom people, and the eschatological vision of peace (Isa 2) - as held by Anabaptists and others."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "State the strongest case for just war theory.",
+          "answer_key": "Love of neighbor may require protecting the innocent; the state is God's servant bearing the sword (Rom 13); soldiers are not told to leave service (Luke 3); war can be a tragic necessity restrained by strict criteria - as developed by Augustine and Aquinas."
+        }
+      ]
+    },
+    {
+      "id": "eth-10",
+      "title": "Justice, Race and Human Dignity",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate a biblical theology of justice (mishpat, tsedaqah)."
+        },
+        {
+          "id": "o2",
+          "text": "Address racism, slavery and reconciliation in the light of the gospel."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the church's calling to reconciliation and justice."
+        }
+      ],
+      "scripture_passages": [
+        "Amos 5:21-24",
+        "Acts 17:26",
+        "Galatians 3:28",
+        "Revelation 7:9"
+      ],
+      "library_readings": [
+        {
+          "author": "Lactantius",
+          "title": "The Divine Institutes",
+          "section": "Book V, chapters 14-15 (justice and human equality)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIX, chapter 15 (no one is by nature a slave of another; slavery is due to sin)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Reformation of Manners'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Mishpat",
+          "definition": "Justice - giving each their due, rectifying wrongs."
+        },
+        {
+          "term": "Tsedaqah",
+          "definition": "Righteousness - right relationships."
+        },
+        {
+          "term": "Racism",
+          "definition": "Prejudice or discrimination based on race, contrary to the imago Dei."
+        },
+        {
+          "term": "Reconciliation",
+          "definition": "Restoring broken relationships through Christ."
+        }
+      ],
+      "discussion_questions": [
+        "How does Augustine's statement that God did not make humans slaves of each other by nature challenge slavery?",
+        "How does Acts 17:26 ground human unity?",
+        "What does biblical justice require of churches today?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Acts 17:26 says God made from one man",
+          "options": [
+            "Israel only",
+            "every nation of mankind",
+            "the Greeks",
+            "the kings"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine taught that God did not intend rational creatures to have dominion over",
+          "options": [
+            "animals",
+            "other rational creatures (by nature)",
+            "the earth",
+            "themselves"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Lactantius argued that justice includes",
+          "options": [
+            "inequality by birth",
+            "equality - regarding all people as equals before God",
+            "wealth for the few",
+            "war"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Galatians 3:28 says in Christ there is neither Jew nor Greek, slave nor free, male and female, for",
+          "options": [
+            "the law rules all",
+            "you are all one in Christ Jesus",
+            "distinctions vanish entirely",
+            "Israel is replaced"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Mishpat is best translated",
+          "options": [
+            "mercy",
+            "justice",
+            "worship",
+            "wisdom"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How should the imago Dei shape Christian responses to racism?",
+          "answer_key": "All people share one origin and equal dignity as God's image-bearers; racism denies this and the gospel's reconciliation; the church must repent of racism, pursue justice and embody a multiethnic community (Rev 7:9)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is biblical justice?",
+          "answer_key": "Righteous relationships in community - fair treatment, honest courts, protection and provision for the vulnerable (widow, orphan, sojourner, poor), rectifying wrongs - grounded in God's character and fulfilled ultimately in Christ's kingdom."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on ONE ethical issue from this course (for example abortion, euthanasia, divorce, war and pacifism, wealth, truth-telling, race). Present the biblical data, at least two Christian positions from their own sources in the library (cite as Author, Title, section), apply an ethical method, and give a reasoned conclusion with pastoral implications."
+    },
+    {
+      "id": "eth-11",
+      "title": "Church, State and Political Engagement",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare models of church and state (Augustine's two cities, Luther's two kingdoms, Calvin's civil government, Anabaptist separation)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain religious liberty."
+        },
+        {
+          "id": "o3",
+          "text": "Develop principles for Christian political engagement."
+        }
+      ],
+      "scripture_passages": [
+        "Mark 12:13-17",
+        "Romans 13:1-7",
+        "Acts 5:27-32",
+        "1 Peter 2:13-17"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIX, chapters 17 and 21-26 (the two cities and the commonwealth)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 20 (civil government)"
+        },
+        {
+          "author": "Tertullian",
+          "title": "Apology",
+          "section": "Chapters 28-33 (prayer for the emperor, not worship of him)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Two kingdoms",
+          "definition": "Luther's distinction between God's spiritual rule through the gospel and civil rule through law."
+        },
+        {
+          "term": "Religious liberty",
+          "definition": "Freedom of conscience and worship."
+        },
+        {
+          "term": "Civil disobedience",
+          "definition": "Refusing unjust laws out of obedience to God (Acts 5:29)."
+        },
+        {
+          "term": "Common good",
+          "definition": "The flourishing of the whole community."
+        }
+      ],
+      "discussion_questions": [
+        "What does 'render to Caesar' teach about political authority?",
+        "When is civil disobedience required (Acts 5:29)?",
+        "Compare Calvin's and Anabaptist views of Christians in government."
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jesus said, 'Render to Caesar the things that are Caesar's, and",
+          "options": [
+            "to Moses what is his'",
+            "to God the things that are God's'",
+            "keep the rest'",
+            "to the poor what is theirs'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Acts 5:29 Peter says, 'We must obey",
+          "options": [
+            "the high priest'",
+            "God rather than men'",
+            "Caesar'",
+            "the elders'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Tertullian said Christians pray for the emperor but will not",
+          "options": [
+            "pay taxes",
+            "sacrifice to him or call him god",
+            "obey laws",
+            "honor him"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Calvin called civil magistrates",
+          "options": [
+            "servants of Satan",
+            "God's vicegerents whose office is holy",
+            "unnecessary for Christians",
+            "church officers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Peter 2:17 commands, 'Fear God.",
+          "options": [
+            "Resist the king.'",
+            "Honor the emperor.'",
+            "Ignore rulers.'",
+            "Worship the king.'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare Luther's two kingdoms with the Anabaptist view.",
+          "answer_key": "Luther - God rules through two means: the gospel in the church and the sword/law in the civil realm; Christians may serve as magistrates and soldiers. Anabaptists - the church is a separate community following Christ's nonviolent way; Christians should not bear the sword or hold coercive office."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give principles for Christian political engagement.",
+          "answer_key": "Honor and pray for authorities; seek the common good and justice; defend religious liberty; speak prophetically; obey God rather than men when laws require sin; avoid identifying the gospel with a party; engage with humility and love of neighbor."
+        }
+      ]
+    },
+    {
+      "id": "eth-12",
+      "title": "Creation Care, Technology and the Future",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate a theology of creation care (dominion as stewardship)."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate ethical questions of technology (digital life, AI, bioengineering)."
+        },
+        {
+          "id": "o3",
+          "text": "Integrate the course into a personal ethic grounded in the gospel and hope."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:26-31",
+        "Psalm 24:1",
+        "Romans 8:19-23",
+        "Colossians 1:19-20"
+      ],
+      "library_readings": [
+        {
+          "author": "Basil of Caesarea",
+          "title": "On the Holy Spirit",
+          "section": "Chapter 16 (the Spirit and the perfecting of creation)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XXII, chapter 24 (the goods God gives, including human ingenuity and the arts)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Good Steward'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Stewardship",
+          "definition": "Caring for creation as God's property entrusted to humans."
+        },
+        {
+          "term": "Dominion",
+          "definition": "Humanity's royal vocation (Gen 1:28), understood as care, not exploitation."
+        },
+        {
+          "term": "Technology",
+          "definition": "Human making, a good capacity that can be misused."
+        },
+        {
+          "term": "New creation",
+          "definition": "The redemption of the whole created order (Rom 8:21)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Psalm 24:1 shape attitudes to creation?",
+        "How does Augustine celebrate human ingenuity while noting its misuse?",
+        "What ethical questions does AI raise for Christians?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Psalm 24:1 says, 'The earth is the LORD's and",
+          "options": [
+            "the heavens are ours'",
+            "the fullness thereof'",
+            "man may use it freely'",
+            "it will pass away'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Romans 8:21 says creation will be set free from its bondage to",
+          "options": [
+            "humans",
+            "corruption",
+            "the law",
+            "angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'The Good Steward' teaches that we hold our goods",
+          "options": [
+            "as owners",
+            "as stewards accountable to God",
+            "for pleasure",
+            "for the church only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Augustine in City of God XXII.24 marvels at human",
+          "options": [
+            "sinfulness only",
+            "inventions and arts, even while noting their misuse",
+            "political systems",
+            "wealth"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Dominion in Genesis 1:28 is best understood as",
+          "options": [
+            "exploitation",
+            "responsible rule reflecting God's care",
+            "worship of nature",
+            "abandonment"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the biblical basis for creation care?",
+          "answer_key": "Creation belongs to God and is good (Ps 24:1; Gen 1); humans are appointed stewards to work and keep it (Gen 2:15); sin damages creation; Christ's redemption extends to all creation (Rom 8; Col 1:20), so caring for creation anticipates the new creation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should Christians evaluate new technologies?",
+          "answer_key": "As expressions of the creative image of God that can serve love and the common good, but also as tools that shape us and can be idolatrous or harmful; evaluate by their effects on human dignity, relationships, justice, truth and worship."
+        }
+      ]
+    }
+  ]
+}

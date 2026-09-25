@@ -1,0 +1,1664 @@
+{
+  "id": "spiritual-warfare",
+  "title": "Spiritual Warfare and Deliverance",
+  "tier": 5,
+  "tier_name": "Ministry",
+  "description": "An elective course on the biblical teaching about Satan, demons and the believer's spiritual warfare, and on the church's ministry of deliverance. Students study the Old and New Testament data, Christ's victory over the powers, the armor of God, the patristic and medieval traditions (Antony, Cassian, Tertullian, Justin, the baptismal exorcisms), Reformation and Wesleyan perspectives, and contemporary charismatic practice - alongside the cautions raised by critics. The course stresses pastoral wisdom, accountability, care for the vulnerable, and partnership with medical and mental-health professionals.",
+  "prerequisites": [
+    "pneumatology"
+  ],
+  "elective": true,
+  "lessons": [
+    {
+      "id": "sw-01",
+      "title": "A Biblical Worldview of the Unseen Realm",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the biblical picture of the spiritual realm (God, angels, Satan, demons)."
+        },
+        {
+          "id": "o2",
+          "text": "Avoid the twin errors of disbelief and unhealthy fascination."
+        },
+        {
+          "id": "o3",
+          "text": "Explain God's absolute sovereignty over all spiritual powers."
+        }
+      ],
+      "scripture_passages": [
+        "Job 1:6-12",
+        "Daniel 10:12-14",
+        "Ephesians 6:10-12",
+        "Colossians 1:16"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book IX, chapters 1-3 and 19-23 (good and evil angels and demons)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 14, sections 13-19 (devils)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Questions 63-64 (the sin and punishment of the demons)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Satan",
+          "definition": "'Adversary', the chief of the fallen angels."
+        },
+        {
+          "term": "Demons",
+          "definition": "Fallen spiritual beings opposed to God and his people."
+        },
+        {
+          "term": "Principalities and powers",
+          "definition": "Spiritual rulers and authorities (Eph 6:12)."
+        },
+        {
+          "term": "Dualism",
+          "definition": "The error that good and evil are equal, opposing forces."
+        }
+      ],
+      "discussion_questions": [
+        "What does Job 1 reveal about the limits of Satan's power?",
+        "What does Daniel 10 suggest about spiritual conflict behind nations?",
+        "Why is dualism incompatible with biblical faith?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Job 1 Satan can act against Job only",
+          "options": [
+            "freely",
+            "within limits God permits",
+            "if Job sins",
+            "at night"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Ephesians 6:12 says our struggle is not against flesh and blood but against",
+          "options": [
+            "governments",
+            "rulers, authorities, cosmic powers and spiritual forces of evil",
+            "unbelievers",
+            "our bodies only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Calvin warns that we should know about the devil in order to",
+          "options": [
+            "fear him constantly",
+            "be on guard and fight with confidence in God",
+            "speculate",
+            "communicate with him"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Dualism teaches that good and evil are",
+          "options": [
+            "unequal",
+            "equal and opposite ultimate powers",
+            "illusions",
+            "created by humans"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aquinas teaches that the demons sinned by",
+          "options": [
+            "lust",
+            "pride - desiring to be like God by their own power",
+            "ignorance",
+            "hunger"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the two opposite errors regarding demons.",
+          "answer_key": "Disbelief - denying the reality of personal evil powers (naturalism); fascination - excessive interest, seeing demons behind everything, fear, or dealing with occult powers. Both please the enemy; Scripture calls for sober awareness and trust in Christ."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does God's sovereignty shape spiritual warfare?",
+          "answer_key": "Satan and demons are creatures, not equals; they operate only within God's permission; Christ has defeated them; believers fight from victory, not for it, trusting God rather than fearing evil."
+        }
+      ]
+    },
+    {
+      "id": "sw-02",
+      "title": "Satan and Demons in the Old Testament and Judaism",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Survey Old Testament texts on the serpent, the satan, evil spirits and the gods of the nations."
+        },
+        {
+          "id": "o2",
+          "text": "Discuss Isaiah 14 and Ezekiel 28 and their interpretation."
+        },
+        {
+          "id": "o3",
+          "text": "Describe Second Temple developments (angelology, demonology)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 3:1-15",
+        "1 Samuel 16:14-23",
+        "Deuteronomy 32:15-17",
+        "Zechariah 3:1-5"
+      ],
+      "library_readings": [
+        {
+          "author": "Origen",
+          "title": "De Principiis",
+          "section": "Book I, chapter 5 (on rational natures and the fall of the devil, with Isaiah 14 and Ezekiel 28)"
+        },
+        {
+          "author": "Tertullian",
+          "title": "Apology",
+          "section": "Chapters 22-23 (the existence and work of demons)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Zechariah, chapter 3"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "The satan",
+          "definition": "'The adversary' - an accuser in the heavenly court (Job, Zechariah)."
+        },
+        {
+          "term": "Evil spirit from the LORD",
+          "definition": "A spirit sent under God's sovereignty (1 Sam 16:14)."
+        },
+        {
+          "term": "Shedim",
+          "definition": "Demons to whom Israel sacrificed (Deut 32:17)."
+        },
+        {
+          "term": "Lucifer",
+          "definition": "The Latin rendering of 'morning star' in Isaiah 14:12, traditionally applied to Satan's fall."
+        }
+      ],
+      "discussion_questions": [
+        "Should Isaiah 14 and Ezekiel 28 be read as describing Satan's fall? Weigh the arguments.",
+        "What does Deuteronomy 32:17 reveal about idolatry?",
+        "How does Zechariah 3 portray the Lord's rebuke of the accuser?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Deuteronomy 32:17 says Israel sacrificed to",
+          "options": [
+            "angels",
+            "demons that were no gods",
+            "the sun",
+            "Baal only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Zechariah 3 Satan stands to accuse",
+          "options": [
+            "Zerubbabel",
+            "Joshua the high priest",
+            "Zechariah",
+            "Israel's king"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The name 'Lucifer' comes from the Latin rendering of",
+          "options": [
+            "Job 1",
+            "Isaiah 14:12 ('morning star')",
+            "Genesis 3",
+            "Revelation 12"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Tertullian taught that demons",
+          "options": [
+            "do not exist",
+            "deceive people through false worship, oracles and disease",
+            "are gods",
+            "help humanity"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In 1 Samuel 16, Saul's distress was relieved when",
+          "options": [
+            "Samuel prayed",
+            "David played the lyre",
+            "he fasted",
+            "he offered sacrifice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Present the arguments about Isaiah 14 and Ezekiel 28.",
+          "answer_key": "Traditional view (Origen, many Fathers) - these taunts over the kings of Babylon and Tyre look beyond them to the fall of Satan (pride, cast from heaven, cherub in Eden). Many modern interpreters - they are poetic taunts over human kings using mythic imagery; the NT does not directly apply them to Satan, though Luke 10:18 and Revelation 12 speak of his fall."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How is Satan portrayed in the Old Testament?",
+          "answer_key": "Sparingly - as the serpent deceiver (Gen 3, as the NT identifies), the accuser in the heavenly court (Job, Zech 3), and the inciter (1 Chr 21:1), always under God's sovereignty; idolatry is linked with demons."
+        }
+      ]
+    },
+    {
+      "id": "sw-03",
+      "title": "Jesus and the Demons - The Kingdom Advances",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Analyze Jesus' temptation and exorcisms in the Gospels."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the exorcisms as signs of the kingdom (Matthew 12:28)."
+        },
+        {
+          "id": "o3",
+          "text": "Note Jesus' methods (authority of his word) and their differences from contemporary exorcists."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 4:1-11",
+        "Mark 1:21-28",
+        "Mark 5:1-20",
+        "Matthew 12:22-29"
+      ],
+      "library_readings": [
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book III (the healing of the demonized in Capernaum and Gadara) and Appendix on Jewish demonology"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "Second Apology",
+          "section": "Chapter 6 (demons subject to the name of Jesus)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Mark, chapter 5"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Exorcism",
+          "definition": "Expelling demons."
+        },
+        {
+          "term": "Authority (exousia)",
+          "definition": "Jesus' power to command demons by his word."
+        },
+        {
+          "term": "Demonization",
+          "definition": "Being under the influence or control of a demon (daimonizomai)."
+        },
+        {
+          "term": "Binding the strong man",
+          "definition": "Jesus' parable of overcoming Satan (Matt 12:29)."
+        }
+      ],
+      "discussion_questions": [
+        "How did Jesus overcome Satan's temptations?",
+        "What did the crowds notice about Jesus' authority in Mark 1:27?",
+        "What does the Gerasene demoniac's restoration show?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jesus answered each temptation with",
+          "options": [
+            "a miracle",
+            "'It is written' - Scripture",
+            "silence",
+            "angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Mark 1:27 the people marveled that Jesus commands even the unclean spirits and",
+          "options": [
+            "they argue",
+            "they obey him",
+            "they flee to the temple",
+            "they ignore him"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The man in Mark 5 was restored and found",
+          "options": [
+            "still in chains",
+            "sitting, clothed and in his right mind",
+            "in the tombs",
+            "in the lake"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Jesus' exorcisms show, according to Matthew 12:28, that",
+          "options": [
+            "Satan is divided",
+            "the kingdom of God has come upon you",
+            "the law is ended",
+            "he is Beelzebul"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Justin told the Romans that demons are exorcised in the name of",
+          "options": [
+            "the emperor",
+            "Jesus Christ, crucified under Pontius Pilate",
+            "the gods",
+            "the apostles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What distinguished Jesus' exorcisms from those of his contemporaries?",
+          "answer_key": "He cast out demons by his own word and authority without elaborate rituals, incantations or appeals to other powers; the demons recognized and obeyed him; they signaled the arrival of God's kingdom and the binding of Satan."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why are Jesus' exorcisms signs of the kingdom?",
+          "answer_key": "They show God's reign breaking in, Satan's house being plundered by the stronger one, and people liberated and restored - anticipating Christ's decisive victory at the cross."
+        }
+      ]
+    },
+    {
+      "id": "sw-04",
+      "title": "The Cross and Christ's Victory over the Powers",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the Christus Victor dimension of the atonement."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret Colossians 2:15, Hebrews 2:14-15 and 1 John 3:8."
+        },
+        {
+          "id": "o3",
+          "text": "Apply Christ's victory to believers' identity and security."
+        }
+      ],
+      "scripture_passages": [
+        "Colossians 2:13-15",
+        "Hebrews 2:14-15",
+        "1 John 3:8",
+        "John 12:31-32"
+      ],
+      "library_readings": [
+        {
+          "author": "Athanasius",
+          "title": "On the Incarnation of the Word",
+          "section": "Sections 25 and 27-29 (the cross and the defeat of the demons)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book V, chapter 21 (Christ's victory over the devil)"
+        },
+        {
+          "author": "Gregory of Nazianzus",
+          "title": "Theological Orations",
+          "section": "The Fourth Theological Oration (Oration 30, Christ's titles and work)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Christus Victor",
+          "definition": "Christ's triumph over sin, death and the devil."
+        },
+        {
+          "term": "Triumph",
+          "definition": "Colossians 2:15's image of a victory procession."
+        },
+        {
+          "term": "Fear of death",
+          "definition": "The bondage Christ breaks (Heb 2:15)."
+        },
+        {
+          "term": "Ruler of this world",
+          "definition": "Satan, cast out through the cross (John 12:31)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Athanasius explain that the cross cleared the air of demons?",
+        "How does forgiveness (Col 2:13-14) disarm the powers (2:15)?",
+        "What difference does Christ's victory make for fearful believers?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Colossians 2:15 says Christ disarmed the rulers and authorities and put them to open shame by",
+          "options": [
+            "his teaching",
+            "triumphing over them in him (the cross)",
+            "his miracles",
+            "his baptism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Hebrews 2:14 says through death Christ destroyed",
+          "options": [
+            "the law",
+            "the one who has the power of death, that is, the devil",
+            "the temple",
+            "Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 John 3:8 says the Son of God appeared to",
+          "options": [
+            "judge the world",
+            "destroy the works of the devil",
+            "found a religion",
+            "rebuild Israel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Athanasius argued that Christ died in the air (on the cross) to",
+          "options": [
+            "be seen",
+            "clear the air of evil spirits and open the way to heaven",
+            "avoid the ground",
+            "fulfill Roman law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In John 12:31 Jesus says now will the ruler of this world",
+          "options": [
+            "rule",
+            "be cast out",
+            "repent",
+            "be worshiped"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does forgiveness relate to Christ's victory over the powers?",
+          "answer_key": "The powers accuse and hold humanity through sin and the record of debt; by canceling that record at the cross (Col 2:14), Christ removes the ground of their accusation, disarming them (2:15)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Christ's victory shape the believer's identity?",
+          "answer_key": "Believers are united to the victorious Christ, seated with him (Eph 2:6), freed from the fear of death and Satan's accusations, and fight from a position of victory with confidence and humility."
+        }
+      ]
+    },
+    {
+      "id": "sw-05",
+      "title": "The Armor of God",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Exegete Ephesians 6:10-20 in context."
+        },
+        {
+          "id": "o2",
+          "text": "Explain each piece of armor and its Old Testament background (Isaiah 11; 59)."
+        },
+        {
+          "id": "o3",
+          "text": "Apply the armor practically (truth, righteousness, gospel, faith, salvation, Word, prayer)."
+        }
+      ],
+      "scripture_passages": [
+        "Ephesians 6:10-20",
+        "Isaiah 59:15-17",
+        "Isaiah 11:4-5",
+        "James 4:7-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Ephesians, chapter 6"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Satan's Devices'"
+        },
+        {
+          "author": "John Cassian",
+          "title": "Conferences",
+          "section": "Conference 7 (on the changeableness of the soul and spiritual wickedness)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Stand",
+          "definition": "Ephesians 6's repeated command - holding ground in Christ."
+        },
+        {
+          "term": "Divine armor",
+          "definition": "The armor God himself wears in Isaiah 59, given to believers."
+        },
+        {
+          "term": "Sword of the Spirit",
+          "definition": "The word of God (Eph 6:17)."
+        },
+        {
+          "term": "Praying in the Spirit",
+          "definition": "Constant, alert prayer (Eph 6:18)."
+        }
+      ],
+      "discussion_questions": [
+        "Why is the armor described as God's own armor (Isaiah 59)?",
+        "What 'devices' of Satan does Wesley expose?",
+        "How is prayer connected to the armor?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Ephesians 6:17 identifies the sword of the Spirit as",
+          "options": [
+            "tongues",
+            "the word of God",
+            "prophecy",
+            "faith"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The shield of faith extinguishes",
+          "options": [
+            "doubts only",
+            "all the flaming darts of the evil one",
+            "the law",
+            "persecution"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "James 4:7 says, 'Submit yourselves therefore to God. Resist the devil, and",
+          "options": [
+            "he will fight harder'",
+            "he will flee from you'",
+            "pray all night'",
+            "rebuke him'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Isaiah 59:17 pictures the LORD putting on",
+          "options": [
+            "a crown",
+            "righteousness as a breastplate and a helmet of salvation",
+            "sackcloth",
+            "priestly garments"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Wesley's 'Satan's Devices' shows how Satan seeks especially to",
+          "options": [
+            "cause illness",
+            "rob believers of joy and peace and hinder their pursuit of holiness",
+            "make them rich",
+            "possess churches"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the pieces of the armor of God.",
+          "answer_key": "Belt of truth (integrity and God's truth), breastplate of righteousness (Christ's righteousness and upright living), shoes of the gospel of peace (readiness), shield of faith (trust against the enemy's attacks), helmet of salvation (assurance), sword of the Spirit (Scripture), all accompanied by prayer."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does it mean to 'stand' in Ephesians 6?",
+          "answer_key": "To hold firm in the victory Christ has won - resisting temptation, deception and accusation - in the strength of the Lord, with the community of believers, rather than advancing by our own power."
+        }
+      ]
+    },
+    {
+      "id": "sw-06",
+      "title": "The Nature of Spiritual Attack - Temptation, Deception and Accusation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the main strategies of the enemy (temptation, deception, accusation, persecution)."
+        },
+        {
+          "id": "o2",
+          "text": "Distinguish the flesh, the world and the devil."
+        },
+        {
+          "id": "o3",
+          "text": "Draw on the desert fathers' wisdom about thoughts (logismoi)."
+        }
+      ],
+      "scripture_passages": [
+        "2 Corinthians 2:10-11",
+        "2 Corinthians 11:3-15",
+        "1 Peter 5:8-9",
+        "Revelation 12:10-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Athanasius",
+          "title": "Life of Antony",
+          "section": "Chapters 21-43 (Antony's discourse on the wiles of the demons)"
+        },
+        {
+          "author": "John Cassian",
+          "title": "Conferences",
+          "section": "Conference 8 (on principalities)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 114 (the assaults of the demons)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Temptation",
+          "definition": "Enticement to sin."
+        },
+        {
+          "term": "Accuser",
+          "definition": "Satan's role of condemning believers (Rev 12:10)."
+        },
+        {
+          "term": "Logismoi",
+          "definition": "The desert fathers' term for tempting thoughts."
+        },
+        {
+          "term": "World, flesh and devil",
+          "definition": "The three enemies of the Christian life."
+        }
+      ],
+      "discussion_questions": [
+        "What practical advice does Antony give about demonic attacks?",
+        "How does Aquinas relate demonic temptation to human free will?",
+        "How do believers overcome the accuser (Rev 12:11)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 11:14 says Satan disguises himself as",
+          "options": [
+            "a lion",
+            "an angel of light",
+            "a serpent",
+            "a king"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 Peter 5:8 compares the devil to",
+          "options": [
+            "a serpent",
+            "a roaring lion seeking someone to devour",
+            "a thief",
+            "a wolf"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Antony taught his monks that demons",
+          "options": [
+            "are all-powerful",
+            "are weak before Christ and fear the sign of the cross, prayer and fasting",
+            "should be feared",
+            "cannot tempt monks"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Aquinas teaches that demons cannot",
+          "options": [
+            "tempt at all",
+            "compel the human will to sin",
+            "exist",
+            "affect the body"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Revelation 12:11 says believers conquered the accuser by",
+          "options": [
+            "arguments",
+            "the blood of the Lamb and the word of their testimony",
+            "exorcism rituals",
+            "silence"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Distinguish the world, the flesh and the devil.",
+          "answer_key": "The world - human society organized in rebellion against God; the flesh - our own sinful nature and desires; the devil - personal spiritual enemy who tempts, deceives and accuses; all three interact, and not every temptation is directly demonic."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What wisdom does Antony give about demonic attacks?",
+          "answer_key": "Demons are weak and defeated by Christ; they use fear, fantasies and false humility; believers should not fear them but pray, fast, make the sign of the cross, discern spirits by their effects (peace vs confusion) and rely on Christ."
+        }
+      ]
+    },
+    {
+      "id": "sw-07",
+      "title": "Can Christians Be Demonized? Views and Evidence",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare views on whether Christians can be demon-possessed or demonized."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate biblical texts and historical practice."
+        },
+        {
+          "id": "o3",
+          "text": "Develop a pastorally careful position."
+        }
+      ],
+      "scripture_passages": [
+        "1 John 4:4",
+        "1 John 5:18",
+        "Ephesians 4:26-27",
+        "Acts 5:3"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XXII, chapter 8 (healings and deliverances among believers)"
+        },
+        {
+          "author": "Tertullian",
+          "title": "Apology",
+          "section": "Chapter 23 (the power of Christians over demons)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 2 (exorcists and the ministry of exorcism in the early church)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Possession",
+          "definition": "Full control of a person by a demon (a term debated as a translation)."
+        },
+        {
+          "term": "Oppression / influence",
+          "definition": "Lesser forms of demonic affliction."
+        },
+        {
+          "term": "Foothold (topos)",
+          "definition": "An opportunity given to the devil (Eph 4:27)."
+        },
+        {
+          "term": "Indwelling Spirit",
+          "definition": "The Holy Spirit's presence in believers."
+        }
+      ],
+      "discussion_questions": [
+        "Does the Spirit's indwelling make demonization impossible? Weigh the arguments.",
+        "How does Ephesians 4:27 bear on the question?",
+        "What pastoral dangers arise from each view?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 John 4:4 says he who is in you is greater than",
+          "options": [
+            "the law",
+            "he who is in the world",
+            "your enemies",
+            "the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Ephesians 4:27 warns, 'give no opportunity (foothold) to",
+          "options": [
+            "the world'",
+            "the devil'",
+            "the flesh'",
+            "false teachers'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Greek verb daimonizomai is best translated",
+          "options": [
+            "possessed",
+            "demonized / under demonic influence",
+            "healed",
+            "blessed"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Acts 5:3 Peter asks Ananias why Satan has",
+          "options": [
+            "possessed you",
+            "filled your heart to lie to the Holy Spirit",
+            "taken your money",
+            "killed you"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Tertullian claimed that a Christian could make a demon",
+          "options": [
+            "worship",
+            "confess its true nature before a Roman tribunal",
+            "disappear forever",
+            "possess someone else"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Present the main views on whether Christians can be demonized.",
+          "answer_key": "No - believers are indwelt by the Spirit and belong to Christ, so a demon cannot inhabit them (1 John 5:18); yes, partially - Christians can be oppressed or influenced (demonized) in areas of sin or trauma, though not owned; many distinguish 'possession' (ownership) from 'demonization/oppression'."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What pastoral dangers must be avoided in this debate?",
+          "answer_key": "Blaming all problems on demons (neglecting personal responsibility and medical/psychological causes), producing fear, spiritual abuse, or on the other side dismissing genuine spiritual oppression; care must be humble, balanced and accountable."
+        }
+      ]
+    },
+    {
+      "id": "sw-08",
+      "title": "Deliverance in Church History",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe exorcism in the early church (baptismal exorcisms, the order of exorcist)."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize medieval, Reformation and Wesleyan practices and cautions."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate what the church can learn from its history."
+        }
+      ],
+      "scripture_passages": [
+        "Mark 16:17",
+        "Acts 16:16-18",
+        "Acts 19:11-20"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 30 and 85 (demons subject to the name of Jesus)"
+        },
+        {
+          "author": "Cyril of Jerusalem",
+          "title": "Catechetical Lectures",
+          "section": "Procatechesis 9 and Lecture 16, chapter 19 (exorcisms in preparation for baptism)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 2 (exorcism in the ante-Nicene church)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Baptismal exorcism",
+          "definition": "Prayers renouncing the devil before baptism."
+        },
+        {
+          "term": "Order of exorcist",
+          "definition": "A minor order of the early and medieval church."
+        },
+        {
+          "term": "Renunciation",
+          "definition": "'I renounce Satan and all his works' in baptism."
+        },
+        {
+          "term": "Sons of Sceva",
+          "definition": "Would-be exorcists overpowered in Acts 19."
+        }
+      ],
+      "discussion_questions": [
+        "Why did the early church include exorcisms and renunciations in baptismal preparation?",
+        "What does the Sons of Sceva episode teach about authority?",
+        "How did the Reformers modify exorcism practices?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Acts 16:18 Paul cast out a spirit of divination from a slave girl by commanding it",
+          "options": [
+            "with holy water",
+            "in the name of Jesus Christ",
+            "through a ritual",
+            "after a fast"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The sons of Sceva were overpowered because they",
+          "options": [
+            "prayed too long",
+            "used Jesus' name without knowing him",
+            "used oil",
+            "were Greeks"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Cyril of Jerusalem describes exorcisms as part of",
+          "options": [
+            "funerals",
+            "preparation for baptism",
+            "ordination",
+            "marriage"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Justin says demons are subject to",
+          "options": [
+            "philosophers",
+            "the name of Jesus",
+            "the emperor",
+            "the temple priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The renunciation of Satan in early baptismal rites expressed",
+          "options": [
+            "fear",
+            "a turning from the devil's rule to Christ",
+            "magic",
+            "optional devotion"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What role did exorcism play in the early church?",
+          "answer_key": "Believers cast out demons in Jesus' name, as apologists boasted; catechumens underwent exorcisms and renounced Satan before baptism; a minor order of exorcists developed; deliverance was part of conversion and initiation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What lessons does church history offer about deliverance ministry?",
+          "answer_key": "Authority lies in Christ's name and faith, not ritual; deliverance belongs in the context of conversion, baptism, discipleship and the church; excesses and superstition must be avoided; order and accountability matter."
+        }
+      ]
+    },
+    {
+      "id": "sw-09",
+      "title": "Contemporary Deliverance Ministry - Models and Critiques",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe contemporary deliverance models (power encounter, truth encounter, 'territorial spirits')."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate them biblically and pastorally, including critiques."
+        },
+        {
+          "id": "o3",
+          "text": "Identify common errors (demon behind every problem, manipulation, spectacle)."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 10:17-20",
+        "2 Corinthians 10:3-5",
+        "John 8:31-36",
+        "Acts 19:18-20"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Of Evil Angels'"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 14, sections 13-18"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book X, chapters 9-11 (theurgy and magic contrasted with true worship)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Power encounter",
+          "definition": "Confrontation demonstrating God's power over evil."
+        },
+        {
+          "term": "Truth encounter",
+          "definition": "Freedom through believing the truth of the gospel (John 8:32)."
+        },
+        {
+          "term": "Territorial spirits",
+          "definition": "The debated idea of spirits ruling geographical regions."
+        },
+        {
+          "term": "Spiritual mapping",
+          "definition": "A contested practice of identifying territorial spirits."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Jesus tell the seventy not to rejoice that spirits submit (Luke 10:20)?",
+        "Evaluate the strengths and weaknesses of power-encounter and truth-encounter approaches.",
+        "What critiques have been raised about 'territorial spirits' teaching?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Luke 10:20 Jesus says rejoice not that spirits submit but that",
+          "options": [
+            "you are powerful",
+            "your names are written in heaven",
+            "you will be famous",
+            "the kingdom has come"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Acts 19:19 new believers at Ephesus",
+          "options": [
+            "kept their magic books",
+            "burned their books of magic",
+            "sold them to others",
+            "gave them to Paul"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The 'truth encounter' model emphasizes",
+          "options": [
+            "loud confrontation",
+            "freedom through believing and applying gospel truth",
+            "rituals",
+            "naming spirits"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'Of Evil Angels' teaches believers to",
+          "options": [
+            "ignore evil angels",
+            "be aware of their devices and resist in faith",
+            "fear them",
+            "seek them out"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine contrasts Christian worship with theurgy, which he regarded as",
+          "options": [
+            "a harmless practice",
+            "involvement with demons through magic rites",
+            "Christian prayer",
+            "philosophy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Evaluate the power-encounter and truth-encounter approaches.",
+          "answer_key": "Power encounter rightly recognizes demonic reality and Christ's authority (as in the Gospels) but can become sensational, manipulative or focused on demons; truth encounter rightly centers on the gospel, repentance and truth (John 8:32; Eph 6), but can neglect genuine manifestations; wise ministry combines them in a Christ-centered way."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What critiques have been raised against 'territorial spirits' and spiritual mapping?",
+          "answer_key": "Little explicit biblical warrant for strategies to identify and bind regional spirits; the NT's mission strategy is preaching, prayer and holiness; risks of speculation, fear and a quasi-magical approach; supporters cite Daniel 10 and Ephesians 6."
+        }
+      ]
+    },
+    {
+      "id": "sw-10",
+      "title": "The Practice of Deliverance - Pastoral Guidelines",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe a careful, accountable process for deliverance prayer."
+        },
+        {
+          "id": "o2",
+          "text": "Integrate repentance, renunciation, forgiveness and discipleship."
+        },
+        {
+          "id": "o3",
+          "text": "Establish safeguards (team ministry, consent, confidentiality, avoiding harm)."
+        }
+      ],
+      "scripture_passages": [
+        "James 5:13-16",
+        "Galatians 6:1-2",
+        "Mark 9:14-29",
+        "2 Timothy 2:24-26"
+      ],
+      "library_readings": [
+        {
+          "author": "Athanasius",
+          "title": "Life of Antony",
+          "section": "Chapters 63-64 and 80 (Antony's gentle deliverance prayers and humility)"
+        },
+        {
+          "author": "John Cassian",
+          "title": "Conferences",
+          "section": "Conference 7, chapters 23-27 (the power of demons limited by God)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapters 1-2 (wise and adapted pastoral care)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Informed consent",
+          "definition": "The person's agreement to prayer ministry."
+        },
+        {
+          "term": "Team ministry",
+          "definition": "Deliverance prayer with at least two mature, accountable believers."
+        },
+        {
+          "term": "Renunciation",
+          "definition": "Verbally rejecting occult involvement and sin."
+        },
+        {
+          "term": "Aftercare",
+          "definition": "Ongoing discipleship and support after prayer."
+        }
+      ],
+      "discussion_questions": [
+        "What does Mark 9:29 ('this kind cannot be driven out except by prayer') teach?",
+        "How did Antony's humility shape his deliverance ministry?",
+        "What safeguards protect people from spiritual abuse in deliverance ministry?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Mark 9:29 Jesus says this kind can come out only by",
+          "options": [
+            "rituals",
+            "prayer",
+            "shouting",
+            "oil"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Antony, when people were delivered through his prayer, attributed it to",
+          "options": [
+            "himself",
+            "Christ alone, refusing praise",
+            "his fasting",
+            "his monastery"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "A basic safeguard for deliverance ministry is",
+          "options": [
+            "ministering alone in secret",
+            "praying in accountable teams with consent and oversight",
+            "physical force",
+            "public spectacle"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "2 Timothy 2:26 speaks of people escaping from",
+          "options": [
+            "the law",
+            "the snare of the devil, after being captured by him to do his will",
+            "Rome",
+            "their families"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aftercare in deliverance ministry means",
+          "options": [
+            "no further contact",
+            "ongoing discipleship, community and support",
+            "repeated exorcisms",
+            "medication only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Outline a careful pastoral process for deliverance prayer.",
+          "answer_key": "Assess carefully (spiritual, medical, psychological history; refer where needed); obtain consent; pray in a team under church oversight; lead in confession, repentance, renunciation of occult involvement and forgiveness of others; command any evil spirit to leave in Jesus' name calmly; pray for filling by the Spirit; provide aftercare and discipleship."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What errors should deliverance ministries avoid?",
+          "answer_key": "Attributing all problems to demons, neglecting medical/psychological care, physical coercion, spectacle, conversing at length with demons, fostering fear or dependence on the minister, and acting without accountability."
+        }
+      ]
+    },
+    {
+      "id": "sw-11",
+      "title": "Discernment - Spiritual, Medical and Psychological",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Distinguish demonic affliction from mental illness and medical conditions."
+        },
+        {
+          "id": "o2",
+          "text": "Partner with medical and mental-health professionals."
+        },
+        {
+          "id": "o3",
+          "text": "Avoid harm to vulnerable people."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 4:24",
+        "Mark 9:17-27",
+        "1 Thessalonians 5:21",
+        "1 Corinthians 12:10"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 111, Articles 3-4 (how angels and demons may affect bodily senses and imagination)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapters 20-24 (superstition and demonic arts)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Discernment of spirits",
+          "definition": "The spiritual gift of distinguishing spirits (1 Cor 12:10)."
+        },
+        {
+          "term": "Differential diagnosis",
+          "definition": "Considering various causes for symptoms."
+        },
+        {
+          "term": "Epilepsy and psychosis",
+          "definition": "Conditions sometimes misattributed to demons."
+        },
+        {
+          "term": "Collaborative care",
+          "definition": "Pastors and professionals working together."
+        }
+      ],
+      "discussion_questions": [
+        "Matthew 4:24 lists demon-oppressed, epileptics and paralytics separately. What does that suggest?",
+        "How should a church respond when someone attributes psychiatric symptoms to demons?",
+        "What does Augustine teach about superstition?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Matthew 4:24 distinguishes those oppressed by demons from",
+          "options": [
+            "no one else",
+            "epileptics and paralytics",
+            "tax collectors",
+            "Gentiles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "A wise pastor faced with symptoms like hallucinations should",
+          "options": [
+            "assume a demon",
+            "encourage medical and psychiatric evaluation while offering spiritual care",
+            "ignore them",
+            "perform an exorcism immediately"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine condemns superstitious practices as",
+          "options": [
+            "harmless folklore",
+            "agreements with demons and false signs",
+            "Christian traditions",
+            "medicine"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The gift of distinguishing between spirits is listed in",
+          "options": [
+            "Romans 12",
+            "1 Corinthians 12:10",
+            "Ephesians 4",
+            "1 Peter 4"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aquinas holds that demons can influence",
+          "options": [
+            "the will directly",
+            "the imagination and senses, though not compel the will",
+            "nothing physical",
+            "only animals"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is collaboration with medical and mental-health professionals essential?",
+          "answer_key": "Many symptoms (seizures, psychosis, depression, dissociation) have medical or psychological causes; misdiagnosis can cause great harm; Scripture itself distinguishes illness from demonization; wise care addresses the whole person."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give indicators that might lead a mature team to consider demonic involvement, and the cautions required.",
+          "answer_key": "Possible indicators include strong reaction to Christ's name, occult involvement, and phenomena not explained medically; but these are not conclusive, require discernment by mature believers and professionals, and must never replace medical care."
+        }
+      ]
+    },
+    {
+      "id": "sw-12",
+      "title": "Living Victoriously - Discipleship, Holiness and Mission",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Integrate spiritual warfare into ordinary discipleship (Word, prayer, sacraments, community, holiness)."
+        },
+        {
+          "id": "o2",
+          "text": "Teach a congregation about spiritual warfare responsibly."
+        },
+        {
+          "id": "o3",
+          "text": "Write a pastoral theology of spiritual warfare."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 16:20",
+        "1 John 5:4-5",
+        "Ephesians 6:18-20",
+        "Revelation 20:10"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Lord's Prayer, the Sixth and Seventh Petitions (lead us not into temptation; deliver us from evil)"
+        },
+        {
+          "author": "Athanasius",
+          "title": "Life of Antony",
+          "section": "Chapters 91-94 (Antony's last counsel)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapters 7-8 (the binding of Satan)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Deliver us from evil",
+          "definition": "The Lord's Prayer's petition (or 'from the evil one')."
+        },
+        {
+          "term": "Ordinary means",
+          "definition": "Word, prayer, sacraments and fellowship as weapons of warfare."
+        },
+        {
+          "term": "Final victory",
+          "definition": "Satan's ultimate defeat (Rev 20:10)."
+        },
+        {
+          "term": "Mission as warfare",
+          "definition": "Gospel proclamation freeing captives (Acts 26:18)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Luther interpret 'deliver us from evil'?",
+        "What does Antony's final counsel teach about perseverance?",
+        "How would you teach a congregation about spiritual warfare without fear or neglect?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 16:20 promises that the God of peace will soon",
+          "options": [
+            "remove all trials",
+            "crush Satan under your feet",
+            "end the church",
+            "judge Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 John 5:4 says the victory that has overcome the world is",
+          "options": [
+            "our strength",
+            "our faith",
+            "our knowledge",
+            "our church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Luther explains the final petition of the Lord's Prayer as asking the Father to",
+          "options": [
+            "make us rich",
+            "deliver us from every evil of body and soul, and at last grant a blessed end",
+            "punish enemies",
+            "explain suffering"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Revelation 20:10 describes the devil's final",
+          "options": [
+            "repentance",
+            "defeat - thrown into the lake of fire",
+            "rule",
+            "release"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The 'ordinary means' of spiritual warfare include",
+          "options": [
+            "secret rituals",
+            "Scripture, prayer, sacraments and Christian fellowship",
+            "charms",
+            "visions only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How is spiritual warfare part of ordinary discipleship?",
+          "answer_key": "Believers resist the devil by abiding in Christ - knowing and obeying Scripture, praying, participating in worship and sacraments, living in holy community, confessing sin, forgiving others, and bearing witness - not primarily through special techniques."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should a pastor teach a congregation about spiritual warfare?",
+          "answer_key": "Teach the reality of the enemy and Christ's victory; emphasize the armor of God and ordinary means; guard against fear, sensationalism and blaming everything on demons; provide careful, accountable care for those needing prayer; point to final victory."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word pastoral theology of spiritual warfare and deliverance. Include the biblical foundations, insights from church history (at least two library sources, such as Athanasius, Cassian, Justin, Tertullian, Calvin or Wesley; cite as Author, Title, section), a fair presentation of at least two contemporary approaches and their critics, and a set of pastoral guidelines with safeguards, including collaboration with medical and mental-health care."
+    }
+  ]
+}

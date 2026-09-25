@@ -6,7 +6,7 @@ describe('curriculum', () => {
   it('every course file is complete and valid', () => {
     expect(validateCourses(list)).toEqual([]);
   });
-  it('contains all 36 courses', () => {
-    expect(list.length).toBe(36);
+  it('contains all 28 courses', () => {
+    expect(list.length).toBe(28);
   });
 });

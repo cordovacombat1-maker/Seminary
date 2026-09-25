@@ -13,20 +13,37 @@ export interface Chunk {
   tokens: number;
 }
 
-export function chunkSections(sections: Section[], targetTokens = 800, overlapTokens = 100): Chunk[] {
+export function chunkSections(sections: Section[], targetTokens = 800, overlapTokens = 100, minTokens = 150): Chunk[] {
   const chunks: Chunk[] = [];
-  for (const sec of sections) {
+  // Short sections (brief chapters, letters, psalms) are carried forward and merged with the next one,
+  // so no text is lost and chunks stay a useful size. Merged chunks cite the range, e.g. "Psalm 1 – Psalm 3".
+  let carry: { refs: string[]; paras: string[] } | null = null;
+  const tokensOf = (ps: string[]) => ps.reduce((n, p) => n + approxTokens(p), 0);
+  sections.forEach((sec, si) => {
     const paras = sec.text
       .split(/\n\s*\n/)
       .map((p) => p.replace(/\s+/g, ' ').trim())
       .filter(Boolean)
       .flatMap((p) => splitLong(p, targetTokens));
+    let refs = [sec.ref];
     let buf: string[] = [];
-    let bufTokens = 0;
-    const flush = () => {
-      if (!buf.length) return;
+    if (carry) {
+      refs = [...carry.refs, sec.ref];
+      buf = [...carry.paras, sec.ref];
+      carry = null;
+    }
+    let bufTokens = tokensOf(buf);
+    let fresh = bufTokens; // tokens not already emitted as overlap
+    let flushed = false;
+    const refLabel = () => (refs.length > 1 ? `${refs[0]} – ${refs[refs.length - 1]}` : refs[0]);
+    const emit = () => {
       const content = buf.join('\n\n');
-      chunks.push({ sectionRef: sec.ref, content, tokens: approxTokens(content) });
+      chunks.push({ sectionRef: refLabel(), content, tokens: approxTokens(content) });
+    };
+    const flush = () => {
+      emit();
+      flushed = true;
+      refs = [sec.ref];
       // carry overlap: take trailing paragraphs/sentences up to overlapTokens
       const tail: string[] = [];
       let t = 0;
@@ -41,22 +58,20 @@ export function chunkSections(sections: Section[], targetTokens = 800, overlapTo
       }
       buf = tail;
       bufTokens = t;
+      fresh = 0;
     };
     for (const p of paras) {
       const pt = approxTokens(p);
-      if (bufTokens + pt > targetTokens && bufTokens > overlapTokens) flush();
+      if (bufTokens + pt > targetTokens && fresh > 0) flush();
       buf.push(p);
       bufTokens += pt;
+      fresh += pt;
     }
-    // final flush without overlap carry
-    if (buf.length && bufTokens > overlapTokens) {
-      const content = buf.join('\n\n');
-      chunks.push({ sectionRef: sec.ref, content, tokens: approxTokens(content) });
-    } else if (buf.length && chunks.length === 0) {
-      const content = buf.join('\n\n');
-      chunks.push({ sectionRef: sec.ref, content, tokens: approxTokens(content) });
-    }
-  }
+    if (fresh === 0) return;
+    const last = si === sections.length - 1;
+    if (!flushed && bufTokens < minTokens && !last) carry = { refs, paras: buf };
+    else emit();
+  });
   return chunks;
 }
 
@@ -99,9 +114,7 @@ export function splitIntoSections(text: string, fallbackRef = 'Text'): Section[]
   };
   const pushSection = () => {
     const t = cur.join('\n').trim();
-    if (t.length > 200) sections.push({ ref: curRef, text: t });
-    else if (t && sections.length) sections[sections.length - 1].text += '\n\n' + t;
-    else if (t) sections.push({ ref: curRef, text: t });
+    if (t) sections.push({ ref: curRef, text: t }); // short sections are merged later by chunkSections
     cur = [];
   };
   for (const raw of lines) {

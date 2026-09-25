@@ -1,0 +1,1625 @@
+{
+  "id": "homiletics",
+  "title": "Homiletics",
+  "tier": 5,
+  "tier_name": "Ministry",
+  "description": "The theology and practice of preaching. Students study the biblical basis and history of preaching, the preacher's character and calling, the movement from exegesis to sermon, sermon structure, illustration, application, delivery, and preaching different genres, the Christ-centered sermon, and preaching for different occasions. Drawing on Augustine's On Christian Doctrine Book IV, Chrysostom, Gregory the Great and Spurgeon's Lectures to My Students, students write and receive feedback on full sermon manuscripts.",
+  "prerequisites": [
+    "hermeneutics"
+  ],
+  "lessons": [
+    {
+      "id": "hom-01",
+      "title": "The Theology of Preaching",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain preaching as the proclamation of God's word (heralding)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the relationship between preaching, the Spirit and faith (Romans 10)."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the purposes of preaching (instruction, exhortation, evangelism, worship)."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 10:13-17",
+        "2 Timothy 4:1-5",
+        "1 Corinthians 2:1-5",
+        "Nehemiah 8:1-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 1-4 (the aim of the Christian teacher)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Book V, chapters 1-4 (the preacher and the pressure of the crowd)"
+        },
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "Second Series, 'The Holy Spirit in Connection with Our Ministry'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Kerygma",
+          "definition": "The proclamation of the gospel."
+        },
+        {
+          "term": "Homiletics",
+          "definition": "The study and practice of preaching."
+        },
+        {
+          "term": "Herald (kēryx)",
+          "definition": "One who proclaims a message on behalf of another."
+        },
+        {
+          "term": "Expository preaching",
+          "definition": "Preaching that makes the main point of a text the main point of the sermon."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Paul say 'faith comes from hearing' (Rom 10:17)?",
+        "What does Chrysostom say about preachers seeking praise?",
+        "How does Spurgeon describe the preacher's dependence on the Spirit?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 10:17 says faith comes from hearing, and hearing through",
+          "options": [
+            "miracles",
+            "the word of Christ",
+            "the law",
+            "visions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "2 Timothy 4:2 commands Timothy to",
+          "options": [
+            "write books",
+            "preach the word, in season and out of season",
+            "avoid controversy",
+            "build churches"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Paul says in 1 Corinthians 2:4 his message was not in plausible words of wisdom but in",
+          "options": [
+            "tongues",
+            "demonstration of the Spirit and of power",
+            "Greek rhetoric",
+            "silence"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Chrysostom warns that the preacher must be indifferent to",
+          "options": [
+            "Scripture",
+            "applause and praise",
+            "prayer",
+            "his congregation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Expository preaching makes the main point of the text",
+          "options": [
+            "optional",
+            "the main point of the sermon",
+            "an illustration",
+            "the introduction"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the theological significance of preaching?",
+          "answer_key": "Through the preached word God speaks and the Spirit creates and nourishes faith (Rom 10:14-17); the preacher is a herald of God's message, not his own ideas; preaching is a means of grace, central in worship."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is the preacher's dependence on the Spirit essential?",
+          "answer_key": "Only the Spirit gives understanding, power and fruit; without him preaching is mere words; preachers must pray, depend on him in preparation and delivery, and trust him with results (Spurgeon)."
+        }
+      ]
+    },
+    {
+      "id": "hom-02",
+      "title": "The Preacher - Calling and Character",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the call to preach and its tests."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the importance of the preacher's personal holiness and private prayer."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss guarding against pride, discouragement and burnout."
+        }
+      ],
+      "scripture_passages": [
+        "1 Timothy 4:12-16",
+        "Acts 20:28",
+        "2 Corinthians 4:1-7"
+      ],
+      "library_readings": [
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, 'The Minister's Self-Watch', 'The Call to the Ministry' and 'The Preacher's Private Prayer'"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part II, chapters 1-4"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Book III, chapters 10-14"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Inward call",
+          "definition": "The sense of desire and burden to preach."
+        },
+        {
+          "term": "Outward call",
+          "definition": "The church's recognition of gifts and character."
+        },
+        {
+          "term": "Self-watch",
+          "definition": "Guarding one's own soul and life (1 Tim 4:16)."
+        },
+        {
+          "term": "Minister's fainting fits",
+          "definition": "Spurgeon's term for pastoral depression."
+        }
+      ],
+      "discussion_questions": [
+        "What tests of a call to ministry does Spurgeon give?",
+        "Why does Gregory insist the preacher's life must match his words?",
+        "How can preachers guard against discouragement?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Timothy 4:16 says, 'Keep a close watch on yourself and",
+          "options": [
+            "your money'",
+            "on the teaching'",
+            "on the elders'",
+            "on your reputation'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Spurgeon's lecture 'The Minister's Self-Watch' stresses that the preacher must be",
+          "options": [
+            "eloquent",
+            "himself a converted, holy man",
+            "wealthy",
+            "learned in philosophy only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Gregory the Great warns that a pastor who teaches well but lives badly",
+          "options": [
+            "is still effective",
+            "destroys by his example what he builds by his words",
+            "should preach less",
+            "is normal"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 4:5 says, 'What we proclaim is not ourselves, but",
+          "options": [
+            "the law'",
+            "Jesus Christ as Lord'",
+            "our visions'",
+            "the church'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Spurgeon's lecture on the minister's fainting fits addresses",
+          "options": [
+            "physical illness only",
+            "seasons of depression in ministry",
+            "fasting",
+            "church discipline"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How can one discern a call to preach?",
+          "answer_key": "An intense, abiding desire for the work (not for status); aptitude for teaching and speaking; fruit in conversions and edification; godly character; and the confirmation of the church through its leaders and people (Spurgeon)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is the preacher's character so important?",
+          "answer_key": "The preacher's life commends or contradicts the message; hypocrisy harms the flock; God uses holy instruments; ministry flows from communion with God (Gregory, Spurgeon, 1 Tim 4:16)."
+        }
+      ]
+    },
+    {
+      "id": "hom-03",
+      "title": "History of Preaching",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Survey preaching from the synagogue and apostles through the Fathers, medieval friars, Reformers, Puritans and revivalists."
+        },
+        {
+          "id": "o2",
+          "text": "Identify the characteristics of great preachers (Chrysostom, Augustine, Luther, Calvin, Wesley, Whitefield, Spurgeon)."
+        },
+        {
+          "id": "o3",
+          "text": "Draw lessons for contemporary preaching."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 4:16-21",
+        "Acts 2:14-41",
+        "Acts 17:22-31"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 3 (preaching in the Nicene era: Chrysostom and Augustine)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "Preface (plain truth for plain people)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "First Apology",
+          "section": "Chapter 67 (reading and exhortation in early worship)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Homily",
+          "definition": "A sermon expounding a passage, as in the patristic tradition."
+        },
+        {
+          "term": "Chrysostom",
+          "definition": "'Golden mouth', the great preacher of Antioch and Constantinople."
+        },
+        {
+          "term": "Plain style",
+          "definition": "The Puritan preference for clear, simple preaching."
+        },
+        {
+          "term": "Field preaching",
+          "definition": "Open-air preaching of the Evangelical Revival."
+        }
+      ],
+      "discussion_questions": [
+        "What did early Christian worship include according to Justin?",
+        "What does Wesley mean by 'plain truth for plain people'?",
+        "Which preacher from history most challenges you and why?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Chrysostom's name means",
+          "options": [
+            "lion-hearted",
+            "golden-mouthed",
+            "man of God",
+            "shepherd"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Justin describes the president of the assembly giving",
+          "options": [
+            "a lecture on philosophy",
+            "an exhortation to imitate the things read",
+            "a prophecy",
+            "a song"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Wesley's preface says he designed his sermons as",
+          "options": [
+            "learned treatises",
+            "plain truth for plain people",
+            "poetry",
+            "political speeches"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Reformers made preaching central by",
+          "options": [
+            "reducing Scripture reading",
+            "preaching expositionally through books of the Bible",
+            "abolishing sermons",
+            "preaching only in Latin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "George Whitefield was famous for",
+          "options": [
+            "written sermons only",
+            "powerful open-air preaching to vast crowds",
+            "silent worship",
+            "short homilies"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What can we learn from Chrysostom's preaching?",
+          "answer_key": "Verse-by-verse exposition, practical moral application, vivid illustration, courage in addressing sin (even among the powerful), and deep love for the congregation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What characterized Reformation preaching?",
+          "answer_key": "Scripture as the source, exposition of whole books (lectio continua), clear gospel of justification by faith, preaching in the vernacular, and pastoral application to ordinary believers."
+        }
+      ]
+    },
+    {
+      "id": "hom-04",
+      "title": "From Text to Sermon I - Exegesis and the Big Idea",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Select a preaching text and identify its unit."
+        },
+        {
+          "id": "o2",
+          "text": "Move from exegesis to the text's main idea (subject and complement)."
+        },
+        {
+          "id": "o3",
+          "text": "Formulate the sermon's big idea and purpose."
+        }
+      ],
+      "scripture_passages": [
+        "Nehemiah 8:8",
+        "2 Timothy 2:15",
+        "Acts 20:27"
+      ],
+      "library_readings": [
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, 'On the Choice of a Text' and 'Sermons - Their Matter'"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapter 5 (wisdom before eloquence)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Preaching unit",
+          "definition": "A complete thought unit of Scripture suitable for one sermon."
+        },
+        {
+          "term": "Exegetical idea",
+          "definition": "The text's main point stated in its original terms."
+        },
+        {
+          "term": "Homiletical (big) idea",
+          "definition": "The main point restated for today's hearers."
+        },
+        {
+          "term": "Purpose statement",
+          "definition": "What the sermon aims to accomplish in the hearers."
+        }
+      ],
+      "discussion_questions": [
+        "How does Spurgeon advise choosing a text?",
+        "Why must wisdom come before eloquence (Augustine)?",
+        "What is the difference between the exegetical idea and the big idea?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "2 Timothy 2:15 calls the worker to rightly",
+          "options": [
+            "argue",
+            "handle (divide) the word of truth",
+            "rule the church",
+            "judge others"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine says that it matters more for the preacher to speak",
+          "options": [
+            "eloquently",
+            "wisely (truly) than eloquently",
+            "briefly",
+            "loudly"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The 'big idea' of a sermon combines a subject and a",
+          "options": [
+            "joke",
+            "complement (what is said about the subject)",
+            "prayer",
+            "hymn"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Spurgeon counseled preachers to choose texts",
+          "options": [
+            "randomly",
+            "prayerfully, as the Spirit impresses a text on the heart",
+            "only from the Gospels",
+            "by the calendar only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A preaching unit should be",
+          "options": [
+            "a single word",
+            "a complete unit of thought in the text",
+            "a whole book always",
+            "any verse"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the steps from exegesis to the big idea.",
+          "answer_key": "Study the passage in context; state its exegetical idea (subject and complement in its original setting); identify the theological principle; restate it as a timeless, relevant homiletical idea; determine the sermon's purpose for these hearers."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why should a sermon have one main idea?",
+          "answer_key": "It gives unity and clarity, reflects the text's own main point, helps hearers remember and respond, and guards against a scattered collection of thoughts."
+        }
+      ]
+    },
+    {
+      "id": "hom-05",
+      "title": "From Text to Sermon II - Structure and Outline",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare sermon forms (deductive, inductive, narrative, textual, topical)."
+        },
+        {
+          "id": "o2",
+          "text": "Construct an outline that follows the text's flow."
+        },
+        {
+          "id": "o3",
+          "text": "Write introductions, transitions and conclusions."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 2:14-40",
+        "Matthew 7:24-29",
+        "Psalm 23"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 17-26 (the three styles: subdued, temperate, majestic)"
+        },
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, 'Sermons - Their Matter' (on divisions and arrangement)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Deductive sermon",
+          "definition": "States the big idea early and develops it."
+        },
+        {
+          "term": "Inductive sermon",
+          "definition": "Builds toward the big idea."
+        },
+        {
+          "term": "Narrative sermon",
+          "definition": "Follows the plot of a story."
+        },
+        {
+          "term": "Transition",
+          "definition": "A bridge between main points."
+        }
+      ],
+      "discussion_questions": [
+        "How is Peter's Pentecost sermon structured?",
+        "What are Augustine's three styles and when should each be used?",
+        "What makes a strong introduction and conclusion?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine's three styles of speaking are subdued (plain), temperate (moderate) and",
+          "options": [
+            "humorous",
+            "grand (majestic)",
+            "silent",
+            "poetic"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine associates the grand style with the aim to",
+          "options": [
+            "teach facts",
+            "move hearers to action",
+            "entertain",
+            "display learning"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "An inductive sermon",
+          "options": [
+            "states its main idea first",
+            "leads hearers to discover the main idea",
+            "has no idea",
+            "is a list"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The sermon's outline should normally follow",
+          "options": [
+            "the preacher's interests",
+            "the flow and structure of the text",
+            "alphabetical order",
+            "the church calendar"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Peter's Pentecost sermon concludes with a call to",
+          "options": [
+            "build a temple",
+            "repent and be baptized",
+            "wait for Elijah",
+            "keep the Sabbath"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are the functions of an introduction and a conclusion?",
+          "answer_key": "Introduction - gain attention, raise the need, introduce the text and subject; conclusion - summarize the big idea, apply it and call for response, often returning to the introduction's theme."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain Augustine's three styles.",
+          "answer_key": "Subdued/plain for teaching and explaining; temperate/moderate for delighting and commending; grand/majestic for moving the will to act - often mixed within one sermon according to the subject and purpose."
+        }
+      ]
+    },
+    {
+      "id": "hom-06",
+      "title": "Illustration and Application",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Use illustrations that clarify and connect."
+        },
+        {
+          "id": "o2",
+          "text": "Apply the text specifically and faithfully to different hearers."
+        },
+        {
+          "id": "o3",
+          "text": "Avoid moralism and legalism in application."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 13:31-35",
+        "James 1:22-25",
+        "Titus 2:1-10"
+      ],
+      "library_readings": [
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "the lectures on illustrations and anecdotes in preaching"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapters 1-12 (adapting admonition to different kinds of hearers)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Illustration",
+          "definition": "A story, image or example that clarifies or makes truth vivid."
+        },
+        {
+          "term": "Application",
+          "definition": "Showing how the text's truth bears on hearers' beliefs, attitudes and actions."
+        },
+        {
+          "term": "Moralism",
+          "definition": "Reducing a text to moral advice without the gospel."
+        },
+        {
+          "term": "Grid of application",
+          "definition": "Considering different groups (believers, seekers, young, old, suffering)."
+        }
+      ],
+      "discussion_questions": [
+        "Why did Jesus use so many images from daily life?",
+        "How does Gregory's catalogue of different hearers help application?",
+        "How can application flow from the gospel rather than law alone?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Spurgeon compared illustrations to",
+          "options": [
+            "decorations only",
+            "windows that let light into the sermon",
+            "jokes",
+            "arguments"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Gregory the Great's Pastoral Rule Part III gives",
+          "options": [
+            "liturgy",
+            "contrasting admonitions for different kinds of people",
+            "church history",
+            "Latin grammar"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Moralism in preaching",
+          "options": [
+            "exalts grace",
+            "reduces the text to moral advice without Christ",
+            "is expository",
+            "is always good"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Titus 2 shows application tailored to",
+          "options": [
+            "one group",
+            "different groups: older men, older women, young women, young men, slaves",
+            "leaders only",
+            "unbelievers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "James 1:22 calls hearers to be",
+          "options": [
+            "judges",
+            "doers of the word",
+            "teachers",
+            "silent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What makes a good illustration?",
+          "answer_key": "It clarifies the point (not just entertains), fits the text, is accurate and appropriate, connects with hearers' lives, and is brief and memorable; it serves the big idea."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can preachers avoid moralism?",
+          "answer_key": "Show what the text reveals about God and his grace in Christ, locate the text in the story of redemption, ground commands in the gospel indicatives, and call for obedience empowered by the Spirit as a response to grace."
+        }
+      ],
+      "paper_prompt": "Write a full sermon manuscript (1,800-2,500 words) on a New Testament passage of your choice (8-15 verses). Include: the text, your exegetical idea, big idea and purpose statement, an outline, and the full manuscript with introduction, explanation, illustration, application and conclusion. Append a one-page note citing at least two library sources that informed your exegesis or method (Author, Title, section). Your sermon will be graded on the standard rubric (thesis = big idea, exegesis, use of sources, theological reasoning, clarity)."
+    },
+    {
+      "id": "hom-07",
+      "title": "Preaching Christ from All of Scripture",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain Christ-centered preaching (Luke 24)."
+        },
+        {
+          "id": "o2",
+          "text": "Identify legitimate ways to preach Christ from the Old Testament (redemptive-historical progression, promise-fulfilment, typology, analogy, longitudinal themes)."
+        },
+        {
+          "id": "o3",
+          "text": "Avoid allegorizing and 'jumping to the cross'."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 24:25-27",
+        "John 5:39-46",
+        "1 Peter 1:10-12"
+      ],
+      "library_readings": [
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, 'On Spiritualizing'"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book III, chapters 10-12 and 30-37"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book IV, chapter 26 (Christ the treasure hidden in the field of Scripture)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Christocentric preaching",
+          "definition": "Preaching every text in relation to Christ."
+        },
+        {
+          "term": "Redemptive-historical approach",
+          "definition": "Locating a text in the history of salvation leading to Christ."
+        },
+        {
+          "term": "Typology",
+          "definition": "Persons and events as patterns fulfilled in Christ."
+        },
+        {
+          "term": "Allegorizing",
+          "definition": "Assigning arbitrary Christological meanings to details."
+        }
+      ],
+      "discussion_questions": [
+        "What does Irenaeus mean by Christ as the treasure hidden in Scripture?",
+        "How does Spurgeon balance warnings against spiritualizing with his love of Christ-centered preaching?",
+        "Practice: how would you preach Christ from David and Goliath without allegory?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Irenaeus described Christ as the treasure hidden in",
+          "options": [
+            "the temple",
+            "the field of the Scriptures",
+            "the church",
+            "the law only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In John 5:39 Jesus says the Scriptures",
+          "options": [
+            "are not needed",
+            "bear witness about me",
+            "are for scholars",
+            "are only law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Spurgeon's lecture 'On Spiritualizing' warns against",
+          "options": [
+            "preaching Christ",
+            "far-fetched, fanciful interpretations",
+            "using the Old Testament",
+            "applying texts"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The approach that locates a text in the unfolding history of salvation is the",
+          "options": [
+            "allegorical approach",
+            "redemptive-historical approach",
+            "moralistic approach",
+            "topical approach"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Peter 1:11 says the Spirit of Christ in the prophets predicted",
+          "options": [
+            "Rome's fall",
+            "the sufferings of Christ and the subsequent glories",
+            "the church calendar",
+            "the Reformation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name three legitimate ways to preach Christ from the Old Testament.",
+          "answer_key": "Redemptive-historical progression (the story leads to Christ), promise-fulfilment, typology (persons/events/institutions as patterns), analogy (God's dealings with Israel and the church), longitudinal themes (kingdom, covenant, temple), NT references, and contrast."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the danger of 'jumping to the cross' in every sermon?",
+          "answer_key": "It can bypass the text's own message and context, becoming formulaic; faithful Christ-centered preaching shows the text's real, organic connection to Christ."
+        }
+      ]
+    },
+    {
+      "id": "hom-08",
+      "title": "Preaching the Genres",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Adapt preaching to narrative, law, poetry, wisdom, prophecy, gospels, epistles and apocalyptic."
+        },
+        {
+          "id": "o2",
+          "text": "Let the text's form shape the sermon's form."
+        },
+        {
+          "id": "o3",
+          "text": "Practice outlines for different genres."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 22:1-19",
+        "Psalm 46",
+        "Proverbs 3:1-12",
+        "Revelation 5:1-14"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 6-7 (the eloquence of the biblical writers)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 13 (an example of patristic expository preaching on an epistle)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Genre-sensitive preaching",
+          "definition": "Allowing the literary form to shape the sermon."
+        },
+        {
+          "term": "Narrative preaching",
+          "definition": "Retelling and interpreting a story with its tension and resolution."
+        },
+        {
+          "term": "Poetic preaching",
+          "definition": "Honoring imagery and emotion."
+        },
+        {
+          "term": "Epistolary preaching",
+          "definition": "Tracing the argument of a letter."
+        }
+      ],
+      "discussion_questions": [
+        "How should a sermon on a psalm differ from one on Romans?",
+        "How does Augustine show that the biblical writers were eloquent?",
+        "What challenges does preaching apocalyptic literature bring?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Genre-sensitive preaching lets",
+          "options": [
+            "the preacher's style dominate",
+            "the text's literary form shape the sermon",
+            "only narrative be preached",
+            "every sermon use three points"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine argued that the biblical writers were",
+          "options": [
+            "uneducated and inelegant",
+            "wise and eloquent in their own manner",
+            "imitators of Cicero",
+            "Greek poets"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "A sermon on Psalm 46 should especially honor its",
+          "options": [
+            "arguments",
+            "imagery and emotional movement",
+            "genealogy",
+            "laws"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Preaching an epistle involves tracing",
+          "options": [
+            "a plot",
+            "the logical argument",
+            "only imagery",
+            "genealogies"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A sermon on Revelation 5 should focus on",
+          "options": [
+            "date-setting",
+            "the worthy Lamb and the worship of heaven",
+            "identifying modern nations",
+            "numbers only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How should narrative texts be preached?",
+          "answer_key": "Retell the story vividly, follow the plot's tension and resolution, identify the narrator's theological point (what God is doing), connect to the larger redemptive story, and apply its main idea rather than moralizing details."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should wisdom literature (e.g. Proverbs) be preached?",
+          "answer_key": "Explain proverbs as general truths within the fear of the LORD, group related proverbs by theme, show Christ as wisdom incarnate, and apply to practical life while avoiding turning proverbs into promises."
+        }
+      ]
+    },
+    {
+      "id": "hom-09",
+      "title": "Delivery - Voice, Presence and Manuscript",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Develop clarity, variety and naturalness of voice."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate manuscript, notes and extemporaneous delivery."
+        },
+        {
+          "id": "o3",
+          "text": "Attend to gesture, eye contact and presence."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 14:1",
+        "Colossians 4:4",
+        "1 Thessalonians 1:5"
+      ],
+      "library_readings": [
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, 'On the Voice', 'Attention!' and 'The Faculty of Impromptu Speech'"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 10-11 (clarity above all)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Extemporaneous preaching",
+          "definition": "Well-prepared preaching delivered without a full manuscript."
+        },
+        {
+          "term": "Vocal variety",
+          "definition": "Changes in pace, pitch and volume."
+        },
+        {
+          "term": "Eye contact",
+          "definition": "Connecting visually with hearers."
+        },
+        {
+          "term": "Clarity",
+          "definition": "Augustine's first requirement - being understood."
+        }
+      ],
+      "discussion_questions": [
+        "What does Spurgeon advise about the voice and keeping attention?",
+        "Why does Augustine prefer clarity even over correct Latin?",
+        "Which delivery method suits you and why?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine said a preacher should prefer to use a less correct word if it",
+          "options": [
+            "sounds learned",
+            "is better understood by the hearers",
+            "is Greek",
+            "is shorter"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Spurgeon's lecture 'Attention!' is about",
+          "options": [
+            "discipline in church",
+            "gaining and keeping the hearers' attention",
+            "military service",
+            "reading aloud"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Acts 14:1 says Paul and Barnabas spoke in such a way that",
+          "options": [
+            "few listened",
+            "a great number believed",
+            "they were stoned immediately",
+            "they were misunderstood"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Extemporaneous preaching means",
+          "options": [
+            "unprepared",
+            "thoroughly prepared but delivered without a full manuscript",
+            "reading word for word",
+            "silent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Colossians 4:4 asks prayer that Paul may make the mystery of Christ",
+          "options": [
+            "hidden",
+            "clear, as he ought to speak",
+            "complicated",
+            "short"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare manuscript and extemporaneous delivery.",
+          "answer_key": "Manuscripts give precision and careful wording but can reduce eye contact and spontaneity; extemporaneous (from notes or memory after full preparation) gives freshness and connection but risks imprecision; many preachers write a manuscript and then preach from notes."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is clarity so important in preaching?",
+          "answer_key": "The purpose is to communicate God's word so that hearers understand, believe and obey; unclear preaching fails its purpose (Augustine; 1 Cor 14:9)."
+        }
+      ]
+    },
+    {
+      "id": "hom-10",
+      "title": "Evangelistic, Topical and Occasional Preaching",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Prepare evangelistic sermons that call for response."
+        },
+        {
+          "id": "o2",
+          "text": "Prepare doctrinal and topical sermons responsibly."
+        },
+        {
+          "id": "o3",
+          "text": "Prepare sermons for weddings, funerals and seasons of the church year."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 17:22-31",
+        "John 11:17-27",
+        "2 Corinthians 5:17-21"
+      ],
+      "library_readings": [
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "Second Series, 'Conversion as Our Aim'"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book IX, chapters 12-13 (grief and hope at Monica's death)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'On the Death of the Rev. Mr. George Whitefield'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Evangelistic sermon",
+          "definition": "Aimed at calling unbelievers to faith."
+        },
+        {
+          "term": "Topical sermon",
+          "definition": "Organized around a theme drawing on several texts."
+        },
+        {
+          "term": "Funeral sermon",
+          "definition": "Proclaiming Christian hope amid grief."
+        },
+        {
+          "term": "Liturgical year",
+          "definition": "Seasons such as Advent, Christmas, Lent, Easter and Pentecost."
+        }
+      ],
+      "discussion_questions": [
+        "How does Spurgeon insist on conversion as the preacher's aim?",
+        "How can a funeral sermon honor grief and proclaim hope (compare Augustine's grief)?",
+        "What are the dangers of topical preaching?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Spurgeon's lecture 'Conversion as Our Aim' insists that preachers should",
+          "options": [
+            "avoid calling for decisions",
+            "aim at the salvation of hearers",
+            "focus only on believers",
+            "preach philosophy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In John 11:25 Jesus says, 'I am the resurrection and the life. Whoever believes in me,",
+          "options": [
+            "will never suffer'",
+            "though he die, yet shall he live'",
+            "will be wealthy'",
+            "will know the future'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine at Monica's death",
+          "options": [
+            "felt no grief",
+            "struggled with grief and found comfort in Christian hope and prayer",
+            "rejected faith",
+            "wrote no record"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The season preparing for Christmas is",
+          "options": [
+            "Lent",
+            "Advent",
+            "Pentecost",
+            "Epiphany"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A danger of topical preaching is",
+          "options": [
+            "too much Scripture",
+            "imposing the preacher's ideas on texts torn from context",
+            "clarity",
+            "brevity"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What elements belong in an evangelistic sermon?",
+          "answer_key": "A clear presentation of God, sin, Christ's death and resurrection, and the call to repent and believe; answering objections; urgency and warmth; an explicit invitation - all grounded in a biblical text."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should a pastor preach at a funeral?",
+          "answer_key": "Acknowledge grief honestly, honor the deceased truthfully, proclaim the resurrection hope in Christ, comfort mourners, gently call hearers to faith, and avoid false assurances or speculation."
+        }
+      ]
+    },
+    {
+      "id": "hom-11",
+      "title": "Preaching and the Congregation - Listening, Culture and Series Planning",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Exegete the congregation and culture."
+        },
+        {
+          "id": "o2",
+          "text": "Plan preaching series (books, doctrines, seasons)."
+        },
+        {
+          "id": "o3",
+          "text": "Receive and use feedback on preaching."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 9:19-23",
+        "Acts 20:17-21",
+        "Ezekiel 3:17-21"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapters 13-40 (admonitions for different conditions)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Book V, chapters 5-8 (handling criticism and praise)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Exegeting the congregation",
+          "definition": "Understanding hearers' needs, questions and contexts."
+        },
+        {
+          "term": "Lectio continua",
+          "definition": "Preaching consecutively through books of the Bible."
+        },
+        {
+          "term": "Preaching calendar",
+          "definition": "A plan of series and texts."
+        },
+        {
+          "term": "Feedback loop",
+          "definition": "Soliciting hearers' responses to improve preaching."
+        }
+      ],
+      "discussion_questions": [
+        "How does Paul adapt to different hearers (1 Cor 9)?",
+        "What does Chrysostom advise about criticism and praise?",
+        "How would you plan a year of preaching for a new church?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In 1 Corinthians 9:22 Paul says, 'I have become all things to all people,",
+          "options": [
+            "to be popular'",
+            "that by all means I might save some'",
+            "to avoid persecution'",
+            "to gain money'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Preaching consecutively through a book is called",
+          "options": [
+            "lectionary",
+            "lectio continua",
+            "topical preaching",
+            "homily"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ezekiel 3:17 calls the prophet a",
+          "options": [
+            "shepherd",
+            "watchman",
+            "king",
+            "priest"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Chrysostom advises preachers to",
+          "options": [
+            "seek applause",
+            "neither be elated by praise nor crushed by criticism",
+            "avoid all feedback",
+            "preach only to the educated"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Acts 20:20 Paul taught publicly and",
+          "options": [
+            "only in synagogues",
+            "from house to house",
+            "in writing only",
+            "in secret"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What does it mean to 'exegete' a congregation?",
+          "answer_key": "To understand the people - their spiritual maturity, questions, struggles, culture, ages, backgrounds and needs - so that preaching faithfully applies God's word to them, as Gregory's Pastoral Rule models."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe the benefits of preaching through books of the Bible.",
+          "answer_key": "It teaches the whole counsel of God, follows Scripture's own agenda, prevents hobby-horses, models interpretation for hearers, addresses hard texts, and builds biblical literacy."
+        }
+      ]
+    },
+    {
+      "id": "hom-12",
+      "title": "Preaching Capstone - Sermon Manuscript and Self-Evaluation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Prepare and write a complete Old Testament sermon."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate your sermon against homiletical criteria."
+        },
+        {
+          "id": "o3",
+          "text": "Plan for growth as a preacher."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 55:1-11",
+        "Psalm 1",
+        "2 Timothy 4:1-5"
+      ],
+      "library_readings": [
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, 'The Minister's Self-Watch' (revisited) and Second Series, 'Earnestness'"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 27-31 (the preacher's life and prayer)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Earnestness",
+          "definition": "Spurgeon's term for heartfelt urgency in preaching."
+        },
+        {
+          "term": "Self-evaluation",
+          "definition": "Assessing one's sermon for faithfulness, clarity and relevance."
+        },
+        {
+          "term": "Sermon rubric",
+          "definition": "Criteria such as exegesis, structure, Christ-centeredness, application, delivery."
+        },
+        {
+          "term": "Prayer before preaching",
+          "definition": "Augustine's counsel that the preacher be 'a petitioner before a speaker'."
+        }
+      ],
+      "discussion_questions": [
+        "What does Augustine mean that the preacher should be a man of prayer before a man of speech?",
+        "What does Spurgeon mean by 'earnestness'?",
+        "What are your next steps for growing as a preacher?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine counsels that the preacher should pray before speaking, being first",
+          "options": [
+            "a writer",
+            "a petitioner (pray-er) before a speaker",
+            "a scholar",
+            "a singer"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Spurgeon's lecture 'Earnestness' calls for",
+          "options": [
+            "theatrical emotion",
+            "genuine, heartfelt zeal for souls and God's glory",
+            "calm detachment",
+            "short sermons"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Isaiah 55:11 says God's word shall not return empty but shall",
+          "options": [
+            "be forgotten",
+            "accomplish that which I purpose",
+            "be debated",
+            "wait"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "A sermon should be evaluated first for",
+          "options": [
+            "entertainment",
+            "faithfulness to the text",
+            "length",
+            "humor"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "2 Timothy 4:5 tells Timothy to do the work of",
+          "options": [
+            "a bishop",
+            "an evangelist",
+            "a prophet",
+            "a scribe"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "List criteria for evaluating a sermon.",
+          "answer_key": "Faithfulness to the text's main idea; clear big idea and structure; Christ-centered and gospel-shaped; relevant, specific application; effective illustration; clarity and appropriate length; earnest, natural delivery; dependence on the Spirit."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How will prayer shape your preaching ministry?",
+          "answer_key": "A good answer includes praying over the text and congregation during preparation, praying before and after preaching, dependence on the Spirit for understanding and power, and trusting God with results (Augustine, Spurgeon)."
+        }
+      ],
+      "paper_prompt": "Write a full sermon manuscript (1,800-2,500 words) on an Old Testament passage (Isaiah 55:1-11, Psalm 1, or another OT text of 8-20 verses). Include your exegetical idea, big idea, purpose and outline, and preach Christ from the text legitimately. Then add a 400-word self-evaluation against the criteria from this course, citing at least two library sources (Author, Title, section)."
+    }
+  ]
+}

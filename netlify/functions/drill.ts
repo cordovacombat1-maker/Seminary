@@ -73,7 +73,7 @@ export default handle(async (req: Request) => {
       options,
       items: words.map((w) => ({
         wordId: w.id,
-        word: w.word,
+        word: w.word.replace(/[/\\]/g, ''), // STEPBible marks morpheme breaks with / and \
         transliteration: w.translit,
         lemma: w.lemma,
         gloss: w.gloss,

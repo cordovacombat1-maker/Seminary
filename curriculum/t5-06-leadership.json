@@ -1,0 +1,1652 @@
+{
+  "id": "leadership",
+  "title": "Leadership and Church Administration",
+  "tier": 5,
+  "tier_name": "Ministry",
+  "description": "Servant leadership and the practical administration of a local church. Students study biblical models of leadership (Moses, David, Nehemiah, Jesus, Paul), the qualifications and character of elders and deacons, church governance and polity, vision and planning, team building, conflict resolution, stewardship and finances, legal and ethical responsibilities, worship planning, volunteer development, and leading through change - drawing on Gregory the Great, Ambrose, Chrysostom, Calvin and the church orders of the early church.",
+  "prerequisites": [
+    "spiritual-formation"
+  ],
+  "lessons": [
+    {
+      "id": "lea-01",
+      "title": "Servant Leadership - The Pattern of Christ",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Define Christian leadership as servant leadership modeled on Christ."
+        },
+        {
+          "id": "o2",
+          "text": "Contrast worldly and kingdom leadership."
+        },
+        {
+          "id": "o3",
+          "text": "Examine the leader's motives and character."
+        }
+      ],
+      "scripture_passages": [
+        "Mark 10:35-45",
+        "John 13:1-17",
+        "Philippians 2:3-8",
+        "1 Peter 5:1-5"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part I, chapters 8-11 (who should and should not seek leadership)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Book III, chapters 10-11 (the love of power in leaders)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIX, chapter 14 (ruling by serving)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Servant leadership",
+          "definition": "Leading by serving others, following Christ."
+        },
+        {
+          "term": "Authority vs power",
+          "definition": "Legitimate responsibility versus domination."
+        },
+        {
+          "term": "Ambition",
+          "definition": "Desire for position; Gregory warns against ambition for leadership."
+        },
+        {
+          "term": "Humility",
+          "definition": "Right estimation of oneself before God."
+        }
+      ],
+      "discussion_questions": [
+        "How does Jesus contrast Gentile rulers with his disciples (Mark 10:42-45)?",
+        "What does Augustine mean that the righteous 'rule by serving'?",
+        "What motives disqualify someone from seeking leadership according to Gregory?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jesus said whoever would be great among you must be",
+          "options": [
+            "a ruler",
+            "your servant",
+            "wealthy",
+            "learned"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In John 13 Jesus modeled leadership by",
+          "options": [
+            "preaching a sermon",
+            "washing his disciples' feet",
+            "appointing Peter",
+            "performing a miracle"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine says that in the household of the just even those who rule serve those they seem to command, ruling out of",
+          "options": [
+            "pride",
+            "a sense of duty and compassion",
+            "ambition",
+            "fear"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Peter 5:3 tells elders not to be",
+          "options": [
+            "humble",
+            "domineering over those in your charge, but examples to the flock",
+            "gentle",
+            "diligent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Gregory the Great warns against those who seek leadership out of",
+          "options": [
+            "humility",
+            "love of power and praise",
+            "calling",
+            "obedience"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is Christian servant leadership?",
+          "answer_key": "Leadership that follows Christ's example of humble service and self-sacrifice, using authority for others' good and God's glory rather than self-interest, characterized by humility, integrity, love and accountability."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Contrast worldly and kingdom leadership.",
+          "answer_key": "Worldly leadership seeks status, power and control, lording it over others; kingdom leadership serves, empowers others, leads by example, accepts suffering, and seeks God's glory and the flock's good."
+        }
+      ]
+    },
+    {
+      "id": "lea-02",
+      "title": "Biblical Models of Leadership",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Draw leadership lessons from Moses, David, Nehemiah and Paul."
+        },
+        {
+          "id": "o2",
+          "text": "Identify leadership failures in Scripture and their causes."
+        },
+        {
+          "id": "o3",
+          "text": "Apply biblical models to church leadership today."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 18:13-27",
+        "2 Samuel 12:1-13",
+        "Nehemiah 1:1-2:8",
+        "2 Corinthians 11:23-12:10"
+      ],
+      "library_readings": [
+        {
+          "author": "Ambrose",
+          "title": "On the Duties of the Clergy",
+          "section": "Book I, chapters 1-7 (learning from the examples of Scripture)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part II, chapters 5-7"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Nehemiah, chapter 2"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Delegation",
+          "definition": "Sharing responsibility with capable people (Jethro's advice)."
+        },
+        {
+          "term": "Accountability",
+          "definition": "Being answerable to others (Nathan's confrontation of David)."
+        },
+        {
+          "term": "Prayerful planning",
+          "definition": "Nehemiah's combination of prayer and strategy."
+        },
+        {
+          "term": "Leadership in weakness",
+          "definition": "Paul's ministry through suffering."
+        }
+      ],
+      "discussion_questions": [
+        "What does Nehemiah model about prayer and planning?",
+        "What caused David's failure, and what does his repentance teach?",
+        "How does Paul's 'boasting in weakness' reshape leadership?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jethro advised Moses to choose capable men who fear God, are trustworthy and",
+          "options": [
+            "wealthy",
+            "hate a bribe",
+            "young",
+            "Levites"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Nehemiah's first response to news of Jerusalem's walls was",
+          "options": [
+            "raising money",
+            "weeping, fasting and praying",
+            "going immediately",
+            "blaming others"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "When Nathan confronted him, David",
+          "options": [
+            "denied it",
+            "confessed, 'I have sinned against the LORD'",
+            "punished Nathan",
+            "left Jerusalem"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Paul boasts in his weaknesses so that",
+          "options": [
+            "people pity him",
+            "the power of Christ may rest upon him",
+            "he appears humble",
+            "he avoids work"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Ambrose modeled his teaching on the duties of clergy on examples from",
+          "options": [
+            "Greek heroes only",
+            "Scripture's saints alongside classical moral thought",
+            "Roman emperors",
+            "monks only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What leadership lessons come from Nehemiah?",
+          "answer_key": "Burden and prayer precede action; careful planning and assessment; courage before authorities; mobilizing people with shared vision; delegation; perseverance against opposition; integrity (not taking the governor's allowance); spiritual renewal alongside building."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What causes leadership failure in Scripture, and what safeguards help?",
+          "answer_key": "Pride, isolation, lack of accountability, abuse of power, sexual sin, greed (e.g. Saul, David, Solomon); safeguards include humility, accountability (Nathan), prayer, shared leadership (Jethro) and obedience to God's word."
+        }
+      ]
+    },
+    {
+      "id": "lea-03",
+      "title": "Elders and Deacons - Qualifications and Roles",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the qualifications for elders and deacons."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the roles of elders (shepherding, teaching, oversight) and deacons (service)."
+        },
+        {
+          "id": "o3",
+          "text": "Design a process for selecting and training church officers."
+        }
+      ],
+      "scripture_passages": [
+        "1 Timothy 3:1-13",
+        "Titus 1:5-9",
+        "Acts 6:1-7",
+        "1 Peter 5:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 3, sections 8-16 (elders, deacons and their calling)"
+        },
+        {
+          "author": "Clement of Rome",
+          "title": "First Epistle to the Corinthians",
+          "section": "Chapters 42-44"
+        },
+        {
+          "author": "Anonymous",
+          "title": "The Didache (Teaching of the Twelve Apostles)",
+          "section": "Chapter 15 (appointing bishops and deacons)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Elder (presbyteros) / overseer (episkopos)",
+          "definition": "Leaders who shepherd, teach and oversee."
+        },
+        {
+          "term": "Deacon (diakonos)",
+          "definition": "Servant office caring for practical needs."
+        },
+        {
+          "term": "Above reproach",
+          "definition": "The summary qualification for elders."
+        },
+        {
+          "term": "Ordination",
+          "definition": "Formal recognition and setting apart for office."
+        }
+      ],
+      "discussion_questions": [
+        "Why are the qualifications mostly about character?",
+        "How did Acts 6 free the apostles for prayer and the word?",
+        "How should a church examine and train candidates for office?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The summary qualification for an overseer in 1 Timothy 3:2 is to be",
+          "options": [
+            "wealthy",
+            "above reproach",
+            "eloquent",
+            "married with many children"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Acts 6 the Seven were chosen to",
+          "options": [
+            "preach",
+            "serve tables (the daily distribution)",
+            "write Scripture",
+            "lead worship"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Didache says bishops and deacons should be men who are",
+          "options": [
+            "rich",
+            "worthy of the Lord, meek, not lovers of money, true and approved",
+            "prophets",
+            "old"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Calvin taught that deacons care for",
+          "options": [
+            "doctrine",
+            "the poor and the administration of alms",
+            "worship music",
+            "discipline"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Titus 1:9 requires an elder to hold firm to the trustworthy word so he can",
+          "options": [
+            "win elections",
+            "give instruction in sound doctrine and rebuke those who contradict it",
+            "raise funds",
+            "avoid conflict"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the roles of elders and deacons.",
+          "answer_key": "Elders shepherd the flock, teach sound doctrine, oversee the church's spiritual health, exercise discipline and pray; deacons serve practical and mercy needs, freeing elders for the word and prayer."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Design a process for selecting church officers.",
+          "answer_key": "Prayer; teaching the congregation the biblical qualifications; nomination; examination of character, doctrine, family and gifts; training and mentoring; congregational affirmation; ordination; ongoing accountability and review."
+        }
+      ]
+    },
+    {
+      "id": "lea-04",
+      "title": "Church Governance and Polity in Practice",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Apply the major polities (episcopal, presbyterian, congregational) to decision-making."
+        },
+        {
+          "id": "o2",
+          "text": "Draft and use constitutions, bylaws and membership covenants."
+        },
+        {
+          "id": "o3",
+          "text": "Understand denominational relationships and accountability."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 15:1-35",
+        "Matthew 18:15-20",
+        "1 Corinthians 14:40"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3 (the Westminster Form of Government references and Baptist confessions on church order)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 4 (the government of the early church)"
+        },
+        {
+          "author": "Cyprian",
+          "title": "On the Unity of the Church",
+          "section": "Chapters 4-5 (the unity of the episcopate)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Constitution and bylaws",
+          "definition": "Governing documents of a congregation."
+        },
+        {
+          "term": "Membership",
+          "definition": "Formal commitment to a local church."
+        },
+        {
+          "term": "Quorum and parliamentary procedure",
+          "definition": "Rules for orderly meetings."
+        },
+        {
+          "term": "Denominational accountability",
+          "definition": "Oversight and support from wider church bodies."
+        }
+      ],
+      "discussion_questions": [
+        "How does Acts 15 model church decision-making?",
+        "What should a church constitution include?",
+        "How does church membership serve discipleship and accountability?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The decision at the Jerusalem Council was described as seeming good to",
+          "options": [
+            "James alone",
+            "the Holy Spirit and to us",
+            "the Pharisees",
+            "Paul alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "A church's bylaws typically specify",
+          "options": [
+            "doctrine only",
+            "procedures for membership, officers, meetings and decisions",
+            "sermon topics",
+            "music style"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Cyprian emphasized the unity of the church in",
+          "options": [
+            "the pope alone",
+            "the one episcopate shared by the bishops",
+            "the emperor",
+            "the congregation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 14:40 supports the principle that church life should be",
+          "options": [
+            "spontaneous only",
+            "decent and orderly",
+            "secret",
+            "democratic in all things"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Church membership primarily serves",
+          "options": [
+            "financial obligations",
+            "mutual commitment, care and accountability",
+            "social status",
+            "voting only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Acts 15 model church decision-making?",
+          "answer_key": "A real dispute was brought to apostles and elders; there was debate; testimony of God's work was heard; Scripture was consulted (Amos 9); leaders proposed a resolution; the whole church agreed; the decision was communicated with care - 'it seemed good to the Holy Spirit and to us'."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are the benefits of clear governance documents?",
+          "answer_key": "They provide clarity about authority and processes, protect the church legally and relationally, guide conflict resolution, ensure accountability and continuity, and reflect the church's theological convictions."
+        }
+      ]
+    },
+    {
+      "id": "lea-05",
+      "title": "Vision, Mission and Planning",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Discern and articulate a church's vision and mission biblically."
+        },
+        {
+          "id": "o2",
+          "text": "Develop strategic plans and goals."
+        },
+        {
+          "id": "o3",
+          "text": "Balance planning with dependence on God."
+        }
+      ],
+      "scripture_passages": [
+        "Proverbs 16:1-9",
+        "James 4:13-17",
+        "Luke 14:28-30",
+        "Acts 16:6-10"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part II, chapter 7 (balancing inward contemplation and outward administration)"
+        },
+        {
+          "author": "Ambrose",
+          "title": "On the Duties of the Clergy",
+          "section": "Book I, chapters 24-29 (prudence)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIX, chapter 13 (order and peace)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Vision",
+          "definition": "A compelling picture of the preferred future God calls a church toward."
+        },
+        {
+          "term": "Mission statement",
+          "definition": "A concise statement of purpose."
+        },
+        {
+          "term": "Strategic planning",
+          "definition": "Setting goals, priorities and steps."
+        },
+        {
+          "term": "Prudence",
+          "definition": "Practical wisdom in choosing means to ends."
+        }
+      ],
+      "discussion_questions": [
+        "How does Acts 16:6-10 show the Spirit redirecting plans?",
+        "How do Proverbs 16:9 and Luke 14:28 balance planning and providence?",
+        "What does Gregory say about the pastor's inner life amid administration?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Proverbs 16:9 says the heart of man plans his way, but",
+          "options": [
+            "he succeeds alone",
+            "the LORD establishes his steps",
+            "fate decides",
+            "friends guide him"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "James 4:15 teaches saying, 'If the Lord wills,",
+          "options": [
+            "we will fail'",
+            "we will live and do this or that'",
+            "we will rest'",
+            "we will prosper'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Luke 14:28 Jesus speaks of counting the cost before",
+          "options": [
+            "praying",
+            "building a tower",
+            "fasting",
+            "traveling"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Acts 16 Paul's plans were redirected by",
+          "options": [
+            "persecution",
+            "the Holy Spirit and a vision of a man of Macedonia",
+            "Barnabas",
+            "a council"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Ambrose treats prudence as",
+          "options": [
+            "a vice",
+            "the first of the cardinal virtues, seeking the truth",
+            "unnecessary for clergy",
+            "worldliness"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How should churches plan while depending on God?",
+          "answer_key": "Plan prayerfully and wisely (counting costs, setting goals), hold plans humbly ('if the Lord wills'), remain open to the Spirit's redirection, evaluate faithfulness more than numerical success, and root plans in the church's biblical mission."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What makes a good church vision?",
+          "answer_key": "It flows from Scripture and the church's mission, fits the congregation's context and gifts, is clear and memorable, inspires participation, is discerned in prayer and community, and guides decisions."
+        }
+      ]
+    },
+    {
+      "id": "lea-06",
+      "title": "Building and Leading Teams",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Build healthy staff and volunteer teams."
+        },
+        {
+          "id": "o2",
+          "text": "Delegate effectively and develop leaders."
+        },
+        {
+          "id": "o3",
+          "text": "Foster unity and trust."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 18:13-27",
+        "Mark 3:13-19",
+        "Romans 16:1-16",
+        "Philippians 2:19-30"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapters 4-6 (subjects and rulers; how to admonish those under authority)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 30 (the body's members caring for one another)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Team",
+          "definition": "A group working together toward a shared mission with complementary gifts."
+        },
+        {
+          "term": "Delegation",
+          "definition": "Entrusting responsibility with authority and accountability."
+        },
+        {
+          "term": "Leadership development",
+          "definition": "Training others to lead (2 Tim 2:2)."
+        },
+        {
+          "term": "Trust",
+          "definition": "Confidence built through integrity and consistency."
+        }
+      ],
+      "discussion_questions": [
+        "What can we learn from Paul's many co-workers in Romans 16?",
+        "Why did Jesus appoint the Twelve 'to be with him'?",
+        "What undermines trust in a leadership team?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Mark 3:14 says Jesus appointed the Twelve so that they might",
+          "options": [
+            "rule Israel",
+            "be with him and be sent out to preach",
+            "write the Gospels",
+            "guard the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Romans 16 shows that Paul",
+          "options": [
+            "worked alone",
+            "had many co-workers, men and women",
+            "rejected helpers",
+            "only trusted apostles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Paul commends Timothy in Philippians 2:20 because he",
+          "options": [
+            "was eloquent",
+            "was genuinely concerned for their welfare",
+            "was wealthy",
+            "was older"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Effective delegation includes",
+          "options": [
+            "responsibility without authority",
+            "responsibility, authority and accountability",
+            "control of every detail",
+            "avoidance of follow-up"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Chrysostom emphasizes that members of the body should",
+          "options": [
+            "compete",
+            "care for one another with mutual concern",
+            "stay separate",
+            "honor only the strong"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are marks of a healthy ministry team?",
+          "answer_key": "Shared vision, clear roles, complementary gifts, trust, honest communication, mutual accountability, prayer together, conflict handled well, development of members, and servant-hearted leadership."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should leaders develop other leaders?",
+          "answer_key": "Identify potential; model ministry; give opportunities with support; train in character, doctrine and skill; delegate progressively; give feedback; release them to lead and multiply (2 Tim 2:2)."
+        }
+      ]
+    },
+    {
+      "id": "lea-07",
+      "title": "Conflict Resolution and Peacemaking",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Understand sources of conflict in churches."
+        },
+        {
+          "id": "o2",
+          "text": "Apply biblical peacemaking (Matthew 5:23-24; 18:15-17; Philippians 4:2-3)."
+        },
+        {
+          "id": "o3",
+          "text": "Lead congregational reconciliation."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 5:23-24",
+        "Matthew 18:15-17",
+        "Philippians 4:2-3",
+        "James 4:1-3"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIX, chapters 12-13 (the desire for peace and the tranquility of order)"
+        },
+        {
+          "author": "Cyprian",
+          "title": "On the Unity of the Church",
+          "section": "Chapters 23-24 (unity and peace)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Cure of Evil-Speaking'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Peacemaking",
+          "definition": "Actively pursuing reconciliation (Matt 5:9)."
+        },
+        {
+          "term": "Evil-speaking",
+          "definition": "Speaking of someone's faults behind their back (Wesley)."
+        },
+        {
+          "term": "Mediation",
+          "definition": "A third party helping reconcile disputants."
+        },
+        {
+          "term": "Tranquility of order",
+          "definition": "Augustine's definition of peace."
+        }
+      ],
+      "discussion_questions": [
+        "What does James 4:1-3 identify as the source of quarrels?",
+        "How does Wesley apply Matthew 18 in 'The Cure of Evil-Speaking'?",
+        "How should a pastor handle a conflict between two leaders (Phil 4:2-3)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "James 4:1 says quarrels come from",
+          "options": [
+            "Satan only",
+            "your passions at war within you",
+            "doctrine",
+            "poverty"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Wesley's 'The Cure of Evil-Speaking' urges believers to",
+          "options": [
+            "tell the church first",
+            "go privately to the offender according to Matthew 18",
+            "ignore faults",
+            "write letters"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine defines peace as",
+          "options": [
+            "absence of war only",
+            "the tranquility of order",
+            "victory",
+            "silence"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Philippians 4:2 Paul urges Euodia and Syntyche to",
+          "options": [
+            "leave the church",
+            "agree in the Lord",
+            "debate publicly",
+            "choose sides"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Matthew 5:24 says to leave your gift at the altar and",
+          "options": [
+            "pray longer",
+            "first be reconciled to your brother",
+            "fast",
+            "tithe"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Outline a biblical process for resolving interpersonal conflict.",
+          "answer_key": "Examine yourself and remove the log (Matt 7:5); overlook minor offenses when possible; go privately and gently (Matt 18:15); listen and confess your part; seek forgiveness and reconciliation; involve mediators if needed; escalate to leaders only when necessary; aim at restoration."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are common sources of church conflict?",
+          "answer_key": "Selfish desires and pride (James 4), change and preferences, power struggles, poor communication, unmet expectations, doctrinal disagreements, gossip, and unresolved past hurts."
+        }
+      ]
+    },
+    {
+      "id": "lea-08",
+      "title": "Stewardship, Finances and Integrity",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Teach biblical stewardship and generosity."
+        },
+        {
+          "id": "o2",
+          "text": "Manage church finances with transparency and accountability."
+        },
+        {
+          "id": "o3",
+          "text": "Avoid financial abuse and conflicts of interest."
+        }
+      ],
+      "scripture_passages": [
+        "2 Corinthians 8:1-24",
+        "2 Corinthians 9:6-15",
+        "1 Timothy 6:17-19",
+        "Acts 5:1-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Ambrose",
+          "title": "On the Duties of the Clergy",
+          "section": "Book II, chapters 21 and 28 (the proper use of church wealth)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Good Steward'"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 4, sections 5-8 (the early church's management of goods)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Stewardship",
+          "definition": "Faithful management of resources entrusted by God."
+        },
+        {
+          "term": "Financial transparency",
+          "definition": "Open reporting of income and expenses."
+        },
+        {
+          "term": "Accountability controls",
+          "definition": "Multiple people handling money, audits, budgets."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A situation where personal interest could improperly influence decisions."
+        }
+      ],
+      "discussion_questions": [
+        "How did Paul handle the collection 'honorably' (2 Cor 8:20-21)?",
+        "What does the early church's use of goods (Calvin, Ambrose) teach?",
+        "What controls should every church have for handling money?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Paul arranged for others to accompany the collection in order to",
+          "options": [
+            "guard it from thieves only",
+            "avoid blame and do what is honorable before the Lord and men",
+            "increase it",
+            "keep it secret"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 9:7 says God loves",
+          "options": [
+            "a rich giver",
+            "a cheerful giver",
+            "a public giver",
+            "a tither only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ananias and Sapphira's sin was",
+          "options": [
+            "not giving enough",
+            "lying about their gift",
+            "giving too much",
+            "giving to the poor"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Calvin noted that in the early church the goods of the church were used for the clergy, the poor, buildings, and",
+          "options": [
+            "wars",
+            "the relief of the poor abroad and captives",
+            "kings",
+            "entertainment"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A basic financial control is",
+          "options": [
+            "one person handling all money",
+            "having at least two unrelated people count and record offerings",
+            "no budgets",
+            "cash-only payments without records"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "List essential financial safeguards for a church.",
+          "answer_key": "Budgets approved by leaders/congregation; two unrelated counters; separation of duties; regular reports; independent review or audit; policies for expenses and conflicts of interest; clergy compensation set by a board; compliance with laws."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should pastors teach stewardship?",
+          "answer_key": "Ground giving in God's grace in Christ (2 Cor 8:9); teach generosity as worship, cheerful and proportional; address contentment and the dangers of wealth; model generosity; be transparent about how funds are used."
+        }
+      ]
+    },
+    {
+      "id": "lea-09",
+      "title": "Legal, Ethical and Safeguarding Responsibilities",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Understand the church's legal obligations (governance, employment, safeguarding, confidentiality)."
+        },
+        {
+          "id": "o2",
+          "text": "Maintain ministerial ethics (boundaries, confidentiality, integrity)."
+        },
+        {
+          "id": "o3",
+          "text": "Implement child and vulnerable-adult protection policies."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 13:1-7",
+        "1 Timothy 3:7",
+        "Matthew 18:6-7",
+        "2 Corinthians 8:21"
+      ],
+      "library_readings": [
+        {
+          "author": "Ambrose",
+          "title": "On the Duties of the Clergy",
+          "section": "Book I, chapters 17-22 (modesty and propriety for clergy)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part II, chapters 2-3 (the pastor's purity and example)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Mandatory reporting",
+          "definition": "Legal duty to report suspected abuse."
+        },
+        {
+          "term": "Confidentiality",
+          "definition": "Protecting private information, with limits where harm is involved."
+        },
+        {
+          "term": "Ministerial boundaries",
+          "definition": "Appropriate limits in pastoral relationships."
+        },
+        {
+          "term": "Well thought of by outsiders",
+          "definition": "The elder's reputation in the community (1 Tim 3:7)."
+        }
+      ],
+      "discussion_questions": [
+        "How does 1 Timothy 3:7 relate to legal and ethical conduct?",
+        "What are the limits of pastoral confidentiality?",
+        "What policies protect children and vulnerable adults?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Timothy 3:7 says an overseer must be",
+          "options": [
+            "unknown to outsiders",
+            "well thought of by outsiders",
+            "a citizen of Rome",
+            "wealthy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Pastoral confidentiality should be broken when",
+          "options": [
+            "never",
+            "there is risk of serious harm, especially abuse, or the law requires reporting",
+            "gossip is interesting",
+            "the pastor is tired"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ambrose counsels clergy to observe",
+          "options": [
+            "extravagance",
+            "modesty and propriety in conduct and speech",
+            "secrecy",
+            "harshness"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Safeguarding policies typically include",
+          "options": [
+            "no screening",
+            "background checks, training, two-adult rules and reporting procedures",
+            "private one-on-one meetings with children",
+            "informal handling of allegations"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 8:21 says we aim at what is honorable",
+          "options": [
+            "before God only",
+            "not only in the Lord's sight but also in the sight of man",
+            "in secret",
+            "when convenient"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are key ministerial ethical boundaries?",
+          "answer_key": "Avoiding romantic or sexual relationships with those under care; maintaining appropriate privacy settings for counseling; honest finances; respecting confidentiality within limits; not exploiting power; avoiding dual relationships; accountability."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why must churches cooperate with civil authorities on abuse?",
+          "answer_key": "God ordains authorities to punish wrongdoing (Rom 13); protecting the vulnerable is a biblical duty; internal handling often protects abusers and harms victims; legal reporting obligations must be obeyed."
+        }
+      ]
+    },
+    {
+      "id": "lea-10",
+      "title": "Worship Planning and the Life of the Congregation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Plan worship services that are biblical, coherent and participatory."
+        },
+        {
+          "id": "o2",
+          "text": "Understand the elements of worship (Word, prayer, song, sacrament, offering, blessing)."
+        },
+        {
+          "id": "o3",
+          "text": "Coordinate the church calendar and ministries."
+        }
+      ],
+      "scripture_passages": [
+        "Colossians 3:16-17",
+        "1 Corinthians 14:26",
+        "Acts 2:42",
+        "Isaiah 6:1-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "First Apology",
+          "section": "Chapters 65-67 (the order of early Christian worship)"
+        },
+        {
+          "author": "Anonymous",
+          "title": "The Didache (Teaching of the Twelve Apostles)",
+          "section": "Chapters 7-10 and 14 (baptism, prayer, Eucharist, Lord's Day)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 10, sections 27-32 (church order and ceremonies)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Elements of worship",
+          "definition": "Reading and preaching Scripture, prayer, singing, sacraments, offering, blessing."
+        },
+        {
+          "term": "Liturgy",
+          "definition": "The ordered form of public worship."
+        },
+        {
+          "term": "Regulative principle",
+          "definition": "Worship should include only what Scripture commands (Reformed)."
+        },
+        {
+          "term": "Normative principle",
+          "definition": "Worship may include what Scripture does not forbid (Lutheran, Anglican)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Isaiah 6 suggest a pattern for worship (revelation, confession, pardon, commission)?",
+        "What elements appear in Justin's account of Sunday worship?",
+        "Compare the regulative and normative principles."
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Justin's account of worship includes readings from the memoirs of the apostles and the writings of",
+          "options": [
+            "philosophers",
+            "the prophets",
+            "emperors",
+            "martyrs only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Didache instructs believers to pray the Lord's Prayer",
+          "options": [
+            "once a week",
+            "three times a day",
+            "annually",
+            "only in church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The regulative principle holds that worship should include",
+          "options": [
+            "anything not forbidden",
+            "only what Scripture commands or warrants",
+            "whatever is popular",
+            "only music"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Colossians 3:16 includes singing psalms, hymns and spiritual songs with",
+          "options": [
+            "instruments only",
+            "thankfulness in your hearts to God",
+            "silence",
+            "dancing"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Isaiah 6 moves from seeing God's holiness to confession, cleansing and",
+          "options": [
+            "judgment",
+            "commissioning ('Here I am! Send me')",
+            "silence",
+            "feasting"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe a biblical pattern for a worship service.",
+          "answer_key": "Gathering and call to worship (God's holiness), confession and assurance of pardon, praise and prayer, reading and preaching of the Word, response (offering, creed, prayers), the Lord's Supper, and sending with blessing - a dialogue of revelation and response."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Compare the regulative and normative principles of worship.",
+          "answer_key": "Regulative (Reformed/Presbyterian) - only elements commanded or warranted by Scripture belong in worship; normative (Lutheran/Anglican/many evangelicals) - practices not forbidden by Scripture are permitted if edifying; both seek biblical, God-honoring worship."
+        }
+      ]
+    },
+    {
+      "id": "lea-11",
+      "title": "Volunteers, Discipleship Pathways and Church Health",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recruit, train and care for volunteers."
+        },
+        {
+          "id": "o2",
+          "text": "Design discipleship pathways from newcomer to leader."
+        },
+        {
+          "id": "o3",
+          "text": "Assess church health beyond numbers."
+        }
+      ],
+      "scripture_passages": [
+        "Ephesians 4:11-16",
+        "Colossians 1:28-29",
+        "Hebrews 10:24-25"
+      ],
+      "library_readings": [
+        {
+          "author": "Cyril of Jerusalem",
+          "title": "Catechetical Lectures",
+          "section": "Procatechesis 1-6 and 11-17 (preparing and caring for new believers)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapters 22-25 (the weak and the strong; the slow and the hasty)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Discipleship pathway",
+          "definition": "A clear process for spiritual growth and involvement."
+        },
+        {
+          "term": "Volunteer care",
+          "definition": "Supporting and appreciating those who serve."
+        },
+        {
+          "term": "Church health",
+          "definition": "Marks of spiritual vitality (Word, sacraments, love, mission, holiness)."
+        },
+        {
+          "term": "Maturity in Christ",
+          "definition": "The goal of ministry (Col 1:28)."
+        }
+      ],
+      "discussion_questions": [
+        "What is the goal of ministry according to Ephesians 4 and Colossians 1?",
+        "How did Cyril prepare new believers?",
+        "What measures of church health are more important than attendance?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Colossians 1:28 says we proclaim Christ, warning and teaching everyone, that we may present everyone",
+          "options": [
+            "busy",
+            "mature in Christ",
+            "wealthy",
+            "happy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "According to Ephesians 4:12, leaders equip the saints for",
+          "options": [
+            "attendance",
+            "the work of ministry, for building up the body of Christ",
+            "fundraising",
+            "voting"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Cyril warns candidates to come to baptism with",
+          "options": [
+            "curiosity only",
+            "a sincere purpose, not hypocrisy",
+            "money",
+            "fear"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "A healthy approach to volunteers includes",
+          "options": [
+            "guilt-driven recruitment",
+            "matching gifts, training, support and appreciation",
+            "never thanking them",
+            "overloading the faithful few"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Hebrews 10:24 urges us to consider how to stir up one another to",
+          "options": [
+            "compete",
+            "love and good works",
+            "debate",
+            "leave"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe an effective discipleship pathway.",
+          "answer_key": "Welcoming newcomers; clear gospel presentation and membership class; small groups for community and Bible study; training in core doctrines and spiritual disciplines; serving opportunities matched to gifts; mentoring; leadership training; mission involvement."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are marks of church health beyond numbers?",
+          "answer_key": "Faithful preaching and sacraments, growth in holiness and love, prayer, members serving with their gifts, evangelism and conversions, care for the needy, unity, healthy leadership, discipleship and multiplication."
+        }
+      ]
+    },
+    {
+      "id": "lea-12",
+      "title": "Leading through Change and Finishing Well",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Lead congregations through change wisely."
+        },
+        {
+          "id": "o2",
+          "text": "Handle criticism, opposition and discouragement."
+        },
+        {
+          "id": "o3",
+          "text": "Plan for leadership succession and finishing well."
+        }
+      ],
+      "scripture_passages": [
+        "Nehemiah 4:1-23",
+        "Acts 20:17-38",
+        "2 Timothy 4:6-8",
+        "Joshua 1:1-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part IV"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Book V, chapters 4-8 (bearing criticism and slander)"
+        },
+        {
+          "author": "Ambrose",
+          "title": "On the Duties of the Clergy",
+          "section": "Book I, chapter 3 and Book III, chapter 22 (silence, patience and constancy)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Change leadership",
+          "definition": "Guiding a community through transitions with vision and care."
+        },
+        {
+          "term": "Succession planning",
+          "definition": "Preparing for leadership transitions."
+        },
+        {
+          "term": "Finishing well",
+          "definition": "Remaining faithful to the end (2 Tim 4:7)."
+        },
+        {
+          "term": "Opposition",
+          "definition": "Resistance to God's work, internal and external."
+        }
+      ],
+      "discussion_questions": [
+        "How did Nehemiah respond to mockery and threats?",
+        "How did Moses prepare Joshua (and Paul prepare the Ephesian elders)?",
+        "What does Chrysostom say about bearing criticism?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "When opponents threatened, Nehemiah and the people",
+          "options": [
+            "stopped building",
+            "prayed and set a guard, building with one hand and holding a weapon with the other",
+            "fled",
+            "negotiated surrender"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Paul says in 2 Timothy 4:7, 'I have fought the good fight, I have finished the race,",
+          "options": [
+            "I have won'",
+            "I have kept the faith'",
+            "I have rested'",
+            "I have preached'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "God told Joshua to be strong and courageous and to",
+          "options": [
+            "build a temple",
+            "meditate on the Book of the Law day and night",
+            "choose a king",
+            "return to Egypt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Chrysostom advises that a pastor facing unjust slander should",
+          "options": [
+            "retaliate",
+            "bear it with patience while correcting falsehood when necessary",
+            "resign immediately",
+            "ignore all criticism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Succession planning means",
+          "options": [
+            "the pastor stays forever",
+            "preparing future leaders and transitions before they are needed",
+            "choosing a relative",
+            "avoiding transitions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give principles for leading change in a church.",
+          "answer_key": "Ground change in Scripture and mission; pray; build trust and relationships first; involve leaders and the congregation; communicate clearly and repeatedly; move at a wise pace; listen to concerns; care for those who grieve losses; celebrate progress; persevere."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does it mean to finish well in ministry?",
+          "answer_key": "To persevere in faith, holiness and faithful service to the end; guard doctrine and life; hand on leadership to others; avoid disqualifying sin; and depend on God's grace, looking to the crown of righteousness (2 Tim 4:8)."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word leadership case study and plan. Describe a realistic church situation (for example conflict among leaders, a needed change, a financial crisis, or leadership transition), apply biblical models of servant leadership, draw on at least two library sources (such as Gregory the Great, Ambrose, Chrysostom or Calvin; cite as Author, Title, section), and present a concrete action plan with safeguards and ways to measure faithfulness."
+    }
+  ]
+}

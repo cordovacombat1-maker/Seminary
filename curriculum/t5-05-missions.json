@@ -1,0 +1,1664 @@
+{
+  "id": "missions",
+  "title": "Missions and Evangelism",
+  "tier": 5,
+  "tier_name": "Ministry",
+  "description": "The theology, history and practice of Christian mission and evangelism. Students study the mission of God through the whole Bible, the apostolic mission in Acts, the history of missions from the early church to the global South, the theology of salvation and the nations, contextualization and culture, church planting, personal and congregational evangelism, mercy and justice in mission, and partnership in world Christianity today.",
+  "prerequisites": [
+    "nt-survey",
+    "church-history-1"
+  ],
+  "lessons": [
+    {
+      "id": "mis-01",
+      "title": "The Mission of God in the Old Testament",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Trace God's purpose for the nations from creation and Abraham through Israel and the prophets."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Israel's calling as a priestly kingdom and light to the nations."
+        },
+        {
+          "id": "o3",
+          "text": "Identify Old Testament examples of Gentiles joining God's people."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 12:1-3",
+        "Exodus 19:4-6",
+        "Isaiah 49:6",
+        "Psalm 67"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapters 46-47 (the nations and those outside Israel who belonged to the heavenly city)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 109-110 and 121-122 (the Gentiles as the promised people)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Isaiah, chapter 49"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Missio Dei",
+          "definition": "The mission of God, in which the church participates."
+        },
+        {
+          "term": "Light to the nations",
+          "definition": "Israel's and the Servant's vocation (Isa 49:6)."
+        },
+        {
+          "term": "Centripetal mission",
+          "definition": "Nations drawn to Israel (OT pattern)."
+        },
+        {
+          "term": "Centrifugal mission",
+          "definition": "God's people sent out to the nations (NT pattern)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Genesis 12:3 frame the whole Bible's mission?",
+        "How does Psalm 67 connect blessing on Israel with the nations?",
+        "Who are examples of Gentiles in the Old Testament who joined God's people?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Genesis 12:3 promises that in Abraham",
+          "options": [
+            "Israel will conquer",
+            "all the families of the earth will be blessed",
+            "the law will be given",
+            "Egypt will fall"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Isaiah 49:6 says it is too light a thing for the Servant to restore Israel; he will also be",
+          "options": [
+            "a king",
+            "a light for the nations, that salvation may reach the end of the earth",
+            "a priest",
+            "a judge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Psalm 67:1-2 asks God to bless us so that",
+          "options": [
+            "we may be rich",
+            "his way may be known on earth, his salvation among all nations",
+            "enemies may fear",
+            "the temple may stand"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Israel's calling in Exodus 19:6 was to be",
+          "options": [
+            "a military power",
+            "a kingdom of priests and a holy nation",
+            "separate from all nations with no mission",
+            "an empire"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Old Testament pattern in which nations come to Israel is often called",
+          "options": [
+            "centrifugal",
+            "centripetal",
+            "contextual",
+            "incarnational"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does the Old Testament show God's concern for the nations?",
+          "answer_key": "God creates all peoples; promises Abraham blessing for all families; calls Israel to be a priestly kingdom and light; includes Gentiles like Rahab, Ruth, Naaman and Nineveh; prophesies nations streaming to Zion and the Servant as light to the nations."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Distinguish centripetal and centrifugal mission.",
+          "answer_key": "Centripetal - the nations are drawn to God's people and presence (OT, Zion); centrifugal - God's people are sent out to the nations (NT, Great Commission); both reflect God's one purpose."
+        }
+      ]
+    },
+    {
+      "id": "mis-02",
+      "title": "Jesus and the Apostolic Mission",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain Jesus' mission and the sending of the disciples."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the Great Commission texts in each Gospel and Acts."
+        },
+        {
+          "id": "o3",
+          "text": "Describe Paul's missionary theology and methods."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 28:18-20",
+        "John 20:21-23",
+        "Luke 24:46-49",
+        "Romans 15:18-24"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (the missionary labors of the apostles)"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book III, chapter 1 (the apostles' fields of mission)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Matthew, chapter 28"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Great Commission",
+          "definition": "Jesus' charge to make disciples of all nations."
+        },
+        {
+          "term": "Apostle",
+          "definition": "'Sent one'."
+        },
+        {
+          "term": "Ethnē",
+          "definition": "'Nations' - peoples, not merely countries."
+        },
+        {
+          "term": "Pioneer mission",
+          "definition": "Paul's ambition to preach where Christ was not named (Rom 15:20)."
+        }
+      ],
+      "discussion_questions": [
+        "How does 'As the Father has sent me, even so I am sending you' shape mission?",
+        "What does 'all nations' (panta ta ethnē) mean?",
+        "What were Paul's key missionary principles?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In John 20:21 Jesus says, 'As the Father has sent me,",
+          "options": [
+            "so I will stay'",
+            "even so I am sending you'",
+            "go home'",
+            "wait in Jerusalem forever'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Luke 24:47 says repentance and forgiveness should be proclaimed in his name to",
+          "options": [
+            "Israel only",
+            "all nations, beginning from Jerusalem",
+            "Rome",
+            "the Samaritans"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 15:20 states Paul's ambition to preach the gospel",
+          "options": [
+            "in Jerusalem only",
+            "not where Christ has already been named",
+            "only to Jews",
+            "in synagogues only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Greek 'ethnē' in Matthew 28:19 refers to",
+          "options": [
+            "modern nation-states",
+            "peoples/ethnic groups (the Gentiles)",
+            "Israel",
+            "cities"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Eusebius records tradition assigning Thomas's mission to",
+          "options": [
+            "Spain",
+            "Parthia",
+            "Rome",
+            "Egypt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the elements of the Great Commission in Matthew 28:18-20.",
+          "answer_key": "Grounded in Christ's universal authority; the command to make disciples of all nations; by going, baptizing in the triune name, and teaching obedience to all Christ commanded; with the promise of his presence to the end of the age."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What principles guided Paul's mission?",
+          "answer_key": "Preaching Christ crucified and risen; strategic urban centers; starting with synagogues and God-fearers; planting self-sustaining churches with local elders; teams and partnership; contextual adaptation without compromise; suffering; pioneering new regions."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/ACT"
+    },
+    {
+      "id": "mis-03",
+      "title": "Mission in the Early and Medieval Church",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain how Christianity spread in the Roman Empire before Constantine."
+        },
+        {
+          "id": "o2",
+          "text": "Describe missions to the Goths, Ireland, Britain and northern Europe."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate forced conversions and mission under Christendom."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 8:1-4",
+        "1 Peter 2:11-12",
+        "Matthew 5:13-16"
+      ],
+      "library_readings": [
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book II, chapter 3 and Book V, chapter 10 (the spread of the gospel; Pantaenus in India)"
+        },
+        {
+          "author": "Mathetes",
+          "title": "Epistle to Diognetus",
+          "section": "Chapters 5-7"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 4 (the conversion of the northern barbarians)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Diaspora evangelism",
+          "definition": "The spread of the gospel through ordinary believers scattered by persecution or travel."
+        },
+        {
+          "term": "Ulfilas",
+          "definition": "Missionary to the Goths who translated the Bible into Gothic."
+        },
+        {
+          "term": "Patrick and Columba",
+          "definition": "Missionaries to Ireland and Scotland."
+        },
+        {
+          "term": "Christendom",
+          "definition": "The alliance of church and state in medieval Europe."
+        }
+      ],
+      "discussion_questions": [
+        "How did ordinary Christians spread the faith in the first centuries?",
+        "What made Irish missionary monasticism so effective?",
+        "What went wrong when mission was tied to political power?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Acts 8:4 says those scattered by persecution",
+          "options": [
+            "hid",
+            "went about preaching the word",
+            "returned to Judaism",
+            "fought back"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The missionary who translated the Bible into Gothic was",
+          "options": [
+            "Boniface",
+            "Ulfilas",
+            "Patrick",
+            "Augustine of Canterbury"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Eusebius reports that Pantaenus traveled as a missionary to",
+          "options": [
+            "Spain",
+            "India",
+            "Britain",
+            "Gaul"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Peter 2:12 urges believers to keep their conduct honorable among the Gentiles so that",
+          "options": [
+            "they are left alone",
+            "they may see your good deeds and glorify God",
+            "they fear you",
+            "you earn rewards"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Charlemagne's forced baptisms of the Saxons illustrate",
+          "options": [
+            "ideal mission",
+            "the dangers of coercive mission under Christendom",
+            "Anabaptist practice",
+            "apostolic practice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How did the church grow so rapidly before Constantine?",
+          "answer_key": "Through ordinary believers' witness, household networks, care for the sick and poor (especially during plagues), courageous martyrdom, moral transformation, community, and the proclamation of a universal gospel."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Evaluate the legacy of medieval missions.",
+          "answer_key": "Monastic missionaries (Patrick, Columba, Boniface) evangelized, translated, educated and planted churches; but coercion, forced baptisms and entanglement with political conquest distorted the gospel and produced nominal Christianity."
+        }
+      ]
+    },
+    {
+      "id": "mis-04",
+      "title": "The Modern Missionary Movement and World Christianity",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Protestant and Catholic missionary movements from the 1500s to 1900s."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate missions and colonialism critically and fairly."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the shift of Christianity to the global South."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 10:13-15",
+        "Revelation 7:9-10",
+        "Acts 13:1-3"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The General Spread of the Gospel'"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 7 (the missions of the Reformation era and the Catholic orders, in overview)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "William Carey",
+          "definition": "Baptist pioneer missionary to India (1793)."
+        },
+        {
+          "term": "Jesuit missions",
+          "definition": "Catholic missions such as Francis Xavier (Asia) and Matteo Ricci (China)."
+        },
+        {
+          "term": "Three-self principles",
+          "definition": "Self-governing, self-supporting, self-propagating churches (Venn, Anderson)."
+        },
+        {
+          "term": "Global South",
+          "definition": "Africa, Asia and Latin America, now home to most Christians."
+        }
+      ],
+      "discussion_questions": [
+        "How did Moravian and Baptist missions launch Protestant missions?",
+        "How did Ricci's contextualization in China become controversial?",
+        "What does the growth of the global church mean for Western Christians?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Acts 13:2-3 records the church at Antioch sending out",
+          "options": [
+            "Peter and John",
+            "Barnabas and Saul",
+            "Silas and Timothy",
+            "the Twelve"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Francis Xavier was a Jesuit missionary to",
+          "options": [
+            "Africa",
+            "India and Japan",
+            "Brazil",
+            "Russia"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The 'three-self' principles aimed at churches that are self-governing, self-supporting and",
+          "options": [
+            "self-teaching",
+            "self-propagating",
+            "self-worshipping",
+            "self-funding only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Today the majority of Christians live in",
+          "options": [
+            "Europe",
+            "North America",
+            "the global South (Africa, Latin America, Asia)",
+            "the Middle East"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Romans 10:15 asks, 'How are they to preach unless",
+          "options": [
+            "they are trained?'",
+            "they are sent?'",
+            "they are paid?'",
+            "they are ordained?'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give a balanced evaluation of missions and colonialism.",
+          "answer_key": "Many missionaries benefited from or reinforced colonial power and cultural superiority; others opposed injustice, defended indigenous peoples, translated Scripture, founded schools and hospitals; indigenous churches grew most after independence; mission must repudiate coercion and cultural imperialism."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why does world Christianity matter for the church today?",
+          "answer_key": "Most believers now live in the global South; theology, worship and mission are increasingly shaped there; Western churches must listen, partner and learn, and mission is now 'from everywhere to everywhere'."
+        }
+      ]
+    },
+    {
+      "id": "mis-05",
+      "title": "The Theology of Salvation and the Nations",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the uniqueness of Christ and the necessity of the gospel."
+        },
+        {
+          "id": "o2",
+          "text": "Compare views on the unevangelized (exclusivism, inclusivism, pluralism, postmortem evangelism)."
+        },
+        {
+          "id": "o3",
+          "text": "Relate these views to missionary motivation."
+        }
+      ],
+      "scripture_passages": [
+        "John 14:6",
+        "Acts 4:12",
+        "Romans 10:9-17",
+        "Romans 1:18-20"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapter 47 (those outside Israel who belonged to the city of God)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "First Apology",
+          "section": "Chapter 46 (those who lived with the Word before Christ)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'On Faith' (degrees of faith, including those without the gospel)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Solus Christus",
+          "definition": "Salvation through Christ alone."
+        },
+        {
+          "term": "Exclusivism",
+          "definition": "Salvation requires explicit faith in Christ."
+        },
+        {
+          "term": "Inclusivism",
+          "definition": "Salvation through Christ possibly without explicit knowledge of him."
+        },
+        {
+          "term": "Missionary motivation",
+          "definition": "Reasons for mission (God's glory, love, obedience, lostness)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Romans 10:14-17 argue for the necessity of preaching?",
+        "How did Justin and Wesley speak about those without the gospel?",
+        "How do different views affect urgency in mission?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 10:14 asks, 'How are they to believe in him of whom",
+          "options": [
+            "they are afraid?'",
+            "they have never heard?'",
+            "they know nothing?'",
+            "the law speaks?'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Justin said that those who lived with reason (the Word) before Christ, like Socrates, were",
+          "options": [
+            "condemned",
+            "Christians in a sense",
+            "gods",
+            "philosophers only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'On Faith' distinguishes",
+          "options": [
+            "only saving and damning faith",
+            "various degrees of faith from that of a heathen to that of a son",
+            "faith and works",
+            "Jewish and Gentile faith"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Acts 4:12 says salvation is found in",
+          "options": [
+            "all religions",
+            "no one else but Jesus",
+            "the law",
+            "the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Inclusivism holds that salvation is",
+          "options": [
+            "through many saviors",
+            "through Christ alone, but possibly apart from explicit knowledge of him",
+            "impossible",
+            "by works"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare exclusivism and inclusivism.",
+          "answer_key": "Both affirm salvation is only through Christ's work. Exclusivists hold that one must explicitly hear and believe the gospel (Rom 10:14-17); inclusivists hold that some who have not heard may be saved through Christ by responding to the light they have (citing Justin, Wesley's 'On Faith', Acts 10:34-35)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What should motivate mission?",
+          "answer_key": "The glory of God among the nations, obedience to Christ's command, love for people, the lostness of humanity without Christ, the joy of the gospel, and the hope of the nations worshiping the Lamb (Rev 7:9)."
+        }
+      ]
+    },
+    {
+      "id": "mis-06",
+      "title": "Culture, Contextualization and Translation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Define culture and its relationship to the gospel."
+        },
+        {
+          "id": "o2",
+          "text": "Explain faithful contextualization and the dangers of syncretism."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the significance of Bible translation for mission."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 9:19-23",
+        "Acts 15:19-29",
+        "Acts 17:22-31",
+        "John 1:14"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapter 40 (using truths found among pagans)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "Second Apology",
+          "section": "Chapter 13 (the seeds of truth in philosophers)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 2 (Christianity and the Greco-Roman culture)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Contextualization",
+          "definition": "Communicating and embodying the gospel in ways meaningful within a culture."
+        },
+        {
+          "term": "Syncretism",
+          "definition": "Mixing the gospel with incompatible beliefs."
+        },
+        {
+          "term": "Incarnational ministry",
+          "definition": "Entering another culture as Christ entered humanity."
+        },
+        {
+          "term": "Translatability",
+          "definition": "The gospel's ability to be expressed in every language and culture."
+        }
+      ],
+      "discussion_questions": [
+        "How did Paul contextualize in Athens without compromise?",
+        "How did the Jerusalem Council balance freedom and sensitivity?",
+        "What does 'plundering the Egyptians' mean for mission?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In 1 Corinthians 9:22 Paul says he has become all things to all people",
+          "options": [
+            "to be liked",
+            "that by all means he might save some",
+            "to avoid conflict",
+            "for money"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Syncretism is",
+          "options": [
+            "faithful contextualization",
+            "mixing the gospel with incompatible beliefs",
+            "Bible translation",
+            "church planting"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Jerusalem Council asked Gentile believers to abstain from certain things mainly to",
+          "options": [
+            "earn salvation",
+            "maintain fellowship with Jewish believers and avoid idolatry",
+            "become Jews",
+            "keep the whole law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Augustine taught that truths found in pagan learning should be",
+          "options": [
+            "rejected",
+            "claimed for Christian use, like Israel's Egyptian gold",
+            "worshipped",
+            "hidden"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The incarnation (John 1:14) serves as a model for mission because Christ",
+          "options": [
+            "stayed distant",
+            "entered a particular culture and humanity to reveal God",
+            "rejected culture",
+            "wrote a law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Distinguish contextualization from syncretism.",
+          "answer_key": "Contextualization expresses the unchanging gospel in culturally understandable forms (language, illustrations, practices) while remaining faithful; syncretism allows cultural beliefs to alter or dilute the gospel's content."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is Bible translation central to mission?",
+          "answer_key": "God speaks to people in their heart language; translation affirms every culture's dignity, makes the word accessible, grounds indigenous churches in Scripture, and shows the gospel's universal translatability."
+        }
+      ]
+    },
+    {
+      "id": "mis-07",
+      "title": "Personal Evangelism",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the gospel message clearly and concisely."
+        },
+        {
+          "id": "o2",
+          "text": "Practice relational, conversational evangelism."
+        },
+        {
+          "id": "o3",
+          "text": "Overcome fear and obstacles in evangelism."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 15:1-4",
+        "John 4:1-42",
+        "Acts 8:26-40",
+        "Colossians 4:2-6"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Almost Christian' and 'Awake, Thou That Sleepest'"
+        },
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "Second Series, 'Conversion as Our Aim'"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book VIII, chapters 1-6 (how the testimonies of Victorinus and Antony moved Augustine)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Gospel",
+          "definition": "The good news of Christ's death and resurrection for sinners."
+        },
+        {
+          "term": "Testimony",
+          "definition": "Sharing how God has worked in one's life."
+        },
+        {
+          "term": "Friendship evangelism",
+          "definition": "Sharing Christ within ongoing relationships."
+        },
+        {
+          "term": "Call to response",
+          "definition": "Inviting repentance and faith."
+        }
+      ],
+      "discussion_questions": [
+        "How did Jesus move the conversation with the Samaritan woman toward himself?",
+        "How did others' testimonies move Augustine toward conversion?",
+        "What fears keep you from evangelism, and how can they be overcome?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 15:3-4 summarizes the gospel as Christ died for our sins,",
+          "options": [
+            "taught the law",
+            "was buried, and was raised on the third day according to the Scriptures",
+            "founded the church",
+            "healed the sick"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Philip began with the Ethiopian's question from Isaiah and",
+          "options": [
+            "spoke of Moses",
+            "told him the good news about Jesus",
+            "baptized him first",
+            "left"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Samaritan woman's testimony led many in her town to",
+          "options": [
+            "reject Jesus",
+            "believe because of her word and then because of Jesus' own words",
+            "stone her",
+            "go to Jerusalem"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Augustine was deeply moved by hearing of the conversion of",
+          "options": [
+            "Ambrose",
+            "Victorinus, the famous rhetorician",
+            "Pelagius",
+            "Jerome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Colossians 4:5 urges believers to walk in wisdom toward outsiders,",
+          "options": [
+            "avoiding them",
+            "making the best use of the time",
+            "correcting them",
+            "judging them"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Present a concise summary of the gospel.",
+          "answer_key": "God created us to know him; we have sinned and are separated from him under judgment; God sent his Son Jesus, who lived perfectly, died for our sins and rose again; all who repent and trust in him are forgiven, reconciled and given new life by the Spirit; he calls us to follow him."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give practical principles for personal evangelism.",
+          "answer_key": "Pray for people and opportunities; build genuine relationships; listen and ask questions; share your testimony; present the gospel clearly; answer questions honestly; invite response without pressure; follow up and connect them with the church."
+        }
+      ]
+    },
+    {
+      "id": "mis-08",
+      "title": "The Evangelizing Church",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe how congregations become evangelistic communities."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate models (revivals, seeker services, Alpha-style courses, missional communities)."
+        },
+        {
+          "id": "o3",
+          "text": "Integrate evangelism with discipleship and catechesis."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 2:42-47",
+        "1 Thessalonians 1:5-10",
+        "Ephesians 4:11-16",
+        "Matthew 5:14-16"
+      ],
+      "library_readings": [
+        {
+          "author": "Cyril of Jerusalem",
+          "title": "Catechetical Lectures",
+          "section": "Procatechesis (preparing inquirers for baptism)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Scriptural Christianity'"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 2 (the catechumenate and early Christian growth)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Catechumenate",
+          "definition": "The early church's process of instructing converts before baptism."
+        },
+        {
+          "term": "Missional church",
+          "definition": "A congregation organized around participation in God's mission."
+        },
+        {
+          "term": "Revival",
+          "definition": "A season of spiritual renewal and conversions."
+        },
+        {
+          "term": "Assimilation",
+          "definition": "Integrating new believers into church life."
+        }
+      ],
+      "discussion_questions": [
+        "How did the Thessalonian church 'sound forth' the word (1 Thess 1:8)?",
+        "What can the ancient catechumenate teach modern churches about making disciples?",
+        "What are strengths and weaknesses of various evangelistic models?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Thessalonians 1:8 says from the Thessalonians the word of the Lord",
+          "options": [
+            "was hidden",
+            "sounded forth everywhere",
+            "was lost",
+            "was debated"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The early church's instruction of converts before baptism was the",
+          "options": [
+            "synod",
+            "catechumenate",
+            "diaconate",
+            "presbytery"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Acts 2:47 says the Lord added to their number",
+          "options": [
+            "yearly",
+            "day by day those who were being saved",
+            "at festivals only",
+            "through the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Cyril's Procatechesis addresses",
+          "options": [
+            "bishops",
+            "candidates preparing for baptism",
+            "emperors",
+            "monks"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A missional church",
+          "options": [
+            "leaves mission to specialists",
+            "organizes its life around participation in God's mission",
+            "avoids outsiders",
+            "focuses only on buildings"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What makes a congregation evangelistic?",
+          "answer_key": "Gospel-centered preaching and worship, prayer, members equipped and motivated to witness, genuine love and hospitality, visible community and good works, clear pathways for inquirers, and discipleship that grows new believers."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What can churches learn from the ancient catechumenate?",
+          "answer_key": "Conversion involves thorough instruction in doctrine and life, community support, spiritual formation, and a meaningful rite of initiation, integrating evangelism and discipleship."
+        }
+      ]
+    },
+    {
+      "id": "mis-09",
+      "title": "Church Planting",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the biblical basis for church planting."
+        },
+        {
+          "id": "o2",
+          "text": "Describe models and stages of church planting."
+        },
+        {
+          "id": "o3",
+          "text": "Develop leadership, multiplication and indigenous principles."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 14:21-23",
+        "Titus 1:5",
+        "1 Corinthians 3:5-11",
+        "2 Timothy 2:2"
+      ],
+      "library_readings": [
+        {
+          "author": "Clement of Rome",
+          "title": "First Epistle to the Corinthians",
+          "section": "Chapters 42-44 (the apostles appointing leaders in the churches they planted)"
+        },
+        {
+          "author": "Anonymous",
+          "title": "The Didache (Teaching of the Twelve Apostles)",
+          "section": "Chapters 11-15 (itinerant ministers and local leaders)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (the organization of the apostolic churches)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Church planting",
+          "definition": "Starting new local congregations."
+        },
+        {
+          "term": "Multiplication",
+          "definition": "Churches planting churches."
+        },
+        {
+          "term": "Indigenous leadership",
+          "definition": "Local believers leading the church."
+        },
+        {
+          "term": "Mother-daughter plant",
+          "definition": "A church sending members to start a new congregation."
+        }
+      ],
+      "discussion_questions": [
+        "How did Paul and Barnabas establish churches in Acts 14?",
+        "What does 2 Timothy 2:2 teach about leadership multiplication?",
+        "How does the Didache handle itinerant ministers and local leaders?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Acts 14:23 Paul and Barnabas appointed",
+          "options": [
+            "bishops from Jerusalem",
+            "elders for them in every church",
+            "apostles",
+            "prophets only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "2 Timothy 2:2 envisions teaching passed through",
+          "options": [
+            "one generation",
+            "faithful people who will teach others also (four generations)",
+            "written letters only",
+            "councils"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 3:6 says, 'I planted, Apollos watered, but",
+          "options": [
+            "I harvested'",
+            "God gave the growth'",
+            "Peter built'",
+            "the church grew itself'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Titus 1:5 says Paul left Titus in Crete to",
+          "options": [
+            "rest",
+            "appoint elders in every town",
+            "write letters",
+            "baptize"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Didache instructs churches to appoint for themselves",
+          "options": [
+            "kings",
+            "bishops and deacons worthy of the Lord",
+            "apostles",
+            "prophets only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is church planting important for mission?",
+          "answer_key": "New churches reach new people and places, embody the gospel locally, multiply leaders, renew the wider church, and follow the apostolic pattern of establishing congregations with local leadership."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe key stages of church planting.",
+          "answer_key": "Prayer and discernment; calling and training a team; understanding the community; evangelism and relationship building; forming small groups; launching public worship; developing and appointing local leaders; establishing self-sustaining ministry; planting again."
+        }
+      ]
+    },
+    {
+      "id": "mis-10",
+      "title": "Word and Deed - Mercy, Justice and Mission",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the relationship of evangelism and social action."
+        },
+        {
+          "id": "o2",
+          "text": "Survey the church's history of mercy ministry."
+        },
+        {
+          "id": "o3",
+          "text": "Develop holistic mission without losing gospel priority."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 4:16-21",
+        "Matthew 25:31-46",
+        "Galatians 2:10",
+        "James 2:14-17"
+      ],
+      "library_readings": [
+        {
+          "author": "Ambrose",
+          "title": "On the Duties of the Clergy",
+          "section": "Book II, chapters 15-16 and 28 (mercy and ransoming captives)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 3 (Christian charity and hospitals in the Nicene era)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Use of Money' and 'On Visiting the Sick'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Holistic mission",
+          "definition": "Addressing the whole person - spiritual, physical, social."
+        },
+        {
+          "term": "Mercy ministry",
+          "definition": "Meeting practical needs in Christ's name."
+        },
+        {
+          "term": "Social gospel",
+          "definition": "A movement emphasizing social reform, sometimes at the expense of personal salvation."
+        },
+        {
+          "term": "Lausanne Covenant",
+          "definition": "Affirmed evangelism and social responsibility as part of Christian duty (1974)."
+        }
+      ],
+      "discussion_questions": [
+        "How did early Christians' care for the sick and poor contribute to mission?",
+        "Should evangelism have priority over social action? Present the views.",
+        "How can a church combine word and deed faithfully?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Galatians 2:10 says the apostles asked Paul to remember",
+          "options": [
+            "the law",
+            "the poor",
+            "Jerusalem's temple",
+            "the prophets"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Ambrose defended melting church vessels to",
+          "options": [
+            "build churches",
+            "ransom captives",
+            "pay debts",
+            "buy books"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Lausanne Covenant affirmed that evangelism and socio-political involvement are both",
+          "options": [
+            "unnecessary",
+            "part of Christian duty",
+            "the same thing",
+            "for government only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "James 2:16 criticizes saying 'Go in peace, be warmed and filled' without",
+          "options": [
+            "praying",
+            "giving the things needed for the body",
+            "preaching",
+            "baptizing"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The early church's care for plague victims",
+          "options": [
+            "hindered its growth",
+            "contributed to its growth and reputation",
+            "was forbidden",
+            "did not happen"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How should evangelism and social action relate?",
+          "answer_key": "Views range from evangelism as primary with social action as its fruit or bridge, to both as equal partners in holistic mission; most evangelical statements (Lausanne) affirm both, with proclaiming Christ central, since the gospel addresses the whole person."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give examples of the church's historical mercy ministry.",
+          "answer_key": "Care for widows, orphans and the poor in the early church; hospitals and xenodocheia after Constantine (Basil's Basiliad); ransoming captives (Ambrose); monasteries' hospitality; Wesley's clinics and schools; modern relief and development work."
+        }
+      ]
+    },
+    {
+      "id": "mis-11",
+      "title": "Mission among Other Faiths and in Hard Places",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Engage adherents of other religions respectfully and faithfully."
+        },
+        {
+          "id": "o2",
+          "text": "Understand persecution and the church's response."
+        },
+        {
+          "id": "o3",
+          "text": "Prepare for cross-cultural service (calling, preparation, member care)."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 17:16-34",
+        "2 Timothy 3:10-12",
+        "Hebrews 13:3",
+        "Matthew 10:16-23"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 1-8 and 142 (respectful dialogue with a Jewish interlocutor)"
+        },
+        {
+          "author": "Church of Smyrna",
+          "title": "The Martyrdom of Polycarp",
+          "section": "Chapters 9-11"
+        },
+        {
+          "author": "Tertullian",
+          "title": "Apology",
+          "section": "Chapter 50 ('the blood of Christians is seed')"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Interfaith dialogue",
+          "definition": "Respectful conversation between adherents of different religions."
+        },
+        {
+          "term": "Persecuted church",
+          "definition": "Believers suffering for their faith."
+        },
+        {
+          "term": "Member care",
+          "definition": "Support for missionaries' spiritual, emotional and physical well-being."
+        },
+        {
+          "term": "Creative-access countries",
+          "definition": "Places where traditional missionary work is restricted."
+        }
+      ],
+      "discussion_questions": [
+        "How does Justin model respectful but clear witness?",
+        "What does Tertullian mean by 'the blood of Christians is seed'?",
+        "How should churches support the persecuted (Heb 13:3)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Tertullian wrote that the blood of Christians is",
+          "options": [
+            "wasted",
+            "seed",
+            "a curse",
+            "a sacrifice for sins"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Jesus sent his disciples out as sheep among wolves, telling them to be",
+          "options": [
+            "fearful",
+            "wise as serpents and innocent as doves",
+            "silent",
+            "armed"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Hebrews 13:3 says remember those in prison",
+          "options": [
+            "only if innocent",
+            "as though in prison with them",
+            "occasionally",
+            "in private"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Justin's Dialogue ends with Trypho and Justin",
+          "options": [
+            "cursing each other",
+            "parting amicably, Justin praying for Trypho",
+            "fighting",
+            "converting together"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "2 Timothy 3:12 says all who desire to live a godly life in Christ Jesus",
+          "options": [
+            "will prosper",
+            "will be persecuted",
+            "will be famous",
+            "will avoid trouble"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How should Christians witness among people of other faiths?",
+          "answer_key": "With respect, love and humility; understanding their beliefs accurately; building relationships; affirming truths held in common; clearly presenting Christ's uniqueness; living consistently; trusting the Spirit; respecting freedom of conscience."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is member care and why does it matter?",
+          "answer_key": "Holistic support for missionaries - spiritual, emotional, relational, physical and practical - before, during and after service; it prevents burnout and attrition and honors those sent."
+        }
+      ]
+    },
+    {
+      "id": "mis-12",
+      "title": "Mission Strategy and the Local Church's Global Role",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Evaluate strategies (unreached people groups, urban mission, diaspora mission, short-term missions)."
+        },
+        {
+          "id": "o2",
+          "text": "Develop healthy partnerships with churches in the global South."
+        },
+        {
+          "id": "o3",
+          "text": "Write a mission plan for a local congregation."
+        }
+      ],
+      "scripture_passages": [
+        "Revelation 5:9-10",
+        "Philippians 1:3-11",
+        "Acts 11:19-30",
+        "3 John 1:5-8"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The General Spread of the Gospel'"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapter 11 (the church spread through all nations)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (Antioch as a missionary church)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Unreached people group",
+          "definition": "An ethnic group without an indigenous community of believers able to evangelize it."
+        },
+        {
+          "term": "Diaspora mission",
+          "definition": "Mission among and through migrant communities."
+        },
+        {
+          "term": "Short-term missions",
+          "definition": "Brief mission trips, with benefits and risks."
+        },
+        {
+          "term": "Partnership",
+          "definition": "Mutual, respectful cooperation between churches."
+        }
+      ],
+      "discussion_questions": [
+        "How does 3 John describe supporting missionaries 'in a manner worthy of God'?",
+        "What made Antioch a model missionary church?",
+        "What are the benefits and dangers of short-term missions?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Revelation 5:9 says Christ ransomed people for God from",
+          "options": [
+            "Israel only",
+            "every tribe and language and people and nation",
+            "Rome",
+            "the churches"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "3 John 8 says we ought to support such people (traveling missionaries) so that we may be",
+          "options": [
+            "honored",
+            "fellow workers for the truth",
+            "free from giving",
+            "famous"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The church in Antioch sent famine relief to",
+          "options": [
+            "Rome",
+            "the believers in Judea",
+            "Egypt",
+            "Corinth"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "An 'unreached people group' is one",
+          "options": [
+            "with no churches anywhere in the world",
+            "without an indigenous community of believers able to evangelize it",
+            "that rejects the gospel",
+            "in a large city"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A danger of short-term missions is",
+          "options": [
+            "too much learning",
+            "creating dependency or serving the visitors more than the hosts",
+            "too much prayer",
+            "long duration"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What principles make cross-cultural partnerships healthy?",
+          "answer_key": "Mutual respect and listening; local leadership and ownership; avoiding dependency and paternalism; transparency and accountability; long-term commitment; learning from each other; shared prayer and vision."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What elements should a local church's mission plan include?",
+          "answer_key": "Prayer; local evangelism and mercy; church planting; supporting missionaries and unreached peoples; partnerships with churches abroad; mobilizing and training members; wise short-term engagement; care for sent workers; regular evaluation."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word mission plan for a real or hypothetical local congregation. Ground it biblically (Old and New Testament mission), draw lessons from mission history using at least two library sources (cite as Author, Title, section), address local evangelism, church planting, mercy and justice, and global partnership, and explain how you will mobilize members and evaluate progress."
+    }
+  ]
+}

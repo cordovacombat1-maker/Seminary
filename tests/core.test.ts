@@ -114,6 +114,15 @@ describe('Library chunking', () => {
   it('strips Project Gutenberg boilerplate', () => {
     expect(stripGutenberg('header\n*** START OF THE PROJECT GUTENBERG EBOOK X ***\nBODY\n*** END OF THE PROJECT GUTENBERG EBOOK X ***\nlicense').trim()).toBe('BODY');
   });
+
+  it('never drops short sections: they merge into the next chunk with a range reference', () => {
+    const text = Array.from({ length: 30 }, (_, i) => `PSALM ${i + 1}\n\nShort psalm number ${i + 1} about the steadfast love of the Lord.`).join('\n\n');
+    const chunks = chunkSections(splitIntoSections(text, 'Psalms'), 800, 100);
+    const all = chunks.map((c) => c.content).join(' ');
+    for (let i = 1; i <= 30; i++) expect(all).toContain(`Short psalm number ${i} `);
+    expect(chunks.length).toBeLessThan(30);
+    expect(chunks[0].sectionRef).toMatch(/^Psalm 1 – Psalm \d+$/);
+  });
 });
 
 describe('Chat history and progress', () => {

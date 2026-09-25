@@ -1,0 +1,1664 @@
+{
+  "id": "pneumatology",
+  "title": "Pneumatology and Spiritual Gifts",
+  "tier": 5,
+  "tier_name": "Ministry",
+  "description": "A ministry-focused study of the Holy Spirit and spiritual gifts. Students trace the Spirit's work through the Old Testament, the ministry of Jesus, Pentecost and the early church; study the gifts listed in Romans 12, 1 Corinthians 12-14, Ephesians 4 and 1 Peter 4; compare continuationist, cessationist and 'open but cautious' positions and Pentecostal, charismatic, Wesleyan, Reformed, Catholic and Orthodox perspectives; and develop principles for discerning and pastorally stewarding the gifts in congregational life.",
+  "prerequisites": [
+    "intro-theology",
+    "nt-survey"
+  ],
+  "lessons": [
+    {
+      "id": "pn-01",
+      "title": "The Spirit in the Old Testament",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Trace the Spirit's work in creation, empowering leaders, prophecy and wisdom."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the prophetic promises of the Spirit's outpouring."
+        },
+        {
+          "id": "o3",
+          "text": "Relate Old Testament experience of the Spirit to the New."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:1-2",
+        "Numbers 11:16-29",
+        "1 Samuel 16:13-14",
+        "Ezekiel 36:26-27"
+      ],
+      "library_readings": [
+        {
+          "author": "Basil of Caesarea",
+          "title": "On the Holy Spirit",
+          "section": "Chapter 16 (the Spirit's work in creation and in the old covenant)"
+        },
+        {
+          "author": "Cyril of Jerusalem",
+          "title": "Catechetical Lectures",
+          "section": "Lecture 16 (the Holy Spirit in the prophets)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Part I, Chapter 6 (the Holy Spirit)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ruach",
+          "definition": "Hebrew for 'breath, wind, spirit'."
+        },
+        {
+          "term": "Charismatic leadership",
+          "definition": "The Spirit empowering judges and kings for tasks."
+        },
+        {
+          "term": "Moses' wish",
+          "definition": "'Would that all the LORD's people were prophets' (Num 11:29)."
+        },
+        {
+          "term": "Promised outpouring",
+          "definition": "Prophetic hope of the Spirit on all God's people (Joel 2; Ezek 36)."
+        }
+      ],
+      "discussion_questions": [
+        "What does Moses' wish in Numbers 11:29 anticipate?",
+        "How was the Spirit's presence with Saul and David different from the new covenant indwelling?",
+        "How does Ezekiel 36 connect the Spirit with obedience?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Hebrew word ruach means",
+          "options": [
+            "fire",
+            "breath, wind or spirit",
+            "light",
+            "water"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Moses said, 'Would that all the LORD's people were",
+          "options": [
+            "priests'",
+            "prophets, and that the LORD would put his Spirit on them'",
+            "kings'",
+            "judges'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "After David was anointed, the Spirit of the LORD",
+          "options": [
+            "left him",
+            "rushed upon David from that day forward",
+            "went to Saul",
+            "came on Samuel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Ezekiel 36:27 says God will put his Spirit within them and cause them to",
+          "options": [
+            "prophesy",
+            "walk in his statutes",
+            "speak in tongues",
+            "rule nations"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Cyril of Jerusalem taught that the Spirit who spoke in the prophets is",
+          "options": [
+            "a different spirit from the New Testament Spirit",
+            "the same Holy Spirit who came at Pentecost",
+            "an angel",
+            "the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the Spirit's work in the Old Testament.",
+          "answer_key": "Active in creation (Gen 1:2), giving life, empowering leaders for tasks (judges, kings, craftsmen like Bezalel), inspiring prophets, giving wisdom, and promised to be poured out on all God's people in the future."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does the new covenant work of the Spirit differ from the old?",
+          "answer_key": "In the OT the Spirit came on particular persons for particular tasks and could depart; in the new covenant the Spirit is poured out on all believers, indwelling permanently, writing God's law on hearts and uniting them to Christ."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/spr"
+    },
+    {
+      "id": "pn-02",
+      "title": "The Spirit and Jesus",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Trace the Spirit's role in Jesus' conception, baptism, temptation, ministry, death and resurrection."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Spirit Christology and its orthodox limits."
+        },
+        {
+          "id": "o3",
+          "text": "Explain Jesus' promises of the Spirit (John 14-16)."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 1:35",
+        "Luke 3:21-22",
+        "Luke 4:1-21",
+        "John 16:7-15"
+      ],
+      "library_readings": [
+        {
+          "author": "Basil of Caesarea",
+          "title": "On the Holy Spirit",
+          "section": "Chapter 16, section 39 (the Spirit present in every act of Christ)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On the Trinity",
+          "section": "Book XV, chapter 26 (the Spirit given to Christ's humanity and by Christ)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 1 (Christ anointed with the Spirit for us)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Anointing",
+          "definition": "Jesus as Messiah, anointed with the Spirit (Luke 4:18)."
+        },
+        {
+          "term": "Spirit Christology",
+          "definition": "Emphasis on the Spirit's role in Jesus' human life and ministry."
+        },
+        {
+          "term": "Paraclete sayings",
+          "definition": "Jesus' promises of the Spirit in John 14-16."
+        },
+        {
+          "term": "Convicting ministry",
+          "definition": "The Spirit convicts the world of sin, righteousness and judgment (John 16:8)."
+        }
+      ],
+      "discussion_questions": [
+        "Why was Jesus 'led by the Spirit' into the wilderness?",
+        "What does it mean that it is better for the disciples that Jesus goes away (John 16:7)?",
+        "How can Spirit Christology be affirmed without denying Christ's deity?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "At Jesus' baptism the Spirit descended",
+          "options": [
+            "as fire",
+            "in bodily form like a dove",
+            "as wind",
+            "as tongues"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Jesus returned to Galilee 'in the power of",
+          "options": [
+            "the law'",
+            "the Spirit'",
+            "the Father'",
+            "the angels'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "John 16:8 says the Spirit will convict the world concerning",
+          "options": [
+            "taxes",
+            "sin, righteousness and judgment",
+            "the temple",
+            "the law of Moses only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Basil taught that in Christ's ministry the Spirit was",
+          "options": [
+            "absent until Pentecost",
+            "inseparably present in all he did",
+            "subordinate",
+            "only at his baptism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin says Christ received the Spirit not for himself alone but",
+          "options": [
+            "for the apostles only",
+            "to pour out his abundance on us",
+            "for angels",
+            "temporarily"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Trace the Spirit's role in the life of Jesus.",
+          "answer_key": "Conception by the Spirit, anointing at baptism, leading into the wilderness, empowering his preaching, healing and exorcisms, his offering of himself through the eternal Spirit (Heb 9:14), resurrection by the Spirit (Rom 1:4; 8:11), and pouring out the Spirit at Pentecost."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What did Jesus promise about the Spirit in John 14-16?",
+          "answer_key": "Another Helper who will be with and in the disciples forever, teach and remind them, testify about Jesus, convict the world, guide into all truth and glorify Christ."
+        }
+      ]
+    },
+    {
+      "id": "pn-03",
+      "title": "Pentecost and the Spirit in Acts",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret Pentecost in light of Babel, Sinai and Joel."
+        },
+        {
+          "id": "o2",
+          "text": "Analyze the Spirit-reception texts in Acts (2, 8, 10, 19)."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate their normative significance in different traditions."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 2:1-21",
+        "Acts 8:4-25",
+        "Acts 10:44-48",
+        "Acts 19:1-7"
+      ],
+      "library_readings": [
+        {
+          "author": "Cyril of Jerusalem",
+          "title": "Catechetical Lectures",
+          "section": "Lecture 17 (the Holy Spirit at Pentecost)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 29 (the gifts in the apostolic church)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (Pentecost and the gift of tongues)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Pentecost",
+          "definition": "The feast of weeks, when the Spirit was poured out."
+        },
+        {
+          "term": "Xenolalia",
+          "definition": "Speaking actual foreign languages (Acts 2)."
+        },
+        {
+          "term": "Subsequence",
+          "definition": "The Pentecostal view that Spirit baptism follows conversion."
+        },
+        {
+          "term": "Samaritan Pentecost, Gentile Pentecost",
+          "definition": "Acts 8 and 10 as extensions of Pentecost to new groups."
+        }
+      ],
+      "discussion_questions": [
+        "How does Pentecost reverse Babel?",
+        "Are the Acts patterns descriptive or normative?",
+        "What do the four Spirit-reception accounts have in common and how do they differ?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "At Pentecost the believers spoke in",
+          "options": [
+            "unknown heavenly languages only",
+            "other languages which foreign visitors understood",
+            "Aramaic only",
+            "silence"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Samaritans received the Spirit when",
+          "options": [
+            "they were baptized by Philip",
+            "Peter and John laid hands on them",
+            "Simon prayed",
+            "they fasted"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Spirit fell on Cornelius's household",
+          "options": [
+            "after baptism",
+            "while Peter was still speaking, before baptism",
+            "a year later",
+            "through laying on of hands"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Ephesian disciples in Acts 19 had not",
+          "options": [
+            "believed in God",
+            "even heard that there is a Holy Spirit",
+            "been Jews",
+            "met Paul"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Many see Pentecost as a reversal of",
+          "options": [
+            "the flood",
+            "Babel's confusion of languages",
+            "the exodus",
+            "the exile"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Present Pentecostal and non-Pentecostal readings of Acts 8 and 19.",
+          "answer_key": "Pentecostal - believers can be converted yet not yet Spirit-baptized, showing a subsequent experience; others - these are unique transitional events (Samaritans needing apostolic unity; Ephesians who were disciples of John, not yet Christians), not a norm; sacramental readings link the laying on of hands to confirmation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the significance of Pentecost?",
+          "answer_key": "The ascended Christ pours out the promised Spirit; the new covenant community is formed and empowered for witness to all nations; Joel's prophecy is fulfilled; Babel's division begins to be healed; the last days have begun."
+        }
+      ]
+    },
+    {
+      "id": "pn-04",
+      "title": "The Gifts of the Spirit - Survey",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Identify the gifts in Romans 12, 1 Corinthians 12, Ephesians 4 and 1 Peter 4."
+        },
+        {
+          "id": "o2",
+          "text": "Distinguish gifts, fruit, offices and natural talents."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the purpose of gifts (edification, service, mission)."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 12:3-8",
+        "1 Corinthians 12:4-11",
+        "Ephesians 4:7-16",
+        "1 Peter 4:10-11"
+      ],
+      "library_readings": [
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homilies 29-31"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Question 111, Articles 1 and 4 (gratuitous graces)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 3, sections 4-8 (extraordinary and ordinary offices)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Charisma",
+          "definition": "A gift of grace."
+        },
+        {
+          "term": "Gratia gratis data",
+          "definition": "Aquinas's 'gratuitous grace' given for others' benefit (1 Cor 12)."
+        },
+        {
+          "term": "Office gifts",
+          "definition": "Apostles, prophets, evangelists, pastors and teachers (Eph 4:11)."
+        },
+        {
+          "term": "Fruit vs gifts",
+          "definition": "Fruit is character (Gal 5:22); gifts are abilities for service."
+        }
+      ],
+      "discussion_questions": [
+        "How do the gift lists differ, and what does that suggest?",
+        "How does Aquinas distinguish sanctifying grace from gratuitous graces?",
+        "How does Calvin distinguish temporary and permanent offices in Ephesians 4?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Ephesians 4:11-12 says Christ gave apostles, prophets, evangelists, shepherds and teachers to",
+          "options": [
+            "rule the church",
+            "equip the saints for the work of ministry",
+            "replace the law",
+            "perform miracles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Aquinas calls gifts given for the benefit of others",
+          "options": [
+            "sanctifying grace",
+            "gratuitous graces (gratiae gratis datae)",
+            "infused virtues",
+            "merits"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 Peter 4:10 says each should use their gift",
+          "options": [
+            "for themselves",
+            "to serve one another, as good stewards of God's varied grace",
+            "only in private",
+            "for reward"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Calvin regarded apostles, prophets and evangelists as",
+          "options": [
+            "permanent offices",
+            "extraordinary offices raised up at the beginning (and occasionally since)",
+            "unbiblical",
+            "the same as elders"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Romans 12:6 lists prophecy, service, teaching, exhorting, giving, leading and",
+          "options": [
+            "tongues",
+            "mercy",
+            "healing",
+            "miracles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Distinguish spiritual gifts from the fruit of the Spirit.",
+          "answer_key": "Gifts are Spirit-given abilities for service and edification, distributed variously; the fruit is the Christlike character (love, joy, peace...) the Spirit produces in every believer; gifts without love are nothing (1 Cor 13)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the purpose of spiritual gifts?",
+          "answer_key": "To build up the body of Christ in unity and maturity, serve one another, glorify God, and advance the church's mission (1 Cor 12:7; Eph 4:12-16; 1 Pet 4:10-11)."
+        }
+      ]
+    },
+    {
+      "id": "pn-05",
+      "title": "Prophecy and Discernment",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Define New Testament prophecy and compare views (authoritative revelation, fallible prophecy, preaching)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain how prophecy is tested."
+        },
+        {
+          "id": "o3",
+          "text": "Relate prophecy to Scripture's sufficiency."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 14:1-5",
+        "1 Corinthians 14:29-33",
+        "1 Thessalonians 5:19-22",
+        "Acts 21:8-14"
+      ],
+      "library_readings": [
+        {
+          "author": "Anonymous",
+          "title": "The Didache (Teaching of the Twelve Apostles)",
+          "section": "Chapters 11-13 (testing apostles and prophets)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book III, chapter 11, section 9 (those who reject prophecy) and Book V, chapter 6"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Second Part of the Second Part (II-II), Questions 171-174 (prophecy)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Prophecy",
+          "definition": "Speaking a message given by God for upbuilding, encouragement and consolation (1 Cor 14:3)."
+        },
+        {
+          "term": "Testing prophecy",
+          "definition": "Weighing prophetic words by Scripture and the community (1 Cor 14:29)."
+        },
+        {
+          "term": "Montanism",
+          "definition": "A second-century prophetic movement the church rejected."
+        },
+        {
+          "term": "Sufficiency",
+          "definition": "Scripture as the final, sufficient rule against which all prophecy is judged."
+        }
+      ],
+      "discussion_questions": [
+        "How does the Didache test traveling prophets?",
+        "Is New Testament prophecy equal in authority to Scripture? Present the views.",
+        "Why did the church reject Montanism?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 14:3 says the one who prophesies speaks to people for their",
+          "options": [
+            "judgment",
+            "upbuilding, encouragement and consolation",
+            "entertainment",
+            "condemnation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Didache says a prophet who asks for money",
+          "options": [
+            "should be paid",
+            "is a false prophet",
+            "is an apostle",
+            "should be honored"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 Thessalonians 5:20-21 says do not despise prophecies, but",
+          "options": [
+            "believe all",
+            "test everything; hold fast what is good",
+            "ignore them",
+            "write them down"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Acts 21 the prophet Agabus predicted Paul's",
+          "options": [
+            "release",
+            "binding in Jerusalem",
+            "death in Rome",
+            "journey to Spain"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The church rejected Montanism partly because it",
+          "options": [
+            "denied prophecy",
+            "claimed new revelations that added to or superseded apostolic teaching",
+            "was Gnostic",
+            "rejected baptism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize three views of New Testament prophecy.",
+          "answer_key": "Revelatory and authoritative, like OT prophecy, ceased with the apostles (cessationist); a Spirit-prompted but fallible human report of revelation that must be tested, continuing today (continuationist, e.g. Grudem); equivalent to Spirit-empowered preaching and application of Scripture (some Reformed)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should prophecy be tested?",
+          "answer_key": "By agreement with Scripture and the gospel (confession of Christ), the character and fruit of the speaker, edification and love, the discernment of the gathered church and leaders, and fulfillment where predictive."
+        }
+      ]
+    },
+    {
+      "id": "pn-06",
+      "title": "Tongues and Interpretation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the biblical data on tongues (Acts; 1 Corinthians 12-14)."
+        },
+        {
+          "id": "o2",
+          "text": "Compare views of the nature and continuation of tongues."
+        },
+        {
+          "id": "o3",
+          "text": "Develop pastoral guidelines for tongues in worship."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 2:4-11",
+        "1 Corinthians 12:10",
+        "1 Corinthians 14:1-28",
+        "Mark 16:17"
+      ],
+      "library_readings": [
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 35 (on 1 Corinthians 14)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapter 49 (the church now speaking in the languages of all nations)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (the gift of tongues)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Glossolalia",
+          "definition": "Speaking in tongues."
+        },
+        {
+          "term": "Interpretation of tongues",
+          "definition": "The gift of rendering tongues understandable."
+        },
+        {
+          "term": "Private prayer language",
+          "definition": "Using tongues in personal devotion (1 Cor 14:4, 14)."
+        },
+        {
+          "term": "Order in worship",
+          "definition": "Paul's rules - two or three, in turn, with interpretation (1 Cor 14:27-28)."
+        }
+      ],
+      "discussion_questions": [
+        "Are the tongues of Acts 2 and 1 Corinthians 14 the same phenomenon?",
+        "What limits does Paul set on tongues in public worship?",
+        "How did Augustine interpret the church speaking in all languages?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 14:27 says if anyone speaks in a tongue, let there be only",
+          "options": [
+            "one",
+            "two or at most three, each in turn, and let someone interpret",
+            "unlimited",
+            "none"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Paul says in 1 Corinthians 14:18 that he speaks in tongues",
+          "options": [
+            "never",
+            "more than all of you",
+            "only in private once",
+            "in Hebrew"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "If there is no interpreter, the tongue-speaker should",
+          "options": [
+            "speak louder",
+            "keep silent in church and speak to himself and to God",
+            "leave",
+            "prophesy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "'Glossolalia' means",
+          "options": [
+            "prophecy",
+            "speaking in tongues",
+            "healing",
+            "interpretation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine saw the multilingual church spread through all nations as",
+          "options": [
+            "a failure",
+            "the fulfillment of what tongues signified at Pentecost",
+            "unimportant",
+            "Babel again"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the continuationist and cessationist views of tongues.",
+          "answer_key": "Continuationist - tongues continue as a gift for private prayer and, with interpretation, public edification (1 Cor 14:5, 39); cessationist - tongues were a sign for the apostolic age (a sign to unbelieving Israel, confirming revelation) and ceased; Augustine saw the church's worldwide multilingual witness as the fulfillment."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give Paul's guidelines for tongues in public worship.",
+          "answer_key": "Tongues must be interpreted; two or three at most, in turn; otherwise keep silent; prophecy is preferred for edification; all things done decently and in order; do not forbid speaking in tongues (1 Cor 14:26-40)."
+        }
+      ]
+    },
+    {
+      "id": "pn-07",
+      "title": "Healing and Miracles",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Survey biblical healing and its purposes."
+        },
+        {
+          "id": "o2",
+          "text": "Examine historical testimony to healing in the church."
+        },
+        {
+          "id": "o3",
+          "text": "Develop a pastoral theology of healing and suffering (including medicine)."
+        }
+      ],
+      "scripture_passages": [
+        "James 5:13-16",
+        "Mark 16:15-20",
+        "2 Corinthians 12:7-10",
+        "1 Timothy 5:23"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XXII, chapter 8"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book II, chapter 32, sections 4-5 (healings and raising the dead in his day)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "Second Apology",
+          "section": "Chapter 6 (exorcisms and healings in Jesus' name)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Gifts of healing",
+          "definition": "Plural in 1 Corinthians 12:9."
+        },
+        {
+          "term": "Divine healing",
+          "definition": "God's direct healing in answer to prayer."
+        },
+        {
+          "term": "Prosperity/faith teaching",
+          "definition": "The claim that healing is always guaranteed to faith (widely critiqued)."
+        },
+        {
+          "term": "Already/not yet",
+          "definition": "Healing now as a foretaste; full healing at the resurrection."
+        }
+      ],
+      "discussion_questions": [
+        "What does Augustine's list of miracles in City of God XXII.8 suggest about healing after the apostles?",
+        "How do we explain Paul's unhealed thorn and Timothy's stomach?",
+        "How can churches pray for healing without false promises?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "James 5:15 says the prayer of faith will",
+          "options": [
+            "always prevent death",
+            "save the one who is sick, and the Lord will raise him up",
+            "replace medicine",
+            "reveal sin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Paul advised Timothy to",
+          "options": [
+            "pray only",
+            "use a little wine for his stomach",
+            "fast",
+            "anoint himself"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Irenaeus claimed that in his day",
+          "options": [
+            "no healings occurred",
+            "healings and even raisings of the dead were reported among believers",
+            "only bishops healed",
+            "healing was forbidden"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Justin tells the Romans that Christians in Jesus' name",
+          "options": [
+            "curse enemies",
+            "exorcise and heal many whom others could not",
+            "work magic",
+            "raise armies"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The 'already/not yet' view holds that healing",
+          "options": [
+            "is guaranteed now",
+            "is a foretaste now, with complete healing at the resurrection",
+            "never happens",
+            "is only spiritual"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Develop a balanced theology of healing.",
+          "answer_key": "God heals - sometimes miraculously, often through medicine and natural means; healing is a sign of the kingdom but not guaranteed now; suffering may remain for God's purposes (2 Cor 12); pray in faith and submission; care for the sick; final healing comes at the resurrection."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are the dangers of prosperity/faith-healing teaching?",
+          "answer_key": "It promises what God has not guaranteed, blames the sick for lack of faith, discourages medical care, distorts the gospel toward material gain, and ignores Scripture's theology of suffering."
+        }
+      ]
+    },
+    {
+      "id": "pn-08",
+      "title": "Continuationism and Cessationism in Depth",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Present the exegetical, theological and historical arguments for cessationism."
+        },
+        {
+          "id": "o2",
+          "text": "Present the exegetical, theological and historical arguments for continuationism."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the 'open but cautious' position and seek unity across the debate."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 13:8-12",
+        "Ephesians 2:19-20",
+        "Hebrews 2:3-4",
+        "Acts 2:17-18"
+      ],
+      "library_readings": [
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 29 (the gifts 'used to occur but now no longer take place')"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XXII, chapter 8"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The More Excellent Way' (why the gifts became rare)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Hard cessationism",
+          "definition": "Miraculous gifts ceased with the apostles and the canon."
+        },
+        {
+          "term": "Soft continuationism",
+          "definition": "Gifts continue but are tested and ordered."
+        },
+        {
+          "term": "Open but cautious",
+          "definition": "Open to the gifts but wary of excesses."
+        },
+        {
+          "term": "The perfect (to teleion)",
+          "definition": "1 Corinthians 13:10 - Christ's return, the canon, or maturity."
+        }
+      ],
+      "discussion_questions": [
+        "What does 'the perfect' refer to in 1 Corinthians 13:10?",
+        "How do Chrysostom, Augustine and Wesley each explain the rarity of gifts?",
+        "How can churches holding different views cooperate?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Cessationists often cite Ephesians 2:20 because it says the church is built on the foundation of",
+          "options": [
+            "the law",
+            "the apostles and prophets",
+            "tongues",
+            "the elders"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Hebrews 2:4 says God bore witness to the gospel by signs and wonders given to",
+          "options": [
+            "every believer always",
+            "those who first heard the Lord",
+            "angels",
+            "the Levites"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Most commentators, continuationist and cessationist, identify 'the perfect' in 1 Corinthians 13:10 with",
+          "options": [
+            "the completed canon",
+            "the return of Christ / the consummation",
+            "church maturity",
+            "Pentecost"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Wesley attributed the decline of extraordinary gifts to",
+          "options": [
+            "God's plan to end them with the canon",
+            "the church growing cold and worldly after Constantine",
+            "persecution",
+            "the Reformation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The 'open but cautious' view is",
+          "options": [
+            "hard cessationism",
+            "openness to the gifts combined with caution about excesses",
+            "classical Pentecostalism",
+            "Montanism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "State the strongest cessationist case.",
+          "answer_key": "The apostles and prophets were the church's unrepeatable foundation (Eph 2:20); miraculous gifts authenticated them and new revelation (Heb 2:3-4; 2 Cor 12:12); with the canon complete, revelatory gifts ceased; many Fathers observed their decline; modern claims often fail biblical standards."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "State the strongest continuationist case.",
+          "answer_key": "The NT never teaches cessation; gifts are given until the perfect comes at Christ's return (1 Cor 13:8-12); Pentecost's promise extends to 'all flesh' and future generations (Acts 2:17, 39); Paul commands 'do not forbid tongues' and 'earnestly desire to prophesy'; testimony of gifts continues through church history (Irenaeus, Augustine's later writings)."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on the continuation or cessation of the miraculous gifts. Present the strongest case for continuationism and for cessationism, each from its own sources (e.g. Chrysostom, Augustine, Irenaeus, Wesley, Calvin, Aquinas; cite as Author, Title, section), exegete 1 Corinthians 13:8-12 and one other key text, and explain your position and how you would lead a congregation with members on both sides."
+    },
+    {
+      "id": "pn-09",
+      "title": "Traditions of the Spirit - Orthodox, Catholic, Wesleyan, Reformed, Pentecostal",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Orthodox emphases (theosis, the epiclesis) and Catholic emphases (confirmation, the seven gifts of Isaiah 11)."
+        },
+        {
+          "id": "o2",
+          "text": "Describe Wesleyan (sanctification, assurance) and Reformed (union with Christ, Word and Spirit) pneumatology."
+        },
+        {
+          "id": "o3",
+          "text": "Describe Pentecostal and charismatic distinctives."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 11:1-3",
+        "2 Corinthians 3:17-18",
+        "Romans 8:14-17"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Question 68 (the gifts of the Holy Spirit)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Witness of the Spirit, Discourse II'"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 9 (Word and Spirit together)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Seven gifts of the Spirit",
+          "definition": "Wisdom, understanding, counsel, fortitude, knowledge, piety, fear of the Lord (from Isaiah 11, in Catholic teaching)."
+        },
+        {
+          "term": "Epiclesis",
+          "definition": "The invocation of the Spirit in the liturgy."
+        },
+        {
+          "term": "Word and Spirit",
+          "definition": "The Reformed insistence that the Spirit works with and through Scripture."
+        },
+        {
+          "term": "Theosis",
+          "definition": "Orthodox participation in the divine life by the Spirit."
+        }
+      ],
+      "discussion_questions": [
+        "How does Aquinas distinguish the gifts of Isaiah 11 from the virtues?",
+        "Why does Calvin insist the Spirit does not give new revelation apart from the Word?",
+        "What does each tradition contribute to a full doctrine of the Spirit?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The traditional seven gifts of the Spirit come from",
+          "options": [
+            "1 Corinthians 12",
+            "Isaiah 11:2-3 (in the Septuagint/Vulgate form)",
+            "Romans 12",
+            "Galatians 5"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Calvin opposed 'fanatics' who",
+          "options": [
+            "read Scripture",
+            "abandoned Scripture for supposed new revelations of the Spirit",
+            "prayed",
+            "sang psalms"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The invocation of the Spirit in the Eucharistic liturgy is the",
+          "options": [
+            "anaphora",
+            "epiclesis",
+            "anamnesis",
+            "kyrie"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Wesley's second discourse on the witness of the Spirit defends",
+          "options": [
+            "only the indirect witness",
+            "a direct testimony of the Spirit together with the fruit",
+            "no assurance",
+            "visions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aquinas taught that the gifts of the Spirit make a person",
+          "options": [
+            "sinless",
+            "readily movable by the Holy Spirit's promptings",
+            "a prophet",
+            "a priest"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize one distinctive emphasis on the Spirit from each of four traditions.",
+          "answer_key": "E.g. Orthodox - theosis and the Spirit in the liturgy (epiclesis); Catholic - sacramental gift in confirmation and the seven gifts; Reformed - Word and Spirit, union with Christ, the inner testimony; Wesleyan - assurance and sanctifying grace; Pentecostal - Spirit baptism, gifts and empowerment for mission."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why does Calvin join the Word and the Spirit?",
+          "answer_key": "The Spirit who inspired Scripture confirms and illumines it; claiming Spirit guidance apart from or against Scripture is delusion; the Spirit's work is recognized by its agreement with the Word."
+        }
+      ]
+    },
+    {
+      "id": "pn-10",
+      "title": "Discovering and Deploying Gifts in the Church",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Help believers discover and develop their gifts."
+        },
+        {
+          "id": "o2",
+          "text": "Structure ministries that mobilize every member."
+        },
+        {
+          "id": "o3",
+          "text": "Address pride, envy and neglect of gifts."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 12:12-31",
+        "Romans 12:3-8",
+        "2 Timothy 1:6-7"
+      ],
+      "library_readings": [
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homilies 30-31 (on the body and its members)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapters 25-26 (those who conceal gifts and those who seek office rashly)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Every-member ministry",
+          "definition": "All believers are gifted to serve."
+        },
+        {
+          "term": "Gift discovery",
+          "definition": "Learning one's gifts through service, feedback and prayer."
+        },
+        {
+          "term": "Fan into flame",
+          "definition": "Paul's exhortation to develop a gift (2 Tim 1:6)."
+        },
+        {
+          "term": "Body imagery",
+          "definition": "Interdependence of diverse members (1 Cor 12)."
+        }
+      ],
+      "discussion_questions": [
+        "What problems in Corinth does the body image address?",
+        "How does Gregory address those who hide their gifts?",
+        "How would you help a new believer discover their gifts?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In 1 Corinthians 12:21 Paul says the eye cannot say to the hand",
+          "options": [
+            "'You are greater'",
+            "'I have no need of you'",
+            "'Follow me'",
+            "'Leave the body'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Romans 12:3 warns believers not to think of themselves",
+          "options": [
+            "at all",
+            "more highly than they ought",
+            "as gifted",
+            "as members"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "2 Timothy 1:6 urges Timothy to",
+          "options": [
+            "hide his gift",
+            "fan into flame the gift of God",
+            "seek new gifts",
+            "give his gift away"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Gregory rebukes those who, having gifts for preaching,",
+          "options": [
+            "preach too much",
+            "refuse to use them out of love of quiet",
+            "seek wealth",
+            "teach falsely"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 12:22 says the parts of the body that seem weaker are",
+          "options": [
+            "useless",
+            "indispensable",
+            "optional",
+            "shameful"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How can believers discover their spiritual gifts?",
+          "answer_key": "By praying, studying the gifts, serving in varied ministries, noticing effectiveness and joy, receiving feedback from mature believers and leaders, and staying open to the Spirit's leading."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does the body image correct misuse of gifts?",
+          "answer_key": "It teaches unity in diversity, that every member matters, that no gift is grounds for pride or envy, that gifts are for the common good, and that weaker or less visible members are honored."
+        }
+      ]
+    },
+    {
+      "id": "pn-11",
+      "title": "Excesses, Counterfeits and Pastoral Oversight",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Identify historical and contemporary excesses (Montanism, false prophecy, manipulation, prosperity teaching)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain biblical criteria for discerning counterfeit spiritual phenomena."
+        },
+        {
+          "id": "o3",
+          "text": "Develop pastoral policies for gifts in worship."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 7:15-23",
+        "2 Thessalonians 2:9-12",
+        "1 John 4:1-6",
+        "1 Corinthians 14:40"
+      ],
+      "library_readings": [
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book V, chapters 16-18 (the Montanist prophets)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Nature of Enthusiasm'"
+        },
+        {
+          "author": "Anonymous",
+          "title": "The Didache (Teaching of the Twelve Apostles)",
+          "section": "Chapters 11-12"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Enthusiasm",
+          "definition": "In Wesley's day, fanatical claims to direct revelation."
+        },
+        {
+          "term": "Counterfeit signs",
+          "definition": "False wonders (2 Thess 2:9)."
+        },
+        {
+          "term": "Manipulation",
+          "definition": "Human pressure presented as the Spirit's work."
+        },
+        {
+          "term": "Decently and in order",
+          "definition": "Paul's principle for worship (1 Cor 14:40)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Wesley distinguish true religion from 'enthusiasm'?",
+        "What does Matthew 7:21-23 warn about miracle-workers?",
+        "What policies would you adopt for prophetic words in your church?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jesus says in Matthew 7:20 you will recognize false prophets by",
+          "options": [
+            "their miracles",
+            "their fruits",
+            "their titles",
+            "their crowds"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'The Nature of Enthusiasm' warns against",
+          "options": [
+            "all emotion",
+            "imagining one has gifts, revelations or guidance one does not have",
+            "reading Scripture",
+            "prayer"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 John 4:1 says, 'Do not believe every spirit, but",
+          "options": [
+            "believe the loudest'",
+            "test the spirits to see whether they are from God'",
+            "ignore them'",
+            "ask an angel'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Eusebius records that Montanist prophets spoke",
+          "options": [
+            "in orderly calm",
+            "in ecstasy and frenzy, contrary to the church's tradition",
+            "only Scripture",
+            "in Latin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 14:40 says all things should be done",
+          "options": [
+            "loudly",
+            "decently and in order",
+            "quickly",
+            "privately"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give criteria for discerning genuine from counterfeit spiritual phenomena.",
+          "answer_key": "Confession of Jesus Christ come in the flesh (1 John 4:2); agreement with Scripture; Christlike character and fruit; edification and love; humility and submission to church order; not self-promotion or financial gain (Didache); lasting fruit."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What pastoral safeguards should a church adopt for gifts in worship?",
+          "answer_key": "Teach clearly; have leaders weigh prophecies; require interpretation for tongues; avoid manipulation and hype; protect the vulnerable; record and test predictions; keep Scripture central; maintain accountability."
+        }
+      ]
+    },
+    {
+      "id": "pn-12",
+      "title": "The Spirit, Mission and the Life of the Church",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the Spirit's role in mission and evangelism."
+        },
+        {
+          "id": "o2",
+          "text": "Explain being filled with the Spirit and walking in the Spirit."
+        },
+        {
+          "id": "o3",
+          "text": "Develop an integrated pneumatology for ministry."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 1:8",
+        "Ephesians 5:18-21",
+        "Galatians 5:16-25",
+        "Acts 4:23-31"
+      ],
+      "library_readings": [
+        {
+          "author": "Basil of Caesarea",
+          "title": "On the Holy Spirit",
+          "section": "Chapter 26 (the Spirit as the place of worship and sanctification)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 1"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Scriptural Christianity'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Filled with the Spirit",
+          "definition": "Ongoing empowerment and control by the Spirit (Eph 5:18)."
+        },
+        {
+          "term": "Walk by the Spirit",
+          "definition": "Living in step with the Spirit (Gal 5:16, 25)."
+        },
+        {
+          "term": "Empowered witness",
+          "definition": "The Spirit's power for mission (Acts 1:8)."
+        },
+        {
+          "term": "Scriptural Christianity",
+          "definition": "Wesley's sermon on the Spirit-filled life of the early church."
+        }
+      ],
+      "discussion_questions": [
+        "How does Acts 4:31 connect prayer, filling and bold witness?",
+        "What are the marks of being filled with the Spirit in Ephesians 5:18-21?",
+        "How does Wesley's 'Scriptural Christianity' challenge the church?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Ephesians 5:18 contrasts being drunk with wine with",
+          "options": [
+            "fasting",
+            "being filled with the Spirit",
+            "silence",
+            "work"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "After the believers prayed in Acts 4:31, they",
+          "options": [
+            "left Jerusalem",
+            "were all filled with the Holy Spirit and spoke the word of God with boldness",
+            "went to the temple to sacrifice",
+            "cast lots"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Galatians 5:25 says if we live by the Spirit, let us also",
+          "options": [
+            "keep the law",
+            "keep in step with the Spirit",
+            "prophesy",
+            "rest"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Wesley preached 'Scriptural Christianity' at",
+          "options": [
+            "a field in Bristol",
+            "St. Mary's, Oxford (before the University)",
+            "Aldersgate",
+            "London Bridge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Acts 1:8 says the Spirit's coming would bring power to be",
+          "options": [
+            "rich",
+            "witnesses",
+            "rulers",
+            "priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are the marks of being filled with the Spirit in Ephesians 5:18-21?",
+          "answer_key": "Speaking to one another in psalms, hymns and spiritual songs; singing and making melody to the Lord; giving thanks always; mutual submission out of reverence for Christ."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does the Spirit empower mission?",
+          "answer_key": "He gives boldness and power to witness, directs missionaries, opens hearts, convicts the world, gives gifts for ministry, breaks cultural barriers, and bears fruit in converts and churches (Acts)."
+        }
+      ]
+    }
+  ]
+}

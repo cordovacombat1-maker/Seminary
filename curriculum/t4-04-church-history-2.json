@@ -1,0 +1,1622 @@
+{
+  "id": "church-history-2",
+  "title": "Church History II: The Reformation to the Present",
+  "tier": 4,
+  "tier_name": "Theology",
+  "description": "The story of the church from the Reformation to today. Students study Luther, Zwingli, Calvin and the Radical Reformation, the English Reformation, the Catholic Reformation and Trent, confessionalization and the wars of religion, Puritanism and Pietism, the Evangelical Awakenings and Wesley, the modern missionary movement, the challenges of the Enlightenment and liberalism, the rise of Pentecostalism, Vatican II, the ecumenical movement and the global church. Students read Reformation-era primary sources and confessions from the library.",
+  "prerequisites": [
+    "church-history-1"
+  ],
+  "lessons": [
+    {
+      "id": "ch2-01",
+      "title": "The Eve of the Reformation - Humanism and the Printing Press",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the religious, political and intellectual conditions of Europe around 1500."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Christian humanism (Erasmus, ad fontes) and the role of printing."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the indulgence controversy."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 1:16-17",
+        "Psalm 119:130",
+        "Ephesians 2:8-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 6 (the Renaissance and the eve of the Reformation) and Volume 7 (the preparation for the Reformation; indulgences)"
+        },
+        {
+          "author": "Thomas à Kempis",
+          "title": "The Imitation of Christ",
+          "section": "Book I, chapters 1-3 (the late medieval piety that shaped Erasmus and Luther)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ad fontes",
+          "definition": "'To the sources' - the humanist return to original texts."
+        },
+        {
+          "term": "Erasmus",
+          "definition": "Humanist scholar who published the Greek New Testament (1516)."
+        },
+        {
+          "term": "Indulgence",
+          "definition": "Remission of temporal punishment for sin, which had become commercialized."
+        },
+        {
+          "term": "Johann Tetzel",
+          "definition": "Dominican preacher of indulgences in Germany."
+        }
+      ],
+      "discussion_questions": [
+        "How did the printing press change the spread of ideas and Scripture?",
+        "Why did the humanist return to sources prove so explosive?",
+        "What was wrong with the indulgence trade, according to reformers (and some Catholics)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Erasmus published the first printed Greek New Testament in",
+          "options": [
+            "1455",
+            "1516",
+            "1534",
+            "1611"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The humanist slogan 'ad fontes' means",
+          "options": [
+            "to the church",
+            "to the sources",
+            "by faith",
+            "for God"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The indulgence campaign that provoked Luther was preached by",
+          "options": [
+            "Erasmus",
+            "Johann Tetzel",
+            "Cajetan",
+            "Eck"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Gutenberg's printing press (c. 1450) used",
+          "options": [
+            "woodblocks only",
+            "movable type",
+            "handwriting",
+            "photography"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The proceeds of the indulgence campaign were partly for rebuilding",
+          "options": [
+            "Wittenberg castle church",
+            "St. Peter's Basilica in Rome",
+            "Jerusalem",
+            "Canterbury"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How did humanism prepare for the Reformation?",
+          "answer_key": "It returned to original sources (Greek and Hebrew Scripture, the Fathers), produced critical editions (Erasmus's NT), criticized scholastic theology and church corruption, and promoted lay piety and education - tools the Reformers used."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain the indulgence controversy.",
+          "answer_key": "Indulgences offered remission of temporal punishment for sin (including for souls in purgatory) in exchange for contributions; Tetzel's crude preaching ('as soon as the coin in the coffer rings...') provoked Luther's Ninety-Five Theses (1517), questioning the practice and papal authority."
+        }
+      ]
+    },
+    {
+      "id": "ch2-02",
+      "title": "Martin Luther and the German Reformation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Trace Luther's life, the Ninety-Five Theses, and his breakthrough on justification."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Diet of Worms and the spread of the Lutheran Reformation."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the Augsburg Confession."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 1:17",
+        "Galatians 2:16",
+        "Habakkuk 2:4"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 7 (Luther's life, the theses, Worms, and the Augsburg Confession)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, the Augsburg Confession, Articles 1-7 and 20"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "Preface and the Ten Commandments"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ninety-Five Theses",
+          "definition": "Luther's 1517 propositions on indulgences."
+        },
+        {
+          "term": "Diet of Worms (1521)",
+          "definition": "Where Luther refused to recant ('Here I stand')."
+        },
+        {
+          "term": "Augsburg Confession (1530)",
+          "definition": "The chief Lutheran confession, written by Melanchthon."
+        },
+        {
+          "term": "Theology of the cross",
+          "definition": "Luther's contrast with a 'theology of glory'."
+        }
+      ],
+      "discussion_questions": [
+        "What was Luther's 'tower experience' and why was Romans 1:17 central?",
+        "Why did Luther refuse to recant at Worms?",
+        "How does Augsburg Article 4 express justification?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Luther posted the Ninety-Five Theses in",
+          "options": [
+            "1505",
+            "1517",
+            "1521",
+            "1530"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "At the Diet of Worms Luther said his conscience was captive to",
+          "options": [
+            "the pope",
+            "the Word of God",
+            "the emperor",
+            "the councils"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Augsburg Confession was written chiefly by",
+          "options": [
+            "Luther",
+            "Philip Melanchthon",
+            "Zwingli",
+            "Bucer"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Luther translated the New Testament into German while at",
+          "options": [
+            "Wittenberg",
+            "the Wartburg castle",
+            "Rome",
+            "Augsburg"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augsburg Confession Article 4 teaches that people are justified",
+          "options": [
+            "by works",
+            "freely for Christ's sake through faith",
+            "through indulgences",
+            "by baptism alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize Luther's rediscovery of the gospel.",
+          "answer_key": "Struggling with God's righteousness as punishing justice, Luther came to understand from Romans 1:17 that the righteousness of God is the gift by which God justifies sinners through faith; this freed him and grounded his teaching of justification by grace through faith alone."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are the main emphases of the Augsburg Confession?",
+          "answer_key": "Affirmation of the ancient creeds; original sin; justification by faith for Christ's sake; the ministry of Word and sacraments; new obedience; the church as the assembly where the gospel is purely taught and sacraments rightly administered; correction of abuses such as private masses and compulsory celibacy."
+        }
+      ]
+    },
+    {
+      "id": "ch2-03",
+      "title": "Zwingli, Calvin and the Reformed Churches",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Zwingli's reform in Zurich and the Marburg Colloquy."
+        },
+        {
+          "id": "o2",
+          "text": "Describe Calvin's life, Geneva, and the Institutes."
+        },
+        {
+          "id": "o3",
+          "text": "Trace the spread of Reformed churches (France, Netherlands, Scotland, Hungary) and their confessions."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 12:1-2",
+        "1 Corinthians 10:31",
+        "Ephesians 1:3-6"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 8 (Zwingli; Calvin and Geneva)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Prefatory Address to King Francis I"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, the Heidelberg Catechism, Questions 1-2"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Zwingli",
+          "definition": "Zurich reformer (d. 1531) who emphasized Scripture and a memorial view of the Supper."
+        },
+        {
+          "term": "Geneva",
+          "definition": "The city where Calvin led the Reformed church."
+        },
+        {
+          "term": "Consistory",
+          "definition": "Geneva's body of ministers and elders overseeing discipline."
+        },
+        {
+          "term": "Heidelberg Catechism (1563)",
+          "definition": "Reformed catechism beginning 'What is your only comfort?'"
+        }
+      ],
+      "discussion_questions": [
+        "How did Zwingli's approach to worship differ from Luther's?",
+        "What does Calvin's Prefatory Address reveal about the persecuted French Protestants?",
+        "Why does the Heidelberg Catechism begin with comfort?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Zwingli led the Reformation in",
+          "options": [
+            "Geneva",
+            "Zurich",
+            "Strasbourg",
+            "Basel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The first edition of Calvin's Institutes appeared in",
+          "options": [
+            "1517",
+            "1536",
+            "1559",
+            "1563"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Calvin's Institutes opens with a dedication to",
+          "options": [
+            "the pope",
+            "King Francis I of France",
+            "Emperor Charles V",
+            "Luther"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Heidelberg Catechism's first question asks",
+          "options": [
+            "'What is God?'",
+            "'What is your only comfort in life and in death?'",
+            "'What is the chief end of man?'",
+            "'Who made you?'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Reformed reformer of Scotland was",
+          "options": [
+            "Beza",
+            "John Knox",
+            "Bullinger",
+            "Bucer"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How did Calvin shape the Reformed tradition?",
+          "answer_key": "Through the Institutes (a systematic theology), biblical commentaries, Geneva's church order (pastors, teachers, elders, deacons, consistory), training of ministers and missionaries (Geneva Academy), and influence on Reformed confessions across Europe."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What distinguished Reformed worship from Lutheran worship?",
+          "answer_key": "The Reformed applied the regulative principle more strictly - removing images, altars and many ceremonies not commanded in Scripture - and held a spiritual rather than bodily view of Christ's presence; Lutherans retained more traditional liturgy and images."
+        }
+      ]
+    },
+    {
+      "id": "ch2-04",
+      "title": "The Radical Reformation - Anabaptists",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the origins of the Anabaptist movement (Zurich 1525) and the Schleitheim Confession."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Anabaptist distinctives (believer's baptism, discipleship, nonresistance, separation of church and state)."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate the persecution of the Anabaptists and Münster."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 5:38-48",
+        "Acts 5:29",
+        "Romans 6:3-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 8 (the Anabaptists: Grebel, Manz, Hubmaier, persecution)"
+        },
+        {
+          "author": "Tertullian",
+          "title": "On Baptism",
+          "section": "Chapter 18 (an early voice on delaying baptism, often cited by Anabaptists)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Anabaptists",
+          "definition": "'Rebaptizers' - those who baptized believers previously baptized as infants."
+        },
+        {
+          "term": "Schleitheim Confession (1527)",
+          "definition": "Seven articles of the Swiss Brethren."
+        },
+        {
+          "term": "Menno Simons",
+          "definition": "Dutch leader after whom the Mennonites are named."
+        },
+        {
+          "term": "Nonresistance",
+          "definition": "Refusal to use the sword."
+        }
+      ],
+      "discussion_questions": [
+        "Why were Anabaptists persecuted by both Catholics and Protestants?",
+        "How did the Münster tragedy affect perceptions of Anabaptism?",
+        "What can the church learn from the Anabaptist vision of discipleship?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The first adult believer's baptisms of the Swiss Brethren took place in",
+          "options": [
+            "Geneva, 1536",
+            "Zurich, 1525",
+            "Münster, 1534",
+            "Wittenberg, 1522"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Schleitheim Confession was composed in",
+          "options": [
+            "1517",
+            "1527",
+            "1561",
+            "1618"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Mennonites are named after",
+          "options": [
+            "Conrad Grebel",
+            "Menno Simons",
+            "Balthasar Hubmaier",
+            "Felix Manz"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Anabaptists generally held that Christians should not",
+          "options": [
+            "pray",
+            "bear the sword or swear oaths",
+            "read Scripture",
+            "gather on Sunday"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The violent takeover of the city of Münster (1534-35) was",
+          "options": [
+            "typical of all Anabaptists",
+            "a radical episode rejected by peaceful Anabaptists",
+            "led by Menno Simons",
+            "supported by Luther"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "List four Anabaptist distinctives.",
+          "answer_key": "Believer's baptism; the church as a voluntary, disciplined community of committed disciples; nonresistance/nonviolence; refusal of oaths; separation of church and state; following Christ in daily life (Nachfolge)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why were the Anabaptists persecuted?",
+          "answer_key": "Rejecting infant baptism seemed to threaten the unity of church and society (Christendom); refusing oaths and military service seemed seditious; Münster confirmed fears; Catholics and Protestants alike executed them, often by drowning."
+        }
+      ]
+    },
+    {
+      "id": "ch2-05",
+      "title": "The English Reformation and Puritanism",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Trace the English Reformation under Henry VIII, Edward VI, Mary and Elizabeth."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Cranmer's Book of Common Prayer and the Thirty-Nine Articles."
+        },
+        {
+          "id": "o3",
+          "text": "Describe Puritanism, the Westminster Assembly and its confession."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 14:40",
+        "Acts 17:11",
+        "Psalm 95:1-7"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, the Thirty-Nine Articles (Articles 6, 11, 17, 28) and the Westminster Confession (chapters 1, 11)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 1 (the history of the Anglican and Westminster standards)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Act of Supremacy (1534)",
+          "definition": "Made the English monarch head of the Church of England."
+        },
+        {
+          "term": "Book of Common Prayer",
+          "definition": "Cranmer's English liturgy (1549, 1552)."
+        },
+        {
+          "term": "Thirty-Nine Articles (1571)",
+          "definition": "The doctrinal standard of the Church of England."
+        },
+        {
+          "term": "Westminster Confession (1646)",
+          "definition": "The Puritan Reformed confession."
+        }
+      ],
+      "discussion_questions": [
+        "How were political and religious motives intertwined in the English Reformation?",
+        "Why did Puritans want further reform of the Church of England?",
+        "Compare Article 28 of the Thirty-Nine Articles on the Supper with other views."
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Act of Supremacy (1534) made the head of the Church of England",
+          "options": [
+            "the Archbishop of Canterbury",
+            "the monarch",
+            "the pope",
+            "Parliament"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Book of Common Prayer was chiefly the work of",
+          "options": [
+            "John Knox",
+            "Thomas Cranmer",
+            "Richard Hooker",
+            "William Tyndale"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The queen whose reign saw Protestant martyrs burned (e.g. Cranmer) was",
+          "options": [
+            "Elizabeth I",
+            "Mary I",
+            "Anne",
+            "Victoria"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Westminster Confession was produced in",
+          "options": [
+            "1571",
+            "1646",
+            "1689",
+            "1536"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Puritans sought to",
+          "options": [
+            "restore the papacy",
+            "purify the Church of England further according to Scripture",
+            "abolish all worship",
+            "adopt Anabaptism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the course of the English Reformation.",
+          "answer_key": "Henry VIII broke with Rome over his annulment (1534) but kept much Catholic doctrine; under Edward VI Protestant reform advanced (Cranmer's Prayer Books); Mary I restored Catholicism and executed Protestants; Elizabeth I established a moderate Protestant settlement (1559; Thirty-Nine Articles)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What did the Puritans contribute to Christianity?",
+          "answer_key": "Emphasis on Scripture, preaching, the regulation of worship by Scripture, personal and family piety, Sabbath observance, pastoral theology, covenant theology, the Westminster Standards, and migration to New England."
+        }
+      ]
+    },
+    {
+      "id": "ch2-06",
+      "title": "The Catholic Reformation and the Council of Trent",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Catholic reform movements (the Jesuits, Teresa of Ávila, new orders)."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize the decrees of the Council of Trent on Scripture, justification and the sacraments."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate Trent's legacy."
+        }
+      ],
+      "scripture_passages": [
+        "James 2:24",
+        "John 6:53-58",
+        "Matthew 16:18-19"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 2, Canons and Decrees of the Council of Trent (Sessions 4, 6, 7 and 13)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 1 (the history of the Council of Trent)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Council of Trent (1545-1563)",
+          "definition": "Catholic council responding to Protestantism and reforming the church."
+        },
+        {
+          "term": "Society of Jesus (Jesuits)",
+          "definition": "Order founded by Ignatius of Loyola (1540)."
+        },
+        {
+          "term": "Anathema",
+          "definition": "A formal condemnation used in Trent's canons."
+        },
+        {
+          "term": "Catholic Reformation / Counter-Reformation",
+          "definition": "Renewal and response within Catholicism."
+        }
+      ],
+      "discussion_questions": [
+        "What did Trent affirm and condemn about justification?",
+        "Were Trent's reforms of clergy and education successful?",
+        "How should Protestants and Catholics today read Trent's anathemas?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Council of Trent met between",
+          "options": [
+            "1517-1521",
+            "1545-1563",
+            "1618-1619",
+            "1869-1870"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Jesuits were founded by",
+          "options": [
+            "Francis of Assisi",
+            "Ignatius of Loyola",
+            "Teresa of Ávila",
+            "Dominic"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Trent affirmed the Latin Vulgate as",
+          "options": [
+            "inferior to Greek",
+            "authentic for public use",
+            "optional",
+            "banned"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Trent's Thirteenth Session addressed",
+          "options": [
+            "justification",
+            "the Eucharist and transubstantiation",
+            "the canon",
+            "purgatory"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Trent condemned the view that justifying faith is",
+          "options": [
+            "a gift of God",
+            "nothing else than confidence in divine mercy which remits sins for Christ's sake",
+            "necessary",
+            "formed by love"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize Trent's teaching on justification.",
+          "answer_key": "Justification begins with prevenient grace; the sinner cooperates, is justified by the infusion of grace in baptism (making one inwardly righteous), grows by good works, may lose grace by mortal sin and recover it through penance; faith alone as trust in God's mercy is condemned."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What reforms did Trent enact beyond doctrine?",
+          "answer_key": "Required seminaries for training priests, residence of bishops, preaching, catechisms (the Roman Catechism), reform of clerical discipline and abuses such as selling indulgences, and a standardized liturgy (the Tridentine Mass)."
+        }
+      ]
+    },
+    {
+      "id": "ch2-07",
+      "title": "Confessionalization, Wars and Arminianism",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the wars of religion and the Peace of Westphalia."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Arminian controversy and the Synod of Dort."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate Protestant scholasticism and confessional orthodoxy."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 9:10-24",
+        "1 Timothy 2:4",
+        "John 6:37-40"
+      ],
+      "library_readings": [
+        {
+          "author": "James Arminius",
+          "title": "Works",
+          "section": "Volume 1, Declaration of Sentiments"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, the Five Arminian Articles (1610) and the Canons of Dort (1619)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 1 (the history of the Arminian controversy and Dort)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Remonstrance (1610)",
+          "definition": "The five Arminian articles."
+        },
+        {
+          "term": "Synod of Dort (1618-19)",
+          "definition": "The Reformed synod answering the Remonstrants."
+        },
+        {
+          "term": "TULIP",
+          "definition": "A later acronym for the five points of Calvinism."
+        },
+        {
+          "term": "Peace of Westphalia (1648)",
+          "definition": "Ended the Thirty Years' War."
+        }
+      ],
+      "discussion_questions": [
+        "Present the five Remonstrant articles and Dort's five heads fairly.",
+        "How did political concerns shape the Arminian controversy?",
+        "What did the wars of religion teach about religion and state power?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Remonstrance was issued in",
+          "options": [
+            "1560",
+            "1610",
+            "1648",
+            "1689"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Synod of Dort met in",
+          "options": [
+            "Geneva",
+            "the Netherlands (Dordrecht)",
+            "England",
+            "Germany"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Thirty Years' War ended with the Peace of",
+          "options": [
+            "Augsburg",
+            "Westphalia",
+            "Utrecht",
+            "Vienna"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The acronym TULIP summarizes",
+          "options": [
+            "Arminian doctrine",
+            "the five points of Calvinism",
+            "Lutheran worship",
+            "the Anabaptist confession"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Arminius taught at the University of",
+          "options": [
+            "Geneva",
+            "Leiden",
+            "Wittenberg",
+            "Oxford"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the five articles of the Remonstrance.",
+          "answer_key": "Conditional election based on foreseen faith; Christ died for all though only believers benefit; humans need regenerating grace to do good; grace is resistible; perseverance is by grace but whether believers can fall away needed further study."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize Dort's response.",
+          "answer_key": "Unconditional election; definite/particular redemption (sufficient for all, efficient for the elect); total depravity; irresistible (effectual) grace; perseverance of the saints."
+        }
+      ]
+    },
+    {
+      "id": "ch2-08",
+      "title": "Pietism, the Evangelical Revival and John Wesley",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe German Pietism (Spener, Francke, Zinzendorf and the Moravians)."
+        },
+        {
+          "id": "o2",
+          "text": "Trace Wesley's life, Aldersgate, and Methodism."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the Great Awakening (Edwards, Whitefield) and its legacy."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 8:16",
+        "Acts 2:37-41",
+        "1 John 3:14"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Salvation by Faith' (preached 1738), 'The Almost Christian' and 'On the Death of the Rev. Mr. George Whitefield'"
+        },
+        {
+          "author": "John Wesley",
+          "title": "A Plain Account of Christian Perfection",
+          "section": "Opening sections (Wesley's spiritual journey)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, the Methodist Articles of Religion"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Pietism",
+          "definition": "Movement stressing heart religion, Bible study groups and holy living."
+        },
+        {
+          "term": "Moravians",
+          "definition": "Renewed Unity of the Brethren under Zinzendorf, pioneers of Protestant missions."
+        },
+        {
+          "term": "Aldersgate (1738)",
+          "definition": "Where Wesley felt his heart 'strangely warmed'."
+        },
+        {
+          "term": "Field preaching",
+          "definition": "Open-air preaching by Whitefield and Wesley."
+        }
+      ],
+      "discussion_questions": [
+        "How did the Moravians influence Wesley?",
+        "What did the revivalists mean by 'heart religion'?",
+        "How did Wesley's organization (societies, classes, lay preachers) sustain revival?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "At Aldersgate Street in 1738 Wesley felt his heart",
+          "options": [
+            "broken",
+            "strangely warmed",
+            "hardened",
+            "at peace for the first time"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Pietist leader who wrote Pia Desideria was",
+          "options": [
+            "Francke",
+            "Philipp Jakob Spener",
+            "Zinzendorf",
+            "Bengel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'The Almost Christian' distinguishes",
+          "options": [
+            "Jews and Gentiles",
+            "outward religion from true love of God and living faith",
+            "Calvinists and Arminians",
+            "clergy and laity"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The great preacher of the First Great Awakening in both Britain and America was",
+          "options": [
+            "Charles Finney",
+            "George Whitefield",
+            "D. L. Moody",
+            "Charles Spurgeon"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Wesley remained throughout his life a priest of",
+          "options": [
+            "the Moravian church",
+            "the Church of England",
+            "the Methodist Episcopal Church",
+            "the Presbyterian church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe Wesley's contribution to the Evangelical Revival.",
+          "answer_key": "Field preaching across Britain, organizing converts into societies, classes and bands, training lay preachers, publishing sermons and literature, emphasizing justification by faith, assurance and holiness (Christian perfection), and caring for the poor."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What were the main emphases of Pietism?",
+          "answer_key": "Personal conversion and heart religion, Bible study in small groups (collegia pietatis), the priesthood of all believers, holy living, practical charity and missions - as a renewal of Lutheran orthodoxy."
+        }
+      ]
+    },
+    {
+      "id": "ch2-09",
+      "title": "The Modern Missionary Movement",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the rise of Protestant missions (Moravians, Carey, Judson, Hudson Taylor) and Catholic missions."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate the relationship between missions and colonialism."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the growth of the church in Africa, Asia and Latin America."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 28:18-20",
+        "Romans 10:13-15",
+        "Revelation 7:9-10"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The General Spread of the Gospel'"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (the spread of Christianity in the apostolic age, as a model for missions)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "William Carey",
+          "definition": "English Baptist missionary to India (1793), 'father of modern missions'."
+        },
+        {
+          "term": "Faith missions",
+          "definition": "Missions like Hudson Taylor's China Inland Mission relying on prayer for support."
+        },
+        {
+          "term": "Indigenous church principles",
+          "definition": "Self-governing, self-supporting, self-propagating churches."
+        },
+        {
+          "term": "Edinburgh 1910",
+          "definition": "World Missionary Conference."
+        }
+      ],
+      "discussion_questions": [
+        "Why did Protestant missions start later than Catholic missions?",
+        "How should the church evaluate missionaries' relationship to colonial powers?",
+        "What does the global South's growth mean for theology today?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "William Carey went as a missionary to",
+          "options": [
+            "China",
+            "India",
+            "Africa",
+            "Burma"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Hudson Taylor founded the",
+          "options": [
+            "London Missionary Society",
+            "China Inland Mission",
+            "Baptist Missionary Society",
+            "Jesuits"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The 'three-self' principles are self-governing, self-supporting and",
+          "options": [
+            "self-teaching",
+            "self-propagating",
+            "self-funding",
+            "self-worshipping"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The World Missionary Conference was held in Edinburgh in",
+          "options": [
+            "1793",
+            "1858",
+            "1910",
+            "1948"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Carey's famous motto was 'Expect great things from God;",
+          "options": [
+            "pray without ceasing'",
+            "attempt great things for God'",
+            "go to all nations'",
+            "trust the Lord'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give a balanced evaluation of missions and colonialism.",
+          "answer_key": "Missionaries sometimes relied on or reinforced colonial power and cultural superiority; yet many opposed abuses (slavery, exploitation), translated Scripture into local languages, founded schools and hospitals, and planted churches that became indigenous and independent - Christianity's growth in the global South often accelerated after colonialism."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe the shift of Christianity's center to the global South.",
+          "answer_key": "In the twentieth century Christianity declined in Europe while growing rapidly in Africa, Latin America and Asia, so the majority of Christians now live in the global South, often Pentecostal/charismatic and evangelical, reshaping world Christianity."
+        }
+      ]
+    },
+    {
+      "id": "ch2-10",
+      "title": "Enlightenment, Liberalism and Evangelical Response",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the Enlightenment's challenges to Christianity (deism, biblical criticism)."
+        },
+        {
+          "id": "o2",
+          "text": "Describe Protestant liberalism (Schleiermacher, Ritschl, Harnack)."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the confessional and evangelical responses (Old Princeton/Hodge, Spurgeon, fundamentalism)."
+        }
+      ],
+      "scripture_passages": [
+        "Colossians 2:8",
+        "2 Timothy 4:3-4",
+        "Jude 1:3"
+      ],
+      "library_readings": [
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Introduction, Chapter 3 (rationalism) and Chapter 4 (mysticism)"
+        },
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "Second Series, lecture on 'The Holy Spirit in Connection with Our Ministry'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Deism",
+          "definition": "Belief in a creator who does not intervene in the world."
+        },
+        {
+          "term": "Liberal theology",
+          "definition": "Adaptation of Christianity to modern thought, emphasizing experience and ethics."
+        },
+        {
+          "term": "Higher criticism",
+          "definition": "Historical-critical study of the Bible's sources and composition."
+        },
+        {
+          "term": "Fundamentalism",
+          "definition": "Early twentieth-century movement defending 'fundamentals' of the faith."
+        }
+      ],
+      "discussion_questions": [
+        "How does Hodge critique rationalism and mysticism?",
+        "What was attractive and dangerous in Protestant liberalism?",
+        "How did Spurgeon respond to the 'Down-Grade' controversy?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Deism holds that God",
+          "options": [
+            "is incarnate",
+            "created the world but does not intervene",
+            "does not exist",
+            "is the world"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Friedrich Schleiermacher grounded religion in",
+          "options": [
+            "papal authority",
+            "the feeling of absolute dependence",
+            "Scripture alone",
+            "natural law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Charles Hodge taught at",
+          "options": [
+            "Yale",
+            "Princeton Theological Seminary",
+            "Harvard",
+            "Oxford"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Spurgeon left the Baptist Union during the",
+          "options": [
+            "Great Awakening",
+            "Down-Grade Controversy",
+            "Oxford Movement",
+            "Scopes trial"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Colossians 2:8 warns against being taken captive by",
+          "options": [
+            "the law",
+            "philosophy and empty deceit according to human tradition",
+            "the prophets",
+            "the Spirit"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the main features of Protestant liberalism.",
+          "answer_key": "Starting from religious experience or ethics rather than revealed doctrine, embracing historical criticism, questioning miracles and traditional doctrines, emphasizing Jesus as moral teacher and the kingdom as ethical society, and optimism about human progress."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How did Hodge respond to rationalism?",
+          "answer_key": "He argued reason must judge the credibility of revelation and may not contradict it, but reason cannot be the source or ultimate measure of theology; Scripture's teachings, attested by the Spirit, are authoritative even when above reason."
+        }
+      ]
+    },
+    {
+      "id": "ch2-11",
+      "title": "Pentecostalism and the Charismatic Movement",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Trace the origins of Pentecostalism (Topeka, Azusa Street) and its global growth."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the charismatic renewal in mainline and Catholic churches."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate Pentecostal contributions and critiques fairly."
+        }
+      ],
+      "scripture_passages": [
+        "Joel 2:28-29",
+        "Acts 2:1-18",
+        "1 Corinthians 12:7-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book V, chapter 6 (spiritual gifts in the second-century church)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The More Excellent Way' (Wesley on the gifts and the decline of miraculous gifts after Constantine)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Azusa Street Revival (1906)",
+          "definition": "Los Angeles revival led by William Seymour."
+        },
+        {
+          "term": "Classical Pentecostalism",
+          "definition": "Denominations such as the Assemblies of God and Church of God in Christ."
+        },
+        {
+          "term": "Charismatic renewal",
+          "definition": "Spread of Pentecostal experience into other churches (1960s onward)."
+        },
+        {
+          "term": "Third Wave",
+          "definition": "Evangelicals embracing gifts without Pentecostal doctrine of subsequence."
+        }
+      ],
+      "discussion_questions": [
+        "What role did race and social marginalization play at Azusa Street?",
+        "What does Wesley's 'The More Excellent Way' say about the decline of the gifts?",
+        "What can non-Pentecostals learn from Pentecostalism, and what concerns remain?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Azusa Street Revival was led by",
+          "options": [
+            "Charles Parham",
+            "William J. Seymour",
+            "Aimee Semple McPherson",
+            "Oral Roberts"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Azusa Street took place in",
+          "options": [
+            "1859",
+            "1906",
+            "1960",
+            "1990"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Assemblies of God is a",
+          "options": [
+            "Reformed denomination",
+            "classical Pentecostal denomination",
+            "Catholic order",
+            "Lutheran synod"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Wesley suggested in 'The More Excellent Way' that the extraordinary gifts became rare after Constantine because",
+          "options": [
+            "God withdrew them by decree",
+            "Christians grew cold and formal",
+            "the canon closed",
+            "the apostles died"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The charismatic renewal spread into Roman Catholicism in",
+          "options": [
+            "the 1700s",
+            "the late 1960s",
+            "the Reformation",
+            "the 1800s"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why has Pentecostalism grown so rapidly worldwide?",
+          "answer_key": "Its emphasis on direct experience of the Spirit, healing and deliverance, lay participation, indigenous leadership, expressive worship, evangelistic zeal and relevance to the poor and marginalized, especially in the global South."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give a balanced assessment of Pentecostalism.",
+          "answer_key": "Strengths - recovered emphasis on the Spirit's power, gifts, mission, prayer and worship; empowerment of the marginalized. Concerns - doctrines of subsequence and initial evidence, excesses, prosperity teaching in some branches, weak theological training - concerns many Pentecostals themselves address."
+        }
+      ]
+    },
+    {
+      "id": "ch2-12",
+      "title": "The Twentieth-Century Church and the Global Future",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the ecumenical movement and Vatican II."
+        },
+        {
+          "id": "o2",
+          "text": "Describe evangelicalism's twentieth-century developments (Lausanne, neo-evangelicalism)."
+        },
+        {
+          "id": "o3",
+          "text": "Reflect on persecution, secularization and the future of the global church."
+        }
+      ],
+      "scripture_passages": [
+        "John 17:20-23",
+        "Ephesians 4:1-6",
+        "Revelation 2:10"
+      ],
+      "library_readings": [
+        {
+          "author": "Vincent of Lérins",
+          "title": "Commonitory",
+          "section": "Chapters 2 and 23 (unity, catholicity and development)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Catholic Spirit'"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapters 49-54 (the church's pilgrimage through history until the end)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ecumenical movement",
+          "definition": "Efforts toward visible Christian unity (World Council of Churches, 1948)."
+        },
+        {
+          "term": "Vatican II (1962-65)",
+          "definition": "Catholic council of renewal (liturgy in vernacular, dialogue)."
+        },
+        {
+          "term": "Lausanne Movement (1974)",
+          "definition": "Global evangelical mission movement."
+        },
+        {
+          "term": "Secularization",
+          "definition": "Declining influence of religion in public life, especially in the West."
+        }
+      ],
+      "discussion_questions": [
+        "What unity does Jesus pray for in John 17, and how have churches pursued it?",
+        "What changed at Vatican II, and how have Protestants responded?",
+        "What lessons from church history will you carry into ministry?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The World Council of Churches was founded in",
+          "options": [
+            "1910",
+            "1948",
+            "1962",
+            "1974"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Vatican II permitted the Mass to be celebrated in",
+          "options": [
+            "Latin only",
+            "the vernacular languages",
+            "Greek",
+            "Hebrew"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Lausanne Congress on World Evangelization (1974) was associated with",
+          "options": [
+            "Karl Barth",
+            "Billy Graham and John Stott",
+            "Pope John XXIII",
+            "Martin Luther King Jr."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Revelation 2:10 says, 'Be faithful unto death, and I will give you",
+          "options": [
+            "a kingdom'",
+            "the crown of life'",
+            "wealth'",
+            "a new name'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine in City of God XVIII describes the church as",
+          "options": [
+            "triumphant on earth",
+            "on pilgrimage amid persecutions of the world and consolations of God",
+            "an empire",
+            "finished"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the major developments of the twentieth-century church.",
+          "answer_key": "Explosive growth in the global South and of Pentecostalism; the ecumenical movement; Vatican II's renewal of Catholicism; evangelical global mission (Lausanne); martyrdom under totalitarian regimes; secularization and decline in the West."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What lessons from church history are most important for ministry?",
+          "answer_key": "E.g. faithfulness to Scripture and the gospel; the dangers of both doctrinal drift and uncharitable division; the need for continual reformation; the value of the church's creeds and confessions; God's faithfulness preserving his church through persecution and failure."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on ONE figure, movement or event from the Reformation to the present (for example Luther, Calvin, the Anabaptists, Trent, Arminius and Dort, the Puritans, Wesley, the modern missionary movement, Spurgeon, Pentecostalism). Describe its context, summarize its teaching from primary sources in the library (cite as Author, Title, section), evaluate its strengths and weaknesses fairly, and draw lessons for the church today."
+    }
+  ]
+}

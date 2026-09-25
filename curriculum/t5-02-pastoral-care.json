@@ -1,0 +1,1634 @@
+{
+  "id": "pastoral-care",
+  "title": "Pastoral Care and Counseling",
+  "tier": 5,
+  "tier_name": "Ministry",
+  "description": "The cure of souls. Students study the biblical and historical foundations of pastoral care - drawing on Gregory the Great's Pastoral Rule, Chrysostom's On the Priesthood, Cassian, Luther and Wesley - and learn practical skills for listening, visitation, counseling, crisis care, grief, marriage and family care, addiction, mental health, abuse, discipline and restoration. The course stresses the limits of pastoral counseling, referral to medical and mental-health professionals, safeguarding of the vulnerable, and the pastor's own soul care.",
+  "prerequisites": [
+    "spiritual-formation"
+  ],
+  "lessons": [
+    {
+      "id": "pc-01",
+      "title": "The Cure of Souls - Foundations of Pastoral Care",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the biblical image of the pastor as shepherd."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize the historical 'cure of souls' tradition."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the goals of pastoral care (healing, sustaining, guiding, reconciling)."
+        }
+      ],
+      "scripture_passages": [
+        "Ezekiel 34:1-16",
+        "John 10:1-18",
+        "1 Peter 5:1-4",
+        "Acts 20:28-31"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part I, chapter 1 ('the government of souls is the art of arts')"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Book II (the shepherd's task)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 3, sections 6-9 (pastors and their duties)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Cure of souls (cura animarum)",
+          "definition": "The care and healing of souls by pastors."
+        },
+        {
+          "term": "Shepherd (poimēn)",
+          "definition": "The biblical image of the pastor."
+        },
+        {
+          "term": "Four functions of pastoral care",
+          "definition": "Healing, sustaining, guiding, reconciling."
+        },
+        {
+          "term": "Soul care",
+          "definition": "Attention to a person's spiritual life and relationship with God."
+        }
+      ],
+      "discussion_questions": [
+        "Why did Gregory call pastoral government 'the art of arts'?",
+        "How does Jesus as the good shepherd model pastoral care?",
+        "What kind of shepherds does Ezekiel 34 condemn?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Gregory the Great called the government of souls",
+          "options": [
+            "a simple task",
+            "the art of arts",
+            "a political office",
+            "a burden to avoid"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 Peter 5:2 tells elders to shepherd the flock",
+          "options": [
+            "for gain",
+            "willingly, not under compulsion, as God would have you",
+            "harshly",
+            "occasionally"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In John 10:11 the good shepherd",
+          "options": [
+            "flees when the wolf comes",
+            "lays down his life for the sheep",
+            "owns many flocks",
+            "rules with a rod"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The four classic functions of pastoral care are healing, sustaining, guiding and",
+          "options": [
+            "teaching",
+            "reconciling",
+            "judging",
+            "fundraising"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Chrysostom compared the pastor's task of healing souls to",
+          "options": [
+            "building",
+            "a physician's, but harder since souls cannot be treated by force",
+            "a soldier's",
+            "a king's"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are the four functions of pastoral care?",
+          "answer_key": "Healing (restoring wholeness), sustaining (helping people endure what cannot be changed), guiding (helping with decisions), reconciling (restoring relationships with God and others)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Chrysostom say makes the healing of souls especially difficult?",
+          "answer_key": "The pastor cannot compel people as a physician treats bodies; people must be persuaded to accept correction; remedies must be adapted to each soul, with wisdom and patience."
+        }
+      ]
+    },
+    {
+      "id": "pc-02",
+      "title": "Listening and the Pastoral Conversation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Practice active, empathic listening."
+        },
+        {
+          "id": "o2",
+          "text": "Ask good questions and discern the real issue."
+        },
+        {
+          "id": "o3",
+          "text": "Integrate Scripture and prayer appropriately in conversation."
+        }
+      ],
+      "scripture_passages": [
+        "James 1:19",
+        "Proverbs 18:13",
+        "Proverbs 20:5",
+        "Job 2:11-13"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part II, chapters 5-6 (compassion and humility in the pastor)"
+        },
+        {
+          "author": "John Cassian",
+          "title": "Conferences",
+          "section": "Conference 2 (discretion in guiding others)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Active listening",
+          "definition": "Attending fully and reflecting back what one hears."
+        },
+        {
+          "term": "Empathy",
+          "definition": "Entering into another's feelings and perspective."
+        },
+        {
+          "term": "Presenting problem",
+          "definition": "The issue a person first brings, which may not be the deepest issue."
+        },
+        {
+          "term": "Ministry of presence",
+          "definition": "Being with someone in suffering, as Job's friends were for seven days."
+        }
+      ],
+      "discussion_questions": [
+        "What did Job's friends do right before they began to speak?",
+        "What does Proverbs 20:5 say about drawing out a person's heart?",
+        "How does Cassian's 'discretion' apply to pastoral conversations?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "James 1:19 says be quick to hear,",
+          "options": [
+            "quick to speak",
+            "slow to speak, slow to anger",
+            "slow to hear",
+            "quick to judge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Proverbs 18:13 says answering before listening is",
+          "options": [
+            "wise",
+            "folly and shame",
+            "efficient",
+            "leadership"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Job's friends sat with him in silence for",
+          "options": [
+            "one day",
+            "seven days and seven nights",
+            "a month",
+            "an hour"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Proverbs 20:5 says the purpose in a man's heart is like",
+          "options": [
+            "a fire",
+            "deep water, drawn out by a man of understanding",
+            "a stone",
+            "wind"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The 'presenting problem' is",
+          "options": [
+            "always the core issue",
+            "the issue first raised, which may point to deeper issues",
+            "a medical term only",
+            "irrelevant"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the practice of active listening.",
+          "answer_key": "Giving full attention, maintaining appropriate eye contact, not interrupting, reflecting feelings and content back, asking open questions, clarifying, and withholding premature advice or judgment."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "When and how should Scripture and prayer be used in pastoral conversation?",
+          "answer_key": "After listening and understanding, with sensitivity to the person's state; Scripture should be applied specifically and gently, not as a quick fix; prayer can be offered with permission, bringing the person's concerns honestly before God."
+        }
+      ]
+    },
+    {
+      "id": "pc-03",
+      "title": "Visitation, Sickness and the Ministry to the Dying",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Plan and conduct hospital and home visits."
+        },
+        {
+          "id": "o2",
+          "text": "Minister to the sick with Scripture, prayer and sacrament."
+        },
+        {
+          "id": "o3",
+          "text": "Care for the dying and their families."
+        }
+      ],
+      "scripture_passages": [
+        "James 5:13-16",
+        "Psalm 23",
+        "2 Corinthians 4:16-18",
+        "Matthew 25:34-40"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'On Visiting the Sick'"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book IX, chapter 11 (Monica's death)"
+        },
+        {
+          "author": "Cyril of Jerusalem",
+          "title": "Catechetical Lectures",
+          "section": "Lecture 18 (the resurrection of the flesh)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Visitation",
+          "definition": "Pastoral visits to homes, hospitals and care facilities."
+        },
+        {
+          "term": "Anointing of the sick",
+          "definition": "Prayer with oil for the sick (James 5:14)."
+        },
+        {
+          "term": "Commendation of the dying",
+          "definition": "Prayers entrusting a dying person to God."
+        },
+        {
+          "term": "Hospice",
+          "definition": "Care for the terminally ill focusing on comfort."
+        }
+      ],
+      "discussion_questions": [
+        "What does Wesley teach about visiting the sick as a duty of all Christians?",
+        "What Scripture passages are most helpful at a deathbed?",
+        "How should pastors respect medical staff and family dynamics?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "James 5:14 instructs the sick to call for",
+          "options": [
+            "a prophet",
+            "the elders of the church",
+            "the deacons only",
+            "the family"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'On Visiting the Sick' teaches that visiting the sick is",
+          "options": [
+            "only for clergy",
+            "a duty and means of grace for all Christians",
+            "optional",
+            "unhealthy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Matthew 25:36 Jesus says, 'I was sick and",
+          "options": [
+            "you healed me'",
+            "you visited me'",
+            "you prayed for me'",
+            "you avoided me'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 4:16 says though our outer self is wasting away,",
+          "options": [
+            "hope is lost",
+            "our inner self is being renewed day by day",
+            "we should despair",
+            "God is distant"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A hospital visit should generally be",
+          "options": [
+            "long",
+            "brief, attentive and respectful of the patient's condition",
+            "loud",
+            "focused on the pastor"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give practical guidelines for a hospital visit.",
+          "answer_key": "Check with staff and respect privacy and infection rules; keep it brief; sit at eye level; listen; read a short Scripture; pray with permission; respect the family; follow up; never discuss confidential information with others."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can a pastor minister to the dying?",
+          "answer_key": "Be present, listen, help them prepare spiritually (confession, assurance, reconciliation), read Scripture and pray, offer communion where appropriate, support the family, and speak of the resurrection hope honestly."
+        }
+      ]
+    },
+    {
+      "id": "pc-04",
+      "title": "Grief and Loss",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the grief process and complicated grief."
+        },
+        {
+          "id": "o2",
+          "text": "Provide biblical comfort without cliches."
+        },
+        {
+          "id": "o3",
+          "text": "Plan funerals and follow-up care."
+        }
+      ],
+      "scripture_passages": [
+        "John 11:32-44",
+        "1 Thessalonians 4:13-18",
+        "Psalm 88",
+        "Revelation 21:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book IV, chapters 4-12 and Book IX, chapter 12 (grief for a friend and for his mother)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Heaviness through Manifold Temptations'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Grief",
+          "definition": "The natural response to loss."
+        },
+        {
+          "term": "Lament",
+          "definition": "Bringing grief honestly to God."
+        },
+        {
+          "term": "Complicated grief",
+          "definition": "Prolonged, disabling grief that may need professional help."
+        },
+        {
+          "term": "Grieving with hope",
+          "definition": "Christian grief shaped by the resurrection (1 Thess 4:13)."
+        }
+      ],
+      "discussion_questions": [
+        "Why did Jesus weep at Lazarus's tomb though he would raise him?",
+        "What does Augustine learn about grief in the Confessions?",
+        "What cliches should comforters avoid?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "At Lazarus's tomb Jesus",
+          "options": [
+            "rebuked the mourners",
+            "wept",
+            "left immediately",
+            "stayed silent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 Thessalonians 4:13 says believers should not grieve",
+          "options": [
+            "at all",
+            "as others who have no hope",
+            "publicly",
+            "for more than a week"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine's grief for his friend in Book IV taught him that",
+          "options": [
+            "friendship is evil",
+            "loving mortal things as if they were God leads to devastation; love them in God",
+            "grief is sin",
+            "he should not love"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Complicated grief may require",
+          "options": [
+            "rebuke",
+            "referral to professional help alongside pastoral care",
+            "ignoring",
+            "church discipline"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Revelation 21:4 promises that God will",
+          "options": [
+            "explain all suffering",
+            "wipe away every tear",
+            "restore the old world",
+            "judge the grieving"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How can a pastor comfort the grieving without cliches?",
+          "answer_key": "Be present and listen; allow lament; acknowledge the loss; avoid glib statements ('everything happens for a reason', 'God needed another angel'); offer Scripture's promises gently; provide practical help; follow up over months."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is distinctive about Christian grief?",
+          "answer_key": "Christians grieve truly (Jesus wept) but with hope - death is an enemy defeated by Christ; believers who die are with the Lord and will be raised; grief is held within the promise of resurrection and reunion."
+        }
+      ]
+    },
+    {
+      "id": "pc-05",
+      "title": "Counseling Models and Their Limits",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare approaches to Christian counseling (biblical/nouthetic, integrationist, Christian psychology, pastoral care)."
+        },
+        {
+          "id": "o2",
+          "text": "Define the scope and limits of pastoral counseling."
+        },
+        {
+          "id": "o3",
+          "text": "Develop referral practices and networks."
+        }
+      ],
+      "scripture_passages": [
+        "Colossians 3:16",
+        "Romans 15:14",
+        "Proverbs 11:14",
+        "Galatians 6:1-2"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, Prologue and chapters 1-6"
+        },
+        {
+          "author": "John Cassian",
+          "title": "Conferences",
+          "section": "Conference 2, chapters 10-13 (the danger of unwise counsel)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Nouthetic counseling",
+          "definition": "Biblical counseling emphasizing admonition from Scripture."
+        },
+        {
+          "term": "Integration",
+          "definition": "Combining psychological insights with theology."
+        },
+        {
+          "term": "Referral",
+          "definition": "Directing a person to a professional better suited to help."
+        },
+        {
+          "term": "Scope of practice",
+          "definition": "The limits of one's training and competence."
+        }
+      ],
+      "discussion_questions": [
+        "Where should a pastor draw the line between pastoral counseling and professional therapy?",
+        "What can Christians learn from psychology, and what must be critiqued?",
+        "How does Cassian warn against harmful counsel?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 15:14 says believers are able to",
+          "options": [
+            "heal all diseases",
+            "instruct (admonish) one another",
+            "avoid all counsel",
+            "replace doctors"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Proverbs 11:14 says in an abundance of counselors there is",
+          "options": [
+            "confusion",
+            "safety",
+            "delay",
+            "pride"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "A pastor should refer a person to a professional when",
+          "options": [
+            "never",
+            "the issue exceeds the pastor's training (e.g. severe mental illness, suicidality, trauma)",
+            "always immediately",
+            "only if the person insists"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Nouthetic counseling is associated with",
+          "options": [
+            "Freud",
+            "Jay Adams and admonition from Scripture",
+            "Carl Rogers",
+            "Jung"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Cassian recounts a young monk harmed by an elder who",
+          "options": [
+            "was too gentle",
+            "responded to his confession harshly and without discretion",
+            "sent him to a doctor",
+            "refused to listen"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare biblical counseling and integrationist approaches.",
+          "answer_key": "Biblical (nouthetic) counseling holds Scripture as sufficient for counseling and is wary of secular psychology; integrationists use psychological research and methods consistent with Scripture, seeing all truth as God's truth; both seek Christ-centered care."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are the limits of pastoral counseling?",
+          "answer_key": "Pastors are generally not trained to diagnose or treat mental illness, severe trauma, addiction or suicidality; they should offer spiritual care and short-term support while referring to qualified medical and mental-health professionals and partnering with them."
+        }
+      ]
+    },
+    {
+      "id": "pc-06",
+      "title": "Crisis Care and Suicide Prevention",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Respond to crises (accidents, violence, disasters)."
+        },
+        {
+          "id": "o2",
+          "text": "Recognize suicide risk and respond appropriately."
+        },
+        {
+          "id": "o3",
+          "text": "Provide follow-up care and care for caregivers."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 46:1-3",
+        "1 Kings 19:1-18",
+        "2 Corinthians 1:3-11",
+        "Psalm 34:18"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Wilderness State'"
+        },
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, 'The Minister's Fainting Fits'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Crisis",
+          "definition": "An acute situation overwhelming normal coping."
+        },
+        {
+          "term": "Suicide risk factors",
+          "definition": "Signs such as talking of death, hopelessness, plans or means."
+        },
+        {
+          "term": "Safety planning",
+          "definition": "Steps to keep a person safe, including emergency services."
+        },
+        {
+          "term": "Compassion fatigue",
+          "definition": "Exhaustion from caring for those in trauma."
+        }
+      ],
+      "discussion_questions": [
+        "How did God care for Elijah in his despair (1 Kings 19)?",
+        "What should a pastor do immediately if someone expresses suicidal intent?",
+        "How does Spurgeon's honesty about depression help pastors?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "When Elijah asked to die, God first",
+          "options": [
+            "rebuked him",
+            "gave him sleep, food and drink through an angel",
+            "sent him to preach",
+            "replaced him"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "If a person expresses intent to end their life, the pastor should",
+          "options": [
+            "promise secrecy",
+            "take it seriously, stay with them, and connect them immediately with emergency or crisis services",
+            "wait until Sunday",
+            "tell them to pray more"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 1:4 says God comforts us so that we may",
+          "options": [
+            "forget pain",
+            "comfort those in any affliction",
+            "avoid suffering",
+            "be strong alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Psalm 34:18 says the LORD is near to",
+          "options": [
+            "the proud",
+            "the brokenhearted",
+            "the wealthy",
+            "the priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Spurgeon's lecture 'The Minister's Fainting Fits' reveals that",
+          "options": [
+            "ministers never struggle",
+            "even faithful ministers experience deep depression",
+            "depression is sin",
+            "rest is laziness"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Outline a pastor's response to someone at risk of suicide.",
+          "answer_key": "Take every statement seriously; ask directly about thoughts and plans; do not leave them alone if at imminent risk; contact emergency services or a crisis line; involve family; remove means where possible; ensure professional care; follow up; never promise confidentiality when life is at risk."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What principles guide crisis ministry?",
+          "answer_key": "Ensure safety first; be present and calm; meet practical needs; listen; avoid easy explanations; coordinate with emergency and professional services; provide ongoing follow-up and care for caregivers."
+        }
+      ]
+    },
+    {
+      "id": "pc-07",
+      "title": "Marriage and Family Care",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Conduct premarital preparation."
+        },
+        {
+          "id": "o2",
+          "text": "Care for troubled marriages and families."
+        },
+        {
+          "id": "o3",
+          "text": "Minister to singles, children, blended families and the aging."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 2:18-25",
+        "Ephesians 5:21-6:4",
+        "Colossians 3:18-21",
+        "1 Timothy 5:1-8"
+      ],
+      "library_readings": [
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 19 (on marriage and 1 Corinthians 7)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Fourth Commandment (honor your father and mother)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIX, chapter 16 (the just ordering of the household)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Premarital counseling",
+          "definition": "Preparation for marriage covering expectations, communication, faith and conflict."
+        },
+        {
+          "term": "Conflict resolution",
+          "definition": "Biblical practices for resolving disputes (Matt 18; Eph 4:26-32)."
+        },
+        {
+          "term": "Blended family",
+          "definition": "A family with children from previous relationships."
+        },
+        {
+          "term": "Honoring parents",
+          "definition": "The fifth (or fourth) commandment's call, including care for aging parents."
+        }
+      ],
+      "discussion_questions": [
+        "What topics must premarital counseling cover?",
+        "How does Luther extend the command to honor parents to other authorities?",
+        "How can churches support single people and single parents?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Ephesians 6:4 tells fathers not to",
+          "options": [
+            "discipline children",
+            "provoke your children to anger",
+            "teach children",
+            "work"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Luther's explanation of the commandment to honor parents extends to",
+          "options": [
+            "no one else",
+            "other authorities such as masters and rulers",
+            "only fathers",
+            "church only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 Timothy 5:8 says anyone who does not provide for his relatives has",
+          "options": [
+            "no problem",
+            "denied the faith and is worse than an unbeliever",
+            "grace",
+            "freedom"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Premarital counseling typically covers",
+          "options": [
+            "only wedding logistics",
+            "expectations, communication, conflict, finances, sexuality and faith",
+            "nothing spiritual",
+            "only legal issues"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Ephesians 4:26 says, 'Do not let the sun go down on",
+          "options": [
+            "your work'",
+            "your anger'",
+            "your prayers'",
+            "your fasting'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How should a pastor respond to a couple in marital conflict?",
+          "answer_key": "Listen to both, assess safety (abuse), identify patterns, apply Scripture on love, forgiveness and communication, teach conflict resolution, pray, and refer to a qualified marriage counselor when needed."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can the church support diverse families?",
+          "answer_key": "Value singles and their gifts; support single parents practically; welcome blended families; honor the elderly; provide mentoring, childcare and community - the church as God's family (Mark 3:35)."
+        }
+      ]
+    },
+    {
+      "id": "pc-08",
+      "title": "Abuse, Safeguarding and Protecting the Vulnerable",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize signs of domestic and child abuse."
+        },
+        {
+          "id": "o2",
+          "text": "Follow legal reporting obligations and safeguarding policies."
+        },
+        {
+          "id": "o3",
+          "text": "Care for survivors and confront abusers with justice and wisdom."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 82:3-4",
+        "Matthew 18:6",
+        "Proverbs 31:8-9",
+        "Ephesians 5:11-12"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapters 2-3 (the poor and the rich; the oppressed and the oppressors)"
+        },
+        {
+          "author": "Ambrose",
+          "title": "On the Duties of the Clergy",
+          "section": "Book I, chapters 35-36 (justice and defending the weak)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Safeguarding",
+          "definition": "Policies and practices protecting children and vulnerable adults."
+        },
+        {
+          "term": "Mandatory reporting",
+          "definition": "Legal duty to report suspected abuse to authorities (varies by location)."
+        },
+        {
+          "term": "Survivor-centered care",
+          "definition": "Prioritizing the safety and dignity of those harmed."
+        },
+        {
+          "term": "Spiritual abuse",
+          "definition": "Misuse of spiritual authority to control or harm."
+        }
+      ],
+      "discussion_questions": [
+        "Why must churches report abuse to civil authorities rather than handle it internally?",
+        "How can churches create safe environments?",
+        "How should repentance and consequences be handled when an abuser confesses?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Psalm 82:3-4 commands to",
+          "options": [
+            "punish the weak",
+            "give justice to the weak and rescue them from the wicked",
+            "ignore the poor",
+            "flatter rulers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "When abuse of a child is suspected, a pastor should",
+          "options": [
+            "handle it privately",
+            "follow safeguarding policy and report to the appropriate civil authorities",
+            "confront the child",
+            "wait for proof"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Jesus warned in Matthew 18:6 that causing little ones to stumble deserves",
+          "options": [
+            "a warning",
+            "a millstone hung around the neck and drowning in the sea",
+            "a fine",
+            "forgiveness only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Survivor-centered care prioritizes",
+          "options": [
+            "the institution's reputation",
+            "the safety and dignity of the person harmed",
+            "the abuser's ministry",
+            "speedy reconciliation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Spiritual abuse involves",
+          "options": [
+            "teaching Scripture",
+            "using spiritual authority to control, manipulate or harm",
+            "church discipline done rightly",
+            "prayer"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What should be included in a church safeguarding policy?",
+          "answer_key": "Background checks and training for workers, two-adult rules, clear reporting procedures including mandatory reporting to authorities, response plans, care for survivors, and accountability for leaders."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why must forgiveness not be used to bypass justice in abuse cases?",
+          "answer_key": "Forgiveness is personal and does not remove legal and relational consequences; protecting the vulnerable is a biblical duty (Ps 82; Rom 13); premature reconciliation can endanger victims; repentance accepts consequences."
+        }
+      ]
+    },
+    {
+      "id": "pc-09",
+      "title": "Addiction, Mental Health and the Body",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Understand addiction as both sin and bondage, with physical dimensions."
+        },
+        {
+          "id": "o2",
+          "text": "Understand common mental-health conditions and the value of medical treatment."
+        },
+        {
+          "id": "o3",
+          "text": "Provide pastoral support alongside professional care."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 7:15-25",
+        "Galatians 5:1",
+        "1 Corinthians 6:12",
+        "Psalm 42:5-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book VIII, chapters 5 and 9-11 (the chain of habit and the divided will)"
+        },
+        {
+          "author": "John Cassian",
+          "title": "Conferences",
+          "section": "Conference 5 (the eight principal faults)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Addiction",
+          "definition": "Compulsive dependence despite harm, involving body, mind and spirit."
+        },
+        {
+          "term": "Habit (consuetudo)",
+          "definition": "Augustine's 'chain' of sinful habit binding the will."
+        },
+        {
+          "term": "Depression",
+          "definition": "A mental-health condition involving persistent low mood, often requiring medical treatment."
+        },
+        {
+          "term": "Recovery community",
+          "definition": "Support groups and churches that walk with those in recovery."
+        }
+      ],
+      "discussion_questions": [
+        "How does Augustine describe the power of habit in Confessions VIII?",
+        "Is depression a spiritual problem, a medical problem, or both?",
+        "How can churches support people in recovery?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine described his sinful habit as",
+          "options": [
+            "freedom",
+            "a chain binding his will",
+            "harmless",
+            "a gift"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Psalm 42:5 asks, 'Why are you cast down, O my soul?' and answers",
+          "options": [
+            "'You are guilty'",
+            "'Hope in God; for I shall again praise him'",
+            "'Try harder'",
+            "'Stop feeling'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "For serious depression, pastoral care should",
+          "options": [
+            "replace medical treatment",
+            "work alongside medical and psychological care",
+            "treat it as sin only",
+            "ignore it"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Galatians 5:1 says, 'For freedom Christ has set us free; stand firm and do not submit again to",
+          "options": [
+            "the church'",
+            "a yoke of slavery'",
+            "discipline'",
+            "leaders'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Cassian lists among the eight principal faults",
+          "options": [
+            "joy and peace",
+            "gluttony, lust, avarice, anger, dejection, acedia, vainglory and pride",
+            "doubt and fear only",
+            "ignorance"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How can pastors help people with addictions?",
+          "answer_key": "Treat them with compassion as people in bondage and responsible agents; encourage honesty and confession; connect them with medical treatment and recovery programs; provide accountability and community; offer the gospel's hope of forgiveness and freedom; be patient with relapse."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why should churches encourage professional mental-health treatment?",
+          "answer_key": "Mental illness has biological and psychological dimensions; medicine and therapy are gifts of common grace; spiritual care complements but does not replace them; stigma must be removed so sufferers seek help."
+        }
+      ]
+    },
+    {
+      "id": "pc-10",
+      "title": "Confession, Forgiveness and Church Discipline",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Practice pastoral care of the penitent (confession and absolution)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain and apply church discipline (Matthew 18; 1 Corinthians 5)."
+        },
+        {
+          "id": "o3",
+          "text": "Guide restoration after serious sin."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 18:15-20",
+        "1 Corinthians 5:1-13",
+        "2 Corinthians 2:5-11",
+        "Galatians 6:1"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "Confession"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 12 (the discipline of the church)"
+        },
+        {
+          "author": "Cyprian",
+          "title": "On the Unity of the Church",
+          "section": "Chapters 1-3 and 14-17 (on schism and the lapsed)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Absolution",
+          "definition": "Declaration of God's forgiveness to the penitent."
+        },
+        {
+          "term": "Church discipline",
+          "definition": "The church's correction of members in serious unrepentant sin."
+        },
+        {
+          "term": "Excommunication",
+          "definition": "Exclusion from the Lord's Supper and fellowship as the final step."
+        },
+        {
+          "term": "Restoration",
+          "definition": "Welcoming back a repentant sinner (2 Cor 2:7-8)."
+        }
+      ],
+      "discussion_questions": [
+        "What are the purposes of church discipline according to Calvin?",
+        "How does Matthew 18:15-20 structure the process?",
+        "How should restoration be handled after repentance (2 Cor 2)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Matthew 18:15 begins the process of correction with",
+          "options": [
+            "public announcement",
+            "going to the brother privately",
+            "the elders",
+            "the whole church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Calvin gives three purposes of discipline, including the honor of God, the protection of the good, and",
+          "options": [
+            "punishment",
+            "the repentance of the sinner",
+            "financial order",
+            "control"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In 2 Corinthians 2:7 Paul urges the church to",
+          "options": [
+            "continue punishing",
+            "forgive and comfort the repentant",
+            "ignore him",
+            "expel him permanently"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Galatians 6:1 says restore the one caught in transgression",
+          "options": [
+            "harshly",
+            "in a spirit of gentleness, watching yourself",
+            "publicly",
+            "after a year"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Luther's Small Catechism includes instruction on",
+          "options": [
+            "purgatory",
+            "confession and absolution",
+            "indulgences",
+            "pilgrimage"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are the purposes of church discipline?",
+          "answer_key": "To honor Christ and protect the church's purity and witness, to protect others from corruption and harm, and to bring the offender to repentance and restoration (Calvin; 1 Cor 5:5)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe the steps of Matthew 18:15-17.",
+          "answer_key": "Go privately; if not heard, take one or two others; if still unrepentant, tell it to the church; if he refuses to listen to the church, treat him as a Gentile and tax collector (outside fellowship) - always aiming at restoration."
+        }
+      ]
+    },
+    {
+      "id": "pc-11",
+      "title": "Cultural Sensitivity and Pastoral Care in Diverse Contexts",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Provide pastoral care sensitive to culture, age and background."
+        },
+        {
+          "id": "o2",
+          "text": "Care for refugees, the poor and marginalized."
+        },
+        {
+          "id": "o3",
+          "text": "Recognize one's own cultural assumptions."
+        }
+      ],
+      "scripture_passages": [
+        "Leviticus 19:33-34",
+        "Acts 6:1-7",
+        "James 2:1-9",
+        "Matthew 25:35"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapters 1 and 13-22 (admonitions adapted to condition, age and status)"
+        },
+        {
+          "author": "Ambrose",
+          "title": "On the Duties of the Clergy",
+          "section": "Book II, chapters 15-16 and 28 (care for the poor and captives)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Cultural humility",
+          "definition": "Openness to learning from others' cultural perspectives."
+        },
+        {
+          "term": "Hospitality (philoxenia)",
+          "definition": "Love for strangers."
+        },
+        {
+          "term": "Contextualization",
+          "definition": "Adapting ministry to cultural settings without compromising the gospel."
+        },
+        {
+          "term": "Partiality",
+          "definition": "Favoritism forbidden in James 2."
+        }
+      ],
+      "discussion_questions": [
+        "How did the apostles respond to the Hellenist widows' complaint (Acts 6)?",
+        "How does Gregory adapt counsel to rich and poor, young and old?",
+        "What cultural assumptions might shape your pastoral care?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Leviticus 19:34 commands Israel to love the stranger",
+          "options": [
+            "only if converted",
+            "as yourself, for you were strangers in Egypt",
+            "at a distance",
+            "in the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Acts 6 the complaint concerned the neglect of",
+          "options": [
+            "children",
+            "Hellenist widows in the daily distribution",
+            "the apostles",
+            "the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "James 2:1 forbids",
+          "options": [
+            "hospitality",
+            "showing partiality/favoritism",
+            "generosity",
+            "worship"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Ambrose famously melted church vessels to",
+          "options": [
+            "build a basilica",
+            "ransom captives",
+            "pay clergy",
+            "buy land"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Cultural humility involves",
+          "options": [
+            "assuming one's culture is superior",
+            "openness to learning from others' perspectives",
+            "ignoring culture",
+            "avoiding people unlike oneself"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How did the early church address cultural tension in Acts 6?",
+          "answer_key": "The apostles listened to the complaint, involved the congregation in choosing seven Spirit-filled, wise men (with Greek names) to oversee the distribution, and devoted themselves to prayer and the word - resulting in growth."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What principles guide culturally sensitive pastoral care?",
+          "answer_key": "Listen and learn the person's cultural context; avoid assumptions; respect family and community structures; distinguish cultural practices from biblical principles; show hospitality; use interpreters when needed; address injustice."
+        }
+      ]
+    },
+    {
+      "id": "pc-12",
+      "title": "The Pastor's Own Soul - Sustainability and Self-Care",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize signs of burnout and moral failure risk in ministry."
+        },
+        {
+          "id": "o2",
+          "text": "Establish rhythms of rest, prayer, accountability and boundaries."
+        },
+        {
+          "id": "o3",
+          "text": "Develop a personal plan for sustainable ministry."
+        }
+      ],
+      "scripture_passages": [
+        "Mark 6:30-32",
+        "Exodus 18:13-27",
+        "1 Timothy 4:16",
+        "Psalm 127:1-2"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part IV (the pastor returning to himself)"
+        },
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, 'The Minister's Self-Watch' and 'The Minister's Fainting Fits'"
+        },
+        {
+          "author": "Brother Lawrence",
+          "title": "The Practice of the Presence of God",
+          "section": "The letters (practicing God's presence in busy work)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Burnout",
+          "definition": "Emotional, physical and spiritual exhaustion from prolonged stress."
+        },
+        {
+          "term": "Boundaries",
+          "definition": "Healthy limits on time, availability and roles."
+        },
+        {
+          "term": "Sabbath",
+          "definition": "Regular rest as trust in God."
+        },
+        {
+          "term": "Accountability",
+          "definition": "Relationships where the pastor is known, questioned and supported."
+        }
+      ],
+      "discussion_questions": [
+        "What did Jethro's advice to Moses teach about sustainable leadership?",
+        "Why did Jesus invite the disciples to rest (Mark 6:31)?",
+        "What does Gregory mean by the pastor 'returning to himself' in humility?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jethro advised Moses to",
+          "options": [
+            "work harder",
+            "appoint capable leaders to share the load",
+            "leave Israel",
+            "judge only the hard cases alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Mark 6:31 Jesus told the disciples, 'Come away by yourselves to a desolate place and",
+          "options": [
+            "preach'",
+            "rest a while'",
+            "fast'",
+            "pray all night'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Psalm 127:2 says it is in vain to rise early and go late to rest, for God gives",
+          "options": [
+            "wealth",
+            "to his beloved sleep",
+            "success",
+            "power"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Gregory's Part IV of the Pastoral Rule warns pastors against",
+          "options": [
+            "preaching",
+            "pride after doing well",
+            "rest",
+            "study"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A sign of burnout is",
+          "options": [
+            "joy",
+            "chronic exhaustion, cynicism and reduced effectiveness",
+            "healthy rest",
+            "clear boundaries"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "List practices that sustain long-term pastoral ministry.",
+          "answer_key": "Regular Sabbath rest; personal prayer and Scripture beyond sermon preparation; accountability relationships; healthy boundaries; shared leadership; physical health; continuing learning; family time; counseling when needed."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are warning signs of ministry burnout or moral danger?",
+          "answer_key": "Exhaustion, cynicism, isolation, prayerlessness, irritability, escapism (addictions, pornography), secrecy, neglect of family, lack of accountability, and ministry becoming performance."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper developing a theology and practical plan of pastoral care for ONE situation (for example grief, a marriage in crisis, depression, addiction, or a church member caught in serious sin). Include biblical foundations, insights from at least two historical sources in the library (e.g. Gregory the Great, Chrysostom, Cassian, Augustine, Wesley; cite as Author, Title, section), a step-by-step care plan, the limits of pastoral care and when to refer, and safeguards for the pastor."
+    }
+  ]
+}

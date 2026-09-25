@@ -194,4 +194,20 @@ ok(certs.data.length === 1 && certs.data[0].student_name === 'Site Admin' && cer
 const studentCerts = await student.client.from('certificates').select('*');
 ok(studentCerts.data.length === 0, "students cannot see other students' certificates");
 
+// ---------- language drills, checked against the real STEPBible morphology ----------
+for (const lessonId of ['gk1-03', 'gk2-02', 'hb1-05']) {
+  const drill = await call(admin.token, `/api/drill?lessonId=${lessonId}`);
+  ok(drill.status === 200 && drill.body.items.length > 0 && !JSON.stringify(drill.body.items).includes('main_morph'), `drill ${lessonId} serves real words without answers (${drill.body.items[0]?.word} ${drill.body.items[0]?.reference})`);
+  const item = drill.body.items.find((i) => i.askFields.length > 0);
+  const { data: w } = await service.from('original_words').select('main_morph').eq('id', item.wordId).single();
+  const { data: m } = await service.from('morphology_codes').select('parsed').eq('code', w.main_morph).single();
+  const right = Object.fromEntries(item.askFields.map((f) => [f, m.parsed[f]]));
+  const good = await call(admin.token, '/api/drill', { method: 'POST', body: JSON.stringify({ lessonId, wordId: item.wordId, answers: right }) });
+  ok(good.status === 200 && good.body.allCorrect && good.body.morphologyCode === w.main_morph, `correct parsing accepted (${w.main_morph})`);
+  const f0 = item.askFields[0];
+  const wrongValue = drill.body.options[f0].find((v) => v !== m.parsed[f0]) ?? 'nonsense';
+  const bad = await call(admin.token, '/api/drill', { method: 'POST', body: JSON.stringify({ lessonId, wordId: item.wordId, answers: { ...right, [f0]: wrongValue } }) });
+  ok(bad.status === 200 && !bad.body.allCorrect && bad.body.results.find((r) => r.field === f0)?.correct === false, `wrong ${f0} is marked wrong`);
+}
+
 console.log(`\nAll ${passed} end-to-end checks passed.`);

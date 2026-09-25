@@ -170,7 +170,7 @@ interface ChunkRow {
 }
 
 function sectionRef(vol: Volume, work: Work | null, ref: string): string {
-  const inner = ref === vol.label ? '' : ref;
+  const inner = ref === vol.label ? '' : ref.replace(`${vol.label} – `, '');
   if (work && work.volumes.length > 1) {
     const volNo = `Vol. ${work.volumes.indexOf(vol.id) + 1}`;
     return inner ? `${volNo} > ${inner}` : volNo;

@@ -1,0 +1,776 @@
+{
+  "id": "thesis",
+  "title": "Capstone: Thesis",
+  "tier": 6,
+  "tier_name": "Capstone",
+  "description": "The capstone of the program. Each student chooses a thesis topic in biblical studies, theology, church history or ministry, and works through the stages of a real research project with the AI tutor as a thesis adviser: choosing and narrowing a topic, building a bibliography from the library, writing a detailed outline, writing a full draft, and revising it into a final paper. Every stage is submitted and graded on the program rubric (thesis, exegesis, use of sources, theological reasoning, clarity), with feedback and unlimited revision.",
+  "prerequisites": [
+    "pentateuch",
+    "prophets",
+    "gospels-acts",
+    "pauline-epistles",
+    "general-epistles-revelation",
+    "systematic-3",
+    "church-history-2",
+    "apologetics",
+    "ethics"
+  ],
+  "lessons": [
+    {
+      "id": "the-01",
+      "title": "Choosing and Narrowing a Topic",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Choose a thesis topic that is significant, manageable and answerable from Scripture and the library."
+        },
+        {
+          "id": "o2",
+          "text": "Narrow a broad subject into a single research question."
+        },
+        {
+          "id": "o3",
+          "text": "State a working thesis in one clear, arguable sentence."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 17:10-12",
+        "2 Timothy 2:15",
+        "Proverbs 18:13-17",
+        "Luke 1:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapters 1-11 (the right preparation of the interpreter)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 1-7 (wisdom and eloquence in teaching)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, chapter 7 (the authority of Scripture)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Topic",
+          "definition": "The general subject area of the thesis (for example, justification in Romans)."
+        },
+        {
+          "term": "Research question",
+          "definition": "The single specific question the thesis will answer."
+        },
+        {
+          "term": "Thesis statement",
+          "definition": "A one-sentence, arguable answer to the research question."
+        },
+        {
+          "term": "Scope",
+          "definition": "The limits of what the thesis will and will not cover."
+        },
+        {
+          "term": "Significance",
+          "definition": "Why the question matters for understanding Scripture, theology or ministry."
+        }
+      ],
+      "discussion_questions": [
+        "What makes a question too broad for a thesis, and how can it be narrowed?",
+        "How does Luke 1:1-4 model careful investigation before writing?",
+        "Why must a thesis be arguable rather than a simple statement of fact?",
+        "What topic from your earlier courses left you with an unanswered question?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Which of these is the best thesis research question?",
+          "options": [
+            "What does the Bible say about God?",
+            "How does Paul use Genesis 15:6 in Romans 4 to argue for justification by faith?",
+            "Is theology important?",
+            "What happened in church history?"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "A good thesis statement must be",
+          "options": [
+            "a question",
+            "a quotation from a source",
+            "a clear, arguable claim that the paper will defend",
+            "a list of topics"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Bereans in Acts 17:11 are commended because they",
+          "options": [
+            "accepted everything Paul said",
+            "rejected Paul's teaching",
+            "examined the Scriptures daily to see if these things were so",
+            "wrote a commentary"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Luke says he wrote his Gospel after",
+          "options": [
+            "a single vision",
+            "carefully investigating everything from the beginning",
+            "reading Paul's letters",
+            "consulting the Sanhedrin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Defining the scope of a thesis means",
+          "options": [
+            "making it as broad as possible",
+            "stating what the paper will and will not cover",
+            "choosing the font",
+            "listing every source in the library"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "multiple_choice",
+          "question": "Proverbs 18:17 warns that the first to present his case seems right until",
+          "options": [
+            "he finishes",
+            "another comes and examines him",
+            "the judge sleeps",
+            "night falls"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the difference between a topic, a research question and a thesis statement?",
+          "answer_key": "A topic is a broad subject area; a research question is the single specific question the paper will answer within that topic; a thesis statement is a one-sentence arguable answer to that question that the paper defends with evidence."
+        },
+        {
+          "id": "q8",
+          "type": "short_answer",
+          "question": "Why is a narrow, manageable thesis better than a broad one?",
+          "answer_key": "A narrow thesis can be researched thoroughly and argued in depth with real evidence from Scripture and sources in the space available, while a broad one produces a shallow survey with no clear argument."
+        }
+      ],
+      "paper_prompt": "Submit your thesis proposal (500-800 words). Include: (1) your topic and why it matters; (2) your specific research question; (3) a working thesis statement in one sentence; (4) the main Scripture passages you will examine, with references; (5) at least three library works you expect to use (cite as Author, Title, section); and (6) the scope - what your thesis will and will not cover. The grade evaluates whether the proposal sets up a focused, arguable and well-grounded project."
+    },
+    {
+      "id": "the-02",
+      "title": "Research - Scripture, Sources and Bibliography",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Perform careful exegesis of the key passages for the thesis, using the original languages where possible."
+        },
+        {
+          "id": "o2",
+          "text": "Find and evaluate relevant sources in the library across traditions and centuries."
+        },
+        {
+          "id": "o3",
+          "text": "Build an annotated bibliography that fairly represents differing views."
+        }
+      ],
+      "scripture_passages": [
+        "Nehemiah 8:1-8",
+        "Acts 15:6-21",
+        "1 Thessalonians 5:21",
+        "1 John 4:1"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book III, chapters 1-5 (resolving ambiguities in Scripture)"
+        },
+        {
+          "author": "Vincent of Lérins",
+          "title": "Commonitory",
+          "section": "Chapters 2-3 (what has been believed everywhere, always, by all)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume I, section 1 (the nature and authority of creeds)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Primary source",
+          "definition": "An original text - Scripture itself, or a church father's own writing."
+        },
+        {
+          "term": "Secondary source",
+          "definition": "A later work that interprets primary sources (a commentary or history)."
+        },
+        {
+          "term": "Annotated bibliography",
+          "definition": "A list of sources with a short summary and evaluation of each."
+        },
+        {
+          "term": "Exegesis",
+          "definition": "Drawing out the meaning of a text in its historical, literary and grammatical context."
+        },
+        {
+          "term": "Vincentian canon",
+          "definition": "Vincent of Lérins' test of catholic doctrine - believed everywhere, always, by all."
+        }
+      ],
+      "discussion_questions": [
+        "How did the Jerusalem council in Acts 15 weigh Scripture, testimony and reasoning?",
+        "Why should a thesis engage sources from more than one tradition?",
+        "How do you evaluate whether a source is reliable and relevant?",
+        "What is the difference between using a source and hiding behind one?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "A primary source for a thesis on Augustine's view of grace would be",
+          "options": [
+            "a modern summary of Augustine",
+            "Augustine's own writings, such as On Grace and Free Will",
+            "an encyclopedia article",
+            "a sermon about Augustine"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Nehemiah 8:8 the Levites read from the Law and",
+          "options": [
+            "closed the book",
+            "gave the sense, so that the people understood the reading",
+            "sang a psalm",
+            "sent the people home"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Vincent of Lérins held that catholic doctrine is what has been believed",
+          "options": [
+            "by the majority today",
+            "everywhere, always, and by all",
+            "by the bishop of Rome alone",
+            "in the first century only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "An annotated bibliography includes",
+          "options": [
+            "only titles",
+            "each source with a short summary and evaluation",
+            "only Scripture references",
+            "the final paper"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Thessalonians 5:21 instructs believers to",
+          "options": [
+            "accept every teaching",
+            "test everything; hold fast what is good",
+            "avoid all study",
+            "trust only feelings"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "multiple_choice",
+          "question": "Fair use of sources on a disputed question means",
+          "options": [
+            "citing only sources you agree with",
+            "presenting the strongest form of each view accurately",
+            "ignoring objections",
+            "quoting without context"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain the difference between primary and secondary sources and give an example of each.",
+          "answer_key": "Primary sources are original texts, such as Scripture or a church father's own writing (for example, Athanasius' On the Incarnation); secondary sources interpret primary sources, such as a commentary or a church history (for example, Schaff's History of the Christian Church)."
+        },
+        {
+          "id": "q8",
+          "type": "short_answer",
+          "question": "Why must a thesis present opposing views fairly?",
+          "answer_key": "Honesty and charity require representing others accurately, and a thesis is only persuasive if it answers the strongest form of the opposing arguments rather than a caricature; fair engagement also shows where Christians genuinely disagree."
+        }
+      ],
+      "paper_prompt": "Submit an exegesis and annotated bibliography (1,000-1,500 words). Part one: a focused exegesis of the single most important Scripture passage for your thesis - its context, structure, key words (with original-language notes where you can), and meaning. Part two: an annotated bibliography of at least five library sources (cite as Author, Title, section), each with two or three sentences summarizing its argument and explaining how it bears on your thesis. Include at least one source that disagrees with your working thesis."
+    },
+    {
+      "id": "the-03",
+      "title": "Outlining the Argument",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Organize research into a logical argument that supports the thesis."
+        },
+        {
+          "id": "o2",
+          "text": "Write a detailed outline with a claim, evidence and source for each section."
+        },
+        {
+          "id": "o3",
+          "text": "Anticipate the strongest objections and plan responses."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 1:16-17",
+        "Hebrews 1:1-4",
+        "1 Peter 3:15-16",
+        "Acts 26:1-29"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 12-19 (the aims of teaching - to teach, delight and persuade)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part, Question 1, Articles 1-8 (the nature of sacred doctrine)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part, Question 2, Article 3 (a model of objection and reply)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Outline",
+          "definition": "The skeleton of the argument, showing the order and relationship of each point."
+        },
+        {
+          "term": "Topic sentence",
+          "definition": "The opening claim of a section or paragraph."
+        },
+        {
+          "term": "Evidence",
+          "definition": "Scripture, sources and reasoning that support a claim."
+        },
+        {
+          "term": "Objection and reply",
+          "definition": "Stating an opposing argument and answering it, as in Aquinas' Summa."
+        },
+        {
+          "term": "Logical flow",
+          "definition": "Each section building on the previous toward the conclusion."
+        }
+      ],
+      "discussion_questions": [
+        "How does Aquinas' pattern of objections, sed contra and reply model fair argument?",
+        "How does Paul structure his defense before Agrippa in Acts 26?",
+        "How does Romans 1:16-17 work as a thesis statement for the whole letter?",
+        "Where in your argument is the weakest link, and how will you strengthen it?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In each article of the Summa Theologica, Aquinas begins by",
+          "options": [
+            "stating his conclusion",
+            "listing objections to his own position",
+            "quoting a creed",
+            "telling a story"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Many interpreters consider Romans 1:16-17 to be",
+          "options": [
+            "a later addition",
+            "the thematic statement of the letter",
+            "a greeting",
+            "a list of names"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 Peter 3:15 says a defense should be given",
+          "options": [
+            "angrily",
+            "with gentleness and respect",
+            "only in writing",
+            "only to rulers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Augustine, following Cicero, says the Christian teacher aims to",
+          "options": [
+            "entertain only",
+            "teach, delight and persuade",
+            "confuse opponents",
+            "avoid emotion entirely"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A detailed outline for each section should show",
+          "options": [
+            "only a title",
+            "the claim, the supporting evidence and the sources",
+            "the word count",
+            "the bibliography only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why should a thesis outline include objections and replies?",
+          "answer_key": "Engaging objections shows the writer understands the debate, tests the thesis, answers the strongest counterarguments fairly, and makes the argument more honest and persuasive, following models like Aquinas' objection-and-reply method."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What makes an argument's structure logical?",
+          "answer_key": "Each section advances a clear claim that supports the thesis, in an order where earlier points lay the foundation for later ones, with evidence for each claim and transitions showing how they connect, leading to a conclusion that follows from the evidence."
+        }
+      ],
+      "paper_prompt": "Submit a detailed thesis outline (800-1,200 words). Begin with your final research question and thesis statement. Then give each major section with: its main claim, the Scripture passages and library sources (Author, Title, section) that support it, and how it advances the argument. Include a section that states at least two serious objections to your thesis and outlines your reply. End with a short statement of your conclusion and its significance for the church."
+    },
+    {
+      "id": "the-04",
+      "title": "Writing the Draft",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Write a full draft that develops the thesis with exegesis, sources and theological reasoning."
+        },
+        {
+          "id": "o2",
+          "text": "Integrate and cite sources accurately, quoting and paraphrasing honestly."
+        },
+        {
+          "id": "o3",
+          "text": "Write with clarity, charity and appropriate academic style."
+        }
+      ],
+      "scripture_passages": [
+        "Colossians 4:6",
+        "Ephesians 4:15",
+        "Ecclesiastes 12:9-12",
+        "Proverbs 25:11"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 8-11 (clarity in teaching)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "Preface (writing plain truth for plain people)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume III, chapter 9 (Augustine's theology and writings)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Introduction",
+          "definition": "Opening that presents the question, its importance and the thesis."
+        },
+        {
+          "term": "Body",
+          "definition": "The sections that develop the argument with evidence."
+        },
+        {
+          "term": "Conclusion",
+          "definition": "Summary of the argument and its implications."
+        },
+        {
+          "term": "Paraphrase",
+          "definition": "Restating a source's idea in your own words, still cited."
+        },
+        {
+          "term": "Plagiarism",
+          "definition": "Presenting another's words or ideas as your own - a failure of honesty."
+        }
+      ],
+      "discussion_questions": [
+        "What does Ecclesiastes 12:9-10 say about the Preacher's care in arranging and writing words?",
+        "Why does Augustine insist that clarity matters more than eloquence?",
+        "How can a writer be both firm in argument and charitable toward opponents (Ephesians 4:15)?",
+        "What is the difference between integrating a source and stringing quotations together?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Ecclesiastes 12:10 says the Preacher sought to find",
+          "options": [
+            "obscure sayings",
+            "words of delight, and uprightly he wrote words of truth",
+            "only proverbs of others",
+            "secret knowledge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine teaches that when teaching, the first priority is",
+          "options": [
+            "beautiful style",
+            "that the hearer understand - clarity",
+            "length",
+            "using rare words"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Paraphrasing a source",
+          "options": [
+            "does not need a citation",
+            "still requires a citation",
+            "is dishonest",
+            "is forbidden in theology"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The introduction of a thesis should",
+          "options": [
+            "hide the thesis until the end",
+            "present the question, why it matters and the thesis",
+            "contain the bibliography",
+            "be the longest section"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Ephesians 4:15 calls believers to speak",
+          "options": [
+            "harshly",
+            "the truth in love",
+            "only when asked",
+            "in tongues"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "multiple_choice",
+          "question": "Plagiarism is best described as",
+          "options": [
+            "quoting with citation",
+            "presenting another's words or ideas as your own",
+            "disagreeing with a source",
+            "using a library"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What should the introduction and conclusion of a thesis accomplish?",
+          "answer_key": "The introduction presents the research question, explains why it matters, and states the thesis and the plan of the paper; the conclusion summarizes how the evidence supports the thesis, addresses its limits, and draws out its implications for theology and the church."
+        },
+        {
+          "id": "q8",
+          "type": "short_answer",
+          "question": "How should sources be integrated into a thesis?",
+          "answer_key": "Sources should be introduced, quoted or paraphrased accurately and cited, then explained and evaluated in the writer's own words so they serve the argument, rather than being strung together or used to replace the writer's own reasoning."
+        }
+      ],
+      "paper_prompt": "Submit the full draft of your thesis (3,000-5,000 words). It should include an introduction with your thesis statement, body sections that develop your argument through careful exegesis of Scripture and engagement with at least five library sources (cite as Author, Title, section), a fair treatment of at least two objections, and a conclusion that states the significance of your findings. This draft is graded on the full rubric; use the feedback to plan your revision."
+    },
+    {
+      "id": "the-05",
+      "title": "Revision and Final Thesis",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Revise the draft in response to feedback, strengthening argument, evidence and clarity."
+        },
+        {
+          "id": "o2",
+          "text": "Check every Scripture reference and citation for accuracy."
+        },
+        {
+          "id": "o3",
+          "text": "Submit a polished final thesis and reflect on what the project taught you."
+        }
+      ],
+      "scripture_passages": [
+        "Proverbs 12:1",
+        "Proverbs 27:17",
+        "Psalm 119:97-104",
+        "Colossians 3:17"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book X, chapters 1-5 (honest self-examination before God)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 27-31 (the teacher's life and prayer)"
+        },
+        {
+          "author": "Thomas à Kempis",
+          "title": "The Imitation of Christ",
+          "section": "Book I, chapters 2-3 (humility in learning)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Revision",
+          "definition": "Rethinking and restructuring the argument, not only correcting errors."
+        },
+        {
+          "term": "Editing",
+          "definition": "Correcting grammar, style, citations and references."
+        },
+        {
+          "term": "Retractation",
+          "definition": "Augustine's term for reviewing and correcting his earlier works."
+        },
+        {
+          "term": "Coherence",
+          "definition": "Every part of the paper serving the thesis."
+        },
+        {
+          "term": "Doxology",
+          "definition": "Study offered to the glory of God (Colossians 3:17)."
+        }
+      ],
+      "discussion_questions": [
+        "What does Augustine's willingness to correct his own writings in the Retractations teach about scholarship?",
+        "How does Proverbs 12:1 describe the one who hates correction?",
+        "What is the difference between revising and editing?",
+        "How has this thesis changed your understanding of Scripture or your ministry?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Late in life Augustine wrote the Retractations in order to",
+          "options": [
+            "deny his faith",
+            "review and correct his earlier writings",
+            "attack Jerome",
+            "write a new creed"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Proverbs 12:1 says whoever hates reproof is",
+          "options": [
+            "wise",
+            "stupid",
+            "humble",
+            "blessed"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Revision differs from editing because revision",
+          "options": [
+            "only fixes commas",
+            "reconsiders the argument, structure and evidence",
+            "is optional",
+            "happens before research"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Thomas à Kempis warns that knowledge without",
+          "options": [
+            "books",
+            "humility and a holy life",
+            "Latin",
+            "a teacher"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Colossians 3:17 says whatever you do, in word or deed, do everything",
+          "options": [
+            "for reward",
+            "in the name of the Lord Jesus, giving thanks to God the Father through him",
+            "quickly",
+            "alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What should a writer do when receiving critical feedback on a draft?",
+          "answer_key": "Receive it humbly as help, identify the main weaknesses in argument, evidence and clarity, rethink and restructure where needed rather than only making surface changes, verify references and citations, and resubmit a stronger paper."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Augustine's Retractations teach about the scholar's character?",
+          "answer_key": "It shows intellectual humility and honesty - a willingness to reexamine one's own work, admit mistakes and correct them publicly for the sake of truth and the good of readers."
+        }
+      ],
+      "paper_prompt": "Submit your final thesis (4,000-6,000 words), revised in light of the feedback on your draft. It must present a clear thesis, careful exegesis of the key passages, engagement with at least six library sources (cite as Author, Title, section) including at least one opposing view treated fairly, sound theological reasoning, and a clear, well-organized argument. Check every Scripture reference and citation. End with a one-paragraph reflection on how the project has shaped your understanding and your ministry. Completing this paper completes the program."
+    }
+  ]
+}
