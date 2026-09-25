@@ -1,10 +1,23 @@
+// Claude, through Netlify's built-in AI Gateway. Netlify injects the connection details into
+// every function automatically, so no API key is needed.
 import Anthropic from '@anthropic-ai/sdk';
-import { env } from './env';
+import { HttpError } from './http';
 
 let client: Anthropic | null = null;
 
+export const AI_NOT_READY =
+  'The AI tutor is not switched on yet. (Administrator: Netlify turns on its built-in AI automatically once the site has had one production deploy on a credit-based plan — see the README.)';
+
+export function aiAvailable(): boolean {
+  return !!process.env.ANTHROPIC_API_KEY;
+}
+
 export function anthropic(): Anthropic {
-  if (!client) client = new Anthropic({ apiKey: env('ANTHROPIC_API_KEY'), maxRetries: 2 });
+  if (!client) {
+    // ANTHROPIC_API_KEY and ANTHROPIC_BASE_URL are injected by Netlify's AI Gateway.
+    if (!aiAvailable()) throw new HttpError(503, AI_NOT_READY);
+    client = new Anthropic({ maxRetries: 2 });
+  }
   return client;
 }
 

@@ -34,7 +34,7 @@ export function friendlyMessage(err: unknown): string {
   const msg = err instanceof Error ? err.message : String(err);
   if (/ANTHROPIC|anthropic|overloaded|529|rate_limit/i.test(msg))
     return 'The AI tutor is temporarily unavailable. Please wait a minute and try again.';
-  if (/supabase|postgres|fetch failed|ECONN|relation .* does not exist/i.test(msg))
+  if (/postgres|fetch failed|ECONN|relation .* does not exist/i.test(msg))
     return 'We could not reach the database just now. Please try again in a moment.';
   return 'Something went wrong on our side. Please try again.';
 }
