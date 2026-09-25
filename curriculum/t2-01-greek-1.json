@@ -1,0 +1,1754 @@
+{
+  "id": "greek-1",
+  "title": "Greek I: Foundations of New Testament Greek",
+  "tier": 2,
+  "tier_name": "Languages",
+  "description": "An introduction to the Koine Greek of the New Testament. Students learn the alphabet and pronunciation, nouns and the case system, the article, adjectives, pronouns, prepositions, and the present, future and imperfect indicative. Every lesson includes parsing drills drawn from real words in the Greek New Testament (STEPBible's TAGNT), checked against STEPBible's morphology tags, and the tutor uses the STEPBible data to show each form in its biblical context. By the end students can read simple New Testament sentences such as John 1:1-5.",
+  "prerequisites": [
+    "nt-survey"
+  ],
+  "lessons": [
+    {
+      "id": "gk1-01",
+      "title": "Why Greek? The Alphabet and Pronunciation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain why pastors and teachers benefit from knowing New Testament Greek."
+        },
+        {
+          "id": "o2",
+          "text": "Write and pronounce the 24 letters of the Greek alphabet, including the two forms of sigma."
+        },
+        {
+          "id": "o3",
+          "text": "Read and transliterate simple Greek words (such as λόγος, θεός, ἀρχή from John 1:1)."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:1-2",
+        "Revelation 1:8",
+        "Acts 21:37"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapters 11-15 (the need for Hebrew and Greek)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (the Greek language as preparation for the gospel)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Koine",
+          "definition": "'Common' Greek, the everyday Greek of the Hellenistic and Roman world in which the NT was written."
+        },
+        {
+          "term": "Alpha and Omega",
+          "definition": "The first and last letters of the Greek alphabet, used as a title of God (Rev 1:8)."
+        },
+        {
+          "term": "Transliteration",
+          "definition": "Writing the letters of one alphabet in the letters of another (λόγος = logos)."
+        },
+        {
+          "term": "Final sigma",
+          "definition": "The form ς used at the end of a word (σ elsewhere)."
+        }
+      ],
+      "discussion_questions": [
+        "Augustine urged interpreters to learn Greek and Hebrew. What benefits did he have in mind?",
+        "Why might God have chosen Koine rather than classical Greek for the New Testament?",
+        "What are the limits of translations for a pastor who knows no Greek?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "How many letters are in the Greek alphabet?",
+          "options": [
+            "22",
+            "24",
+            "26",
+            "28"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Koine means",
+          "options": [
+            "classical",
+            "common",
+            "sacred",
+            "ancient"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The form of sigma used at the end of a word is",
+          "options": [
+            "σ",
+            "ς",
+            "Σ",
+            "ζ"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The letter θ is transliterated as",
+          "options": [
+            "t",
+            "th",
+            "ph",
+            "ch"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Revelation 1:8 God says 'I am the Alpha and the Omega', naming",
+          "options": [
+            "the two most common letters",
+            "the first and last letters of the Greek alphabet",
+            "two Hebrew letters",
+            "two numbers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Transliterate and translate the first three words of John 1:1 in Greek (Ἐν ἀρχῇ ἦν).",
+          "answer_key": "En archē ēn - 'In the beginning was'."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give two reasons it is valuable for a pastor to learn New Testament Greek.",
+          "answer_key": "E.g. to read Scripture in its original language; to evaluate translations and commentaries; to notice word order, tense, emphasis and connections lost in translation; to avoid word-study errors; to preach and teach with greater accuracy and confidence."
+        }
+      ]
+    },
+    {
+      "id": "gk1-02",
+      "title": "Breathings, Accents, Punctuation and Parts of Speech",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Identify smooth and rough breathing marks, the three accents, iota subscript and Greek punctuation."
+        },
+        {
+          "id": "o2",
+          "text": "Identify the parts of speech in a Greek sentence."
+        },
+        {
+          "id": "o3",
+          "text": "Use STEPBible data to tag the part of speech of words in a New Testament verse."
+        }
+      ],
+      "scripture_passages": [
+        "Mark 1:1",
+        "John 3:16",
+        "1 John 4:8"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book III, chapters 2-4 (ambiguity from punctuation and pronunciation)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Mark, chapter 1"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Rough breathing",
+          "definition": "The mark (ʽ) over an initial vowel or rho indicating an 'h' sound (ὁ = ho)."
+        },
+        {
+          "term": "Iota subscript",
+          "definition": "A small iota written under ᾳ, ῃ, ῳ, usually not pronounced."
+        },
+        {
+          "term": "Greek question mark",
+          "definition": "Written like an English semicolon (;)."
+        },
+        {
+          "term": "Part of speech",
+          "definition": "The grammatical category of a word (noun, verb, adjective, article, pronoun, preposition, conjunction, adverb, particle)."
+        }
+      ],
+      "discussion_questions": [
+        "Augustine notes how punctuation can change meaning. Can you think of a verse where punctuation is debated (e.g. Romans 9:5)?",
+        "Why were breathing marks and accents added to Greek manuscripts later?",
+        "How does knowing the part of speech help you understand a sentence?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "A rough breathing mark indicates",
+          "options": [
+            "a long vowel",
+            "an 'h' sound before the vowel",
+            "a question",
+            "the end of a sentence"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Greek question mark looks like the English",
+          "options": [
+            "period",
+            "comma",
+            "semicolon",
+            "colon"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The word ὁ is",
+          "options": [
+            "a verb",
+            "the definite article",
+            "a preposition",
+            "a pronoun meaning 'who?'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "An iota subscript appears under",
+          "options": [
+            "consonants",
+            "ᾳ, ῃ, ῳ",
+            "every vowel",
+            "only final letters"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Earliest New Testament manuscripts were usually written",
+          "options": [
+            "with full accents",
+            "in capital letters without word spacing or accents",
+            "in Latin letters",
+            "right to left"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name at least six parts of speech found in Greek.",
+          "answer_key": "Noun, verb, adjective, article, pronoun, preposition, conjunction, adverb, particle, interjection."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Identify the parts of speech in θεὸς ἀγάπη ἐστίν (1 John 4:8).",
+          "answer_key": "θεός - noun (God); ἀγάπη - noun (love); ἐστίν - verb (is). 'God is love.'"
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "N-%",
+          "V-%",
+          "A-%",
+          "T-%",
+          "P-%",
+          "PREP",
+          "CONJ",
+          "ADV"
+        ],
+        "fields": [
+          "Function"
+        ],
+        "instructions": "Identify the part of speech of each word from the Greek New Testament."
+      }
+    },
+    {
+      "id": "gk1-03",
+      "title": "Nouns and the Case System (Second Declension)",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the function of the five Greek cases (nominative, genitive, dative, accusative, vocative)."
+        },
+        {
+          "id": "o2",
+          "text": "Decline second-declension nouns such as λόγος and ἔργον."
+        },
+        {
+          "id": "o3",
+          "text": "Parse nouns for case, number and gender using real New Testament examples."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:1",
+        "Romans 1:1",
+        "Matthew 4:4"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on John, chapter 1 (the Word)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapter 16 (knowledge of words and things)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Case",
+          "definition": "The form of a noun showing its function in the sentence."
+        },
+        {
+          "term": "Nominative",
+          "definition": "Case of the subject (and predicate nominative)."
+        },
+        {
+          "term": "Genitive",
+          "definition": "Case of possession or description ('of')."
+        },
+        {
+          "term": "Dative",
+          "definition": "Case of the indirect object, means, location ('to, for, by, in')."
+        },
+        {
+          "term": "Accusative",
+          "definition": "Case of the direct object."
+        }
+      ],
+      "discussion_questions": [
+        "In John 1:1, what case is λόγος, and what does that tell you about its role?",
+        "Why can Greek word order be freer than English word order?",
+        "How might the genitive in 'the love of God' be ambiguous (subjective or objective)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The case used for the subject of a verb is the",
+          "options": [
+            "genitive",
+            "nominative",
+            "dative",
+            "accusative"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The case used for the direct object is the",
+          "options": [
+            "genitive",
+            "nominative",
+            "dative",
+            "accusative"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The genitive singular of λόγος is",
+          "options": [
+            "λόγον",
+            "λόγῳ",
+            "λόγου",
+            "λόγοι"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The dative singular of λόγος is",
+          "options": [
+            "λόγου",
+            "λόγῳ",
+            "λόγον",
+            "λόγε"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The case of direct address is the",
+          "options": [
+            "nominative",
+            "genitive",
+            "dative",
+            "vocative"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is Greek word order more flexible than English?",
+          "answer_key": "Because case endings (inflection) mark each noun's grammatical function, the subject or object can appear anywhere; English relies mainly on word order. Greek word order often signals emphasis instead."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Decline λόγος in the singular (nominative, genitive, dative, accusative).",
+          "answer_key": "λόγος, λόγου, λόγῳ, λόγον."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "N-%"
+        ],
+        "fields": [
+          "Case",
+          "Number",
+          "Gender"
+        ],
+        "instructions": "Parse each noun for case, number and gender. (Start with the ending; then check the lexical form.)"
+      }
+    },
+    {
+      "id": "gk1-04",
+      "title": "The Article and First Declension Nouns",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Learn the forms of the Greek article ὁ, ἡ, τό."
+        },
+        {
+          "id": "o2",
+          "text": "Decline first-declension nouns (e.g. γραφή, ἡμέρα, δόξα) and recognize masculine first-declension nouns (e.g. προφήτης)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain basic uses of the article, including its presence or absence (e.g. θεός in John 1:1c)."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:1-4",
+        "Luke 2:14",
+        "Romans 1:17"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on John, chapter 1 (on 'the Word was God')"
+        },
+        {
+          "author": "Athanasius",
+          "title": "Discourses Against the Arians",
+          "section": "Discourse II (on John 1:1 and the Son's divinity)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Article",
+          "definition": "The Greek 'the' (ὁ, ἡ, τό), which agrees with its noun in case, number and gender."
+        },
+        {
+          "term": "Anarthrous",
+          "definition": "Without the article."
+        },
+        {
+          "term": "Articular",
+          "definition": "With the article."
+        },
+        {
+          "term": "First declension",
+          "definition": "Nouns mostly feminine, with stems in alpha or eta (γραφή, ἡμέρα)."
+        }
+      ],
+      "discussion_questions": [
+        "Why is θεός in John 1:1c anarthrous, and what does this mean (and not mean)?",
+        "How does the article help you identify the case of a noun?",
+        "Why is it misleading to translate John 1:1c as 'a god'?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The feminine nominative singular article is",
+          "options": [
+            "ὁ",
+            "ἡ",
+            "τό",
+            "τοῦ"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The article agrees with its noun in",
+          "options": [
+            "tense and voice",
+            "case, number and gender",
+            "person only",
+            "spelling"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "A noun without the article is called",
+          "options": [
+            "articular",
+            "anarthrous",
+            "deponent",
+            "indeclinable"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Most first-declension nouns are",
+          "options": [
+            "neuter",
+            "feminine",
+            "masculine",
+            "indeclinable"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Luke 2:14 δόξα ('glory') is a",
+          "options": [
+            "verb",
+            "second-declension noun",
+            "first-declension noun",
+            "preposition"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the significance of the absence of the article with θεός in John 1:1c.",
+          "answer_key": "θεός is a predicate nominative placed first for emphasis and without the article, distinguishing the Word from the Father (who is 'the God' in 1:1b) while affirming that the Word has the full nature of God - 'the Word was God', not 'a god' and not identical in person with the Father."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give the singular forms of the masculine article (nom, gen, dat, acc).",
+          "answer_key": "ὁ, τοῦ, τῷ, τόν."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "T-%"
+        ],
+        "fields": [
+          "Case",
+          "Number",
+          "Gender"
+        ],
+        "instructions": "Parse each form of the article for case, number and gender."
+      }
+    },
+    {
+      "id": "gk1-05",
+      "title": "Prepositions, Conjunctions and the Verb 'To Be'",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Learn common prepositions and the cases they take (e.g. ἐν + dative, εἰς + accusative, ἐκ + genitive)."
+        },
+        {
+          "id": "o2",
+          "text": "Learn the present and imperfect of εἰμί."
+        },
+        {
+          "id": "o3",
+          "text": "Translate simple sentences with prepositional phrases from the New Testament."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 8:1",
+        "Ephesians 2:8",
+        "John 14:6"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Romans, chapter 8 (in Christ Jesus)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 1 (union with Christ by the Spirit)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Preposition",
+          "definition": "A word that relates a noun to other words, governing a particular case."
+        },
+        {
+          "term": "Object of the preposition",
+          "definition": "The noun governed by the preposition."
+        },
+        {
+          "term": "εἰμί",
+          "definition": "The verb 'to be' (ἐστίν = he/she/it is)."
+        },
+        {
+          "term": "Elision",
+          "definition": "Dropping a final vowel before another vowel (δι᾽ αὐτοῦ)."
+        }
+      ],
+      "discussion_questions": [
+        "How important is the phrase ἐν Χριστῷ ('in Christ') in Paul?",
+        "How does the case after διά change its meaning (through vs because of)?",
+        "Why does Jesus' 'I am' (ἐγώ εἰμι) carry weight in John?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The preposition ἐν takes the",
+          "options": [
+            "genitive",
+            "dative",
+            "accusative",
+            "vocative"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The preposition εἰς ('into') takes the",
+          "options": [
+            "genitive",
+            "dative",
+            "accusative",
+            "nominative"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The preposition ἐκ ('out of, from') takes the",
+          "options": [
+            "genitive",
+            "dative",
+            "accusative",
+            "vocative"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "ἐστίν means",
+          "options": [
+            "I am",
+            "you are",
+            "he/she/it is",
+            "they are"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "διά with the genitive usually means",
+          "options": [
+            "because of",
+            "through",
+            "against",
+            "after"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Translate ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή (John 14:6).",
+          "answer_key": "I am the way and the truth and the life."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give the present indicative of εἰμί (all persons).",
+          "answer_key": "εἰμί, εἶ, ἐστί(ν), ἐσμέν, ἐστέ, εἰσί(ν)."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "N-D%",
+          "N-G%",
+          "N-A%"
+        ],
+        "fields": [
+          "Case",
+          "Number"
+        ],
+        "instructions": "These nouns are often objects of prepositions. Parse each for case and number."
+      }
+    },
+    {
+      "id": "gk1-06",
+      "title": "Adjectives",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Decline adjectives such as ἀγαθός, -ή, -όν."
+        },
+        {
+          "id": "o2",
+          "text": "Distinguish attributive, predicate and substantival uses of adjectives."
+        },
+        {
+          "id": "o3",
+          "text": "Parse adjectives from New Testament texts."
+        }
+      ],
+      "scripture_passages": [
+        "John 10:11",
+        "Mark 10:17-18",
+        "Romans 7:12"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book XIII, chapters 1-4 (the goodness of God and creation)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on John, chapter 10 (the good shepherd)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Attributive position",
+          "definition": "Adjective with the article directly before it (ὁ ἀγαθὸς ποιμήν, 'the good shepherd')."
+        },
+        {
+          "term": "Predicate position",
+          "definition": "Adjective without its own article (ὁ ποιμὴν ἀγαθός, 'the shepherd is good')."
+        },
+        {
+          "term": "Substantival adjective",
+          "definition": "An adjective used as a noun (οἱ ἅγιοι, 'the saints')."
+        },
+        {
+          "term": "Agreement",
+          "definition": "Adjectives agree with the nouns they modify in case, number and gender."
+        }
+      ],
+      "discussion_questions": [
+        "How is 'the good shepherd' in John 10:11 constructed?",
+        "Why does Jesus question the young man's use of 'good' (Mark 10:18)?",
+        "Romans 7:12 uses predicate adjectives about the law. What does Paul affirm?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In ὁ ποιμὴν ὁ καλός, the adjective is in the",
+          "options": [
+            "predicate position",
+            "attributive position",
+            "substantival use",
+            "vocative"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "ὁ ποιμὴν καλός (no article with the adjective) most naturally means",
+          "options": [
+            "the good shepherd",
+            "the shepherd is good",
+            "good shepherds",
+            "the goodness of the shepherd"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "οἱ ἅγιοι ('the holy ones' = the saints) is an example of",
+          "options": [
+            "attributive use",
+            "predicate use",
+            "substantival use",
+            "a verb"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "An adjective agrees with its noun in",
+          "options": [
+            "tense",
+            "case, number and gender",
+            "person",
+            "voice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The feminine form of ἀγαθός is",
+          "options": [
+            "ἀγαθόν",
+            "ἀγαθή",
+            "ἀγαθοῦ",
+            "ἀγαθοί"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the three uses of the adjective with examples.",
+          "answer_key": "Attributive - modifies a noun, usually with the article before the adjective (ὁ ἀγαθὸς λόγος, 'the good word'); predicate - asserts something about the noun, adjective outside the article-noun group, often with 'is' supplied (ὁ λόγος ἀγαθός, 'the word is good'); substantival - adjective functions as a noun (ὁ πονηρός, 'the evil one')."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Translate ὁ νόμος ἅγιος (Romans 7:12).",
+          "answer_key": "The law is holy."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "A-%"
+        ],
+        "fields": [
+          "Case",
+          "Number",
+          "Gender"
+        ],
+        "instructions": "Parse each adjective for case, number and gender."
+      }
+    },
+    {
+      "id": "gk1-07",
+      "title": "Third Declension Nouns",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize third-declension endings and stems (e.g. σάρξ, σαρκός; πνεῦμα, πνεύματος; πόλις, πόλεως)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain why the genitive singular is essential for identifying the stem."
+        },
+        {
+          "id": "o3",
+          "text": "Parse third-declension nouns in New Testament texts."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:14",
+        "John 3:5-8",
+        "Galatians 5:16-17"
+      ],
+      "library_readings": [
+        {
+          "author": "Basil of Caesarea",
+          "title": "On the Holy Spirit",
+          "section": "Chapter 9 (definitions of the Spirit, 'pneuma')"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on John, chapter 3 (born of water and the Spirit)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Third declension",
+          "definition": "Nouns with consonant or iota/upsilon stems and endings such as -ος (gen sg), -ι (dat sg), -α (acc sg)."
+        },
+        {
+          "term": "Stem",
+          "definition": "The base of a noun to which endings are added (σαρκ- in σάρξ)."
+        },
+        {
+          "term": "Square of stops",
+          "definition": "Rules for how stop consonants combine with sigma (κ + σ = ξ)."
+        },
+        {
+          "term": "Neuter rule",
+          "definition": "Neuter nouns have identical nominative and accusative forms."
+        }
+      ],
+      "discussion_questions": [
+        "Why does πνεῦμα in John 3:8 allow a wordplay ('wind'/'Spirit')?",
+        "What does σάρξ mean in John 1:14 compared with Galatians 5:17?",
+        "Why must third-declension nouns be memorized with their genitive?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The genitive singular of σάρξ is",
+          "options": [
+            "σάρκα",
+            "σαρκός",
+            "σαρκί",
+            "σάρξου"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "πνεῦμα is",
+          "options": [
+            "masculine",
+            "feminine",
+            "neuter",
+            "indeclinable"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In neuter nouns the nominative and accusative forms are",
+          "options": [
+            "always different",
+            "identical",
+            "only plural",
+            "not used"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "κ + σ combine to form",
+          "options": [
+            "ψ",
+            "ξ",
+            "ζ",
+            "χ"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "John 1:14 says 'the Word became",
+          "options": [
+            "spirit'",
+            "flesh (σάρξ)'",
+            "a man (ἀνήρ)'",
+            "glory'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is the genitive singular important for third-declension nouns?",
+          "answer_key": "Because the nominative often disguises the stem (σάρξ from σαρκ-, πνεῦμα from πνευματ-); the genitive reveals the stem to which the other endings are added."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain the wordplay in John 3:8.",
+          "answer_key": "πνεῦμα means both 'wind' and 'spirit'; Jesus says the wind (πνεῦμα) blows where it wills - so is everyone born of the Spirit (πνεῦμα); the invisible, sovereign working of wind illustrates the Spirit's work in new birth."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "N-%"
+        ],
+        "fields": [
+          "Case",
+          "Number",
+          "Gender"
+        ],
+        "instructions": "Parse each noun (including third-declension nouns) for case, number and gender."
+      }
+    },
+    {
+      "id": "gk1-08",
+      "title": "Personal Pronouns and αὐτός",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Learn the forms of ἐγώ, σύ and αὐτός."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the emphatic use of personal pronouns with verbs."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the three uses of αὐτός (personal, intensive, identical)."
+        }
+      ],
+      "scripture_passages": [
+        "John 14:1-3",
+        "Matthew 5:21-22",
+        "John 17:20-23"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Matthew, chapter 5 ('But I say unto you')"
+        },
+        {
+          "author": "Augustine",
+          "title": "On the Trinity",
+          "section": "Book VI, chapters 1-3 (on 'I and the Father are one')"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Personal pronoun",
+          "definition": "ἐγώ (I), σύ (you), αὐτός (he, she, it)."
+        },
+        {
+          "term": "Emphatic pronoun",
+          "definition": "A pronoun used with a verb whose ending already shows the subject, for emphasis (ἐγὼ δὲ λέγω ὑμῖν)."
+        },
+        {
+          "term": "Intensive αὐτός",
+          "definition": "'himself, herself, itself' (predicate position)."
+        },
+        {
+          "term": "Identical αὐτός",
+          "definition": "'the same' (attributive position)."
+        }
+      ],
+      "discussion_questions": [
+        "Why is Jesus' 'But I say to you' (ἐγὼ δὲ λέγω ὑμῖν) emphatic and startling?",
+        "How do pronouns in John 17:21 express the unity of Father, Son and church?",
+        "What does the use of pronouns reveal about Jesus' self-understanding in John?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "ἐγώ means",
+          "options": [
+            "you",
+            "I",
+            "he",
+            "we"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The genitive singular of σύ is",
+          "options": [
+            "σοι",
+            "σου",
+            "σε",
+            "ὑμῶν"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Using ἐγώ with a first-person verb usually indicates",
+          "options": [
+            "a question",
+            "emphasis",
+            "a mistake",
+            "the passive voice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "αὐτός in the attributive position (ὁ αὐτὸς) means",
+          "options": [
+            "himself",
+            "the same",
+            "he",
+            "his"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "ὑμῖν is",
+          "options": [
+            "nominative plural 'you'",
+            "dative plural 'to/for you'",
+            "genitive singular",
+            "accusative 'us'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is ἐγὼ δὲ λέγω ὑμῖν in Matthew 5 emphatic?",
+          "answer_key": "The verb λέγω already means 'I say', so the added ἐγώ stresses Jesus' own authority in contrast to 'it was said to those of old', claiming authority over the interpretation of the law."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe the three uses of αὐτός.",
+          "answer_key": "Personal pronoun (he, she, it) in oblique cases; intensive ('himself') in predicate position; identical ('the same') in attributive position."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "P-%"
+        ],
+        "fields": [
+          "Person",
+          "Case",
+          "Number",
+          "Gender"
+        ],
+        "instructions": "Parse each personal pronoun (person where shown, case, number, and gender for third-person forms)."
+      }
+    },
+    {
+      "id": "gk1-09",
+      "title": "Demonstrative and Relative Pronouns",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Learn οὗτος (this) and ἐκεῖνος (that)."
+        },
+        {
+          "id": "o2",
+          "text": "Learn the relative pronoun ὅς, ἥ, ὅ and how it agrees with its antecedent."
+        },
+        {
+          "id": "o3",
+          "text": "Translate relative clauses in New Testament texts."
+        }
+      ],
+      "scripture_passages": [
+        "John 3:19",
+        "1 John 1:1-3",
+        "Acts 4:11-12"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIV, chapter 28 (this and that city)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on 1 John, chapter 1"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Demonstrative pronoun",
+          "definition": "Points out: οὗτος ('this') and ἐκεῖνος ('that')."
+        },
+        {
+          "term": "Relative pronoun",
+          "definition": "ὅς, ἥ, ὅ ('who, which, that') introducing a relative clause."
+        },
+        {
+          "term": "Antecedent",
+          "definition": "The word a relative pronoun refers back to."
+        },
+        {
+          "term": "Agreement of relatives",
+          "definition": "A relative agrees with its antecedent in gender and number; its case depends on its function in its own clause."
+        }
+      ],
+      "discussion_questions": [
+        "1 John 1:1 begins with a string of relative clauses ('That which was from the beginning...'). What is the effect?",
+        "How does οὗτος function in John 3:19 ('this is the judgment')?",
+        "Why might a relative pronoun's case differ from its antecedent's?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "οὗτος means",
+          "options": [
+            "that",
+            "this",
+            "who",
+            "which?"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "ἐκεῖνος means",
+          "options": [
+            "this",
+            "that",
+            "whoever",
+            "himself"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "A relative pronoun agrees with its antecedent in",
+          "options": [
+            "case only",
+            "gender and number",
+            "tense",
+            "voice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The case of a relative pronoun is determined by",
+          "options": [
+            "its antecedent",
+            "its function within the relative clause",
+            "the main verb",
+            "the article"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "ὅ in 1 John 1:1 ('that which') is",
+          "options": [
+            "masculine",
+            "feminine",
+            "neuter",
+            "a verb"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain how the relative pronoun agrees with its antecedent.",
+          "answer_key": "It takes the gender and number of its antecedent, but its case is determined by its grammatical role inside the relative clause (subject, object, etc.), though sometimes it is attracted to the antecedent's case."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Translate οὗτός ἐστιν ὁ λίθος (Acts 4:11).",
+          "answer_key": "This (one) is the stone."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "D-%",
+          "R-%"
+        ],
+        "fields": [
+          "Function",
+          "Case",
+          "Number",
+          "Gender"
+        ],
+        "instructions": "Identify whether each word is a demonstrative or relative pronoun, then parse case, number and gender."
+      }
+    },
+    {
+      "id": "gk1-10",
+      "title": "The Present Active Indicative",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain tense (aspect and time), voice, mood, person and number in Greek verbs."
+        },
+        {
+          "id": "o2",
+          "text": "Conjugate the present active indicative of λύω."
+        },
+        {
+          "id": "o3",
+          "text": "Parse present active indicative verbs in New Testament texts."
+        }
+      ],
+      "scripture_passages": [
+        "John 3:16-18",
+        "1 John 1:5-7",
+        "Mark 1:15"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on 1 John, chapter 1 (walking in the light)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Great Privilege of those that are Born of God' (on 1 John 3:9 and the present tense)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Verbal aspect",
+          "definition": "The way the action is viewed - ongoing (imperfective, e.g. present), whole (perfective, aorist), or completed with results (stative, perfect)."
+        },
+        {
+          "term": "Person and number",
+          "definition": "First, second or third person; singular or plural."
+        },
+        {
+          "term": "Primary endings",
+          "definition": "-ω, -εις, -ει, -ομεν, -ετε, -ουσι(ν) in the present active."
+        },
+        {
+          "term": "Lexical form",
+          "definition": "The dictionary form of a verb, usually first person singular present active indicative (λύω)."
+        }
+      ],
+      "discussion_questions": [
+        "How should the present tense in 1 John 3:9 ('does not keep on sinning') be understood? Compare Wesley's view.",
+        "What does 'aspect' add to our understanding beyond time?",
+        "Why does John 3:16 use the present tense 'everyone who believes'?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The present active indicative third person singular of λύω is",
+          "options": [
+            "λύω",
+            "λύεις",
+            "λύει",
+            "λύουσι"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The first person plural present active indicative of λύω is",
+          "options": [
+            "λύετε",
+            "λύομεν",
+            "λύουσι",
+            "λύεις"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The present tense usually portrays action as",
+          "options": [
+            "completed with results",
+            "ongoing or in progress",
+            "a single whole",
+            "future"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The lexical form of a Greek verb is usually the",
+          "options": [
+            "infinitive",
+            "first person singular present active indicative",
+            "aorist",
+            "participle"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The five parsing elements of an indicative verb are",
+          "options": [
+            "case, number, gender, person, tense",
+            "tense, voice, mood, person, number",
+            "stem, root, prefix, suffix, ending",
+            "subject, verb, object, time, place"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Conjugate λύω in the present active indicative.",
+          "answer_key": "λύω, λύεις, λύει, λύομεν, λύετε, λύουσι(ν)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is verbal aspect, and how does it differ from time?",
+          "answer_key": "Aspect is the author's portrayal of the action's kind or viewpoint - ongoing (present/imperfect), summary/whole (aorist), completed with continuing results (perfect) - while time (past, present, future) is signaled mainly in the indicative mood (e.g. by augment)."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-PAI-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Person",
+          "Number"
+        ],
+        "instructions": "Parse each verb (tense, voice, mood, person, number). All are indicative verbs from the New Testament."
+      }
+    },
+    {
+      "id": "gk1-11",
+      "title": "The Present Middle and Passive Indicative; Deponent Verbs",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the active, middle and passive voices."
+        },
+        {
+          "id": "o2",
+          "text": "Conjugate the present middle/passive indicative (λύομαι)."
+        },
+        {
+          "id": "o3",
+          "text": "Recognize middle-only (deponent) verbs such as ἔρχομαι and πορεύομαι."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:29",
+        "Mark 1:7",
+        "John 14:6"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on John, chapter 1 (the Lamb of God)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book III, chapters 1-3 (grammar resolving ambiguity)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Active voice",
+          "definition": "The subject performs the action."
+        },
+        {
+          "term": "Passive voice",
+          "definition": "The subject receives the action."
+        },
+        {
+          "term": "Middle voice",
+          "definition": "The subject acts with special involvement or interest."
+        },
+        {
+          "term": "Deponent (middle-only) verb",
+          "definition": "A verb with middle/passive forms but active meaning (ἔρχομαι, 'I come')."
+        }
+      ],
+      "discussion_questions": [
+        "How can the same form be middle or passive, and how does context decide?",
+        "What is debated about the category 'deponent'?",
+        "How does ἔρχεται in John 1:29 portray Jesus?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The present middle/passive first person singular of λύω is",
+          "options": [
+            "λύω",
+            "λύομαι",
+            "λύεται",
+            "ἔλυον"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The ending -εται marks",
+          "options": [
+            "1st person singular active",
+            "3rd person singular middle/passive",
+            "2nd person plural",
+            "infinitive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "ἔρχομαι means",
+          "options": [
+            "I am come by someone",
+            "I come/go",
+            "I send",
+            "I am sent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In the passive voice the subject",
+          "options": [
+            "performs the action",
+            "receives the action",
+            "acts on itself only",
+            "is absent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The present middle and passive indicative forms are",
+          "options": [
+            "always different",
+            "identical",
+            "found only in Paul",
+            "future"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Conjugate λύω in the present middle/passive indicative.",
+          "answer_key": "λύομαι, λύῃ, λύεται, λυόμεθα, λύεσθε, λύονται."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is a deponent (middle-only) verb? Give an example.",
+          "answer_key": "A verb whose lexical form is middle/passive (ending -ομαι) but which is translated actively, e.g. ἔρχομαι 'I come', πορεύομαι 'I go', δέχομαι 'I receive'. Many scholars now prefer to call these middle-only verbs rather than deponent."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-PMI-%",
+          "V-PPI-%",
+          "V-PEI-%",
+          "V-PDI-%",
+          "V-PNI-%",
+          "V-POI-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Person",
+          "Number"
+        ],
+        "instructions": "Parse each present middle/passive (or middle-only) verb. STEPBible distinguishes 'Middle or Passive' and deponent forms - choose the label shown in the options."
+      }
+    },
+    {
+      "id": "gk1-12",
+      "title": "The Future and Imperfect Indicative",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Form the future active and middle indicative (λύσω, λύσομαι)."
+        },
+        {
+          "id": "o2",
+          "text": "Form the imperfect indicative with augment and secondary endings (ἔλυον)."
+        },
+        {
+          "id": "o3",
+          "text": "Parse future and imperfect verbs and translate simple narrative sentences (e.g. John 1:1-5)."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:1-5",
+        "Matthew 1:21",
+        "Mark 1:21-22"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Matthew, chapter 1 (he will save his people)"
+        },
+        {
+          "author": "Athanasius",
+          "title": "On the Incarnation of the Word",
+          "section": "Sections 1-10 (the Word and creation)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Future tense",
+          "definition": "Usually formed with sigma (λύσω, 'I will loose')."
+        },
+        {
+          "term": "Imperfect tense",
+          "definition": "Past ongoing action (ἔλυον, 'I was loosing')."
+        },
+        {
+          "term": "Augment",
+          "definition": "The prefix ε- marking past time in the indicative."
+        },
+        {
+          "term": "Secondary endings",
+          "definition": "Endings used in past tenses (e.g. -ον, -ες, -ε(ν), -ομεν, -ετε, -ον)."
+        }
+      ],
+      "discussion_questions": [
+        "What does the imperfect ἦν ('was') in John 1:1 suggest compared with ἐγένετο ('came into being') in 1:3?",
+        "How does the future σώσει in Matthew 1:21 express the meaning of Jesus' name?",
+        "Why does Mark use imperfects to describe Jesus' teaching in Capernaum?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The future active indicative first person singular of λύω is",
+          "options": [
+            "ἔλυον",
+            "λύσω",
+            "λύομαι",
+            "ἔλυσα"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The augment is",
+          "options": [
+            "a suffix -σ",
+            "a prefix ε- marking past time in the indicative",
+            "reduplication",
+            "an iota subscript"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "ἔλυον can be first person singular or",
+          "options": [
+            "second person singular",
+            "third person plural",
+            "first person plural",
+            "infinitive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The imperfect tense portrays",
+          "options": [
+            "future action",
+            "past action as ongoing",
+            "completed action with results",
+            "commands"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Matthew 1:21 σώσει ('he will save') is",
+          "options": [
+            "present",
+            "imperfect",
+            "future",
+            "aorist"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Contrast ἦν (John 1:1) with ἐγένετο (John 1:3).",
+          "answer_key": "ἦν is imperfect of εἰμί - 'was' continuously, stressing the Word's eternal existence; ἐγένετο (aorist of γίνομαι) means 'came into being', used of created things - distinguishing the eternal Word from creation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Translate Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν (John 1:1a-b).",
+          "answer_key": "In the beginning was the Word, and the Word was with God."
+        }
+      ],
+      "paper_prompt": "Write a 1,000-1,500 word 'word and grammar' study of John 1:1-5. Using the STEPBible data (ask your tutor to look up the Greek text, glosses and parsing for each verse), provide your own literal translation, parse every verb, comment on at least three grammatical features (such as the imperfect ἦν, the anarthrous θεός, and ἐγένετο), and show how these features support or shape theological conclusions. Interact with at least one library source (for example Athanasius or a commentary), cited as (Author, Title, section).",
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-F_I-%",
+          "V-I_I-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Person",
+          "Number"
+        ],
+        "instructions": "Parse each future or imperfect indicative verb."
+      }
+    }
+  ]
+}

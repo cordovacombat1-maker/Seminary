@@ -1,0 +1,1644 @@
+{
+  "id": "church-history-1",
+  "title": "Church History I: The Apostolic Era to 1500",
+  "tier": 1,
+  "tier_name": "Foundations",
+  "description": "The story of the church from Pentecost to the eve of the Reformation. Students meet the Apostolic Fathers, the apologists and martyrs, the great councils and creeds, the Cappadocians and Augustine, the rise of monasticism, the missions to Europe, the East-West schism, the medieval papacy, scholasticism, and the late-medieval reform movements. Throughout, students read primary sources from the library and ask how the church's history shapes its faith and practice today.",
+  "prerequisites": [],
+  "lessons": [
+    {
+      "id": "ch1-01",
+      "title": "The Apostolic Church and the Apostolic Fathers",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the church's life and expansion in the first century."
+        },
+        {
+          "id": "o2",
+          "text": "Identify the Apostolic Fathers and summarize their concerns (unity, order, martyrdom, faithful living)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain what the Didache reveals about early Christian worship and ethics."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 2:42-47",
+        "Acts 11:19-26",
+        "1 Peter 5:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Clement of Rome",
+          "title": "First Epistle to the Corinthians",
+          "section": "Chapters 1-6 and 40-44 (strife in Corinth; order and succession)"
+        },
+        {
+          "author": "Ignatius of Antioch",
+          "title": "Epistles",
+          "section": "Epistle to the Smyrnaeans, chapters 6-8, and to the Romans, chapters 4-7"
+        },
+        {
+          "author": "Anonymous",
+          "title": "The Didache (Teaching of the Twelve Apostles)",
+          "section": "Chapters 1-10"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Apostolic Fathers",
+          "definition": "Christian writers of the late first and early second centuries (Clement, Ignatius, Polycarp, the Didache, etc.)."
+        },
+        {
+          "term": "Didache",
+          "definition": "An early church manual on the 'two ways', baptism, fasting, prayer and the Eucharist."
+        },
+        {
+          "term": "Monepiscopacy",
+          "definition": "Leadership of a local church by a single bishop, strongly urged by Ignatius."
+        },
+        {
+          "term": "Christian",
+          "definition": "The name first given to the disciples at Antioch (Acts 11:26)."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Clement appeal to order and succession in addressing division at Corinth?",
+        "What does Ignatius's longing for martyrdom reveal about his faith? How should we evaluate it?",
+        "How do the Didache's instructions compare with New Testament practice?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The disciples were first called Christians in",
+          "options": [
+            "Jerusalem",
+            "Antioch",
+            "Rome",
+            "Ephesus"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Clement of Rome wrote to Corinth because of",
+          "options": [
+            "persecution",
+            "strife that had removed presbyters from office",
+            "a famine",
+            "false prophecy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ignatius wrote his letters while",
+          "options": [
+            "bishop in Rome",
+            "being taken to Rome for martyrdom",
+            "exiled on Patmos",
+            "in the desert"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Didache opens by describing",
+          "options": [
+            "the Trinity",
+            "two ways - the way of life and the way of death",
+            "the papacy",
+            "the canon"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Ignatius emphasized unity with",
+          "options": [
+            "the emperor",
+            "the bishop, presbyters and deacons",
+            "the synagogue",
+            "the philosophers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What concerns do the Apostolic Fathers share?",
+          "answer_key": "Unity and order in the church, faithfulness under persecution, guarding against false teaching (e.g. docetism), holy living, proper worship, and continuity with the apostles."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does the Didache teach about baptism?",
+          "answer_key": "Baptize in the name of the Father, Son and Holy Spirit, preferably in running (living) water, otherwise other water, or by pouring three times; with fasting beforehand by the baptizer and candidate."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/CH1"
+    },
+    {
+      "id": "ch1-02",
+      "title": "Persecution, Martyrdom and the Apologists",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain why Rome persecuted Christians and describe key persecutions."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the witness of martyrs such as Polycarp."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the arguments of the apologists (Justin Martyr, Tertullian, the Epistle to Diognetus)."
+        }
+      ],
+      "scripture_passages": [
+        "1 Peter 4:12-19",
+        "Revelation 2:8-11",
+        "Matthew 5:10-12"
+      ],
+      "library_readings": [
+        {
+          "author": "Church of Smyrna",
+          "title": "The Martyrdom of Polycarp",
+          "section": "Chapters 9-16"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "First Apology",
+          "section": "Chapters 1-13 and 61-67 (defense of Christians and description of worship)"
+        },
+        {
+          "author": "Mathetes",
+          "title": "Epistle to Diognetus",
+          "section": "Chapters 5-6 (Christians in the world)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Martyr",
+          "definition": "'Witness'; one who dies for faith in Christ."
+        },
+        {
+          "term": "Apologist",
+          "definition": "A writer who defends the faith before outsiders (from apologia, 'defense')."
+        },
+        {
+          "term": "Libellus",
+          "definition": "A certificate proving one had sacrificed to the gods (Decian persecution, AD 250)."
+        },
+        {
+          "term": "Logos",
+          "definition": "Justin's key term for Christ as the divine Word and Reason."
+        }
+      ],
+      "discussion_questions": [
+        "Why were Christians accused of atheism, cannibalism and immorality?",
+        "How does Diognetus 5-6 describe the Christian relationship to culture?",
+        "What can the church today learn from Polycarp's example?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Polycarp, when urged to curse Christ, said he had served him for",
+          "options": [
+            "forty years",
+            "eighty-six years",
+            "twelve years",
+            "his whole life of fifty years"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Justin Martyr's description of Sunday worship includes",
+          "options": [
+            "temple sacrifices",
+            "readings from the apostles and prophets, prayers, and the Eucharist",
+            "only singing",
+            "dancing"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Epistle to Diognetus says Christians are to the world what",
+          "options": [
+            "the law is to Israel",
+            "the soul is to the body",
+            "the sun is to the moon",
+            "the emperor is to Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Christians were accused of 'atheism' because they",
+          "options": [
+            "denied God",
+            "refused to worship the Roman gods",
+            "doubted the resurrection",
+            "rejected the Old Testament"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Peter 4:16 says if anyone suffers as a Christian",
+          "options": [
+            "he should hide",
+            "let him not be ashamed, but glorify God",
+            "he must recant",
+            "he should flee Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What were the main arguments of the second-century apologists?",
+          "answer_key": "Christians are innocent of crimes and are loyal citizens; Christianity is ancient (rooted in the Hebrew prophets) and reasonable; Christ is the Logos, fulfilling philosophy's partial truths; pagan religion is false and immoral; prophecy fulfilled proves Christianity true."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why did Roman authorities persecute Christians?",
+          "answer_key": "Christians refused to worship the gods and the emperor, which seemed to threaten the gods' favor and civic order; rumors of immorality; their exclusivity; sporadic local hostility and later empire-wide edicts (Decius, Diocletian)."
+        }
+      ]
+    },
+    {
+      "id": "ch1-03",
+      "title": "Heresy, Orthodoxy and the Rule of Faith",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Gnosticism, Marcionism and Montanism."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the early church's response (the rule of faith, apostolic succession, the canon)."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize Irenaeus's theology of recapitulation."
+        }
+      ],
+      "scripture_passages": [
+        "1 John 4:1-3",
+        "Colossians 2:8-10",
+        "Jude 3-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book I, chapters 1 and 10; Book III, chapters 3 and 18 (Gnosticism, the rule of faith, recapitulation)"
+        },
+        {
+          "author": "Tertullian",
+          "title": "The Prescription Against Heretics",
+          "section": "Chapters 13-21 and 36-37"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book V, chapters 16-19 (Montanism)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Gnosticism",
+          "definition": "Movements teaching salvation through secret knowledge, often dualistic and hostile to matter."
+        },
+        {
+          "term": "Marcion",
+          "definition": "Second-century teacher who rejected the Old Testament God and produced a truncated canon."
+        },
+        {
+          "term": "Montanism",
+          "definition": "A prophetic movement claiming new revelation through the Paraclete."
+        },
+        {
+          "term": "Recapitulation",
+          "definition": "Irenaeus's teaching that Christ 'sums up' and reverses Adam's history."
+        }
+      ],
+      "discussion_questions": [
+        "Why was the goodness of creation so important in the fight against Gnosticism?",
+        "How did Marcion's canon push the church to clarify its own?",
+        "Is Tertullian right that heretics have no right to use the Scriptures?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Gnostics generally taught salvation through",
+          "options": [
+            "good works",
+            "secret knowledge",
+            "baptism alone",
+            "martyrdom"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Marcion rejected",
+          "options": [
+            "Paul",
+            "the Old Testament and its God",
+            "Luke",
+            "the resurrection of Christ only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Irenaeus's idea that Christ reverses Adam's failure is called",
+          "options": [
+            "theosis",
+            "recapitulation",
+            "kenosis",
+            "satisfaction"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Montanism claimed",
+          "options": [
+            "papal authority",
+            "new prophetic revelation from the Paraclete",
+            "secret knowledge from Egypt",
+            "the Old Testament was evil"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 John 4:2 says every spirit that confesses Jesus Christ has come",
+          "options": [
+            "in spirit only",
+            "in the flesh is from God",
+            "as an angel",
+            "to judge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How did the church respond to second-century heresies?",
+          "answer_key": "By appealing to the rule of faith (apostolic teaching summarized), the public succession of teachers in apostolic churches, the recognized apostolic writings (canon), and bishops and synods defending the faith."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain Irenaeus's doctrine of recapitulation.",
+          "answer_key": "Christ, the second Adam, goes through every stage of human life and history, obeying where Adam disobeyed, 'summing up' humanity in himself, defeating sin, death and the devil and restoring the image and likeness of God."
+        }
+      ]
+    },
+    {
+      "id": "ch1-04",
+      "title": "Constantine and the Council of Nicaea",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Constantine's conversion and its consequences for the church."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Arian controversy and the decision of Nicaea (325)."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize Athanasius's defense of the Son's divinity."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:1-3",
+        "Colossians 1:15-17",
+        "Hebrews 1:1-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Eusebius",
+          "title": "Life of Constantine",
+          "section": "Book I, chapters 27-32 (the vision) and Book III, chapters 6-14 (the Council of Nicaea)"
+        },
+        {
+          "author": "Athanasius",
+          "title": "Discourses Against the Arians",
+          "section": "Discourse I, chapters 1-6 and 11-22"
+        },
+        {
+          "author": "Henry R. Percival (ed.)",
+          "title": "The Seven Ecumenical Councils",
+          "section": "The First Ecumenical Council (Nicaea I): the Creed and Canons"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Edict of Milan (313)",
+          "definition": "Agreement granting toleration to Christians."
+        },
+        {
+          "term": "Arianism",
+          "definition": "Teaching of Arius that the Son was created ('there was when he was not')."
+        },
+        {
+          "term": "Homoousios",
+          "definition": "'Of the same substance', Nicaea's term for the Son's full divinity."
+        },
+        {
+          "term": "Athanasius",
+          "definition": "Bishop of Alexandria and champion of Nicene orthodoxy, exiled five times."
+        }
+      ],
+      "discussion_questions": [
+        "Was Constantine's conversion good for the church? Weigh gains and losses.",
+        "Why did the Arian slogan 'there was when he was not' matter so much?",
+        "What does 'Athanasius against the world' teach about truth and majority opinion?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Council of Nicaea was called in",
+          "options": [
+            "313",
+            "325",
+            "381",
+            "451"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Arius taught that the Son",
+          "options": [
+            "was of the same substance as the Father",
+            "was created and had a beginning",
+            "was only a man",
+            "was the Father in another mode"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The emperor who called the Council of Nicaea was",
+          "options": [
+            "Theodosius",
+            "Constantine",
+            "Justinian",
+            "Diocletian"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Athanasius was bishop of",
+          "options": [
+            "Rome",
+            "Antioch",
+            "Alexandria",
+            "Constantinople"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Edict of Milan (313)",
+          "options": [
+            "made Christianity the only legal religion",
+            "granted toleration to Christians",
+            "condemned Arius",
+            "divided the empire"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the Arian controversy.",
+          "answer_key": "Arius taught that the Son is the first and highest creature, not eternal or of the Father's essence; Alexander and Athanasius insisted the Son is eternally begotten and fully God; Nicaea (325) affirmed the Son is 'of one substance' with the Father and condemned Arius, though the controversy continued until Constantinople (381)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why did Athanasius insist the Son must be fully God?",
+          "answer_key": "Only God can save and give life; if the Son were a creature he could not unite us to God, reveal the Father truly, or be rightly worshiped; salvation (deification, renewal of the image) requires that the Word be truly divine."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/CH1"
+    },
+    {
+      "id": "ch1-05",
+      "title": "The Cappadocians, Constantinople and the Holy Spirit",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the contribution of the Cappadocian Fathers to Trinitarian theology (one ousia, three hypostases)."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the Council of Constantinople (381) and its affirmation of the Spirit's divinity."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the origin of the filioque dispute."
+        }
+      ],
+      "scripture_passages": [
+        "John 14:16-17",
+        "John 15:26",
+        "Acts 5:3-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Basil of Caesarea",
+          "title": "On the Holy Spirit",
+          "section": "Chapters 1, 9-10 and 16-19"
+        },
+        {
+          "author": "Gregory of Nazianzus",
+          "title": "Theological Orations",
+          "section": "The Fifth Theological Oration (Oration 31, on the Holy Spirit)"
+        },
+        {
+          "author": "Henry R. Percival (ed.)",
+          "title": "The Seven Ecumenical Councils",
+          "section": "The Second Ecumenical Council (Constantinople I)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Cappadocians",
+          "definition": "Basil of Caesarea, Gregory of Nazianzus and Gregory of Nyssa."
+        },
+        {
+          "term": "Ousia and hypostasis",
+          "definition": "One divine essence (ousia) in three persons (hypostases)."
+        },
+        {
+          "term": "Pneumatomachians",
+          "definition": "'Spirit-fighters' who denied the full divinity of the Holy Spirit."
+        },
+        {
+          "term": "Filioque",
+          "definition": "'And the Son', a phrase added in the West to the Creed's statement on the Spirit's procession."
+        }
+      ],
+      "discussion_questions": [
+        "How does Basil argue from worship (doxology) to the Spirit's divinity?",
+        "Why did the distinction between ousia and hypostasis help settle the Trinitarian debates?",
+        "Why has the filioque remained a point of contention between East and West?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Council of Constantinople met in",
+          "options": [
+            "325",
+            "381",
+            "431",
+            "451"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Cappadocian formula for the Trinity is",
+          "options": [
+            "three substances, one person",
+            "one essence (ousia), three persons (hypostases)",
+            "one person, three masks",
+            "three gods united in will"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Basil's On the Holy Spirit was prompted partly by criticism of",
+          "options": [
+            "his baptism practice",
+            "his doxology glorifying the Father with the Son together with the Holy Spirit",
+            "his monastery",
+            "his letters to Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Acts 5:3-4, lying to the Holy Spirit is described as lying to",
+          "options": [
+            "the apostles",
+            "God",
+            "the church",
+            "angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The filioque was added to the Creed in",
+          "options": [
+            "the East",
+            "the Latin West",
+            "Jerusalem",
+            "Nicaea"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How did the Cappadocians help clarify the doctrine of the Trinity?",
+          "answer_key": "They distinguished ousia (the one shared divine essence) from hypostasis (the distinct persons), identified the persons by their relations (unbegotten, begotten, proceeding), and defended the full divinity of the Holy Spirit."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What did the Council of Constantinople (381) add to the Nicene Creed?",
+          "answer_key": "An expanded article on the Holy Spirit - the Lord and Giver of life, who proceeds from the Father, worshiped and glorified with the Father and Son, who spoke by the prophets - and confirmed the Nicene faith against Arians and Pneumatomachians."
+        }
+      ]
+    },
+    {
+      "id": "ch1-06",
+      "title": "Augustine of Hippo",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize Augustine's life and conversion."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Donatist and Pelagian controversies and Augustine's response."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the vision of the City of God."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 13:11-14",
+        "Romans 9:14-24",
+        "Ephesians 2:8-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book I, chapter 1 and Book VIII, chapters 5-12 (restless heart; conversion in the garden)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Nature and Grace",
+          "section": "Chapters 1-10 (against Pelagius)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIV, chapter 28 (the two cities formed by two loves)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Pelagianism",
+          "definition": "Teaching that humans can obey God without prior inner grace; original sin denied."
+        },
+        {
+          "term": "Donatism",
+          "definition": "North African schism holding that sacraments by unworthy clergy are invalid."
+        },
+        {
+          "term": "Two cities",
+          "definition": "Augustine's contrast between the earthly city (love of self) and the city of God (love of God)."
+        },
+        {
+          "term": "Tolle lege",
+          "definition": "'Take up and read' - the child's voice Augustine heard at his conversion."
+        }
+      ],
+      "discussion_questions": [
+        "What does Augustine's 'restless heart' say about human nature?",
+        "Why did Augustine think Pelagius's view undermined grace?",
+        "How does the idea of two cities help Christians think about politics?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine wrote, 'You have made us for yourself, and our heart is restless until",
+          "options": [
+            "it finds wisdom'",
+            "it rests in you'",
+            "it reaches Rome'",
+            "it is baptized'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "At his conversion Augustine read",
+          "options": [
+            "John 3",
+            "Romans 13",
+            "Psalm 51",
+            "Genesis 1"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Pelagius denied",
+          "options": [
+            "the Trinity",
+            "original sin and the necessity of inner grace for obedience",
+            "the resurrection",
+            "the canon"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Donatists held that sacraments administered by unworthy clergy were",
+          "options": [
+            "valid",
+            "invalid",
+            "optional",
+            "more powerful"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The two cities, according to Augustine, are formed by",
+          "options": [
+            "two races",
+            "two loves - love of self and love of God",
+            "two empires",
+            "two councils"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the Pelagian controversy.",
+          "answer_key": "Pelagius taught that humans are born without original sin and can obey God by free will aided by external grace (law, example); Augustine argued that since the fall all are born in sin and need God's inner, prevenient and effective grace to will and do good; councils (e.g. Carthage 418) condemned Pelagianism."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the main idea of the City of God?",
+          "answer_key": "Written after Rome's sack (410), it shows that Christianity did not cause Rome's fall; history is the story of two cities, the earthly city built on love of self and the heavenly city built on love of God, intermingled now and separated at the final judgment."
+        }
+      ],
+      "paper_prompt": "Write a 1,200-1,800 word paper on Augustine's significance for later Christian theology. Choose ONE area - grace and free will, the church and sacraments (Donatism), or the two cities - summarize Augustine's view from the library's primary texts, and trace briefly how at least one later tradition (Catholic, Lutheran, Reformed or Wesleyan) received or modified it. Cite sources as (Author, Title, section)."
+    },
+    {
+      "id": "ch1-07",
+      "title": "Christ in Controversy - Ephesus and Chalcedon",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the Nestorian and Eutychian controversies."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize the Council of Ephesus (431), Leo's Tome, and the Chalcedonian Definition (451)."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the churches that did not accept Chalcedon."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:14",
+        "Hebrews 2:14-18",
+        "Luke 1:35"
+      ],
+      "library_readings": [
+        {
+          "author": "Leo the Great",
+          "title": "Letters (including the Tome)",
+          "section": "Letter 28 (the Tome of Leo to Flavian)"
+        },
+        {
+          "author": "Henry R. Percival (ed.)",
+          "title": "The Seven Ecumenical Councils",
+          "section": "The Third (Ephesus) and Fourth (Chalcedon) Ecumenical Councils"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 3 (the Christological controversies)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Theotokos",
+          "definition": "'God-bearer', title for Mary affirmed at Ephesus to protect the unity of Christ's person."
+        },
+        {
+          "term": "Nestorianism",
+          "definition": "The view (attributed to Nestorius) that so separated the natures as to seem two persons."
+        },
+        {
+          "term": "Eutychianism",
+          "definition": "The view that Christ's humanity was absorbed into his divinity (one nature after the union)."
+        },
+        {
+          "term": "Miaphysites",
+          "definition": "Churches (Coptic, Armenian, Syriac Orthodox) holding 'one incarnate nature of the Word', rejecting Chalcedon's wording."
+        }
+      ],
+      "discussion_questions": [
+        "Why was 'Theotokos' ultimately a statement about Christ, not only about Mary?",
+        "How does Leo's Tome describe the two natures acting in one person?",
+        "Are the non-Chalcedonian churches' differences mainly verbal or substantive?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The title 'Theotokos' means",
+          "options": [
+            "Queen of heaven",
+            "God-bearer",
+            "Mother of the church",
+            "Ever-virgin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Council of Ephesus met in",
+          "options": [
+            "381",
+            "431",
+            "451",
+            "553"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Eutyches taught that after the union Christ had",
+          "options": [
+            "two persons",
+            "one nature, the humanity absorbed into divinity",
+            "no human soul",
+            "an angelic nature"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Leo's Tome was written to",
+          "options": [
+            "Nestorius",
+            "Flavian, bishop of Constantinople",
+            "Augustine",
+            "the emperor Constantine"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Hebrews 2:17 says Christ had to be made like his brothers in every respect so that he might become",
+          "options": [
+            "a king",
+            "a merciful and faithful high priest",
+            "an angel",
+            "a prophet"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the Nestorian and Eutychian errors and how Chalcedon answered both.",
+          "answer_key": "Nestorianism divided Christ into two subjects (the man Jesus and the divine Word loosely joined); Eutychianism merged the natures so the humanity was swallowed up. Chalcedon confessed one person in two natures 'without confusion, without change' (against Eutyches) and 'without division, without separation' (against Nestorius)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why does the full humanity of Christ matter for salvation?",
+          "answer_key": "As Gregory of Nazianzus said, 'what is not assumed is not healed'; Christ must be truly human to represent us, obey, suffer, die and sympathize as our high priest (Heb 2:14-18)."
+        }
+      ]
+    },
+    {
+      "id": "ch1-08",
+      "title": "Monasticism and Spiritual Life",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the origins of monasticism with Antony and Pachomius."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the teaching of the desert fathers as preserved by Cassian."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate monasticism's contributions and dangers."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 19:16-22",
+        "1 Corinthians 7:32-35",
+        "Luke 5:16"
+      ],
+      "library_readings": [
+        {
+          "author": "Athanasius",
+          "title": "Life of Antony",
+          "section": "Chapters 1-15 (Antony's call and early discipline)"
+        },
+        {
+          "author": "John Cassian",
+          "title": "Conferences",
+          "section": "Conference 1 (Abbot Moses on the goal and end of the monk)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 3 (the origin and development of monasticism)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Monasticism",
+          "definition": "A life of prayer, asceticism and community (or solitude) devoted wholly to God."
+        },
+        {
+          "term": "Anchorite (hermit)",
+          "definition": "A monk living in solitude."
+        },
+        {
+          "term": "Cenobite",
+          "definition": "A monk living in community under a rule."
+        },
+        {
+          "term": "Asceticism",
+          "definition": "Disciplines of self-denial for the sake of spiritual growth."
+        }
+      ],
+      "discussion_questions": [
+        "How did Antony interpret Matthew 19:21 for his own life?",
+        "What does Abbot Moses mean by 'purity of heart' as the goal of the monk?",
+        "What should Protestants appreciate and critique in monasticism?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Antony was moved to sell his possessions after hearing",
+          "options": [
+            "Romans 13",
+            "Matthew 19:21 ('go, sell what you have')",
+            "Psalm 23",
+            "Acts 2"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The founder of communal (cenobitic) monasticism in Egypt was",
+          "options": [
+            "Antony",
+            "Pachomius",
+            "Benedict",
+            "Basil"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Cassian's Conferences record teaching of the",
+          "options": [
+            "Roman popes",
+            "desert fathers of Egypt",
+            "Cappadocian bishops",
+            "Syrian stylites"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Abbot Moses says the monk's immediate goal (scopos) is",
+          "options": [
+            "wealth",
+            "purity of heart",
+            "miracles",
+            "fame"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Jesus' habit in Luke 5:16 was to",
+          "options": [
+            "preach all night",
+            "withdraw to desolate places and pray",
+            "visit the temple daily",
+            "fast forty days each year"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What were the main contributions of monasticism to the church?",
+          "answer_key": "Preservation of Scripture and learning, models of prayer and discipleship, missionary work, care for the poor and sick, spiritual guidance, and a protest against worldliness in the imperial church."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are some dangers or critiques of monasticism?",
+          "answer_key": "A two-tier view of holiness (spiritual elite vs ordinary Christians), extreme asceticism, merit-seeking, withdrawal from vocation in the world - critiques pressed especially by Reformers like Luther."
+        }
+      ]
+    },
+    {
+      "id": "ch1-09",
+      "title": "The Church in the Early Middle Ages - Mission and the Papacy",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Gregory the Great's pastoral and missionary legacy."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize missions to Britain, Ireland and northern Europe."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the rise of Islam and its impact on Christendom, and Charlemagne's Christian empire."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 28:18-20",
+        "Romans 10:14-15",
+        "Acts 17:22-31"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, Prologue and chapters 1-6 (how to admonish different kinds of people)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 4 (Gregory the Great, the conversion of the northern barbarians, and Mohammedanism)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Gregory the Great",
+          "definition": "Pope (590-604), pastor and administrator, sent Augustine of Canterbury to England."
+        },
+        {
+          "term": "Celtic Christianity",
+          "definition": "The missionary monastic church of Ireland and Britain (Patrick, Columba)."
+        },
+        {
+          "term": "Charlemagne",
+          "definition": "Frankish king crowned emperor in 800, promoter of church reform and learning."
+        },
+        {
+          "term": "Iconoclasm",
+          "definition": "The controversy over the use of icons, resolved by Nicaea II (787) in favor of their veneration."
+        }
+      ],
+      "discussion_questions": [
+        "What missionary principles can be learned from Gregory's instructions for England?",
+        "How did the rise of Islam reshape the map of Christianity?",
+        "What were the benefits and costs of the alliance between church and empire under Charlemagne?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Gregory the Great sent missionaries to",
+          "options": [
+            "India",
+            "England",
+            "Russia",
+            "Spain"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Pastoral Rule was written by",
+          "options": [
+            "Benedict",
+            "Gregory the Great",
+            "Leo the Great",
+            "Ambrose"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Charlemagne was crowned emperor in",
+          "options": [
+            "476",
+            "800",
+            "1054",
+            "1095"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Second Council of Nicaea (787) addressed",
+          "options": [
+            "Arianism",
+            "the veneration of icons",
+            "the filioque",
+            "the papacy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Acts 17 Paul in Athens begins with",
+          "options": [
+            "the law of Moses",
+            "an altar 'to an unknown god' and quotes Greek poets",
+            "a miracle",
+            "a vision"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize Gregory the Great's significance.",
+          "answer_key": "As pope he organized relief, strengthened the church's administration, promoted liturgy and monasticism, wrote the influential Pastoral Rule on shepherding souls, and sent Augustine of Canterbury's mission to England."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How did the rise of Islam affect the church?",
+          "answer_key": "Within a century Islam conquered much of the Christian Middle East, North Africa and Spain; ancient churches became minorities; Christianity's center shifted to Europe; later it contributed to the Crusades and shaped East-West relations."
+        }
+      ]
+    },
+    {
+      "id": "ch1-10",
+      "title": "The Great Schism and the Crusades",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the causes of the East-West schism of 1054."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the Crusades and evaluate them critically."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the Gregorian reform and the investiture controversy."
+        }
+      ],
+      "scripture_passages": [
+        "John 17:20-23",
+        "Ephesians 4:1-6",
+        "Matthew 26:51-52"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 4 (the separation of the East and West) and Volume 5 (the Crusades and the Hildebrandian papacy)"
+        },
+        {
+          "author": "Henry R. Percival (ed.)",
+          "title": "The Seven Ecumenical Councils",
+          "section": "Excursus on the addition of the filioque to the Creed"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Great Schism (1054)",
+          "definition": "The mutual excommunications between Rome and Constantinople, symbolizing the East-West split."
+        },
+        {
+          "term": "Crusades",
+          "definition": "Military expeditions (1095-1291) proclaimed to recover the Holy Land."
+        },
+        {
+          "term": "Investiture controversy",
+          "definition": "Conflict over whether kings or popes appoint bishops."
+        },
+        {
+          "term": "Gregorian reform",
+          "definition": "Reform movement under Pope Gregory VII against simony and clerical marriage and for church independence."
+        }
+      ],
+      "discussion_questions": [
+        "Were the causes of the schism more theological, political or cultural?",
+        "How should Christians evaluate the Crusades in light of Matthew 26:52?",
+        "What was at stake in the investiture controversy?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The mutual excommunications between East and West occurred in",
+          "options": [
+            "800",
+            "1054",
+            "1204",
+            "1453"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The First Crusade was proclaimed by Pope Urban II in",
+          "options": [
+            "1054",
+            "1095",
+            "1204",
+            "1291"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Fourth Crusade shockingly sacked",
+          "options": [
+            "Jerusalem",
+            "Constantinople",
+            "Rome",
+            "Antioch"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "A theological issue dividing East and West was",
+          "options": [
+            "the resurrection",
+            "the filioque",
+            "the canon of the NT",
+            "the date of Easter only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The investiture controversy concerned",
+          "options": [
+            "the canon",
+            "the right to appoint bishops",
+            "the Eucharist",
+            "monastic vows"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "List several causes of the East-West schism.",
+          "answer_key": "Papal claims to universal jurisdiction, the filioque addition, differences in language, culture and liturgy (e.g. leavened vs unleavened bread, clerical celibacy), political rivalry, and mutual suspicion culminating in 1054 and deepened by the sack of Constantinople in 1204."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give a balanced evaluation of the Crusades.",
+          "answer_key": "They arose partly from genuine piety and a call to help Eastern Christians and pilgrims, but involved violence, massacres (including of Jews), greed and the sack of Constantinople; they confused spiritual and military warfare and damaged relations with Muslims and Eastern Christians."
+        }
+      ]
+    },
+    {
+      "id": "ch1-11",
+      "title": "Scholasticism - Anselm and Aquinas",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the rise of universities and the scholastic method."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Anselm's ontological argument and satisfaction theory of the atonement."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize Aquinas's synthesis of faith and reason."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 1:19-20",
+        "Isaiah 55:8-9",
+        "Hebrews 11:6"
+      ],
+      "library_readings": [
+        {
+          "author": "Anselm",
+          "title": "Proslogion",
+          "section": "Chapters 2-4 (the ontological argument)"
+        },
+        {
+          "author": "Anselm",
+          "title": "Cur Deus Homo",
+          "section": "Book I, chapters 11-15 and Book II, chapter 6"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 2, Articles 1-3 (the existence of God; the five ways)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Scholasticism",
+          "definition": "Medieval method of theology using logic, questions, objections and replies."
+        },
+        {
+          "term": "Ontological argument",
+          "definition": "Anselm's argument that God, 'that than which nothing greater can be conceived', must exist."
+        },
+        {
+          "term": "Satisfaction theory",
+          "definition": "Anselm's view that Christ's death satisfies the honor due to God."
+        },
+        {
+          "term": "Five Ways",
+          "definition": "Aquinas's arguments for God's existence from motion, causation, contingency, gradation and design."
+        }
+      ],
+      "discussion_questions": [
+        "Does Anselm's argument prove God's existence or clarify the concept of God?",
+        "How does Anselm answer 'Why did God become man?'",
+        "How does Aquinas relate faith and reason?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Anselm defines God as",
+          "options": [
+            "the first mover",
+            "that than which nothing greater can be conceived",
+            "pure act",
+            "the ground of being"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Cur Deus Homo asks",
+          "options": [
+            "Why is there evil?",
+            "Why did God become man?",
+            "Does God exist?",
+            "What is the church?"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Aquinas's first way argues from",
+          "options": [
+            "morality",
+            "motion (change)",
+            "Scripture",
+            "religious experience"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The scholastic method typically proceeds by",
+          "options": [
+            "storytelling",
+            "posing a question, objections, authorities, a response and replies",
+            "allegory",
+            "poetry"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aquinas's Summa begins its questions on God with the question of",
+          "options": [
+            "the Trinity",
+            "whether God exists",
+            "the incarnation",
+            "grace"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize Anselm's satisfaction theory.",
+          "answer_key": "Sin dishonors God and incurs an infinite debt humans owe but cannot pay; only God can pay it; therefore only one who is both God and man can make satisfaction; Christ freely offers his life, restoring God's honor and meriting reward given to sinners."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Aquinas relate faith and reason?",
+          "answer_key": "Reason can demonstrate some truths about God (existence, oneness) - 'preambles of faith' - while other truths (Trinity, incarnation) are known only by revelation; grace perfects nature, faith and reason do not contradict, and theology uses reason in service of revealed truth."
+        }
+      ]
+    },
+    {
+      "id": "ch1-12",
+      "title": "The Late Middle Ages and the Forerunners of Reform",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the crises of the late medieval church (the Avignon papacy, the Great Western Schism, conciliarism)."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize the teaching of reformers such as Wycliffe and Hus."
+        },
+        {
+          "id": "o3",
+          "text": "Describe late medieval piety, including the Modern Devotion and The Imitation of Christ."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 119:105",
+        "Revelation 2:1-7",
+        "Micah 6:8"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 6 (the Avignon popes, the papal schism, Wyclif and Hus)"
+        },
+        {
+          "author": "Thomas à Kempis",
+          "title": "The Imitation of Christ",
+          "section": "Book I, chapters 1-5"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Avignon papacy (1309-1377)",
+          "definition": "Period when popes resided in Avignon, France."
+        },
+        {
+          "term": "Great Western Schism (1378-1417)",
+          "definition": "Rival popes claiming authority, resolved at the Council of Constance."
+        },
+        {
+          "term": "Lollards",
+          "definition": "Followers of John Wycliffe who promoted vernacular Scripture."
+        },
+        {
+          "term": "Devotio Moderna",
+          "definition": "Late medieval renewal movement emphasizing inward piety (Thomas à Kempis)."
+        }
+      ],
+      "discussion_questions": [
+        "Why did the late medieval crises erode confidence in the papacy?",
+        "What did Wycliffe and Hus teach that anticipated the Reformation?",
+        "How does The Imitation of Christ both prepare for and differ from Reformation spirituality?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Avignon papacy lasted roughly from",
+          "options": [
+            "1054-1095",
+            "1309-1377",
+            "1414-1418",
+            "1517-1545"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Great Western Schism was resolved by the Council of",
+          "options": [
+            "Trent",
+            "Constance",
+            "Nicaea",
+            "Lateran IV"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "John Hus was burned at the stake at",
+          "options": [
+            "Rome",
+            "Constance",
+            "Prague",
+            "Wittenberg"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Wycliffe is associated with",
+          "options": [
+            "the first printed Bible",
+            "an English translation of the Bible from the Vulgate",
+            "the Jesuits",
+            "the Council of Trent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Imitation of Christ begins with the words of Christ",
+          "options": [
+            "'Take up your cross'",
+            "'He who follows me shall not walk in darkness'",
+            "'I am the vine'",
+            "'Come to me'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What did Wycliffe teach that anticipated the Reformation?",
+          "answer_key": "The supreme authority of Scripture, the need for the Bible in the vernacular, criticism of papal power and clerical wealth, rejection of transubstantiation, and the church as the body of the elect."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What features of late medieval religion set the stage for the Reformation?",
+          "answer_key": "Papal scandals and schism, conciliarism, anticlericalism, widespread lay piety and devotion, humanist return to sources, the printing press, and reform movements (Wycliffe, Hus, Devotio Moderna)."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on ONE figure or movement from this course (e.g. Irenaeus, Athanasius, the Cappadocians, Augustine, Benedictine monasticism, Gregory the Great, Anselm, Aquinas, Wycliffe or Hus). Describe the historical context, summarize the key ideas from primary sources in the library, assess the figure's lasting significance, and reflect on one lesson for the church today. Cite sources as (Author, Title, section).",
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/CH1"
+    }
+  ]
+}

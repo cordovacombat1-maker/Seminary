@@ -1,0 +1,1674 @@
+{
+  "id": "nt-survey",
+  "title": "New Testament Survey",
+  "tier": 1,
+  "tier_name": "Foundations",
+  "description": "An introduction to the world, literature and message of the New Testament. Students study the historical and cultural background of first-century Judaism and the Greco-Roman world, the four Gospels and the life of Jesus, the growth of the church in Acts, Paul's letters, the General Epistles and Revelation, and the formation of the New Testament canon. The course focuses on each book's purpose, structure and theological contribution.",
+  "prerequisites": [],
+  "lessons": [
+    {
+      "id": "nts-01",
+      "title": "The World of the New Testament",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the political situation of Judea under Rome and the Herods."
+        },
+        {
+          "id": "o2",
+          "text": "Identify the main Jewish groups (Pharisees, Sadducees, Essenes, Zealots) and institutions (temple, synagogue, Sanhedrin)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain how Greek language and culture and the Roman roads and peace shaped the spread of the gospel."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 2:1-7",
+        "Galatians 4:4-5",
+        "Acts 23:6-10",
+        "Mark 12:18-27"
+      ],
+      "library_readings": [
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book I (the Jewish world in the days of Christ)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1, Chapter 2 (preparation for Christianity in Jewish and Gentile history)"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book I, chapters 5-8 (the time of Christ's birth and Herod)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Pharisees",
+          "definition": "A lay movement devoted to careful observance of the Law and oral tradition; believed in resurrection."
+        },
+        {
+          "term": "Sadducees",
+          "definition": "The priestly aristocracy tied to the temple; denied resurrection and angels (Acts 23:8)."
+        },
+        {
+          "term": "Synagogue",
+          "definition": "Local Jewish assembly for prayer, reading and teaching of Scripture."
+        },
+        {
+          "term": "Fullness of time",
+          "definition": "Paul's phrase (Gal 4:4) for the God-appointed moment of Christ's coming."
+        }
+      ],
+      "discussion_questions": [
+        "What features of the first-century world made the rapid spread of Christianity possible?",
+        "Why did Paul's mention of the resurrection divide the Sanhedrin in Acts 23?",
+        "How does knowing the Jewish groups help us read the Gospels?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The group that denied the resurrection was the",
+          "options": [
+            "Pharisees",
+            "Sadducees",
+            "Essenes",
+            "Zealots"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Luke dates Jesus' birth by a decree of",
+          "options": [
+            "Herod Antipas",
+            "Caesar Augustus",
+            "Pontius Pilate",
+            "Nero"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Galatians 4:4 says God sent his Son",
+          "options": [
+            "at the end of history",
+            "when the fullness of time had come",
+            "after the temple fell",
+            "before creation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The common language of the eastern Roman world, in which the New Testament was written, was",
+          "options": [
+            "Latin",
+            "Hebrew",
+            "Koine Greek",
+            "Syriac"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Jewish ruling council in Jerusalem was the",
+          "options": [
+            "Areopagus",
+            "Sanhedrin",
+            "Senate",
+            "Synagogue of the Freedmen"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name three factors in the first-century world that helped the spread of the gospel.",
+          "answer_key": "For example - a common Greek language; Roman peace and roads; the Jewish diaspora with synagogues and the Septuagint; widespread spiritual longing and God-fearers attracted to Jewish monotheism."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Contrast the Pharisees and Sadducees.",
+          "answer_key": "Pharisees were a lay renewal movement stressing the Law with oral tradition and believing in resurrection and angels; Sadducees were priestly aristocrats tied to the temple, accepting mainly the written Torah and denying resurrection and angels."
+        }
+      ]
+    },
+    {
+      "id": "nts-02",
+      "title": "The Gospels - Four Witnesses to Jesus",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Define the genre of the Gospels as theological biographies."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the 'Synoptic problem' and common proposed solutions."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the distinctive emphasis of each Gospel."
+        },
+        {
+          "id": "o4",
+          "text": "Explain the early church's view of the fourfold Gospel."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 1:1-4",
+        "John 20:30-31",
+        "Mark 1:1"
+      ],
+      "library_readings": [
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book III, chapters 1 and 11 (the origin and the fourfold form of the Gospel)"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book III, chapters 24 and 39 (the order of the Gospels; Papias on Mark and Matthew)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapter 8 (the canonical books)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Synoptic Gospels",
+          "definition": "Matthew, Mark and Luke, which share much material and can be 'seen together'."
+        },
+        {
+          "term": "Synoptic problem",
+          "definition": "The question of the literary relationship between the Synoptic Gospels."
+        },
+        {
+          "term": "Markan priority",
+          "definition": "The view that Mark was written first and used by Matthew and Luke."
+        },
+        {
+          "term": "Fourfold Gospel",
+          "definition": "The church's acceptance of exactly four Gospels as one gospel in four forms (Irenaeus)."
+        }
+      ],
+      "discussion_questions": [
+        "What do the stated purposes of Luke (1:1-4) and John (20:31) tell us about the Gospels' genre?",
+        "Why did the early church keep four Gospels rather than merging them into one?",
+        "What difference does Papias's testimony about Mark make for how we read Mark?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Synoptic Gospels are",
+          "options": [
+            "Matthew, Mark, John",
+            "Matthew, Mark, Luke",
+            "Mark, Luke, John",
+            "Luke, John, Acts"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "John states his purpose: that you may believe that Jesus is the Christ and",
+          "options": [
+            "be wise",
+            "by believing have life in his name",
+            "join the synagogue",
+            "understand the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "According to Papias (cited by Eusebius), Mark wrote down the preaching of",
+          "options": [
+            "Paul",
+            "Peter",
+            "James",
+            "John"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The theory that Mark was written first and used by Matthew and Luke is called",
+          "options": [
+            "Griesbach hypothesis",
+            "Markan priority",
+            "Johannine priority",
+            "Diatessaron theory"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Irenaeus argued that the Gospels must be",
+          "options": [
+            "one",
+            "three",
+            "four",
+            "twelve"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the distinctive portrait of Jesus in each of the four Gospels.",
+          "answer_key": "E.g. Matthew - Messiah and teacher fulfilling Scripture, the new Moses, for a Jewish-Christian audience; Mark - the suffering Son of God, fast-paced, the way of the cross; Luke - Savior of all, concern for outsiders, prayer and the Spirit; John - the eternal Word made flesh, signs and 'I am' sayings, belief and life."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is meant by calling the Gospels 'theological biographies'?",
+          "answer_key": "They are ancient biographies (bioi) focused on Jesus' words, deeds, death and resurrection, selected and arranged to proclaim who he is and call for faith - historical testimony shaped by theological purpose."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/gos"
+    },
+    {
+      "id": "nts-03",
+      "title": "The Life and Ministry of Jesus",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Outline the main phases of Jesus' ministry from baptism to Jerusalem."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the kingdom of God as the center of Jesus' preaching."
+        },
+        {
+          "id": "o3",
+          "text": "Describe Jesus' miracles and parables as signs of the kingdom."
+        }
+      ],
+      "scripture_passages": [
+        "Mark 1:14-15",
+        "Luke 4:16-21",
+        "Matthew 11:2-6",
+        "Mark 8:27-38"
+      ],
+      "library_readings": [
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book III (from the Jordan to the Mount of Transfiguration)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XXII, chapter 8 (miracles)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Mark, chapter 8"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Kingdom of God",
+          "definition": "God's reign breaking into history through Jesus, present now and consummated in the future."
+        },
+        {
+          "term": "Messianic secret",
+          "definition": "Jesus' instruction to keep his identity quiet, prominent in Mark."
+        },
+        {
+          "term": "Transfiguration",
+          "definition": "The revelation of Jesus' glory on the mountain before Peter, James and John."
+        },
+        {
+          "term": "Nazareth manifesto",
+          "definition": "Jesus' reading of Isaiah 61 in Luke 4, announcing his mission."
+        }
+      ],
+      "discussion_questions": [
+        "How does Jesus define his mission in Luke 4:16-21?",
+        "Why is Peter's confession (Mark 8) a turning point in the Gospel?",
+        "How do Jesus' miracles answer John the Baptist's question (Matt 11:2-6)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jesus' opening proclamation in Mark 1:15 is",
+          "options": [
+            "'Blessed are the poor'",
+            "'The time is fulfilled, and the kingdom of God is near. Repent and believe the gospel'",
+            "'I am the bread of life'",
+            "'Follow me'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In the Nazareth synagogue Jesus read from",
+          "options": [
+            "Deuteronomy",
+            "Isaiah",
+            "Psalms",
+            "Daniel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "After Peter's confession Jesus began to teach that the Son of Man must",
+          "options": [
+            "become king at once",
+            "suffer, be rejected, be killed and rise after three days",
+            "destroy the temple",
+            "leave Israel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Jesus answered John the Baptist's disciples by pointing to",
+          "options": [
+            "his genealogy",
+            "the blind seeing, the lame walking, and the poor hearing good news",
+            "his large following",
+            "the approval of the Pharisees"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The kingdom of God in Jesus' teaching is",
+          "options": [
+            "only future",
+            "only an inner feeling",
+            "both already present in his ministry and still to come in fullness",
+            "a political state"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What did Jesus mean by 'the kingdom of God'?",
+          "answer_key": "God's saving reign and rule, promised in the prophets, now arriving in Jesus' person, words and works (healing, forgiveness, casting out demons), calling for repentance and faith, and to be fully consummated at his return."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why do the Gospels devote so much space to Jesus' final week?",
+          "answer_key": "Because his death and resurrection are the climax and center of his mission and of the gospel; the Gospels have been called 'passion narratives with extended introductions'."
+        }
+      ]
+    },
+    {
+      "id": "nts-04",
+      "title": "The Death and Resurrection of Jesus",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the events of the passion week and their meaning."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Jesus' interpretation of his death at the Last Supper."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate the historical evidence for the resurrection and its significance."
+        }
+      ],
+      "scripture_passages": [
+        "Mark 14:22-25",
+        "Mark 15:33-39",
+        "1 Corinthians 15:1-8",
+        "Luke 24:1-12"
+      ],
+      "library_readings": [
+        {
+          "author": "Athanasius",
+          "title": "On the Incarnation of the Word",
+          "section": "Sections 19-32 (the death and resurrection of the Word)"
+        },
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book V (the cross and the crown)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1, the chapter on the resurrection of Christ"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Passion",
+          "definition": "The suffering and death of Jesus."
+        },
+        {
+          "term": "Last Supper",
+          "definition": "Jesus' final Passover meal, where he instituted the Lord's Supper."
+        },
+        {
+          "term": "Resurrection",
+          "definition": "Jesus' bodily rising from the dead on the third day."
+        },
+        {
+          "term": "Creedal tradition",
+          "definition": "Early summaries of faith such as 1 Corinthians 15:3-5, which Paul 'received'."
+        }
+      ],
+      "discussion_questions": [
+        "What do Jesus' words over the bread and cup say about the meaning of his death?",
+        "Why is the centurion's confession (Mark 15:39) significant?",
+        "According to 1 Corinthians 15, what would follow if Christ had not been raised?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "At the Last Supper Jesus called the cup his blood of the",
+          "options": [
+            "old covenant",
+            "covenant, poured out for many",
+            "Passover lamb only",
+            "priesthood"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "At Jesus' death the centurion said",
+          "options": [
+            "'He saved others'",
+            "'Truly this man was the Son of God'",
+            "'Crucify him'",
+            "'I find no fault'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In 1 Corinthians 15:6 Paul says the risen Christ appeared to",
+          "options": [
+            "only the Twelve",
+            "more than five hundred brothers at once",
+            "the Sanhedrin",
+            "Pilate"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "According to Luke 24, the first witnesses of the empty tomb were",
+          "options": [
+            "Peter and John",
+            "women who had come with spices",
+            "Roman soldiers",
+            "the high priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Athanasius argued that the Word took a body so that",
+          "options": [
+            "he could become a prophet",
+            "he might die for all and destroy death by rising",
+            "God could change",
+            "the law could be abolished"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the evidence commonly offered for the resurrection of Jesus.",
+          "answer_key": "The empty tomb, multiple appearances to individuals and groups (1 Cor 15), the transformation of the disciples, the early creedal formula, the conversion of skeptics like James and Paul, the rise of Sunday worship, and the lack of any alternative explanation that fits the facts."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is the resurrection essential to Christian faith according to Paul?",
+          "answer_key": "Without it preaching and faith are futile, believers are still in their sins, the dead have perished, and Christians are most to be pitied; the resurrection vindicates Jesus and guarantees the future resurrection (1 Cor 15:14-20)."
+        }
+      ]
+    },
+    {
+      "id": "nts-05",
+      "title": "Acts - The Spirit and the Spread of the Church",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the structure of Acts following Acts 1:8 (Jerusalem, Judea and Samaria, the ends of the earth)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the significance of Pentecost and the role of the Holy Spirit in Acts."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the Jerusalem Council and the inclusion of the Gentiles."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 1:6-11",
+        "Acts 2:1-41",
+        "Acts 10:34-48",
+        "Acts 15:1-21"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (the day of Pentecost and the church in Jerusalem)"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book II, chapters 1-3 (the apostles after the ascension)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Acts, chapter 2"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Pentecost",
+          "definition": "The Jewish feast fifty days after Passover when the Spirit was poured out (Acts 2)."
+        },
+        {
+          "term": "Apostle",
+          "definition": "One sent with authority by Christ as a witness to his resurrection."
+        },
+        {
+          "term": "God-fearer",
+          "definition": "A Gentile who worshiped Israel's God without full conversion (e.g. Cornelius)."
+        },
+        {
+          "term": "Jerusalem Council",
+          "definition": "The meeting in Acts 15 deciding Gentile believers need not be circumcised."
+        }
+      ],
+      "discussion_questions": [
+        "How does Acts 1:8 function as an outline of the book?",
+        "What happens to the gospel's reach in Acts 10?",
+        "How does Acts 15 resolve a deep theological and practical crisis?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Acts 1:8 says the disciples will be witnesses in",
+          "options": [
+            "Rome only",
+            "Jerusalem, all Judea and Samaria, and to the ends of the earth",
+            "Galilee and Egypt",
+            "the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "On the day of Pentecost about how many were added to the church?",
+          "options": [
+            "120",
+            "500",
+            "about three thousand",
+            "twelve"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Cornelius was a",
+          "options": [
+            "Pharisee",
+            "Roman centurion",
+            "Samaritan",
+            "high priest"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Jerusalem Council decided that Gentile believers",
+          "options": [
+            "must be circumcised",
+            "need not be circumcised, but should avoid certain practices",
+            "must keep all the law",
+            "should form separate churches"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Peter's Pentecost sermon quotes the prophet",
+          "options": [
+            "Isaiah",
+            "Joel",
+            "Amos",
+            "Malachi"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What role does the Holy Spirit play in the book of Acts?",
+          "answer_key": "The Spirit empowers witness (1:8), is poured out at Pentecost and on Samaritans and Gentiles, guides missionary decisions, gives boldness, gifts and discernment, and forms the church; Acts is sometimes called 'the Acts of the Holy Spirit'."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why was the Jerusalem Council decision so important?",
+          "answer_key": "It affirmed that Gentiles are saved by grace through faith, not by becoming Jews through circumcision and the law, allowing a unified Jew-Gentile church and opening the Gentile mission."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/ACT"
+    },
+    {
+      "id": "nts-06",
+      "title": "Paul - Life, Mission and Letters",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize Paul's background, conversion and missionary journeys."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the occasional nature of Paul's letters and the standard letter form."
+        },
+        {
+          "id": "o3",
+          "text": "Identify the major themes of Paul's theology (gospel, justification, union with Christ, the Spirit, the church)."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 9:1-22",
+        "Galatians 1:11-24",
+        "Philippians 3:4-11",
+        "Romans 1:1-17"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (the life and labors of Paul)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Philippians, chapter 3"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 1 (on Paul's greeting and apostleship)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Missionary journeys",
+          "definition": "Paul's three major journeys recorded in Acts 13-20, followed by his voyage to Rome."
+        },
+        {
+          "term": "Letter form",
+          "definition": "Opening (sender, recipients, greeting), thanksgiving, body, closing."
+        },
+        {
+          "term": "Justification",
+          "definition": "God's declaring sinners righteous through faith in Christ."
+        },
+        {
+          "term": "Union with Christ",
+          "definition": "Paul's pervasive theme of believers being 'in Christ'."
+        }
+      ],
+      "discussion_questions": [
+        "How did Paul's encounter with the risen Christ reshape his understanding of the law and Israel?",
+        "What does Paul count as 'loss' in Philippians 3, and why?",
+        "Romans 1:16-17 is often called the theme of Romans. What does it claim?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Paul was converted on the road to",
+          "options": [
+            "Jerusalem",
+            "Damascus",
+            "Antioch",
+            "Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Philippians 3:5 Paul describes himself as a",
+          "options": [
+            "Sadducee",
+            "Pharisee",
+            "Zealot",
+            "Samaritan"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 1:16 says the gospel is",
+          "options": [
+            "a new law",
+            "the power of God for salvation to everyone who believes",
+            "only for Jews",
+            "a mystery hidden forever"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The typical Pauline letter includes, after the greeting,",
+          "options": [
+            "a genealogy",
+            "a thanksgiving or blessing",
+            "a list of laws",
+            "a parable"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Paul's letters are called 'occasional' because they",
+          "options": [
+            "were written seldom",
+            "address specific situations in churches or individuals",
+            "are not authoritative",
+            "were written late"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Outline Paul's life in a few sentences.",
+          "answer_key": "A Pharisee from Tarsus trained in Jerusalem who persecuted the church; converted by the risen Christ near Damascus; called as apostle to the Gentiles; undertook three missionary journeys planting churches; arrested in Jerusalem; appealed to Caesar and went to Rome; tradition says he was martyred under Nero."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Name four central themes in Paul's theology.",
+          "answer_key": "E.g. the gospel of Christ crucified and risen; justification by faith; union with Christ; the Spirit and new life; the church as the body of Christ uniting Jew and Gentile; the already/not yet of the new age; hope of resurrection."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HPT"
+    },
+    {
+      "id": "nts-07",
+      "title": "Romans and Galatians - The Gospel of Grace",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Trace the argument of Romans 1-8 in outline."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Galatians' defense of the gospel against the demand for circumcision."
+        },
+        {
+          "id": "o3",
+          "text": "Compare major interpretations of 'works of the law' and justification (e.g. Reformation and 'new perspective' views)."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 3:21-26",
+        "Romans 5:1-11",
+        "Galatians 2:15-21",
+        "Romans 8:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On the Spirit and the Letter",
+          "section": "Chapters 8-26 (the righteousness of God and the law of works)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 11 (justification by faith)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Question 113 (the justification of the ungodly)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Righteousness of God",
+          "definition": "God's saving righteousness revealed in the gospel (Rom 1:17; 3:21)."
+        },
+        {
+          "term": "Propitiation",
+          "definition": "A sacrifice that turns away God's wrath (Rom 3:25), sometimes rendered 'mercy seat' or 'atoning sacrifice'."
+        },
+        {
+          "term": "Works of the law",
+          "definition": "Deeds commanded by the Mosaic law; debated whether Paul means law-keeping generally or identity markers like circumcision."
+        },
+        {
+          "term": "Adoption",
+          "definition": "Believers made God's children with the Spirit crying 'Abba, Father' (Rom 8:15; Gal 4:6)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Romans 3:21-26 show that God is both just and the justifier?",
+        "Why does Paul react so strongly in Galatians?",
+        "How do Augustine, Aquinas and Calvin agree and disagree about justification?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 3:23 states that",
+          "options": [
+            "some have sinned",
+            "all have sinned and fall short of the glory of God",
+            "Gentiles only have sinned",
+            "sin is an illusion"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Romans 5:1 says that having been justified by faith we have",
+          "options": [
+            "the law",
+            "peace with God through our Lord Jesus Christ",
+            "no more trials",
+            "circumcision"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Galatians 2:20 Paul writes",
+          "options": [
+            "'I keep the whole law'",
+            "'I have been crucified with Christ, and I no longer live, but Christ lives in me'",
+            "'I am the least of the apostles'",
+            "'Circumcision is nothing'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Romans 8:1 declares there is now no condemnation for",
+          "options": [
+            "the circumcised",
+            "those who are in Christ Jesus",
+            "all people",
+            "those who keep the Sabbath"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The main issue confronted in Galatians was",
+          "options": [
+            "idol food",
+            "requiring Gentile believers to be circumcised and keep the law",
+            "the resurrection",
+            "speaking in tongues"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the flow of Romans 1-8.",
+          "answer_key": "The gospel reveals God's righteousness (1:16-17); all are under sin, Gentile and Jew (1:18-3:20); justification by faith through Christ's atoning death (3:21-4:25); peace, hope and the reign of grace in Christ over Adam (5); freedom from sin's dominion (6) and the law's condemnation (7); life in the Spirit, adoption and assured hope (8)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the 'new perspective on Paul' and how does it differ from the classic Reformation reading?",
+          "answer_key": "It argues that Second Temple Judaism was not legalistic (covenantal nomism) and that Paul's 'works of the law' refers chiefly to boundary markers separating Jew and Gentile; the classic Reformation reading stresses that no one is justified by any law-keeping but by faith in Christ alone. Many see truths in both."
+        }
+      ]
+    },
+    {
+      "id": "nts-08",
+      "title": "Corinthian and Prison Letters",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the problems in Corinth and Paul's responses in 1-2 Corinthians."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the key themes of Ephesians, Philippians, Colossians and Philemon."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the Christ hymns of Philippians 2 and Colossians 1 and their Christology."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 1:18-31",
+        "1 Corinthians 13:1-13",
+        "Philippians 2:5-11",
+        "Colossians 1:15-20"
+      ],
+      "library_readings": [
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homilies 32-34 (on love, 1 Corinthians 13)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Philippians, chapter 2"
+        },
+        {
+          "author": "Athanasius",
+          "title": "Discourses Against the Arians",
+          "section": "Discourse I, chapters 11-13 (on Philippians 2:9-10)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Prison Epistles",
+          "definition": "Ephesians, Philippians, Colossians and Philemon, written while Paul was imprisoned."
+        },
+        {
+          "term": "Kenosis",
+          "definition": "From Philippians 2:7, Christ 'emptied himself' by taking the form of a servant."
+        },
+        {
+          "term": "Firstborn over creation",
+          "definition": "Colossians 1:15, affirming Christ's supremacy (not that he was created)."
+        },
+        {
+          "term": "Body of Christ",
+          "definition": "Paul's image of the church as one body with many members."
+        }
+      ],
+      "discussion_questions": [
+        "How does 'the word of the cross' (1 Cor 1:18) confront both Jewish and Greek expectations?",
+        "What does Philippians 2:5-11 teach about Christ and about Christian humility?",
+        "How did Athanasius answer Arian use of Philippians 2 and Colossians 1?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In 1 Corinthians 1:23 Paul says Christ crucified is a stumbling block to Jews and",
+          "options": [
+            "wisdom to Greeks",
+            "foolishness to Gentiles",
+            "power to Rome",
+            "unknown to Greeks"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 13 says the greatest of faith, hope and love is",
+          "options": [
+            "faith",
+            "hope",
+            "love",
+            "knowledge"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Philippians 2:10-11 says every knee will bow and every tongue confess that",
+          "options": [
+            "God is one",
+            "Jesus Christ is Lord",
+            "Paul is an apostle",
+            "the law is holy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Colossians 1:16 says that in Christ",
+          "options": [
+            "some things were made",
+            "all things were created, in heaven and on earth",
+            "only the church was created",
+            "angels were made gods"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The letter to Philemon concerns",
+          "options": [
+            "false teachers",
+            "Onesimus, a runaway slave who became a believer",
+            "the collection for Jerusalem",
+            "church order"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name two problems in the Corinthian church and Paul's response to each.",
+          "answer_key": "E.g. divisions around leaders - Paul points to the cross and servant ministry; sexual immorality - church discipline and the body as the Spirit's temple; lawsuits; food offered to idols - love limiting liberty; disorder in worship and gifts - edification and love; denial of bodily resurrection - Christ's resurrection as firstfruits."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Colossians 1:15-20 teach about Christ?",
+          "answer_key": "He is the image of the invisible God, supreme over creation, the agent and goal of all creation, sustainer of all things, head of the church, firstborn from the dead, in whom all God's fullness dwells, reconciling all things through the blood of the cross."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/ppe"
+    },
+    {
+      "id": "nts-09",
+      "title": "Thessalonians and the Pastoral Epistles",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the teaching of 1-2 Thessalonians about the Lord's return and faithful living meanwhile."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the concerns of 1-2 Timothy and Titus - sound doctrine, church leadership and godliness."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the qualifications for elders/overseers and deacons."
+        }
+      ],
+      "scripture_passages": [
+        "1 Thessalonians 4:13-5:11",
+        "2 Thessalonians 2:1-12",
+        "1 Timothy 3:1-13",
+        "Titus 2:11-14"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part I (the qualifications for ruling in the church)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Book III (the dignity and dangers of the pastoral office)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on 1 Timothy, chapter 3"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Parousia",
+          "definition": "The 'coming' or appearing of Christ at the end of the age."
+        },
+        {
+          "term": "Pastoral Epistles",
+          "definition": "1-2 Timothy and Titus, addressed to Paul's delegates about church life."
+        },
+        {
+          "term": "Overseer/elder",
+          "definition": "Church leaders (episkopos, presbyteros) charged with teaching and shepherding."
+        },
+        {
+          "term": "Man of lawlessness",
+          "definition": "The figure of rebellion Paul says precedes the day of the Lord (2 Thess 2)."
+        }
+      ],
+      "discussion_questions": [
+        "What comfort does Paul offer grieving believers in 1 Thessalonians 4?",
+        "Why do the qualifications in 1 Timothy 3 emphasize character over skill?",
+        "How does Titus 2:11-14 connect grace with godly living?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Thessalonians 4:13 tells believers not to grieve",
+          "options": [
+            "at all",
+            "as others who have no hope",
+            "for more than a week",
+            "in public"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "According to 1 Thessalonians 5:2 the day of the Lord comes",
+          "options": [
+            "with warning signs for years",
+            "like a thief in the night",
+            "only after the temple is rebuilt",
+            "on a known date"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "An overseer according to 1 Timothy 3:2 must be",
+          "options": [
+            "wealthy",
+            "above reproach and able to teach",
+            "a former priest",
+            "under thirty"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Titus 2:11-12 says the grace of God",
+          "options": [
+            "permits sin",
+            "trains us to renounce ungodliness and live self-controlled lives",
+            "has not yet appeared",
+            "is only for elders"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Pastoral Epistles are",
+          "options": [
+            "Romans, Galatians, Ephesians",
+            "1 Timothy, 2 Timothy, Titus",
+            "James, Jude, Hebrews",
+            "1-3 John"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How do the Thessalonian letters connect the hope of Christ's return with daily life?",
+          "answer_key": "Believers should be comforted and encouraged, stay alert and sober, live holy lives, work quietly and not be idle or shaken by false claims that the day has come, since the day's timing is unknown but its certainty sure."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are the main concerns of the Pastoral Epistles?",
+          "answer_key": "Guarding sound doctrine against false teachers, appointing qualified leaders, ordering church life and worship, godly conduct of various groups, and encouraging faithful ministry and endurance."
+        }
+      ]
+    },
+    {
+      "id": "nts-10",
+      "title": "Hebrews and the General Epistles",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the argument of Hebrews for the superiority of Christ and his priesthood."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize the main teachings of James, 1-2 Peter, 1-3 John and Jude."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss the relationship between faith and works in James and Paul."
+        }
+      ],
+      "scripture_passages": [
+        "Hebrews 4:14-5:10",
+        "James 2:14-26",
+        "1 Peter 2:4-12",
+        "1 John 4:7-21"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 17, sections 11-12 (James and Paul on justification)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "The Bondage of the Will",
+          "section": "Luther's discussion of faith and works"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on James, chapter 2"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "High priest",
+          "definition": "Hebrews' central image of Christ, who offers himself once for all."
+        },
+        {
+          "term": "Melchizedek",
+          "definition": "The priest-king of Genesis 14 and Psalm 110, a type of Christ's priesthood."
+        },
+        {
+          "term": "General (Catholic) Epistles",
+          "definition": "James, 1-2 Peter, 1-3 John, Jude - addressed to wide audiences."
+        },
+        {
+          "term": "Living faith",
+          "definition": "Faith that works through love; James argues faith without works is dead."
+        }
+      ],
+      "discussion_questions": [
+        "How does Hebrews use the Old Testament to show Jesus' superiority?",
+        "Do James and Paul contradict each other on justification?",
+        "What marks of true fellowship with God does 1 John give?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Hebrews says Christ is a priest forever in the order of",
+          "options": [
+            "Aaron",
+            "Melchizedek",
+            "Levi",
+            "Zadok"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "James 2:17 says faith by itself, if it does not have works, is",
+          "options": [
+            "sufficient",
+            "dead",
+            "hidden",
+            "perfect"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 Peter 2:9 calls believers",
+          "options": [
+            "servants of the law",
+            "a chosen race, a royal priesthood, a holy nation",
+            "the new Sanhedrin",
+            "a remnant of Levites"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 John 4:8 says",
+          "options": [
+            "God is light",
+            "God is love",
+            "God is spirit",
+            "God is judge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Jude urges believers to",
+          "options": [
+            "avoid all conflict",
+            "contend for the faith once for all delivered to the saints",
+            "keep the Sabbath",
+            "leave the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How can James 2:24 and Romans 3:28 both be true?",
+          "answer_key": "They address different questions and use terms differently - Paul denies that works of the law justify before God (faith alone receives Christ); James opposes a dead, merely verbal faith and shows that genuine faith is demonstrated and vindicated by works. Justifying faith is never alone."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize the argument of Hebrews.",
+          "answer_key": "Jesus is superior to angels, Moses, and the Levitical priesthood; he is the eternal Son and perfect high priest who offered himself once for all, inaugurating the new covenant; therefore readers must hold fast, not drift back, and persevere in faith."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HEB"
+    },
+    {
+      "id": "nts-11",
+      "title": "Revelation - The Victory of the Lamb",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Identify Revelation's genre as a combination of apocalypse, prophecy and letter."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the four major interpretive approaches (preterist, historicist, futurist, idealist)."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the main message of Revelation for its first readers and for the church today."
+        }
+      ],
+      "scripture_passages": [
+        "Revelation 1:1-8",
+        "Revelation 5:1-14",
+        "Revelation 21:1-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapters 7-9 (the thousand years of Revelation 20)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 80-81 (the millennium)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Revelation, chapter 5"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Apocalypse",
+          "definition": "'Unveiling'; a genre of symbolic visions revealing heavenly realities and God's purposes."
+        },
+        {
+          "term": "Preterist",
+          "definition": "Reading Revelation as mainly fulfilled in the first centuries."
+        },
+        {
+          "term": "Futurist",
+          "definition": "Reading most of Revelation as describing events at the end of history."
+        },
+        {
+          "term": "Idealist",
+          "definition": "Reading Revelation as depicting timeless principles of the conflict between God and evil."
+        }
+      ],
+      "discussion_questions": [
+        "Why is the Lamb who was slain the only one worthy to open the scroll (Rev 5)?",
+        "Compare Justin's and Augustine's views of the millennium.",
+        "How would Revelation have encouraged persecuted churches in Asia Minor?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Revelation was addressed first to",
+          "options": [
+            "the church in Rome",
+            "seven churches in the province of Asia",
+            "the Jerusalem church",
+            "Corinth"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Revelation 5 John expects a lion but sees",
+          "options": [
+            "a dragon",
+            "a Lamb standing as though slain",
+            "an eagle",
+            "a rider on a white horse"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Reading Revelation mainly as fulfilled in the first centuries is the",
+          "options": [
+            "futurist view",
+            "idealist view",
+            "preterist view",
+            "historicist view"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Augustine understood the thousand years of Revelation 20 as",
+          "options": [
+            "a future earthly kingdom",
+            "the present age of the church",
+            "the period before the flood",
+            "the reign of Constantine"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Revelation 21 describes",
+          "options": [
+            "the fall of Babylon",
+            "a new heaven and a new earth, and God dwelling with his people",
+            "the seven seals",
+            "the letters to the churches"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name and define the four main approaches to interpreting Revelation.",
+          "answer_key": "Preterist (mostly fulfilled in the first century/Roman era); historicist (a chart of church history from the apostles to the end); futurist (chapters 4-22 mostly concern the end-times future); idealist (symbolic of timeless spiritual conflict and victory). Many interpreters blend them."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the central message of Revelation?",
+          "answer_key": "The slain and risen Lamb reigns; God is sovereign over evil powers; he will judge evil, vindicate his suffering people and make all things new; therefore the church must remain faithful, worship God alone and endure."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/rev"
+    },
+    {
+      "id": "nts-12",
+      "title": "The Formation of the New Testament Canon",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe how the New Testament canon was recognized in the early church."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the criteria used (apostolicity, orthodoxy, catholicity/usage)."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate claims about 'lost gospels' and why they were not received."
+        }
+      ],
+      "scripture_passages": [
+        "2 Peter 3:14-16",
+        "1 Timothy 5:17-18",
+        "Jude 3"
+      ],
+      "library_readings": [
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book III, chapter 25 (the accepted, disputed and spurious writings)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book III, chapters 1-4 and 11 (the apostolic writings and tradition)"
+        },
+        {
+          "author": "Athanasius",
+          "title": "Festal Letters",
+          "section": "Letter 39 (A.D. 367, listing the canonical books)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Canon",
+          "definition": "The authoritative list of books recognized as Scripture."
+        },
+        {
+          "term": "Homologoumena",
+          "definition": "Books universally accepted (Eusebius's 'recognized' books)."
+        },
+        {
+          "term": "Antilegomena",
+          "definition": "Books disputed for a time (e.g. James, 2 Peter, 2-3 John, Jude)."
+        },
+        {
+          "term": "Muratorian Fragment",
+          "definition": "An early list of New Testament books (often dated to the late second century)."
+        }
+      ],
+      "discussion_questions": [
+        "What does 2 Peter 3:16 imply about the status of Paul's letters?",
+        "Did the church create the canon or recognize it? Why does the distinction matter?",
+        "Why were works like the Gospel of Thomas not received as Scripture?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In 2 Peter 3:16, Paul's letters are placed alongside",
+          "options": [
+            "the Apocrypha",
+            "'the other Scriptures'",
+            "the Talmud",
+            "Greek philosophy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Eusebius classified books as recognized, disputed and",
+          "options": [
+            "Jewish",
+            "spurious/rejected",
+            "Gnostic only",
+            "liturgical"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "A key criterion for accepting a New Testament book was",
+          "options": [
+            "length",
+            "apostolic origin or connection",
+            "popularity in Rome only",
+            "approval by the emperor"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Timothy 5:18 quotes as 'Scripture' a saying also found in",
+          "options": [
+            "Genesis",
+            "Luke (the worker deserves his wages)",
+            "Revelation",
+            "Thomas"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The list of the 27 New Testament books was set out in an Easter letter in 367 by",
+          "options": [
+            "Origen",
+            "Athanasius",
+            "Jerome",
+            "Constantine"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What criteria did the early church use to recognize New Testament books?",
+          "answer_key": "Apostolicity (written by an apostle or close associate), orthodoxy (agreement with the rule of faith), catholicity/usage (widely received and read in the churches), and antiquity; ultimately the church recognized books it heard as God's word."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is it said the church 'recognized' rather than 'created' the canon?",
+          "answer_key": "The books' authority came from their inspiration and apostolic witness, not from church decisions; councils and lists acknowledged what the churches had already received and used as Scripture."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper introducing ONE New Testament book of your choice. Cover its author, date and recipients (noting any debate), occasion and purpose, structure, major themes and theological contribution, and its place in the canon. Include a short exegesis of one key passage. Use at least two library sources (such as Eusebius, a church father's homily, or a commentary), cited as (Author, Title, section)."
+    }
+  ]
+}

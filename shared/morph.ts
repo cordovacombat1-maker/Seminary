@@ -20,7 +20,7 @@ export function parseMorphDescription(desc: string): Record<string, string> {
 }
 
 /** Fields a student can be asked to parse, in display order. */
-export const GREEK_FIELDS = ['Function', 'Tense', 'Voice', 'Mood', 'Case', 'Person', 'Number', 'Gender'] as const;
+export const GREEK_FIELDS = ['Function', 'Tense', 'Voice', 'Mood', 'Form', 'Case', 'Person', 'Number', 'Gender'] as const;
 export const HEBREW_FIELDS = ['Function', 'Stem', 'Form', 'Person', 'Gender', 'Number', 'State'] as const;
 
 export const FIELD_LABELS: Record<string, string> = {
@@ -33,7 +33,7 @@ export const FIELD_LABELS: Record<string, string> = {
   Number: 'Number',
   Gender: 'Gender',
   Stem: 'Stem (binyan)',
-  Form: 'Form (conjugation)',
+  Form: 'Form',
   State: 'State',
 };
 

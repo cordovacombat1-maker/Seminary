@@ -1,0 +1,1802 @@
+{
+  "id": "greek-2",
+  "title": "Greek II: Intermediate New Testament Greek and Exegesis",
+  "tier": 2,
+  "tier_name": "Languages",
+  "description": "Completes the basic grammar of New Testament Greek and turns to exegesis. Students master the aorist, perfect and passive systems, contract and -μι verbs, participles, the subjunctive, infinitive and imperative, and learn to use grammatical analysis responsibly in interpretation. Drills draw thousands of real verb forms from the Greek New Testament and check them against STEPBible's morphology. The course ends with an exegetical paper based on the student's own translation.",
+  "prerequisites": [
+    "greek-1"
+  ],
+  "lessons": [
+    {
+      "id": "gk2-01",
+      "title": "The Aorist Active and Middle Indicative",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Form first aorist (ἔλυσα) and second aorist (ἔλαβον, ἔβαλον) indicatives."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the aorist's perfective aspect and avoid the 'once-for-all' fallacy."
+        },
+        {
+          "id": "o3",
+          "text": "Parse aorist indicatives in New Testament narrative."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:10-14",
+        "Romans 5:12",
+        "Mark 1:9-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 26-27 and 45-52 (Adam's sin and its consequences; on Romans 5:12)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Romans, chapter 5"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Aorist",
+          "definition": "The tense presenting an action as a whole (perfective aspect); in the indicative usually past time."
+        },
+        {
+          "term": "First aorist",
+          "definition": "Formed with augment + σα (ἔλυσα)."
+        },
+        {
+          "term": "Second aorist",
+          "definition": "Formed from a different stem with imperfect-like endings (λαμβάνω → ἔλαβον)."
+        },
+        {
+          "term": "Aorist fallacy",
+          "definition": "Assuming the aorist necessarily means 'once for all' or punctiliar action."
+        }
+      ],
+      "discussion_questions": [
+        "How does ἥμαρτον ('all sinned') in Romans 5:12 function in Paul's argument? How have Augustine and others read it?",
+        "Why is it wrong to say the aorist always means 'once for all'?",
+        "What does the series of aorists in John 1:10-14 do in the narrative?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The first aorist active indicative first person singular of λύω is",
+          "options": [
+            "ἔλυον",
+            "ἔλυσα",
+            "λέλυκα",
+            "λύσω"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The aorist presents action as",
+          "options": [
+            "ongoing",
+            "a complete whole (perfective)",
+            "completed with present results",
+            "future"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "ἔλαβον is a second aorist of",
+          "options": [
+            "λύω",
+            "λαμβάνω",
+            "βάλλω",
+            "λέγω"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The aorist indicative normally carries",
+          "options": [
+            "future time",
+            "an augment marking past time",
+            "reduplication",
+            "no personal endings"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Saying the aorist always means 'once for all' is",
+          "options": [
+            "correct",
+            "a fallacy; context determines such nuances",
+            "true only in Paul",
+            "true in the subjunctive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the difference between the first and second aorist.",
+          "answer_key": "First aorist adds σα to the verb stem with augment (ἔλυσα, 'I loosed'); second aorist uses a distinct aorist stem (often shorter) with imperfect-style endings (ἔλαβον from λαμβάνω, εἶπον from λέγω). They mean the same; only formation differs."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does it mean that the aorist is 'perfective' in aspect?",
+          "answer_key": "The author views the action as a whole, from outside, without focusing on its progress or duration; it may describe a long or short, single or repeated action summarized as a unit."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-AAI-%",
+          "V-AMI-%",
+          "V-ADI-%",
+          "V-2AAI-%",
+          "V-2AMI-%",
+          "V-2ADI-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Person",
+          "Number"
+        ],
+        "instructions": "Parse each aorist indicative (first or second aorist)."
+      }
+    },
+    {
+      "id": "gk2-02",
+      "title": "The Passive System - Aorist and Future Passive",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Form the aorist passive (ἐλύθην) and future passive (λυθήσομαι)."
+        },
+        {
+          "id": "o2",
+          "text": "Recognize the 'divine passive' and discuss its use."
+        },
+        {
+          "id": "o3",
+          "text": "Parse passive forms in New Testament texts."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 4:25",
+        "1 Corinthians 15:3-5",
+        "Matthew 5:4-9"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 16, sections 13-16 (the resurrection of Christ)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Matthew, chapter 5 (the Beatitudes)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Aorist passive",
+          "definition": "Formed with θη (ἐλύθην, 'I was loosed')."
+        },
+        {
+          "term": "Future passive",
+          "definition": "Formed with θησ (λυθήσομαι, 'I will be loosed')."
+        },
+        {
+          "term": "Divine passive",
+          "definition": "A passive verb implying God as the unstated agent (e.g. 'they will be comforted')."
+        },
+        {
+          "term": "Agency",
+          "definition": "Expressed with ὑπό + genitive (personal agent) or dative of means."
+        }
+      ],
+      "discussion_questions": [
+        "Who is the implied agent in 'he was raised' (ἠγέρθη) in 1 Corinthians 15:4?",
+        "How do the future passives in the Beatitudes express God's promises?",
+        "Why is it important not to overuse the 'divine passive' category?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The aorist passive indicative first person singular of λύω is",
+          "options": [
+            "ἔλυσα",
+            "ἐλύθην",
+            "λυθήσομαι",
+            "λέλυμαι"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The characteristic marker of the aorist passive is",
+          "options": [
+            "σα",
+            "θη",
+            "κα",
+            "ε reduplication"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "λυθήσομαι is",
+          "options": [
+            "aorist passive",
+            "future passive",
+            "perfect middle",
+            "present middle"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Personal agency with a passive verb is usually expressed by",
+          "options": [
+            "ἐν + dative",
+            "ὑπό + genitive",
+            "εἰς + accusative",
+            "the nominative"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Matthew 5:4 'they shall be comforted' (παρακληθήσονται) is often called a",
+          "options": [
+            "deponent",
+            "divine passive",
+            "middle",
+            "periphrastic"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the 'divine passive'?",
+          "answer_key": "A passive construction in which God is understood as the agent although not named, reflecting reverent Jewish style, e.g. 'they shall be comforted' (by God), 'he was raised' (by God)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Translate ἠγέρθη τῇ ἡμέρᾳ τῇ τρίτῃ (1 Cor 15:4).",
+          "answer_key": "He was raised on the third day."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-API-%",
+          "V-FPI-%",
+          "V-AOI-%",
+          "V-FOI-%",
+          "V-2API-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Person",
+          "Number"
+        ],
+        "instructions": "Parse each aorist or future passive indicative verb."
+      }
+    },
+    {
+      "id": "gk2-03",
+      "title": "The Perfect and Pluperfect",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Form the perfect active (λέλυκα) and perfect middle/passive (λέλυμαι) with reduplication."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the perfect's stative aspect (a completed action with continuing results)."
+        },
+        {
+          "id": "o3",
+          "text": "Parse perfect and pluperfect verbs and interpret key perfects (e.g. γέγραπται, τετέλεσται)."
+        }
+      ],
+      "scripture_passages": [
+        "John 19:28-30",
+        "Matthew 4:4-10",
+        "Ephesians 2:5-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book V (the crucifixion and 'It is finished')"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapter 12 (comparing translations)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Perfect tense",
+          "definition": "Presents a completed action with resulting state (stative aspect)."
+        },
+        {
+          "term": "Reduplication",
+          "definition": "Repeating the initial consonant with ε to form the perfect (λύω → λέλυκα)."
+        },
+        {
+          "term": "Pluperfect",
+          "definition": "A past completed action with results in the past."
+        },
+        {
+          "term": "Periphrastic construction",
+          "definition": "A participle with εἰμί expressing a verbal idea (ἐστε σεσῳσμένοι, 'you are saved')."
+        }
+      ],
+      "discussion_questions": [
+        "What does the perfect τετέλεσται ('it is finished') convey in John 19:30?",
+        "Why does Jesus answer Satan with γέγραπται ('it is written')?",
+        "How does the periphrastic perfect in Ephesians 2:5, 8 shape assurance?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The perfect active indicative first person singular of λύω is",
+          "options": [
+            "ἔλυσα",
+            "λύσω",
+            "λέλυκα",
+            "ἐλελύκειν"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The perfect tense typically presents",
+          "options": [
+            "an ongoing action",
+            "a completed action with continuing results",
+            "a future action",
+            "a command"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "γέγραπται means",
+          "options": [
+            "he wrote",
+            "it stands written",
+            "it will be written",
+            "write!"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Reduplication means",
+          "options": [
+            "doubling the ending",
+            "repeating the initial consonant with ε",
+            "adding an augment",
+            "adding θη"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Ephesians 2:8 ἐστε σεσῳσμένοι ('you have been saved') is",
+          "options": [
+            "an aorist",
+            "a future",
+            "a periphrastic perfect",
+            "a subjunctive"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the meaning of τετέλεσται in John 19:30.",
+          "answer_key": "Perfect passive of τελέω - 'it has been completed/accomplished' and stands complete; Jesus declares his saving work finished with lasting results."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the difference between the perfect and the pluperfect?",
+          "answer_key": "The perfect presents a past completed action with results continuing into the present; the pluperfect presents a completed action whose results existed at a past time."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-R_I-%",
+          "V-2R_I-%",
+          "V-L_I-%",
+          "V-2L_I-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Person",
+          "Number"
+        ],
+        "instructions": "Parse each perfect or pluperfect indicative verb."
+      }
+    },
+    {
+      "id": "gk2-04",
+      "title": "Contract Verbs and Review of the Indicative",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Apply the contraction rules for -άω, -έω and -όω verbs (ἀγαπάω, ποιέω, πληρόω)."
+        },
+        {
+          "id": "o2",
+          "text": "Review all indicative tenses and voices."
+        },
+        {
+          "id": "o3",
+          "text": "Parse any indicative verb in a New Testament passage."
+        }
+      ],
+      "scripture_passages": [
+        "John 21:15-17",
+        "1 John 4:7-12",
+        "Matthew 5:17"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIV, chapter 7 (Scripture uses the words for love interchangeably, including in John 21)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on John, chapter 21"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Contract verb",
+          "definition": "A verb whose stem ends in α, ε or ο, which contracts with the connecting vowel."
+        },
+        {
+          "term": "ἀγαπάω",
+          "definition": "'I love' (contract verb in α)."
+        },
+        {
+          "term": "πληρόω",
+          "definition": "'I fulfill' (contract verb in ο)."
+        },
+        {
+          "term": "Principal parts",
+          "definition": "The six forms from which all tenses of a verb are built."
+        }
+      ],
+      "discussion_questions": [
+        "Is there a meaningful difference between ἀγαπάω and φιλέω in John 21? Weigh the arguments.",
+        "Why is knowing a verb's principal parts important?",
+        "How does πληρῶσαι ('to fulfill') in Matthew 5:17 shape Jesus' relation to the law?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "ε + ει contract to",
+          "options": [
+            "η",
+            "ει",
+            "ου",
+            "ω"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "ε + ο contract to",
+          "options": [
+            "ω",
+            "ου",
+            "ει",
+            "α"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "ἀγαπᾷ (from ἀγαπάω) is",
+          "options": [
+            "1st singular",
+            "3rd person singular present active indicative",
+            "2nd plural",
+            "infinitive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The number of principal parts traditionally learned for a Greek verb is",
+          "options": [
+            "three",
+            "four",
+            "six",
+            "ten"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In John 21:15-17 Jesus asks Peter",
+          "options": [
+            "two times",
+            "three times",
+            "once",
+            "seven times"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Evaluate the claim that ἀγαπάω and φιλέω carry sharply different meanings in John 21.",
+          "answer_key": "Many argue John uses them as stylistic synonyms (he varies other words in the passage, and both verbs are used of the Father's love elsewhere in John); others see a nuance. Careful study should avoid overdrawn distinctions; the threefold question mirrors Peter's threefold denial."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are contract verbs and why do their forms look irregular?",
+          "answer_key": "Verbs whose stems end in a vowel (α, ε, ο); in the present and imperfect the stem vowel contracts with the thematic vowel/ending, producing forms like ποιεῖ, ἀγαπῶμεν, πληροῦτε; in other tenses the vowel usually lengthens."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-P_I-%",
+          "V-I_I-%",
+          "V-F_I-%",
+          "V-A_I-%",
+          "V-R_I-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Person",
+          "Number"
+        ],
+        "instructions": "Mixed review - parse any indicative verb."
+      }
+    },
+    {
+      "id": "gk2-05",
+      "title": "Participles I - Present Participles and Adjectival Use",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the participle as a verbal adjective."
+        },
+        {
+          "id": "o2",
+          "text": "Form present active and middle/passive participles (λύων, λύουσα, λῦον; λυόμενος)."
+        },
+        {
+          "id": "o3",
+          "text": "Translate attributive and substantival participles (e.g. ὁ πιστεύων)."
+        }
+      ],
+      "scripture_passages": [
+        "John 3:16-18",
+        "John 6:35",
+        "1 John 5:1-5"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On the Predestination of the Saints",
+          "section": "Chapters 2-8 (faith as God's gift)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on John, chapter 6 (the bread of life)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Participle",
+          "definition": "A verbal adjective with tense and voice (like a verb) and case, number and gender (like an adjective)."
+        },
+        {
+          "term": "Attributive participle",
+          "definition": "Modifies a noun ('the man who believes')."
+        },
+        {
+          "term": "Substantival participle",
+          "definition": "Functions as a noun (ὁ πιστεύων, 'the one who believes')."
+        },
+        {
+          "term": "Aspect in participles",
+          "definition": "The present participle portrays ongoing action; time is relative to the main verb."
+        }
+      ],
+      "discussion_questions": [
+        "What does πᾶς ὁ πιστεύων ('everyone who believes') in John 3:16 emphasize?",
+        "How do present participles in 1 John 5:1-5 describe the Christian life?",
+        "Why must participle time be understood relative to the main verb?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "A participle has characteristics of both",
+          "options": [
+            "noun and preposition",
+            "verb and adjective",
+            "adverb and article",
+            "pronoun and conjunction"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The masculine nominative singular present active participle of λύω is",
+          "options": [
+            "λύσας",
+            "λύων",
+            "λελυκώς",
+            "λυθείς"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "ὁ πιστεύων is best translated",
+          "options": [
+            "he believed",
+            "the one who believes",
+            "believe!",
+            "to believe"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Participles decline for",
+          "options": [
+            "person and mood",
+            "case, number and gender",
+            "only tense",
+            "nothing"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The present participle usually portrays action that is",
+          "options": [
+            "completed before the main verb",
+            "ongoing / simultaneous",
+            "future",
+            "a command"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is the participle called a verbal adjective?",
+          "answer_key": "It shares verb features (tense/aspect, voice, can take objects) and adjective features (declines in case, number, gender and modifies or functions as a noun)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Translate πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται (John 3:16).",
+          "answer_key": "Everyone who believes in him should not perish."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-P_P-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Form",
+          "Case",
+          "Number",
+          "Gender"
+        ],
+        "instructions": "Parse each present participle (tense, voice, form, case, number, gender)."
+      }
+    },
+    {
+      "id": "gk2-06",
+      "title": "Participles II - Aorist and Perfect Participles; Adverbial Use",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Form aorist (λύσας, λυθείς) and perfect (λελυκώς) participles."
+        },
+        {
+          "id": "o2",
+          "text": "Identify adverbial participles (temporal, causal, means, manner, purpose, concessive) and the genitive absolute."
+        },
+        {
+          "id": "o3",
+          "text": "Translate participles in New Testament sentences."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 5:1",
+        "Matthew 28:19-20",
+        "Hebrews 12:1-2"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Matthew, chapter 28 (the Great Commission)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 13 (on peace of conscience through justification)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Adverbial (circumstantial) participle",
+          "definition": "Modifies the verb, expressing time, cause, means, manner, purpose or concession."
+        },
+        {
+          "term": "Genitive absolute",
+          "definition": "A participle and noun/pronoun in the genitive, loosely connected to the sentence ('while he was speaking')."
+        },
+        {
+          "term": "Attendant circumstance",
+          "definition": "A participle that takes on the mood of the main verb (e.g. πορευθέντες in Matthew 28:19)."
+        },
+        {
+          "term": "Aorist participle",
+          "definition": "Usually portrays action antecedent to the main verb."
+        }
+      ],
+      "discussion_questions": [
+        "Is πορευθέντες in Matthew 28:19 'having gone' or 'go'? What difference does it make?",
+        "How does δικαιωθέντες ('having been justified') in Romans 5:1 relate to 'we have peace'?",
+        "What do the participles in Hebrews 12:1-2 contribute to the exhortation?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The masculine nominative singular aorist active participle of λύω is",
+          "options": [
+            "λύων",
+            "λύσας",
+            "λυθείς",
+            "λελυκώς"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The aorist participle usually expresses action",
+          "options": [
+            "after the main verb",
+            "before the main verb (antecedent)",
+            "never related to the main verb",
+            "only future"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The main verb in Matthew 28:19-20 is",
+          "options": [
+            "πορευθέντες (going)",
+            "μαθητεύσατε (make disciples)",
+            "βαπτίζοντες (baptizing)",
+            "διδάσκοντες (teaching)"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "A genitive absolute is typically translated",
+          "options": [
+            "as a command",
+            "as a subordinate clause, such as 'while...' or 'when...'",
+            "as the subject",
+            "as a question"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "δικαιωθέντες in Romans 5:1 is",
+          "options": [
+            "present active",
+            "aorist passive participle",
+            "future",
+            "perfect active"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the grammar of Matthew 28:19-20.",
+          "answer_key": "The main verb is the aorist imperative μαθητεύσατε ('make disciples'); πορευθέντες is an aorist participle of attendant circumstance usually translated 'go' with imperatival force; βαπτίζοντες and διδάσκοντες are present participles describing how disciples are made (means/manner)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "List four kinds of adverbial participles.",
+          "answer_key": "Temporal (when/while), causal (because), means (by), manner (in a manner), purpose (in order to), concessive (although), conditional (if), attendant circumstance."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-A_P-%",
+          "V-2A_P-%",
+          "V-R_P-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Form",
+          "Case",
+          "Number",
+          "Gender"
+        ],
+        "instructions": "Parse each aorist or perfect participle."
+      }
+    },
+    {
+      "id": "gk2-07",
+      "title": "The Subjunctive Mood",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Form the present and aorist subjunctive (lengthened thematic vowel)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain uses of the subjunctive (purpose ἵνα, conditional ἐάν, hortatory, deliberative, prohibition, emphatic negation οὐ μή)."
+        },
+        {
+          "id": "o3",
+          "text": "Parse and translate subjunctive verbs."
+        }
+      ],
+      "scripture_passages": [
+        "John 3:16",
+        "1 John 1:9",
+        "John 10:28",
+        "Hebrews 4:14-16"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on 1 John, chapter 1 (if we confess)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Repentance of Believers' (on confession and forgiveness)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Subjunctive",
+          "definition": "The mood of probability, purpose, exhortation and contingency."
+        },
+        {
+          "term": "Hortatory subjunctive",
+          "definition": "'Let us...' (προσερχώμεθα, 'let us draw near')."
+        },
+        {
+          "term": "Third-class condition",
+          "definition": "ἐάν + subjunctive ('if..., and it may happen')."
+        },
+        {
+          "term": "Emphatic negation",
+          "definition": "οὐ μή + aorist subjunctive ('never, by no means')."
+        }
+      ],
+      "discussion_questions": [
+        "What does οὐ μὴ ἀπόλωνται ('they will never perish') in John 10:28 add to assurance?",
+        "How does the ἐάν clause in 1 John 1:9 frame confession?",
+        "What does the hortatory subjunctive in Hebrews 4:16 invite?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The subjunctive is marked chiefly by",
+          "options": [
+            "an augment",
+            "a lengthened connecting vowel (ω/η)",
+            "θη",
+            "reduplication"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "ἵνα + subjunctive usually expresses",
+          "options": [
+            "time",
+            "purpose or result",
+            "a command",
+            "a question only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "οὐ μή + aorist subjunctive expresses",
+          "options": [
+            "a weak possibility",
+            "emphatic negation ('never')",
+            "a question",
+            "a wish"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "προσερχώμεθα ('let us draw near') is a",
+          "options": [
+            "prohibitive subjunctive",
+            "hortatory subjunctive",
+            "future indicative",
+            "imperative"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "ἐάν with the subjunctive forms a",
+          "options": [
+            "first-class condition",
+            "second-class condition",
+            "third-class condition",
+            "wish"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give three uses of the subjunctive with examples.",
+          "answer_key": "Purpose (ἵνα πᾶς ὁ πιστεύων μὴ ἀπόληται, John 3:16); third-class condition (ἐὰν ὁμολογῶμεν, 1 John 1:9); hortatory (προσερχώμεθα, Heb 4:16); emphatic negation (οὐ μὴ ἀπόλωνται, John 10:28); prohibition (μή + aorist subjunctive)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Translate ἐὰν ὁμολογῶμεν τὰς ἁμαρτίας ἡμῶν (1 John 1:9a).",
+          "answer_key": "If we confess our sins."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-__S-%",
+          "V-2__S-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Person",
+          "Number"
+        ],
+        "instructions": "Parse each subjunctive verb."
+      }
+    },
+    {
+      "id": "gk2-08",
+      "title": "The Infinitive",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Form present, aorist and perfect infinitives."
+        },
+        {
+          "id": "o2",
+          "text": "Explain uses of the infinitive (purpose, result, complementary, substantival, with the article and prepositions)."
+        },
+        {
+          "id": "o3",
+          "text": "Parse and translate infinitives."
+        }
+      ],
+      "scripture_passages": [
+        "Philippians 1:21-23",
+        "Matthew 5:17",
+        "Luke 19:10"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Philippians, chapter 1 (to live is Christ)"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book IX, chapter 11 (Monica's death and hope)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Infinitive",
+          "definition": "A verbal noun ('to loose')."
+        },
+        {
+          "term": "Articular infinitive",
+          "definition": "An infinitive with the article, often after a preposition (εἰς τό + infinitive, 'in order to')."
+        },
+        {
+          "term": "Complementary infinitive",
+          "definition": "Completes a verb like δύναμαι or θέλω."
+        },
+        {
+          "term": "Subject of the infinitive",
+          "definition": "Usually in the accusative case."
+        }
+      ],
+      "discussion_questions": [
+        "How do the articular infinitives in Philippians 1:21 ('to live... to die') function?",
+        "What purpose does Luke 19:10 express with infinitives?",
+        "How can an infinitive function as a noun?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The present active infinitive of λύω is",
+          "options": [
+            "λῦσαι",
+            "λύειν",
+            "λελυκέναι",
+            "λυθῆναι"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The aorist passive infinitive of λύω is",
+          "options": [
+            "λύεσθαι",
+            "λῦσαι",
+            "λυθῆναι",
+            "λύσειν"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The subject of an infinitive is normally in the",
+          "options": [
+            "nominative",
+            "genitive",
+            "dative",
+            "accusative"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Philippians 1:21, τὸ ζῆν and τὸ ἀποθανεῖν are",
+          "options": [
+            "participles",
+            "articular infinitives used as nouns",
+            "imperatives",
+            "subjunctives"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Luke 19:10 says the Son of Man came",
+          "options": [
+            "to judge",
+            "to seek and to save the lost",
+            "to be served",
+            "to rule"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name three uses of the infinitive.",
+          "answer_key": "Purpose ('came to save'), result, complementary (after δύναμαι, θέλω), substantival (as subject or object: 'to live is Christ'), with prepositions (διὰ τό, εἰς τό, ἐν τῷ), indirect discourse."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Translate ἐμοὶ γὰρ τὸ ζῆν Χριστὸς καὶ τὸ ἀποθανεῖν κέρδος (Phil 1:21).",
+          "answer_key": "For to me to live is Christ, and to die is gain."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-__N",
+          "V-2__N"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Form"
+        ],
+        "instructions": "Parse each infinitive (tense, voice, form)."
+      }
+    },
+    {
+      "id": "gk2-09",
+      "title": "The Imperative Mood",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Form present and aorist imperatives in the second and third persons."
+        },
+        {
+          "id": "o2",
+          "text": "Explain aspect in commands (present = ongoing/general; aorist = specific/whole)."
+        },
+        {
+          "id": "o3",
+          "text": "Parse and translate imperatives in New Testament exhortations."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 6:9-13",
+        "Romans 12:1-2",
+        "Philippians 4:4-7"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "The Lord's Prayer"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 20, sections 34-47 (exposition of the Lord's Prayer)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Imperative",
+          "definition": "The mood of command or request."
+        },
+        {
+          "term": "Aorist imperative",
+          "definition": "Presents the command as a whole, often specific or urgent (ἐλθέτω, 'let [your kingdom] come')."
+        },
+        {
+          "term": "Present imperative",
+          "definition": "Presents the command as ongoing or general (χαίρετε, 'keep rejoicing')."
+        },
+        {
+          "term": "Prohibition",
+          "definition": "μή + present imperative or μή + aorist subjunctive."
+        }
+      ],
+      "discussion_questions": [
+        "The petitions of the Lord's Prayer are aorist imperatives. What does that suggest?",
+        "What is the difference between μὴ συσχηματίζεσθε and μεταμορφοῦσθε in Romans 12:2?",
+        "How should we avoid over-reading aspect in commands?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The present active imperative second person singular of λύω is",
+          "options": [
+            "λύεις",
+            "λῦε",
+            "λῦσον",
+            "λυέτω"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The aorist active imperative second person singular of λύω is",
+          "options": [
+            "λῦε",
+            "λῦσον",
+            "λύσω",
+            "ἔλυσα"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Greek has imperatives in the second and",
+          "options": [
+            "first person",
+            "third person",
+            "no other person",
+            "all persons"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "χαίρετε in Philippians 4:4 is a",
+          "options": [
+            "subjunctive",
+            "present imperative ('rejoice')",
+            "participle",
+            "future"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "ἁγιασθήτω τὸ ὄνομά σου ('hallowed be your name') is a",
+          "options": [
+            "present indicative",
+            "third person aorist passive imperative",
+            "subjunctive",
+            "infinitive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does aspect affect the meaning of commands?",
+          "answer_key": "Present imperatives present the action as ongoing, habitual or general ('keep doing'); aorist imperatives present it as a whole, often specific or urgent; context must confirm nuances rather than rigid rules."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Translate ἐλθέτω ἡ βασιλεία σου (Matt 6:10).",
+          "answer_key": "Let your kingdom come / May your kingdom come."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-__M-%",
+          "V-2__M-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Person",
+          "Number"
+        ],
+        "instructions": "Parse each imperative."
+      }
+    },
+    {
+      "id": "gk2-10",
+      "title": "-μι Verbs and Irregular Forms",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize the forms of common -μι verbs (δίδωμι, τίθημι, ἵστημι, ἀφίημι)."
+        },
+        {
+          "id": "o2",
+          "text": "Identify common irregular verbs (e.g. ὁράω/εἶδον, λέγω/εἶπον, ἔρχομαι/ἦλθον)."
+        },
+        {
+          "id": "o3",
+          "text": "Parse and translate forms in texts on giving and forgiving."
+        }
+      ],
+      "scripture_passages": [
+        "John 3:16",
+        "Matthew 6:12-15",
+        "Mark 10:45"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Lord's Prayer, Fifth Petition (forgive us our trespasses)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Mark, chapter 10 (a ransom for many)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "-μι verb",
+          "definition": "An athematic verb whose first person present ends in -μι (δίδωμι)."
+        },
+        {
+          "term": "δίδωμι",
+          "definition": "'I give' (ἔδωκεν, 'he gave', John 3:16)."
+        },
+        {
+          "term": "ἀφίημι",
+          "definition": "'I forgive, release, leave'."
+        },
+        {
+          "term": "Suppletive verb",
+          "definition": "A verb whose tenses come from different roots (λέγω, εἶπον; ὁράω, εἶδον)."
+        }
+      ],
+      "discussion_questions": [
+        "What does ἔδωκεν in John 3:16 reveal about God's love?",
+        "How are the ideas of 'release' and 'forgive' connected in ἀφίημι?",
+        "What does λύτρον ('ransom') in Mark 10:45 imply about Jesus' death?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "δίδωμι means",
+          "options": [
+            "I put",
+            "I give",
+            "I stand",
+            "I forgive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "ἔδωκεν (John 3:16) is",
+          "options": [
+            "present",
+            "aorist active indicative 3rd singular ('he gave')",
+            "future",
+            "perfect"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "ἀφίημι can mean",
+          "options": [
+            "I see",
+            "I forgive, release, leave",
+            "I say",
+            "I come"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The aorist of λέγω is usually",
+          "options": [
+            "ἔλεξα",
+            "εἶπον",
+            "λέλεκα",
+            "ἔλεγον"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Mark 10:45 says the Son of Man came to give his life as",
+          "options": [
+            "an example",
+            "a ransom for many",
+            "a law",
+            "a teaching"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is a -μι verb, and how does it differ from an -ω verb?",
+          "answer_key": "An athematic verb that adds endings directly to the stem without a connecting vowel, often with reduplication in the present (δί-δω-μι); -ω verbs are thematic (use connecting vowels ο/ε)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Translate ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν (Matt 6:12).",
+          "answer_key": "Forgive us our debts."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-%I-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Person",
+          "Number"
+        ],
+        "instructions": "Parse any indicative verb (including -μι verbs and irregular forms)."
+      }
+    },
+    {
+      "id": "gk2-11",
+      "title": "Tools and Method for Greek Exegesis",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Use a lexicon responsibly (semantic range, usage in context) with STEPBible data."
+        },
+        {
+          "id": "o2",
+          "text": "Do a structural (phrase) diagram of a Greek sentence."
+        },
+        {
+          "id": "o3",
+          "text": "Understand textual criticism basics and the Greek editions (NA, TR, Byzantine) as noted in STEPBible data."
+        }
+      ],
+      "scripture_passages": [
+        "Ephesians 1:3-14",
+        "John 7:53-8:11",
+        "1 John 5:7-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapters 12-15 (comparing manuscripts and translations)"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book VI, chapters 16 and 25 (Origen's Hexapla and his list of Scriptures)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Lexicon",
+          "definition": "A dictionary of the words of a language with their range of meanings and usages."
+        },
+        {
+          "term": "Textual criticism",
+          "definition": "The discipline of establishing the most likely original wording from the manuscripts."
+        },
+        {
+          "term": "Textus Receptus (TR)",
+          "definition": "The printed Greek text underlying the KJV New Testament."
+        },
+        {
+          "term": "Phrase diagram",
+          "definition": "A layout showing main clauses and subordinate phrases."
+        }
+      ],
+      "discussion_questions": [
+        "Ephesians 1:3-14 is one long sentence in Greek. How can a diagram help?",
+        "STEPBible marks words found in different editions. Why do editions differ in places like John 7:53-8:11?",
+        "How can a responsible pastor speak about textual variants to a congregation?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Ephesians 1:3-14 in Greek is",
+          "options": [
+            "ten sentences",
+            "a single long sentence",
+            "a poem in Hebrew",
+            "a list of names"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Textual criticism seeks to",
+          "options": [
+            "criticize the Bible",
+            "determine the most likely original wording from manuscripts",
+            "translate the Bible",
+            "harmonize the Gospels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Greek text underlying the King James New Testament is called the",
+          "options": [
+            "Nestle-Aland",
+            "Textus Receptus",
+            "Septuagint",
+            "Vulgate"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The phrase in 1 John 5:7-8 about 'the Father, the Word and the Holy Spirit' (the Comma Johanneum) is",
+          "options": [
+            "in all early Greek manuscripts",
+            "absent from the early Greek manuscripts",
+            "in the Septuagint",
+            "added by Luther"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Origen's Hexapla was",
+          "options": [
+            "a hymnbook",
+            "a six-column comparison of Old Testament texts and translations",
+            "a list of heresies",
+            "a Gospel harmony"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe responsible use of a lexicon.",
+          "answer_key": "Consult the word's range of meanings, study its uses in context (especially the same author), let context choose the meaning, avoid root and totality fallacies, and consider synonyms and grammar."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why do different Greek editions sometimes differ?",
+          "answer_key": "Because manuscripts differ through copying variations; editors weigh external evidence (age, spread, families of manuscripts) and internal evidence (author's style, likely scribal changes); the TR relied on later Byzantine manuscripts, while modern critical texts (NA) use earlier witnesses. No doctrine rests on a disputed variant alone."
+        }
+      ],
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "N-%",
+          "V-%",
+          "A-%",
+          "P-%"
+        ],
+        "fields": [
+          "Function",
+          "Tense",
+          "Voice",
+          "Mood",
+          "Form",
+          "Case",
+          "Person",
+          "Number",
+          "Gender"
+        ],
+        "instructions": "Full parsing review - parse every feature shown for each word."
+      }
+    },
+    {
+      "id": "gk2-12",
+      "title": "Exegetical Capstone - Translating and Interpreting a Passage",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Produce your own translation of a Greek passage with parsing and notes."
+        },
+        {
+          "id": "o2",
+          "text": "Show how grammatical observations inform interpretation without overstating them."
+        },
+        {
+          "id": "o3",
+          "text": "Write a short exegetical paper using the Greek text."
+        }
+      ],
+      "scripture_passages": [
+        "Philippians 2:5-11",
+        "Romans 3:21-26",
+        "Colossians 1:15-20"
+      ],
+      "library_readings": [
+        {
+          "author": "Athanasius",
+          "title": "Discourses Against the Arians",
+          "section": "Discourse I, chapters 37-45 (on Philippians 2:9-10)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 13 (the true humanity of Christ)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Philippians, chapter 2"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Exegesis",
+          "definition": "Drawing out the author's meaning through careful study of the text."
+        },
+        {
+          "term": "Morphē",
+          "definition": "'Form' (Phil 2:6-7) - the form of God and the form of a servant."
+        },
+        {
+          "term": "Harpagmos",
+          "definition": "A rare word in Phil 2:6 ('something to be grasped/exploited')."
+        },
+        {
+          "term": "Hilastērion",
+          "definition": "'Propitiation / mercy seat' (Rom 3:25)."
+        }
+      ],
+      "discussion_questions": [
+        "How does ἐν μορφῇ θεοῦ ὑπάρχων (Phil 2:6) inform Christology?",
+        "What interpretive options exist for ἁρπαγμός?",
+        "How does grammar help trace Paul's argument in Romans 3:21-26?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Philippians 2:6 Christ existed in the",
+          "options": [
+            "likeness of angels",
+            "form (μορφή) of God",
+            "image of Adam",
+            "shadow of the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Philippians 2:7 says he emptied himself by",
+          "options": [
+            "giving up his divinity",
+            "taking the form of a servant",
+            "becoming an angel",
+            "ceasing to exist"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "ἱλαστήριον (Rom 3:25) is translated",
+          "options": [
+            "righteousness",
+            "propitiation / mercy seat / atoning sacrifice",
+            "redemption",
+            "faith"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Colossians 1:15 calls Christ",
+          "options": [
+            "the first creature",
+            "the image of the invisible God, the firstborn of all creation",
+            "an angel",
+            "a prophet"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A responsible use of grammar in exegesis",
+          "options": [
+            "builds whole doctrines on one tense",
+            "supports conclusions drawn from context and the whole passage",
+            "ignores context",
+            "avoids theology"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Philippians 2:6-8 describe the 'emptying' (kenosis) of Christ?",
+          "answer_key": "Christ, existing in the form of God, did not regard equality with God as something to exploit, but emptied himself by taking the form of a servant, being born in human likeness and humbling himself to death on a cross - adding humanity and servanthood, not subtracting deity."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the danger of 'grammatical overreach' in exegesis?",
+          "answer_key": "Building large theological claims on a single form (e.g. aorist = once for all) or rare usage, ignoring context, authorial style and the range of grammatical meanings; grammar supports but does not replace contextual interpretation."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word exegetical paper on Philippians 2:5-11, Romans 3:21-26 or Colossians 1:15-20. Include (1) your own translation from the Greek (use your tutor's STEPBible lookups for the words, glosses and parsing), (2) parsing of every verb, (3) a structural outline, (4) discussion of at least three significant grammatical or lexical features, (5) interaction with at least two library sources (for example Athanasius, Calvin, Chrysostom or a commentary) cited as (Author, Title, section), and (6) theological and pastoral conclusions.",
+      "drill": {
+        "language": "greek",
+        "morph_patterns": [
+          "V-%"
+        ],
+        "fields": [
+          "Tense",
+          "Voice",
+          "Mood",
+          "Form",
+          "Case",
+          "Person",
+          "Number",
+          "Gender"
+        ],
+        "instructions": "Final review - parse any verb form in the New Testament."
+      }
+    }
+  ]
+}

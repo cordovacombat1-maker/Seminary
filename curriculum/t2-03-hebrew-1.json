@@ -1,0 +1,1743 @@
+{
+  "id": "hebrew-1",
+  "title": "Hebrew I: Foundations of Biblical Hebrew",
+  "tier": 2,
+  "tier_name": "Languages",
+  "description": "An introduction to the Hebrew of the Old Testament. Students learn the alphabet, vowel points and syllables, the article, prepositions and conjunction, nouns and adjectives, the construct chain, pronouns and pronominal suffixes, and the Qal stem of the strong verb (perfect, imperfect, wayyiqtol, imperative, infinitive and participle). Drills draw real words from the Hebrew Bible (STEPBible's TAHOT, based on the Leningrad Codex) and check each answer against STEPBible's morphology tags. By the end students can read Genesis 1:1-5 and Deuteronomy 6:4-9.",
+  "prerequisites": [
+    "ot-survey"
+  ],
+  "lessons": [
+    {
+      "id": "hb1-01",
+      "title": "Why Hebrew? The Alphabet and Writing System",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the value of Hebrew for interpreting the Old Testament."
+        },
+        {
+          "id": "o2",
+          "text": "Write and pronounce the 22 consonants, including the five final forms and the begadkephat letters."
+        },
+        {
+          "id": "o3",
+          "text": "Read simple words from Genesis 1:1 in Hebrew script, right to left."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:1",
+        "Psalm 119:1-8",
+        "Nehemiah 8:8"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapters 11 and 16 (why learn Hebrew; Hebrew names)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Psalm 119 (the acrostic)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Consonantal alphabet",
+          "definition": "Hebrew writes 22 consonants; vowels were originally not written."
+        },
+        {
+          "term": "Final forms",
+          "definition": "Five letters (kaph, mem, nun, pe, tsade) have special forms at the end of a word (ך ם ן ף ץ)."
+        },
+        {
+          "term": "Begadkephat",
+          "definition": "The six letters ב ג ד כ פ ת which can take a dagesh lene, affecting pronunciation."
+        },
+        {
+          "term": "Acrostic",
+          "definition": "A poem whose lines or stanzas begin with successive letters of the alphabet (Psalm 119)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Psalm 119's acrostic structure communicate its message?",
+        "What might be lost when Hebrew poetry and wordplay are translated?",
+        "Why does Hebrew read from right to left, and what practical habits help beginners?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "How many consonants are in the Hebrew alphabet?",
+          "options": [
+            "20",
+            "22",
+            "24",
+            "26"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Hebrew is read",
+          "options": [
+            "left to right",
+            "right to left",
+            "top to bottom",
+            "in columns"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "How many Hebrew letters have special final forms?",
+          "options": [
+            "three",
+            "five",
+            "six",
+            "none"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The begadkephat letters are",
+          "options": [
+            "the guttural letters",
+            "ב ג ד כ פ ת",
+            "the vowel letters",
+            "the final forms"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Psalm 119 is organized as",
+          "options": [
+            "a genealogy",
+            "an acrostic with 22 stanzas",
+            "a narrative",
+            "a list of laws"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give two reasons why a pastor benefits from learning Hebrew.",
+          "answer_key": "E.g. about three-quarters of the Bible is in Hebrew; reading it directly reveals wordplay, poetry, structure and nuances lost in translation; it enables evaluation of translations and commentaries and deeper understanding of NT use of the OT."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are the five final forms?",
+          "answer_key": "Kaph (ך), mem (ם), nun (ן), pe (ף), tsade (ץ)."
+        }
+      ]
+    },
+    {
+      "id": "hb1-02",
+      "title": "Vowels, Syllables and the Masoretic Text",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize the Masoretic vowel points and the vowel letters (matres lectionis)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain shewa, dagesh and syllable rules."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the Masoretic Text and the Leningrad Codex (the basis of TAHOT)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:1-2",
+        "Deuteronomy 6:4",
+        "Psalm 23:1"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XV, chapters 11-14 (differences between the Hebrew text and the Septuagint)"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book VI, chapter 16 (Origen's study of the Hebrew and the Hexapla)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Masoretes",
+          "definition": "Jewish scholars (c. AD 500-1000) who added vowel points and accents and preserved the text."
+        },
+        {
+          "term": "Leningrad Codex",
+          "definition": "The oldest complete manuscript of the Hebrew Bible (AD 1008), basis of modern editions and of TAHOT."
+        },
+        {
+          "term": "Shewa",
+          "definition": "A vowel sign (two vertical dots) marking a very short vowel or no vowel."
+        },
+        {
+          "term": "Dagesh",
+          "definition": "A dot in a consonant - lene (hardening a begadkephat letter) or forte (doubling)."
+        }
+      ],
+      "discussion_questions": [
+        "Why did the Masoretes add vowels instead of changing the consonants?",
+        "How does the vowel pointing of יְהוָה reflect Jewish reverence for the divine name?",
+        "Augustine discusses differences between Hebrew and Greek texts. How should we view them?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Masoretes added",
+          "options": [
+            "new books",
+            "vowel points and accents",
+            "chapter divisions",
+            "a Greek translation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Leningrad Codex dates from about",
+          "options": [
+            "200 BC",
+            "AD 400",
+            "AD 1008",
+            "AD 1500"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "A dagesh forte indicates",
+          "options": [
+            "a silent letter",
+            "a doubled consonant",
+            "the end of a word",
+            "a question"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "A vocal shewa represents",
+          "options": [
+            "a long vowel",
+            "a very short vowel sound",
+            "a doubled consonant",
+            "a final letter"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The STEPBible TAHOT Hebrew text is based mainly on",
+          "options": [
+            "the Dead Sea Scrolls only",
+            "the Leningrad Codex",
+            "the Samaritan Pentateuch",
+            "the Septuagint"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the role of the Masoretes.",
+          "answer_key": "Jewish scribes who carefully preserved the consonantal text and added vowel points, accents and marginal notes (the Masorah) to fix the traditional pronunciation and reading, between about AD 500 and 1000."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the difference between dagesh lene and dagesh forte?",
+          "answer_key": "Dagesh lene appears in begadkephat letters (usually at the start of a syllable after a consonant) giving a hard pronunciation (e.g. b vs v); dagesh forte doubles the consonant and can appear in most letters."
+        }
+      ]
+    },
+    {
+      "id": "hb1-03",
+      "title": "The Article, Conjunction and Prepositions",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize the definite article הַ with dagesh forte."
+        },
+        {
+          "id": "o2",
+          "text": "Recognize the conjunction וְ and the inseparable prepositions בְּ, כְּ, לְ and the preposition מִן."
+        },
+        {
+          "id": "o3",
+          "text": "Identify prefixed elements in words from Genesis 1."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:1-5",
+        "Genesis 2:7"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XI, chapters 6-9 (in the beginning; the creation of light)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Genesis, chapter 1"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Definite article",
+          "definition": "הַ plus dagesh forte in the next consonant ('the')."
+        },
+        {
+          "term": "Vav conjunction",
+          "definition": "וְ ('and'), prefixed to words."
+        },
+        {
+          "term": "Inseparable prepositions",
+          "definition": "בְּ ('in'), כְּ ('like'), לְ ('to/for'), prefixed to words."
+        },
+        {
+          "term": "Object marker (אֵת)",
+          "definition": "A particle marking a definite direct object (untranslated)."
+        }
+      ],
+      "discussion_questions": [
+        "Genesis 1:1 contains two occurrences of אֵת. What do they mark?",
+        "Why is the absence of the article in בְּרֵאשִׁית debated?",
+        "How does prefixing affect looking words up in a lexicon?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Hebrew article is",
+          "options": [
+            "a separate word אֵת",
+            "the prefix הַ with dagesh in the next letter",
+            "the suffix -ים",
+            "the prefix וְ"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "וְ means",
+          "options": [
+            "the",
+            "and",
+            "in",
+            "not"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "אֵת in Genesis 1:1 marks",
+          "options": [
+            "the subject",
+            "the definite direct object",
+            "a question",
+            "a preposition 'with' only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The inseparable preposition לְ means",
+          "options": [
+            "in",
+            "like",
+            "to / for",
+            "from"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "בְּרֵאשִׁית means",
+          "options": [
+            "and God",
+            "in (the) beginning",
+            "the heavens",
+            "he created"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Identify the prefixed elements in וְאֵת הָאָרֶץ (Genesis 1:1).",
+          "answer_key": "וְ - conjunction 'and'; אֵת - object marker; הָ - definite article (with compensatory lengthening before א); אָרֶץ - 'earth'. 'And the earth'."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is the object marker important in Hebrew?",
+          "answer_key": "Because word order is flexible and there are no case endings; אֵת marks a definite direct object, helping identify subject and object."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HNc%",
+          "HV%",
+          "HR",
+          "HC",
+          "HTd",
+          "HTo",
+          "HAa%"
+        ],
+        "fields": [
+          "Function"
+        ],
+        "instructions": "Identify the part of speech of the main word in each Hebrew form (ignore attached prefixes)."
+      }
+    },
+    {
+      "id": "hb1-04",
+      "title": "Nouns - Gender, Number and the Dual",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Identify masculine and feminine nouns and plural and dual endings (ים-, וֹת-, יִם-)."
+        },
+        {
+          "id": "o2",
+          "text": "Recognize common irregular plurals."
+        },
+        {
+          "id": "o3",
+          "text": "Parse nouns for gender, number and state."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:6-10",
+        "Psalm 8:3-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Psalm 8"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XI, chapter 34 (the waters above the firmament)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Masculine plural",
+          "definition": "Usually -ִים (סוּסִים, 'horses')."
+        },
+        {
+          "term": "Feminine plural",
+          "definition": "Usually -וֹת (תּוֹרוֹת)."
+        },
+        {
+          "term": "Dual",
+          "definition": "-ַיִם for pairs (יָדַיִם, 'hands')."
+        },
+        {
+          "term": "Absolute state",
+          "definition": "The ordinary form of a noun, not bound to a following noun."
+        }
+      ],
+      "discussion_questions": [
+        "Why is שָׁמַיִם ('heavens') always plural in form?",
+        "How can a noun's form mislead about its gender?",
+        "What does אֱלֹהִים (plural form, singular meaning) teach about Hebrew usage?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The typical masculine plural ending is",
+          "options": [
+            "-וֹת",
+            "-ִים",
+            "-ָה",
+            "-ַיִם"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The typical feminine plural ending is",
+          "options": [
+            "-וֹת",
+            "-ִים",
+            "-ִי",
+            "-ָם"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The dual ending -ַיִם is used for",
+          "options": [
+            "any plural",
+            "natural pairs (hands, eyes)",
+            "feminine nouns only",
+            "verbs"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "אֱלֹהִים when referring to Israel's God takes",
+          "options": [
+            "plural verbs always",
+            "singular verbs (e.g. בָּרָא)",
+            "no verbs",
+            "only feminine adjectives"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The ordinary (unbound) form of a noun is the",
+          "options": [
+            "construct state",
+            "absolute state",
+            "dual",
+            "pausal form"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is אֱלֹהִים plural in form but usually singular in meaning?",
+          "answer_key": "It is often explained as a plural of majesty or fullness/intensity; when referring to the true God it takes singular verbs and adjectives (Gen 1:1 בָּרָא), showing it denotes one God. Some Christians have seen a hint of plurality within God, but that should not be overstated from grammar alone."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give the gender and number of שָׁמַיִם and מַיִם.",
+          "answer_key": "Both are masculine and plural/dual in form ('heavens', 'waters'), with plural agreement."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HNc%"
+        ],
+        "fields": [
+          "Gender",
+          "Number",
+          "State"
+        ],
+        "instructions": "Parse each noun for gender, number and state."
+      }
+    },
+    {
+      "id": "hb1-05",
+      "title": "Adjectives and the Construct Chain",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain attributive and predicate adjectives and their agreement with nouns."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the construct state and construct chains ('word of the LORD')."
+        },
+        {
+          "id": "o3",
+          "text": "Parse adjectives and construct nouns in biblical texts."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:31",
+        "Isaiah 6:3",
+        "Psalm 23:6"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XI, chapters 21-23 (the goodness of creation)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Isaiah, chapter 6"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Attributive adjective",
+          "definition": "Follows its noun and agrees in gender, number and definiteness (הָאִישׁ הַטּוֹב, 'the good man')."
+        },
+        {
+          "term": "Predicate adjective",
+          "definition": "Usually precedes the noun and lacks the article (טוֹב הָאִישׁ, 'the man is good')."
+        },
+        {
+          "term": "Construct state",
+          "definition": "A shortened form of a noun bound to the following noun, expressing 'of' (דְּבַר יְהוָה, 'the word of the LORD')."
+        },
+        {
+          "term": "Repetition for superlative",
+          "definition": "Repeating a word for emphasis (קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ, 'holy, holy, holy')."
+        }
+      ],
+      "discussion_questions": [
+        "What does 'very good' (טוֹב מְאֹד) add in Genesis 1:31?",
+        "How does the threefold 'holy' in Isaiah 6:3 express God's holiness?",
+        "How are construct chains made definite?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "An attributive adjective in Hebrew usually",
+          "options": [
+            "precedes the noun",
+            "follows the noun and agrees with it",
+            "has no agreement",
+            "takes the object marker"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The construct state expresses a relationship like",
+          "options": [
+            "'and'",
+            "'of' (possession or description)",
+            "'to'",
+            "'not'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "A construct chain is made definite when",
+          "options": [
+            "the first noun has the article",
+            "the final noun is definite (article, proper name or suffix)",
+            "all nouns have the article",
+            "it has a dual ending"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ in Isaiah 6:3 expresses",
+          "options": [
+            "a question",
+            "the superlative - supreme holiness",
+            "three gods",
+            "a plural adjective"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "טוֹב מְאֹד in Genesis 1:31 means",
+          "options": [
+            "not good",
+            "very good",
+            "good evening",
+            "good and evil"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Translate and analyze דְּבַר יְהוָה.",
+          "answer_key": "'The word of the LORD' - דְּבַר is the construct form of דָּבָר ('word'), bound to יְהוָה, which makes the chain definite."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain the difference between הַמֶּלֶךְ הַטּוֹב and טוֹב הַמֶּלֶךְ.",
+          "answer_key": "The first is attributive ('the good king' - adjective after the noun, both with the article); the second is predicate ('the king is good' - adjective without article, before the noun)."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HAa%",
+          "HNc%c"
+        ],
+        "fields": [
+          "Function",
+          "Gender",
+          "Number",
+          "State"
+        ],
+        "instructions": "Parse each adjective or construct noun (part of speech, gender, number, state)."
+      }
+    },
+    {
+      "id": "hb1-06",
+      "title": "Pronouns and Pronominal Suffixes",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Learn the independent personal pronouns (אֲנִי, אַתָּה, הוּא, etc.)."
+        },
+        {
+          "id": "o2",
+          "text": "Recognize pronominal suffixes on nouns and prepositions (e.g. -ִי 'my', -וֹ 'his')."
+        },
+        {
+          "id": "o3",
+          "text": "Parse pronouns and suffixes in texts like Psalm 23."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 23:1-6",
+        "Exodus 20:2",
+        "Ruth 1:16-17"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Psalm 23"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book X, chapter 6 (what do I love when I love my God?)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Independent pronoun",
+          "definition": "A separate pronoun word (אֲנִי 'I', הוּא 'he')."
+        },
+        {
+          "term": "Pronominal suffix",
+          "definition": "A pronoun attached to a noun, preposition or verb (רֹעִי, 'my shepherd')."
+        },
+        {
+          "term": "Demonstrative",
+          "definition": "זֶה ('this', m.), זֹאת ('this', f.)."
+        },
+        {
+          "term": "Relative",
+          "definition": "אֲשֶׁר ('who, which, that')."
+        }
+      ],
+      "discussion_questions": [
+        "How many first-person suffixes can you find in Psalm 23? What is their effect?",
+        "How does 'I am the LORD your God' (Exod 20:2) use pronouns and suffixes?",
+        "What makes Ruth's pledge (1:16-17) so personal?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "אֲנִי means",
+          "options": [
+            "you",
+            "I",
+            "he",
+            "we"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The suffix -ִי on a noun (e.g. רֹעִי) means",
+          "options": [
+            "his",
+            "your",
+            "my",
+            "their"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The suffix -וֹ usually means",
+          "options": [
+            "my",
+            "his",
+            "our",
+            "your (f.)"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "אֲשֶׁר is a",
+          "options": [
+            "verb",
+            "relative particle ('who, which')",
+            "preposition",
+            "noun"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Exodus 20:2, אֱלֹהֶיךָ means",
+          "options": [
+            "our God",
+            "your God",
+            "his God",
+            "gods"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Translate and analyze יְהוָה רֹעִי (Psalm 23:1).",
+          "answer_key": "'The LORD is my shepherd' - יְהוָה (the LORD) is the subject; רֹעִי is the Qal participle/noun 'shepherd' with first common singular suffix 'my'; the verb 'is' is implied (verbless clause)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is a verbless clause?",
+          "answer_key": "A clause without a finite verb, where 'to be' is implied (e.g. יְהוָה רֹעִי 'the LORD [is] my shepherd')."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HPp%",
+          "HSp%"
+        ],
+        "fields": [
+          "Function",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each independent pronoun or pronominal suffix (person, gender, number)."
+      }
+    },
+    {
+      "id": "hb1-07",
+      "title": "The Qal Perfect",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the Hebrew verb system - root, stem, conjugation."
+        },
+        {
+          "id": "o2",
+          "text": "Conjugate the Qal perfect of the strong verb (קָטַל)."
+        },
+        {
+          "id": "o3",
+          "text": "Parse Qal perfect verbs (e.g. בָּרָא in Genesis 1:1)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:1",
+        "Genesis 3:13",
+        "Psalm 51:4"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XI, chapter 4 (the world created in time)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Psalm 51"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Root",
+          "definition": "Usually three consonants carrying a basic meaning (ק־ט־ל, 'kill'; ב־ר־א, 'create')."
+        },
+        {
+          "term": "Stem (binyan)",
+          "definition": "A verbal pattern (Qal, Niphal, Piel, etc.) modifying the root's meaning."
+        },
+        {
+          "term": "Perfect (qatal)",
+          "definition": "A conjugation with suffixes, often expressing completed action."
+        },
+        {
+          "term": "PGN",
+          "definition": "Person, gender, number - marked by the verb's affixes."
+        }
+      ],
+      "discussion_questions": [
+        "Why is בָּרָא (create) used only with God as subject in the Old Testament?",
+        "How does the perfect differ from English past tense?",
+        "What does Psalm 51:4's confession ('against you only have I sinned') show about the perfect?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Qal perfect 3ms of קטל is",
+          "options": [
+            "יִקְטֹל",
+            "קָטַל",
+            "קְטֹל",
+            "קֹטֵל"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "בָּרָא in Genesis 1:1 is",
+          "options": [
+            "Qal imperfect 3ms",
+            "Qal perfect 3ms",
+            "Piel perfect",
+            "a noun"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Hebrew perfect is formed with",
+          "options": [
+            "prefixes",
+            "suffixes",
+            "reduplication",
+            "an augment"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Qal perfect 1cs ending is",
+          "options": [
+            "-ָה",
+            "-תִּי",
+            "-וּ",
+            "-נוּ only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Qal stem expresses",
+          "options": [
+            "causative action",
+            "the simple active meaning",
+            "passive only",
+            "intensive action"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Conjugate the Qal perfect of קטל in the singular.",
+          "answer_key": "3ms קָטַל, 3fs קָטְלָה, 2ms קָטַלְתָּ, 2fs קָטַלְתְּ, 1cs קָטַלְתִּי."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is a verbal root and stem in Hebrew?",
+          "answer_key": "The root is the (usually three-consonant) base carrying the core meaning; the stem (Qal, Niphal, Piel, Pual, Hiphil, Hophal, Hithpael) is a pattern that modifies the root's voice or kind of action."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVqp%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each Qal perfect verb (stem, form, person, gender, number)."
+      }
+    },
+    {
+      "id": "hb1-08",
+      "title": "The Qal Imperfect",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Conjugate the Qal imperfect with its prefixes and suffixes (יִקְטֹל)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the range of meanings of the imperfect (future, habitual, modal)."
+        },
+        {
+          "id": "o3",
+          "text": "Parse Qal imperfect verbs in poetry and law."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 20:3-17",
+        "Psalm 23:1-4",
+        "Psalm 1:1-6"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Ten Commandments ('You shall...')"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Exodus, chapter 20"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Imperfect (yiqtol)",
+          "definition": "A conjugation with prefixes (and some suffixes), often future or incomplete action."
+        },
+        {
+          "term": "Prohibition",
+          "definition": "לֹא + imperfect ('you shall not...'), as in the Decalogue."
+        },
+        {
+          "term": "Modal use",
+          "definition": "The imperfect expressing may/might/should."
+        },
+        {
+          "term": "Preformative",
+          "definition": "The prefix of the imperfect (י, ת, א, נ)."
+        }
+      ],
+      "discussion_questions": [
+        "Why are the Ten Commandments expressed with לֹא + imperfect?",
+        "How should לֹא אֶחְסָר in Psalm 23:1 be translated?",
+        "What is the difference between prohibition with לֹא and with אַל?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Qal imperfect 3ms of קטל is",
+          "options": [
+            "קָטַל",
+            "יִקְטֹל",
+            "קְטֹל",
+            "וַיִּקְטֹל"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The imperfect is formed mainly with",
+          "options": [
+            "suffixes only",
+            "prefixes (and some suffixes)",
+            "reduplication",
+            "vowel change only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "לֹא + imperfect expresses",
+          "options": [
+            "a wish",
+            "a permanent prohibition ('you shall not')",
+            "past action",
+            "a question"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The imperfect can express",
+          "options": [
+            "only future",
+            "future, habitual or modal action depending on context",
+            "only past",
+            "only commands"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The imperfect preformative for 1cs is",
+          "options": [
+            "י",
+            "ת",
+            "א",
+            "נ"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Translate לֹא תִרְצָח (Exodus 20:13) and parse the verb.",
+          "answer_key": "'You shall not murder' - תִרְצָח is Qal imperfect 2ms of רצח, with לֹא expressing a permanent prohibition."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is the Hebrew imperfect not simply a 'future tense'?",
+          "answer_key": "Its meaning depends on context: it can express future, habitual/repeated action (even in the past), incomplete action, or modal nuances (may, should, would); aspect and syntax matter more than time."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVqi%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each Qal imperfect verb."
+      }
+    },
+    {
+      "id": "hb1-09",
+      "title": "Wayyiqtol and Weqatal - Hebrew Narrative Verbs",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize the wayyiqtol (vav consecutive imperfect) as the main narrative past verb."
+        },
+        {
+          "id": "o2",
+          "text": "Recognize the weqatal (vav consecutive perfect) for future or sequential action."
+        },
+        {
+          "id": "o3",
+          "text": "Parse and translate a short narrative (Genesis 1:3-5)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:3-5",
+        "Genesis 22:1-3",
+        "Ruth 1:1-5"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XI, chapters 7-9 (the days of creation and the creation of light)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Ruth, chapter 1"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Wayyiqtol",
+          "definition": "Vav + patach + dagesh + imperfect form (וַיֹּאמֶר, 'and he said'), the backbone of past narrative."
+        },
+        {
+          "term": "Weqatal",
+          "definition": "Vav + perfect (וְקָטַלְתָּ), often future or instructional sequence."
+        },
+        {
+          "term": "Mainline vs offline",
+          "definition": "Wayyiqtol carries the storyline; other clauses give background."
+        },
+        {
+          "term": "וַיְהִי",
+          "definition": "'And it came to pass' - a common narrative marker."
+        }
+      ],
+      "discussion_questions": [
+        "How many wayyiqtol verbs are in Genesis 1:3-5? What rhythm do they create?",
+        "Why is 'consecutive' a better label than 'converted' for these forms?",
+        "How do narrative verbs help you see a story's structure?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The main verb form of Hebrew past narrative is the",
+          "options": [
+            "participle",
+            "wayyiqtol",
+            "infinitive absolute",
+            "imperative"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "וַיֹּאמֶר means",
+          "options": [
+            "he will say",
+            "and he said",
+            "say!",
+            "saying"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The weqatal (vav + perfect) often expresses",
+          "options": [
+            "past narrative",
+            "future or sequential instruction",
+            "questions only",
+            "names"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The wayyiqtol is marked by",
+          "options": [
+            "וְ with shewa",
+            "וַ with patach and usually a dagesh in the next letter",
+            "a suffix -ו",
+            "an infinitive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Hebrew narrative marker often translated 'And it came to pass' is",
+          "options": [
+            "הִנֵּה",
+            "וַיְהִי",
+            "אָמֵן",
+            "סֶלָה"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Translate וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר (Genesis 1:3).",
+          "answer_key": "'And God said, Let there be light; and there was light.'"
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain the function of wayyiqtol in narrative.",
+          "answer_key": "It marks the sequence of main past events carrying the storyline forward ('and he did... and he said...'); background information is given by other clause types (perfect, participles, verbless clauses)."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVqw%",
+          "HVqq%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each Qal consecutive imperfect (wayyiqtol) or consecutive perfect (weqatal)."
+      }
+    },
+    {
+      "id": "hb1-10",
+      "title": "Imperatives and Infinitives",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Form the Qal imperative (קְטֹל) and recognize cohortatives and jussives."
+        },
+        {
+          "id": "o2",
+          "text": "Recognize the infinitive construct (קְטֹל) and infinitive absolute (קָטוֹל) and their uses."
+        },
+        {
+          "id": "o3",
+          "text": "Parse and translate imperatives and infinitives in texts like Deuteronomy 6."
+        }
+      ],
+      "scripture_passages": [
+        "Deuteronomy 6:4-9",
+        "Genesis 2:16-17",
+        "Psalm 46:10"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The First Commandment"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Deuteronomy, chapter 6"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Imperative",
+          "definition": "Command form, second person only (שְׁמַע, 'hear!')."
+        },
+        {
+          "term": "Infinitive construct",
+          "definition": "A verbal noun, often with prepositions (לִשְׁמֹר, 'to keep')."
+        },
+        {
+          "term": "Infinitive absolute",
+          "definition": "Often intensifies a finite verb (מוֹת תָּמוּת, 'you shall surely die')."
+        },
+        {
+          "term": "Jussive and cohortative",
+          "definition": "Third- and first-person volitional forms ('let him...', 'let us...')."
+        }
+      ],
+      "discussion_questions": [
+        "What does the imperative שְׁמַע ('Hear!') demand in Deuteronomy 6:4?",
+        "How does the infinitive absolute in Genesis 2:17 intensify the warning?",
+        "How do volitional forms express prayer and wishes in the Psalms?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "שְׁמַע in Deuteronomy 6:4 is",
+          "options": [
+            "perfect",
+            "imperative ('hear!')",
+            "participle",
+            "noun"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "מוֹת תָּמוּת in Genesis 2:17 uses the infinitive absolute to",
+          "options": [
+            "ask a question",
+            "intensify - 'you shall surely die'",
+            "express purpose",
+            "form a name"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The infinitive construct with לְ often expresses",
+          "options": [
+            "past time",
+            "purpose ('to...')",
+            "a command",
+            "a vocative"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Imperatives occur only in the",
+          "options": [
+            "first person",
+            "second person",
+            "third person",
+            "passive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The cohortative expresses",
+          "options": [
+            "third-person commands",
+            "first-person resolve or wish ('let me/us')",
+            "questions",
+            "past narrative"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Translate שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד (Deut 6:4).",
+          "answer_key": "'Hear, O Israel: The LORD our God, the LORD is one' (or 'the LORD is our God, the LORD alone')."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain the two kinds of infinitive in Hebrew.",
+          "answer_key": "The infinitive construct acts like a verbal noun, often with prepositions or suffixes (purpose, time 'when'); the infinitive absolute is often used adverbially to intensify a finite verb or as a command."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVqv%",
+          "HVqc%",
+          "HVqa%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each Qal imperative or infinitive (where person/number is not shown, only stem and form are asked)."
+      }
+    },
+    {
+      "id": "hb1-11",
+      "title": "Participles",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Form and recognize Qal active (קֹטֵל) and passive (קָטוּל) participles."
+        },
+        {
+          "id": "o2",
+          "text": "Explain participles used as verbs, adjectives and nouns."
+        },
+        {
+          "id": "o3",
+          "text": "Parse participles in texts like Psalm 23 and Isaiah 40."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 23:1",
+        "Isaiah 40:28-31",
+        "Psalm 1:1"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Isaiah, chapter 40"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book XI, chapters 1-4 (God's eternity and creation)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Qal active participle",
+          "definition": "קֹטֵל pattern ('one who kills / killing')."
+        },
+        {
+          "term": "Qal passive participle",
+          "definition": "קָטוּל pattern ('killed')."
+        },
+        {
+          "term": "Substantival participle",
+          "definition": "A participle used as a noun (רֹעֶה, 'shepherd'; בּוֹרֵא, 'Creator')."
+        },
+        {
+          "term": "Predicative participle",
+          "definition": "Expresses ongoing action ('is waiting')."
+        }
+      ],
+      "discussion_questions": [
+        "Isaiah 40:28 calls God בּוֹרֵא ('Creator'). How does the participle function?",
+        "How does 'those who wait for the LORD' (קוֹיֵ יְהוָה) describe a way of life?",
+        "Why is רֹעֶה ('shepherd') a participle?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Qal active participle pattern is",
+          "options": [
+            "קָטַל",
+            "קֹטֵל",
+            "יִקְטֹל",
+            "קְטֹל"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Qal passive participle pattern is",
+          "options": [
+            "קֹטֵל",
+            "קָטוּל",
+            "נִקְטַל",
+            "קִטֵּל"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Participles in Hebrew decline for",
+          "options": [
+            "person and tense",
+            "gender and number (and state)",
+            "case",
+            "voice only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "בּוֹרֵא in Isaiah 40:28 is used as a",
+          "options": [
+            "verb in the perfect",
+            "substantive: 'Creator'",
+            "preposition",
+            "infinitive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A participle used predicatively usually expresses",
+          "options": [
+            "completed past action",
+            "ongoing action",
+            "a command",
+            "a question"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name three uses of the Hebrew participle.",
+          "answer_key": "As a noun (substantive: 'shepherd', 'Creator'), as an adjective (attributive), and as a verb expressing ongoing action (predicative), often in verbless clauses."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Isaiah 40:31 promise, and how do participles shape it?",
+          "answer_key": "'Those who wait for the LORD shall renew their strength...' - the participle describes those characterized by ongoing hope/waiting on God, who receive renewed strength."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVqr%",
+          "HVqs%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Gender",
+          "Number",
+          "State"
+        ],
+        "instructions": "Parse each Qal participle (stem, form, gender, number, state)."
+      }
+    },
+    {
+      "id": "hb1-12",
+      "title": "Reading Genesis 1 and the Shema",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Read and translate Genesis 1:1-5 with parsing."
+        },
+        {
+          "id": "o2",
+          "text": "Read and translate Deuteronomy 6:4-9 with parsing."
+        },
+        {
+          "id": "o3",
+          "text": "Show how Hebrew grammar informs interpretation of these texts."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:1-5",
+        "Deuteronomy 6:4-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XI, chapters 6-9 (in the beginning; the days of creation)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The First Commandment ('whatever your heart clings to')"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Deuteronomy, chapter 6"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Merism",
+          "definition": "Two opposites expressing totality ('the heavens and the earth' = everything)."
+        },
+        {
+          "term": "Tohu wabohu",
+          "definition": "'Formless and void' (Gen 1:2)."
+        },
+        {
+          "term": "Echad",
+          "definition": "'One' (Deut 6:4), a word also used for compound unity (Gen 2:24)."
+        },
+        {
+          "term": "Leb",
+          "definition": "'Heart' - the center of thought, will and emotion."
+        }
+      ],
+      "discussion_questions": [
+        "How does 'the heavens and the earth' function as a merism?",
+        "What are the translation options for Deuteronomy 6:4?",
+        "What does it mean to love God 'with all your heart' in Hebrew thought?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "'The heavens and the earth' in Genesis 1:1 is an example of",
+          "options": [
+            "a construct chain",
+            "a merism expressing totality",
+            "a pun",
+            "a genealogy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "תֹהוּ וָבֹהוּ means",
+          "options": [
+            "light and darkness",
+            "formless and void",
+            "day and night",
+            "good and evil"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Hebrew לֵב (heart) refers mainly to",
+          "options": [
+            "emotions only",
+            "the inner person - mind, will and emotions",
+            "the physical organ only",
+            "the stomach"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "אֶחָד in Deuteronomy 6:4 means",
+          "options": [
+            "first",
+            "one",
+            "alone only",
+            "holy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Deuteronomy 6:7 commands Israel to teach God's words",
+          "options": [
+            "only in the tabernacle",
+            "diligently to their children at home and on the way",
+            "once a year",
+            "to the nations only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Translate Genesis 1:1 and parse its verb.",
+          "answer_key": "'In the beginning God created the heavens and the earth' - בָּרָא, Qal perfect 3ms of ברא."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are two ways to translate Deuteronomy 6:4 and what does each emphasize?",
+          "answer_key": "'The LORD our God, the LORD is one' (emphasizing God's unity/uniqueness) or 'The LORD is our God, the LORD alone' (emphasizing exclusive devotion). Both stress that Israel must worship YHWH only."
+        }
+      ],
+      "paper_prompt": "Write a 1,000-1,500 word translation and grammar study of Genesis 1:1-5 OR Deuteronomy 6:4-9. Using your tutor's STEPBible lookups, provide your own literal translation, parse every verb, identify prefixes and suffixes, comment on at least three significant grammatical features, and explain how they shape interpretation. Interact with at least one library source (such as Augustine or Luther), cited as (Author, Title, section).",
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVq%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Review - parse any Qal verb."
+      }
+    }
+  ]
+}

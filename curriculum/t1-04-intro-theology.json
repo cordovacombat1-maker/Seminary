@@ -1,0 +1,1666 @@
+{
+  "id": "intro-theology",
+  "title": "Introduction to Theology",
+  "tier": 1,
+  "tier_name": "Foundations",
+  "description": "What theology is and how it is done. Students learn the sources of theology (Scripture, tradition, reason, experience), the disciplines of biblical, historical, systematic and practical theology, the role of creeds and confessions, and a first overview of the major Christian doctrines. The course introduces the great theological traditions (Patristic, Catholic, Orthodox, Lutheran, Reformed, Anabaptist, Wesleyan, Pentecostal) and models how to weigh disputed questions charitably within the boundaries of the Nicene and Apostles' Creeds.",
+  "prerequisites": [],
+  "lessons": [
+    {
+      "id": "itheo-01",
+      "title": "What Is Theology?",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Define theology and explain Anselm's phrase 'faith seeking understanding'."
+        },
+        {
+          "id": "o2",
+          "text": "Explain why all Christians are theologians and why theology matters for life and worship."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the relationship between theology, prayer and piety."
+        }
+      ],
+      "scripture_passages": [
+        "Deuteronomy 29:29",
+        "Romans 11:33-36",
+        "1 Peter 3:15",
+        "Colossians 1:9-10"
+      ],
+      "library_readings": [
+        {
+          "author": "Anselm",
+          "title": "Proslogion",
+          "section": "Preface and Chapter 1 ('faith seeking understanding')"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 1, Articles 1-7 (the nature and extent of sacred doctrine)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapters 1-2 (knowledge of God and of ourselves; piety)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Theology",
+          "definition": "From theos (God) and logos (word/study); speech and reasoned reflection about God and all things in relation to God."
+        },
+        {
+          "term": "Fides quaerens intellectum",
+          "definition": "'Faith seeking understanding', Anselm's description of theology."
+        },
+        {
+          "term": "Piety",
+          "definition": "Reverence joined with love of God, which Calvin said is required for true knowledge of God."
+        },
+        {
+          "term": "Revelation",
+          "definition": "God's self-disclosure, general (creation, conscience) and special (Scripture, Christ)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Deuteronomy 29:29 both encourage and limit theological inquiry?",
+        "Why does Calvin insist that true knowledge of God is tied to piety?",
+        "What is the difference between knowing about God and knowing God?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Anselm described theology as",
+          "options": [
+            "reason judging faith",
+            "faith seeking understanding",
+            "experience interpreting Scripture",
+            "the church's secret knowledge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Calvin begins the Institutes by saying true wisdom consists of",
+          "options": [
+            "obedience and sacrifice",
+            "the knowledge of God and of ourselves",
+            "reason and revelation",
+            "faith and works"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 11:33-36 is Paul's",
+          "options": [
+            "argument about circumcision",
+            "doxology to God's unsearchable wisdom",
+            "list of spiritual gifts",
+            "greeting to Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Peter 3:15 calls believers to",
+          "options": [
+            "avoid questions",
+            "always be ready to give a reason for the hope within them",
+            "only listen to elders",
+            "keep their faith private"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aquinas argues in ST I q.1 that sacred doctrine is needed because",
+          "options": [
+            "philosophy is evil",
+            "some truths necessary for salvation exceed human reason and must be revealed",
+            "the church requires it",
+            "angels teach it"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is everyone who thinks about God a theologian?",
+          "answer_key": "Every person holds beliefs about who God is and how he relates to the world; the question is not whether we do theology but whether we do it well - faithfully, humbly and carefully according to God's revelation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should theology relate to prayer and worship?",
+          "answer_key": "Theology arises from and leads to worship; it is done before God in faith and love (Anselm prayed his Proslogion; Paul ends Romans 11 in doxology), and it should deepen devotion and obedience rather than remain abstract."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/BYT"
+    },
+    {
+      "id": "itheo-02",
+      "title": "Revelation - General and Special",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Distinguish general revelation (creation, conscience, providence) from special revelation (Word, Christ)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain what general revelation can and cannot accomplish (Romans 1-2)."
+        },
+        {
+          "id": "o3",
+          "text": "Describe Christ as the climax of revelation and Scripture as God's written word."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 19:1-14",
+        "Romans 1:18-23",
+        "Romans 2:14-16",
+        "Hebrews 1:1-3"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapters 3-6 (the sense of divinity; knowledge of God in creation; the need for Scripture)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 12, Articles 12-13 (knowledge of God by natural reason and by grace)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Introduction, Chapter 2 (theology) and Part I, Chapter 1 (the origin of the idea of God)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "General revelation",
+          "definition": "God's self-disclosure to all people through creation, conscience and history."
+        },
+        {
+          "term": "Special revelation",
+          "definition": "God's particular self-disclosure through his acts and words, supremely in Christ and in Scripture."
+        },
+        {
+          "term": "Sensus divinitatis",
+          "definition": "Calvin's 'sense of divinity' implanted in every human mind."
+        },
+        {
+          "term": "Natural theology",
+          "definition": "Knowledge of God attainable by reason reflecting on creation."
+        }
+      ],
+      "discussion_questions": [
+        "Psalm 19 has two halves. How do they relate?",
+        "According to Romans 1:18-23, what do people do with general revelation?",
+        "Do Aquinas and Calvin differ about natural theology? How?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Psalm 19:1 says 'The heavens declare",
+          "options": [
+            "the law of Moses'",
+            "the glory of God'",
+            "the end of the world'",
+            "the names of the stars'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Romans 1:20 says God's invisible attributes are clearly seen",
+          "options": [
+            "only by believers",
+            "through what has been made, so that people are without excuse",
+            "only in the temple",
+            "in dreams"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Hebrews 1:3 describes the Son as",
+          "options": [
+            "a created angel",
+            "the radiance of God's glory and the exact representation of his nature",
+            "a prophet like others",
+            "the last of the priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Calvin's 'sensus divinitatis' is",
+          "options": [
+            "a church sacrament",
+            "an awareness of God implanted in all humans",
+            "a Greek philosophical school",
+            "the Holy Spirit's inner witness to Scripture"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "General revelation is sufficient to",
+          "options": [
+            "save sinners",
+            "leave humanity without excuse, but not to bring saving knowledge of Christ",
+            "replace Scripture",
+            "reveal the Trinity"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the difference between general and special revelation?",
+          "answer_key": "General revelation comes to all people through creation, conscience and providence, showing God's existence, power and moral law; special revelation is God's specific words and acts in redemptive history, culminating in Christ and inscripturated in the Bible, revealing salvation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is special revelation necessary?",
+          "answer_key": "Because sin darkens and suppresses the knowledge of God, and general revelation does not reveal God's saving plan in Christ, the Trinity or the gospel; we need God's word to know him savingly (Calvin's 'spectacles' of Scripture)."
+        }
+      ]
+    },
+    {
+      "id": "itheo-03",
+      "title": "Scripture - Inspiration, Authority and Canon",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the doctrine of inspiration and major ways it has been articulated."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the authority, sufficiency and clarity of Scripture and different traditions' views of Scripture and tradition."
+        },
+        {
+          "id": "o3",
+          "text": "Identify the differences between Protestant, Catholic and Orthodox canons."
+        }
+      ],
+      "scripture_passages": [
+        "2 Timothy 3:16-17",
+        "2 Peter 1:20-21",
+        "John 10:35",
+        "Matthew 5:17-18"
+      ],
+      "library_readings": [
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Introduction, Chapter 6 (the Protestant rule of faith; inspiration)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 2, Council of Trent, Fourth Session (decree concerning the canonical Scriptures)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapters 7-9 (the authority of Scripture and the Spirit)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Plenary inspiration",
+          "definition": "All of Scripture, not only parts, is inspired by God."
+        },
+        {
+          "term": "Verbal inspiration",
+          "definition": "Inspiration extends to the words, not merely the ideas."
+        },
+        {
+          "term": "Inerrancy",
+          "definition": "Scripture, in its original manuscripts, is without error in all it affirms (a common evangelical formulation)."
+        },
+        {
+          "term": "Deuterocanonical books",
+          "definition": "Books such as Tobit and 1-2 Maccabees included in Catholic and Orthodox Old Testaments."
+        }
+      ],
+      "discussion_questions": [
+        "How does Jesus' statement 'Scripture cannot be broken' (John 10:35) bear on the doctrine of Scripture?",
+        "How do Protestants, Catholics and Orthodox understand the relationship between Scripture and tradition?",
+        "Why do the Protestant and Catholic Old Testament canons differ?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "2 Peter 1:21 says prophecy came as men spoke from God",
+          "options": [
+            "by their own will",
+            "as they were carried along by the Holy Spirit",
+            "after long study",
+            "through the temple priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Council of Trent's decree on Scripture (Session 4) affirmed",
+          "options": [
+            "only the Hebrew canon",
+            "the deuterocanonical books as canonical and the authority of unwritten traditions",
+            "that tradition has no authority",
+            "that the Vulgate was not to be used"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "'Plenary' inspiration means",
+          "options": [
+            "only doctrinal parts are inspired",
+            "all of Scripture is inspired",
+            "inspiration is ongoing",
+            "the translators were inspired"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Matthew 5:18 Jesus says that not an iota or dot will pass from the Law",
+          "options": [
+            "ever",
+            "until all is accomplished",
+            "after Pentecost",
+            "unless the Pharisees agree"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin taught that the authority of Scripture is confirmed to believers by",
+          "options": [
+            "the church's decree",
+            "the inner testimony of the Holy Spirit",
+            "archaeology",
+            "philosophical proofs alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the doctrine of inspiration in your own words.",
+          "answer_key": "God the Holy Spirit so guided the human authors of Scripture, using their own personalities and styles, that what they wrote is the very word of God (God-breathed), fully and in its words, and therefore authoritative."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize the main difference between the Protestant and Roman Catholic views of Scripture and tradition.",
+          "answer_key": "Protestants hold Scripture as the only infallible, final norm (sola Scriptura), with tradition as a valuable but subordinate guide; Roman Catholicism holds that Scripture and sacred Tradition together form one deposit of revelation, authoritatively interpreted by the Magisterium."
+        }
+      ]
+    },
+    {
+      "id": "itheo-04",
+      "title": "Tradition, Reason and Experience",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the proper role of tradition, reason and experience in theology."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the 'Wesleyan quadrilateral' and how it is understood."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the Vincentian canon and the idea of doctrinal development."
+        }
+      ],
+      "scripture_passages": [
+        "2 Thessalonians 2:15",
+        "Acts 17:1-4",
+        "1 John 4:1-3",
+        "Isaiah 1:18"
+      ],
+      "library_readings": [
+        {
+          "author": "Vincent of Lérins",
+          "title": "Commonitory",
+          "section": "Chapters 2-3 and 23 (the test of catholicity and the development of doctrine)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book III, chapters 3-4 (apostolic tradition in the churches)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "Preface (a man of one book) and 'The Case of Reason Impartially Considered'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Tradition",
+          "definition": "The faith handed down in the church (paradosis), including creeds, liturgy and teaching."
+        },
+        {
+          "term": "Wesleyan quadrilateral",
+          "definition": "A later label (Albert Outler) for Wesley's use of Scripture, tradition, reason and experience, with Scripture primary."
+        },
+        {
+          "term": "Development of doctrine",
+          "definition": "The idea that the church's understanding of revealed truth grows without changing its substance."
+        },
+        {
+          "term": "Rule of faith",
+          "definition": "The summary of apostolic teaching used as an interpretive guide."
+        }
+      ],
+      "discussion_questions": [
+        "What does Paul mean by 'traditions' in 2 Thessalonians 2:15?",
+        "Where is reason a servant of theology and where can it become a master?",
+        "How should religious experience be tested (1 John 4:1)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "2 Thessalonians 2:15 tells believers to hold to the traditions they were taught",
+          "options": [
+            "only in writing",
+            "by word of mouth or by letter",
+            "by the Pharisees",
+            "by visions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The 'Wesleyan quadrilateral' names",
+          "options": [
+            "four Gospels",
+            "Scripture, tradition, reason and experience",
+            "four sacraments",
+            "four councils"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Vincent of Lérins said catholic doctrine is what has been believed",
+          "options": [
+            "by the majority today",
+            "everywhere, always and by all",
+            "by bishops only",
+            "since the Reformation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Acts 17:2 Paul 'reasoned with them from",
+          "options": [
+            "Greek poets'",
+            "the Scriptures'",
+            "his visions'",
+            "the law of Rome'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Irenaeus appealed to the succession of bishops in churches founded by apostles, especially",
+          "options": [
+            "Alexandria",
+            "Rome",
+            "Antioch",
+            "Carthage"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How did Wesley relate Scripture to tradition, reason and experience?",
+          "answer_key": "Scripture was his primary and final authority ('a man of one book'); tradition (especially the early church and Anglican formularies) helped interpret it; reason was a God-given tool to understand and apply it; experience confirmed its truth in the believer's life - but none stood above Scripture."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the value and the limit of Vincent's canon?",
+          "answer_key": "Value - it guards against novelty and individualism by appealing to the consensus of the church across times and places; limit - there is not always universal consensus, and Vincent himself allowed genuine development in understanding; Protestants subordinate it to Scripture."
+        }
+      ]
+    },
+    {
+      "id": "itheo-05",
+      "title": "The Theological Disciplines and Method",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Distinguish biblical, historical, systematic and practical theology."
+        },
+        {
+          "id": "o2",
+          "text": "Describe a sound method for forming a doctrine from Scripture."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the role and value of creeds and confessions."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 20:27",
+        "2 Timothy 1:13-14",
+        "1 Timothy 3:16"
+      ],
+      "library_readings": [
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Introduction, Chapter 1 (on method: speculative, mystical, inductive)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 1, Chapter 1 (creeds in general - their use and authority)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 1, Article 8 (whether sacred doctrine is argumentative)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Biblical theology",
+          "definition": "Study of the theology of biblical books and of the unfolding of revelation through redemptive history."
+        },
+        {
+          "term": "Systematic theology",
+          "definition": "Orderly, comprehensive account of Christian doctrine, topic by topic."
+        },
+        {
+          "term": "Historical theology",
+          "definition": "Study of how the church has understood doctrine through history."
+        },
+        {
+          "term": "Confession of faith",
+          "definition": "A church's formal statement of belief (e.g. Augsburg Confession, Westminster Confession)."
+        }
+      ],
+      "discussion_questions": [
+        "What does Paul mean by 'the whole counsel of God' (Acts 20:27)?",
+        "Hodge describes theology as an inductive science. What are the strengths and weaknesses of this model?",
+        "How can creeds serve rather than compete with Scripture?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Systematic theology organizes doctrine",
+          "options": [
+            "book by book",
+            "topically and comprehensively",
+            "by historical period",
+            "by sermon series"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Hodge compared theology to",
+          "options": [
+            "poetry",
+            "an inductive science working from the facts of Scripture",
+            "mysticism",
+            "law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 Timothy 3:16 may be an early",
+          "options": [
+            "law code",
+            "hymn or confession about Christ",
+            "genealogy",
+            "prophecy of Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Biblical theology focuses especially on",
+          "options": [
+            "church councils",
+            "the progressive unfolding of revelation in redemptive history",
+            "modern ethics",
+            "preaching technique"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "According to Schaff, creeds are",
+          "options": [
+            "above Scripture",
+            "summaries of Scripture's teaching whose authority depends on agreement with Scripture",
+            "unnecessary",
+            "private opinions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the four main theological disciplines and how they relate.",
+          "answer_key": "Biblical theology (the theology of Scripture in its historical unfolding), historical theology (how the church has understood doctrine), systematic theology (organizing doctrine topically into a coherent whole), and practical theology (applying doctrine to ministry, worship, preaching, care) - each feeds the others."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Outline steps for building a doctrine from Scripture.",
+          "answer_key": "Gather relevant passages; interpret each in context; attend to progressive revelation; synthesize, giving priority to clearer and fuller texts; consult the church's historical understanding and creeds; formulate carefully; test for coherence; apply to life and worship."
+        }
+      ]
+    },
+    {
+      "id": "itheo-06",
+      "title": "The Creeds - Apostles', Nicene and Chalcedonian",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the history and content of the Apostles' Creed and Nicene Creed."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Chalcedonian Definition of Christ's two natures in one person."
+        },
+        {
+          "id": "o3",
+          "text": "Explain why these creeds function as the baseline of orthodoxy in this program."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 15:3-5",
+        "John 1:1-14",
+        "Philippians 2:5-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 2 (the Apostles' Creed, the Nicene Creed, and the Chalcedonian Definition)"
+        },
+        {
+          "author": "Henry R. Percival (ed.)",
+          "title": "The Seven Ecumenical Councils",
+          "section": "The First Council of Nicaea (the Creed and Canons) and the Council of Chalcedon (the Definition of Faith)"
+        },
+        {
+          "author": "Cyril of Jerusalem",
+          "title": "Catechetical Lectures",
+          "section": "Lecture 5 (on faith and the Creed)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Apostles' Creed",
+          "definition": "Western baptismal creed developed from the Old Roman Symbol."
+        },
+        {
+          "term": "Nicene Creed",
+          "definition": "The creed of Nicaea (325) as expanded at Constantinople (381), confessing the Son 'of one substance' with the Father."
+        },
+        {
+          "term": "Homoousios",
+          "definition": "'Of the same substance'; the Nicene term for the Son's full divinity."
+        },
+        {
+          "term": "Chalcedonian Definition (451)",
+          "definition": "Christ is one person in two natures, 'without confusion, without change, without division, without separation'."
+        }
+      ],
+      "discussion_questions": [
+        "Why did the church need creeds beyond simply quoting Scripture?",
+        "What does 'of one substance with the Father' exclude?",
+        "How do the four Chalcedonian adverbs guard against different errors?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Nicene Creed's key term for the Son's relation to the Father is",
+          "options": [
+            "homoiousios (similar substance)",
+            "homoousios (same substance)",
+            "prosopon",
+            "logos spermatikos"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Council of Chalcedon was held in",
+          "options": [
+            "325",
+            "381",
+            "451",
+            "787"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Apostles' Creed developed from the baptismal creed of",
+          "options": [
+            "Jerusalem",
+            "Rome (the Old Roman Symbol)",
+            "Alexandria",
+            "Constantinople"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Chalcedon confessed Christ as",
+          "options": [
+            "one nature from two",
+            "two persons",
+            "one person in two natures",
+            "a divine spirit in a human shell"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 15:3-5 contains",
+          "options": [
+            "the Lord's Prayer",
+            "an early summary of the gospel that Paul received",
+            "the Ten Commandments",
+            "the Chalcedonian Definition"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why did the church need the word 'homoousios' at Nicaea?",
+          "answer_key": "Because Arius and his followers could affirm biblical phrases about Christ while interpreting them to mean he was a created being; the non-biblical term 'of the same substance' clearly excluded that reading and affirmed the Son's full, equal divinity."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "State the core affirmation of the Chalcedonian Definition.",
+          "answer_key": "The one Lord Jesus Christ is truly God and truly man, of one substance with the Father as to his divinity and with us as to his humanity, acknowledged in two natures without confusion, change, division or separation, united in one person."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/APC"
+    },
+    {
+      "id": "itheo-07",
+      "title": "Overview of Christian Doctrine I - God, Creation and Humanity",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the doctrine of God as Trinity."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize the doctrines of creation and providence."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the doctrine of humanity as created in God's image and fallen into sin."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 28:19",
+        "Genesis 1:26-31",
+        "Psalm 104:24-30",
+        "Romans 5:12-21"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "The Creed, First and Second Articles"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapters 13 and 16 (the Trinity; providence)"
+        },
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 9-12 and 23-33 (creation, evil and the fall)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Trinity",
+          "definition": "One God in three persons - Father, Son and Holy Spirit - co-equal and co-eternal."
+        },
+        {
+          "term": "Creation ex nihilo",
+          "definition": "God created all things out of nothing."
+        },
+        {
+          "term": "Providence",
+          "definition": "God's ongoing preservation and government of all things."
+        },
+        {
+          "term": "Original sin",
+          "definition": "The corruption and guilt inherited by all humanity from Adam's fall (variously understood across traditions)."
+        }
+      ],
+      "discussion_questions": [
+        "How does the baptismal formula in Matthew 28:19 point to the Trinity?",
+        "What difference does belief in providence make in suffering?",
+        "How do traditions differ on original sin (e.g. Augustinian, Orthodox, Wesleyan)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Luther's Small Catechism explains the First Article as teaching that God",
+          "options": [
+            "only started the world",
+            "has made me and all creatures and still preserves them",
+            "is distant from creation",
+            "created evil"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Creation 'ex nihilo' means",
+          "options": [
+            "from pre-existing matter",
+            "out of nothing",
+            "from God's own substance",
+            "by evolution only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 5:12 teaches that sin came into the world through",
+          "options": [
+            "Satan alone",
+            "one man",
+            "the law",
+            "Cain"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Baptism in Matthew 28:19 is in the name of",
+          "options": [
+            "Jesus only",
+            "the Father, the Son and the Holy Spirit",
+            "the apostles",
+            "God and Moses"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine in the Enchiridion describes evil as",
+          "options": [
+            "a created substance",
+            "the privation of good",
+            "God's shadow",
+            "equal to good"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the doctrine of the Trinity in two or three sentences.",
+          "answer_key": "There is one God who eternally exists as three distinct persons - Father, Son and Holy Spirit; each person is fully God, sharing the one divine essence, equal in power and glory, yet the persons are distinct in their relations (the Father begets, the Son is begotten, the Spirit proceeds)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does it mean that humanity is created in God's image and fallen?",
+          "answer_key": "Humans uniquely reflect God, are created for relationship with him and to rule creation as his representatives, with dignity; through Adam's sin humanity is corrupted, alienated from God, subject to death, though the image is not wholly lost."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/GOD"
+    },
+    {
+      "id": "itheo-08",
+      "title": "Overview of Christian Doctrine II - Christ, Salvation, Spirit, Church and Last Things",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the person and work of Christ."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize the doctrine of salvation (grace, faith, justification, sanctification)."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the doctrines of the Holy Spirit, the church and last things."
+        }
+      ],
+      "scripture_passages": [
+        "John 3:16-21",
+        "Ephesians 2:1-10",
+        "Acts 2:37-47",
+        "1 Thessalonians 4:13-18"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "The Creed, Second and Third Articles"
+        },
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 30-33, 56-64 and 108-113 (grace, the church and the last things)"
+        },
+        {
+          "author": "Cyril of Jerusalem",
+          "title": "Catechetical Lectures",
+          "section": "Lectures 16-18 (the Holy Spirit, the resurrection and the church)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Incarnation",
+          "definition": "The eternal Son of God becoming truly human."
+        },
+        {
+          "term": "Atonement",
+          "definition": "Christ's work of reconciling sinners to God, especially through his death."
+        },
+        {
+          "term": "Grace",
+          "definition": "God's undeserved favor and saving power."
+        },
+        {
+          "term": "Eschatology",
+          "definition": "The doctrine of last things - death, Christ's return, resurrection, judgment and new creation."
+        }
+      ],
+      "discussion_questions": [
+        "How does Ephesians 2:1-10 connect grace, faith and works?",
+        "What marks of the church appear in Acts 2:42-47?",
+        "Why is the resurrection of the body central to Christian hope?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Ephesians 2:8 says we are saved by grace",
+          "options": [
+            "and works",
+            "through faith, and this is not from yourselves; it is the gift of God",
+            "through circumcision",
+            "at baptism only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The early church in Acts 2:42 devoted itself to the apostles' teaching, fellowship,",
+          "options": [
+            "fasting and pilgrimages",
+            "the breaking of bread and prayer",
+            "the temple sacrifices",
+            "the law of Moses"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Luther explains the Third Article as confessing that",
+          "options": [
+            "I can come to Christ by my own strength",
+            "I cannot by my own reason or strength believe, but the Holy Spirit has called me by the gospel",
+            "the Spirit is a force",
+            "the church saves by works"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Thessalonians 4:16 says the dead in Christ will",
+          "options": [
+            "remain asleep",
+            "rise first",
+            "be reincarnated",
+            "be judged last"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The doctrine of last things is called",
+          "options": [
+            "soteriology",
+            "ecclesiology",
+            "eschatology",
+            "pneumatology"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the gospel of salvation in a few sentences.",
+          "answer_key": "God, rich in mercy, sent his Son, who lived a perfect life, died for our sins and rose again; by grace through faith sinners are forgiven, justified, adopted and made new by the Spirit, united to Christ and his church, and await the resurrection and new creation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Name the main areas of eschatology.",
+          "answer_key": "Personal eschatology (death and the intermediate state) and general eschatology (the return of Christ, the resurrection of the body, final judgment, heaven and hell, the new heavens and new earth), with debated questions like the millennium."
+        }
+      ]
+    },
+    {
+      "id": "itheo-09",
+      "title": "Christian Traditions I - Orthodox, Catholic and Lutheran",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the distinctive emphases of Eastern Orthodox theology."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the distinctive emphases of Roman Catholic theology."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the distinctive emphases of Lutheran theology."
+        }
+      ],
+      "scripture_passages": [
+        "2 Peter 1:3-4",
+        "Matthew 16:13-19",
+        "Romans 1:16-17"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 1 (the creeds of the Greek and Roman Churches and the Lutheran confessions, overview)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "Preface and the Creed"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part III, Question 60 (what a sacrament is)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Theosis",
+          "definition": "Orthodox doctrine of salvation as participation in the divine nature (2 Pet 1:4)."
+        },
+        {
+          "term": "Magisterium",
+          "definition": "The teaching authority of the Catholic Church (the pope and bishops in communion with him)."
+        },
+        {
+          "term": "Law and gospel",
+          "definition": "Lutheran distinction between God's demands and God's promises."
+        },
+        {
+          "term": "Sacramental theology",
+          "definition": "Understanding the sacraments as means through which God gives grace."
+        }
+      ],
+      "discussion_questions": [
+        "What does 2 Peter 1:4 mean by becoming 'partakers of the divine nature'?",
+        "How do Catholics and Protestants interpret Matthew 16:18 differently?",
+        "Why is the law/gospel distinction central to Lutheran theology?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Orthodox doctrine of theosis draws especially on",
+          "options": [
+            "Romans 9",
+            "2 Peter 1:4",
+            "James 2",
+            "Revelation 20"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Catholic Church's teaching authority is called the",
+          "options": [
+            "Synod",
+            "Magisterium",
+            "Consistory",
+            "Presbytery"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Lutheran theology emphasizes the distinction between",
+          "options": [
+            "faith and reason",
+            "law and gospel",
+            "clergy and laity",
+            "Old and New Israel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Catholic Church recognizes how many sacraments?",
+          "options": [
+            "two",
+            "three",
+            "seven",
+            "twelve"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Matthew 16:18 records Jesus saying",
+          "options": [
+            "'Feed my sheep'",
+            "'You are Peter, and on this rock I will build my church'",
+            "'Go into all the world'",
+            "'Do this in remembrance of me'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name one distinctive emphasis of each of the Orthodox, Catholic and Lutheran traditions.",
+          "answer_key": "E.g. Orthodox - theosis, liturgy, icons, the authority of the seven councils; Catholic - the seven sacraments, the Magisterium and papacy, Scripture with Tradition; Lutheran - justification by faith alone, law and gospel, the real presence in the Lord's Supper, theology of the cross."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do the Catholic and Protestant readings of Matthew 16:18 differ?",
+          "answer_key": "Catholics typically see Peter himself as the rock and the basis of a Petrine (papal) office; many Protestants see the rock as Peter's confession of Christ or Peter as representative apostle, without a continuing papal office."
+        }
+      ]
+    },
+    {
+      "id": "itheo-10",
+      "title": "Christian Traditions II - Reformed, Anabaptist, Wesleyan and Pentecostal",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the distinctive emphases of Reformed theology."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the distinctive emphases of the Anabaptist tradition."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the distinctive emphases of Wesleyan and Pentecostal/charismatic theology."
+        }
+      ],
+      "scripture_passages": [
+        "Ephesians 1:3-14",
+        "Matthew 5:38-48",
+        "1 Thessalonians 5:23-24",
+        "Acts 2:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3 (Heidelberg Catechism, Westminster Confession, and Methodist Articles of Religion)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 8 (the Anabaptists in the Swiss Reformation)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "A Plain Account of Christian Perfection",
+          "section": "The opening sections (Wesley's account of how he came to the doctrine)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Covenant theology",
+          "definition": "Reformed framework understanding Scripture through God's covenants."
+        },
+        {
+          "term": "Believer's baptism",
+          "definition": "Anabaptist (and Baptist) practice of baptizing only those who confess faith."
+        },
+        {
+          "term": "Entire sanctification",
+          "definition": "Wesleyan teaching of a work of grace in which the believer is perfected in love."
+        },
+        {
+          "term": "Baptism in the Holy Spirit",
+          "definition": "Pentecostal teaching of an empowering experience, often subsequent to conversion."
+        }
+      ],
+      "discussion_questions": [
+        "How does Ephesians 1 shape Reformed emphases on God's sovereignty?",
+        "What did the Anabaptists see in the Sermon on the Mount that others missed?",
+        "How do Wesleyan and Pentecostal theology relate historically?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "A central Reformed emphasis is",
+          "options": [
+            "pacifism",
+            "the sovereignty of God and covenant theology",
+            "papal authority",
+            "entire sanctification"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Early Anabaptists were known for",
+          "options": [
+            "infant baptism",
+            "believer's baptism and separation of church and state",
+            "the papacy",
+            "iconography"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Wesley's distinctive teaching of 'Christian perfection' means",
+          "options": [
+            "sinless perfection in knowledge",
+            "perfect love for God and neighbor ruling the heart",
+            "never being tempted",
+            "perfection at baptism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Modern Pentecostalism emerged in the early",
+          "options": [
+            "1500s",
+            "1700s",
+            "1900s",
+            "1960s"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Thessalonians 5:23 prays that God will",
+          "options": [
+            "make them rich",
+            "sanctify you completely",
+            "take them to heaven now",
+            "free them from persecution"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name one distinctive emphasis of each of the Reformed, Anabaptist, Wesleyan and Pentecostal traditions.",
+          "answer_key": "E.g. Reformed - God's sovereignty, covenant, Scripture regulating worship; Anabaptist - believer's baptism, discipleship, nonviolence, church distinct from state; Wesleyan - prevenient grace, assurance, sanctification/perfect love; Pentecostal - Spirit baptism, spiritual gifts, mission empowerment."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why should students learn traditions from their own sources?",
+          "answer_key": "To understand each view accurately and charitably, avoiding caricature, to see the strongest case for each, and to weigh them fairly - as the program's doctrinal framework requires."
+        }
+      ]
+    },
+    {
+      "id": "itheo-11",
+      "title": "Handling Disputed Questions Charitably",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Distinguish first-order (creedal) doctrines from second- and third-order disputed questions."
+        },
+        {
+          "id": "o2",
+          "text": "Practice presenting the strongest case for views you do not hold."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the virtues needed for theological disagreement."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 14:1-12",
+        "Ephesians 4:1-6",
+        "Acts 15:36-41",
+        "Galatians 2:11-14"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Catholic Spirit' and 'A Caution against Bigotry'"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book III, chapters 2-4 (when the rule of faith leaves more than one reading open)"
+        },
+        {
+          "author": "Vincent of Lérins",
+          "title": "Commonitory",
+          "section": "Chapter 23 (progress without change)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Theological triage",
+          "definition": "Ranking doctrines by importance (first-order, second-order, third-order)."
+        },
+        {
+          "term": "Adiaphora",
+          "definition": "'Things indifferent' - matters neither commanded nor forbidden."
+        },
+        {
+          "term": "Steelmanning",
+          "definition": "Presenting an opposing view in its strongest form."
+        },
+        {
+          "term": "Catholic spirit",
+          "definition": "Wesley's term for love and unity among Christians who differ in opinion and practice."
+        }
+      ],
+      "discussion_questions": [
+        "What principles does Paul give in Romans 14 for disputable matters?",
+        "When is division necessary (Galatians 2) and when is unity paramount (Ephesians 4)?",
+        "Wesley asked, 'Is thy heart right, as my heart is with thy heart?' What does he mean?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 14:1 instructs believers to welcome the one weak in faith",
+          "options": [
+            "only after correcting them",
+            "but not to quarrel over opinions",
+            "as a guest only",
+            "if they keep the Sabbath"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "'Adiaphora' refers to",
+          "options": [
+            "heresies",
+            "matters neither commanded nor forbidden",
+            "church offices",
+            "the sacraments"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ephesians 4:4-6 lists one body, one Spirit, one hope, one Lord, one faith, one baptism and",
+          "options": [
+            "one church government",
+            "one God and Father of all",
+            "one language",
+            "one pope"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Galatians 2:11 Paul opposed Peter to his face because",
+          "options": [
+            "Peter preached tongues",
+            "Peter withdrew from eating with Gentiles, contrary to the gospel",
+            "Peter denied the resurrection",
+            "Peter refused to go to Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'Catholic Spirit' is based on 2 Kings 10:15 and urges",
+          "options": [
+            "doctrinal indifference",
+            "love and cooperation among Christians despite differing opinions",
+            "joining the Church of Rome",
+            "separatism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give an example each of a first-order doctrine and a second-order disputed question, and explain the difference.",
+          "answer_key": "First-order - the Trinity or the deity and resurrection of Christ (essential to the gospel and creedal orthodoxy); second-order - baptism's mode/subjects or church government (important, often divides denominations, but faithful Christians disagree)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does it mean to 'steelman' a view, and why does this course require it?",
+          "answer_key": "To present an opposing view in its strongest, most accurate form, as its best defenders would; it shows love and fairness, guards against misunderstanding, and allows honest evaluation - reflecting the program's commitment not to declare winners on disputed questions."
+        }
+      ],
+      "paper_prompt": "Write a 1,200-1,800 word paper on ONE disputed question (for example baptism, the Lord's Supper, predestination, spiritual gifts, the millennium, or church government). Present the strongest case for at least two major views, each from its own sources in the library (cite as Author, Title, section), identify the key texts and arguments, and explain which view you currently find most persuasive and why - while showing how you would maintain unity with Christians who hold the other view."
+    },
+    {
+      "id": "itheo-12",
+      "title": "Theology for Life and Ministry",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain how doctrine shapes worship, ethics and mission."
+        },
+        {
+          "id": "o2",
+          "text": "Articulate a personal theological method for ongoing study."
+        },
+        {
+          "id": "o3",
+          "text": "Identify how theology serves the local church."
+        }
+      ],
+      "scripture_passages": [
+        "Titus 2:1-10",
+        "2 Timothy 4:1-5",
+        "Romans 12:1-2"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapters 6-7 (the Christian life and self-denial)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part II (the life of the pastor)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "Preface (on the need for daily study of the catechism)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Sound doctrine",
+          "definition": "Healthy teaching that produces godly living (Titus 2:1)."
+        },
+        {
+          "term": "Doxology",
+          "definition": "Praise to God; theology's proper end."
+        },
+        {
+          "term": "Orthopraxy",
+          "definition": "Right practice, as the companion of orthodoxy (right belief)."
+        },
+        {
+          "term": "Catechesis",
+          "definition": "Instruction in the basics of the faith."
+        }
+      ],
+      "discussion_questions": [
+        "How does Paul connect doctrine and behavior in Titus 2?",
+        "Luther said even learned pastors should study the catechism daily. Why?",
+        "What will your habits of theological study look like after this course?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Titus 2:1 instructs Titus to teach what accords with",
+          "options": [
+            "human tradition",
+            "sound doctrine",
+            "Greek philosophy",
+            "the Sanhedrin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Romans 12:1 urges believers to present their bodies as",
+          "options": [
+            "temples of stone",
+            "living sacrifices, holy and pleasing to God",
+            "servants of the state",
+            "offerings of grain"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In 2 Timothy 4:3 Paul warns that people will",
+          "options": [
+            "love sound doctrine",
+            "not endure sound teaching, but gather teachers to suit their own desires",
+            "stop reading",
+            "become Jews"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Luther says in the Large Catechism Preface that he himself",
+          "options": [
+            "no longer needs the catechism",
+            "reads and says the catechism daily as a child",
+            "wrote it for children only",
+            "prefers philosophy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin's treatment of the Christian life emphasizes",
+          "options": [
+            "self-fulfillment",
+            "self-denial and bearing the cross",
+            "withdrawal from the world",
+            "ritual purity"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain how theology serves the local church.",
+          "answer_key": "It guards and teaches the truth, shapes preaching and worship, equips believers to discern error, guides ethics and pastoral care, fuels mission and gives believers deeper knowledge of and love for God."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe your plan for continuing theological growth.",
+          "answer_key": "A good answer includes regular Bible reading and study, prayerful reflection, reading classic and contemporary theology across traditions, engaging creeds and confessions, learning within a church community, and applying doctrine in worship and service."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1668 @@
+{
+  "id": "spiritual-formation",
+  "title": "Spiritual Formation",
+  "tier": 1,
+  "tier_name": "Foundations",
+  "description": "How the Holy Spirit forms Christ in believers, and the practices through which Christians grow in grace. Students study the biblical foundations of sanctification and the classic means of grace - Scripture, prayer, the sacraments, fellowship, fasting, self-examination, service and suffering - drawing on Augustine, the desert fathers, Thomas à Kempis, Brother Lawrence, Luther, Calvin and Wesley. The course is both academic and practical: each lesson includes a spiritual discipline to practise.",
+  "prerequisites": [],
+  "lessons": [
+    {
+      "id": "sf-01",
+      "title": "What Is Spiritual Formation?",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Define spiritual formation as the Spirit's work of conforming believers to the image of Christ."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the relationship between grace and effort in growth ('work out... for it is God who works in you')."
+        },
+        {
+          "id": "o3",
+          "text": "Distinguish Christian formation from self-improvement."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 8:28-30",
+        "2 Corinthians 3:17-18",
+        "Philippians 2:12-13",
+        "Galatians 4:19"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 6 (the life of the Christian; the goal of regeneration)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'On Working Out Our Own Salvation'"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book I, chapter 1 and Book X, chapter 27 ('Late have I loved you')"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Sanctification",
+          "definition": "The Spirit's work of making believers holy in heart and life."
+        },
+        {
+          "term": "Conformity to Christ",
+          "definition": "God's purpose that believers bear the image of his Son (Rom 8:29)."
+        },
+        {
+          "term": "Means of grace",
+          "definition": "Ordinary channels through which God gives grace (Word, sacraments, prayer, fellowship)."
+        },
+        {
+          "term": "Synergy and monergism",
+          "definition": "Views on whether growth involves cooperation of human will with grace, or grace alone working."
+        }
+      ],
+      "discussion_questions": [
+        "How does Philippians 2:12-13 hold together God's work and ours?",
+        "What is the difference between becoming 'a better person' and being conformed to Christ?",
+        "What does Augustine's 'Late have I loved you' say about the heart's formation?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "According to Romans 8:29, God predestined believers to be",
+          "options": [
+            "wealthy",
+            "conformed to the image of his Son",
+            "free of trials",
+            "leaders"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 3:18 says believers are being transformed into the Lord's image",
+          "options": [
+            "by the law",
+            "from glory to glory, by the Spirit",
+            "at death only",
+            "through philosophy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Philippians 2:13 says it is God who works in you",
+          "options": [
+            "only at conversion",
+            "both to will and to work for his good pleasure",
+            "without your involvement",
+            "through the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The 'means of grace' are",
+          "options": [
+            "ways to earn salvation",
+            "ordinary channels through which God gives grace",
+            "church taxes",
+            "private revelations"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Galatians 4:19 Paul describes himself as in labor until",
+          "options": [
+            "the temple is rebuilt",
+            "Christ is formed in you",
+            "the law is kept",
+            "he reaches Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Define spiritual formation in a Christian sense.",
+          "answer_key": "The lifelong process by which the Holy Spirit, through the means of grace and within the church, conforms believers to the image of Christ in character, desires and conduct, for the glory of God and the good of others."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do grace and human effort relate in sanctification?",
+          "answer_key": "Grace is the source and power of all growth; believers respond by actively using the means of grace and obeying, but this effort is itself enabled by God (Phil 2:12-13). Traditions describe the relationship differently (monergistic vs synergistic emphases)."
+        }
+      ]
+    },
+    {
+      "id": "sf-02",
+      "title": "Scripture - Reading, Meditation and Lectio Divina",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the role of Scripture in forming believers."
+        },
+        {
+          "id": "o2",
+          "text": "Describe biblical meditation and the ancient practice of lectio divina."
+        },
+        {
+          "id": "o3",
+          "text": "Practise a plan for daily Scripture reading and meditation."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 1:1-3",
+        "Joshua 1:8",
+        "Colossians 3:16",
+        "Psalm 119:9-16"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapters 7-9 (the steps to wisdom and diligent reading of Scripture)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "Preface (daily reading and meditation on the catechism and Scripture)"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book VIII, chapter 12 ('take up and read')"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Meditation",
+          "definition": "Reflective, prayerful pondering of God's word so that it shapes heart and life."
+        },
+        {
+          "term": "Lectio divina",
+          "definition": "'Divine reading' - reading (lectio), meditation (meditatio), prayer (oratio), contemplation (contemplatio)."
+        },
+        {
+          "term": "Memorization",
+          "definition": "Storing Scripture in the heart (Ps 119:11)."
+        },
+        {
+          "term": "Word of Christ dwelling richly",
+          "definition": "Paul's image of Scripture filling the community's life and worship (Col 3:16)."
+        }
+      ],
+      "discussion_questions": [
+        "What does the tree image in Psalm 1 teach about meditation?",
+        "How is Christian meditation different from emptying the mind?",
+        "What obstacles keep you from regular Scripture reading?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Psalm 1 says the blessed person delights in the law of the LORD and meditates on it",
+          "options": [
+            "on the Sabbath",
+            "day and night",
+            "once a year",
+            "in the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The four traditional movements of lectio divina are",
+          "options": [
+            "read, study, teach, preach",
+            "reading, meditation, prayer, contemplation",
+            "fast, pray, give, serve",
+            "confess, repent, believe, obey"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Psalm 119:11 says, 'I have hidden your word in my heart",
+          "options": [
+            "so that I may teach it'",
+            "that I might not sin against you'",
+            "for a time'",
+            "in secret'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Colossians 3:16 connects the word of Christ dwelling richly with",
+          "options": [
+            "fasting",
+            "teaching, admonishing and singing psalms, hymns and spiritual songs",
+            "sacrifices",
+            "circumcision"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Luther insisted that pastors and laypeople should",
+          "options": [
+            "read the catechism once",
+            "read and meditate daily on the catechism and Scripture",
+            "leave study to scholars",
+            "read only the Gospels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the practice of lectio divina.",
+          "answer_key": "Slowly read a short passage (lectio); meditate on a word or phrase, pondering its meaning (meditatio); respond to God in prayer (oratio); rest in God's presence (contemplatio) - often followed by resolving to act on the word."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is biblical meditation?",
+          "answer_key": "Thoughtful, repeated reflection on Scripture - reading, murmuring, memorizing and applying it - so that God's word shapes our thoughts, desires and actions; it fills the mind with God's truth rather than emptying it."
+        }
+      ]
+    },
+    {
+      "id": "sf-03",
+      "title": "Prayer",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the nature and purpose of prayer."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the Lord's Prayer as a pattern for prayer."
+        },
+        {
+          "id": "o3",
+          "text": "Practise several forms of prayer (adoration, confession, thanksgiving, supplication; the Psalms; fixed-hour prayer)."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 6:5-15",
+        "Philippians 4:6-7",
+        "Romans 8:26-27",
+        "Luke 18:1-8"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 20, sections 1-16 and 34-47 (prayer and the Lord's Prayer)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "The Lord's Prayer"
+        },
+        {
+          "author": "John Cassian",
+          "title": "Conferences",
+          "section": "Conferences 9-10 (Abbot Isaac on prayer)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "ACTS",
+          "definition": "A pattern for prayer - Adoration, Confession, Thanksgiving, Supplication."
+        },
+        {
+          "term": "Intercession",
+          "definition": "Praying on behalf of others."
+        },
+        {
+          "term": "Daily office",
+          "definition": "Prayer at fixed times of day, often using the Psalms."
+        },
+        {
+          "term": "Pray without ceasing",
+          "definition": "A continual orientation of the heart toward God (1 Thess 5:17)."
+        }
+      ],
+      "discussion_questions": [
+        "What does the Lord's Prayer teach about priorities in prayer?",
+        "How does the Spirit help us in weakness (Rom 8:26)?",
+        "Why does God invite persistent prayer (Luke 18) if he already knows our needs?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The first petition of the Lord's Prayer is",
+          "options": [
+            "'Give us today our daily bread'",
+            "'Hallowed be your name'",
+            "'Forgive us our debts'",
+            "'Deliver us from evil'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Philippians 4:6 says in everything, by prayer and petition with",
+          "options": [
+            "fasting",
+            "thanksgiving",
+            "tears",
+            "sacrifice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 8:26 says the Spirit intercedes for us with",
+          "options": [
+            "loud cries",
+            "groanings too deep for words",
+            "angelic tongues",
+            "written prayers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The parable of the persistent widow teaches that we should",
+          "options": [
+            "pray only once",
+            "always pray and not lose heart",
+            "stop praying for justice",
+            "pray in the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Cassian's Abbot Isaac commends continual prayer using the verse",
+          "options": [
+            "'The LORD is my shepherd'",
+            "'O God, make speed to save me; O Lord, make haste to help me' (Ps 70:1)",
+            "'Our Father'",
+            "'Kyrie eleison'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why pray if God is sovereign and knows everything?",
+          "answer_key": "God commands and invites prayer as a means he uses to accomplish his purposes; prayer expresses dependence, trust and relationship, aligns our desires with his will, and is how children speak with their Father (Calvin - prayer is for us, not to inform God)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can the Lord's Prayer serve as a pattern rather than only a text to repeat?",
+          "answer_key": "Its sequence - God's name, kingdom and will first, then our needs (bread), forgiveness, and protection - guides the content and priorities of all prayer; each petition can be expanded in our own words, as Luther and Calvin teach."
+        }
+      ]
+    },
+    {
+      "id": "sf-04",
+      "title": "Worship, the Lord's Day and the Sacraments",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain corporate worship as central to formation."
+        },
+        {
+          "id": "o2",
+          "text": "Describe how different traditions understand baptism and the Lord's Supper as means of grace."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the importance of the Lord's Day."
+        }
+      ],
+      "scripture_passages": [
+        "Hebrews 10:23-25",
+        "Acts 20:7",
+        "1 Corinthians 11:23-29",
+        "Romans 6:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Means of Grace' and 'The Duty of Constant Communion'"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "First Apology",
+          "section": "Chapters 65-67 (early Christian worship)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "The Sacrament of Holy Baptism and the Sacrament of the Altar"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Lord's Day",
+          "definition": "Sunday, the day of Christ's resurrection, on which Christians gather for worship."
+        },
+        {
+          "term": "Sacrament/ordinance",
+          "definition": "Baptism and the Lord's Supper, understood as means of grace or as ordinances of obedience in different traditions."
+        },
+        {
+          "term": "Liturgy",
+          "definition": "The ordered pattern of public worship."
+        },
+        {
+          "term": "Self-examination",
+          "definition": "Examining oneself before receiving the Lord's Supper (1 Cor 11:28)."
+        }
+      ],
+      "discussion_questions": [
+        "How does gathered worship form us differently from private devotion?",
+        "What does Wesley mean by 'constant communion', and why did he urge it?",
+        "How do Lutherans and Baptists differ in how baptism forms believers?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Hebrews 10:25 warns against",
+          "options": [
+            "frequent communion",
+            "neglecting to meet together",
+            "singing hymns",
+            "reading the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Acts 20:7 the disciples gathered on the first day of the week",
+          "options": [
+            "to fast",
+            "to break bread",
+            "to go to the temple",
+            "to cast lots"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Justin Martyr says Christians gather on Sunday because",
+          "options": [
+            "it is a Roman holiday",
+            "it is the day God made the world and Christ rose from the dead",
+            "the law requires it",
+            "the Jews meet on Saturday"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'The Duty of Constant Communion' urges Christians to",
+          "options": [
+            "receive communion once a year",
+            "receive the Lord's Supper as often as they can",
+            "abstain until perfect",
+            "receive only at Easter"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Romans 6:4 says we were buried with Christ by baptism into death so that",
+          "options": [
+            "we might keep the law",
+            "we too might walk in newness of life",
+            "we might join Israel",
+            "our sins become irrelevant"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How is corporate worship formative?",
+          "answer_key": "Through hearing the Word, prayer, singing, confession, the sacraments and fellowship, worship repeatedly re-tells the gospel story, shapes our loves, trains us in praise and repentance, and binds us to the body of Christ."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe two different views of how the Lord's Supper nourishes believers.",
+          "answer_key": "E.g. Lutheran - Christ's true body and blood are present and given with forgiveness; Reformed - believers spiritually feed on Christ by the Spirit through faith; Memorial - a remembrance and proclamation that strengthens faith and fellowship; Catholic - the sacrament confers grace as the true body and blood of Christ."
+        }
+      ]
+    },
+    {
+      "id": "sf-05",
+      "title": "Confession, Repentance and Self-Examination",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain repentance as a lifelong turning to God (Luther's first thesis)."
+        },
+        {
+          "id": "o2",
+          "text": "Describe practices of confession (private, mutual, corporate) and the examen."
+        },
+        {
+          "id": "o3",
+          "text": "Explain assurance of forgiveness in Christ."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 51:1-17",
+        "1 John 1:5-2:2",
+        "James 5:16",
+        "Psalm 139:23-24"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book II, chapters 4-10 (the stolen pears)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Repentance of Believers'"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "Confession (how the simple should be taught to confess)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Repentance",
+          "definition": "A change of mind and heart turning from sin to God."
+        },
+        {
+          "term": "Examen",
+          "definition": "A daily prayerful review of one's thoughts, words and actions before God."
+        },
+        {
+          "term": "Absolution",
+          "definition": "A declaration of God's forgiveness to the penitent."
+        },
+        {
+          "term": "Contrition",
+          "definition": "Genuine sorrow for sin because it offends God."
+        }
+      ],
+      "discussion_questions": [
+        "What does Augustine's pear theft reveal about the nature of sin?",
+        "Why does Wesley say believers still need repentance?",
+        "How can mutual confession (James 5:16) be practised safely in a church?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Psalm 51 is associated with David's repentance after",
+          "options": [
+            "killing Goliath",
+            "his sin with Bathsheba",
+            "the census",
+            "Absalom's rebellion"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 John 1:9 promises that if we confess our sins, God is",
+          "options": [
+            "angry",
+            "faithful and just to forgive us",
+            "indifferent",
+            "sometimes willing"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine stole pears chiefly",
+          "options": [
+            "because he was hungry",
+            "for the thrill of doing what was forbidden",
+            "to feed pigs",
+            "to give to the poor"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Luther's first of the Ninety-Five Theses says that the whole life of believers should be",
+          "options": [
+            "a pilgrimage",
+            "one of repentance",
+            "spent in monasteries",
+            "joyful only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The examen is",
+          "options": [
+            "a theological exam",
+            "a daily prayerful review of one's day before God",
+            "a confession before a bishop",
+            "an annual retreat"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the difference between worldly sorrow and godly repentance?",
+          "answer_key": "Worldly sorrow regrets consequences or feels self-pity and leads to death; godly repentance grieves sin as offense against God, turns to him in faith, receives forgiveness in Christ and leads to changed life (2 Cor 7:10)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe a simple daily examen.",
+          "answer_key": "Become aware of God's presence; review the day with gratitude; notice where you sinned or failed to love; confess and receive forgiveness in Christ; ask for grace for tomorrow; resolve specific amendment."
+        }
+      ]
+    },
+    {
+      "id": "sf-06",
+      "title": "Fasting, Simplicity and Self-Denial",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the biblical practice and purposes of fasting."
+        },
+        {
+          "id": "o2",
+          "text": "Describe simplicity and generosity as disciplines against materialism."
+        },
+        {
+          "id": "o3",
+          "text": "Explain Calvin's teaching on self-denial and cross-bearing."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 6:16-18",
+        "Isaiah 58:1-12",
+        "Luke 9:23-25",
+        "1 Timothy 6:6-10"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapters 7-8 (self-denial; bearing the cross)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Upon our Lord's Sermon on the Mount, Discourse VII' (on fasting) and 'The Use of Money'"
+        },
+        {
+          "author": "Thomas à Kempis",
+          "title": "The Imitation of Christ",
+          "section": "Book II, chapters 11-12 (the royal way of the holy cross)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Fasting",
+          "definition": "Voluntarily abstaining from food (or other goods) for spiritual purposes."
+        },
+        {
+          "term": "Simplicity",
+          "definition": "A life free from the grip of possessions and status, focused on God's kingdom."
+        },
+        {
+          "term": "Self-denial",
+          "definition": "Renouncing self-will and self-seeking to follow Christ."
+        },
+        {
+          "term": "Almsgiving",
+          "definition": "Giving to the poor as an act of worship."
+        }
+      ],
+      "discussion_questions": [
+        "What kind of fast does God choose in Isaiah 58?",
+        "Summarize Wesley's three rules in 'The Use of Money'. How would they apply today?",
+        "How does self-denial differ from self-hatred?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jesus says in Matthew 6:17 that when you fast you should",
+          "options": [
+            "look gloomy",
+            "anoint your head and wash your face",
+            "announce it",
+            "fast only on the Sabbath"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Isaiah 58 says the fast God chooses includes",
+          "options": [
+            "long prayers only",
+            "loosing the bonds of wickedness and sharing bread with the hungry",
+            "wearing sackcloth daily",
+            "going to the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Wesley's rules in 'The Use of Money' are",
+          "options": [
+            "save, spend, invest",
+            "gain all you can, save all you can, give all you can",
+            "tithe, fast, pray",
+            "earn, enjoy, share"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Timothy 6:6 says godliness with contentment is",
+          "options": [
+            "impossible",
+            "great gain",
+            "for monks only",
+            "a sign of weakness"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Imitation of Christ calls the way of the cross",
+          "options": [
+            "a punishment",
+            "the royal way",
+            "optional for most",
+            "a medieval invention"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are the purposes of fasting in Scripture?",
+          "answer_key": "Humbling oneself before God, repentance, seeking God's guidance or help, mourning, preparing for ministry, intensifying prayer, and expressing hunger for God above food - joined with justice and mercy (Isa 58)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Calvin mean by self-denial?",
+          "answer_key": "We are not our own but God's; therefore we renounce self-seeking, devote ourselves to God's glory and neighbor's good, and submit to God's will in all circumstances, including bearing the cross patiently."
+        }
+      ]
+    },
+    {
+      "id": "sf-07",
+      "title": "The Presence of God and Contemplation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the practice of the presence of God in ordinary life."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Christian contemplation and its safeguards."
+        },
+        {
+          "id": "o3",
+          "text": "Practise recollection and silence."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 16:8-11",
+        "Psalm 46:10",
+        "Colossians 3:17",
+        "Psalm 27:4"
+      ],
+      "library_readings": [
+        {
+          "author": "Brother Lawrence",
+          "title": "The Practice of the Presence of God",
+          "section": "The conversations and first letters"
+        },
+        {
+          "author": "Thomas à Kempis",
+          "title": "The Imitation of Christ",
+          "section": "Book II, chapters 1 and 8 (the inward life; friendship with Jesus)"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book IX, chapter 10 (the vision at Ostia)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Practice of the presence of God",
+          "definition": "Brother Lawrence's habit of continual, loving attention to God in daily tasks."
+        },
+        {
+          "term": "Contemplation",
+          "definition": "Loving, attentive beholding of God, grounded in revealed truth."
+        },
+        {
+          "term": "Recollection",
+          "definition": "Gathering scattered thoughts to focus on God."
+        },
+        {
+          "term": "Silence and solitude",
+          "definition": "Disciplines of withdrawing from noise and people to be attentive to God."
+        }
+      ],
+      "discussion_questions": [
+        "How did Brother Lawrence find God in the kitchen?",
+        "What does 'Be still and know that I am God' mean in its context (Psalm 46)?",
+        "What cautions should guide the practice of contemplation?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Brother Lawrence worked for years as a",
+          "options": [
+            "bishop",
+            "cook in a monastery kitchen",
+            "missionary",
+            "scholar"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Psalm 46:10 says",
+          "options": [
+            "'Rise and fight'",
+            "'Be still, and know that I am God'",
+            "'Sing a new song'",
+            "'Wait for the morning'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Colossians 3:17 says whatever you do, in word or deed, do it",
+          "options": [
+            "quietly",
+            "all in the name of the Lord Jesus, giving thanks",
+            "for your own glory",
+            "on Sundays"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Psalm 27:4 the psalmist asks to dwell in the house of the LORD",
+          "options": [
+            "to be safe from enemies only",
+            "to gaze upon the beauty of the LORD",
+            "to become a priest",
+            "to find wealth"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The vision at Ostia in the Confessions was shared by Augustine and",
+          "options": [
+            "Ambrose",
+            "his mother Monica",
+            "Alypius",
+            "his son Adeodatus"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe Brother Lawrence's practice of the presence of God.",
+          "answer_key": "A simple, habitual turning of the heart to God throughout the day - in work and rest alike - with brief acts of love, trust and thanksgiving, so that all tasks are done for God and in his company."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What safeguards keep Christian contemplation biblical?",
+          "answer_key": "Grounding in Scripture and the gospel, focus on the Triune God revealed in Christ (not emptiness), connection to the church and sacraments, humility, testing experiences by Scripture, and fruit in love and obedience."
+        }
+      ]
+    },
+    {
+      "id": "sf-08",
+      "title": "Community, Friendship and Spiritual Direction",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain why formation happens in community."
+        },
+        {
+          "id": "o2",
+          "text": "Describe Wesley's class and band meetings and other models of accountability."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the practice of spiritual direction and mentoring."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 2:42-47",
+        "Ecclesiastes 4:9-12",
+        "Hebrews 3:12-13",
+        "Galatians 6:1-2"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'On Zeal' and 'The Reformation of Manners' (Wesley on Christian fellowship and societies)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapters 1-9 (different admonitions for different people)"
+        },
+        {
+          "author": "John Cassian",
+          "title": "Conferences",
+          "section": "Conference 2 (Abbot Moses on discretion and opening one's thoughts to elders)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Class meeting",
+          "definition": "Wesley's small groups of about twelve for weekly accountability and care."
+        },
+        {
+          "term": "Spiritual direction",
+          "definition": "A relationship in which a mature Christian helps another attend to God's work in their life."
+        },
+        {
+          "term": "Discretion (discernment)",
+          "definition": "The virtue Cassian prized for guiding the spiritual life."
+        },
+        {
+          "term": "Mutual edification",
+          "definition": "Believers building one another up in love."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Hebrews 3:13 say we need daily exhortation?",
+        "What made Wesley's class meetings so effective?",
+        "What makes a wise spiritual guide, according to Cassian and Gregory?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Hebrews 3:13 urges believers to exhort one another every day so that none may be hardened by",
+          "options": [
+            "persecution",
+            "the deceitfulness of sin",
+            "false teachers",
+            "poverty"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Wesley's weekly small groups of about twelve were called",
+          "options": [
+            "cells",
+            "class meetings",
+            "conventicles",
+            "chapters"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Galatians 6:2 says to bear one another's burdens and so fulfill",
+          "options": [
+            "the Mosaic law",
+            "the law of Christ",
+            "the prophets",
+            "your duty"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Cassian's Abbot Moses emphasizes the importance of",
+          "options": [
+            "miracles",
+            "discretion and humbly revealing one's thoughts to elders",
+            "solitude without guidance",
+            "academic learning"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Ecclesiastes 4:12 says a threefold cord is",
+          "options": [
+            "easily broken",
+            "not quickly broken",
+            "for kings only",
+            "a sign of mourning"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is community essential to spiritual formation?",
+          "answer_key": "God places believers in the body of Christ; we need others' gifts, encouragement, correction, prayer and example; isolation breeds self-deception and discouragement, whereas community provides accountability and love."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is spiritual direction?",
+          "answer_key": "A relationship of prayerful conversation where a mature believer helps another notice and respond to God's presence and work, discern his leading, and grow in prayer and obedience."
+        }
+      ]
+    },
+    {
+      "id": "sf-09",
+      "title": "Suffering, Trials and the Dark Night",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain a biblical theology of suffering and its role in formation."
+        },
+        {
+          "id": "o2",
+          "text": "Describe spiritual dryness and how the tradition counsels those in it."
+        },
+        {
+          "id": "o3",
+          "text": "Practise lament as a form of faithful prayer."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 5:1-5",
+        "James 1:2-4",
+        "2 Corinthians 12:7-10",
+        "Psalm 88"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Wilderness State' and 'Heaviness through Manifold Temptations'"
+        },
+        {
+          "author": "Thomas à Kempis",
+          "title": "The Imitation of Christ",
+          "section": "Book II, chapter 9 (the want of all comfort)"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book IV, chapters 4-12 (grief at the death of a friend)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Theodicy",
+          "definition": "Attempts to reconcile God's goodness and power with evil and suffering."
+        },
+        {
+          "term": "Lament",
+          "definition": "Faithful complaint and petition to God in suffering."
+        },
+        {
+          "term": "Wilderness state",
+          "definition": "Wesley's term for loss of the sense of God's presence and joy through sin or neglect."
+        },
+        {
+          "term": "Heaviness",
+          "definition": "Wesley's term for sorrow in trials that need not involve loss of faith."
+        }
+      ],
+      "discussion_questions": [
+        "What does Paul learn through his thorn in the flesh?",
+        "Psalm 88 ends in darkness. Why is it in the Bible?",
+        "How does Wesley distinguish 'wilderness state' from 'heaviness'?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 5:3-4 says suffering produces",
+          "options": [
+            "despair",
+            "endurance, character and hope",
+            "doubt",
+            "wealth"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In 2 Corinthians 12:9 the Lord tells Paul",
+          "options": [
+            "'Your thorn will be removed'",
+            "'My grace is sufficient for you, for my power is made perfect in weakness'",
+            "'You are being punished'",
+            "'Pray harder'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Psalm 88 is unusual because it",
+          "options": [
+            "is the longest psalm",
+            "ends without a clear turn to praise",
+            "has no author",
+            "is in Aramaic"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "James 1:2 says to count it all joy when you",
+          "options": [
+            "prosper",
+            "meet trials of various kinds",
+            "are praised",
+            "finish the race"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Wesley distinguishes the wilderness state from",
+          "options": [
+            "assurance",
+            "heaviness through manifold temptations",
+            "justification",
+            "perfection"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How can suffering be formative for a Christian?",
+          "answer_key": "God uses suffering to produce endurance and character, humble us, wean us from idols, deepen dependence on him, conform us to Christ's sufferings, equip us to comfort others, and strengthen hope in glory - without calling evil good."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should a pastor counsel someone in spiritual dryness?",
+          "answer_key": "Listen compassionately; explore possible causes (sin, neglect, exhaustion, depression, testing); remind them of God's promises and grace; encourage continued use of the means of grace and lament; recommend medical help where appropriate; assure them God is present even when unfelt."
+        }
+      ]
+    },
+    {
+      "id": "sf-10",
+      "title": "Holiness and Christian Perfection",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the biblical call to holiness."
+        },
+        {
+          "id": "o2",
+          "text": "Compare Wesleyan, Reformed, Lutheran, Catholic and Keswick/Pentecostal views of sanctification."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate Wesley's doctrine of Christian perfection."
+        }
+      ],
+      "scripture_passages": [
+        "1 Peter 1:13-16",
+        "1 Thessalonians 4:3-8",
+        "1 John 3:4-10",
+        "Romans 7:14-25"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "A Plain Account of Christian Perfection",
+          "section": "Wesley's summary of the doctrine ('perfect love') and answers to objections"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 3, sections 9-14 (regeneration and remaining sin in believers)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Second Part of the Second Part (II-II), Question 184 (the state of perfection)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Holiness",
+          "definition": "Being set apart to God and conformed to his character."
+        },
+        {
+          "term": "Christian perfection",
+          "definition": "Wesley's teaching of perfect love ruling the heart, not absolute sinlessness."
+        },
+        {
+          "term": "Simul iustus et peccator",
+          "definition": "Luther's phrase 'at the same time righteous and a sinner'."
+        },
+        {
+          "term": "Progressive sanctification",
+          "definition": "Growth in holiness throughout life."
+        }
+      ],
+      "discussion_questions": [
+        "Is Romans 7:14-25 describing a Christian's experience? How do traditions answer?",
+        "What does Wesley mean - and not mean - by Christian perfection?",
+        "How can a church encourage holiness without legalism?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Peter 1:16 quotes Leviticus: 'You shall be holy",
+          "options": [
+            "when you are older'",
+            "for I am holy'",
+            "in the temple'",
+            "like the priests'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Wesley defined Christian perfection chiefly as",
+          "options": [
+            "freedom from all mistakes",
+            "perfect love of God and neighbor ruling the heart",
+            "sinlessness in knowledge",
+            "achieved at baptism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Luther's phrase 'simul iustus et peccator' means",
+          "options": [
+            "righteous by works",
+            "at the same time righteous and a sinner",
+            "once saved always saved",
+            "perfect in this life"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Thessalonians 4:3 says the will of God is your",
+          "options": [
+            "wealth",
+            "sanctification",
+            "happiness",
+            "leadership"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aquinas discusses the 'state of perfection' in relation to",
+          "options": [
+            "marriage only",
+            "bishops and religious orders",
+            "kings",
+            "philosophers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare Wesleyan and Reformed views of sanctification.",
+          "answer_key": "Both affirm justification by faith and real growth in holiness. Wesleyans teach that by grace believers may be entirely sanctified in this life (perfect love, freedom from willful sin) as a second work or crisis; Reformed teach progressive sanctification with remaining sin until glorification."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What did Wesley NOT mean by Christian perfection?",
+          "answer_key": "Not freedom from ignorance, mistakes, infirmities or temptation; not absolute perfection like God's; not a state that cannot be lost or improved - but love filling the heart and excluding willful sin."
+        }
+      ],
+      "paper_prompt": "Write a 1,200-1,800 word paper comparing TWO views of sanctification (for example Wesleyan and Reformed, or Lutheran and Catholic). Present each view's strongest case from its own sources in the library (cite as Author, Title, section), discuss key texts (such as Romans 6-8 and 1 John 3), and explain how each view would shape pastoral counsel to a struggling believer. Conclude with your own assessment."
+    },
+    {
+      "id": "sf-11",
+      "title": "Vocation, Work and Service",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the Reformation doctrine of vocation."
+        },
+        {
+          "id": "o2",
+          "text": "Describe how ordinary work and service are arenas of formation."
+        },
+        {
+          "id": "o3",
+          "text": "Practise service as a spiritual discipline."
+        }
+      ],
+      "scripture_passages": [
+        "Colossians 3:22-24",
+        "Ephesians 2:10",
+        "Matthew 25:31-46",
+        "1 Corinthians 10:31"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "Table of Duties"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 10, section 6 (the Lord's calling as the rule of life)"
+        },
+        {
+          "author": "Brother Lawrence",
+          "title": "The Practice of the Presence of God",
+          "section": "Conversations 2-4 (doing ordinary things for the love of God)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Vocation",
+          "definition": "God's calling to faith and to serve him and neighbor in particular stations of life."
+        },
+        {
+          "term": "Priesthood of all believers",
+          "definition": "All Christians have access to God and serve him in their callings."
+        },
+        {
+          "term": "Diakonia",
+          "definition": "Service, ministry."
+        },
+        {
+          "term": "Stewardship",
+          "definition": "Faithful management of what God entrusts - time, talents, wealth, creation."
+        }
+      ],
+      "discussion_questions": [
+        "How does Colossians 3:23 transform ordinary work?",
+        "What does Matthew 25:31-46 teach about service to 'the least of these'?",
+        "Is there a hierarchy between 'sacred' and 'secular' callings?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Colossians 3:23 says whatever you do, work heartily as",
+          "options": [
+            "for your employer",
+            "for the Lord and not for men",
+            "for the church only",
+            "for yourself"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Calvin taught that each person's calling is",
+          "options": [
+            "a punishment",
+            "a post assigned by the Lord, guiding the whole of life",
+            "less important than monastic life",
+            "unchangeable"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Matthew 25, what was done for the least of Christ's brothers was done",
+          "options": [
+            "for the church",
+            "for Christ himself",
+            "for the poor only",
+            "for the angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Luther's 'Table of Duties' gives Scripture passages for",
+          "options": [
+            "monks",
+            "various stations - pastors, rulers, parents, workers, etc.",
+            "only clergy",
+            "church buildings"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 10:31 says to do all things",
+          "options": [
+            "quickly",
+            "to the glory of God",
+            "for reward",
+            "in secret"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the Reformation doctrine of vocation?",
+          "answer_key": "God calls every believer to serve him and their neighbors in ordinary stations (family, work, church, society); all lawful work done in faith pleases God, rejecting the medieval idea that only religious vocations are 'callings'."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can service be a spiritual discipline?",
+          "answer_key": "Serving others, especially in hidden and humble ways, trains us in humility and love, breaks self-centeredness, imitates Christ who came to serve, and meets Christ in the needy."
+        }
+      ]
+    },
+    {
+      "id": "sf-12",
+      "title": "A Rule of Life",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain what a rule of life is and its history (e.g. monastic rules, Wesley's rules)."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate your own spiritual rhythms and design a sustainable personal rule of life."
+        },
+        {
+          "id": "o3",
+          "text": "Describe how formation continues across the seasons of life."
+        }
+      ],
+      "scripture_passages": [
+        "1 Timothy 4:7-8",
+        "Hebrews 12:1-2",
+        "Philippians 3:12-14",
+        "Psalm 90:12"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas à Kempis",
+          "title": "The Imitation of Christ",
+          "section": "Book I, chapters 19-20 (the exercises of a good religious person; love of solitude and silence)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "A Plain Account of Christian Perfection",
+          "section": "Wesley's advice to believers on watching, prayer and good works"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part IV (the pastor's humility and self-knowledge)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Rule of life",
+          "definition": "An intentional pattern of practices that supports growth in Christ."
+        },
+        {
+          "term": "Rhythms",
+          "definition": "Daily, weekly and seasonal patterns of prayer, rest, work and service."
+        },
+        {
+          "term": "Sabbath rest",
+          "definition": "Regular rest as trust in God's provision."
+        },
+        {
+          "term": "Perseverance",
+          "definition": "Continuing in faith and obedience to the end."
+        }
+      ],
+      "discussion_questions": [
+        "What does Paul mean by 'train yourself for godliness'?",
+        "Which practices from this course have helped you most, and why?",
+        "How can a rule of life avoid becoming legalism?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Timothy 4:8 says bodily training is of some value, but godliness is",
+          "options": [
+            "less important",
+            "of value in every way, holding promise for this life and the life to come",
+            "for elders only",
+            "achieved quickly"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Hebrews 12:2 calls Jesus",
+          "options": [
+            "the lawgiver",
+            "the founder and perfecter of our faith",
+            "the first prophet",
+            "a great teacher only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "A rule of life is",
+          "options": [
+            "a church law",
+            "an intentional pattern of spiritual practices",
+            "a monastic punishment",
+            "a list of forbidden things"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Psalm 90:12 prays, 'Teach us to number our days",
+          "options": [
+            "so we may be rich'",
+            "that we may gain a heart of wisdom'",
+            "until the end'",
+            "so we may rest'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Philippians 3:13-14 describes Paul",
+          "options": [
+            "resting in achievements",
+            "forgetting what lies behind and straining forward to the goal",
+            "retiring from ministry",
+            "regretting his past"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What elements might a balanced rule of life include?",
+          "answer_key": "Daily Scripture and prayer; weekly worship, sacraments and Sabbath rest; fellowship and accountability; fasting and generosity; service and witness; study; self-examination and confession; care for body and relationships - adapted to one's season of life."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can a rule of life support grace rather than legalism?",
+          "answer_key": "By seeing practices as means of receiving grace, not earning favor; holding them flexibly, with freedom and gratitude; focusing on love for God and neighbor; and relying on the Spirit when we fail."
+        }
+      ],
+      "paper_prompt": "Write a 1,000-1,500 word reflective paper presenting your own rule of life. Describe the daily, weekly and seasonal practices you will adopt, explain the biblical and theological basis for each (citing Scripture and at least two library sources from this course, such as Brother Lawrence, Thomas à Kempis, Calvin or Wesley, as Author, Title, section), and explain how you will sustain it and guard against legalism."
+    }
+  ]
+}

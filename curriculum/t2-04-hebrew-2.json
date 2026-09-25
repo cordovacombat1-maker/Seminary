@@ -1,0 +1,1787 @@
+{
+  "id": "hebrew-2",
+  "title": "Hebrew II: Intermediate Biblical Hebrew and Exegesis",
+  "tier": 2,
+  "tier_name": "Languages",
+  "description": "Builds on Hebrew I with the derived verb stems (Niphal, Piel, Pual, Hiphil, Hophal, Hithpael), weak verbs, Hebrew syntax, poetry and textual criticism, and moves into exegesis of narrative, law, poetry and prophecy. Drills draw real verbs of each stem from the Hebrew Bible and check answers against STEPBible's morphology tags. The course ends with an exegetical paper based on the student's own translation of a Hebrew passage.",
+  "prerequisites": [
+    "hebrew-1"
+  ],
+  "lessons": [
+    {
+      "id": "hb2-01",
+      "title": "The Niphal Stem",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize the Niphal (נ prefix in the perfect; dagesh in the first root letter in the imperfect)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Niphal's passive and reflexive meanings."
+        },
+        {
+          "id": "o3",
+          "text": "Parse Niphal verbs in biblical texts."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 2:4",
+        "Isaiah 53:5",
+        "Genesis 12:3"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Genesis, chapter 12 (the Niphal of 'bless')"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapter 13 (Isaiah 53)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Niphal",
+          "definition": "The simple passive or reflexive stem (נִקְטַל, 'he was killed')."
+        },
+        {
+          "term": "Reflexive",
+          "definition": "Action the subject does to itself."
+        },
+        {
+          "term": "Reciprocal",
+          "definition": "Action subjects do to one another."
+        },
+        {
+          "term": "Tolerative",
+          "definition": "Allowing action to happen to oneself."
+        }
+      ],
+      "discussion_questions": [
+        "Genesis 12:3 uses the Niphal of 'bless' (נִבְרְכוּ). Should it be 'be blessed' or 'bless themselves'?",
+        "How does the passive in Isaiah 53:5 ('he was pierced') contribute to its meaning?",
+        "Why is it helpful to learn stems as patterns rather than memorizing every form?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Niphal perfect is recognized by",
+          "options": [
+            "a ה prefix",
+            "a נ prefix",
+            "a doubled middle radical",
+            "a ת infix"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Niphal most often expresses",
+          "options": [
+            "causative action",
+            "simple passive or reflexive action",
+            "intensive active action",
+            "the imperative only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Niphal perfect 3ms of קטל is",
+          "options": [
+            "קִטֵּל",
+            "נִקְטַל",
+            "הִקְטִיל",
+            "הִתְקַטֵּל"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In the Niphal imperfect, the נ assimilates and shows as",
+          "options": [
+            "a vav",
+            "a dagesh forte in the first root letter",
+            "a final ם",
+            "nothing"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Genesis 12:3 ('in you all families... shall be blessed') uses the stem",
+          "options": [
+            "Qal",
+            "Niphal",
+            "Hiphil",
+            "Hophal"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are the main meanings of the Niphal?",
+          "answer_key": "Simple passive of the Qal (was killed), reflexive (hid himself), reciprocal (fought one another), and sometimes middle or tolerative meanings."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain the translation issue in Genesis 12:3.",
+          "answer_key": "The Niphal נִבְרְכוּ can be passive ('shall be blessed') or reflexive/middle ('shall bless themselves' or 'find blessing'); the NT (Gal 3:8) and LXX read it as passive, with the nations receiving blessing through Abraham."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVN%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each Niphal verb."
+      }
+    },
+    {
+      "id": "hb2-02",
+      "title": "The Piel and Pual Stems",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize the Piel (doubled middle radical, active) and Pual (doubled middle radical, passive)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Piel's factitive, resultative and intensive meanings."
+        },
+        {
+          "id": "o3",
+          "text": "Parse Piel and Pual verbs."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 103:1-5",
+        "Leviticus 16:30",
+        "Exodus 20:8"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Psalm 103"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 8, sections 28-34 (the fourth commandment)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Piel",
+          "definition": "Stem with doubled middle radical, often factitive ('make holy') or intensive (קִטֵּל)."
+        },
+        {
+          "term": "Pual",
+          "definition": "The passive of the Piel (קֻטַּל)."
+        },
+        {
+          "term": "Factitive",
+          "definition": "Causing a state (קִדֵּשׁ, 'to sanctify/consecrate')."
+        },
+        {
+          "term": "Barak (Piel)",
+          "definition": "'To bless' (בָּרְכִי נַפְשִׁי, 'Bless the LORD, O my soul')."
+        }
+      ],
+      "discussion_questions": [
+        "Why is 'bless' (ברך) mostly in the Piel?",
+        "How does the Piel of קדשׁ in Exodus 20:8 ('keep holy') work?",
+        "What is the difference between 'intensive' and 'factitive'?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Piel is marked by",
+          "options": [
+            "a נ prefix",
+            "a doubled (dagesh forte) middle root letter",
+            "a ה prefix",
+            "a ת prefix"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Pual is",
+          "options": [
+            "the causative of the Qal",
+            "the passive of the Piel",
+            "a reflexive stem",
+            "the Aramaic stem"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "בָּרְכִי נַפְשִׁי אֶת־יְהוָה means",
+          "options": [
+            "the LORD blessed my soul",
+            "Bless the LORD, O my soul",
+            "my soul will be blessed",
+            "blessed is the soul"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "A factitive meaning is",
+          "options": [
+            "to be something",
+            "to cause a state (e.g. make holy)",
+            "to do something repeatedly",
+            "to do to oneself"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Piel perfect 3ms of קטל is",
+          "options": [
+            "קָטַל",
+            "קִטֵּל",
+            "נִקְטַל",
+            "הִקְטִיל"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the meanings of the Piel.",
+          "answer_key": "Often factitive (bringing about a state: make holy, make great), resultative, denominative (verb from a noun), or intensive/iterative; some verbs occur only in the Piel with a basic meaning (e.g. דבר 'speak')."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Parse and translate זָכוֹר אֶת־יוֹם הַשַּׁבָּת לְקַדְּשׁוֹ (Exod 20:8).",
+          "answer_key": "'Remember the Sabbath day to keep it holy' - זָכוֹר infinitive absolute (as command); לְקַדְּשׁוֹ Piel infinitive construct of קדשׁ with לְ and 3ms suffix ('to sanctify it')."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVp%",
+          "HVP%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each Piel or Pual verb."
+      }
+    },
+    {
+      "id": "hb2-03",
+      "title": "The Hiphil and Hophal Stems",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize the Hiphil (ה prefix in perfect; hireq-yod theme vowel) and Hophal."
+        },
+        {
+          "id": "o2",
+          "text": "Explain causative meanings."
+        },
+        {
+          "id": "o3",
+          "text": "Parse Hiphil and Hophal verbs, including in the Exodus narrative."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 20:2",
+        "Genesis 15:6",
+        "Isaiah 53:6"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Genesis, chapter 15 (he believed)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 2, sections 1-7 (faith)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Hiphil",
+          "definition": "The causative active stem (הִקְטִיל, 'he caused to kill')."
+        },
+        {
+          "term": "Hophal",
+          "definition": "The causative passive stem (הָקְטַל)."
+        },
+        {
+          "term": "הוֹצֵאתִיךָ",
+          "definition": "'I brought you out' (Hiphil of יצא, Exod 20:2)."
+        },
+        {
+          "term": "הֶאֱמִן",
+          "definition": "'He believed' (Hiphil of אמן, Gen 15:6)."
+        }
+      ],
+      "discussion_questions": [
+        "Genesis 15:6 uses the Hiphil of אמן ('believe'). What does it suggest about faith?",
+        "What does the Hiphil in Isaiah 53:6 ('the LORD has laid on him') say about who acts?",
+        "Why is the exodus described with causative verbs?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Hiphil expresses",
+          "options": [
+            "simple passive",
+            "causative active action",
+            "reflexive action",
+            "intensive passive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Hiphil perfect is recognized by",
+          "options": [
+            "a נ prefix",
+            "a ה prefix (often with hireq-yod theme vowel)",
+            "a doubled middle radical",
+            "a ת prefix"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Hophal is the passive of the",
+          "options": [
+            "Qal",
+            "Piel",
+            "Hiphil",
+            "Niphal"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "הוֹצֵאתִיךָ in Exodus 20:2 means",
+          "options": [
+            "you went out",
+            "I brought you out",
+            "they will go out",
+            "go out!"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Genesis 15:6 says Abram believed the LORD, using the stem",
+          "options": [
+            "Qal",
+            "Niphal",
+            "Hiphil",
+            "Piel"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the Hiphil with an example.",
+          "answer_key": "The causative active stem - the subject causes someone to do or be something: יצא (Qal 'go out') becomes הוֹצִיא (Hiphil 'bring out, cause to go out'), as in 'I brought you out of Egypt'."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does the Hiphil of אמן in Genesis 15:6 suggest?",
+          "answer_key": "'To believe, trust' - to consider something firm/reliable and rely on it; Abram relied on God's promise, and God counted it as righteousness."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVh%",
+          "HVH%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each Hiphil or Hophal verb."
+      }
+    },
+    {
+      "id": "hb2-04",
+      "title": "The Hithpael and Minor Stems",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize the Hithpael (הִתְ prefix, doubled middle radical)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain its reflexive, reciprocal and iterative meanings."
+        },
+        {
+          "id": "o3",
+          "text": "Review all seven major stems with a stem chart."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 3:8",
+        "Genesis 5:24",
+        "Micah 6:8"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XV, chapter 19 (Enoch, who walked with God)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Genesis, chapter 5"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Hithpael",
+          "definition": "Reflexive/iterative stem (הִתְקַטֵּל)."
+        },
+        {
+          "term": "הִתְהַלֵּךְ",
+          "definition": "'To walk about, walk (habitually)' - Hithpael of הלך."
+        },
+        {
+          "term": "Metathesis",
+          "definition": "Transposing letters (e.g. the ת of the Hithpael with a sibilant first radical)."
+        },
+        {
+          "term": "Stem chart",
+          "definition": "A table of the seven major stems by voice and action."
+        }
+      ],
+      "discussion_questions": [
+        "Genesis 5:24 says Enoch 'walked with God' (Hithpael). What does the stem suggest?",
+        "How does God 'walking' in the garden (Gen 3:8) use the same form?",
+        "Summarize the seven stems in a chart (simple/intensive/causative × active/passive/reflexive)."
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Hithpael is marked by",
+          "options": [
+            "a נ prefix",
+            "a הִתְ prefix and doubled middle radical",
+            "a ה prefix alone",
+            "no prefix"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Hithpael commonly expresses",
+          "options": [
+            "causative action",
+            "reflexive or iterative action",
+            "simple passive",
+            "future time"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Enoch 'walked with God' uses the Hithpael of",
+          "options": [
+            "ישׁב",
+            "הלך",
+            "עמד",
+            "ראה"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The stem that is the causative passive is the",
+          "options": [
+            "Pual",
+            "Niphal",
+            "Hophal",
+            "Hithpael"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The seven major Hebrew stems are Qal, Niphal, Piel, Pual, Hiphil, Hophal and",
+          "options": [
+            "Peal",
+            "Hithpael",
+            "Aphel",
+            "Shaphel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Draw a verbal description of the stem chart.",
+          "answer_key": "Simple - Qal (active), Niphal (passive/reflexive); intensive/factitive - Piel (active), Pual (passive), Hithpael (reflexive); causative - Hiphil (active), Hophal (passive)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What might the Hithpael of הלך suggest about Enoch's life?",
+          "answer_key": "The iterative/durative sense ('walk about, walk continually') suggests an ongoing, habitual life of fellowship with God."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVt%",
+          "HVN%",
+          "HVp%",
+          "HVh%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Mixed stems - identify the stem and parse each verb."
+      }
+    },
+    {
+      "id": "hb2-05",
+      "title": "Weak Verbs I - Guttural, I-Nun and I-Yod/Vav",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain how guttural letters and weak radicals change verb forms."
+        },
+        {
+          "id": "o2",
+          "text": "Recognize I-Nun (e.g. נפל, נתן) and I-Yod/Vav (e.g. ישׁב, ידע) verbs."
+        },
+        {
+          "id": "o3",
+          "text": "Parse weak verbs in narrative texts."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 4:1",
+        "Genesis 1:29",
+        "Psalm 139:1-6"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book X, chapters 1-5 (God's knowledge of us and our knowledge of God)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Psalm 139"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Guttural letters",
+          "definition": "א ה ח ע (and often ר), which reject dagesh and prefer 'a' vowels."
+        },
+        {
+          "term": "I-Nun verb",
+          "definition": "A root beginning with נ, which often assimilates (נתן → יִתֵּן)."
+        },
+        {
+          "term": "I-Yod/Vav verb",
+          "definition": "A root beginning with י (originally ו), with distinctive forms (ישׁב → יֵשֵׁב)."
+        },
+        {
+          "term": "ידע",
+          "definition": "'To know' - including intimate, relational knowledge (Gen 4:1)."
+        }
+      ],
+      "discussion_questions": [
+        "What does ידע mean in Genesis 4:1 and Psalm 139:1?",
+        "Why do weak verbs cause difficulty in parsing, and how does STEPBible's data help?",
+        "How does 'you have searched me and known me' shape Christian prayer?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Guttural letters",
+          "options": [
+            "always take dagesh",
+            "cannot take dagesh forte and prefer 'a'-class vowels",
+            "are silent",
+            "only appear at the end of words"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In I-Nun verbs the נ often",
+          "options": [
+            "doubles",
+            "assimilates into the next letter (shown by dagesh)",
+            "becomes ה",
+            "is written as ם"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "ידע means",
+          "options": [
+            "to sit",
+            "to know",
+            "to give",
+            "to fall"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "נתן means",
+          "options": [
+            "to fall",
+            "to give",
+            "to know",
+            "to sit"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Psalm 139:1 says 'O LORD, you have searched me and",
+          "options": [
+            "forgotten me'",
+            "known me'",
+            "judged me'",
+            "called me'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How do guttural letters affect Hebrew verbs?",
+          "answer_key": "They cannot be doubled (so preceding vowels lengthen - compensatory lengthening), prefer a-class vowels, and take composite shewa (hateph vowels) instead of simple shewa."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is a weak verb?",
+          "answer_key": "A verb whose root contains a letter (guttural, נ, י/ו, doubled letters, final ה) that changes or drops in certain forms, making the pattern irregular."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVqw%",
+          "HVqi%",
+          "HVqp%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each Qal verb - many are weak verbs."
+      }
+    },
+    {
+      "id": "hb2-06",
+      "title": "Weak Verbs II - III-He, Hollow and Geminate Verbs",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Recognize III-He verbs (e.g. בנה, היה, ראה), hollow verbs (e.g. קום, שׁוב) and geminate verbs (e.g. סבב)."
+        },
+        {
+          "id": "o2",
+          "text": "Parse common weak-verb forms such as וַיְהִי and וַיַּרְא."
+        },
+        {
+          "id": "o3",
+          "text": "Translate a narrative passage with many weak verbs."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:3-5",
+        "Jonah 3:10",
+        "Hosea 14:1-2"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Jonah, chapter 3"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Repentance of Believers'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "III-He verb",
+          "definition": "A root ending in ה, which often drops or changes (בנה, 'build')."
+        },
+        {
+          "term": "Hollow verb",
+          "definition": "A root with a middle vowel letter ו or י (קום, 'rise'; שׁוב, 'return')."
+        },
+        {
+          "term": "Geminate verb",
+          "definition": "A root whose second and third letters are the same (סבב, 'surround')."
+        },
+        {
+          "term": "שׁוב",
+          "definition": "'Turn, return, repent' - a key prophetic word."
+        }
+      ],
+      "discussion_questions": [
+        "How is שׁוב ('return') used in Hosea 14 and Jonah 3?",
+        "Why is וַיְהִי ('and it was') so frequent?",
+        "How does God's 'relenting' in Jonah 3:10 relate to his unchanging nature?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "A hollow verb has",
+          "options": [
+            "a final ה",
+            "a middle ו or י",
+            "doubled second and third letters",
+            "an initial נ"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "שׁוב means",
+          "options": [
+            "build",
+            "turn / return / repent",
+            "surround",
+            "rise"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "וַיְהִי is a form of",
+          "options": [
+            "ראה",
+            "היה (to be)",
+            "חיה (to live)",
+            "הלך"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Geminate verbs have",
+          "options": [
+            "a middle vowel",
+            "identical second and third radicals",
+            "initial י",
+            "final א"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Jonah 3:10, when God saw that they turned from their evil way, he",
+          "options": [
+            "destroyed the city",
+            "relented from the disaster he had threatened",
+            "sent Jonah away",
+            "gave them a king"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is a III-He verb and how does it behave?",
+          "answer_key": "A root whose third letter is ה (originally י/ו), e.g. בנה, היה, ראה; the ה drops or is replaced by other vowels in many forms, and wayyiqtol forms are shortened (וַיְהִי, וַיַּרְא)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain the theological significance of שׁוב in the prophets.",
+          "answer_key": "It expresses repentance - turning from sin back to the LORD - and God's own turning in mercy; the prophets call Israel to return in covenant faithfulness, promising restoration."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HV%w%",
+          "HV%i%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each imperfect or wayyiqtol (all stems; many weak verbs)."
+      }
+    },
+    {
+      "id": "hb2-07",
+      "title": "Hebrew Syntax - Clauses, Particles and Word Order",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Identify verbal and verbless clauses and the significance of word order."
+        },
+        {
+          "id": "o2",
+          "text": "Recognize key particles (הִנֵּה, כִּי, אֲשֶׁר, לָכֵן, אִם)."
+        },
+        {
+          "id": "o3",
+          "text": "Analyze clause relationships in a narrative or prophetic passage."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 22:1-14",
+        "Isaiah 7:14",
+        "Amos 3:1-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Isaiah, chapter 7 (the sign of Immanuel)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 43, 66-67 and 71 (the debate over Isaiah 7:14)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Verbless clause",
+          "definition": "A clause without a finite verb ('the LORD [is] my shepherd')."
+        },
+        {
+          "term": "הִנֵּה",
+          "definition": "'Behold/look!' - draws attention, often to something new."
+        },
+        {
+          "term": "כִּי",
+          "definition": "'For, because, that, indeed' - a versatile conjunction."
+        },
+        {
+          "term": "Fronting",
+          "definition": "Placing a word before the verb for emphasis or contrast."
+        }
+      ],
+      "discussion_questions": [
+        "What does הִנֵּה contribute in Genesis 22 and Isaiah 7:14?",
+        "How did Justin and Trypho disagree about עַלְמָה/παρθένος in Isaiah 7:14?",
+        "How do the rhetorical questions in Amos 3:3-8 build to the prophet's point?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "הִנֵּה is usually translated",
+          "options": [
+            "therefore",
+            "behold / look",
+            "because",
+            "if"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "A verbless clause",
+          "options": [
+            "is ungrammatical",
+            "implies the verb 'to be'",
+            "is always a question",
+            "only occurs in poetry"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The word in Isaiah 7:14 translated 'virgin' or 'young woman' is",
+          "options": [
+            "בְּתוּלָה",
+            "עַלְמָה",
+            "אִשָּׁה",
+            "נַעֲרָה"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "לָכֵן means",
+          "options": [
+            "behold",
+            "therefore",
+            "who",
+            "not"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Placing a word before the verb (fronting) usually signals",
+          "options": [
+            "a question",
+            "emphasis or contrast",
+            "past tense",
+            "plural subject"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the debate over Isaiah 7:14.",
+          "answer_key": "Isaiah uses עַלְמָה ('young woman of marriageable age'); the Septuagint rendered it παρθένος ('virgin'), followed by Matthew 1:23. Trypho argued for 'young woman' and a reference to Hezekiah; Justin argued it foretold the virgin birth. Many Christians see a near sign for Ahaz and a full fulfilment in Christ."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is word order important in Hebrew?",
+          "answer_key": "The normal order in verbal clauses is verb-subject-object; departures (fronting) mark emphasis, contrast, background information or a new topic, helping interpret the text's focus."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HV%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse any verb from the Hebrew Bible."
+      }
+    },
+    {
+      "id": "hb2-08",
+      "title": "Hebrew Poetry",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Identify parallelism, chiasm, terseness and imagery in Hebrew poetry."
+        },
+        {
+          "id": "o2",
+          "text": "Analyze the structure of a psalm in Hebrew."
+        },
+        {
+          "id": "o3",
+          "text": "Explain how the Masoretic accents mark poetic lines."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 1",
+        "Psalm 19:1-6",
+        "Isaiah 55:6-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 7 and 20 (the eloquence of Scripture, with examples from Amos and the Psalms)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Psalm 19"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Parallelism",
+          "definition": "Correspondence between lines (synonymous, antithetic, synthetic)."
+        },
+        {
+          "term": "Chiasm",
+          "definition": "An A-B-B'-A' mirror structure."
+        },
+        {
+          "term": "Terseness",
+          "definition": "Poetry's compressed style, omitting particles like the article and אֲשֶׁר."
+        },
+        {
+          "term": "Colon",
+          "definition": "A single poetic line; a bicolon has two parallel lines."
+        }
+      ],
+      "discussion_questions": [
+        "Find a chiasm in Isaiah 55:8-9 or Psalm 1.",
+        "How does Psalm 19:1-6 use personification?",
+        "What would be lost if Psalm 1 were paraphrased as prose?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "An A-B-B'-A' structure is called",
+          "options": [
+            "an acrostic",
+            "a chiasm",
+            "a merism",
+            "a refrain"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Hebrew poetry tends to omit",
+          "options": [
+            "verbs",
+            "particles such as the article and אֲשֶׁר",
+            "nouns",
+            "all prepositions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Psalm 19:1-6 describes the heavens as",
+          "options": [
+            "silent and meaningless",
+            "declaring God's glory without words",
+            "gods",
+            "a temple only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Isaiah 55:8 says, 'my thoughts are not your thoughts, neither are",
+          "options": [
+            "my laws your laws'",
+            "your ways my ways'",
+            "my people your people'",
+            "my words your words'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "A bicolon is",
+          "options": [
+            "a two-word phrase",
+            "a poetic verse of two parallel lines",
+            "a double consonant",
+            "a pair of psalms"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Identify the parallelism in Psalm 19:1.",
+          "answer_key": "'The heavens declare the glory of God; the skies proclaim the work of his hands' - synonymous parallelism: heavens/skies, declare/proclaim, glory of God/work of his hands."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why does parallelism matter for interpretation?",
+          "answer_key": "The second line often clarifies, intensifies or contrasts the first; reading the lines together prevents over-reading single words and reveals the poem's emphasis."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HNc%",
+          "HAa%"
+        ],
+        "fields": [
+          "Function",
+          "Gender",
+          "Number",
+          "State"
+        ],
+        "instructions": "Parse each noun or adjective (common in poetry)."
+      }
+    },
+    {
+      "id": "hb2-09",
+      "title": "Textual Criticism and the Versions",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the main witnesses to the Old Testament text (MT, Dead Sea Scrolls, Septuagint, Samaritan Pentateuch)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Ketiv/Qere system (as marked in STEPBible data)."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate a textual variant."
+        }
+      ],
+      "scripture_passages": [
+        "Deuteronomy 32:8",
+        "Psalm 22:16",
+        "Genesis 4:8"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapters 42-44 (the Septuagint and the Hebrew text)"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book VI, chapter 16 (Origen's Hexapla)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Masoretic Text (MT)",
+          "definition": "The standard Hebrew text preserved by the Masoretes."
+        },
+        {
+          "term": "Dead Sea Scrolls",
+          "definition": "Manuscripts from Qumran (c. 250 BC-AD 70), including the oldest biblical manuscripts."
+        },
+        {
+          "term": "Ketiv/Qere",
+          "definition": "'Written'/'read' - the consonantal text versus the reading the Masoretes indicated."
+        },
+        {
+          "term": "Septuagint (LXX)",
+          "definition": "The Greek translation of the Old Testament, a key textual witness."
+        }
+      ],
+      "discussion_questions": [
+        "Why do translations differ at Psalm 22:16 ('like a lion' vs 'they pierced')?",
+        "What does the Dead Sea Scrolls' agreement with the MT show about transmission?",
+        "How did Augustine handle differences between the Hebrew and the Septuagint?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Dead Sea Scrolls were found at",
+          "options": [
+            "Alexandria",
+            "Qumran",
+            "Rome",
+            "Sinai"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Ketiv means",
+          "options": [
+            "what is read",
+            "what is written",
+            "an error",
+            "an accent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Septuagint is",
+          "options": [
+            "a Latin translation",
+            "a Greek translation of the Old Testament",
+            "an Aramaic paraphrase",
+            "a medieval commentary"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Genesis 4:8 in the MT lacks Cain's words, which appear in",
+          "options": [
+            "no source",
+            "the Samaritan Pentateuch, Septuagint and other versions ('Let us go out to the field')",
+            "only the KJV",
+            "the Talmud"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine regarded the Septuagint as",
+          "options": [
+            "worthless",
+            "providentially authoritative alongside the Hebrew",
+            "the only authority",
+            "a Jewish forgery"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the Ketiv/Qere system?",
+          "answer_key": "Where the Masoretes preserved the written consonants (Ketiv) but believed another reading should be pronounced (Qere), they marked the Qere with vowels and a marginal note; STEPBible's TAHOT tags such readings."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do scholars decide between textual variants?",
+          "answer_key": "They weigh external evidence (age, quality and spread of witnesses such as MT, DSS, LXX) and internal evidence (which reading best explains the others, scribal tendencies, context, author's style), preferring the reading that best explains the rise of the others."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HV%",
+          "HNc%"
+        ],
+        "fields": [
+          "Function",
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number",
+          "State"
+        ],
+        "instructions": "Full parsing review for verbs and nouns."
+      }
+    },
+    {
+      "id": "hb2-10",
+      "title": "Exegesis of Hebrew Narrative",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Apply Hebrew grammar to narrative analysis (wayyiqtol chains, dialogue, repetition, key words)."
+        },
+        {
+          "id": "o2",
+          "text": "Study a narrative passage in Hebrew in depth."
+        },
+        {
+          "id": "o3",
+          "text": "Relate narrative details to theological meaning."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 22:1-19",
+        "1 Samuel 3:1-10"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVI, chapter 32 (the offering of Isaac)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Genesis, chapter 22"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Leitwort (key word)",
+          "definition": "A repeated word that carries the theme (e.g. 'see/provide' ראה in Genesis 22)."
+        },
+        {
+          "term": "הִנֵּנִי",
+          "definition": "'Here I am' - a response of readiness (Gen 22:1, 7, 11)."
+        },
+        {
+          "term": "Dialogue",
+          "definition": "Direct speech that reveals character and advances the plot."
+        },
+        {
+          "term": "Narrative gap",
+          "definition": "Information the narrator leaves unstated, inviting reflection."
+        }
+      ],
+      "discussion_questions": [
+        "Trace the verb ראה ('see/provide') through Genesis 22. What theme emerges?",
+        "What does 'Here I am' (הִנֵּנִי) reveal each time it appears?",
+        "What does the narrator leave unsaid in Genesis 22?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Abraham names the place יְהוָה יִרְאֶה, meaning",
+          "options": [
+            "the LORD is holy",
+            "the LORD will provide/see",
+            "the LORD is peace",
+            "the LORD my banner"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "הִנֵּנִי means",
+          "options": [
+            "behold him",
+            "here I am",
+            "go now",
+            "listen"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In 1 Samuel 3, Samuel at first thinks the voice is",
+          "options": [
+            "an angel",
+            "Eli",
+            "his mother",
+            "Saul"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "A repeated key word that carries a narrative's theme is a",
+          "options": [
+            "chiasm",
+            "Leitwort",
+            "merism",
+            "ketiv"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Genesis 22:2 God describes Isaac as",
+          "options": [
+            "your servant",
+            "your son, your only son, whom you love",
+            "the heir of Ishmael",
+            "the priest"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does the verb ראה unify Genesis 22?",
+          "answer_key": "Abraham 'sees' the place (22:4), says God will 'see to/provide' the lamb (22:8), 'sees' the ram (22:13), names the place 'the LORD will provide/see' (22:14) - highlighting God's provision."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why pay attention to what a narrator does not say?",
+          "answer_key": "Gaps (e.g. Abraham's feelings, Sarah's absence) invite readers to reflect, prevent easy moralizing, and focus attention on God's actions and the characters' faith."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HV%w%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse each narrative (wayyiqtol) verb."
+      }
+    },
+    {
+      "id": "hb2-11",
+      "title": "Exegesis of Prophecy and Poetry",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Analyze prophetic speech forms (oracle formulae, lawsuit, woe oracles)."
+        },
+        {
+          "id": "o2",
+          "text": "Study a prophetic or poetic passage in Hebrew."
+        },
+        {
+          "id": "o3",
+          "text": "Relate Hebrew features to the New Testament's use of the passage."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 52:13-53:12",
+        "Psalm 110:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "First Apology",
+          "section": "Chapters 50-51 (Isaiah 53 fulfilled in Christ)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVII, chapter 17 (Psalm 110 and Christ the priest-king)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Oracle formula",
+          "definition": "'Thus says the LORD' (כֹּה אָמַר יְהוָה)."
+        },
+        {
+          "term": "Servant (עֶבֶד)",
+          "definition": "The servant of the LORD in Isaiah."
+        },
+        {
+          "term": "Messenger formula",
+          "definition": "Formula introducing the prophet as God's messenger."
+        },
+        {
+          "term": "נְאֻם יְהוָה",
+          "definition": "'Declaration of the LORD' - a prophetic formula."
+        }
+      ],
+      "discussion_questions": [
+        "Which verbs in Isaiah 53 express substitution?",
+        "How is Psalm 110:1 used in the New Testament (e.g. Matthew 22:41-46)?",
+        "What does 'my servant' contribute to the portrait in Isaiah 52:13?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "כֹּה אָמַר יְהוָה means",
+          "options": [
+            "Hear, O Israel",
+            "Thus says the LORD",
+            "Praise the LORD",
+            "The LORD is one"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Isaiah 52:13 begins 'Behold, my servant shall",
+          "options": [
+            "fail'",
+            "act wisely / prosper'",
+            "be forgotten'",
+            "flee'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Psalm 110:4 declares the king a priest forever after the order of",
+          "options": [
+            "Aaron",
+            "Melchizedek",
+            "Levi",
+            "Samuel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Psalm 110:1 is quoted by Jesus to show that the Messiah is David's",
+          "options": [
+            "servant only",
+            "Lord as well as son",
+            "enemy",
+            "priest only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The formula נְאֻם יְהוָה means",
+          "options": [
+            "the name of the LORD",
+            "declaration/oracle of the LORD",
+            "the house of the LORD",
+            "the day of the LORD"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Isaiah 53 express substitution in its Hebrew verbs and pronouns?",
+          "answer_key": "Contrasts between 'he' and 'we/our' - 'he was pierced for our transgressions', 'crushed for our iniquities', 'the LORD laid on him the iniquity of us all', 'he bore the sin of many' - portray the servant bearing others' sin."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain how Psalm 110 is used in the New Testament.",
+          "answer_key": "It is the most-quoted OT text in the NT - Jesus uses 110:1 to show the Messiah is David's Lord (Matt 22:44); Acts 2 and Hebrews use it for Christ's exaltation at God's right hand, and Hebrews uses 110:4 for his eternal Melchizedek priesthood."
+        }
+      ],
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HVq%",
+          "HVN%",
+          "HVp%",
+          "HVh%",
+          "HVt%"
+        ],
+        "fields": [
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number"
+        ],
+        "instructions": "Parse verbs from all the major stems."
+      }
+    },
+    {
+      "id": "hb2-12",
+      "title": "Exegetical Capstone - A Hebrew Passage",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Translate a Hebrew passage independently with full parsing."
+        },
+        {
+          "id": "o2",
+          "text": "Produce a structural outline and exegetical notes."
+        },
+        {
+          "id": "o3",
+          "text": "Write an exegetical paper integrating Hebrew analysis, context and theology."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 23",
+        "Exodus 34:6-7",
+        "Isaiah 40:1-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Exodus, chapter 34"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book I, chapter 4 (the attributes of God)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 10 (Scripture's portrait of God, including Exodus 34:6-7)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Hesed (חֶסֶד)",
+          "definition": "Steadfast covenant love, loyalty, kindness."
+        },
+        {
+          "term": "Rachum (רַחוּם)",
+          "definition": "Compassionate, merciful."
+        },
+        {
+          "term": "Exegetical outline",
+          "definition": "A structural summary of a passage's argument or movement."
+        },
+        {
+          "term": "Theological synthesis",
+          "definition": "Relating a passage's teaching to the whole of Scripture."
+        }
+      ],
+      "discussion_questions": [
+        "Why is Exodus 34:6-7 quoted so often in the Old Testament?",
+        "What range of meaning does חֶסֶד have? How should it be translated?",
+        "How does Isaiah 40 comfort exiles?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "חֶסֶד is best described as",
+          "options": [
+            "anger",
+            "steadfast covenant love and loyalty",
+            "holiness",
+            "justice only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Exodus 34:6-7 is God's self-description given to",
+          "options": [
+            "Abraham",
+            "Moses",
+            "David",
+            "Elijah"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Isaiah 40:1 begins",
+          "options": [
+            "'Woe to you'",
+            "'Comfort, comfort my people'",
+            "'Hear, O heavens'",
+            "'The vision of Isaiah'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "רַחוּם means",
+          "options": [
+            "holy",
+            "compassionate",
+            "jealous",
+            "mighty"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin, in Institutes I.10, notes that Exodus 34:6-7 describes God",
+          "options": [
+            "by his essence",
+            "by his attributes toward us - mercy, goodness, justice",
+            "only as judge",
+            "as unknowable"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the attributes of God revealed in Exodus 34:6-7.",
+          "answer_key": "The LORD is compassionate and gracious, slow to anger, abounding in steadfast love (hesed) and faithfulness, keeping hesed for thousands, forgiving iniquity, transgression and sin, yet by no means clearing the guilty."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe the steps of Hebrew exegesis you would follow.",
+          "answer_key": "Establish the text; translate and parse; analyze syntax and structure; study key words (lexicon, usage); identify genre and literary context; study historical background; consider canonical and NT connections; consult the history of interpretation; synthesize theology and application."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word exegetical paper on Psalm 23, Exodus 34:6-7 or Isaiah 40:1-11. Include (1) your own translation from the Hebrew (use your tutor's STEPBible lookups), (2) parsing of every verb, (3) a structural outline, (4) discussion of at least three significant grammatical, lexical or poetic features, (5) interaction with at least two library sources cited as (Author, Title, section), and (6) theological reflection including the passage's use in the New Testament or its fulfilment in Christ.",
+      "drill": {
+        "language": "hebrew",
+        "morph_patterns": [
+          "HV%",
+          "HNc%",
+          "HAa%"
+        ],
+        "fields": [
+          "Function",
+          "Stem",
+          "Form",
+          "Person",
+          "Gender",
+          "Number",
+          "State"
+        ],
+        "instructions": "Final review - parse any verb, noun or adjective."
+      }
+    }
+  ]
+}

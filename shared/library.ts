@@ -434,6 +434,7 @@ export const WORKS: Work[] = [
   w('eusebius-constantine', 'Eusebius', 'Life of Constantine', 'Patristic', ['npnf201'], ['LIFE OF CONSTANTINE', 'THE LIFE OF CONSTANTINE']),
   w('athanasius-incarnation', 'Athanasius', 'On the Incarnation of the Word', 'Patristic', ['npnf204'], ['ON THE INCARNATION', 'DE INCARNATIONE']),
   w('athanasius-arians', 'Athanasius', 'Discourses Against the Arians', 'Patristic', ['npnf204'], ['AGAINST THE ARIANS', 'FOUR DISCOURSES AGAINST THE ARIANS']),
+  w('athanasius-festal', 'Athanasius', 'Festal Letters', 'Patristic', ['npnf204'], ['FESTAL LETTERS', 'FESTAL LETTER']),
   w('athanasius-antony', 'Athanasius', 'Life of Antony', 'Patristic', ['npnf204'], ['LIFE OF ANTONY', 'LIFE OF ST. ANTONY', 'VITA S. ANTONI']),
   w('cyril-lectures', 'Cyril of Jerusalem', 'Catechetical Lectures', 'Patristic', ['npnf207'], ['CATECHETICAL LECTURES', 'CATECHETICAL LECTURE']),
   w('gregory-nazianzen-orations', 'Gregory of Nazianzus', 'Theological Orations', 'Patristic', ['npnf207'], ['THEOLOGICAL ORATION', 'THE THEOLOGICAL ORATIONS']),

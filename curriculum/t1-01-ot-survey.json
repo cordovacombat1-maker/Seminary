@@ -1,0 +1,1666 @@
+{
+  "id": "ot-survey",
+  "title": "Old Testament Survey",
+  "tier": 1,
+  "tier_name": "Foundations",
+  "description": "A guided tour of the Old Testament: its structure, storyline, major themes and theology. Students trace the history of Israel from creation and the patriarchs through exodus, conquest, monarchy, exile and return, and read representative texts from the Law, the Historical Books, Wisdom and Poetry, and the Prophets. The course emphasizes covenant, kingdom, and promise, and how the Old Testament prepares for and points to Jesus Christ.",
+  "prerequisites": [],
+  "lessons": [
+    {
+      "id": "ots-01",
+      "title": "The Shape of the Old Testament and the Story It Tells",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the divisions of the Old Testament in the Hebrew (Law, Prophets, Writings) and Christian orderings."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize the Old Testament storyline in its main eras."
+        },
+        {
+          "id": "o3",
+          "text": "Explain why the Old Testament is Christian Scripture, using Jesus' and the apostles' use of it."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 24:44-47",
+        "Romans 15:4",
+        "Nehemiah 9:6-31"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVII, chapters 1-3 (the prophetic age and the two senses of prophecy)"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book III, chapter 25; and Book IV, chapter 26 (Melito's list of Old Testament books)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, Westminster Confession of Faith, chapter 1 (the books of Scripture)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Tanakh",
+          "definition": "The Hebrew Bible, named from Torah (Law), Nevi'im (Prophets), Ketuvim (Writings)."
+        },
+        {
+          "term": "Canon",
+          "definition": "The collection of books recognized as Scripture."
+        },
+        {
+          "term": "Covenant",
+          "definition": "A binding relationship God establishes with promises and obligations."
+        },
+        {
+          "term": "Septuagint (LXX)",
+          "definition": "The ancient Greek translation of the Old Testament, widely used in the early church."
+        }
+      ],
+      "discussion_questions": [
+        "Nehemiah 9 retells Israel's history in a prayer. What does the retelling emphasize about God?",
+        "Why does Jesus refer to 'the Law of Moses, the Prophets and the Psalms' in Luke 24:44?",
+        "How would you summarize the Old Testament story in five sentences?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The three divisions of the Hebrew Bible are",
+          "options": [
+            "Gospels, Letters, Apocalypse",
+            "Law, Prophets, Writings",
+            "History, Poetry, Prophecy",
+            "Torah, Talmud, Mishnah"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Septuagint is",
+          "options": [
+            "a Latin translation",
+            "a Greek translation of the Old Testament",
+            "a Jewish commentary",
+            "a list of seventy laws"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "According to Romans 15:4, the things written in former days were written",
+          "options": [
+            "only for Israel",
+            "for our instruction, that we might have hope",
+            "to be replaced",
+            "as myths"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Nehemiah 9 is primarily",
+          "options": [
+            "a law code",
+            "a prayer of confession recounting Israel's history",
+            "a genealogy",
+            "a victory song"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Which era comes immediately after the exodus and wilderness wandering?",
+          "options": [
+            "The exile",
+            "The united monarchy",
+            "The conquest and settlement of Canaan",
+            "The return from Babylon"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "List the major eras of the Old Testament story in order.",
+          "answer_key": "Creation and primeval history; patriarchs; exodus and Sinai; wilderness; conquest and judges; united monarchy (Saul, David, Solomon); divided kingdom (Israel and Judah); exile (Assyria, Babylon); return and restoration (Persian period)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give one reason Christians receive the Old Testament as their Scripture.",
+          "answer_key": "Jesus and the apostles received it as the word of God, taught that it speaks of Christ (Luke 24:44), and used it to teach the church (Rom 15:4; 2 Tim 3:16); the New Testament presupposes and fulfils it."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/kot"
+    },
+    {
+      "id": "ots-02",
+      "title": "Creation and the Primeval History (Genesis 1-11)",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the theological message of Genesis 1-2 about God, humanity and creation."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the fall (Genesis 3) and the spread of sin in Genesis 4-11."
+        },
+        {
+          "id": "o3",
+          "text": "Identify signs of grace and promise within the primeval history (e.g. Genesis 3:15, Noah's covenant)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:1-2:3",
+        "Genesis 3:1-24",
+        "Genesis 9:8-17",
+        "Genesis 11:1-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XII, chapters 1-9 and Book XIV, chapters 11-15 (creation and the fall)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 15 (the creation of man and the image of God)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Genesis, chapter 3"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Imago Dei",
+          "definition": "The image of God in which humanity was created (Gen 1:26-27)."
+        },
+        {
+          "term": "Protoevangelium",
+          "definition": "'First gospel'; the traditional reading of Genesis 3:15 as the first promise of a redeemer."
+        },
+        {
+          "term": "Noahic covenant",
+          "definition": "God's covenant never again to destroy the earth by flood (Gen 9)."
+        },
+        {
+          "term": "Primeval history",
+          "definition": "Genesis 1-11, the story from creation to Babel."
+        }
+      ],
+      "discussion_questions": [
+        "What does Genesis 1 teach about the relationship between God and the world, compared with other ancient creation stories?",
+        "How does sin progress from Genesis 3 to Genesis 11?",
+        "What does 'image of God' mean? Consider several traditional answers."
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "According to Genesis 1:27, humanity was created",
+          "options": [
+            "as angels",
+            "in the image of God, male and female",
+            "from the sea",
+            "after the animals were cursed"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The traditional name for Genesis 3:15 as the first gospel promise is",
+          "options": [
+            "the Shema",
+            "the protoevangelium",
+            "the Decalogue",
+            "the Magnificat"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The sign of God's covenant with Noah is",
+          "options": [
+            "circumcision",
+            "the Sabbath",
+            "the rainbow",
+            "the ark"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "At Babel (Genesis 11), people sought to",
+          "options": [
+            "worship God rightly",
+            "make a name for themselves",
+            "find Abraham",
+            "return to Eden"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine taught that evil is",
+          "options": [
+            "a substance created by God",
+            "a privation or corruption of good",
+            "an eternal principle equal to good",
+            "an illusion"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the main theological message of Genesis 1:1-2:3.",
+          "answer_key": "The one sovereign God created all things good, by his word, in an ordered way; humanity is made in his image to rule and fill the earth as his representatives; the Sabbath rest crowns creation. It rejects polytheism and the deification of nature."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do Genesis 3-11 show both judgment and grace?",
+          "answer_key": "Sin brings curse, death, violence (Cain), the flood and Babel's scattering; yet God promises the woman's offspring (3:15), clothes Adam and Eve, protects Cain, saves Noah and makes a covenant, preparing for Abraham's call."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/PRH"
+    },
+    {
+      "id": "ots-03",
+      "title": "The Patriarchs and the Promise (Genesis 12-50)",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the Abrahamic covenant and its threefold promise (land, seed, blessing)."
+        },
+        {
+          "id": "o2",
+          "text": "Trace how the promise is threatened and preserved through Isaac, Jacob and Joseph."
+        },
+        {
+          "id": "o3",
+          "text": "Explain how the New Testament interprets Abraham (faith, justification, blessing to the nations)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 12:1-3",
+        "Genesis 15:1-21",
+        "Genesis 50:15-21",
+        "Galatians 3:6-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVI, chapters 16-43 (from Abraham to the patriarchs)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Galatians, chapter 3"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Genesis, chapter 15"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Abrahamic covenant",
+          "definition": "God's covenant promising Abraham land, descendants and blessing to all nations (Gen 12, 15, 17)."
+        },
+        {
+          "term": "Patriarchs",
+          "definition": "Abraham, Isaac and Jacob, the fathers of Israel."
+        },
+        {
+          "term": "Providence",
+          "definition": "God's sovereign care and direction of all things, seen in the Joseph story (Gen 50:20)."
+        },
+        {
+          "term": "Imputation of righteousness",
+          "definition": "Abraham 'believed the LORD, and he credited it to him as righteousness' (Gen 15:6)."
+        }
+      ],
+      "discussion_questions": [
+        "Why does God choose one man and family to bless all the nations?",
+        "What threats to the promise appear in Genesis 12-50, and how does God overcome them?",
+        "How does Joseph's statement in Genesis 50:20 shape a doctrine of providence?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Genesis 12:3 God promises that in Abram",
+          "options": [
+            "Egypt will be defeated",
+            "all the families of the earth will be blessed",
+            "the law will be given",
+            "the temple will be built"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Genesis 15:6 says Abram believed the LORD and",
+          "options": [
+            "was circumcised",
+            "it was credited to him as righteousness",
+            "built an altar",
+            "went to Egypt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Which patriarch was renamed Israel?",
+          "options": [
+            "Abraham",
+            "Isaac",
+            "Jacob",
+            "Joseph"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Joseph tells his brothers, 'You intended to harm me, but God intended it for",
+          "options": [
+            "my exaltation only",
+            "good, to accomplish the saving of many lives'",
+            "your punishment'",
+            "Egypt's glory'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Galatians 3:8 Paul says Scripture 'preached the gospel beforehand' to Abraham by saying",
+          "options": [
+            "'Leave your country'",
+            "'All nations will be blessed through you'",
+            "'Circumcise your sons'",
+            "'Offer Isaac'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are the three main elements of God's promise to Abraham?",
+          "answer_key": "Land (the land of Canaan), seed/descendants (a great nation, offspring), and blessing (God's blessing on Abraham and through him to all the families of the earth)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Paul use Abraham in Galatians 3?",
+          "answer_key": "Abraham was justified by faith before the law, so those who have faith are his true children; the promised blessing to the nations comes to Gentiles through faith in Christ, Abraham's offspring."
+        }
+      ]
+    },
+    {
+      "id": "ots-04",
+      "title": "Exodus, Sinai and the Tabernacle",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the exodus as God's great act of redemption in the Old Testament."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Sinai covenant and the place of the Ten Commandments within it."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the purpose of the tabernacle as God dwelling among his people."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 3:1-15",
+        "Exodus 12:1-28",
+        "Exodus 19:1-8",
+        "Exodus 40:34-38"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book X, chapters 5-8 and 17 (sacrifice and the tabernacle)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 8, sections 1-15 (exposition of the moral law)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Exodus, chapter 3"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Exodus",
+          "definition": "Israel's deliverance from slavery in Egypt, the paradigm of redemption in Scripture."
+        },
+        {
+          "term": "YHWH",
+          "definition": "The covenant name of God revealed to Moses (Exod 3:14-15), rendered 'the LORD' in most translations."
+        },
+        {
+          "term": "Passover",
+          "definition": "The feast commemorating God's 'passing over' Israel's houses marked with a lamb's blood."
+        },
+        {
+          "term": "Tabernacle",
+          "definition": "The portable sanctuary where God's glory dwelt among Israel."
+        }
+      ],
+      "discussion_questions": [
+        "What does God reveal about himself in the burning-bush encounter?",
+        "Why is Israel's obedience at Sinai a response to redemption rather than a means to earn it?",
+        "How does the New Testament draw on Passover and tabernacle imagery (e.g. John 1:14, 1 Cor 5:7)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "At the burning bush God reveals his name as",
+          "options": [
+            "El Shaddai only",
+            "'I AM WHO I AM'",
+            "Adonai Tsebaoth",
+            "The Most High"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Passover lamb's blood was placed",
+          "options": [
+            "on the altar",
+            "on the doorposts and lintel",
+            "on the priests",
+            "in the river"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Exodus 19:6 God calls Israel to be",
+          "options": [
+            "a nation of warriors",
+            "a kingdom of priests and a holy nation",
+            "rulers of Egypt",
+            "a people without law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "When the tabernacle was completed, Exodus 40 says",
+          "options": [
+            "Moses entered at once",
+            "the cloud covered it and the glory of the LORD filled it",
+            "it was destroyed",
+            "the people left Sinai immediately"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Paul calls Christ 'our Passover lamb' in",
+          "options": [
+            "Romans 3",
+            "1 Corinthians 5",
+            "Galatians 4",
+            "Hebrews 11"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is the order 'redemption then law' important in Exodus?",
+          "answer_key": "God redeems Israel first (Exod 20:2), so the law is given to an already-rescued people as the shape of covenant life, not as a way to earn salvation; grace precedes obedience."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What was the purpose of the tabernacle?",
+          "answer_key": "To be the place where the holy God dwelt among his people, where atonement was made and worship offered, foreshadowing Christ ('tabernacled among us', John 1:14) and the church as God's temple."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/PEN"
+    },
+    {
+      "id": "ots-05",
+      "title": "Leviticus, Numbers and Deuteronomy - Holiness and Covenant Renewal",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the purpose of the sacrificial system and holiness laws in Leviticus."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize the lessons of the wilderness generation in Numbers."
+        },
+        {
+          "id": "o3",
+          "text": "Describe Deuteronomy as covenant renewal and identify the Shema."
+        }
+      ],
+      "scripture_passages": [
+        "Leviticus 16:1-34",
+        "Leviticus 19:1-18",
+        "Numbers 14:1-25",
+        "Deuteronomy 6:4-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Question 102 (the reasons for the ceremonial precepts)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Leviticus, chapter 16"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The First Commandment"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Day of Atonement (Yom Kippur)",
+          "definition": "The annual day when the high priest made atonement for the sanctuary and people (Lev 16)."
+        },
+        {
+          "term": "Holiness",
+          "definition": "God's utter distinctness and purity; Israel is called to be holy as God is holy (Lev 19:2)."
+        },
+        {
+          "term": "Shema",
+          "definition": "'Hear, O Israel: The LORD our God, the LORD is one' (Deut 6:4), Israel's central confession."
+        },
+        {
+          "term": "Scapegoat",
+          "definition": "The goat that symbolically carried Israel's sins into the wilderness (Lev 16:21-22)."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Leviticus 19 mix 'ritual' and 'ethical' commands together?",
+        "What caused the wilderness generation's failure in Numbers 14?",
+        "Jesus calls the Shema the greatest commandment. How does Deuteronomy link love and obedience?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "On the Day of Atonement, one goat was sacrificed and the other",
+          "options": [
+            "was kept in the temple",
+            "was sent into the wilderness bearing Israel's sins",
+            "was given to the Levites",
+            "was eaten at Passover"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Leviticus 19:18 commands",
+          "options": [
+            "'Keep the Sabbath'",
+            "'Love your neighbor as yourself'",
+            "'Tithe your grain'",
+            "'Do not boil a goat in its mother's milk'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Numbers 14 the Israelites refused to enter the land because they",
+          "options": [
+            "had no leader",
+            "feared the inhabitants and did not trust God",
+            "were attacked by Egypt",
+            "wanted to return to Sinai"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Shema begins",
+          "options": [
+            "'In the beginning God...'",
+            "'Hear, O Israel: The LORD our God, the LORD is one'",
+            "'The LORD is my shepherd'",
+            "'I am the LORD your God who brought you out of Egypt'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Deuteronomy is mainly presented as",
+          "options": [
+            "a list of genealogies",
+            "Moses' sermons renewing the covenant before entering the land",
+            "a book of songs",
+            "the history of the judges"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Hebrews interpret the Day of Atonement in light of Christ?",
+          "answer_key": "Christ is the great high priest who entered the true heavenly sanctuary once for all with his own blood, securing eternal redemption; the annual repeated sacrifices pointed to and are fulfilled by his single sacrifice (Heb 9-10)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the main message of Deuteronomy 6:4-9?",
+          "answer_key": "The LORD alone is God; Israel must love him wholeheartedly, keep his words on their hearts and teach them diligently to their children in all of life."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/PEN"
+    },
+    {
+      "id": "ots-06",
+      "title": "Conquest and Judges - Land, Faithfulness and Failure",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the conquest in Joshua and the theme of God's faithfulness to his land promise."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the cycle of sin, oppression, crying out and deliverance in Judges."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss ethical questions about the conquest with care, using biblical and historical perspectives."
+        }
+      ],
+      "scripture_passages": [
+        "Joshua 1:1-9",
+        "Joshua 21:43-45",
+        "Judges 2:6-23",
+        "Ruth 4:13-22"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVI, chapter 43 (the time of Joshua and the judges)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Judges, chapter 2"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Second Part of the Second Part (II-II), Question 40 (on war)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Herem",
+          "definition": "The 'ban' - devoting a city or people wholly to the LORD, often by destruction."
+        },
+        {
+          "term": "Judge",
+          "definition": "A deliverer raised up by God to rescue Israel from oppressors."
+        },
+        {
+          "term": "Deuteronomistic pattern",
+          "definition": "The cycle of apostasy, oppression, repentance, deliverance in Judges."
+        },
+        {
+          "term": "Kinsman-redeemer (go'el)",
+          "definition": "A relative who redeems family property or persons, as Boaz does in Ruth."
+        }
+      ],
+      "discussion_questions": [
+        "What does Joshua 21:43-45 claim about God's promises? How does that fit with Judges 1?",
+        "How should Christians think about the conquest narratives today?",
+        "How does Ruth's story offer hope in the dark days of the judges?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "God tells Joshua to meditate on the Book of the Law",
+          "options": [
+            "once a year",
+            "day and night",
+            "only in battle",
+            "only in the tabernacle"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The recurring cycle in Judges begins with",
+          "options": [
+            "deliverance",
+            "Israel doing evil and forsaking the LORD",
+            "a census",
+            "building the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ruth 4 ends with a genealogy leading to",
+          "options": [
+            "Moses",
+            "Samuel",
+            "David",
+            "Solomon"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Joshua 21:45 declares that",
+          "options": [
+            "some promises failed",
+            "not one of all the good promises the LORD had made failed",
+            "the land was never taken",
+            "the judges would soon come"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aquinas's discussion of war (II-II q.40) lists conditions including",
+          "options": [
+            "a majority vote",
+            "legitimate authority, just cause, and right intention",
+            "the approval of the enemy",
+            "a prophet's command only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the cycle found in Judges 2.",
+          "answer_key": "Israel does evil and worships other gods; God hands them over to oppressors; Israel cries out; God raises up a judge who delivers them; after the judge dies they return to evil, often worse than before."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give one principle that can help Christians read the conquest narratives responsibly.",
+          "answer_key": "For example - they are a unique, non-repeatable act of divine judgment on Canaanite sin (Gen 15:16) in redemptive history, not a model for Christian violence; hyperbolic war language is common; Rahab shows mercy to those who turn to God; the church's warfare is spiritual (Eph 6)."
+        }
+      ]
+    },
+    {
+      "id": "ots-07",
+      "title": "Samuel, Saul and David - The Rise of the Kingdom",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the transition from judges to monarchy and why Israel's request for a king was problematic."
+        },
+        {
+          "id": "o2",
+          "text": "Contrast Saul and David as kings."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the Davidic covenant (2 Samuel 7) and its messianic significance."
+        }
+      ],
+      "scripture_passages": [
+        "1 Samuel 8:1-22",
+        "1 Samuel 16:1-13",
+        "2 Samuel 7:1-17",
+        "Psalm 89:19-37"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVII, chapters 4-13 (Hannah, Samuel, David and the promise)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on 2 Samuel, chapter 7"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Luke, chapter 1 (the throne of his father David)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Davidic covenant",
+          "definition": "God's promise that David's house and throne would endure forever (2 Sam 7)."
+        },
+        {
+          "term": "Messiah",
+          "definition": "'Anointed one'; the anointed king, and ultimately the promised Son of David."
+        },
+        {
+          "term": "Anointing",
+          "definition": "Pouring oil on a person to set them apart for office (king, priest)."
+        },
+        {
+          "term": "Theocracy",
+          "definition": "Rule by God; Israel's king was to rule under the LORD's kingship."
+        }
+      ],
+      "discussion_questions": [
+        "Why was Israel's request 'to be like all the nations' (1 Sam 8:5, 20) a problem?",
+        "What does 1 Samuel 16:7 teach about how God evaluates leaders?",
+        "How does the New Testament connect Jesus to the Davidic covenant?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Israel asked Samuel for a king in order to",
+          "options": [
+            "build the temple",
+            "be like all the nations",
+            "defeat Egypt",
+            "replace the priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "When choosing David, the LORD told Samuel that he looks on",
+          "options": [
+            "outward appearance",
+            "the heart",
+            "family wealth",
+            "military skill"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In 2 Samuel 7 God promises David",
+          "options": [
+            "that he would build the temple",
+            "an eternal house, kingdom and throne",
+            "victory over Egypt",
+            "a long life only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The word 'Messiah' means",
+          "options": [
+            "savior",
+            "anointed one",
+            "prophet",
+            "son of man"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The first king of Israel was",
+          "options": [
+            "David",
+            "Saul",
+            "Samuel",
+            "Solomon"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the Davidic covenant and its importance for the rest of Scripture.",
+          "answer_key": "God promised David a dynasty ('house'), an everlasting kingdom and throne, and a son who would build a house for God's name and be God's son; it grounds the messianic hope in the prophets and Psalms and is fulfilled in Jesus, Son of David (Luke 1:32-33)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Contrast Saul and David.",
+          "answer_key": "Saul looked impressive but disobeyed God and sought his own honor, losing the kingdom; David was chosen for his heart, trusted God (e.g. against Goliath), and though he sinned greatly he repented, receiving God's covenant promise."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/kot"
+    },
+    {
+      "id": "ots-08",
+      "title": "Solomon, the Temple and the Divided Kingdom",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Solomon's reign, the building of the temple and Solomon's decline."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the division of the kingdom and the differences between Israel and Judah."
+        },
+        {
+          "id": "o3",
+          "text": "Identify the theological evaluation of kings in 1-2 Kings."
+        }
+      ],
+      "scripture_passages": [
+        "1 Kings 8:22-53",
+        "1 Kings 11:1-13",
+        "1 Kings 12:1-33",
+        "1 Kings 18:20-40"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVII, chapters 20-22 (Solomon and the division of the kingdom)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on 1 Kings, chapter 8"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Temple",
+          "definition": "The house for the LORD's name built by Solomon in Jerusalem."
+        },
+        {
+          "term": "Divided kingdom",
+          "definition": "The split after Solomon into Israel (north, capital Samaria) and Judah (south, capital Jerusalem)."
+        },
+        {
+          "term": "Sin of Jeroboam",
+          "definition": "Setting up golden calves at Bethel and Dan, the recurring charge against northern kings."
+        },
+        {
+          "term": "Baal",
+          "definition": "Canaanite storm/fertility god, whose worship Elijah confronted."
+        }
+      ],
+      "discussion_questions": [
+        "What does Solomon's prayer in 1 Kings 8 teach about the temple and God's presence?",
+        "Why did the kingdom divide? Consider both human and divine causes (1 Kings 11-12).",
+        "What is at stake in Elijah's contest on Mount Carmel?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In his prayer at the temple dedication Solomon acknowledges that",
+          "options": [
+            "God lives only in the temple",
+            "heaven and the highest heaven cannot contain God",
+            "the temple replaces the law",
+            "prayer is unnecessary"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Solomon's heart was turned away from the LORD by",
+          "options": [
+            "the prophets",
+            "his many foreign wives and their gods",
+            "Egypt's armies",
+            "the priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The northern kingdom's first king was",
+          "options": [
+            "Rehoboam",
+            "Jeroboam",
+            "Ahab",
+            "Omri"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Jeroboam set up golden calves at",
+          "options": [
+            "Jerusalem and Hebron",
+            "Bethel and Dan",
+            "Samaria and Shechem",
+            "Gilgal and Shiloh"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "On Mount Carmel, Elijah challenged the prophets of",
+          "options": [
+            "Molech",
+            "Baal",
+            "Dagon",
+            "Chemosh"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How do the books of Kings evaluate the kings of Israel and Judah?",
+          "answer_key": "By their covenant faithfulness - whether they did right or evil in the LORD's eyes, especially regarding exclusive worship of the LORD (idolatry, the high places, the sin of Jeroboam), compared with David as the standard."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why did the kingdom divide after Solomon?",
+          "answer_key": "Because of Solomon's idolatry God judged the house by tearing away most tribes (1 Kgs 11), and humanly because Rehoboam harshly refused to lighten the people's burden (1 Kgs 12), so the northern tribes followed Jeroboam."
+        }
+      ]
+    },
+    {
+      "id": "ots-09",
+      "title": "Exile and Return",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the causes of the fall of Samaria (722 BC) and Jerusalem (586 BC) according to Kings and the prophets."
+        },
+        {
+          "id": "o2",
+          "text": "Describe life in exile and the hope of restoration."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the return and rebuilding under Zerubbabel, Ezra and Nehemiah."
+        }
+      ],
+      "scripture_passages": [
+        "2 Kings 17:6-23",
+        "2 Kings 25:1-21",
+        "Psalm 137",
+        "Ezra 1:1-4",
+        "Nehemiah 8:1-12"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapters 33-36 (the captivity and the return)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on 2 Kings, chapter 17"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Exile",
+          "definition": "The deportation of Israel by Assyria (722 BC) and Judah by Babylon (586 BC)."
+        },
+        {
+          "term": "Cyrus",
+          "definition": "The Persian king whose decree (539/538 BC) allowed exiles to return (Ezra 1)."
+        },
+        {
+          "term": "Remnant",
+          "definition": "The faithful survivors through whom God preserves his people and promises."
+        },
+        {
+          "term": "Second temple",
+          "definition": "The temple rebuilt after the exile (completed 516 BC)."
+        }
+      ],
+      "discussion_questions": [
+        "How does 2 Kings 17 explain the fall of the northern kingdom?",
+        "What emotions does Psalm 137 express, and how should Christians read its final verses?",
+        "Why is the reading of the Law central in Nehemiah 8?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The northern kingdom of Israel fell to",
+          "options": [
+            "Babylon",
+            "Assyria",
+            "Persia",
+            "Egypt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Jerusalem and the first temple were destroyed by Babylon in",
+          "options": [
+            "722 BC",
+            "586 BC",
+            "538 BC",
+            "70 AD"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Persian king who allowed the exiles to return was",
+          "options": [
+            "Nebuchadnezzar",
+            "Cyrus",
+            "Darius the Mede",
+            "Xerxes"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Nehemiah 8, the people responded to the reading of the Law by",
+          "options": [
+            "leaving Jerusalem",
+            "weeping, then celebrating with understanding",
+            "rebuilding Babel",
+            "choosing a king"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "2 Kings 17 attributes the exile of Israel primarily to",
+          "options": [
+            "bad luck",
+            "persistent idolatry and covenant unfaithfulness",
+            "a weak army",
+            "Egyptian betrayal"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How did the exile shape Israel's hope for the future?",
+          "answer_key": "It produced repentance and longing for restoration; the prophets promised return, a new covenant, a renewed Davidic king, a new temple and the Spirit; the partial return left hopes awaiting fuller fulfilment, which the NT sees in Christ."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize the achievements of Ezra and Nehemiah.",
+          "answer_key": "Ezra, a priest and scribe, taught the Law and led covenant renewal and reforms; Nehemiah rebuilt Jerusalem's walls, reorganized the community and led reforms, together restoring Judah's identity around God's word."
+        }
+      ]
+    },
+    {
+      "id": "ots-10",
+      "title": "Wisdom and Poetry - Psalms, Proverbs, Job, Ecclesiastes, Song of Songs",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the types of psalms (lament, praise, thanksgiving, royal, wisdom) and their use in worship."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the concept of wisdom and the 'fear of the LORD'."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize how Job and Ecclesiastes wrestle with suffering and meaning."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 13",
+        "Psalm 2",
+        "Proverbs 1:1-7",
+        "Job 38:1-11",
+        "Ecclesiastes 12:9-14"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book IX, chapter 4 (Augustine's praying of the Psalms)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 20, sections 1-5 (prayer)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Job, chapter 38"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Lament psalm",
+          "definition": "A prayer bringing complaint and petition to God, usually moving toward trust and praise."
+        },
+        {
+          "term": "Royal psalm",
+          "definition": "A psalm about the king, often read messianically (e.g. Psalm 2, 110)."
+        },
+        {
+          "term": "Fear of the LORD",
+          "definition": "Reverent awe and submission to God, the beginning of wisdom (Prov 1:7)."
+        },
+        {
+          "term": "Hebel",
+          "definition": "'Vapor/breath', Ecclesiastes' key word for the fleeting, elusive nature of life under the sun."
+        }
+      ],
+      "discussion_questions": [
+        "How does Psalm 13 model honest prayer in suffering?",
+        "What does God's answer to Job (Job 38) do and not do?",
+        "How does Ecclesiastes' conclusion (12:13-14) frame the whole book?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Psalm 13 is an example of a",
+          "options": [
+            "royal psalm",
+            "lament psalm",
+            "wisdom psalm",
+            "hymn of creation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "According to Proverbs 1:7, the fear of the LORD is",
+          "options": [
+            "the end of knowledge",
+            "the beginning of knowledge",
+            "unnecessary for the wise",
+            "only for priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Job 38 God responds to Job by",
+          "options": [
+            "explaining the heavenly court scene",
+            "questioning Job about creation and God's power",
+            "condemning Job as wicked",
+            "praising Job's friends"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Psalm 2 is quoted in the New Testament of",
+          "options": [
+            "Moses",
+            "David only",
+            "Jesus as God's Son",
+            "the church in Corinth"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The conclusion of Ecclesiastes is to",
+          "options": [
+            "eat and drink only",
+            "fear God and keep his commandments",
+            "seek wealth",
+            "abandon wisdom"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is it helpful to recognize different types of psalms?",
+          "answer_key": "Each type has a typical structure and purpose (lament moves from complaint to trust; praise summons worship; thanksgiving recounts deliverance; royal psalms concern the king/Messiah), guiding interpretation and showing how to pray in different circumstances."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do Job and Ecclesiastes complement Proverbs?",
+          "answer_key": "Proverbs presents general patterns (wisdom brings blessing); Job shows that the righteous may suffer for reasons hidden from them, and Ecclesiastes confronts life's frustrations and death; together they teach humble trust in God beyond simple formulas."
+        }
+      ],
+      "paper_prompt": "Write a 1,200-1,600 word paper on how ONE psalm (choose from Psalms 2, 22, 51, 73 or 110) functioned in ancient Israel and how it is read in the New Testament and by the church. Identify its type, structure and main message, discuss at least one New Testament use, and interact with at least two library sources (for example Augustine, Calvin, or a commentary), cited as (Author, Title, section)."
+    },
+    {
+      "id": "ots-11",
+      "title": "The Prophets - Covenant Messengers",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the role of prophets as covenant enforcers who called for repentance and announced judgment and hope."
+        },
+        {
+          "id": "o2",
+          "text": "Distinguish the major and minor prophets and place key prophets in their historical settings."
+        },
+        {
+          "id": "o3",
+          "text": "Identify key messianic and new covenant promises in the prophets."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 6:1-13",
+        "Jeremiah 31:31-34",
+        "Ezekiel 36:24-28",
+        "Micah 6:6-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapters 27-35 (the prophets)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "First Apology",
+          "section": "Chapters 31-53 (the prophets foretelling Christ)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Jeremiah, chapter 31"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Major prophets",
+          "definition": "Isaiah, Jeremiah (with Lamentations), Ezekiel, Daniel - named for length, not importance."
+        },
+        {
+          "term": "Minor prophets (the Twelve)",
+          "definition": "Hosea through Malachi."
+        },
+        {
+          "term": "New covenant",
+          "definition": "God's promise to write his law on hearts and forgive sin (Jer 31:31-34)."
+        },
+        {
+          "term": "Day of the LORD",
+          "definition": "The coming day of God's decisive judgment and salvation."
+        }
+      ],
+      "discussion_questions": [
+        "What does Isaiah's call vision reveal about God and about the prophet's task?",
+        "How does the new covenant in Jeremiah 31 differ from the Sinai covenant?",
+        "Micah 6:8 summarizes what God requires. How does it relate to worship and sacrifice (6:6-7)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Isaiah 6 the seraphim call out",
+          "options": [
+            "'Glory to God in the highest'",
+            "'Holy, holy, holy is the LORD of Hosts'",
+            "'Hosanna'",
+            "'The LORD is one'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Jeremiah 31:33 promises that God will",
+          "options": [
+            "give a new temple",
+            "put his law within them and write it on their hearts",
+            "abolish the law",
+            "send another flood"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ezekiel 36:26 promises",
+          "options": [
+            "a new king",
+            "a new heart and a new spirit",
+            "a new land only",
+            "new sacrifices"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Micah 6:8 says the LORD requires",
+          "options": [
+            "thousands of rams",
+            "to act justly, love mercy, and walk humbly with your God",
+            "the firstborn",
+            "pilgrimage to Jerusalem"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Which book is NOT among the Minor Prophets?",
+          "options": [
+            "Hosea",
+            "Amos",
+            "Daniel",
+            "Malachi"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why are the prophets called 'covenant enforcers'?",
+          "answer_key": "They applied the Mosaic covenant to Israel's situation, exposing covenant violations (idolatry, injustice), warning of the covenant curses (judgment, exile) and holding out covenant blessings and restoration for repentance and God's faithfulness."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Where does the New Testament say the new covenant is fulfilled?",
+          "answer_key": "In Jesus' death ('this cup is the new covenant in my blood', Luke 22:20) and in the ministry of the Spirit (2 Cor 3); Hebrews 8 quotes Jeremiah 31 as fulfilled in Christ's better covenant."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HGP"
+    },
+    {
+      "id": "ots-12",
+      "title": "Waiting for the Messiah - The Old Testament's Unfinished Story",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the major lines of Old Testament hope (seed, king, prophet, priest, servant, son of man, new covenant, new creation)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the servant songs of Isaiah, especially Isaiah 52:13-53:12, and their fulfilment in Christ."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the intertestamental situation and the expectations at the time of Jesus."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 52:13-53:12",
+        "Daniel 7:13-14",
+        "Malachi 4:1-6",
+        "Acts 8:26-35"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 11-13 and 89-90 (the new covenant and the suffering Messiah)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapter 29 (Isaiah's prophecies of Christ and the church)"
+        },
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book I (the Jewish world and messianic expectation)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Servant of the LORD",
+          "definition": "The figure in Isaiah 42-53 who suffers for the sins of others."
+        },
+        {
+          "term": "Son of Man",
+          "definition": "The heavenly figure in Daniel 7 given everlasting dominion; Jesus' favorite self-designation."
+        },
+        {
+          "term": "Intertestamental period",
+          "definition": "The roughly 400 years between Malachi and the New Testament."
+        },
+        {
+          "term": "Elijah to come",
+          "definition": "Malachi's promise (4:5) fulfilled, according to Jesus, in John the Baptist."
+        }
+      ],
+      "discussion_questions": [
+        "What in Isaiah 53 suggests substitutionary suffering?",
+        "How does Philip use Isaiah 53 with the Ethiopian official (Acts 8)?",
+        "Why does the Old Testament end with unfulfilled expectation?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Isaiah 53:5 says the servant was pierced for",
+          "options": [
+            "his own sins",
+            "our transgressions",
+            "Israel's enemies",
+            "the priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Daniel 7:13-14 the one like a son of man receives",
+          "options": [
+            "a temple",
+            "dominion, glory and an everlasting kingdom",
+            "a scroll only",
+            "judgment for sin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Ethiopian official was reading",
+          "options": [
+            "Psalm 22",
+            "Isaiah 53",
+            "Daniel 7",
+            "Malachi 4"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Malachi promises that before the day of the LORD God will send",
+          "options": [
+            "Moses",
+            "Elijah the prophet",
+            "David",
+            "a new temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Jesus identified the promised Elijah with",
+          "options": [
+            "Peter",
+            "John the Baptist",
+            "himself",
+            "Paul"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name at least four strands of Old Testament messianic hope and show how they converge in Jesus.",
+          "answer_key": "E.g. the seed of the woman/Abraham, the Davidic king, the prophet like Moses, the priest-king (Ps 110), the suffering servant, the son of man, the new covenant mediator - the NT presents Jesus as all of these, uniting kingship, prophecy, priesthood and suffering."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is Isaiah 52:13-53:12 central to the New Testament's understanding of Jesus' death?",
+          "answer_key": "It portrays a righteous servant who suffers and dies for others' sins, bears their iniquity, makes many righteous and is exalted; the NT quotes it repeatedly (Acts 8; 1 Pet 2:22-25; Mark 10:45) to explain the cross as substitutionary atonement."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper tracing ONE theme through the Old Testament (for example covenant, kingship, the presence of God/temple, or the land) from its beginning to its expected fulfilment, showing how it is developed in the Law, the Historical Books, the Writings and the Prophets, and how the New Testament presents its fulfilment in Christ. Use at least three scripture passages from different sections of the Old Testament and at least two library sources, cited as (Author, Title, section).",
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/BBT"
+    }
+  ]
+}
