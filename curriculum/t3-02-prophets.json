@@ -1,0 +1,1669 @@
+{
+  "id": "prophets",
+  "title": "The Prophets",
+  "tier": 3,
+  "tier_name": "Biblical Studies",
+  "description": "A study of Israel's prophets - the Former Prophets' history and the Latter Prophets' oracles. Students learn the nature of prophecy, the historical settings of the eighth-century, Babylonian and Persian-era prophets, the major themes of covenant, judgment, repentance, justice, the Day of the LORD, the remnant, the Messiah and the new covenant, and how the New Testament proclaims their fulfilment in Christ. Special attention is given to Isaiah, Jeremiah, Ezekiel, Daniel and the Book of the Twelve.",
+  "prerequisites": [
+    "ot-survey",
+    "hermeneutics"
+  ],
+  "lessons": [
+    {
+      "id": "pro-01",
+      "title": "What Is a Prophet?",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the office and call of the prophet (Deuteronomy 18; call narratives)."
+        },
+        {
+          "id": "o2",
+          "text": "Distinguish true and false prophets."
+        },
+        {
+          "id": "o3",
+          "text": "Explain forth-telling and fore-telling and conditional prophecy."
+        }
+      ],
+      "scripture_passages": [
+        "Deuteronomy 18:15-22",
+        "Jeremiah 1:4-10",
+        "Jeremiah 18:7-10",
+        "Amos 3:7-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Second Part of the Second Part (II-II), Questions 171-174 (prophecy)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVII, chapter 3 (the threefold meaning of prophecy)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Jeremiah, chapter 1"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Nabi",
+          "definition": "Hebrew for 'prophet' - one called to speak for God."
+        },
+        {
+          "term": "Call narrative",
+          "definition": "The account of a prophet's commissioning (Isaiah 6, Jeremiah 1, Ezekiel 1-3)."
+        },
+        {
+          "term": "Conditional prophecy",
+          "definition": "Announcements of judgment or blessing that depend on response (Jer 18:7-10)."
+        },
+        {
+          "term": "False prophet",
+          "definition": "One who speaks presumptuously or leads to other gods (Deut 13; 18)."
+        }
+      ],
+      "discussion_questions": [
+        "What tests for prophets does Deuteronomy give?",
+        "How does Jeremiah 18:7-10 explain Jonah's experience in Nineveh?",
+        "Aquinas distinguishes prophecy as knowledge given by God. What are its forms?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Deuteronomy 18:22 says a prophet is false if",
+          "options": [
+            "he is young",
+            "what he says does not come to pass",
+            "he is not a priest",
+            "he writes nothing"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Jeremiah objected to his call because he was",
+          "options": [
+            "not a Levite",
+            "only a youth",
+            "in exile",
+            "unclean"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Jeremiah 18:7-10 teaches that God's announcements of judgment",
+          "options": [
+            "can never change",
+            "may be withdrawn if a nation repents",
+            "apply only to Israel",
+            "are always symbolic"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Amos 3:7 says the Lord GOD does nothing without revealing his secret to",
+          "options": [
+            "the kings",
+            "his servants the prophets",
+            "the priests",
+            "the nations"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Hebrew word for prophet is",
+          "options": [
+            "kohen",
+            "nabi",
+            "melek",
+            "shofet"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What does it mean that prophets were 'forth-tellers' as well as 'fore-tellers'?",
+          "answer_key": "They primarily proclaimed God's word to their own generation - calling for covenant faithfulness, exposing sin and injustice - and also announced future events (judgment, restoration, the Messiah) as part of that message."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give three tests of true prophecy from Scripture.",
+          "answer_key": "Fulfilment of predictions (Deut 18:22), faithfulness to the LORD and his revealed word (Deut 13:1-5), moral character and fruit (Jer 23; Matt 7:15-20), and confession of Christ (1 John 4:1-3)."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HGP"
+    },
+    {
+      "id": "pro-02",
+      "title": "The Former Prophets - Joshua to Kings as Prophetic History",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain why Joshua-Kings are called the Former Prophets."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the ministries of Samuel, Nathan, Elijah and Elisha."
+        },
+        {
+          "id": "o3",
+          "text": "Identify the prophetic evaluation of Israel's history in Kings."
+        }
+      ],
+      "scripture_passages": [
+        "2 Samuel 12:1-15",
+        "1 Kings 17:1-24",
+        "2 Kings 2:1-15",
+        "2 Kings 17:13-18"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVII, chapters 1-4 (the prophetic age from Samuel)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on 1 Kings, chapter 17"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Former Prophets",
+          "definition": "Joshua, Judges, Samuel and Kings in the Hebrew canon."
+        },
+        {
+          "term": "Deuteronomistic History",
+          "definition": "A scholarly label for Joshua-Kings viewed as history interpreted by Deuteronomy's theology."
+        },
+        {
+          "term": "Nathan",
+          "definition": "The prophet who confronted David."
+        },
+        {
+          "term": "Elijah and Elisha",
+          "definition": "Ninth-century prophets who confronted Baal worship with mighty works."
+        }
+      ],
+      "discussion_questions": [
+        "How did Nathan confront David, and what can pastors learn from it?",
+        "Why is Elijah such a significant figure later in Scripture (Malachi 4; the Gospels)?",
+        "What does 2 Kings 17:13 say about the role of the prophets?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Nathan confronted David with a parable about",
+          "options": [
+            "a lost coin",
+            "a rich man taking a poor man's lamb",
+            "a vineyard",
+            "two sons"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Elijah provided for a widow in",
+          "options": [
+            "Jericho",
+            "Zarephath",
+            "Samaria",
+            "Bethel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Elisha asked Elijah for",
+          "options": [
+            "his cloak only",
+            "a double portion of his spirit",
+            "a kingdom",
+            "wealth"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Former Prophets in the Hebrew canon include",
+          "options": [
+            "Isaiah and Jeremiah",
+            "Joshua, Judges, Samuel and Kings",
+            "Psalms and Proverbs",
+            "the Twelve"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "2 Kings 17:13 says the LORD warned Israel by",
+          "options": [
+            "kings only",
+            "every prophet and seer",
+            "the nations",
+            "dreams only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why are Joshua-Kings called 'Former Prophets'?",
+          "answer_key": "They were understood as written from a prophetic perspective, interpreting Israel's history by God's covenant word, featuring prophets and showing how God's word through them came to pass."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What pastoral lessons come from Nathan's confrontation of David?",
+          "answer_key": "Courage to speak truth to power, wisdom in approach (the parable let David judge himself), clarity about sin ('You are the man'), and the announcement of forgiveness alongside consequences."
+        }
+      ]
+    },
+    {
+      "id": "pro-03",
+      "title": "Amos and Hosea - Justice and Covenant Love",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Place Amos and Hosea in the eighth-century northern kingdom."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Amos's message of social justice and judgment."
+        },
+        {
+          "id": "o3",
+          "text": "Explain Hosea's marriage as a picture of God's covenant love."
+        }
+      ],
+      "scripture_passages": [
+        "Amos 5:18-24",
+        "Amos 9:11-15",
+        "Hosea 1:2-11",
+        "Hosea 11:1-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapters 28 and 31 (Hosea and Amos on Christ and the church)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Hosea, chapter 11"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Use of Money' (applying prophetic concern for justice)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Social justice (mishpat and tsedaqah)",
+          "definition": "Justice and righteousness in community life."
+        },
+        {
+          "term": "Day of the LORD",
+          "definition": "A day Israel expected as victory, which Amos declared would be darkness (5:18)."
+        },
+        {
+          "term": "Hesed",
+          "definition": "Covenant loyalty, central in Hosea (6:6)."
+        },
+        {
+          "term": "Out of Egypt I called my son",
+          "definition": "Hosea 11:1, applied to Jesus in Matthew 2:15."
+        }
+      ],
+      "discussion_questions": [
+        "Why did God reject Israel's worship in Amos 5:21-24?",
+        "How does Hosea's marriage embody God's relationship with Israel?",
+        "How is Amos 9:11-12 used at the Jerusalem Council (Acts 15:16-17)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Amos was a",
+          "options": [
+            "priest from Jerusalem",
+            "herdsman and dresser of sycamore figs from Tekoa",
+            "king's counselor",
+            "Levite"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Amos 5:24 says, 'Let justice roll down like waters, and",
+          "options": [
+            "peace like a river'",
+            "righteousness like an ever-flowing stream'",
+            "mercy like rain'",
+            "truth like a flood'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "God commanded Hosea to marry",
+          "options": [
+            "a priest's daughter",
+            "a woman who would be unfaithful (Gomer)",
+            "a Moabite",
+            "a widow"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Matthew applies Hosea 11:1 ('out of Egypt I called my son') to",
+          "options": [
+            "Moses",
+            "Jesus returning from Egypt",
+            "Joseph",
+            "Israel's exodus only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Hosea 6:6 says God desires",
+          "options": [
+            "sacrifice",
+            "steadfast love and not sacrifice",
+            "burnt offerings",
+            "fasting"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Matthew use Hosea 11:1?",
+          "answer_key": "Hosea refers to Israel, God's son, called out of Egypt in the exodus; Matthew sees Jesus as the true Son who recapitulates Israel's history, so the pattern is fulfilled when he returns from Egypt - typological fulfilment."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the relationship between worship and justice in Amos?",
+          "answer_key": "God rejects worship from people who oppress the poor and pervert justice; true worship is inseparable from justice and righteousness in daily life."
+        }
+      ]
+    },
+    {
+      "id": "pro-04",
+      "title": "Isaiah 1-39 - The Holy One of Israel",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Place Isaiah of Jerusalem in the Assyrian crisis."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret Isaiah's call and the Immanuel prophecies (7-12)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the theme of the Holy One of Israel and trust versus alliances."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 1:1-20",
+        "Isaiah 6:1-13",
+        "Isaiah 7:10-17",
+        "Isaiah 9:1-7"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 43, 66-71 and 76-78 (Isaiah 7:14 and the virgin birth)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapter 29 (Isaiah's prophecies)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Isaiah, chapter 9"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Holy One of Israel",
+          "definition": "Isaiah's characteristic title for God."
+        },
+        {
+          "term": "Immanuel",
+          "definition": "'God with us' (Isa 7:14; 8:8; Matt 1:23)."
+        },
+        {
+          "term": "Syro-Ephraimite crisis",
+          "definition": "The threat from Syria and Israel against Judah (Isa 7)."
+        },
+        {
+          "term": "Remnant",
+          "definition": "A surviving faithful people (Isa 10:20-22)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Isaiah 1 function as a covenant lawsuit?",
+        "What titles for the coming child appear in Isaiah 9:6, and what do they imply?",
+        "How should Isaiah 7:14 be understood in its setting and in Matthew?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Isaiah's characteristic title for God is",
+          "options": [
+            "the Ancient of Days",
+            "the Holy One of Israel",
+            "the Rock of Ages",
+            "the God of Jacob only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Isaiah saw the Lord in the year that",
+          "options": [
+            "Hezekiah died",
+            "King Uzziah died",
+            "Jerusalem fell",
+            "Ahaz was crowned"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Isaiah 9:6 calls the child Wonderful Counselor, Mighty God,",
+          "options": [
+            "King of Kings, Lord of Lords",
+            "Everlasting Father, Prince of Peace",
+            "Son of Man, Son of God",
+            "Holy One, Redeemer"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Isaiah 7 is set during the threat from",
+          "options": [
+            "Babylon",
+            "Syria (Aram) and Israel (Ephraim)",
+            "Egypt",
+            "Persia"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Isaiah 1:18 invites, 'Though your sins are like scarlet",
+          "options": [
+            "they will remain'",
+            "they shall be as white as snow'",
+            "you shall die'",
+            "offer a lamb'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What do the titles in Isaiah 9:6 suggest about the child?",
+          "answer_key": "They exceed an ordinary king - 'Mighty God' (El Gibbor, used of God in 10:21), 'Everlasting Father' - pointing to a divine-human Messiah whose Davidic reign brings endless peace and justice, fulfilled in Jesus."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What was Isaiah's message to Ahaz in Isaiah 7?",
+          "answer_key": "Trust the LORD rather than fearing Syria-Israel or relying on Assyria ('If you do not stand firm in faith, you will not stand'); God gives the Immanuel sign that the threat will pass."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HGP"
+    },
+    {
+      "id": "pro-05",
+      "title": "Isaiah 40-66 - Comfort, the Servant and New Creation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the setting and themes of Isaiah 40-55 (comfort, new exodus, the LORD's uniqueness)."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the four Servant Songs."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the vision of new heavens and new earth (Isaiah 65-66)."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 40:1-11",
+        "Isaiah 42:1-9",
+        "Isaiah 52:13-53:12",
+        "Isaiah 65:17-25"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "First Apology",
+          "section": "Chapters 50-51 (Isaiah 53)"
+        },
+        {
+          "author": "Athanasius",
+          "title": "On the Incarnation of the Word",
+          "section": "Sections 33-37 (prophecies of the incarnation and cross)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Isaiah, chapter 53"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Servant Songs",
+          "definition": "Isaiah 42:1-9; 49:1-13; 50:4-11; 52:13-53:12."
+        },
+        {
+          "term": "New exodus",
+          "definition": "The return from exile portrayed as a second exodus."
+        },
+        {
+          "term": "Monotheism",
+          "definition": "Isaiah's emphatic claims that the LORD alone is God (Isa 44:6; 45:5)."
+        },
+        {
+          "term": "New heavens and new earth",
+          "definition": "Isaiah's vision of new creation (65:17)."
+        }
+      ],
+      "discussion_questions": [
+        "Who is the Servant - Israel, the prophet, or the Messiah? How does the text itself suggest an answer?",
+        "How does Isaiah 40 frame the ministry of John the Baptist?",
+        "How does Revelation 21 draw on Isaiah 65?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "'A voice cries: In the wilderness prepare the way of the LORD' comes from",
+          "options": [
+            "Isaiah 9",
+            "Isaiah 40",
+            "Malachi 1",
+            "Jeremiah 31"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Isaiah 42:1 says God will put his Spirit on",
+          "options": [
+            "Cyrus",
+            "his Servant",
+            "the priests",
+            "Babylon"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Isaiah 53:6 says, 'the LORD has laid on him",
+          "options": [
+            "a crown'",
+            "the iniquity of us all'",
+            "the law'",
+            "a new name'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Isaiah 45:1 God calls Cyrus",
+          "options": [
+            "his servant Israel",
+            "his anointed",
+            "the destroyer",
+            "the prophet"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Isaiah 65:17 announces",
+          "options": [
+            "the fall of Babylon",
+            "new heavens and a new earth",
+            "a new temple only",
+            "the return of David"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does the Servant relate to Israel in Isaiah 40-55?",
+          "answer_key": "Israel is called God's servant but fails (42:18-19); a Servant who is faithful embodies Israel and even restores Israel (49:3-6), suffering for the sins of others (53) - pointing to an individual Messiah, identified in the NT as Jesus."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the 'new exodus' theme in Isaiah?",
+          "answer_key": "God will redeem his people from Babylonian exile as he did from Egypt - making a way in the wilderness, leading them home, with a greater, more glorious redemption; the NT applies this to Christ's saving work."
+        }
+      ],
+      "paper_prompt": "Write a 1,200-1,800 word paper on ONE Servant Song (Isaiah 42:1-9, 49:1-13, 50:4-11 or 52:13-53:12). Interpret it in its literary and historical context, discuss the identity of the Servant, trace its use in the New Testament, and engage at least two library sources (for example Justin Martyr, Athanasius, Augustine or a commentary), cited as (Author, Title, section)."
+    },
+    {
+      "id": "pro-06",
+      "title": "Micah, Nahum, Habakkuk and Zephaniah",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the messages of Micah, Nahum, Habakkuk and Zephaniah in their settings."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret Micah 5:2 and Habakkuk 2:4 and their New Testament use."
+        },
+        {
+          "id": "o3",
+          "text": "Explain Habakkuk's wrestling with God's justice."
+        }
+      ],
+      "scripture_passages": [
+        "Micah 5:2-5",
+        "Nahum 1:1-8",
+        "Habakkuk 1:1-2:4",
+        "Zephaniah 3:14-20"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "The Bondage of the Will",
+          "section": "Luther's use of Habakkuk 2:4 and Romans 1:17 (the righteous shall live by faith)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapters 30-31 (Micah and Habakkuk on Christ)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Habakkuk, chapter 2"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Theodicy",
+          "definition": "Justifying God's ways in the face of evil (Habakkuk's complaint)."
+        },
+        {
+          "term": "Bethlehem Ephrathah",
+          "definition": "Birthplace of the ruler promised in Micah 5:2."
+        },
+        {
+          "term": "The righteous shall live by faith",
+          "definition": "Habakkuk 2:4, quoted in Romans 1:17, Galatians 3:11 and Hebrews 10:38."
+        },
+        {
+          "term": "Nineveh",
+          "definition": "Assyrian capital whose fall Nahum announces."
+        }
+      ],
+      "discussion_questions": [
+        "How does Habakkuk move from complaint to trust (compare 1:2 and 3:17-19)?",
+        "How is Micah 5:2 used in Matthew 2?",
+        "How do Paul and Hebrews use Habakkuk 2:4 differently?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Micah 5:2 names the ruler's birthplace as",
+          "options": [
+            "Jerusalem",
+            "Nazareth",
+            "Bethlehem Ephrathah",
+            "Hebron"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Habakkuk complains that God will use which nation to punish Judah?",
+          "options": [
+            "Assyria",
+            "the Chaldeans (Babylonians)",
+            "Egypt",
+            "Persia"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Habakkuk 2:4 says 'the righteous shall live by",
+          "options": [
+            "the law'",
+            "his faith (faithfulness)'",
+            "sacrifice'",
+            "wisdom'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Nahum announces the fall of",
+          "options": [
+            "Babylon",
+            "Nineveh",
+            "Jerusalem",
+            "Tyre"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Zephaniah 3:17 says the LORD will",
+          "options": [
+            "abandon Zion",
+            "rejoice over you with singing",
+            "send fire",
+            "remain silent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Habakkuk's book address the problem of evil?",
+          "answer_key": "Habakkuk asks why God tolerates injustice and then uses the wicked Babylonians; God answers that the proud will fall and the righteous live by faith(fulness); Habakkuk ends in trusting worship even without visible blessing (3:17-19)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How was Habakkuk 2:4 central to the Reformation?",
+          "answer_key": "Luther's study of Romans 1:17, which quotes Habakkuk 2:4, led him to understand the righteousness of God as the gift received by faith, sparking his teaching of justification by faith."
+        }
+      ]
+    },
+    {
+      "id": "pro-07",
+      "title": "Jeremiah and Lamentations",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Place Jeremiah in the last decades of Judah and the fall of Jerusalem."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the temple sermon, the laments ('confessions') and the new covenant."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the theology of Lamentations."
+        }
+      ],
+      "scripture_passages": [
+        "Jeremiah 7:1-15",
+        "Jeremiah 20:7-18",
+        "Jeremiah 31:31-34",
+        "Lamentations 3:19-33"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On the Spirit and the Letter",
+          "section": "Chapters 33-42 (the new covenant of Jeremiah 31)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Hebrews, chapter 8 (the new covenant)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Lamentations, chapter 3"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Temple sermon",
+          "definition": "Jeremiah's warning against trusting in the temple (Jer 7)."
+        },
+        {
+          "term": "Confessions of Jeremiah",
+          "definition": "His personal laments (e.g. Jer 20:7-18)."
+        },
+        {
+          "term": "New covenant",
+          "definition": "God's promise to write his law on hearts (Jer 31:31-34)."
+        },
+        {
+          "term": "Lament",
+          "definition": "Poetic grief and petition, as in Lamentations' acrostic poems."
+        }
+      ],
+      "discussion_questions": [
+        "Why did Jeremiah's temple sermon provoke such hostility?",
+        "What do Jeremiah's confessions teach about honest faith in ministry?",
+        "Where does hope arise in Lamentations 3?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jeremiah warned people not to trust in the words,",
+          "options": [
+            "'The law of the LORD'",
+            "'This is the temple of the LORD'",
+            "'Peace, peace'",
+            "'The day of the LORD'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The new covenant in Jeremiah 31 promises that",
+          "options": [
+            "a new temple will be built",
+            "all shall know the LORD and sins will be forgiven",
+            "the law will be abolished",
+            "Israel will get a new king immediately"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Lamentations 3:22-23 declares that the LORD's mercies",
+          "options": [
+            "have ended",
+            "are new every morning",
+            "are for kings",
+            "come once a year"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Hebrews 8 quotes Jeremiah 31 to show that",
+          "options": [
+            "the old covenant remains",
+            "Christ mediates a better covenant",
+            "Jeremiah was a priest",
+            "the temple must be rebuilt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Jeremiah's scribe was",
+          "options": [
+            "Ezra",
+            "Baruch",
+            "Shaphan",
+            "Gedaliah"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is 'new' about the new covenant in Jeremiah 31?",
+          "answer_key": "God will write the law on hearts (inner transformation), every member will know the LORD personally, and God will fully forgive and forget sin - unlike the broken Sinai covenant; the NT sees it inaugurated in Christ's blood and the Spirit."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can Lamentations help the church respond to suffering?",
+          "answer_key": "It models honest grief, confession of sin, protest and petition within faith, and finds hope in God's steadfast love and faithfulness, while waiting for God to act."
+        }
+      ]
+    },
+    {
+      "id": "pro-08",
+      "title": "Ezekiel - Glory, Judgment and Restoration",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain Ezekiel's inaugural vision and the departure of God's glory."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret Ezekiel's teaching on individual responsibility and the shepherds."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the valley of dry bones and the new temple vision."
+        }
+      ],
+      "scripture_passages": [
+        "Ezekiel 1:1-28",
+        "Ezekiel 10:18-19",
+        "Ezekiel 34:1-24",
+        "Ezekiel 37:1-14"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapter 21 (the resurrection in the prophets)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part I, chapters 1-4 (unworthy shepherds)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Ezekiel, chapter 37"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Glory (kabod)",
+          "definition": "The visible splendor of God's presence."
+        },
+        {
+          "term": "Watchman",
+          "definition": "Ezekiel's role to warn the people (Ezek 3; 33)."
+        },
+        {
+          "term": "Shepherds of Israel",
+          "definition": "The failed leaders condemned in Ezekiel 34."
+        },
+        {
+          "term": "Valley of dry bones",
+          "definition": "The vision of national resurrection by the Spirit (Ezek 37)."
+        }
+      ],
+      "discussion_questions": [
+        "Why is the departure of the glory from the temple so devastating?",
+        "How does Jesus fulfill Ezekiel 34 (John 10)?",
+        "What does the valley of dry bones teach about the Spirit and new life?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Ezekiel received his inaugural vision by the river",
+          "options": [
+            "Jordan",
+            "Chebar in Babylonia",
+            "Nile",
+            "Euphrates at Ur"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Ezekiel 10 the glory of the LORD",
+          "options": [
+            "filled the temple",
+            "departed from the temple",
+            "appeared in Egypt",
+            "rested on Ezekiel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ezekiel 34 condemns the shepherds of Israel for",
+          "options": [
+            "teaching too much",
+            "feeding themselves and not the sheep",
+            "building altars",
+            "going to war"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Ezekiel 37 the bones live when",
+          "options": [
+            "the priests offer sacrifices",
+            "God's breath/Spirit enters them",
+            "the king returns",
+            "the temple is rebuilt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "God calls Ezekiel a",
+          "options": [
+            "king",
+            "watchman for the house of Israel",
+            "priest of the temple",
+            "judge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What does Ezekiel 34 teach about pastoral leadership?",
+          "answer_key": "God condemns leaders who exploit the flock, neglect the weak, sick and lost and rule harshly; God himself will shepherd his people and set over them one shepherd, 'my servant David' - fulfilled in Jesus the good shepherd; pastors must serve under him."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the message of the valley of dry bones?",
+          "answer_key": "Though Israel is 'dead' in exile and hopeless, God will bring them to life by his word and Spirit, restore them to the land and renew them - pointing to spiritual regeneration and the future resurrection."
+        }
+      ]
+    },
+    {
+      "id": "pro-09",
+      "title": "Daniel - The Kingdom of God and Apocalyptic Vision",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Daniel's court stories and visions and their message of God's sovereignty."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret Daniel 2 and 7 and the Son of Man."
+        },
+        {
+          "id": "o3",
+          "text": "Compare approaches to Daniel's date and to the seventy weeks (Daniel 9)."
+        }
+      ],
+      "scripture_passages": [
+        "Daniel 2:31-45",
+        "Daniel 7:1-28",
+        "Daniel 9:20-27",
+        "Daniel 12:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapter 23 (Daniel's prophecies of Antichrist and the kingdom)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book V, chapters 25-26 (Daniel's kingdoms and the Antichrist)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Daniel, chapter 9"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Apocalyptic",
+          "definition": "Visionary literature revealing God's sovereign plan through symbols."
+        },
+        {
+          "term": "Son of Man",
+          "definition": "The figure receiving eternal dominion in Daniel 7:13-14."
+        },
+        {
+          "term": "Seventy weeks",
+          "definition": "The prophecy of Daniel 9:24-27, interpreted in various ways."
+        },
+        {
+          "term": "Resurrection",
+          "definition": "Daniel 12:2, the clearest OT statement of bodily resurrection to life or shame."
+        }
+      ],
+      "discussion_questions": [
+        "What do Daniel 2 and 7 teach about human empires and God's kingdom?",
+        "How did Jesus use 'Son of Man' (e.g. Mark 14:62)?",
+        "Compare two interpretations of the seventy weeks."
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Daniel 2 the statue is destroyed by",
+          "options": [
+            "fire from heaven",
+            "a stone cut without hands",
+            "a flood",
+            "an army"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Daniel 7 the one like a son of man comes",
+          "options": [
+            "from the sea",
+            "with the clouds of heaven to the Ancient of Days",
+            "from Babylon",
+            "on a white horse"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Daniel 12:2 speaks of",
+          "options": [
+            "reincarnation",
+            "many who sleep in the dust awakening, some to everlasting life and some to shame",
+            "the rebuilding of the temple",
+            "the return of Elijah"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Jesus' reply at his trial, 'you will see the Son of Man... coming with the clouds of heaven', alludes to",
+          "options": [
+            "Isaiah 53",
+            "Daniel 7",
+            "Psalm 2",
+            "Zechariah 9"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Daniel 9 begins with Daniel reading the prophecy of",
+          "options": [
+            "Isaiah",
+            "Jeremiah about seventy years",
+            "Moses",
+            "Ezekiel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize two ways Christians have interpreted Daniel 9:24-27.",
+          "answer_key": "Traditional messianic view - the seventy weeks culminate in Christ's first coming, death ('an anointed one cut off') and the destruction of Jerusalem (AD 70); dispensational view - 69 weeks reach Christ, with a gap before a future seventieth week of tribulation; critical view - fulfilled in the Maccabean crisis under Antiochus IV."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the main message of Daniel?",
+          "answer_key": "God is sovereign over kings and empires; he preserves his faithful people through persecution; human kingdoms will fall and God's everlasting kingdom, given to the Son of Man and the saints, will prevail - so remain faithful."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HGP"
+    },
+    {
+      "id": "pro-10",
+      "title": "Joel, Obadiah and Jonah",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret Joel's locust plague, call to repentance and outpouring of the Spirit."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Obadiah's judgment on Edom."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret Jonah as a story about God's mercy to the nations and Israel's heart."
+        }
+      ],
+      "scripture_passages": [
+        "Joel 2:12-32",
+        "Obadiah 1:10-15",
+        "Jonah 1:1-17",
+        "Jonah 4:1-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapter 30 (Joel and Jonah)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Acts, chapter 2 (Peter's use of Joel)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Jonah, chapter 4"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Outpouring of the Spirit",
+          "definition": "Joel 2:28-32, fulfilled at Pentecost (Acts 2)."
+        },
+        {
+          "term": "Edom",
+          "definition": "Descendants of Esau, judged for violence against Judah (Obadiah)."
+        },
+        {
+          "term": "Sign of Jonah",
+          "definition": "Jesus' reference to Jonah's three days in the fish (Matt 12:40)."
+        },
+        {
+          "term": "Relenting",
+          "definition": "God's turning from threatened judgment when people repent."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Jonah flee, according to Jonah 4:2?",
+        "What does Jonah's ending question reveal about God?",
+        "How does Peter interpret Joel at Pentecost?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Joel 2:13 says, 'Rend your hearts and",
+          "options": [
+            "your temples'",
+            "not your garments'",
+            "your altars'",
+            "your enemies'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Obadiah prophesies against",
+          "options": [
+            "Moab",
+            "Edom",
+            "Philistia",
+            "Egypt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Jonah fled toward",
+          "options": [
+            "Nineveh",
+            "Tarshish",
+            "Egypt",
+            "Babylon"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Jonah 4:2 reveals that Jonah fled because he knew God was",
+          "options": [
+            "harsh",
+            "gracious and merciful, slow to anger",
+            "absent",
+            "unable to save"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Jesus compares his three days in the tomb to",
+          "options": [
+            "Moses on Sinai",
+            "Jonah in the belly of the fish",
+            "Daniel in the lions' den",
+            "Elijah at Horeb"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the main message of Jonah?",
+          "answer_key": "God's compassion extends to the nations, even Israel's enemies, who repent; the book exposes Jonah's (and Israel's) resentment of grace and challenges readers to share God's heart - ending with God's question."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How is Joel 2:28-32 fulfilled according to Acts 2?",
+          "answer_key": "Peter declares that the outpouring of the Spirit at Pentecost is 'what was spoken by the prophet Joel' - the Spirit given to all God's people (sons and daughters, young and old) in the last days, and salvation for all who call on the Lord's name (Jesus)."
+        }
+      ]
+    },
+    {
+      "id": "pro-11",
+      "title": "The Postexilic Prophets - Haggai, Zechariah and Malachi",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Place Haggai, Zechariah and Malachi in the Persian period."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret Haggai's call to rebuild and Zechariah's visions and messianic oracles."
+        },
+        {
+          "id": "o3",
+          "text": "Explain Malachi's disputations and the promise of Elijah."
+        }
+      ],
+      "scripture_passages": [
+        "Haggai 2:1-9",
+        "Zechariah 9:9-10",
+        "Zechariah 12:10",
+        "Malachi 3:1-4"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapter 35 (Haggai, Zechariah and Malachi)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Matthew, chapter 21 (the triumphal entry)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Zechariah, chapter 9"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Second temple",
+          "definition": "The temple rebuilt under Zerubbabel (completed 516 BC)."
+        },
+        {
+          "term": "Zerubbabel",
+          "definition": "Davidic governor of Judah after the exile."
+        },
+        {
+          "term": "Disputation",
+          "definition": "Malachi's question-and-answer style ('But you say...')."
+        },
+        {
+          "term": "Messenger of the covenant",
+          "definition": "The figure announced in Malachi 3:1."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Haggai rebuke the people's priorities (1:4)?",
+        "How do the Gospels use Zechariah 9:9 and 12:10?",
+        "How does Malachi prepare for the New Testament?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Haggai urged the people to",
+          "options": [
+            "return to Babylon",
+            "rebuild the temple",
+            "build city walls first",
+            "choose a king"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Zechariah 9:9 describes Zion's king coming",
+          "options": [
+            "on a war horse",
+            "humble and riding on a donkey",
+            "with an army of angels",
+            "in a chariot of fire"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Zechariah 12:10 says they will look on",
+          "options": [
+            "the temple",
+            "him whom they have pierced",
+            "the king in glory",
+            "the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Malachi 3:1 says the Lord will suddenly come to",
+          "options": [
+            "Babylon",
+            "his temple",
+            "Bethlehem",
+            "Sinai"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Malachi's style is marked by",
+          "options": [
+            "long visions",
+            "disputations - questions and answers",
+            "narratives",
+            "acrostic poems"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How do the Gospels use Zechariah?",
+          "answer_key": "Jesus' entry to Jerusalem on a donkey fulfills 9:9; the thirty pieces of silver (11:12-13) in Judas's betrayal; 'strike the shepherd' (13:7) at the disciples' scattering; 'they will look on him whom they pierced' (12:10) at the crucifixion (John 19:37)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What problems does Malachi address?",
+          "answer_key": "Doubt of God's love, corrupt priests and blemished offerings, divorce and intermarriage with idolaters, robbing God in tithes, and cynicism about justice - promising the messenger and Elijah before the day of the LORD."
+        }
+      ]
+    },
+    {
+      "id": "pro-12",
+      "title": "The Prophets and Christ - Fulfilment and Preaching",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain patterns of prophetic fulfilment (direct prediction, typology, 'filled-up' meaning)."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate different eschatological readings of Old Testament prophecy (e.g. Israel and the church)."
+        },
+        {
+          "id": "o3",
+          "text": "Develop principles for preaching the prophets today."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 24:25-27",
+        "Acts 3:18-26",
+        "1 Peter 1:10-12",
+        "2 Peter 1:19-21"
+      ],
+      "library_readings": [
+        {
+          "author": "Justin Martyr",
+          "title": "First Apology",
+          "section": "Chapters 30-53 (the argument from prophecy)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVII, chapter 3 (prophecies referring to earthly Jerusalem, to the heavenly, or both)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapters 9-11 (Christ in the Old Testament)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Fulfilment formula",
+          "definition": "'This was to fulfill what was spoken...' (common in Matthew)."
+        },
+        {
+          "term": "Typological fulfilment",
+          "definition": "A person, event or institution foreshadowing Christ."
+        },
+        {
+          "term": "Sensus plenior",
+          "definition": "A fuller meaning intended by God beyond the human author's full awareness (debated)."
+        },
+        {
+          "term": "Israel and the church",
+          "definition": "Differing views on how promises to Israel relate to the church (covenant, dispensational, progressive dispensational)."
+        }
+      ],
+      "discussion_questions": [
+        "According to 1 Peter 1:10-12, what did the prophets understand about their own prophecies?",
+        "How do covenant theology and dispensationalism read promises of land and restoration?",
+        "What principles should guide preaching from the prophets?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Peter 1:11 says the prophets searched what time the Spirit of Christ indicated when predicting",
+          "options": [
+            "the fall of Rome",
+            "the sufferings of Christ and the subsequent glories",
+            "the Reformation",
+            "the rebuilding of the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Justin Martyr's main argument in First Apology 30-53 is from",
+          "options": [
+            "miracles",
+            "fulfilled prophecy",
+            "philosophy",
+            "martyrdom"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine says some prophecies refer to earthly Jerusalem, some to the heavenly, and",
+          "options": [
+            "none to Christ",
+            "some to both",
+            "all to Rome",
+            "none to the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Acts 3:24 says all the prophets from Samuel onward",
+          "options": [
+            "were false",
+            "proclaimed these days",
+            "wrote nothing",
+            "spoke only to Israel's kings"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "'Sensus plenior' refers to",
+          "options": [
+            "the literal sense only",
+            "a fuller meaning intended by God",
+            "an error in prophecy",
+            "Greek philosophy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe three ways the New Testament presents prophecy as fulfilled in Christ.",
+          "answer_key": "Direct prediction (Micah 5:2 Bethlehem); typology (the exodus, David, the Passover as patterns); fuller/eschatological fulfilment of promises (the new covenant, the Spirit's outpouring, the servant) - often combining near historical and ultimate Christological reference."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give two principles for preaching the prophets today.",
+          "answer_key": "Understand the original covenant setting and message first; move to fulfilment in Christ; apply the prophets' concern for God's holiness, justice, repentance and hope to the church; avoid sensational date-setting; handle disputed eschatological details humbly."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on how ONE prophetic book's message applies to the church today. Summarize the book's historical setting and main themes, exegete one key passage, show how the New Testament takes up the book or its themes, engage at least two library sources (cite as Author, Title, section), and give concrete homiletical and pastoral applications. Where eschatological views differ, present them fairly."
+    }
+  ]
+}

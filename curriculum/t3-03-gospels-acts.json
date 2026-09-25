@@ -1,0 +1,1673 @@
+{
+  "id": "gospels-acts",
+  "title": "Gospels and Acts",
+  "tier": 3,
+  "tier_name": "Biblical Studies",
+  "description": "An exegetical study of Matthew, Mark, Luke, John and Acts. Students examine each book's structure, purpose and theology; key passages such as the infancy narratives, the Sermon on the Mount, the parables, the miracles, the passion and resurrection; the historical Jesus debate; and the Spirit-empowered mission of the church in Acts. The course trains students to read the Gospels 'horizontally' and 'vertically' and to preach narrative texts.",
+  "prerequisites": [
+    "nt-survey",
+    "hermeneutics"
+  ],
+  "lessons": [
+    {
+      "id": "ga-01",
+      "title": "The Gospels as Historical and Theological Witness",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Evaluate the historical reliability of the Gospels (eyewitness testimony, early dating, oral tradition)."
+        },
+        {
+          "id": "o2",
+          "text": "Describe approaches to the Synoptic problem and to John's relation to the Synoptics."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the 'quests' for the historical Jesus and their assumptions."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 1:1-4",
+        "John 21:24-25",
+        "2 Peter 1:16-18"
+      ],
+      "library_readings": [
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book III, chapters 24 and 39 (the Gospels' origins; Papias)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book III, chapter 1 (the four evangelists)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (the Gospels and the life of Christ)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Eyewitness testimony",
+          "definition": "Accounts grounded in those who saw the events (Luke 1:2)."
+        },
+        {
+          "term": "Q",
+          "definition": "A hypothetical source of sayings shared by Matthew and Luke but not Mark."
+        },
+        {
+          "term": "Historical Jesus",
+          "definition": "Scholarly reconstruction of Jesus using historical methods."
+        },
+        {
+          "term": "Criteria of authenticity",
+          "definition": "Tests like multiple attestation and embarrassment used in historical Jesus research."
+        }
+      ],
+      "discussion_questions": [
+        "How does Luke describe his method, and why does it matter?",
+        "What assumptions shaped the 'quests' for the historical Jesus?",
+        "Does 2 Peter 1:16 exclude 'myth' as a category for the Gospels?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Luke says the accounts were handed down by those who were",
+          "options": [
+            "philosophers",
+            "eyewitnesses and servants of the word from the beginning",
+            "Roman historians",
+            "later disciples"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "'Q' refers to",
+          "options": [
+            "a Gospel manuscript",
+            "a hypothetical sayings source used by Matthew and Luke",
+            "the Gospel of Thomas",
+            "Papias's book"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "John 21:24 identifies the Gospel's author as",
+          "options": [
+            "Peter",
+            "the disciple who testifies to these things",
+            "Paul",
+            "Luke"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "2 Peter 1:16 says 'we did not follow cleverly devised",
+          "options": [
+            "laws'",
+            "myths'",
+            "prophecies'",
+            "teachings'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The criterion of 'embarrassment' holds that material is likely authentic if",
+          "options": [
+            "it flatters the church",
+            "it would have been awkward for the early church to invent",
+            "it appears in only one Gospel",
+            "it is miraculous"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give three reasons many scholars consider the Gospels historically reliable.",
+          "answer_key": "Early dating within living memory, eyewitness sources (Luke 1:2; Papias on Mark and Peter), Jewish oral tradition practices, inclusion of embarrassing details, geographic and cultural accuracy, multiple independent attestation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What were the main assumptions of the first quest for the historical Jesus?",
+          "answer_key": "Often Enlightenment naturalism - rejecting miracles and divinity and seeking a merely human moral teacher behind the Gospels; Schweitzer showed such 'lives' reflected their authors' own ideals."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/gos"
+    },
+    {
+      "id": "ga-02",
+      "title": "Matthew - The Messiah and His Kingdom",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Matthew's structure (five discourses) and fulfilment theme."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the genealogy and infancy narrative."
+        },
+        {
+          "id": "o3",
+          "text": "Explain Matthew's portrait of Jesus as Messiah, new Moses and Son of God."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 1:1-17",
+        "Matthew 2:13-23",
+        "Matthew 16:13-20",
+        "Matthew 28:16-20"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Matthew, chapter 1"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Book IV (on the need to handle Scripture carefully)"
+        },
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book II (from the manger to the baptism)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Five discourses",
+          "definition": "Matthew's teaching blocks (chapters 5-7, 10, 13, 18, 24-25)."
+        },
+        {
+          "term": "Fulfilment formula",
+          "definition": "'This took place to fulfill what the Lord had spoken by the prophet'."
+        },
+        {
+          "term": "Kingdom of heaven",
+          "definition": "Matthew's reverent phrase for the kingdom of God."
+        },
+        {
+          "term": "Great Commission",
+          "definition": "Jesus' charge to make disciples of all nations (Matt 28:18-20)."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Matthew's genealogy include women like Tamar, Rahab, Ruth and Bathsheba?",
+        "How does Matthew present Jesus as a new Moses?",
+        "Why does Matthew both begin (1:23) and end (28:20) with 'God with us'?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Matthew's genealogy begins with",
+          "options": [
+            "Adam",
+            "Abraham",
+            "David",
+            "Noah"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Matthew uses the phrase 'kingdom of heaven' because",
+          "options": [
+            "he meant a different kingdom",
+            "of Jewish reverence for God's name",
+            "Mark used it",
+            "Jesus never said 'kingdom of God'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Matthew organizes Jesus' teaching into",
+          "options": [
+            "three sermons",
+            "five major discourses",
+            "twelve parables",
+            "seven signs"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Great Commission promises, 'I am with you always,",
+          "options": [
+            "until Pentecost'",
+            "to the end of the age'",
+            "in the temple'",
+            "while you obey'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Matthew 2:15 applies to Jesus the words of",
+          "options": [
+            "Isaiah 7:14",
+            "Hosea 11:1",
+            "Micah 5:2",
+            "Jeremiah 31:15 only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the significance of the women in Matthew's genealogy?",
+          "answer_key": "They include Gentiles and women with irregular stories, showing God's grace, his inclusion of outsiders and sinners, and preparing for the unusual birth of Jesus through Mary."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Matthew portray Jesus as a new Moses?",
+          "answer_key": "Rescued from a murderous king as an infant, returns from Egypt, passes through water, is tested in the wilderness forty days, and gives authoritative teaching on a mountain (the Sermon on the Mount), in five discourses echoing the five books of Moses."
+        }
+      ]
+    },
+    {
+      "id": "ga-03",
+      "title": "The Sermon on the Mount",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the Beatitudes and the ethics of the kingdom."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Jesus' relationship to the law (Matthew 5:17-48)."
+        },
+        {
+          "id": "o3",
+          "text": "Compare major interpretations of the Sermon (Anabaptist, Lutheran, Catholic counsels, dispensational, kingdom ethic)."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 5:1-16",
+        "Matthew 5:17-48",
+        "Matthew 6:1-34",
+        "Matthew 7:13-29"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIX, chapters 6-7 and 14-17 (the ethics of peace; compare Augustine's reading of the Sermon)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Upon our Lord's Sermon on the Mount' Discourses I-III"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 8 (the Anabaptist reading of the Sermon on the Mount)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Beatitudes",
+          "definition": "The 'blessed are...' sayings (Matt 5:3-12)."
+        },
+        {
+          "term": "Antitheses",
+          "definition": "'You have heard... but I say to you' (Matt 5:21-48)."
+        },
+        {
+          "term": "Counsels of perfection",
+          "definition": "Medieval view that some commands are for the especially devout."
+        },
+        {
+          "term": "Nonresistance",
+          "definition": "Anabaptist reading of Matthew 5:38-48 forbidding violence."
+        }
+      ],
+      "discussion_questions": [
+        "Are the Beatitudes entrance requirements or descriptions of kingdom people?",
+        "How should Christians apply 'turn the other cheek' - personally, in the church, in the state?",
+        "Compare Wesley's and the Anabaptists' reading of the Sermon."
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The first beatitude blesses",
+          "options": [
+            "the meek",
+            "the poor in spirit",
+            "the merciful",
+            "peacemakers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Jesus says unless your righteousness exceeds that of",
+          "options": [
+            "the Romans",
+            "the scribes and Pharisees",
+            "the priests",
+            "the prophets"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Matthew 5:44 Jesus commands",
+          "options": [
+            "hate your enemies",
+            "love your enemies and pray for those who persecute you",
+            "avoid your enemies",
+            "judge your enemies"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Sermon ends with the parable of",
+          "options": [
+            "the sower",
+            "the wise and foolish builders",
+            "the prodigal son",
+            "the talents"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Wesley preached how many discourses on the Sermon on the Mount?",
+          "options": [
+            "three",
+            "seven",
+            "thirteen",
+            "twenty"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare two interpretations of the Sermon on the Mount.",
+          "answer_key": "E.g. Anabaptist - direct commands for all disciples, including nonviolence and no oaths; Lutheran - reveals the impossibility of self-righteousness (law) while also guiding the Christian in personal life (two kingdoms); medieval Catholic - precepts for all and counsels for the religious; Wesleyan - a description of holiness attainable by grace; dispensational - kingdom ethics for a future era."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Jesus mean by fulfilling the law (Matt 5:17)?",
+          "answer_key": "He brings the law to its intended goal - embodying and teaching its true intent (heart righteousness, love), fulfilling its prophetic anticipation in himself; its commands are now applied through him."
+        }
+      ],
+      "paper_prompt": "Write a 1,200-1,800 word paper interpreting ONE section of the Sermon on the Mount (for example the Beatitudes, the antitheses on anger/lust/retaliation, the Lord's Prayer, or 'do not be anxious'). Exegete it in context, present at least two traditions' readings from their own sources (such as Augustine, Wesley, Luther, Calvin or the Anabaptists as described by Schaff; cite as Author, Title, section), and apply it to Christian discipleship today."
+    },
+    {
+      "id": "ga-04",
+      "title": "Mark - The Suffering Son of God",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Mark's structure and fast-paced narrative style."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the 'messianic secret' and the theme of discipleship as cross-bearing."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss the ending of Mark (16:8 and 16:9-20)."
+        }
+      ],
+      "scripture_passages": [
+        "Mark 1:1-15",
+        "Mark 8:27-38",
+        "Mark 10:35-45",
+        "Mark 16:1-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book II, chapter 15 and Book III, chapter 39 (Mark and Peter)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Mark, chapter 10"
+        },
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book IV (from the Mount of Transfiguration to Jerusalem)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Immediately (euthys)",
+          "definition": "Mark's frequent word creating urgency."
+        },
+        {
+          "term": "Messianic secret",
+          "definition": "Jesus' commands to silence about his identity."
+        },
+        {
+          "term": "Ransom",
+          "definition": "Mark 10:45 - the Son of Man gives his life as a ransom for many."
+        },
+        {
+          "term": "Longer ending",
+          "definition": "Mark 16:9-20, absent from the earliest manuscripts."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Jesus often command silence about his identity in Mark?",
+        "How does Mark 10:45 summarize Jesus' mission?",
+        "How should the church handle the longer ending of Mark?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Mark begins, 'The beginning of the gospel of Jesus Christ,",
+          "options": [
+            "son of David'",
+            "the Son of God'",
+            "the prophet'",
+            "king of Israel'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The midpoint and turning point of Mark is often seen in",
+          "options": [
+            "Jesus' baptism",
+            "Peter's confession at Caesarea Philippi",
+            "the feeding of the 5000",
+            "the triumphal entry"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Mark 10:45 the Son of Man came",
+          "options": [
+            "to be served",
+            "to serve and to give his life as a ransom for many",
+            "to judge",
+            "to rebuild the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The earliest manuscripts of Mark end at",
+          "options": [
+            "16:20",
+            "16:8",
+            "15:47",
+            "16:14"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The first human in Mark to confess Jesus as Son of God after his death is",
+          "options": [
+            "Peter",
+            "the centurion",
+            "Mary Magdalene",
+            "Joseph of Arimathea"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the 'messianic secret' and how might it be explained?",
+          "answer_key": "Jesus often silences demons, the healed and disciples about his identity; likely because popular messianic expectations were political and military, and his messiahship could only be rightly understood through the cross and resurrection (Mark 9:9)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Mark teach about discipleship?",
+          "answer_key": "Following Jesus means denying self, taking up the cross, serving rather than seeking greatness, and faithfulness in suffering - modeled by Jesus, while the disciples often misunderstand and fail."
+        }
+      ]
+    },
+    {
+      "id": "ga-05",
+      "title": "Luke - Savior of the World",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Luke's themes (salvation for all, the poor and outsiders, prayer, the Spirit, joy)."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the infancy narrative and the songs (Magnificat, Benedictus, Nunc Dimittis)."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the central section (the journey to Jerusalem) and distinctive parables."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 1:46-55",
+        "Luke 4:16-30",
+        "Luke 15:1-32",
+        "Luke 19:1-10"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Luke, chapter 15"
+        },
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book II (the annunciation and nativity)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVII, chapter 4 (Hannah's song and the Magnificat)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Magnificat",
+          "definition": "Mary's song (Luke 1:46-55)."
+        },
+        {
+          "term": "Travel narrative",
+          "definition": "Luke 9:51-19:27, Jesus' journey to Jerusalem."
+        },
+        {
+          "term": "Great reversal",
+          "definition": "The theme that God lifts the humble and brings down the proud."
+        },
+        {
+          "term": "Theophilus",
+          "definition": "The addressee of Luke and Acts."
+        }
+      ],
+      "discussion_questions": [
+        "What reversals does Mary celebrate in the Magnificat?",
+        "Why did the Nazareth synagogue turn against Jesus (Luke 4:24-30)?",
+        "How does Zacchaeus illustrate Luke 19:10?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Magnificat is sung by",
+          "options": [
+            "Elizabeth",
+            "Mary",
+            "Hannah",
+            "Anna"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Luke's Gospel is addressed to",
+          "options": [
+            "the Romans",
+            "Theophilus",
+            "the Hebrews",
+            "Timothy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The people of Nazareth were enraged when Jesus mentioned God's mercy to",
+          "options": [
+            "the Pharisees",
+            "the widow of Zarephath and Naaman the Syrian",
+            "the Romans",
+            "the Samaritans only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Zacchaeus was a",
+          "options": [
+            "Pharisee",
+            "chief tax collector",
+            "centurion",
+            "priest"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Luke 19:10 says the Son of Man came to",
+          "options": [
+            "judge",
+            "seek and to save the lost",
+            "restore Israel's kingdom",
+            "call the righteous"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name three characteristic themes of Luke's Gospel.",
+          "answer_key": "Salvation for all nations and outsiders (Samaritans, Gentiles, women, the poor, sinners); the Holy Spirit; prayer; joy and praise; reversal of status; wealth and poverty; Jerusalem and the fulfilment of God's plan."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the 'great reversal' in Luke?",
+          "answer_key": "God overturns human status - lifting the humble, poor and outcasts, and bringing down the proud, rich and powerful (Magnificat, Beatitudes/woes, rich man and Lazarus)."
+        }
+      ]
+    },
+    {
+      "id": "ga-06",
+      "title": "John - Signs and Glory",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe John's structure (prologue, book of signs, book of glory, epilogue) and purpose (20:31)."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the prologue and the 'I am' sayings."
+        },
+        {
+          "id": "o3",
+          "text": "Explain John's high Christology and theme of belief and eternal life."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:1-18",
+        "John 2:1-11",
+        "John 11:17-44",
+        "John 20:24-31"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On the Trinity",
+          "section": "Book I, chapters 6-7 (John's prologue and the equality of the Son)"
+        },
+        {
+          "author": "Athanasius",
+          "title": "Discourses Against the Arians",
+          "section": "Discourse II, chapters 1-10 (on John's prologue)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on John, chapter 1"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Prologue",
+          "definition": "John 1:1-18 on the eternal Word made flesh."
+        },
+        {
+          "term": "Signs",
+          "definition": "Seven miracles in John revealing Jesus' glory."
+        },
+        {
+          "term": "'I am' sayings",
+          "definition": "Jesus' self-descriptions (bread of life, light of the world, etc.), echoing Exodus 3:14."
+        },
+        {
+          "term": "Eternal life",
+          "definition": "Life of the age to come, present now through faith (John 17:3)."
+        }
+      ],
+      "discussion_questions": [
+        "How does John 1:1-18 frame the whole Gospel?",
+        "What does the raising of Lazarus reveal about Jesus?",
+        "How does Thomas's confession ('My Lord and my God') climax the Gospel?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The first of Jesus' signs in John is",
+          "options": [
+            "healing the blind man",
+            "turning water into wine at Cana",
+            "feeding the 5000",
+            "walking on water"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "John 1:14 says the Word became flesh and",
+          "options": [
+            "returned to heaven",
+            "dwelt (tabernacled) among us",
+            "became an angel",
+            "ruled Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Thomas confesses Jesus as",
+          "options": [
+            "a prophet",
+            "'My Lord and my God'",
+            "'Son of David'",
+            "'Rabbi'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Before raising Lazarus Jesus says",
+          "options": [
+            "'I am the bread of life'",
+            "'I am the resurrection and the life'",
+            "'I am the door'",
+            "'I am the vine'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "John 17:3 defines eternal life as",
+          "options": [
+            "living forever on earth",
+            "knowing the only true God and Jesus Christ whom he sent",
+            "keeping the law",
+            "going to heaven"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "List at least four 'I am' sayings of Jesus in John.",
+          "answer_key": "I am the bread of life; the light of the world; the door; the good shepherd; the resurrection and the life; the way, the truth and the life; the true vine; and absolute 'before Abraham was, I am' (8:58)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does John's prologue teach the deity and incarnation of Christ?",
+          "answer_key": "The Word existed in the beginning, was with God and was God, made all things, is life and light, became flesh and revealed the Father's glory; the only God who is at the Father's side has made him known (1:18)."
+        }
+      ]
+    },
+    {
+      "id": "ga-07",
+      "title": "Parables of the Kingdom",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the nature and purpose of parables (Mark 4:10-12)."
+        },
+        {
+          "id": "o2",
+          "text": "Compare approaches to interpreting parables (allegorical, one-point, multiple-point)."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret key parables of growth, grace and judgment."
+        }
+      ],
+      "scripture_passages": [
+        "Mark 4:1-20",
+        "Matthew 13:24-50",
+        "Matthew 20:1-16",
+        "Luke 16:19-31"
+      ],
+      "library_readings": [
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book III (the parables by the Sea of Galilee)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book III, chapters 25 and 37 (figurative language and Tyconius's rules)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Matthew, chapter 13"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Parable",
+          "definition": "A comparison or story illustrating the kingdom of God."
+        },
+        {
+          "term": "Allegorical interpretation",
+          "definition": "Assigning meaning to many details (e.g. Augustine's Good Samaritan)."
+        },
+        {
+          "term": "One-point approach",
+          "definition": "Adolf Jülicher's view that each parable teaches one main point."
+        },
+        {
+          "term": "Wheat and tares",
+          "definition": "The parable of good and bad together until the harvest."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Jesus say he speaks in parables (Mark 4:11-12)?",
+        "How many details of a parable should carry meaning?",
+        "What does the parable of the vineyard workers teach about grace?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In the parable of the sower, the seed is",
+          "options": [
+            "faith",
+            "the word",
+            "money",
+            "the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The parable of the wheat and weeds teaches that",
+          "options": [
+            "the church will be pure now",
+            "good and evil will coexist until the final harvest",
+            "weeds become wheat",
+            "farmers should pull weeds early"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In the parable of the workers in the vineyard, those hired last received",
+          "options": [
+            "nothing",
+            "the same wage as those hired first",
+            "double",
+            "a warning"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Luke 16 the rich man pleads for someone to warn his",
+          "options": [
+            "servants",
+            "five brothers",
+            "sons",
+            "friends"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Jülicher argued that each parable has",
+          "options": [
+            "many allegorical meanings",
+            "one main point",
+            "no point",
+            "a hidden code"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why did Jesus teach in parables, according to Mark 4:10-12?",
+          "answer_key": "Parables reveal the mystery of the kingdom to those who receive it while concealing it from those outside who refuse to hear - fulfilling Isaiah 6:9-10 - so they both reveal and judge."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give a balanced approach to interpreting the details of a parable.",
+          "answer_key": "Focus on the main point(s) tied to the main characters and the context/audience; allow details that Jesus or the context interprets to carry meaning; avoid arbitrary allegory while recognizing some parables are partly allegorical (e.g. sower, tenants)."
+        }
+      ]
+    },
+    {
+      "id": "ga-08",
+      "title": "Miracles and the Kingdom",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the purpose of Jesus' miracles as signs of the kingdom."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret exorcisms, healings and nature miracles."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate philosophical objections to miracles and the patristic response."
+        }
+      ],
+      "scripture_passages": [
+        "Mark 5:1-20",
+        "Mark 4:35-41",
+        "Matthew 12:22-29",
+        "John 9:1-41"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XXII, chapters 8-10 (miracles in Augustine's day and their purpose)"
+        },
+        {
+          "author": "Origen",
+          "title": "Against Celsus",
+          "section": "Book I, chapters 6 and 46-47 (Celsus's attack on Jesus' miracles and Origen's reply)"
+        },
+        {
+          "author": "Athanasius",
+          "title": "On the Incarnation of the Word",
+          "section": "Sections 15-19 (the Word revealing himself through works)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Miracle",
+          "definition": "An extraordinary act of God revealing his power and purpose."
+        },
+        {
+          "term": "Exorcism",
+          "definition": "Casting out demons, a sign of the kingdom's victory over Satan (Matt 12:28)."
+        },
+        {
+          "term": "Binding the strong man",
+          "definition": "Jesus' image of overpowering Satan (Matt 12:29)."
+        },
+        {
+          "term": "Sign (semeion)",
+          "definition": "John's term for miracles pointing to Jesus' identity."
+        }
+      ],
+      "discussion_questions": [
+        "What does Matthew 12:28 say about the meaning of exorcisms?",
+        "How did Origen answer Celsus's claim that Jesus was a magician?",
+        "Why do the Gospels link miracles and faith?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Matthew 12:28 Jesus says if he casts out demons by the Spirit of God, then",
+          "options": [
+            "he is a prophet",
+            "the kingdom of God has come upon you",
+            "Satan is divided",
+            "the law is ended"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The demon-possessed man in Mark 5 said his name was",
+          "options": [
+            "Beelzebul",
+            "Legion",
+            "Satan",
+            "Abaddon"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "When Jesus calmed the storm, the disciples asked",
+          "options": [
+            "'Why did you sleep?'",
+            "'Who then is this, that even the wind and the sea obey him?'",
+            "'Where shall we go?'",
+            "'Are you the Christ?'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In John 9 Jesus says the man was born blind so that",
+          "options": [
+            "his parents would be punished",
+            "the works of God might be displayed in him",
+            "the Pharisees would believe",
+            "he could beg"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine in City of God XXII.8 reports",
+          "options": [
+            "that miracles ceased with the apostles entirely",
+            "miracles occurring in his own day",
+            "that miracles are myths",
+            "only miracles in Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the purpose of Jesus' miracles in the Gospels?",
+          "answer_key": "They reveal Jesus' identity (Messiah, Son of God), demonstrate the arrival of God's kingdom and victory over Satan, sin, sickness and death, show compassion, call for faith and anticipate the new creation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How did the early church answer objections that Jesus was a magician?",
+          "answer_key": "Origen and others argued that Jesus' miracles were done for moral and spiritual purposes, fulfilled prophecy, produced transformed lives and a worldwide church, and were testified by honest witnesses who died for them - unlike magicians seeking money or display."
+        }
+      ]
+    },
+    {
+      "id": "ga-09",
+      "title": "The Passion and Resurrection Narratives",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare the four passion narratives and their distinctive emphases."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the Last Supper, Gethsemane, trials and crucifixion."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the resurrection accounts and their harmonization."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 26:26-29",
+        "Luke 22:39-46",
+        "John 19:17-37",
+        "Luke 24:13-35"
+      ],
+      "library_readings": [
+        {
+          "author": "Alfred Edersheim",
+          "title": "The Life and Times of Jesus the Messiah",
+          "section": "Book V (the cross and the crown)"
+        },
+        {
+          "author": "Athanasius",
+          "title": "On the Incarnation of the Word",
+          "section": "Sections 20-32"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapter 46 (the scattering of the Jews and the Scriptures) and Book XXII, chapter 5 (the resurrection believed by the world)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Gethsemane",
+          "definition": "The garden where Jesus prayed before his arrest."
+        },
+        {
+          "term": "Sanhedrin trial",
+          "definition": "Jesus' hearing before the Jewish council."
+        },
+        {
+          "term": "Seven words from the cross",
+          "definition": "The seven sayings of Jesus recorded across the Gospels."
+        },
+        {
+          "term": "Emmaus",
+          "definition": "The village on the road to which the risen Jesus met two disciples."
+        }
+      ],
+      "discussion_questions": [
+        "What does Jesus' prayer in Gethsemane reveal about his humanity and obedience?",
+        "What distinctive theological emphases does each evangelist bring to the crucifixion?",
+        "How did the risen Jesus interpret Scripture on the Emmaus road?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Gethsemane Jesus prayed, 'Not my will, but",
+          "options": [
+            "the Father's power'",
+            "yours be done'",
+            "the disciples''",
+            "the law's'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In John 19:30 Jesus' final word is",
+          "options": [
+            "'My God, my God...'",
+            "'It is finished'",
+            "'Father, into your hands...'",
+            "'I thirst'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The disciples on the road to Emmaus recognized Jesus when he",
+          "options": [
+            "showed his wounds",
+            "broke the bread",
+            "called their names",
+            "walked on water"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The cry 'My God, my God, why have you forsaken me?' quotes",
+          "options": [
+            "Isaiah 53",
+            "Psalm 22",
+            "Psalm 110",
+            "Lamentations 3"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Pilate's inscription on the cross named Jesus",
+          "options": [
+            "Son of God",
+            "King of the Jews",
+            "Prophet of Nazareth",
+            "Messiah"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name three of the seven words from the cross and the Gospels in which they appear.",
+          "answer_key": "E.g. 'Father, forgive them' (Luke); 'Today you will be with me in paradise' (Luke); 'Woman, behold your son' (John); 'My God, my God...' (Matthew, Mark); 'I thirst' (John); 'It is finished' (John); 'Father, into your hands I commit my spirit' (Luke)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can the differences among the resurrection accounts be understood?",
+          "answer_key": "They reflect independent witnesses selecting and summarizing different appearances and details; minor differences in number of women or angels are typical of genuine testimony; all agree on the empty tomb, women witnesses, appearances and bodily resurrection."
+        }
+      ]
+    },
+    {
+      "id": "ga-10",
+      "title": "Acts 1-12 - The Church in Jerusalem, Judea and Samaria",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the ascension and Pentecost."
+        },
+        {
+          "id": "o2",
+          "text": "Describe the life of the early Jerusalem church and the first persecutions."
+        },
+        {
+          "id": "o3",
+          "text": "Trace the gospel's movement to Samaria and to the Gentiles (Cornelius)."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 1:1-11",
+        "Acts 2:1-47",
+        "Acts 7:54-8:8",
+        "Acts 10:1-48"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (Pentecost; the church of Jerusalem; Stephen)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Acts, chapter 10"
+        },
+        {
+          "author": "Cyril of Jerusalem",
+          "title": "Catechetical Lectures",
+          "section": "Lecture 17 (the Holy Spirit at Pentecost)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ascension",
+          "definition": "Jesus' going up to the Father (Acts 1:9-11)."
+        },
+        {
+          "term": "Tongues at Pentecost",
+          "definition": "Speaking in other languages understood by hearers (Acts 2:4-11)."
+        },
+        {
+          "term": "Deacons (the Seven)",
+          "definition": "Chosen to serve tables (Acts 6)."
+        },
+        {
+          "term": "Gentile Pentecost",
+          "definition": "The Spirit falling on Cornelius's household (Acts 10:44-48)."
+        }
+      ],
+      "discussion_questions": [
+        "Why is the ascension important for Luke's theology?",
+        "What were the marks of the Spirit-filled community in Acts 2 and 4?",
+        "How did persecution after Stephen's death advance the mission?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "At Pentecost the disciples spoke in",
+          "options": [
+            "only angelic tongues",
+            "other languages that hearers understood",
+            "Hebrew only",
+            "silence"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The first Christian martyr in Acts was",
+          "options": [
+            "James",
+            "Stephen",
+            "Peter",
+            "Philip"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "After Stephen's death the believers were scattered and Philip preached in",
+          "options": [
+            "Rome",
+            "Samaria",
+            "Egypt",
+            "Athens"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Peter's vision of unclean animals prepared him to visit",
+          "options": [
+            "the Sanhedrin",
+            "Cornelius",
+            "Paul",
+            "Simon the magician"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "At the ascension the angels promised that Jesus would",
+          "options": [
+            "never return",
+            "come in the same way as they saw him go",
+            "return in forty days",
+            "appear in Galilee only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Acts show the gospel breaking barriers?",
+          "answer_key": "It moves from Jews in Jerusalem, to Samaritans (Acts 8), an Ethiopian eunuch, and Gentiles like Cornelius (Acts 10), with the Spirit given to each group, showing one people of God across ethnic lines."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What was the significance of Pentecost?",
+          "answer_key": "The promised Spirit was poured out, empowering witness; the confusion of Babel is reversed as all hear in their own languages; the church is born; Joel's prophecy is fulfilled; the gospel goes to the nations represented."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/ACT"
+    },
+    {
+      "id": "ga-11",
+      "title": "Acts 13-28 - Paul's Mission to the Ends of the Earth",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Trace Paul's missionary journeys and strategy."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret key speeches (Pisidian Antioch, Athens, Miletus)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the ending of Acts in Rome and Luke's purpose."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 13:13-52",
+        "Acts 17:16-34",
+        "Acts 20:17-38",
+        "Acts 28:16-31"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (Paul's missionary labors)"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book II, chapter 22 (Paul in Rome)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Acts, chapter 17"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Missionary strategy",
+          "definition": "Paul's pattern of going to synagogues and major cities."
+        },
+        {
+          "term": "Areopagus",
+          "definition": "The council/hill in Athens where Paul spoke (Acts 17)."
+        },
+        {
+          "term": "Miletus speech",
+          "definition": "Paul's farewell to the Ephesian elders (Acts 20)."
+        },
+        {
+          "term": "Open ending",
+          "definition": "Acts ends with Paul preaching unhindered in Rome."
+        }
+      ],
+      "discussion_questions": [
+        "How did Paul adapt his message in Athens compared with Pisidian Antioch?",
+        "What does Paul's Miletus speech teach about pastoral ministry?",
+        "Why does Acts end without narrating Paul's trial or death?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Athens Paul began his speech with",
+          "options": [
+            "the law of Moses",
+            "an altar 'To an unknown god'",
+            "a miracle",
+            "the Psalms"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Paul's usual first stop in a new city was",
+          "options": [
+            "the market",
+            "the synagogue",
+            "the temple of Zeus",
+            "the governor's house"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Acts 20:28 Paul tells the Ephesian elders to shepherd the church which God obtained",
+          "options": [
+            "by the law",
+            "with his own blood",
+            "through Paul",
+            "in Jerusalem"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Acts ends with Paul",
+          "options": [
+            "executed",
+            "preaching the kingdom in Rome with all boldness and without hindrance",
+            "in Spain",
+            "released and in Jerusalem"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Paul's missionary companion on the first journey was",
+          "options": [
+            "Silas",
+            "Barnabas",
+            "Timothy",
+            "Luke"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare Paul's sermons in Pisidian Antioch (Acts 13) and Athens (Acts 17).",
+          "answer_key": "To Jews and God-fearers he retells Israel's history and proves from the Scriptures that Jesus is the promised Messiah; to Athenian pagans he begins with creation, God's nearness, their poets and idolatry, then calls to repentance in light of the resurrection and judgment."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What pastoral lessons come from Acts 20:17-38?",
+          "answer_key": "Humble, tearful service; teaching the whole counsel of God publicly and house to house; watching over oneself and the flock; guarding against false teachers; generosity and hard work; finishing one's course faithfully."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/ACT"
+    },
+    {
+      "id": "ga-12",
+      "title": "Preaching and Teaching the Gospels and Acts",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Develop principles for preaching narrative (plot, character, theological center)."
+        },
+        {
+          "id": "o2",
+          "text": "Discuss whether Acts is descriptive or normative (e.g. church practices, Spirit baptism)."
+        },
+        {
+          "id": "o3",
+          "text": "Prepare an exegetical sermon outline from a Gospel or Acts passage."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 1:1-4",
+        "Acts 2:42-47",
+        "Acts 8:14-17",
+        "John 20:30-31"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 1-7 (Christian eloquence in teaching)"
+        },
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, lecture 'Sermons - Their Matter'"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Book V (the labor of preaching)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Descriptive vs normative",
+          "definition": "Whether a narrative describes what happened or prescribes a pattern for all times."
+        },
+        {
+          "term": "Theological center",
+          "definition": "The main truth about God a narrative conveys."
+        },
+        {
+          "term": "Big idea",
+          "definition": "The single central proposition of a sermon."
+        },
+        {
+          "term": "Application",
+          "definition": "Moving from the text's meaning to hearers' lives."
+        }
+      ],
+      "discussion_questions": [
+        "Is the order of Spirit reception in Acts 8 normative for today? How do traditions answer?",
+        "How can preachers avoid moralizing Gospel stories?",
+        "What does Spurgeon say a sermon's matter should be?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The question of whether Acts' events are patterns for all times is the question of",
+          "options": [
+            "textual criticism",
+            "descriptive versus normative",
+            "authorship",
+            "dating"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Acts 8:14-17 the Samaritans received the Spirit",
+          "options": [
+            "at baptism",
+            "when Peter and John laid hands on them",
+            "before believing",
+            "at Pentecost"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine in On Christian Doctrine IV draws on the rhetoric of",
+          "options": [
+            "Plato",
+            "Cicero",
+            "Homer",
+            "Aristotle only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Spurgeon insisted that sermons must have",
+          "options": [
+            "many jokes",
+            "solid substance/matter - the truths of the gospel",
+            "no outlines",
+            "political topics"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "John 20:31 states the Gospel's purpose as",
+          "options": [
+            "history",
+            "that you may believe that Jesus is the Christ, the Son of God, and have life",
+            "ethics",
+            "church order"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How do different traditions interpret the Samaritan episode in Acts 8?",
+          "answer_key": "Pentecostals often see Spirit baptism as subsequent to conversion (normative pattern); many Reformed/evangelicals see a unique transitional event confirming Samaritan inclusion under apostolic authority; sacramental traditions link it to confirmation. The course asks students to weigh these."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give three principles for preaching Gospel narratives.",
+          "answer_key": "Identify the narrative's theological center (what it reveals about God/Christ); follow the plot and characters within the evangelist's purpose; connect to the whole Gospel and redemptive history; apply through the text's main point rather than moralizing details; preach Christ."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word exegetical paper and sermon outline on ONE passage from the Gospels or Acts (8-20 verses). Include context, structure, exegesis of key details, the passage's theological center, how different interpreters have read it (at least two library sources, cited as Author, Title, section), and a sermon outline with a clear big idea and application."
+    }
+  ]
+}

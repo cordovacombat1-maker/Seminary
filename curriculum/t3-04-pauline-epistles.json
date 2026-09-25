@@ -1,0 +1,1674 @@
+{
+  "id": "pauline-epistles",
+  "title": "The Pauline Epistles",
+  "tier": 3,
+  "tier_name": "Biblical Studies",
+  "description": "An exegetical and theological study of Paul's thirteen letters. Students examine Paul's life and mission, the structure and argument of each letter, and the major themes of Pauline theology: the gospel, justification, union with Christ, the law, the Spirit, the church, ethics and eschatology. Interpretive debates - such as the 'new perspective on Paul', Romans 7 and 9-11, gender roles, and authorship questions - are presented fairly from the major traditions' own sources.",
+  "prerequisites": [
+    "nt-survey",
+    "hermeneutics"
+  ],
+  "lessons": [
+    {
+      "id": "pau-01",
+      "title": "Paul - Apostle to the Gentiles",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Reconstruct Paul's life from Acts and the letters."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Paul's conversion/call and its theological consequences."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss authorship questions (disputed letters) and the traditional view."
+        }
+      ],
+      "scripture_passages": [
+        "Galatians 1:11-2:10",
+        "Acts 22:1-21",
+        "1 Corinthians 15:8-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 1 (the conversion and apostleship of Paul)"
+        },
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book III, chapters 3-4 (Paul's epistles and companions)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 38 (on Paul as 'the least of the apostles')"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Apostle to the Gentiles",
+          "definition": "Paul's calling (Gal 2:7-8; Rom 11:13)."
+        },
+        {
+          "term": "Undisputed letters",
+          "definition": "Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon."
+        },
+        {
+          "term": "Disputed letters",
+          "definition": "Ephesians, Colossians, 2 Thessalonians and the Pastorals (authorship debated by critical scholars)."
+        },
+        {
+          "term": "Amanuensis",
+          "definition": "A secretary who helped write letters (e.g. Tertius, Rom 16:22)."
+        }
+      ],
+      "discussion_questions": [
+        "Was Paul's Damascus experience a 'conversion' or a 'call'? Why does the label matter?",
+        "Why does Paul insist his gospel came by revelation (Gal 1:12)?",
+        "How should we weigh arguments about the disputed letters?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Paul was born in",
+          "options": [
+            "Jerusalem",
+            "Tarsus",
+            "Antioch",
+            "Damascus"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Paul studied under",
+          "options": [
+            "Caiaphas",
+            "Gamaliel",
+            "Hillel directly",
+            "John the Baptist"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In 1 Corinthians 15:9 Paul calls himself",
+          "options": [
+            "the greatest apostle",
+            "the least of the apostles",
+            "a prophet",
+            "a bishop"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Romans 16:22 mentions Tertius as the one who",
+          "options": [
+            "delivered the letter",
+            "wrote (penned) the letter",
+            "hosted Paul",
+            "was baptized"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The undisputed letters include",
+          "options": [
+            "1 Timothy",
+            "Galatians",
+            "Titus",
+            "Ephesians"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How did Paul's encounter with the risen Christ transform his theology?",
+          "answer_key": "He came to see Jesus as the crucified and risen Messiah and Lord, the law's role as preparatory, righteousness as God's gift through faith, and the Gentiles as included in God's people - leading to his mission to the Gentiles."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize arguments for and against Pauline authorship of the Pastoral Epistles.",
+          "answer_key": "Against - differences in vocabulary and style, developed church order, difficulty fitting into Acts. For - the letters' self-claim and early church acceptance, use of secretaries, different occasion and subject matter, and a possible release and later ministry after Acts 28."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HPT"
+    },
+    {
+      "id": "pau-02",
+      "title": "Romans 1-4 - The Righteousness of God",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret Romans 1:16-17 as the letter's theme."
+        },
+        {
+          "id": "o2",
+          "text": "Trace the argument that all are under sin (1:18-3:20)."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret Romans 3:21-4:25 on justification and Abraham."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 1:16-32",
+        "Romans 2:1-16",
+        "Romans 3:9-31",
+        "Romans 4:1-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On the Spirit and the Letter",
+          "section": "Chapters 9-18 (the righteousness of God; faith and works)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapters 11-12 (justification)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Questions 112-114 (the cause of grace; justification; merit)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Righteousness of God",
+          "definition": "Debated as God's attribute, his saving activity, a status given, or his covenant faithfulness."
+        },
+        {
+          "term": "Wrath of God",
+          "definition": "God's settled opposition to sin (Rom 1:18)."
+        },
+        {
+          "term": "Justification",
+          "definition": "God's verdict declaring sinners righteous (forensic) - understood by Catholics as also including inner renewal."
+        },
+        {
+          "term": "Imputation",
+          "definition": "Crediting righteousness to someone's account (Rom 4:3-8)."
+        }
+      ],
+      "discussion_questions": [
+        "How do Catholic and Protestant accounts of justification differ, as represented by Aquinas and Calvin?",
+        "What does Romans 2:14-16 teach about Gentiles and the law?",
+        "How is God both 'just and the justifier' (3:26)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 1:18 says the wrath of God is revealed against",
+          "options": [
+            "Israel only",
+            "all ungodliness and unrighteousness of men",
+            "the Romans",
+            "angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Romans 3:10 says",
+          "options": [
+            "'Many are righteous'",
+            "'None is righteous, no, not one'",
+            "'Some seek God'",
+            "'The Jews alone are righteous'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 3:28 says one is justified by faith",
+          "options": [
+            "and works of the law",
+            "apart from works of the law",
+            "after baptism",
+            "through circumcision"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Romans 4 Paul quotes David from",
+          "options": [
+            "Psalm 23",
+            "Psalm 32 (blessed is the one whose sin is forgiven)",
+            "Psalm 51",
+            "Psalm 110"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aquinas describes justification as involving",
+          "options": [
+            "only a legal declaration",
+            "the infusion of grace, movement of free will, and remission of sins",
+            "only works",
+            "faith alone apart from grace"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the main difference between the Roman Catholic (Tridentine/Thomist) and Reformation understandings of justification.",
+          "answer_key": "For Catholicism, justification includes inner transformation by infused grace (sanctifying grace), making the person righteous, with faith formed by love; for the Reformers, justification is God's forensic declaration based on Christ's imputed righteousness received by faith alone, distinct from (though inseparable from) sanctification."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Trace Paul's argument in Romans 1:18-3:20.",
+          "answer_key": "Gentiles suppress the truth and fall into idolatry and immorality (1:18-32); Jews who judge others do the same and are not protected by possessing the law or circumcision (2); all, Jew and Greek, are under sin and the law brings knowledge of sin, so no one is justified by works of the law (3:9-20)."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HPT"
+    },
+    {
+      "id": "pau-03",
+      "title": "Romans 5-8 - Life in Christ and the Spirit",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the Adam-Christ contrast (5:12-21) and the doctrine of original sin."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret union with Christ and baptism (6) and the debate over Romans 7."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret life in the Spirit, adoption and assurance (8)."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 5:12-21",
+        "Romans 6:1-14",
+        "Romans 7:7-25",
+        "Romans 8:1-39"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 26-27 and 41-52 (Adam, original sin and Christ)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Spirit of Bondage and of Adoption' (on Romans 7-8)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "The Bondage of the Will",
+          "section": "Luther's discussion of Romans 8 and the flesh and Spirit"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Federal headship",
+          "definition": "Adam and Christ as representatives whose acts affect those 'in' them."
+        },
+        {
+          "term": "Union with Christ",
+          "definition": "Believers died and rose with Christ (Rom 6)."
+        },
+        {
+          "term": "Flesh and Spirit",
+          "definition": "Two realms or powers - the old humanity and the new life of the Spirit."
+        },
+        {
+          "term": "Adoption",
+          "definition": "The Spirit's witness that believers are God's children (Rom 8:15-16)."
+        }
+      ],
+      "discussion_questions": [
+        "Is the 'I' of Romans 7:14-25 Paul as a believer, as an unbeliever, or Israel under the law? Compare Augustine, Wesley and Luther.",
+        "How does Romans 6 answer 'Shall we sin that grace may abound'?",
+        "What grounds assurance in Romans 8:28-39?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 5:12 says death spread to all men because",
+          "options": [
+            "of the law",
+            "all sinned",
+            "of Satan alone",
+            "of Moses"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Romans 6:4 connects baptism with",
+          "options": [
+            "circumcision",
+            "burial with Christ and newness of life",
+            "the Passover",
+            "the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 8:1 says there is now no condemnation for",
+          "options": [
+            "the circumcised",
+            "those in Christ Jesus",
+            "everyone",
+            "those who obey perfectly"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Romans 8:28 says God works all things together for good for",
+          "options": [
+            "everyone",
+            "those who love God, who are called according to his purpose",
+            "Israel only",
+            "the prosperous"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'The Spirit of Bondage and of Adoption' describes Romans 7 as the state of",
+          "options": [
+            "the mature believer",
+            "one under the law, awakened but not yet freed",
+            "an angel",
+            "the unawakened natural man only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the main interpretations of Romans 7:14-25.",
+          "answer_key": "The mature Christian's ongoing struggle with sin (later Augustine, Luther, Calvin); the awakened unbeliever or person under the law (early Augustine, many Greek Fathers, Wesley); Israel's experience under the law or Adam's (some modern scholars). Each appeals to context and Paul's language."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Romans 6 connect grace and holiness?",
+          "answer_key": "Believers were united with Christ in his death and resurrection (signified in baptism), so they died to sin's dominion and must consider themselves dead to sin and alive to God, offering themselves as instruments of righteousness - grace reigns and produces holiness."
+        }
+      ]
+    },
+    {
+      "id": "pau-04",
+      "title": "Romans 9-16 - Israel, the Nations and Christian Living",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare interpretations of election in Romans 9 (individual/corporate; Calvinist/Arminian)."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret Romans 11 and the future of Israel."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret Romans 12-15 (living sacrifice, the state, the weak and the strong)."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 9:1-29",
+        "Romans 11:11-36",
+        "Romans 12:1-21",
+        "Romans 13:1-7"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On the Predestination of the Saints",
+          "section": "Chapters 8-19"
+        },
+        {
+          "author": "James Arminius",
+          "title": "Works",
+          "section": "Volume 1, Declaration of Sentiments, 'On Predestination' (and his analysis of Romans 9)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapters 21-22 (election)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Unconditional election",
+          "definition": "God's choice not based on foreseen faith (Augustine, Calvin)."
+        },
+        {
+          "term": "Conditional election",
+          "definition": "God's election of those he foresaw would believe (Arminius, Wesley)."
+        },
+        {
+          "term": "Corporate election",
+          "definition": "Election of a people (Israel, the church) in Christ."
+        },
+        {
+          "term": "All Israel will be saved",
+          "definition": "Romans 11:26, variously interpreted."
+        }
+      ],
+      "discussion_questions": [
+        "Present the strongest Calvinist and Arminian readings of Romans 9:10-24.",
+        "What are the main views of 'all Israel' in Romans 11:26?",
+        "How should Romans 13 be applied under unjust governments?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Romans 9:3 Paul wishes he could be accursed for the sake of",
+          "options": [
+            "the Gentiles",
+            "his kinsmen according to the flesh (Israel)",
+            "the church in Rome",
+            "Caesar"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Romans 9:16 says it depends not on human will or exertion but on",
+          "options": [
+            "the law",
+            "God, who has mercy",
+            "faith alone",
+            "baptism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Romans 11 Paul uses the image of",
+          "options": [
+            "a vine and branches",
+            "an olive tree with branches broken off and grafted in",
+            "a body",
+            "a temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Arminius taught that God elects to salvation those",
+          "options": [
+            "chosen arbitrarily",
+            "whom he foresaw would believe and persevere by grace",
+            "who are baptized",
+            "who keep the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Romans 13:1 says every person should be subject to",
+          "options": [
+            "the church",
+            "the governing authorities",
+            "the elders",
+            "the synagogue"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the Calvinist and Arminian readings of Romans 9.",
+          "answer_key": "Calvinist - God unconditionally elects individuals to salvation (Jacob) and passes over others (Esau, Pharaoh) according to his sovereign mercy, answering objections by God's freedom. Arminian - Paul discusses God's right to choose the terms and instruments of his purposes (nations, Israel vs the church of believers), with election conditioned on faith in Christ (9:30-33)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are three interpretations of 'all Israel will be saved' (Rom 11:26)?",
+          "answer_key": "A future large-scale conversion of ethnic Israel; the full number of elect Jews throughout history; the whole people of God (Jew and Gentile, the church) as 'Israel'."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on election in Romans 9-11. Present the strongest Augustinian/Calvinist case and the strongest Arminian/Wesleyan case, each from its own sources in the library (for example Augustine, Calvin, Luther, Arminius, Wesley; cite as Author, Title, section), exegete Romans 9:6-24 and 11:25-32, and explain which reading you find most persuasive and why - while treating the other view fairly."
+    },
+    {
+      "id": "pau-05",
+      "title": "1 Corinthians - The Cross and the Church",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Corinth and the problems addressed in 1 Corinthians."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the theology of the cross (1-4) and the body (6)."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret Paul's teaching on marriage (7) and food offered to idols (8-10)."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 1:10-31",
+        "1 Corinthians 6:12-20",
+        "1 Corinthians 7:1-16",
+        "1 Corinthians 8:1-13"
+      ],
+      "library_readings": [
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homilies 3-4 (on the cross as foolishness)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIV, chapters 22-26 (marriage and the body)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on 1 Corinthians, chapter 8"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Theology of the cross",
+          "definition": "God's wisdom and power revealed in the crucified Christ (1 Cor 1:18-25)."
+        },
+        {
+          "term": "Temple of the Holy Spirit",
+          "definition": "The believer's body (6:19) and the church (3:16)."
+        },
+        {
+          "term": "Weak and strong",
+          "definition": "Believers with different consciences about food and idols."
+        },
+        {
+          "term": "Christian liberty",
+          "definition": "Freedom limited by love for others (8:9-13)."
+        }
+      ],
+      "discussion_questions": [
+        "How does the cross confront Corinthian factionalism?",
+        "What does 'your body is a temple of the Holy Spirit' mean for sexual ethics?",
+        "How should 1 Corinthians 8 guide Christians in matters of conscience today?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Corinthians were divided over leaders, saying 'I follow Paul', 'I follow Apollos', 'I follow Cephas' and",
+          "options": [
+            "'I follow Moses'",
+            "'I follow Christ'",
+            "'I follow James'",
+            "'I follow Barnabas'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 6:19 calls the body",
+          "options": [
+            "a prison",
+            "a temple of the Holy Spirit",
+            "evil",
+            "irrelevant"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In 1 Corinthians 8:1 Paul says knowledge puffs up, but love",
+          "options": [
+            "judges",
+            "builds up",
+            "divides",
+            "fades"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Paul says in 1 Corinthians 2:2 he decided to know nothing among them except",
+          "options": [
+            "the law",
+            "Jesus Christ and him crucified",
+            "philosophy",
+            "the resurrection only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In 1 Corinthians 7 Paul commends singleness because it allows",
+          "options": [
+            "wealth",
+            "undivided devotion to the Lord",
+            "political influence",
+            "leisure"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Paul apply the principle of love to food offered to idols?",
+          "answer_key": "Though idols are nothing and the knowledgeable are free to eat, they must not use their liberty in a way that causes a weaker brother to stumble; love limits liberty (8:9-13), while outright participation in idol feasts is forbidden (10:14-22)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the 'theology of the cross' in 1 Corinthians 1-2?",
+          "answer_key": "God saves through the apparent weakness and foolishness of a crucified Messiah, overturning human wisdom and status; therefore boasting is excluded and ministry must be cross-shaped."
+        }
+      ]
+    },
+    {
+      "id": "pau-06",
+      "title": "1 Corinthians 11-16 - Worship, Gifts and Resurrection",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the Lord's Supper passage (11:17-34)."
+        },
+        {
+          "id": "o2",
+          "text": "Compare views of spiritual gifts in 12-14 (continuationist and cessationist)."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the resurrection chapter (15)."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 11:17-34",
+        "1 Corinthians 12:1-31",
+        "1 Corinthians 14:1-33",
+        "1 Corinthians 15:35-58"
+      ],
+      "library_readings": [
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 29 (on 1 Corinthians 12:1-11 and the gifts)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book V, chapter 6 (those with prophetic gifts and tongues in the church)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XXII, chapters 12-21 (the resurrection body)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Charismata",
+          "definition": "Spiritual gifts given by the Spirit for the common good."
+        },
+        {
+          "term": "Cessationism",
+          "definition": "The view that certain gifts (prophecy, tongues, healing) ceased with the apostolic age."
+        },
+        {
+          "term": "Continuationism",
+          "definition": "The view that all gifts continue today."
+        },
+        {
+          "term": "Spiritual body",
+          "definition": "The resurrection body animated by the Spirit (15:44)."
+        }
+      ],
+      "discussion_questions": [
+        "Chrysostom notes these gifts 'used to occur but now no longer take place'. How do cessationists and continuationists use such statements?",
+        "What controls does Paul place on tongues and prophecy in 1 Corinthians 14?",
+        "What does the seed analogy teach about the resurrection body?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 12:7 says each is given the manifestation of the Spirit",
+          "options": [
+            "for personal glory",
+            "for the common good",
+            "only if baptized",
+            "to prove salvation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Paul says in 14:19 he would rather speak five words with his mind in church than",
+          "options": [
+            "preach an hour",
+            "ten thousand words in a tongue",
+            "sing a hymn",
+            "pray silently"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Irenaeus reports that in his day",
+          "options": [
+            "all gifts had ceased",
+            "brethren had prophetic gifts and spoke in all kinds of languages",
+            "only the pope prophesied",
+            "tongues were forbidden"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 15:20 calls Christ the",
+          "options": [
+            "last Adam only",
+            "firstfruits of those who have fallen asleep",
+            "first prophet",
+            "second Moses"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Paul warns that eating the Lord's Supper in an unworthy manner makes one guilty of",
+          "options": [
+            "lying",
+            "profaning the body and blood of the Lord",
+            "idolatry only",
+            "breaking the Sabbath"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Present the strongest case for both cessationism and continuationism.",
+          "answer_key": "Cessationist - miraculous gifts authenticated the apostles and revelation (Heb 2:3-4; Eph 2:20) and ceased with the closing of the canon, as many Fathers observed (e.g. Chrysostom); continuationist - Paul expects gifts until 'the perfect' comes at Christ's return (13:8-12), Acts 2 promises the Spirit for all generations, early witnesses (Irenaeus) report gifts, and the NT gives no clear end."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is the resurrection essential according to 1 Corinthians 15?",
+          "answer_key": "If Christ is not raised, faith is futile and sins are unforgiven; Christ's resurrection is the firstfruits guaranteeing believers' bodily resurrection, the defeat of death and the consummation of God's kingdom."
+        }
+      ]
+    },
+    {
+      "id": "pau-07",
+      "title": "2 Corinthians - Ministry in Weakness",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the occasion of 2 Corinthians and Paul's defense of his ministry."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the new covenant ministry (3), treasure in jars of clay (4), and reconciliation (5)."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the collection (8-9) and the 'fool's speech' (11-12)."
+        }
+      ],
+      "scripture_passages": [
+        "2 Corinthians 3:1-18",
+        "2 Corinthians 4:1-18",
+        "2 Corinthians 5:11-21",
+        "2 Corinthians 12:1-10"
+      ],
+      "library_readings": [
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part II, chapters 1-6 (the pastor's inner life and humility)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 17 (Christ's merit and our reconciliation)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on 2 Corinthians, chapter 5"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ministry of reconciliation",
+          "definition": "The gospel message that God reconciles the world to himself in Christ (5:18-20)."
+        },
+        {
+          "term": "Jars of clay",
+          "definition": "The weakness of ministers holding the treasure of the gospel (4:7)."
+        },
+        {
+          "term": "Great exchange",
+          "definition": "2 Corinthians 5:21 - Christ made sin for us, that we might become God's righteousness in him."
+        },
+        {
+          "term": "Super-apostles",
+          "definition": "Rival teachers in Corinth."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Paul boast in weakness rather than strength?",
+        "What does 2 Corinthians 5:21 teach about the atonement?",
+        "What principles of generosity appear in chapters 8-9?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 4:7 says we have this treasure in",
+          "options": [
+            "golden bowls",
+            "jars of clay",
+            "the temple",
+            "heaven only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 5:17 says if anyone is in Christ, he is",
+          "options": [
+            "perfect",
+            "a new creation",
+            "under the law",
+            "an apostle"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 5:21 says God made him who knew no sin",
+          "options": [
+            "to be a prophet",
+            "to be sin for us",
+            "to be a king",
+            "to be judged by Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "God tells Paul regarding the thorn, 'My grace is sufficient for you, for my power is made perfect in",
+          "options": [
+            "strength'",
+            "weakness'",
+            "prayer'",
+            "suffering alone'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 9:7 says God loves",
+          "options": [
+            "a large gift",
+            "a cheerful giver",
+            "a public giver",
+            "a tithe"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the 'great exchange' of 2 Corinthians 5:21.",
+          "answer_key": "The sinless Christ was made sin (bore our sin and its penalty) so that we might become the righteousness of God in him - our sin counted to him, his righteousness to us; central to substitutionary and forensic views of atonement and justification."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does 2 Corinthians teach about Christian ministry?",
+          "answer_key": "Ministry is a gift of the new covenant Spirit, carried out in weakness, suffering and integrity, empowered by God's grace, proclaiming Christ not self, aimed at reconciliation, with sacrificial generosity and humble boasting in the Lord."
+        }
+      ]
+    },
+    {
+      "id": "pau-08",
+      "title": "Galatians - Freedom in Christ",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the Galatian crisis and Paul's response."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret justification and the law in Galatians 2-4."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret freedom and life in the Spirit (5-6)."
+        }
+      ],
+      "scripture_passages": [
+        "Galatians 2:11-21",
+        "Galatians 3:10-14",
+        "Galatians 4:1-7",
+        "Galatians 5:13-26"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Creed, Third Article (sanctification by the Spirit)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 19 (Christian liberty)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On the Spirit and the Letter",
+          "section": "Chapters 19-22 (grace and the law)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Judaizers",
+          "definition": "Those requiring Gentile believers to be circumcised and keep the law."
+        },
+        {
+          "term": "Curse of the law",
+          "definition": "The condemnation on those who fail to keep the law, borne by Christ (3:13)."
+        },
+        {
+          "term": "Fruit of the Spirit",
+          "definition": "Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control (5:22-23)."
+        },
+        {
+          "term": "Christian liberty",
+          "definition": "Freedom from the law's condemnation and ceremonies, used to serve in love."
+        }
+      ],
+      "discussion_questions": [
+        "Why did Paul confront Peter at Antioch?",
+        "How does Christ 'redeem us from the curse of the law'?",
+        "How does freedom differ from license in Galatians 5?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Galatians 3:13 says Christ redeemed us from the curse of the law by",
+          "options": [
+            "teaching the law",
+            "becoming a curse for us",
+            "abolishing Israel",
+            "keeping festivals"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The first fruit of the Spirit listed in Galatians 5:22 is",
+          "options": [
+            "joy",
+            "love",
+            "faith",
+            "peace"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Galatians 4:4-5 says God sent his Son to redeem those under the law so that we might receive",
+          "options": [
+            "circumcision",
+            "adoption as sons",
+            "the land",
+            "new laws"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Calvin's treatment of Christian liberty is in Institutes",
+          "options": [
+            "I.13",
+            "II.8",
+            "III.19",
+            "IV.17"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Galatians 5:13 warns not to use freedom as",
+          "options": [
+            "a reason to pray",
+            "an opportunity for the flesh",
+            "a gift",
+            "a law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What was at stake in the Galatian controversy?",
+          "answer_key": "Whether Gentiles must become Jews (circumcision, law observance) to be full members of God's people and be justified; Paul insists that adding the law to Christ is 'another gospel' - justification is by faith in Christ, and the Spirit comes by faith."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are the three parts of Calvin's doctrine of Christian liberty?",
+          "answer_key": "Freedom of conscience from the law's demand for perfect righteousness in justification; willing obedience to God's law from love rather than compulsion; and freedom regarding 'indifferent things' (adiaphora), used with love for the weak."
+        }
+      ]
+    },
+    {
+      "id": "pau-09",
+      "title": "Ephesians and Colossians - Christ and the Church",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the cosmic Christology of Colossians 1 and Ephesians 1."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the unity of Jew and Gentile in one new humanity (Ephesians 2) and the church as the body of Christ."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the household codes and spiritual warfare (Ephesians 5-6)."
+        }
+      ],
+      "scripture_passages": [
+        "Ephesians 1:3-23",
+        "Ephesians 2:11-22",
+        "Ephesians 5:21-33",
+        "Colossians 2:6-15"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 1 (the true church)"
+        },
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 56-63 (the church and the holy angels)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Ephesians, chapter 2"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Head of the church",
+          "definition": "Christ's authority over and life-giving union with the church."
+        },
+        {
+          "term": "One new man",
+          "definition": "The united humanity of Jew and Gentile in Christ (Eph 2:15)."
+        },
+        {
+          "term": "Household codes",
+          "definition": "Instructions to wives/husbands, children/parents, slaves/masters (Eph 5-6; Col 3-4)."
+        },
+        {
+          "term": "Principalities and powers",
+          "definition": "Spiritual forces over which Christ triumphs (Col 2:15; Eph 6:12)."
+        }
+      ],
+      "discussion_questions": [
+        "What does Ephesians 2:14 mean by 'the dividing wall of hostility'?",
+        "How do complementarian and egalitarian readings approach Ephesians 5:21-33?",
+        "What does Colossians 2:15 say about Christ's victory over the powers?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Ephesians 1:22 says God put all things under Christ's feet and gave him as head over all things to",
+          "options": [
+            "Israel",
+            "the church",
+            "the angels",
+            "the nations"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Ephesians 2:14 says Christ himself is our",
+          "options": [
+            "teacher",
+            "peace, who has broken down the dividing wall",
+            "law",
+            "temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ephesians 5:25 commands husbands to",
+          "options": [
+            "rule their wives",
+            "love their wives as Christ loved the church",
+            "leave their wives",
+            "teach their wives"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Colossians 2:15 says Christ disarmed the rulers and authorities,",
+          "options": [
+            "and joined them",
+            "triumphing over them in the cross",
+            "and made them angels",
+            "at Pentecost"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Ephesians 5:21 begins the household code with",
+          "options": [
+            "'Wives, obey'",
+            "'submitting to one another out of reverence for Christ'",
+            "'Children, obey'",
+            "'Slaves, obey'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Present the strongest complementarian and egalitarian readings of Ephesians 5:21-33.",
+          "answer_key": "Complementarian - mutual submission (5:21) is followed by distinct roles: husbands' loving, sacrificial headship and wives' submission, grounded in Christ and the church (a creation pattern). Egalitarian - 5:21 frames the whole as mutual submission; 'head' may mean source or preeminence; the code redeems a first-century structure in a trajectory toward full equality."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Ephesians teach about the church?",
+          "answer_key": "The church is Christ's body and fullness, God's household and temple, one new humanity of Jew and Gentile, called to unity, maturity through gifted leaders, holiness, and spiritual warfare, displaying God's wisdom to the powers."
+        }
+      ]
+    },
+    {
+      "id": "pau-10",
+      "title": "Philippians, Philemon and the Thessalonian Letters",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret Philippians' themes of joy, partnership and the Christ hymn."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret Philemon and the gospel's effect on social relations (including slavery)."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret Thessalonian teaching on the parousia and ethics."
+        }
+      ],
+      "scripture_passages": [
+        "Philippians 1:3-26",
+        "Philippians 3:7-14",
+        "Philemon 1:8-21",
+        "2 Thessalonians 3:6-13"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Philemon"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homily 19 (on 1 Corinthians 7:21-24, slavery and freedom)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 2 (Christianity and slavery)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Koinonia",
+          "definition": "Fellowship/partnership in the gospel (Phil 1:5)."
+        },
+        {
+          "term": "Onesimus",
+          "definition": "The slave whose name means 'useful' (Phlm 11)."
+        },
+        {
+          "term": "Parousia",
+          "definition": "Christ's coming (1 Thess 4:15)."
+        },
+        {
+          "term": "Idleness",
+          "definition": "The problem of those refusing to work in Thessalonica (2 Thess 3)."
+        }
+      ],
+      "discussion_questions": [
+        "How can Paul rejoice in prison (Philippians 1)?",
+        "How did the gospel in Philemon undermine the foundations of slavery?",
+        "What does 2 Thessalonians 3 teach about work?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Philippians 1:21 says, 'For to me to live is Christ, and to die is",
+          "options": [
+            "loss'",
+            "gain'",
+            "sleep'",
+            "rest'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Onesimus's name means",
+          "options": [
+            "brother",
+            "useful",
+            "free",
+            "servant"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Paul asks Philemon to receive Onesimus",
+          "options": [
+            "as a slave again",
+            "no longer as a slave but as a beloved brother",
+            "as a prisoner",
+            "only after punishment"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "2 Thessalonians 3:10 says if anyone is not willing to work,",
+          "options": [
+            "he should pray",
+            "let him not eat",
+            "he should leave the church",
+            "he is forgiven"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Philippians 3:8 Paul counts everything as loss compared with",
+          "options": [
+            "the law",
+            "the surpassing worth of knowing Christ Jesus",
+            "his apostleship",
+            "his suffering"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Philemon address slavery?",
+          "answer_key": "Without a direct command to abolish slavery, Paul reframes the relationship - Onesimus is a beloved brother in the Lord, to be received as Paul himself - principles (equality in Christ, love, brotherhood) that undermined slavery and later fueled Christian abolitionism."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the source of Paul's joy in Philippians?",
+          "answer_key": "Knowing Christ, partnership with the Philippians in the gospel, the advance of the gospel even through his chains, confidence in God's completing work, and hope of resurrection - not circumstances."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/ppe"
+    },
+    {
+      "id": "pau-11",
+      "title": "The Pastoral Epistles - Church, Doctrine and Leadership",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the Pastoral Epistles' concern for sound doctrine and godliness."
+        },
+        {
+          "id": "o2",
+          "text": "Compare views of church offices (episcopal, presbyterian, congregational) drawing on 1 Timothy and Titus."
+        },
+        {
+          "id": "o3",
+          "text": "Present the debate over 1 Timothy 2:11-15 fairly."
+        }
+      ],
+      "scripture_passages": [
+        "1 Timothy 2:1-15",
+        "1 Timothy 3:1-13",
+        "2 Timothy 3:10-4:8",
+        "Titus 1:5-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Clement of Rome",
+          "title": "First Epistle to the Corinthians",
+          "section": "Chapters 42-44 (apostles, bishops and deacons)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 3 (the offices of the church)"
+        },
+        {
+          "author": "John Chrysostom",
+          "title": "On the Priesthood",
+          "section": "Books II-III (the demands of pastoral office)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Episkopos/presbyteros",
+          "definition": "'Overseer' and 'elder' - apparently interchangeable in Titus 1:5-7."
+        },
+        {
+          "term": "Diakonos",
+          "definition": "'Deacon' - servant office (1 Tim 3:8-13)."
+        },
+        {
+          "term": "Episcopal/Presbyterian/Congregational",
+          "definition": "Church government by bishops, by elders, or by the congregation."
+        },
+        {
+          "term": "Deposit (paratheke)",
+          "definition": "The entrusted apostolic teaching to guard (1 Tim 6:20)."
+        }
+      ],
+      "discussion_questions": [
+        "Are 'overseer' and 'elder' the same office in the Pastorals? What follows for church government?",
+        "Present the strongest complementarian and egalitarian readings of 1 Timothy 2:11-15.",
+        "What does 2 Timothy 4:1-5 require of preachers?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Titus 1:5-7 Paul uses 'elder' and 'overseer' in a way that suggests",
+          "options": [
+            "they are opposite offices",
+            "they refer to the same office",
+            "bishops outrank apostles",
+            "deacons are priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 Timothy 3:2 requires an overseer to be",
+          "options": [
+            "wealthy",
+            "able to teach",
+            "a Levite",
+            "unmarried"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "2 Timothy 4:2 commands, 'Preach the word; be ready",
+          "options": [
+            "on Sundays only'",
+            "in season and out of season'",
+            "when invited'",
+            "after training'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Clement of Rome says the apostles appointed",
+          "options": [
+            "kings",
+            "bishops and deacons and made provision for successors",
+            "only prophets",
+            "no leaders"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Timothy 2:1-2 urges prayers for",
+          "options": [
+            "the church only",
+            "all people, for kings and all in high positions",
+            "Israel",
+            "the dead"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the three main forms of church government.",
+          "answer_key": "Episcopal - bishops in apostolic succession oversee priests/deacons (Catholic, Orthodox, Anglican, Methodist variants); Presbyterian - rule by elders in local sessions and higher courts; Congregational - the local congregation governs itself under Christ, often with elders/deacons."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Present the main complementarian and egalitarian interpretations of 1 Timothy 2:12.",
+          "answer_key": "Complementarian - Paul restricts women from authoritative teaching/eldership in the church, grounded in creation order (2:13-14), a transcultural principle. Egalitarian - the prohibition addressed a specific Ephesian problem (false teaching, uneducated women, possibly domineering authority - authentein), not a universal ban."
+        }
+      ]
+    },
+    {
+      "id": "pau-12",
+      "title": "The Center of Paul's Theology",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Evaluate proposals for the center of Paul's theology (justification, union with Christ, salvation history, the glory of God in Christ)."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize Paul's eschatology (already/not yet)."
+        },
+        {
+          "id": "o3",
+          "text": "Integrate Pauline theology in a synthesis."
+        }
+      ],
+      "scripture_passages": [
+        "1 Corinthians 15:1-11",
+        "2 Corinthians 5:14-21",
+        "Galatians 6:14-16",
+        "Titus 3:4-7"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On the Spirit and the Letter",
+          "section": "Chapters 1-7 (the grace of God in Christ)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 1 (the Spirit uniting us to Christ)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Salvation by Faith'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Already/not yet",
+          "definition": "Paul's tension between salvation inaugurated and awaiting consummation."
+        },
+        {
+          "term": "Union with Christ",
+          "definition": "Being 'in Christ' - by many considered the heart of Paul's soteriology."
+        },
+        {
+          "term": "Salvation history",
+          "definition": "The unfolding of God's saving plan through Israel to Christ and the church."
+        },
+        {
+          "term": "New creation",
+          "definition": "The new world begun in Christ's resurrection (Gal 6:15; 2 Cor 5:17)."
+        }
+      ],
+      "discussion_questions": [
+        "Which proposed center of Paul's theology best explains his letters?",
+        "How does the already/not yet shape Paul's ethics?",
+        "How does Titus 3:4-7 summarize Paul's gospel?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Galatians 6:14 says Paul boasts only in",
+          "options": [
+            "his circumcision",
+            "the cross of our Lord Jesus Christ",
+            "his churches",
+            "his visions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Titus 3:5 says God saved us",
+          "options": [
+            "by works of righteousness",
+            "not because of works but according to his mercy, by the washing of regeneration and renewal of the Holy Spirit",
+            "because of our faithfulness",
+            "through the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The 'already/not yet' refers to",
+          "options": [
+            "the canon",
+            "salvation inaugurated but not yet consummated",
+            "Paul's travel plans",
+            "church offices"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 5:14 says the love of Christ",
+          "options": [
+            "condemns us",
+            "controls/compels us",
+            "is hidden",
+            "is optional"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Wesley's first standard sermon is",
+          "options": [
+            "'The Almost Christian'",
+            "'Salvation by Faith'",
+            "'Catholic Spirit'",
+            "'The New Birth'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Evaluate two proposals for the center of Paul's theology.",
+          "answer_key": "E.g. justification by faith (Reformation; clear in Romans/Galatians but less prominent elsewhere); union with Christ (pervasive 'in Christ' language that includes justification and sanctification); salvation history/apocalyptic (the new age in Christ); the glory of God in Christ. A good answer weighs breadth and textual support."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain Paul's 'already/not yet' eschatology.",
+          "answer_key": "In Christ's death, resurrection and the Spirit's gift the new age has begun - believers are justified, raised with Christ, new creation - yet they still await the redemption of the body, final victory over sin and death, and Christ's return; ethics flow from being what they already are in Christ."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper arguing for what you consider the center (or integrating theme) of Paul's theology. Engage at least three Pauline letters, interact with at least two library sources representing different traditions (for example Augustine, Luther, Calvin, Wesley, Aquinas; cite as Author, Title, section), and address the strongest objection to your proposal.",
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HPT"
+    }
+  ]
+}

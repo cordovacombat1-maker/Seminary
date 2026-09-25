@@ -1,0 +1,1671 @@
+{
+  "id": "systematic-1",
+  "title": "Systematic Theology I: Scripture, God and the Trinity",
+  "tier": 4,
+  "tier_name": "Theology",
+  "description": "The first of three courses in systematic theology. Students study prolegomena (the nature and method of theology), the doctrine of revelation and Scripture, the existence and knowability of God, the divine attributes, the doctrine of the Trinity, and God's decrees, creation and providence. The course reads the great theologians of every tradition - Athanasius, the Cappadocians, Augustine, Anselm, Aquinas, Luther, Calvin, Wesley, Arminius and Hodge - and presents disputed questions (such as divine sovereignty and human freedom) fairly.",
+  "prerequisites": [
+    "intro-theology",
+    "hermeneutics"
+  ],
+  "lessons": [
+    {
+      "id": "st1-01",
+      "title": "Prolegomena - The Nature, Sources and Method of Theology",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Define systematic theology and its relation to biblical and historical theology."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the principia (foundations) of theology - God as its source and Scripture as its cognitive foundation."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate different theological methods (scholastic, inductive, confessional, experiential)."
+        }
+      ],
+      "scripture_passages": [
+        "2 Timothy 3:14-17",
+        "1 Corinthians 2:6-16",
+        "Romans 11:33-36"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 1, Articles 1-10 (sacred doctrine)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Introduction, Chapters 1-3 (method; theology; rationalism)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapters 1-2"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Systematic theology",
+          "definition": "The orderly, coherent presentation of the whole of Christian doctrine."
+        },
+        {
+          "term": "Principium cognoscendi",
+          "definition": "The 'principle of knowing' - Scripture as the source of theological knowledge."
+        },
+        {
+          "term": "Principium essendi",
+          "definition": "The 'principle of being' - God himself as the source of theology."
+        },
+        {
+          "term": "Archetypal and ectypal theology",
+          "definition": "God's own self-knowledge versus the creaturely knowledge he reveals to us."
+        }
+      ],
+      "discussion_questions": [
+        "Aquinas calls sacred doctrine a 'science'. In what sense? Does Hodge mean the same?",
+        "What does 1 Corinthians 2 teach about the Spirit's role in theological knowledge?",
+        "Why must all theology be humble (Rom 11:33-36)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Aquinas argues sacred doctrine is a science because it proceeds from",
+          "options": [
+            "experiments",
+            "principles known by a higher science - God's own knowledge revealed",
+            "human reason only",
+            "church law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Hodge compares the theologian's use of Scripture to",
+          "options": [
+            "a poet with a muse",
+            "a scientist with the facts of nature",
+            "a lawyer with precedent",
+            "a historian with legends"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The 'principium cognoscendi' of theology is",
+          "options": [
+            "reason",
+            "Scripture (God's revelation)",
+            "the church",
+            "experience"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In 1 Corinthians 2:14 the natural person does not accept the things of the Spirit because",
+          "options": [
+            "they are illogical",
+            "they are spiritually discerned",
+            "they are hidden from everyone",
+            "they are only for apostles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "'Ectypal' theology is",
+          "options": [
+            "God's own infinite self-knowledge",
+            "the finite knowledge of God he communicates to creatures",
+            "false theology",
+            "mystical theology"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does systematic theology relate to biblical and historical theology?",
+          "answer_key": "Biblical theology studies Scripture's teaching in its historical development; historical theology studies how the church understood doctrine; systematic theology draws on both to present a coherent, topically organized account of what the whole Bible teaches for today."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Compare the scholastic and inductive methods.",
+          "answer_key": "The scholastic method (Aquinas) proceeds by questions, objections, authorities and reasoned responses, using philosophy; the inductive method (Hodge) gathers and arranges the 'facts' of Scripture to derive doctrines. Both aim at faithful, orderly understanding of revealed truth."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/bst"
+    },
+    {
+      "id": "st1-02",
+      "title": "Revelation and the Knowledge of God",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate a doctrine of general and special revelation."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate natural theology (Aquinas) and its critics."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the incomprehensibility and knowability of God (analogy)."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 19:1-6",
+        "Romans 1:18-25",
+        "Acts 14:15-17",
+        "John 1:18"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 12, Articles 1, 4, 7 and 12-13; Question 13, Article 5 (knowing and naming God; analogy)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapters 3-5"
+        },
+        {
+          "author": "Gregory of Nazianzus",
+          "title": "Theological Orations",
+          "section": "The Second Theological Oration (Oration 28, on the incomprehensibility of God)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Incomprehensibility",
+          "definition": "God cannot be exhaustively known by creatures."
+        },
+        {
+          "term": "Knowability",
+          "definition": "God can be truly known because he reveals himself."
+        },
+        {
+          "term": "Analogy",
+          "definition": "Aquinas's account of language about God - neither univocal nor equivocal."
+        },
+        {
+          "term": "Apophatic theology",
+          "definition": "Speaking of God by denying creaturely limitations (the 'negative way')."
+        }
+      ],
+      "discussion_questions": [
+        "How does Gregory of Nazianzus balance knowing and not knowing God?",
+        "Aquinas says words like 'good' apply to God analogically. What does this mean?",
+        "What does Acts 14:17 say God left as a witness to the nations?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Gregory of Nazianzus insisted that God's nature is",
+          "options": [
+            "fully comprehensible to philosophers",
+            "beyond comprehension, though truly known in part",
+            "unknown in every way",
+            "identical to the world"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Aquinas holds that language about God is",
+          "options": [
+            "univocal",
+            "equivocal",
+            "analogical",
+            "meaningless"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Acts 14:17 says God did not leave himself without witness, giving",
+          "options": [
+            "the law",
+            "rains from heaven and fruitful seasons",
+            "visions",
+            "prophets to every nation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The 'negative way' describes God by",
+          "options": [
+            "listing his acts",
+            "denying creaturely limitations (infinite, immutable)",
+            "comparing him to angels",
+            "ignoring him"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "John 1:18 says no one has ever seen God, but",
+          "options": [
+            "Moses did",
+            "the only God, who is at the Father's side, has made him known",
+            "the prophets did",
+            "angels have"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain how God can be both incomprehensible and knowable.",
+          "answer_key": "God infinitely exceeds creaturely understanding so we can never know him exhaustively (incomprehensible), yet he truly reveals himself in creation, Scripture and supremely in Christ, so we can know him truly though partially (knowable), using language by analogy."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is Aquinas's doctrine of analogy?",
+          "answer_key": "Terms like 'good' or 'wise' are not used of God and creatures in exactly the same sense (univocal) nor in unrelated senses (equivocal), but analogically - the perfection exists in God preeminently and in creatures derivatively, with real similarity amid greater difference."
+        }
+      ]
+    },
+    {
+      "id": "st1-03",
+      "title": "The Doctrine of Scripture",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the inspiration, authority, inerrancy/infallibility, sufficiency and clarity of Scripture."
+        },
+        {
+          "id": "o2",
+          "text": "Compare Protestant, Catholic and Orthodox views of Scripture, tradition and interpretation."
+        },
+        {
+          "id": "o3",
+          "text": "Respond to common objections concerning errors and contradictions."
+        }
+      ],
+      "scripture_passages": [
+        "2 Timothy 3:16-17",
+        "2 Peter 1:19-21",
+        "Matthew 5:17-18",
+        "Psalm 119:89-96"
+      ],
+      "library_readings": [
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Introduction, Chapters 5-6 (the Roman Catholic rule of faith; the Protestant rule of faith)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, Westminster Confession of Faith, chapter 1; and Volume 2, Council of Trent, Fourth Session"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book II, chapter 9 (the clarity of Scripture's main teaching)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Inerrancy",
+          "definition": "Scripture is without error in all it affirms (in the autographs), when rightly interpreted."
+        },
+        {
+          "term": "Infallibility",
+          "definition": "Scripture will not fail or mislead in its purpose; sometimes used interchangeably with inerrancy."
+        },
+        {
+          "term": "Sufficiency",
+          "definition": "Scripture contains all things necessary for salvation, faith and life."
+        },
+        {
+          "term": "Autographs",
+          "definition": "The original manuscripts written by the biblical authors."
+        }
+      ],
+      "discussion_questions": [
+        "How does Westminster Confession chapter 1 compare with Trent's Fourth Session?",
+        "What is the difference between inerrancy and 'limited inerrancy'?",
+        "How should apparent contradictions in Scripture be handled?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Westminster Confession 1.6 teaches that the whole counsel of God is either expressly set down in Scripture or",
+          "options": [
+            "found in tradition",
+            "may be deduced from Scripture by good and necessary consequence",
+            "revealed by councils",
+            "unknown"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Trent affirmed that revealed truth is contained in",
+          "options": [
+            "Scripture alone",
+            "written books and unwritten traditions",
+            "the pope's words alone",
+            "the creeds alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Hodge's doctrine of inspiration affirms that Scripture is",
+          "options": [
+            "partly the word of God",
+            "the word of God, infallible for faith and practice",
+            "only inspired in its ideas",
+            "a human record of experience"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Psalm 119:89 says, 'Forever, O LORD, your word is",
+          "options": [
+            "changing'",
+            "firmly fixed in the heavens'",
+            "hidden'",
+            "difficult'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine taught that the main things necessary for faith and life are found",
+          "options": [
+            "only in obscure passages",
+            "plainly stated somewhere in Scripture",
+            "in philosophy",
+            "in councils"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "State and explain the doctrine of the sufficiency of Scripture.",
+          "answer_key": "Scripture contains all that God requires us to believe and do for salvation and godly living; nothing is to be added as binding by new revelation or human tradition, though God's providence, reason and the church help us understand and apply it."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give three principles for handling apparent contradictions in Scripture.",
+          "answer_key": "Consider genre, context and authorial purpose; allow for approximation, paraphrase and different perspectives; consider textual transmission and translation; recognize our limited knowledge; many difficulties have plausible resolutions."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/BYT"
+    },
+    {
+      "id": "st1-04",
+      "title": "The Existence of God",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Evaluate classical arguments for God's existence (ontological, cosmological, teleological, moral)."
+        },
+        {
+          "id": "o2",
+          "text": "Compare evidentialist, classical and presuppositional approaches."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the role of arguments in relation to faith."
+        }
+      ],
+      "scripture_passages": [
+        "Psalm 14:1",
+        "Romans 1:19-20",
+        "Hebrews 11:3-6"
+      ],
+      "library_readings": [
+        {
+          "author": "Anselm",
+          "title": "Proslogion",
+          "section": "Chapters 2-5"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Question 2, Articles 1-3"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Part I, Chapters 1-2 (the origin of the idea of God; theism and its proofs)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ontological argument",
+          "definition": "From the concept of a maximally great being to its existence (Anselm)."
+        },
+        {
+          "term": "Cosmological argument",
+          "definition": "From the existence or causation of the world to a first cause (Aquinas's ways 1-3)."
+        },
+        {
+          "term": "Teleological argument",
+          "definition": "From order and design to a designer (Aquinas's fifth way)."
+        },
+        {
+          "term": "Moral argument",
+          "definition": "From objective moral obligation to a moral lawgiver."
+        }
+      ],
+      "discussion_questions": [
+        "Does Anselm's argument work? Consider Gaunilo's 'lost island' objection.",
+        "What do Aquinas's five ways prove, and what do they not prove?",
+        "What role should arguments play in a person's coming to faith?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Psalm 14:1 says 'The fool says in his heart",
+          "options": [
+            "'God is love''",
+            "'There is no God''",
+            "'God is far away''",
+            "'I will obey''"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Aquinas's third way argues from",
+          "options": [
+            "motion",
+            "efficient causes",
+            "possibility and necessity (contingency)",
+            "degrees of perfection"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Aquinas holds that God's existence",
+          "options": [
+            "is self-evident to us",
+            "can be demonstrated from his effects",
+            "cannot be known at all",
+            "is only believed by faith"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The teleological argument argues from",
+          "options": [
+            "the concept of God",
+            "order and purpose in nature",
+            "morality",
+            "religious experience"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Gaunilo objected to Anselm with the example of",
+          "options": [
+            "a perfect circle",
+            "a perfect island",
+            "a unicorn",
+            "a golden mountain"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize one of Aquinas's five ways.",
+          "answer_key": "E.g. the first way: things in the world are in motion (change); whatever is moved is moved by another; an infinite regress of movers is impossible; therefore there is a first unmoved mover, which all call God."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do classical, evidentialist and presuppositional apologists differ on arguments for God?",
+          "answer_key": "Classical - first establish theism with rational arguments, then evidence for Christianity; evidentialist - historical and empirical evidence (e.g. the resurrection) can establish both at once; presuppositional - reasoning presupposes the Christian God, so apologetics shows unbelief's inconsistency rather than building from neutral ground."
+        }
+      ]
+    },
+    {
+      "id": "st1-05",
+      "title": "The Attributes of God I - Incommunicable Attributes",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain divine simplicity, aseity, immutability, impassibility, eternity and omnipresence."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate classical theism and modern revisions (e.g. open theism)."
+        },
+        {
+          "id": "o3",
+          "text": "Relate these attributes to worship and trust."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 3:13-15",
+        "Malachi 3:6",
+        "Psalm 90:1-4",
+        "Psalm 139:7-12"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Questions 3, 8, 9 and 10 (simplicity, omnipresence, immutability, eternity)"
+        },
+        {
+          "author": "Augustine",
+          "title": "Confessions",
+          "section": "Book XI, chapters 10-14 (God's eternity and time)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Part I, Chapter 5 (the nature and attributes of God)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Aseity",
+          "definition": "God's self-existence; he depends on nothing."
+        },
+        {
+          "term": "Simplicity",
+          "definition": "God is not composed of parts; his attributes are identical with his essence."
+        },
+        {
+          "term": "Immutability",
+          "definition": "God does not change in his being, perfections, purposes or promises."
+        },
+        {
+          "term": "Impassibility",
+          "definition": "God is not subject to passions or suffering in the way creatures are (debated in modern theology)."
+        }
+      ],
+      "discussion_questions": [
+        "What does 'I AM WHO I AM' reveal about God's being?",
+        "How does Augustine answer 'What was God doing before creation?'",
+        "Does immutability make God static or unresponsive? How would classical theists answer?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Malachi 3:6 says, 'For I the LORD",
+          "options": [
+            "repent'",
+            "do not change'",
+            "am far away'",
+            "will change my mind'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Aquinas's doctrine of simplicity means God is",
+          "options": [
+            "easy to understand",
+            "not composed of parts; his essence is his existence",
+            "only spirit, not powerful",
+            "one of many gods"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine taught that time was created",
+          "options": [
+            "before God",
+            "with the creation of the world",
+            "after the fall",
+            "at Christ's birth"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Aseity means God",
+          "options": [
+            "is everywhere",
+            "exists of himself and depends on nothing",
+            "knows everything",
+            "never suffers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Psalm 139:7 asks, 'Where shall I go from your Spirit?' teaching God's",
+          "options": [
+            "eternity",
+            "omnipresence",
+            "simplicity",
+            "wrath"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is divine simplicity and why have classical theologians affirmed it?",
+          "answer_key": "God is not composed of parts (matter/form, essence/existence, substance/accidents); each attribute is identical with his essence. It safeguards God's aseity, perfection, unity and immutability - a composite being would depend on its parts."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does classical theism differ from open theism on God's knowledge and immutability?",
+          "answer_key": "Classical theism holds God is immutable and knows all things, including the future free acts of creatures, exhaustively and eternally; open theism holds the future free choices do not yet exist to be known, so God learns and adjusts, taking risks."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/GOD"
+    },
+    {
+      "id": "st1-06",
+      "title": "The Attributes of God II - Communicable Attributes",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain God's knowledge, wisdom, power, goodness, love, grace, holiness, justice and wrath."
+        },
+        {
+          "id": "o2",
+          "text": "Relate love and justice/wrath in God."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss divine foreknowledge and human freedom (Augustinian, Molinist, Arminian views)."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 6:1-7",
+        "1 John 4:7-10",
+        "Romans 3:25-26",
+        "Isaiah 46:9-10"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Questions 14, 19, 20, 21 and 25 (God's knowledge, will, love, justice and mercy, power)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book V, chapters 9-10 (foreknowledge and free will against Cicero)"
+        },
+        {
+          "author": "James Arminius",
+          "title": "Works",
+          "section": "Volume 2, Public Disputations, 'On the Nature of God' (God's knowledge and will)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Omniscience",
+          "definition": "God knows all things actual and possible."
+        },
+        {
+          "term": "Holiness",
+          "definition": "God's majestic transcendence and moral purity."
+        },
+        {
+          "term": "Middle knowledge",
+          "definition": "Molinist view that God knows what free creatures would do in any circumstance."
+        },
+        {
+          "term": "Wrath",
+          "definition": "God's holy, settled opposition to sin."
+        }
+      ],
+      "discussion_questions": [
+        "How does Augustine reconcile God's foreknowledge with human freedom?",
+        "How can God be both love (1 John 4:8) and just in wrath (Rom 3:25-26)?",
+        "What is middle knowledge, and why did Arminius find it attractive?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Isaiah 46:10 says God declares",
+          "options": [
+            "only the present",
+            "the end from the beginning",
+            "what humans decide",
+            "nothing about the future"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine argued against Cicero that God's foreknowledge",
+          "options": [
+            "destroys free will",
+            "does not destroy the freedom of the will",
+            "does not exist",
+            "is limited"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "'Middle knowledge' is associated with",
+          "options": [
+            "Calvin",
+            "Luis de Molina",
+            "Luther",
+            "Hodge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The seraphim's cry 'Holy, holy, holy' emphasizes God's",
+          "options": [
+            "love",
+            "holiness",
+            "power only",
+            "mercy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Romans 3:26 says God put forward Christ so that he might be",
+          "options": [
+            "loving only",
+            "just and the justifier of the one who has faith in Jesus",
+            "feared",
+            "unchanging"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare Augustinian/Calvinist and Arminian views of God's foreknowledge and predestination.",
+          "answer_key": "Augustinian/Calvinist - God knows all things because he has decreed them; his foreknowledge rests on his will. Arminian - God foreknows all future free choices (some via middle knowledge) and elects based on foreseen faith; his knowledge does not cause the choices."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How are God's love and justice harmonized at the cross?",
+          "answer_key": "At the cross God's love provides the substitute who bears the just penalty of sin, so God remains just in punishing sin and yet justifies sinners who believe (Rom 3:25-26; 1 John 4:10) - love and justice meet."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on ONE divine attribute or disputed question - for example immutability and impassibility, divine simplicity, or foreknowledge and human freedom. Present the biblical data, the classical formulation (e.g. Augustine, Aquinas, Calvin or Hodge), at least one alternative view from its own sources (e.g. Arminius, or a modern revision as described fairly), and your assessment, citing library sources as (Author, Title, section)."
+    },
+    {
+      "id": "st1-07",
+      "title": "The Trinity I - Biblical Foundations",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Trace the Old Testament anticipations of plurality within God."
+        },
+        {
+          "id": "o2",
+          "text": "Show the New Testament evidence for the deity of the Son and the Spirit and their distinction from the Father."
+        },
+        {
+          "id": "o3",
+          "text": "Explain how the doctrine arises from God's self-revelation in salvation history."
+        }
+      ],
+      "scripture_passages": [
+        "Deuteronomy 6:4",
+        "Matthew 28:19",
+        "John 1:1-3",
+        "2 Corinthians 13:14"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On the Trinity",
+          "section": "Book I, chapters 1-7 (the Trinity from Scripture)"
+        },
+        {
+          "author": "Tertullian",
+          "title": "Against Praxeas",
+          "section": "Chapters 2-8 (one substance, three persons)"
+        },
+        {
+          "author": "Basil of Caesarea",
+          "title": "On the Holy Spirit",
+          "section": "Chapters 10-12 and 17-18"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Trinity",
+          "definition": "One God in three persons."
+        },
+        {
+          "term": "Modalism (Sabellianism)",
+          "definition": "The error that Father, Son and Spirit are modes or roles of one person."
+        },
+        {
+          "term": "Economic Trinity",
+          "definition": "The Trinity as revealed in the works of creation and redemption."
+        },
+        {
+          "term": "Immanent Trinity",
+          "definition": "The Trinity as God eternally is in himself."
+        }
+      ],
+      "discussion_questions": [
+        "How can the Shema (Deut 6:4) be affirmed alongside Matthew 28:19?",
+        "What evidence does the New Testament give for the Spirit as a person?",
+        "How did Tertullian answer Praxeas's modalism?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Tertullian coined the Latin term",
+          "options": [
+            "homoousios",
+            "trinitas",
+            "hypostasis",
+            "perichoresis"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Modalism teaches that Father, Son and Spirit are",
+          "options": [
+            "three gods",
+            "three modes of one person",
+            "three created beings",
+            "three persons in one essence"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Tertullian mocked Praxeas for driving away prophecy and",
+          "options": [
+            "crucifying the Son",
+            "crucifying the Father ('Patripassianism')",
+            "denying the Spirit only",
+            "worshiping Mary"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 13:14 names",
+          "options": [
+            "the Father only",
+            "the Lord Jesus Christ, God and the Holy Spirit",
+            "angels",
+            "Paul and Timothy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The 'economic Trinity' refers to",
+          "options": [
+            "church finances",
+            "the Trinity as revealed in God's works of creation and redemption",
+            "a heresy",
+            "the Father alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the biblical evidence for the deity of the Son.",
+          "answer_key": "Divine titles (God, Lord, John 1:1; 20:28; Heb 1:8), divine attributes (eternal, omnipotent), divine works (creation, forgiveness, judgment), worship offered to him (Phil 2:10-11; Rev 5), and OT texts about YHWH applied to Jesus."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is modalism inadequate?",
+          "answer_key": "Scripture shows the persons simultaneously distinct and relating to one another (the Son prays to the Father, the Father sends the Son, the Spirit intercedes; all three at Jesus' baptism), which modalism cannot explain."
+        }
+      ]
+    },
+    {
+      "id": "st1-08",
+      "title": "The Trinity II - The Nicene and Augustinian Doctrine",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain Nicene Trinitarian theology (homoousios, eternal generation, procession)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Augustine's psychological analogies and the doctrine of inseparable operations."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss the filioque controversy fairly."
+        }
+      ],
+      "scripture_passages": [
+        "John 5:19-26",
+        "John 15:26",
+        "John 17:1-5"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On the Trinity",
+          "section": "Books V (relations), IX-X (the image of the Trinity in the mind), and XV, chapters 17 and 26 (the Spirit's procession)"
+        },
+        {
+          "author": "Gregory of Nazianzus",
+          "title": "Theological Orations",
+          "section": "The Third Theological Oration (Oration 29, on the Son)"
+        },
+        {
+          "author": "Henry R. Percival (ed.)",
+          "title": "The Seven Ecumenical Councils",
+          "section": "Excursus on the filioque and the Council of Constantinople"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Eternal generation",
+          "definition": "The Son eternally begotten of the Father."
+        },
+        {
+          "term": "Procession (spiration)",
+          "definition": "The Spirit eternally proceeding from the Father (and the Son, in Western teaching)."
+        },
+        {
+          "term": "Inseparable operations",
+          "definition": "The external works of the Trinity are undivided (opera ad extra indivisa sunt)."
+        },
+        {
+          "term": "Perichoresis",
+          "definition": "The mutual indwelling of the divine persons."
+        }
+      ],
+      "discussion_questions": [
+        "What does 'eternally begotten' mean, and how does it differ from creation?",
+        "How helpful are Augustine's psychological analogies (memory, understanding, will)?",
+        "Present the Eastern and Western arguments on the filioque."
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine distinguished the persons of the Trinity by their",
+          "options": [
+            "different substances",
+            "relations (Father, Son, Gift/Spirit)",
+            "different wills",
+            "different ranks"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "One of Augustine's analogies of the Trinity is",
+          "options": [
+            "water, ice and steam",
+            "memory, understanding and will",
+            "sun, moon and stars",
+            "past, present, future"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The principle that the works of the Trinity toward creation are undivided is called",
+          "options": [
+            "perichoresis",
+            "inseparable operations",
+            "subordinationism",
+            "appropriation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Eastern Church objects to the filioque partly because",
+          "options": [
+            "it denies the Spirit's divinity",
+            "it was added to the ecumenical creed without an ecumenical council and seems to compromise the Father as sole source",
+            "it denies the Son",
+            "it is Arian"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "John 15:26 says the Spirit",
+          "options": [
+            "is created",
+            "proceeds from the Father",
+            "is the Son",
+            "is sent by the apostles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain eternal generation.",
+          "answer_key": "The Father eternally communicates the whole divine essence to the Son, so the Son is 'begotten, not made', co-eternal and equal - a relation of origin without beginning, change or subordination of essence."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize the Western and Eastern positions on the filioque.",
+          "answer_key": "West (Augustine) - the Spirit proceeds from the Father and the Son as from one principle, safeguarding the Son's equality and the Spirit as their mutual love; East - the Spirit proceeds from the Father alone as the sole source (monarchy) of the Godhead, though sent through the Son, and objects to the unilateral creedal addition."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/GOD"
+    },
+    {
+      "id": "st1-09",
+      "title": "The Trinity III - Errors, Analogies and Practical Significance",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Identify classic Trinitarian errors (Arianism, modalism, tritheism, subordinationism)."
+        },
+        {
+          "id": "o2",
+          "text": "Evaluate popular analogies for the Trinity."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the Trinity's importance for salvation, worship, prayer and Christian life."
+        }
+      ],
+      "scripture_passages": [
+        "Ephesians 1:3-14",
+        "Galatians 4:4-7",
+        "Ephesians 2:18"
+      ],
+      "library_readings": [
+        {
+          "author": "Athanasius",
+          "title": "Discourses Against the Arians",
+          "section": "Discourse III, chapters 1-6 (the Son in the Father and the Father in the Son)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On the Trinity",
+          "section": "Book XV, chapters 27-28 (humility before the mystery; closing prayer)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 2, the Athanasian Creed"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Arianism",
+          "definition": "The Son is a created being."
+        },
+        {
+          "term": "Tritheism",
+          "definition": "Three separate gods."
+        },
+        {
+          "term": "Subordinationism",
+          "definition": "The Son and Spirit are lesser in being than the Father."
+        },
+        {
+          "term": "Athanasian Creed",
+          "definition": "A Western creed (Quicunque vult) setting out Trinitarian and Christological orthodoxy."
+        }
+      ],
+      "discussion_questions": [
+        "Why do most analogies for the Trinity end up teaching a heresy?",
+        "How is salvation Trinitarian in Ephesians 1:3-14?",
+        "How does the Trinity shape Christian prayer (Eph 2:18)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The analogy of water, ice and steam tends toward",
+          "options": [
+            "Arianism",
+            "modalism",
+            "tritheism",
+            "orthodoxy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Athanasian Creed states that we worship",
+          "options": [
+            "three gods",
+            "one God in Trinity and Trinity in unity",
+            "the Father alone",
+            "Christ alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ephesians 2:18 says through Christ we both have access in one Spirit to",
+          "options": [
+            "the temple",
+            "the Father",
+            "the angels",
+            "the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Tritheism teaches",
+          "options": [
+            "one person",
+            "three separate gods",
+            "a created Son",
+            "no Spirit"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Galatians 4:6 says God sent the Spirit of his Son into our hearts crying",
+          "options": [
+            "'Hosanna'",
+            "'Abba! Father!'",
+            "'Holy!'",
+            "'Maranatha!'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why does the doctrine of the Trinity matter for salvation?",
+          "answer_key": "Salvation is the work of the Father who elects and sends, the Son who redeems, and the Spirit who applies and unites us to Christ; only a truly divine Son and Spirit can save and bring us into the Father's love, making us God's adopted children."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why do popular analogies for the Trinity fail?",
+          "answer_key": "Physical analogies (water states, egg parts, a man as father/son/husband) either reduce the persons to modes (modalism) or parts (partialism) or separate beings (tritheism); the Trinity is unique, so analogies must be used cautiously."
+        }
+      ]
+    },
+    {
+      "id": "st1-10",
+      "title": "The Decrees of God and Predestination",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the doctrine of God's eternal decree."
+        },
+        {
+          "id": "o2",
+          "text": "Compare Augustinian/Calvinist, Lutheran, Arminian/Wesleyan and Catholic views of predestination."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate the lapsarian debate and the doctrine of reprobation."
+        }
+      ],
+      "scripture_passages": [
+        "Ephesians 1:3-12",
+        "Romans 8:28-30",
+        "1 Timothy 2:3-6",
+        "Acts 13:48"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapters 21-24"
+        },
+        {
+          "author": "James Arminius",
+          "title": "Works",
+          "section": "Volume 1, Declaration of Sentiments, 'On Predestination'"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Free Grace'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Decree",
+          "definition": "God's eternal purpose by which he ordains whatever comes to pass (Reformed)."
+        },
+        {
+          "term": "Unconditional election",
+          "definition": "Election not based on foreseen faith."
+        },
+        {
+          "term": "Conditional election",
+          "definition": "Election of those foreseen to believe (Arminian)."
+        },
+        {
+          "term": "Supralapsarian/infralapsarian",
+          "definition": "Debates about the logical order of God's decrees relative to the fall."
+        }
+      ],
+      "discussion_questions": [
+        "Present the strongest Calvinist case from Ephesians 1 and Romans 8-9.",
+        "Present the strongest Arminian/Wesleyan case from 1 Timothy 2:4 and Wesley's 'Free Grace'.",
+        "How does Lutheran theology hold election and universal grace together?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Calvin defines predestination as",
+          "options": [
+            "God's foresight of faith",
+            "God's eternal decree determining what he willed to become of each person",
+            "fate",
+            "the church's decision"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Arminius taught that God decreed to save",
+          "options": [
+            "random individuals",
+            "those who repent and believe, through Christ",
+            "all people unconditionally",
+            "only the baptized"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'Free Grace' argues that",
+          "options": [
+            "grace is limited to the elect",
+            "God's grace is free in all and free for all",
+            "grace is earned",
+            "predestination is proven"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Timothy 2:4 says God desires",
+          "options": [
+            "only the elect to be saved",
+            "all people to be saved and to come to the knowledge of the truth",
+            "Israel only",
+            "the church to rule"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Infralapsarianism holds that God's decree of election logically",
+          "options": [
+            "precedes the decree to create",
+            "considers humanity as already fallen",
+            "denies the fall",
+            "depends on faith"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Present the core of the Calvinist and Arminian positions on election.",
+          "answer_key": "Calvinist - out of fallen humanity God unconditionally chose some for salvation in Christ, and effectually calls them; reprobation is God's just passing over of others. Arminian - God decreed to save all who believe in Christ; by prevenient grace all can respond; he elects individuals foreseen as believing and persevering."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Lutheran theology treat predestination?",
+          "answer_key": "It affirms that election to salvation is wholly by grace (not foreseen merit) and a comfort to believers, while also teaching God's universal saving will and resistible grace, and it rejects double predestination - leaving the tension as mystery."
+        }
+      ]
+    },
+    {
+      "id": "st1-11",
+      "title": "Creation and the Angels",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the doctrine of creation ex nihilo and its implications."
+        },
+        {
+          "id": "o2",
+          "text": "Survey views on creation and science responsibly."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the doctrine of angels and demons."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:1-2",
+        "Hebrews 11:3",
+        "Colossians 1:16",
+        "Hebrews 1:14"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XI, chapters 9-13 and Book XII, chapters 1-9 (the angels, good and evil)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Questions 44-46 and 50-51 (creation; the angels)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 14 (creation, angels and devils)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Creation ex nihilo",
+          "definition": "God created everything out of nothing by his word."
+        },
+        {
+          "term": "Creator-creature distinction",
+          "definition": "God is utterly distinct from all he has made."
+        },
+        {
+          "term": "Angels",
+          "definition": "Created spiritual beings who serve God (Heb 1:14)."
+        },
+        {
+          "term": "Demons",
+          "definition": "Fallen angels opposed to God."
+        }
+      ],
+      "discussion_questions": [
+        "Why did the early church insist on creation ex nihilo against Greek philosophy and Gnosticism?",
+        "What models relate Genesis and modern science, and how should Christians disagree charitably?",
+        "Why does Calvin caution against curiosity about angels?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Hebrews 11:3 says the universe was created",
+          "options": [
+            "from eternal matter",
+            "by the word of God, so that what is seen was not made out of things visible",
+            "by angels",
+            "from chaos by fighting gods"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Aquinas held that the world's having a beginning is known",
+          "options": [
+            "by philosophy alone",
+            "by faith (revelation), not demonstrated by reason",
+            "by science only",
+            "not at all"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Hebrews 1:14 describes angels as",
+          "options": [
+            "gods",
+            "ministering spirits sent to serve those who will inherit salvation",
+            "departed souls",
+            "the Spirit"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Augustine taught that the fall of the evil angels came from",
+          "options": [
+            "God's decree to make them evil",
+            "their own pride and turning from God",
+            "matter",
+            "Adam's sin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin warns about angels that we should avoid",
+          "options": [
+            "believing in them",
+            "empty speculation beyond Scripture",
+            "thanking God for them",
+            "reading about them"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are the theological implications of creation ex nihilo?",
+          "answer_key": "God alone is eternal and self-existent; creation depends wholly on him; matter is good, not evil; God is sovereign and free; the world is not divine; history has a beginning and purpose."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize the biblical doctrine of angels.",
+          "answer_key": "Angels are created, personal, spiritual beings who worship God and serve his purposes, including ministering to believers; some rebelled (Satan and demons) and are defeated by Christ; believers must not worship angels or speculate beyond Scripture."
+        }
+      ]
+    },
+    {
+      "id": "st1-12",
+      "title": "Providence, Evil and Suffering",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the doctrine of providence (preservation, concurrence, government)."
+        },
+        {
+          "id": "o2",
+          "text": "Compare responses to the problem of evil (free will defense, soul-making, greater good, the cross)."
+        },
+        {
+          "id": "o3",
+          "text": "Apply providence pastorally."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 50:20",
+        "Matthew 10:29-31",
+        "Romans 8:28",
+        "Job 1:6-22"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 10-15 and 95-101 (evil as privation; God's will and evil)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapters 16-18 (providence)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Questions 22 and 103 (providence and divine government)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Preservation",
+          "definition": "God's sustaining of creation in existence."
+        },
+        {
+          "term": "Concurrence",
+          "definition": "God's cooperation with created causes in all their actions."
+        },
+        {
+          "term": "Government",
+          "definition": "God's directing of all things to his ends."
+        },
+        {
+          "term": "Theodicy",
+          "definition": "A defense of God's goodness and power in the face of evil."
+        }
+      ],
+      "discussion_questions": [
+        "How can God ordain events involving evil without being the author of sin (Genesis 50:20; Acts 2:23)?",
+        "Compare Augustine's and Calvin's accounts of providence and evil.",
+        "How should a pastor speak about providence to someone suffering?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Matthew 10:29 says not one sparrow falls to the ground",
+          "options": [
+            "by accident",
+            "apart from your Father",
+            "without warning",
+            "except in winter"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine says God permits evil because",
+          "options": [
+            "he cannot stop it",
+            "he judged it better to bring good out of evil than to permit no evil",
+            "evil is good",
+            "he is unaware"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Job 1 Satan's attacks are",
+          "options": [
+            "unlimited",
+            "permitted but limited by God",
+            "caused by Job's sin",
+            "stopped immediately"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The doctrine that God cooperates with created causes is called",
+          "options": [
+            "preservation",
+            "concurrence",
+            "government",
+            "creation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin taught that providence brings believers",
+          "options": [
+            "anxiety",
+            "comfort and freedom from fear",
+            "fatalism",
+            "passivity"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the three aspects of providence.",
+          "answer_key": "Preservation - God upholds all things in being; concurrence - God works in and with created causes as they act according to their natures; government - God directs all things, including free acts and even evil, to his wise purposes."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize two Christian responses to the problem of evil.",
+          "answer_key": "Free will defense - moral evil results from the misuse of creaturely freedom, which is valuable; greater good/soul-making - God permits evil to bring about greater goods, including character and redemption; ultimately the cross shows God entering suffering to defeat evil, and the resurrection promises its end."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on the doctrine of providence and the problem of evil. Set out the biblical teaching, compare at least two theologians' accounts from the library (e.g. Augustine, Aquinas, Calvin, Arminius or Wesley; cite as Author, Title, section), evaluate one major objection, and show how the doctrine should shape pastoral care of the suffering."
+    }
+  ]
+}

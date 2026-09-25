@@ -1,0 +1,1672 @@
+{
+  "id": "systematic-3",
+  "title": "Systematic Theology III: The Holy Spirit, the Church and Last Things",
+  "tier": 4,
+  "tier_name": "Theology",
+  "description": "The final systematic theology course covers pneumatology (the person and work of the Holy Spirit), ecclesiology (the nature, marks, government, ministry and mission of the church), the sacraments (baptism and the Lord's Supper), and eschatology (death and the intermediate state, the return of Christ, the millennium, resurrection, judgment, heaven, hell and the new creation). Each disputed question is presented from the traditions' own sources and students weigh the arguments.",
+  "prerequisites": [
+    "systematic-2"
+  ],
+  "lessons": [
+    {
+      "id": "st3-01",
+      "title": "The Person of the Holy Spirit",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Demonstrate the personhood and deity of the Holy Spirit from Scripture."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Spirit's relation to the Father and the Son (procession)."
+        },
+        {
+          "id": "o3",
+          "text": "Summarize the Spirit's work in creation, revelation and redemption."
+        }
+      ],
+      "scripture_passages": [
+        "John 14:15-26",
+        "Acts 5:3-4",
+        "1 Corinthians 2:10-11",
+        "Genesis 1:2"
+      ],
+      "library_readings": [
+        {
+          "author": "Basil of Caesarea",
+          "title": "On the Holy Spirit",
+          "section": "Chapters 9, 16 and 19 (the Spirit's nature and works)"
+        },
+        {
+          "author": "Gregory of Nazianzus",
+          "title": "Theological Orations",
+          "section": "The Fifth Theological Oration (Oration 31)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Part I, Chapter 6, section on the Holy Spirit"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Paraclete",
+          "definition": "'Helper, advocate, comforter' (John 14:16)."
+        },
+        {
+          "term": "Pneumatology",
+          "definition": "The doctrine of the Holy Spirit."
+        },
+        {
+          "term": "Pneumatomachians",
+          "definition": "Those who denied the Spirit's full deity."
+        },
+        {
+          "term": "Another Helper",
+          "definition": "The Spirit as one like Jesus (allos parakletos)."
+        }
+      ],
+      "discussion_questions": [
+        "What in John 14-16 shows the Spirit is personal and not an impersonal force?",
+        "How does Gregory of Nazianzus describe the gradual revelation of the Trinity?",
+        "What works does Scripture attribute to the Spirit?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In John 14:16 Jesus promises 'another",
+          "options": [
+            "prophet'",
+            "Helper (Paraclete)'",
+            "king'",
+            "law'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Gregory of Nazianzus explained the Spirit's divinity was revealed gradually - the Old Testament proclaimed the Father, the New the Son, and now",
+          "options": [
+            "the church",
+            "the Spirit dwells among us and gives clearer demonstration of himself",
+            "the councils",
+            "philosophy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 2:10 says the Spirit searches",
+          "options": [
+            "only the law",
+            "everything, even the depths of God",
+            "the hearts of angels",
+            "the prophets"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Genesis 1:2 says the Spirit of God",
+          "options": [
+            "created evil",
+            "was hovering over the waters",
+            "left the earth",
+            "spoke first"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Spirit can be grieved (Eph 4:30), which shows he is",
+          "options": [
+            "a force",
+            "personal",
+            "angelic",
+            "created"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give three lines of evidence for the personhood of the Holy Spirit.",
+          "answer_key": "He speaks, teaches, testifies, intercedes, can be grieved and lied to, distributes gifts as he wills, and is referred to with personal terms (Paraclete); he is distinguished from Father and Son yet associated with them."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Give three lines of evidence for the deity of the Holy Spirit.",
+          "answer_key": "Called God (Acts 5:3-4); has divine attributes (omniscience 1 Cor 2:10; omnipresence Ps 139:7; eternity Heb 9:14); does divine works (creation, regeneration, resurrection, inspiration); named with Father and Son in baptism and blessing."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/spr"
+    },
+    {
+      "id": "st3-02",
+      "title": "The Work of the Spirit in Salvation and Sanctification",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the Spirit's role in regeneration, union with Christ, adoption, assurance and sanctification."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the witness of the Spirit (Wesley) and assurance in other traditions."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss the fruit of the Spirit."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 8:9-17",
+        "Titus 3:4-7",
+        "Galatians 5:16-26",
+        "Ephesians 1:13-14"
+      ],
+      "library_readings": [
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Witness of the Spirit, Discourse I' and 'Discourse II'"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 1"
+        },
+        {
+          "author": "Augustine",
+          "title": "On the Spirit and the Letter",
+          "section": "Chapters 26-28 (the love of God poured out by the Spirit)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Witness of the Spirit",
+          "definition": "The Spirit's testimony with our spirit that we are God's children (Rom 8:16)."
+        },
+        {
+          "term": "Seal of the Spirit",
+          "definition": "The Spirit as God's mark of ownership and guarantee (Eph 1:13-14)."
+        },
+        {
+          "term": "Indwelling",
+          "definition": "The Spirit dwelling in every believer (Rom 8:9)."
+        },
+        {
+          "term": "Fruit of the Spirit",
+          "definition": "The character the Spirit produces (Gal 5:22-23)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Wesley distinguish the direct witness of the Spirit from the indirect witness?",
+        "Why does Calvin begin Book III with the Spirit's secret energy uniting us to Christ?",
+        "Can a Christian lack the Spirit (Rom 8:9)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 8:9 says anyone who does not have the Spirit of Christ",
+          "options": [
+            "is immature",
+            "does not belong to him",
+            "needs baptism",
+            "is a Gentile"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Wesley defined the witness of the Spirit as an inward impression on the soul whereby the Spirit directly",
+          "options": [
+            "gives visions",
+            "witnesses to my spirit that I am a child of God",
+            "reveals the future",
+            "confirms the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Ephesians 1:14 calls the Spirit the",
+          "options": [
+            "replacement for Christ",
+            "guarantee (down payment) of our inheritance",
+            "law",
+            "judge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Calvin says the Holy Spirit is the bond by which Christ",
+          "options": [
+            "condemns us",
+            "effectually unites us to himself",
+            "rules the state",
+            "writes Scripture only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The fruit of the Spirit is contrasted in Galatians 5 with",
+          "options": [
+            "the law",
+            "the works of the flesh",
+            "the gifts of the Spirit",
+            "the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain Wesley's doctrine of the witness of the Spirit.",
+          "answer_key": "The Spirit directly testifies to believers' spirits that they are God's children (direct witness), and our own spirit testifies through the evident fruit of the Spirit and obedience (indirect witness); both together give assurance, guarding against enthusiasm and formalism."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does it mean that the Spirit unites us to Christ?",
+          "answer_key": "By the Spirit, through faith, believers are joined to Christ so that all his benefits - justification, adoption, sanctification, resurrection - become theirs; without the Spirit Christ remains outside us (Calvin)."
+        }
+      ]
+    },
+    {
+      "id": "st3-03",
+      "title": "Spirit Baptism and Spiritual Gifts",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare views of baptism in the Spirit (Pentecostal subsequence, Reformed/evangelical conversion, sacramental)."
+        },
+        {
+          "id": "o2",
+          "text": "Compare continuationist and cessationist positions on the gifts."
+        },
+        {
+          "id": "o3",
+          "text": "Develop criteria for discerning the gifts' use in the church."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 2:1-4",
+        "Acts 19:1-7",
+        "1 Corinthians 12:4-13",
+        "1 Corinthians 13:8-12"
+      ],
+      "library_readings": [
+        {
+          "author": "John Chrysostom",
+          "title": "Homilies on First Corinthians",
+          "section": "Homilies 29 and 32"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XXII, chapter 8 (miracles still occurring)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book II, chapter 32, section 4 and Book V, chapter 6"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Baptism in the Spirit",
+          "definition": "Debated as conversion-initiation (1 Cor 12:13) or a subsequent empowering (Pentecostal)."
+        },
+        {
+          "term": "Initial evidence",
+          "definition": "Classical Pentecostal teaching that tongues accompany Spirit baptism."
+        },
+        {
+          "term": "Cessationism",
+          "definition": "Miraculous gifts ceased with the apostles."
+        },
+        {
+          "term": "Continuationism",
+          "definition": "All gifts continue until Christ returns."
+        }
+      ],
+      "discussion_questions": [
+        "Does 1 Corinthians 12:13 settle the question of Spirit baptism?",
+        "What does 'when the perfect comes' (1 Cor 13:10) refer to?",
+        "How do Augustine's early and later writings differ on miracles?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 12:13 says in one Spirit we were all baptized into",
+          "options": [
+            "tongues",
+            "one body",
+            "the law",
+            "Israel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Classical Pentecostalism teaches that the initial evidence of Spirit baptism is",
+          "options": [
+            "prophecy",
+            "speaking in tongues",
+            "healing",
+            "joy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Acts 19, the Ephesian disciples had received only",
+          "options": [
+            "Christian baptism",
+            "John's baptism",
+            "circumcision",
+            "no baptism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 13:8 says prophecies and tongues will",
+          "options": [
+            "never end",
+            "pass away/cease",
+            "increase",
+            "become the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine's City of God XXII.8 records",
+          "options": [
+            "no miracles after the apostles",
+            "numerous contemporary miracles and healings",
+            "a denial of healing",
+            "only miracles in Jerusalem"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Present the Pentecostal and Reformed/evangelical views of Spirit baptism.",
+          "answer_key": "Pentecostal - a distinct experience after conversion that empowers for witness, evidenced by tongues (Acts 2, 8, 10, 19 as patterns); Reformed/evangelical - Spirit baptism occurs at conversion for all believers (1 Cor 12:13), with subsequent fillings; Acts' separated experiences are transitional."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What are good criteria for discerning spiritual gifts?",
+          "answer_key": "Consistency with Scripture and the confession of Jesus as Lord (1 Cor 12:3; 1 John 4:1-3), love (1 Cor 13), edification of the church (14:12, 26), order (14:40), testing prophecy (1 Thess 5:20-21), and good fruit."
+        }
+      ]
+    },
+    {
+      "id": "st3-04",
+      "title": "The Nature and Marks of the Church",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain biblical images of the church (people of God, body of Christ, temple of the Spirit, bride)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the four Nicene marks (one, holy, catholic, apostolic) and the Reformation marks (Word, sacraments, discipline)."
+        },
+        {
+          "id": "o3",
+          "text": "Distinguish the visible and invisible church."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 16:13-20",
+        "Ephesians 2:19-22",
+        "Ephesians 4:1-16",
+        "1 Peter 2:9-10"
+      ],
+      "library_readings": [
+        {
+          "author": "Cyprian",
+          "title": "On the Unity of the Church",
+          "section": "Chapters 4-7 and 23"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapter 9 (the church as the kingdom of Christ now)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 1, sections 1-12 (the true church and its marks)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ekklesia",
+          "definition": "'Assembly' - the gathered people of God."
+        },
+        {
+          "term": "Marks of the church",
+          "definition": "One, holy, catholic, apostolic (Nicene); Word and sacraments rightly administered (Reformation)."
+        },
+        {
+          "term": "Visible/invisible church",
+          "definition": "The church as a visible community and as the elect known to God."
+        },
+        {
+          "term": "Extra ecclesiam nulla salus",
+          "definition": "'No salvation outside the church' (Cyprian), understood differently in traditions."
+        }
+      ],
+      "discussion_questions": [
+        "What did Cyprian mean by 'he cannot have God for his Father who does not have the church for his mother'?",
+        "How do the Reformation marks relate to the Nicene marks?",
+        "What does the visible/invisible distinction help and what does it risk?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The four marks of the church in the Nicene Creed are",
+          "options": [
+            "true, pure, visible, universal",
+            "one, holy, catholic and apostolic",
+            "faith, hope, love, service",
+            "Word, sacraments, discipline, mission"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Cyprian famously wrote that one cannot have God as Father who does not have",
+          "options": [
+            "the Bible",
+            "the church as mother",
+            "the pope",
+            "baptism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Calvin's marks of the church are the pure preaching of the Word and",
+          "options": [
+            "apostolic succession",
+            "the right administration of the sacraments",
+            "miracles",
+            "the papacy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Ephesians 2:20 says the church is built on the foundation of",
+          "options": [
+            "Peter alone",
+            "the apostles and prophets, Christ Jesus being the cornerstone",
+            "the law",
+            "the bishops"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "'Catholic' in the creeds means",
+          "options": [
+            "Roman",
+            "universal",
+            "ancient",
+            "holy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the four Nicene marks of the church.",
+          "answer_key": "One - united in Christ, one faith, one baptism; holy - set apart by God and called to holiness; catholic - universal, embracing all nations and the whole faith; apostolic - founded on and faithful to the apostles' teaching (and, in some traditions, succession)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the distinction between the visible and invisible church?",
+          "answer_key": "The visible church is the professing community on earth, including some who are not truly regenerate; the invisible church is the whole number of the elect known to God across all ages; the distinction (Augustine, Reformers) warns against both despising the visible church and equating membership with salvation."
+        }
+      ]
+    },
+    {
+      "id": "st3-05",
+      "title": "Church Government and Ministry",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare episcopal, presbyterian and congregational polities from their own sources."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the offices of the church (bishop/elder, deacon) and ordination."
+        },
+        {
+          "id": "o3",
+          "text": "Present the debate over women in ministry fairly."
+        }
+      ],
+      "scripture_passages": [
+        "Acts 14:23",
+        "Acts 15:1-29",
+        "1 Timothy 3:1-13",
+        "Titus 1:5-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Ignatius of Antioch",
+          "title": "Epistles",
+          "section": "Epistle to the Magnesians, chapters 6-7, and to the Smyrnaeans, chapter 8 (the bishop)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapters 3-4 (ministers; the early church's government)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, the Westminster Confession (on church government) and Baptist confessions (congregational polity)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Episcopacy",
+          "definition": "Government by bishops in apostolic succession."
+        },
+        {
+          "term": "Presbyterianism",
+          "definition": "Government by elders (sessions, presbyteries, assemblies)."
+        },
+        {
+          "term": "Congregationalism",
+          "definition": "Autonomous local congregations governed by members."
+        },
+        {
+          "term": "Ordination",
+          "definition": "Setting apart for ministry, often with laying on of hands."
+        }
+      ],
+      "discussion_questions": [
+        "What does Ignatius teach about the bishop, and how early is monepiscopacy?",
+        "Does Acts 15 support presbyterian or episcopal government?",
+        "Present complementarian and egalitarian arguments on women's ordination fairly."
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Ignatius urged Christians to do nothing without",
+          "options": [
+            "the emperor",
+            "the bishop",
+            "the synagogue",
+            "a council"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Acts 14:23 Paul and Barnabas appointed",
+          "options": [
+            "bishops only",
+            "elders in every church",
+            "apostles",
+            "prophets"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Presbyterian polity governs through",
+          "options": [
+            "one bishop",
+            "elders in sessions, presbyteries and assemblies",
+            "the congregation alone",
+            "the state"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Calvin identified the regular church offices as pastors, teachers (doctors), elders and",
+          "options": [
+            "popes",
+            "deacons",
+            "prophets",
+            "apostles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Congregational polity holds that final authority under Christ rests with",
+          "options": [
+            "bishops",
+            "the local congregation",
+            "a national assembly",
+            "the pastor alone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the case for each of the three major forms of church government.",
+          "answer_key": "Episcopal - early testimony (Ignatius), apostolic delegates like Timothy and Titus, continuity and unity; Presbyterian - elders and overseers identical in the NT, plurality of elders, councils like Acts 15; Congregational - the whole church acts in discipline and choosing leaders (Matt 18:17; Acts 6; 1 Cor 5), Christ's direct rule of each congregation."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "State the strongest complementarian and egalitarian arguments on women in pastoral office.",
+          "answer_key": "Complementarian - 1 Timothy 2:12-14 and 1 Corinthians 14:34 restrict authoritative teaching/eldership to qualified men, grounded in creation order; male apostles and elders. Egalitarian - Galatians 3:28, women prophets, deacons (Phoebe) and co-workers (Junia, Priscilla), the Spirit poured on sons and daughters, and restrictive texts addressing local problems."
+        }
+      ]
+    },
+    {
+      "id": "st3-06",
+      "title": "The Sacraments - Nature and Number",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Define sacrament and ordinance in different traditions."
+        },
+        {
+          "id": "o2",
+          "text": "Explain ex opere operato and Protestant responses."
+        },
+        {
+          "id": "o3",
+          "text": "Compare the Catholic seven sacraments with the Protestant two."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 28:19-20",
+        "1 Corinthians 11:23-26",
+        "Romans 4:11",
+        "Ephesians 5:25-32"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book III, chapter 9 (signs instituted by Christ)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part III, Questions 60-62 and 65 (the sacraments)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapters 14 and 19 (the sacraments; the five falsely termed sacraments)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Sacrament",
+          "definition": "A visible sign of invisible grace (Augustine)."
+        },
+        {
+          "term": "Ordinance",
+          "definition": "A rite commanded by Christ, observed in obedience (Baptist and memorialist traditions)."
+        },
+        {
+          "term": "Ex opere operato",
+          "definition": "'By the work worked' - sacraments confer grace by their valid performance (Catholic)."
+        },
+        {
+          "term": "Seal",
+          "definition": "Sacraments as confirming God's promises (Rom 4:11; Reformed)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Augustine define a sacrament, and how do later traditions use his definition?",
+        "Why do Protestants recognize only two sacraments?",
+        "What does ex opere operato mean and not mean?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine's classic definition of a sacrament is",
+          "options": [
+            "a church law",
+            "a visible sign of invisible grace",
+            "a moral example",
+            "a secret rite"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Catholic Church recognizes",
+          "options": [
+            "two sacraments",
+            "seven sacraments",
+            "twelve sacraments",
+            "no sacraments"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Romans 4:11 calls circumcision a sign and",
+          "options": [
+            "a work",
+            "a seal of the righteousness of faith",
+            "an ordinance only",
+            "a law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "'Ex opere operato' means",
+          "options": [
+            "by the faith of the minister",
+            "by the work performed",
+            "by the recipient's merit",
+            "by the bishop's choice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin's criterion for a true sacrament includes that it was",
+          "options": [
+            "practiced by the early church",
+            "instituted by Christ with a promise",
+            "approved by a council",
+            "ancient"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why do Protestants typically hold to two sacraments?",
+          "answer_key": "Only baptism and the Lord's Supper were clearly instituted by Christ as signs and seals of the gospel promise for the whole church; the other five (confirmation, penance, marriage, orders, anointing) are valued practices but lack that dominical institution and promise."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Explain the difference between 'sacrament' and 'ordinance' views.",
+          "answer_key": "Sacramental views (Catholic, Orthodox, Lutheran, Reformed in different ways) see the rites as means through which God gives or seals grace; ordinance views (Baptist, memorialist) see them primarily as obedient acts of believers proclaiming and remembering Christ."
+        }
+      ]
+    },
+    {
+      "id": "st3-07",
+      "title": "Baptism",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Present the strongest case for paedobaptism (Catholic, Lutheran, Reformed variants)."
+        },
+        {
+          "id": "o2",
+          "text": "Present the strongest case for credobaptism (Anabaptist, Baptist)."
+        },
+        {
+          "id": "o3",
+          "text": "Compare views of baptism's efficacy and mode."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 28:19",
+        "Acts 2:38-39",
+        "Romans 6:3-4",
+        "Colossians 2:11-12"
+      ],
+      "library_readings": [
+        {
+          "author": "Tertullian",
+          "title": "On Baptism",
+          "section": "Chapters 1-8 and 18 (including his counsel to delay baptism)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapters 15-16 (baptism; paedobaptism)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "History of the Christian Church",
+          "section": "Volume 8 (the Anabaptists and believer's baptism)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Paedobaptism",
+          "definition": "Baptizing infants of believers."
+        },
+        {
+          "term": "Credobaptism",
+          "definition": "Baptizing only those who profess faith."
+        },
+        {
+          "term": "Baptismal regeneration",
+          "definition": "Baptism as the means of new birth (Catholic, Lutheran, Orthodox)."
+        },
+        {
+          "term": "Covenant sign",
+          "definition": "Reformed view of baptism as the sign of the covenant replacing circumcision."
+        }
+      ],
+      "discussion_questions": [
+        "How does Calvin argue from circumcision to infant baptism?",
+        "What does Tertullian's advice to delay baptism tell us about early practice?",
+        "Why did the Anabaptists see believer's baptism as essential to a true church?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Tertullian counseled that baptism of little children be",
+          "options": [
+            "required immediately",
+            "delayed",
+            "forbidden forever",
+            "done twice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Calvin's central argument for infant baptism is from",
+          "options": [
+            "Mark 16:16",
+            "the continuity of the covenant and circumcision",
+            "tradition alone",
+            "Acts 8:37"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Acts 2:39 says the promise is for you and",
+          "options": [
+            "angels",
+            "your children and all who are far off",
+            "the priests",
+            "the Romans"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Anabaptists taught that baptism should follow",
+          "options": [
+            "birth",
+            "a personal confession of faith",
+            "confirmation",
+            "ordination"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Colossians 2:11-12 connects baptism with",
+          "options": [
+            "the Passover",
+            "a circumcision made without hands",
+            "the flood only",
+            "the temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "State the strongest case for infant baptism.",
+          "answer_key": "Continuity of the covenant of grace from Abraham (children received the sign, circumcision) to the new covenant (Col 2:11-12); the promise to believers and their children (Acts 2:39); household baptisms; Jesus welcoming children; early church practice; baptism as God's act and promise, not primarily ours."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "State the strongest case for believer's baptism.",
+          "answer_key": "NT baptism follows repentance and faith (Acts 2:38, 41; 8:12); it signifies personal union with Christ (Rom 6); the new covenant community consists of those who know the Lord (Jer 31:34); no explicit infant baptism in the NT; household texts do not specify infants; the church as a regenerate, gathered people."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on baptism. Present the strongest case for paedobaptism and credobaptism, each from its own sources (e.g. Calvin, Luther's catechisms, Aquinas, Tertullian, Schaff's account of the Anabaptists, Baptist confessions in Schaff's Creeds; cite as Author, Title, section), exegete at least two key texts, and explain which view you hold and how you would maintain fellowship with those who differ."
+    },
+    {
+      "id": "st3-08",
+      "title": "The Lord's Supper",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Present the Catholic, Lutheran, Reformed and memorial views from their own sources."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Marburg Colloquy and its significance."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss the frequency and practice of communion."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 26:26-29",
+        "John 6:48-58",
+        "1 Corinthians 10:16-17",
+        "1 Corinthians 11:23-32"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part III, Questions 73-76 (the Eucharist; transubstantiation)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Sacrament of the Altar"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 17 (the Lord's Supper)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Transubstantiation",
+          "definition": "The substance of bread and wine becomes Christ's body and blood (Catholic)."
+        },
+        {
+          "term": "Sacramental union",
+          "definition": "Christ's body and blood are truly present 'in, with and under' the bread and wine (Lutheran)."
+        },
+        {
+          "term": "Spiritual real presence",
+          "definition": "Believers truly feed on Christ by the Spirit through faith (Reformed)."
+        },
+        {
+          "term": "Memorialism",
+          "definition": "The Supper is chiefly a remembrance and proclamation (Zwinglian/Baptist)."
+        }
+      ],
+      "discussion_questions": [
+        "How do the traditions interpret 'This is my body'?",
+        "What happened at Marburg (1529) between Luther and Zwingli?",
+        "How does 1 Corinthians 10:16-17 bear on the debate?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Aquinas taught that in the Eucharist the substance of bread becomes Christ's body while",
+          "options": [
+            "the accidents also change",
+            "the accidents (appearances) of bread remain",
+            "nothing changes",
+            "only faith changes"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Luther taught that Christ's body and blood are present",
+          "options": [
+            "only spiritually",
+            "in, with and under the bread and wine",
+            "only symbolically",
+            "only for the worthy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Calvin taught that believers feed on Christ's body by",
+          "options": [
+            "transubstantiation",
+            "the secret power of the Holy Spirit lifting us to Christ",
+            "memory only",
+            "ubiquity"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The Marburg Colloquy (1529) brought together Luther and",
+          "options": [
+            "Calvin",
+            "Zwingli",
+            "Erasmus",
+            "Eck"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 10:16 calls the cup of blessing a",
+          "options": [
+            "reminder only",
+            "participation (koinonia) in the blood of Christ",
+            "sacrifice to God",
+            "Passover cup only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the four main views of the Lord's Supper.",
+          "answer_key": "Catholic - transubstantiation, the Mass as a sacrifice re-presenting Calvary; Lutheran - real bodily presence in, with and under the elements for all who receive; Reformed - real spiritual presence, believers feeding on Christ by the Spirit through faith; Memorial - a symbolic remembrance and proclamation of Christ's death strengthening faith and fellowship."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What was the significance of the Marburg Colloquy?",
+          "answer_key": "Luther and Zwingli agreed on fourteen of fifteen articles but could not agree on Christ's presence in the Supper ('This is my body'), which divided Lutheran and Reformed Protestantism."
+        }
+      ]
+    },
+    {
+      "id": "st3-09",
+      "title": "Death and the Intermediate State",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the biblical teaching on death and the intermediate state."
+        },
+        {
+          "id": "o2",
+          "text": "Compare views (conscious presence with Christ, soul sleep, purgatory)."
+        },
+        {
+          "id": "o3",
+          "text": "Provide pastoral care at death."
+        }
+      ],
+      "scripture_passages": [
+        "Luke 23:39-43",
+        "2 Corinthians 5:1-10",
+        "Philippians 1:21-24",
+        "Revelation 6:9-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 109-110 (the state of souls between death and resurrection)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 2, Council of Trent, Twenty-fifth Session (decree on purgatory)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 5, sections 6-10 (against purgatory) and Chapter 25, section 6 (the state of souls)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Intermediate state",
+          "definition": "The condition of persons between death and resurrection."
+        },
+        {
+          "term": "Soul sleep",
+          "definition": "The view that souls are unconscious until the resurrection."
+        },
+        {
+          "term": "Purgatory",
+          "definition": "Catholic doctrine of purification after death for those who die in grace."
+        },
+        {
+          "term": "Paradise",
+          "definition": "The blessed state with Christ (Luke 23:43)."
+        }
+      ],
+      "discussion_questions": [
+        "What do Luke 23:43 and Philippians 1:23 suggest about the intermediate state?",
+        "Present the Catholic case for purgatory and the Protestant objections.",
+        "How should a pastor comfort the dying and bereaved?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jesus told the thief, 'Today you will be with me",
+          "options": [
+            "in the grave'",
+            "in paradise'",
+            "in purgatory'",
+            "at the resurrection'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Paul in Philippians 1:23 desires to depart and be",
+          "options": [
+            "asleep",
+            "with Christ, which is far better",
+            "reincarnated",
+            "in Hades"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Trent's decree on purgatory affirmed that souls there are helped by",
+          "options": [
+            "nothing",
+            "the prayers of the faithful and the sacrifice of the altar",
+            "their own works only",
+            "angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "2 Corinthians 5:8 says to be away from the body is to be",
+          "options": [
+            "unconscious",
+            "at home with the Lord",
+            "judged",
+            "lost"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin opposed purgatory because he believed it",
+          "options": [
+            "was too lenient",
+            "detracted from the sufficiency of Christ's satisfaction",
+            "was a Lutheran invention",
+            "was in the Bible"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the traditional Protestant view of the intermediate state.",
+          "answer_key": "At death believers' souls are made perfect in holiness and immediately enter conscious fellowship with Christ (paradise), awaiting the resurrection of the body; unbelievers await judgment in torment; there is no purgatory."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Present the Catholic case for purgatory.",
+          "answer_key": "Nothing unclean enters heaven (Rev 21:27); many die in grace yet imperfectly purified; texts like 1 Corinthians 3:15 and 2 Maccabees 12:44-46 (prayers for the dead), Matthew 12:32 and early Christian practice of praying for the dead support a final purification after death."
+        }
+      ]
+    },
+    {
+      "id": "st3-10",
+      "title": "The Return of Christ and the Millennium",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the certainty and manner of Christ's return."
+        },
+        {
+          "id": "o2",
+          "text": "Compare amillennial, postmillennial, historic premillennial and dispensational views from their sources."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate views on the rapture and tribulation."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 24:29-44",
+        "Acts 1:11",
+        "1 Thessalonians 4:13-18",
+        "Revelation 20:1-10"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapters 6-9"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book V, chapters 32-36"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 3, Part IV, Chapter 3 (the second advent)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Parousia",
+          "definition": "The personal, visible return of Christ."
+        },
+        {
+          "term": "Rapture",
+          "definition": "Believers caught up to meet the Lord (1 Thess 4:17); its timing is debated."
+        },
+        {
+          "term": "Tribulation",
+          "definition": "A period of distress before the end (pre-, mid-, post-tribulation views)."
+        },
+        {
+          "term": "Dispensationalism",
+          "definition": "A system distinguishing Israel and the church, typically with a pretribulation rapture."
+        }
+      ],
+      "discussion_questions": [
+        "Compare Irenaeus's and Augustine's readings of Revelation 20.",
+        "What is the strongest case for postmillennialism (e.g. Hodge's optimism about the gospel)?",
+        "What does 1 Thessalonians 4 teach, and what does it not settle?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Acts 1:11 says Jesus will come back",
+          "options": [
+            "secretly",
+            "in the same way as you saw him go into heaven",
+            "only spiritually",
+            "never"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Irenaeus held that after the Antichrist the righteous would reign",
+          "options": [
+            "in heaven only",
+            "in a restored earthly kingdom before the final judgment",
+            "never",
+            "in the church age now"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Hodge held a broadly",
+          "options": [
+            "dispensational view",
+            "postmillennial view",
+            "preterist view",
+            "premillennial view"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Thessalonians 4:17 says believers will be caught up to meet the Lord",
+          "options": [
+            "in Jerusalem",
+            "in the air",
+            "in the temple",
+            "in paradise only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The view that the church will be raptured before a seven-year tribulation is",
+          "options": [
+            "amillennialism",
+            "pretribulational dispensationalism",
+            "postmillennialism",
+            "preterism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "State the strongest case for amillennialism and for premillennialism.",
+          "answer_key": "Amillennial - Revelation is symbolic and recapitulates; Christ binds Satan now (Matt 12:29); NT links one return with general resurrection and judgment (John 5:28-29); Augustine's tradition. Premillennial - the natural sequence of Revelation 19-20; 'first resurrection' as bodily; OT promises of an earthly kingdom; the testimony of early fathers (Justin, Irenaeus)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What do all orthodox Christians affirm about Christ's return regardless of millennial view?",
+          "answer_key": "Christ will return personally, visibly and gloriously; the dead will be raised; he will judge the living and the dead; his kingdom will have no end - as confessed in the Apostles' and Nicene Creeds."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/rev"
+    },
+    {
+      "id": "st3-11",
+      "title": "Resurrection, Judgment, Heaven and Hell",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the doctrines of bodily resurrection and final judgment."
+        },
+        {
+          "id": "o2",
+          "text": "Compare views of hell (eternal conscious punishment, conditional immortality, universalism) and their standing in the tradition."
+        },
+        {
+          "id": "o3",
+          "text": "Describe the new heavens and new earth."
+        }
+      ],
+      "scripture_passages": [
+        "John 5:25-29",
+        "1 Corinthians 15:42-57",
+        "Matthew 25:31-46",
+        "Revelation 21:1-5"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XXI, chapters 1-10 and 23 (eternal punishment) and Book XXII, chapters 29-30 (the vision of God)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Supplement to the Third Part, Questions 75-86 (the resurrection)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 3, Part IV, Chapter 4 (the resurrection, general judgment, end of the world, heaven and hell)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "General resurrection",
+          "definition": "The raising of all the dead at the end (John 5:28-29)."
+        },
+        {
+          "term": "Eternal conscious punishment",
+          "definition": "The traditional view of hell."
+        },
+        {
+          "term": "Conditional immortality (annihilationism)",
+          "definition": "The view that the wicked finally cease to exist (a minority view)."
+        },
+        {
+          "term": "Beatific vision",
+          "definition": "Seeing God face to face in glory."
+        }
+      ],
+      "discussion_questions": [
+        "How does Augustine defend the eternity of punishment?",
+        "What are the strongest arguments for and against conditional immortality?",
+        "Why is the Christian hope a renewed creation rather than an escape from the body?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "John 5:29 says those who have done good will come out to the resurrection of life and those who have done evil to",
+          "options": [
+            "annihilation",
+            "the resurrection of judgment",
+            "a second chance",
+            "reincarnation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 Corinthians 15:44 says the body is sown a natural body and raised a",
+          "options": [
+            "spirit",
+            "spiritual body",
+            "ghost",
+            "new soul"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Matthew 25:46 the unrighteous go away into eternal punishment and the righteous into",
+          "options": [
+            "purgatory",
+            "eternal life",
+            "the millennium",
+            "Sheol"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Universalism (the salvation of all) has historically been",
+          "options": [
+            "the church's majority view",
+            "rejected by the church's mainstream (e.g. condemnations associated with Origenism)",
+            "taught by Augustine",
+            "affirmed at Nicaea"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The 'beatific vision' is",
+          "options": [
+            "a dream",
+            "the blessed sight of God in glory",
+            "a prophecy",
+            "a church painting"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Present the main arguments in the debate over the nature of hell.",
+          "answer_key": "Traditional view - Scripture's parallel of eternal punishment and eternal life (Matt 25:46), Revelation 14:11; 20:10, and the consensus of the church. Conditional immortality - immortality is God's gift, 'destruction/perish' language, fire consuming; critics answer that destruction language describes ruin, not non-existence. Universalism is rejected by mainstream traditions."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Describe the Christian hope of the new creation.",
+          "answer_key": "God will raise the dead bodily, judge justly, and renew heaven and earth; God will dwell with his people, wipe away tears, end death and curse; the redeemed will see God, worship and reign with Christ forever in a physical, glorified creation."
+        }
+      ]
+    },
+    {
+      "id": "st3-12",
+      "title": "The Mission of the Church and Theological Synthesis",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the church's mission (worship, word, sacrament, discipleship, service, witness)."
+        },
+        {
+          "id": "o2",
+          "text": "Relate eschatology to mission and ethics."
+        },
+        {
+          "id": "o3",
+          "text": "Write an integrative theological synthesis across the three systematics courses."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 28:18-20",
+        "Acts 1:8",
+        "2 Corinthians 5:17-21",
+        "Revelation 7:9-12"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book IV, Chapter 1, sections 1-4 (the church as mother of believers)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIX, chapter 17 (the heavenly city's pilgrimage on earth)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The General Spread of the Gospel'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Missio Dei",
+          "definition": "The mission of God in which the church participates."
+        },
+        {
+          "term": "Great Commission",
+          "definition": "Jesus' command to make disciples of all nations."
+        },
+        {
+          "term": "Inaugurated eschatology",
+          "definition": "The kingdom already present though not yet consummated."
+        },
+        {
+          "term": "Pilgrim church",
+          "definition": "The church on its way to the heavenly city (Augustine)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Augustine describe the heavenly city's use of earthly peace?",
+        "How does Wesley's 'General Spread of the Gospel' express eschatological hope?",
+        "How do the doctrines of this course cohere into one vision?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Matthew 28:19 commands disciples to make disciples of",
+          "options": [
+            "Israel",
+            "all nations",
+            "the Romans",
+            "their families"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine says the heavenly city on its pilgrimage makes use of",
+          "options": [
+            "nothing earthly",
+            "the earthly peace, and seeks agreement in things that pertain to mortal life",
+            "military power",
+            "wealth only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Revelation 7:9 pictures worshippers from",
+          "options": [
+            "the twelve tribes",
+            "every nation, tribe, people and language",
+            "Rome",
+            "the apostles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'The General Spread of the Gospel' expresses confidence that",
+          "options": [
+            "the church will fail",
+            "the knowledge of the Lord will cover the earth",
+            "Christ returns tomorrow",
+            "missions are unnecessary"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "'Missio Dei' means",
+          "options": [
+            "the pope's mission",
+            "the mission of God",
+            "a missionary society",
+            "the mass"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Describe the mission of the church.",
+          "answer_key": "To worship God, proclaim the gospel and make disciples of all nations, baptizing and teaching, administering the sacraments, building up believers in love, serving the needy and seeking justice, displaying God's reconciling power - all in hope of Christ's return."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does eschatology shape Christian mission and ethics?",
+          "answer_key": "Hope in Christ's return and the new creation motivates urgent evangelism, patient endurance, holiness, care for creation and justice as signs of the coming kingdom, while guarding against utopianism and despair."
+        }
+      ],
+      "paper_prompt": "Write a 2,000-2,500 word theological synthesis showing how the doctrines studied in Systematic Theology I-III fit together around a unifying theme of your choice (for example the Trinity, covenant, union with Christ, the kingdom of God, or the glory of God). Address Scripture, God, humanity and sin, Christ, salvation, the Spirit, the church and last things; note at least two disputed questions and present the major views fairly; and cite at least four library sources from different traditions (Author, Title, section)."
+    }
+  ]
+}

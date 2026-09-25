@@ -1,0 +1,1677 @@
+{
+  "id": "pentateuch",
+  "title": "The Pentateuch",
+  "tier": 3,
+  "tier_name": "Biblical Studies",
+  "description": "An in-depth study of Genesis through Deuteronomy - the Torah, foundation of the whole Bible. Students examine authorship and composition, the literary structure and theology of each book, creation and fall, the patriarchal covenants, the exodus and Sinai, the tabernacle and sacrificial system, holiness and law, the wilderness, and Deuteronomy's covenant renewal, with attention to how the New Testament reads the Torah in Christ.",
+  "prerequisites": [
+    "ot-survey",
+    "hermeneutics"
+  ],
+  "lessons": [
+    {
+      "id": "pen-01",
+      "title": "Introduction to the Pentateuch - Authorship, Unity and Purpose",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the traditional view of Mosaic authorship and the evidence cited for it."
+        },
+        {
+          "id": "o2",
+          "text": "Summarize the Documentary Hypothesis and major critiques of it."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the unity and overarching purpose of the Pentateuch."
+        }
+      ],
+      "scripture_passages": [
+        "Deuteronomy 31:9-13",
+        "Exodus 24:3-8",
+        "John 5:45-47",
+        "Luke 24:27"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, Westminster Confession of Faith, chapter 1 (the books of the Old Testament)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapters 36-39 (the antiquity of the Hebrew Scriptures)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 1, Introduction, Chapter 6 (the inspiration of the Scriptures)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Torah",
+          "definition": "'Instruction' or 'law'; the five books of Moses."
+        },
+        {
+          "term": "Pentateuch",
+          "definition": "Greek for 'five scrolls'."
+        },
+        {
+          "term": "Documentary Hypothesis",
+          "definition": "The theory (Wellhausen) that the Pentateuch combines sources J, E, D and P."
+        },
+        {
+          "term": "Mosaic authorship",
+          "definition": "The traditional view that Moses is the author (with later editorial updating)."
+        }
+      ],
+      "discussion_questions": [
+        "What internal evidence connects Moses with writing (Exod 24:4; Deut 31:9)?",
+        "How does Jesus refer to Moses' writings (John 5:46-47)?",
+        "What are the strengths and weaknesses of source-critical theories?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "'Pentateuch' means",
+          "options": [
+            "five laws",
+            "five scrolls/books",
+            "the covenant book",
+            "the words of Moses"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Documentary Hypothesis is associated especially with",
+          "options": [
+            "Augustine",
+            "Julius Wellhausen",
+            "Calvin",
+            "Hodge"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In John 5:46 Jesus says, 'If you believed Moses, you would believe me, because",
+          "options": [
+            "he was a prophet'",
+            "he wrote about me'",
+            "he gave the law'",
+            "he led Israel'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The letters J, E, D, P stand for proposed",
+          "options": [
+            "kings of Israel",
+            "sources of the Pentateuch",
+            "books of the law",
+            "Masoretic scribes"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Deuteronomy 31:9 says Moses wrote this law and gave it to",
+          "options": [
+            "Joshua only",
+            "the priests and elders",
+            "the kings",
+            "Egypt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the Documentary Hypothesis and one major critique.",
+          "answer_key": "It proposes that four sources (J - Yahwist, E - Elohist, D - Deuteronomist, P - Priestly) from different periods were combined into the Pentateuch. Critiques include the subjectivity of source criteria, evidence of literary unity and design, ancient Near Eastern parallels, and the testimony of Scripture and Jesus to Mosaic authorship."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the overall purpose of the Pentateuch?",
+          "answer_key": "To tell the story of God's creation and covenant purposes - from creation through the patriarchs, exodus and Sinai to the plains of Moab - establishing Israel's identity as God's redeemed people, giving the law, and pointing to the promise to bless all nations."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/PEN"
+    },
+    {
+      "id": "pen-02",
+      "title": "Genesis 1-2 - Creation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret Genesis 1-2 in its ancient Near Eastern context."
+        },
+        {
+          "id": "o2",
+          "text": "Compare major views of the creation days (literal day, day-age, framework, analogical, temple inauguration)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the theology of creation (God, humanity, Sabbath, marriage, work)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:1-2:3",
+        "Genesis 2:4-25",
+        "Psalm 104:1-9",
+        "John 1:1-3"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XI, chapters 4-9 and 30-31 (creation and the days)"
+        },
+        {
+          "author": "Basil of Caesarea",
+          "title": "On the Holy Spirit",
+          "section": "Chapter 16 (the Spirit's role in creation)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 14, sections 1-2 and 20-22 (creation)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ex nihilo",
+          "definition": "Creation out of nothing."
+        },
+        {
+          "term": "Framework view",
+          "definition": "Reading the six days as a literary framework (days 1-3 forming, 4-6 filling)."
+        },
+        {
+          "term": "Day-age view",
+          "definition": "Reading the 'days' as long periods."
+        },
+        {
+          "term": "Sabbath",
+          "definition": "The seventh day of rest, sanctified by God."
+        }
+      ],
+      "discussion_questions": [
+        "How did Augustine interpret the days of creation? Why?",
+        "What does Genesis 1 teach against ancient polytheism?",
+        "How does Genesis 2 ground marriage and work?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Augustine taught that the days of Genesis 1 were",
+          "options": [
+            "ordinary 24-hour days only",
+            "not ordinary solar days, since creation may have been instantaneous",
+            "millions of years",
+            "meaningless"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The framework view sees days 1-3 and 4-6 as",
+          "options": [
+            "unrelated",
+            "forming and filling corresponding realms",
+            "chronological only",
+            "prophetic ages"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Genesis 2:7 God forms man from",
+          "options": [
+            "a rib",
+            "the dust of the ground and breathes into him the breath of life",
+            "the waters",
+            "light"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The seventh day is",
+          "options": [
+            "a day of judgment",
+            "blessed and sanctified by God as a day of rest",
+            "the day man was created",
+            "the day of the flood"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "John 1:3 says of the Word that",
+          "options": [
+            "he was created on day one",
+            "all things were made through him",
+            "he rested on the seventh day",
+            "he formed Adam"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name and describe two views of the creation days.",
+          "answer_key": "E.g. literal 24-hour days (young earth); day-age (long periods); framework (literary structure, days 1-3 realms, 4-6 rulers); analogical (God's work-days analogous to ours); temple inauguration (cosmos as God's temple). All affirm God as Creator."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Genesis 1-2 teach about humanity?",
+          "answer_key": "Humans are created by God in his image, male and female, with dignity and a vocation to rule and cultivate the earth as his representatives, in relationship with God, one another (marriage) and creation, under God's word."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/PRH"
+    },
+    {
+      "id": "pen-03",
+      "title": "Genesis 3-11 - Fall, Flood and the Nations",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the fall narrative and its consequences."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Genesis 3:15 in Jewish and Christian interpretation."
+        },
+        {
+          "id": "o3",
+          "text": "Analyze the flood and Babel narratives and the Table of Nations."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 3:1-24",
+        "Genesis 6:5-8",
+        "Genesis 8:20-9:17",
+        "Genesis 11:1-9"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIII, chapters 13-15 and Book XIV, chapters 11-13 (the fall and its consequences)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book V, chapters 21 and 23 (Christ's victory over the serpent; the fall)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Genesis, chapter 6"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Fall",
+          "definition": "The first human sin and its consequences."
+        },
+        {
+          "term": "Protoevangelium",
+          "definition": "Genesis 3:15 as the first gospel promise."
+        },
+        {
+          "term": "Noahic covenant",
+          "definition": "God's covenant with creation after the flood."
+        },
+        {
+          "term": "Table of Nations",
+          "definition": "The genealogy of Genesis 10 describing the spread of peoples."
+        }
+      ],
+      "discussion_questions": [
+        "What strategy does the serpent use in Genesis 3:1-5?",
+        "How does Irenaeus read Genesis 3:15 in light of Christ?",
+        "What does Babel reveal about human ambition, and how does Pentecost answer it?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The serpent's first words question",
+          "options": [
+            "God's existence",
+            "what God has said",
+            "Adam's authority",
+            "the tree's beauty"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Genesis 6:5 says every intention of man's heart was",
+          "options": [
+            "good",
+            "only evil continually",
+            "confused",
+            "hidden"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "After the flood, God permits humans to eat",
+          "options": [
+            "only plants",
+            "animals, but not with their blood",
+            "nothing",
+            "unclean animals only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "At Babel the LORD",
+          "options": [
+            "blessed the tower",
+            "confused their language and scattered them",
+            "sent a flood",
+            "called Abraham"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Irenaeus saw Genesis 3:15 as fulfilled in",
+          "options": [
+            "Noah",
+            "Christ's victory over the serpent",
+            "Israel's exodus",
+            "the church's councils"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What are the consequences of the fall according to Genesis 3?",
+          "answer_key": "Shame and fear, broken relationship with God (hiding, expulsion from Eden), conflict between man and woman, pain in childbirth, cursed ground and toil, death, enmity with the serpent - yet also the promise of the woman's offspring and God's provision of garments."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Genesis 1-11 prepare for Genesis 12?",
+          "answer_key": "It shows the goodness of creation, the spread of sin and judgment across all humanity, and God's grace, setting the stage for God's plan to bless all the scattered nations through Abraham."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/PRH"
+    },
+    {
+      "id": "pen-04",
+      "title": "Abraham and the Covenant",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Analyze the Abraham narratives and the covenant texts (Genesis 12, 15, 17, 22)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the covenant ceremony of Genesis 15 and circumcision in Genesis 17."
+        },
+        {
+          "id": "o3",
+          "text": "Trace the New Testament use of Abraham (Romans 4, Galatians 3, Hebrews 11, James 2)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 12:1-9",
+        "Genesis 15:1-21",
+        "Genesis 17:1-14",
+        "Romans 4:1-25"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 10, sections 1-12 (the similarity of the Old and New Testaments)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVI, chapters 16-29 (the promises to Abraham)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Romans, chapter 4"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Covenant ratification",
+          "definition": "The ceremony of Genesis 15 in which God alone passes between the pieces."
+        },
+        {
+          "term": "Circumcision",
+          "definition": "The sign of the covenant with Abraham (Gen 17)."
+        },
+        {
+          "term": "Unconditional/conditional elements",
+          "definition": "The debated balance between God's promise and human obligation in the covenant."
+        },
+        {
+          "term": "Seed",
+          "definition": "Abraham's offspring, applied by Paul to Christ (Gal 3:16)."
+        }
+      ],
+      "discussion_questions": [
+        "What is the significance of God alone passing between the pieces (Gen 15:17)?",
+        "How does Paul use the timing of circumcision in Romans 4:9-12?",
+        "Should covenant signs be applied to children today? How do traditions answer (preview of baptism debates)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Genesis 15:17 what passed between the pieces?",
+          "options": [
+            "Abram",
+            "a smoking fire pot and a flaming torch",
+            "an angel",
+            "Sarah"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The sign of the covenant in Genesis 17 is",
+          "options": [
+            "the rainbow",
+            "circumcision",
+            "the Sabbath",
+            "a stone pillar"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Romans 4:10 Paul notes Abraham was counted righteous",
+          "options": [
+            "after circumcision",
+            "before he was circumcised",
+            "at Mount Sinai",
+            "after offering Isaac"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "God changes Abram's name to Abraham, meaning",
+          "options": [
+            "friend of God",
+            "father of a multitude",
+            "prince",
+            "laughter"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In Galatians 3:16 Paul identifies Abraham's singular 'offspring' as",
+          "options": [
+            "Isaac",
+            "Israel",
+            "Christ",
+            "the church only"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the covenant ceremony of Genesis 15.",
+          "answer_key": "Animals were cut in two; normally both parties walked between them, invoking a curse on themselves if they broke the covenant (cf. Jer 34:18). Only God, symbolized by the fire pot and torch, passes through - taking the oath on himself and guaranteeing the promise."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Paul use Abraham in Romans 4?",
+          "answer_key": "Abraham was justified by faith, not works or circumcision (which came later as a seal); therefore he is father of all who believe, Jew and Gentile, and his faith in God who gives life to the dead models faith in the God who raised Jesus."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/PEN"
+    },
+    {
+      "id": "pen-05",
+      "title": "Isaac, Jacob and Joseph",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Trace the themes of election, conflict and providence in the Jacob and Joseph narratives."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret Jacob's wrestling at Peniel."
+        },
+        {
+          "id": "o3",
+          "text": "Explain how Genesis ends with hope (Genesis 49-50)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 25:19-34",
+        "Genesis 32:22-32",
+        "Genesis 45:1-15",
+        "Genesis 49:8-12"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVI, chapters 35-42 (Jacob and Esau, Jacob's blessing, Judah's scepter)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "The Bondage of the Will",
+          "section": "Luther's discussion of 'Jacob I loved, Esau I hated' (Romans 9)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Genesis, chapter 49"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Election",
+          "definition": "God's choice, e.g. of Jacob over Esau (Gen 25:23; Rom 9:10-13)."
+        },
+        {
+          "term": "Peniel",
+          "definition": "'Face of God', where Jacob wrestled and was renamed Israel."
+        },
+        {
+          "term": "Scepter of Judah",
+          "definition": "The royal promise of Genesis 49:10, read messianically."
+        },
+        {
+          "term": "Providence",
+          "definition": "God's sovereign guidance through human choices (Gen 50:20)."
+        }
+      ],
+      "discussion_questions": [
+        "How do Luther and Arminian interpreters read Paul's use of Jacob and Esau differently?",
+        "What does Jacob's wrestling reveal about his relationship with God?",
+        "How does Joseph's forgiveness anticipate the gospel?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Before the twins were born, God told Rebekah that",
+          "options": [
+            "Esau would rule",
+            "the older would serve the younger",
+            "both would die",
+            "Jacob would be a priest"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "After wrestling, Jacob was renamed",
+          "options": [
+            "Abraham",
+            "Israel",
+            "Judah",
+            "Joseph"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Genesis 49:10 says the scepter shall not depart from",
+          "options": [
+            "Levi",
+            "Judah",
+            "Joseph",
+            "Benjamin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Joseph tells his brothers that God sent him ahead",
+          "options": [
+            "to punish them",
+            "to preserve life",
+            "to become rich",
+            "to escape Canaan"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Paul cites Jacob and Esau in",
+          "options": [
+            "Romans 4",
+            "Romans 9",
+            "Galatians 5",
+            "Hebrews 6"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How do different traditions read God's choice of Jacob over Esau in Romans 9?",
+          "answer_key": "Augustinian/Reformed readers (e.g. Luther, Calvin) see individual unconditional election to salvation; Arminian/Wesleyan readers often see corporate election (nations, Israel/Edom) to historical roles, or election foreseen by faith; all agree it shows God's sovereign freedom and grace."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What themes connect the Joseph story to the rest of Genesis?",
+          "answer_key": "God's providence working through evil to preserve the promised family, the fulfilment of dreams/promises, reconciliation and forgiveness, blessing to the nations (feeding Egypt and the world), and the movement to Egypt that sets up the exodus."
+        }
+      ]
+    },
+    {
+      "id": "pen-06",
+      "title": "Exodus 1-18 - Redemption from Egypt",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Analyze the call of Moses and the revelation of the divine name."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the plagues as judgment on the gods of Egypt."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the Passover and Red Sea crossing as the paradigm of redemption."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 3:1-4:17",
+        "Exodus 12:1-42",
+        "Exodus 14:10-31",
+        "Exodus 15:1-18"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book X, chapters 8 and 13 (the miracles of the exodus)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 40 and 111 (the Passover lamb as type of Christ)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Exodus, chapter 12"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "I AM (Ehyeh)",
+          "definition": "God's self-revelation in Exodus 3:14."
+        },
+        {
+          "term": "Plagues",
+          "definition": "Ten judgments on Egypt showing the LORD's supremacy over its gods (Exod 12:12)."
+        },
+        {
+          "term": "Passover",
+          "definition": "The feast of redemption through the blood of the lamb."
+        },
+        {
+          "term": "Song of the Sea",
+          "definition": "Israel's victory hymn (Exod 15)."
+        }
+      ],
+      "discussion_questions": [
+        "Why does God reveal his name at the moment of calling Moses?",
+        "What does Exodus 12:12 say the plagues accomplish?",
+        "How does the New Testament use exodus themes (e.g. Luke 9:31, 1 Cor 10:1-4)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Exodus 12:12 God says he will execute judgments on",
+          "options": [
+            "the Israelites",
+            "all the gods of Egypt",
+            "the Philistines",
+            "Moses"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Passover lamb was to be",
+          "options": [
+            "a year old, without blemish",
+            "a year-old male without blemish",
+            "any animal",
+            "a bull"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Song of the Sea (Exodus 15) celebrates",
+          "options": [
+            "the giving of the law",
+            "the LORD's victory over Pharaoh at the sea",
+            "the building of the tabernacle",
+            "entering Canaan"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Luke 9:31 Moses and Elijah speak with Jesus about his",
+          "options": [
+            "birth",
+            "departure (exodus) at Jerusalem",
+            "teaching",
+            "miracles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "When Moses objects that he is not eloquent, God gives him",
+          "options": [
+            "Joshua",
+            "Aaron his brother to speak",
+            "a new tongue",
+            "a staff only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why is the exodus the central act of redemption in the Old Testament?",
+          "answer_key": "God redeemed his enslaved people by mighty acts and the blood of the lamb, judged Egypt's gods, formed Israel as his people and brought them to himself; later Scripture recalls it constantly and the NT presents Christ's death and resurrection as the new exodus."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do the Fathers read the Passover in light of Christ?",
+          "answer_key": "As a type of Christ the true Lamb whose blood saves from death; e.g. Justin sees the lamb roasted and blood on the doorposts as prefiguring the cross; Paul calls Christ 'our Passover lamb' (1 Cor 5:7)."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/PEN"
+    },
+    {
+      "id": "pen-07",
+      "title": "Exodus 19-24 - Sinai and the Covenant",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Analyze the Sinai theophany and covenant structure (compare ancient treaties)."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the Ten Commandments and the Book of the Covenant."
+        },
+        {
+          "id": "o3",
+          "text": "Explain how different traditions number and apply the Decalogue."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 19:1-25",
+        "Exodus 20:1-21",
+        "Exodus 24:1-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "The Ten Commandments"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 8, sections 11-50 (the Ten Commandments)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Question 100 (the moral precepts of the Old Law)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Theophany",
+          "definition": "A visible manifestation of God (fire, cloud, thunder at Sinai)."
+        },
+        {
+          "term": "Suzerain treaty",
+          "definition": "Ancient treaty form (preamble, history, stipulations, blessings/curses) paralleling the covenant."
+        },
+        {
+          "term": "Decalogue",
+          "definition": "The 'ten words' (Exod 20; Deut 5)."
+        },
+        {
+          "term": "Book of the Covenant",
+          "definition": "The laws of Exodus 20:22-23:33."
+        }
+      ],
+      "discussion_questions": [
+        "Why do Lutherans/Catholics and Reformed/Orthodox number the commandments differently?",
+        "How does Exodus 24:8 connect to Jesus' words at the Last Supper?",
+        "What role does the covenant meal of Exodus 24:11 play?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The Decalogue is called 'the ten",
+          "options": [
+            "laws'",
+            "words'",
+            "tablets'",
+            "commands of Moses'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Exodus 24:8 Moses sprinkles the people with blood, saying",
+          "options": [
+            "'This is my body'",
+            "'Behold the blood of the covenant'",
+            "'Holy to the LORD'",
+            "'Go in peace'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Luther's numbering of the commandments, like the Catholic tradition,",
+          "options": [
+            "separates the prohibition of images as the second",
+            "combines the prohibition of images with the first and divides coveting into two",
+            "has twelve",
+            "omits the Sabbath"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The structure of the Sinai covenant resembles",
+          "options": [
+            "Greek tragedies",
+            "ancient Near Eastern suzerain-vassal treaties",
+            "Roman laws",
+            "Egyptian poems"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Aquinas holds that the moral precepts of the Old Law",
+          "options": [
+            "are abolished",
+            "belong to the natural law and remain binding",
+            "applied only to Israel",
+            "were ceremonial"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the parallel between Sinai and ancient treaties.",
+          "answer_key": "Like suzerain treaties, the covenant has a preamble (I am the LORD), historical prologue (who brought you out of Egypt), stipulations (commandments), deposit and reading of the document, witnesses and blessings/curses (Deut 27-28) - presenting God as Israel's great King."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do the two numbering systems of the Ten Commandments differ?",
+          "answer_key": "Reformed/Orthodox (and Jewish variants) treat 'no other gods' and 'no images' as separate commandments and coveting as one; Catholic/Lutheran combine the first two and split coveting (neighbor's house/wife) into two."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/PEN"
+    },
+    {
+      "id": "pen-08",
+      "title": "Exodus 25-40 - Tabernacle, Golden Calf and Glory",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the tabernacle's structure and symbolism."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the golden calf crisis and Moses' intercession."
+        },
+        {
+          "id": "o3",
+          "text": "Explain Exodus 34:6-7 and the return of God's glory."
+        }
+      ],
+      "scripture_passages": [
+        "Exodus 25:1-9",
+        "Exodus 32:1-14",
+        "Exodus 33:12-23",
+        "Exodus 40:34-38"
+      ],
+      "library_readings": [
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Exodus, chapter 32"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 11 (images of God)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book X, chapter 17 (the tabernacle of testimony)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Tabernacle",
+          "definition": "The portable sanctuary modeled on the heavenly pattern (Exod 25:9, 40)."
+        },
+        {
+          "term": "Ark of the covenant",
+          "definition": "The chest containing the tablets, with the mercy seat above."
+        },
+        {
+          "term": "Golden calf",
+          "definition": "Israel's idolatry at Sinai."
+        },
+        {
+          "term": "Intercession",
+          "definition": "Moses' pleading for Israel (Exod 32:11-14)."
+        }
+      ],
+      "discussion_questions": [
+        "What does the tabernacle's layout teach about God's holiness and presence?",
+        "What made the golden calf so serious, and how does Calvin apply it to images?",
+        "How does Moses' intercession foreshadow Christ?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "God told Moses to make the tabernacle according to",
+          "options": [
+            "Egyptian temples",
+            "the pattern shown him on the mountain",
+            "Abraham's altar",
+            "his own design"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The golden calf was made by",
+          "options": [
+            "Moses",
+            "Aaron at the people's demand",
+            "Joshua",
+            "the Levites"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In Exodus 33:20 God tells Moses",
+          "options": [
+            "'You may see my face'",
+            "'No one can see me and live'",
+            "'Go back to Egypt'",
+            "'Build an altar'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The ark contained",
+          "options": [
+            "the golden calf",
+            "the tablets of the covenant",
+            "Moses' staff only",
+            "the priests' garments"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "At the end of Exodus the glory of the LORD",
+          "options": [
+            "left Israel",
+            "filled the tabernacle",
+            "appeared in Egypt",
+            "went to Canaan"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why was the golden calf so grievous?",
+          "answer_key": "Right after receiving the covenant, Israel broke the first and second commandments, reducing the invisible Creator to an image and attributing the exodus to it - covenant treason that threatened their existence as God's people."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does the New Testament apply tabernacle themes to Christ?",
+          "answer_key": "The Word 'tabernacled' among us and we saw his glory (John 1:14); Christ is the true temple and high priest (John 2:19-21; Hebrews 8-9); the church and believers become God's dwelling by the Spirit."
+        }
+      ]
+    },
+    {
+      "id": "pen-09",
+      "title": "Leviticus - Sacrifice, Purity and Holiness",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the main sacrifices (burnt, grain, peace, sin/purification, guilt)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the purity laws and their theological purpose."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the Day of Atonement and the Holiness Code, and their fulfilment in Christ."
+        }
+      ],
+      "scripture_passages": [
+        "Leviticus 1:1-9",
+        "Leviticus 11:44-45",
+        "Leviticus 16:1-34",
+        "Hebrews 9:11-14"
+      ],
+      "library_readings": [
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Questions 101-103 (the ceremonial precepts)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book X, chapters 5-6 (the true sacrifice)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Hebrews, chapter 9"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Burnt offering",
+          "definition": "A whole offering expressing total consecration and atonement."
+        },
+        {
+          "term": "Purification (sin) offering",
+          "definition": "Offering cleansing the sanctuary and worshiper from sin's defilement."
+        },
+        {
+          "term": "Clean and unclean",
+          "definition": "Categories of ritual purity governing access to God's presence."
+        },
+        {
+          "term": "Holiness Code",
+          "definition": "Leviticus 17-26, centered on 'Be holy, for I am holy'."
+        }
+      ],
+      "discussion_questions": [
+        "Augustine says a true sacrifice is every work done to unite us to God. How does that relate to Leviticus?",
+        "What was the purpose of the purity laws?",
+        "How does Hebrews interpret the Day of Atonement?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The offering wholly burned on the altar was the",
+          "options": [
+            "peace offering",
+            "burnt offering",
+            "grain offering",
+            "guilt offering"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Leviticus 11:44 grounds the food laws in",
+          "options": [
+            "health",
+            "God's holiness: 'be holy, for I am holy'",
+            "Egyptian customs",
+            "economics"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "On the Day of Atonement the high priest entered",
+          "options": [
+            "the courtyard",
+            "the Most Holy Place",
+            "the camp of Dan",
+            "the tent of Moses"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Hebrews 9:12 says Christ entered the holy places",
+          "options": [
+            "daily",
+            "once for all by means of his own blood",
+            "with goats and calves",
+            "annually"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Holiness Code is found in",
+          "options": [
+            "Leviticus 1-7",
+            "Leviticus 17-26",
+            "Numbers 1-4",
+            "Deuteronomy 12-26"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What was the theological purpose of Leviticus' sacrifices and purity laws?",
+          "answer_key": "To enable a sinful people to live in the presence of the holy God - atoning for sin, cleansing defilement, expressing consecration and fellowship - and to teach holiness and separation; they point to Christ's once-for-all sacrifice."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize Aquinas's view of the ceremonial law.",
+          "answer_key": "Ceremonial precepts ordered divine worship for that time, figuring Christ and the mysteries of salvation; they ceased with Christ's coming (continuing them would deny their fulfilment), though their meaning endures."
+        }
+      ]
+    },
+    {
+      "id": "pen-10",
+      "title": "Numbers - The Wilderness Generation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Summarize the structure of Numbers (two censuses, two generations)."
+        },
+        {
+          "id": "o2",
+          "text": "Analyze key episodes (spies, Korah, the bronze serpent, Balaam)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain New Testament warnings drawn from the wilderness (1 Corinthians 10; Hebrews 3-4)."
+        }
+      ],
+      "scripture_passages": [
+        "Numbers 13:25-14:10",
+        "Numbers 21:4-9",
+        "Numbers 24:15-19",
+        "Hebrews 3:7-19"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapter 11 (the time of Moses and Joshua)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Hebrews, chapter 3"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Numbers, chapter 21"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Census",
+          "definition": "The counting of Israel at the beginning (Num 1) and end (Num 26) of the wilderness period."
+        },
+        {
+          "term": "Bronze serpent",
+          "definition": "The image lifted up for healing (Num 21), applied by Jesus to himself (John 3:14)."
+        },
+        {
+          "term": "Balaam's oracle",
+          "definition": "The prophecy of a star from Jacob (Num 24:17)."
+        },
+        {
+          "term": "Rebellion",
+          "definition": "The recurring grumbling and unbelief of the wilderness generation."
+        }
+      ],
+      "discussion_questions": [
+        "What does the spies' report reveal about faith and fear?",
+        "How does Jesus use the bronze serpent in John 3:14-15?",
+        "What warnings does Hebrews 3 draw from Israel's unbelief?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The two faithful spies were",
+          "options": [
+            "Moses and Aaron",
+            "Joshua and Caleb",
+            "Eleazar and Phinehas",
+            "Nadab and Abihu"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Those bitten by serpents lived when they",
+          "options": [
+            "prayed at the tabernacle",
+            "looked at the bronze serpent",
+            "offered sacrifices",
+            "left the camp"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Balaam prophesied that a star would come out of",
+          "options": [
+            "Egypt",
+            "Jacob",
+            "Moab",
+            "Edom"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Hebrews 3:19 says they could not enter because of",
+          "options": [
+            "giants",
+            "unbelief",
+            "poverty",
+            "Moses' sin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Numbers contains",
+          "options": [
+            "one census",
+            "two censuses marking two generations",
+            "no census",
+            "a census of Egypt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does the structure of Numbers communicate its message?",
+          "answer_key": "The first census (Num 1) counts the generation that rebelled and died in the wilderness; the second (Num 26) counts the new generation poised to enter the land, highlighting judgment on unbelief and God's faithfulness to his promise."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Jesus apply Numbers 21 to himself?",
+          "answer_key": "As Moses lifted up the serpent and those who looked lived, so the Son of Man must be lifted up (on the cross) that whoever believes in him may have eternal life (John 3:14-15)."
+        }
+      ]
+    },
+    {
+      "id": "pen-11",
+      "title": "Deuteronomy - Covenant Renewal",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Deuteronomy's structure as Moses' farewell sermons and covenant renewal."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the Shema and the call to love God."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the blessings and curses and the promise of heart circumcision."
+        }
+      ],
+      "scripture_passages": [
+        "Deuteronomy 6:1-25",
+        "Deuteronomy 18:15-22",
+        "Deuteronomy 30:1-20",
+        "Matthew 4:1-11"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Conclusion of the Ten Commandments (on Deuteronomy 6)"
+        },
+        {
+          "author": "Augustine",
+          "title": "On the Spirit and the Letter",
+          "section": "Chapters 29-30 (the law written on hearts)"
+        },
+        {
+          "author": "Jamieson, Fausset and Brown",
+          "title": "Commentary Critical and Explanatory on the Whole Bible",
+          "section": "Commentary on Deuteronomy, chapter 30"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Deuteronomy",
+          "definition": "'Second law' - the law restated to the new generation."
+        },
+        {
+          "term": "Prophet like Moses",
+          "definition": "The promised prophet (Deut 18:15), applied to Jesus (Acts 3:22)."
+        },
+        {
+          "term": "Circumcision of the heart",
+          "definition": "Inner renewal God promises (Deut 30:6)."
+        },
+        {
+          "term": "Choose life",
+          "definition": "Moses' final appeal (Deut 30:19)."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Jesus answer each temptation from Deuteronomy?",
+        "How does Deuteronomy 30:6 anticipate the new covenant?",
+        "How is Deuteronomy 18:15 applied in Acts 3?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Jesus quotes Deuteronomy to answer",
+          "options": [
+            "the Pharisees on divorce",
+            "Satan's temptations in the wilderness",
+            "Pilate",
+            "the disciples at the Supper"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Deuteronomy 18:15 promises",
+          "options": [
+            "a king like David",
+            "a prophet like Moses",
+            "a priest like Aaron",
+            "a judge like Samson"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Deuteronomy 30:6 promises that God will circumcise",
+          "options": [
+            "the nations",
+            "your heart",
+            "the priests",
+            "the land"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Moses urges Israel in Deuteronomy 30:19 to",
+          "options": [
+            "return to Egypt",
+            "choose life",
+            "build a temple",
+            "appoint a king"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "'Deuteronomy' means",
+          "options": [
+            "book of blessing",
+            "second law",
+            "words of Moses",
+            "covenant renewal"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What is the relationship between love and obedience in Deuteronomy?",
+          "answer_key": "Love for God is the heart of the covenant (6:5) and is expressed in obedience; obedience flows from grateful love for the God who redeemed them, and blessing follows faithfulness."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Deuteronomy anticipate Israel's future?",
+          "answer_key": "It foresees Israel's disobedience, curses and exile, but promises return and restoration when they turn back, with God circumcising their hearts to love him (30:1-10) - pointing toward the new covenant."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/kot"
+    },
+    {
+      "id": "pen-12",
+      "title": "Reading the Torah as Christians",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare major frameworks for the law's place in the Christian life (Lutheran, Reformed, Anabaptist, dispensational, new covenant theology)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain how Jesus and Paul read the Torah."
+        },
+        {
+          "id": "o3",
+          "text": "Write an integrative paper on a Pentateuch theme."
+        }
+      ],
+      "scripture_passages": [
+        "Matthew 5:17-48",
+        "Romans 10:4",
+        "Galatians 3:15-29",
+        "2 Corinthians 3:7-18"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 11 (the difference between the two Testaments)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Large Catechism",
+          "section": "The Ten Commandments, conclusion"
+        },
+        {
+          "author": "Augustine",
+          "title": "On the Spirit and the Letter",
+          "section": "Chapters 14-25"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Telos",
+          "definition": "'End/goal' - Christ is the telos of the law (Rom 10:4)."
+        },
+        {
+          "term": "Continuity/discontinuity",
+          "definition": "How much the covenants are alike or different."
+        },
+        {
+          "term": "Letter and Spirit",
+          "definition": "Paul's contrast between the written code and the Spirit's life (2 Cor 3:6)."
+        },
+        {
+          "term": "Third use of the law",
+          "definition": "The law as a guide for believers (affirmed by Reformed and many Lutherans)."
+        }
+      ],
+      "discussion_questions": [
+        "Does telos in Romans 10:4 mean 'termination' or 'goal'?",
+        "How does Augustine understand 'the letter kills, but the Spirit gives life'?",
+        "Which framework for the law do you find most persuasive, and why?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 10:4 says Christ is the telos of the law, which can mean",
+          "options": [
+            "the violator",
+            "end or goal",
+            "author",
+            "servant"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In 2 Corinthians 3:6 Paul says the letter kills but",
+          "options": [
+            "the law saves",
+            "the Spirit gives life",
+            "grace condemns",
+            "faith is dead"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Galatians 3:17 says the law, coming 430 years later, does not",
+          "options": [
+            "matter",
+            "annul the covenant previously ratified by God",
+            "apply to Israel",
+            "reveal sin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Calvin in Institutes II.11 discusses",
+          "options": [
+            "the sacraments",
+            "the differences between the Old and New Testaments",
+            "election",
+            "the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Jesus' teaching 'You have heard that it was said... but I say to you' in Matthew 5",
+          "options": [
+            "abolishes the law",
+            "reveals the law's deepest intent with his own authority",
+            "adds new ceremonies",
+            "is about Roman law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare two Christian frameworks for the role of the Mosaic law.",
+          "answer_key": "E.g. Reformed - one covenant of grace in different administrations; moral law continues as a guide, civil and ceremonial fulfilled. Lutheran - law and gospel distinction; law accuses and guides but is not the means of righteousness. Dispensational - Mosaic covenant for Israel, church under the law of Christ. New covenant theology - Mosaic law as a whole fulfilled; the law of Christ governs."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Augustine mean by 'the letter kills'?",
+          "answer_key": "The law alone, commanding without giving the power to obey, reveals sin and condemns; the Spirit pours God's love into the heart so that the law is fulfilled from love - the law written on the heart."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper tracing ONE theme through the Pentateuch - for example covenant, sacrifice and atonement, the presence of God, the land, or blessing to the nations. Show how the theme develops across at least three books, how later Scripture (including the New Testament) takes it up, and how at least two library sources interpret it (cite as Author, Title, section). Conclude with implications for Christian faith and ministry.",
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/BBT"
+    }
+  ]
+}

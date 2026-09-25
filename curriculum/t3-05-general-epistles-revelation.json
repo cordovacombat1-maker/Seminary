@@ -1,0 +1,1670 @@
+{
+  "id": "general-epistles-revelation",
+  "title": "General Epistles and Revelation",
+  "tier": 3,
+  "tier_name": "Biblical Studies",
+  "description": "A study of Hebrews, James, 1-2 Peter, 1-3 John, Jude and Revelation. Students examine each book's setting, structure and theology - Christ's superior priesthood and the warning passages in Hebrews, faith and works in James, suffering and hope in 1 Peter, false teaching in 2 Peter and Jude, assurance and love in John's letters - and study Revelation's genre, symbolism, major interpretive schools and message of the Lamb's victory.",
+  "prerequisites": [
+    "nt-survey",
+    "hermeneutics"
+  ],
+  "lessons": [
+    {
+      "id": "ger-01",
+      "title": "Hebrews 1-4 - The Son Superior to Angels and Moses",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the setting, authorship debate and structure of Hebrews (exposition and exhortation)."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the Christology of Hebrews 1:1-4 and the catena of Old Testament quotations."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the rest theme in Hebrews 3-4."
+        }
+      ],
+      "scripture_passages": [
+        "Hebrews 1:1-14",
+        "Hebrews 2:5-18",
+        "Hebrews 3:1-6",
+        "Hebrews 4:1-13"
+      ],
+      "library_readings": [
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book VI, chapter 25 (Origen on the authorship of Hebrews: 'who wrote the epistle, God only knows')"
+        },
+        {
+          "author": "Athanasius",
+          "title": "Discourses Against the Arians",
+          "section": "Discourse I, chapters 53-64 (on Hebrews 1:4)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Hebrews, chapter 1"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Word of exhortation",
+          "definition": "Hebrews' self-description (13:22), a sermon in written form."
+        },
+        {
+          "term": "Catena",
+          "definition": "A chain of Old Testament quotations (Heb 1:5-13)."
+        },
+        {
+          "term": "Sabbath rest",
+          "definition": "The rest that remains for God's people (4:9)."
+        },
+        {
+          "term": "Pioneer (archēgos)",
+          "definition": "Christ as founder and leader of salvation (2:10)."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Hebrews argue that the Son is superior to angels?",
+        "Origen said only God knows who wrote Hebrews. What candidates have been proposed?",
+        "What is the 'rest' of Hebrews 4, and how is it entered?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Hebrews 1:3 says the Son is the radiance of God's glory and",
+          "options": [
+            "a created angel",
+            "the exact imprint of his nature",
+            "a prophet like Moses",
+            "the first of creation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Origen's famous comment on the author of Hebrews was that",
+          "options": [
+            "Paul wrote it",
+            "God only knows",
+            "Luke wrote it",
+            "Apollos wrote it"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Hebrews 2:17 says Jesus became like his brothers so that he might become",
+          "options": [
+            "a king",
+            "a merciful and faithful high priest",
+            "an angel",
+            "a lawgiver"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Hebrews 4:12 says the word of God is sharper than",
+          "options": [
+            "a spear",
+            "any two-edged sword",
+            "a scalpel",
+            "fire"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Hebrews describes itself as a",
+          "options": [
+            "gospel",
+            "word of exhortation",
+            "prophecy",
+            "catechism"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Name three candidates proposed as the author of Hebrews and one argument for one of them.",
+          "answer_key": "Paul (early Eastern tradition; mention of Timothy 13:23), Apollos (Luther; eloquent Alexandrian learned in Scripture), Barnabas (Tertullian; a Levite), Luke, Priscilla; the style differs from Paul's and the author says he received the message from those who heard Jesus (2:3)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Hebrews 3-4 use Psalm 95?",
+          "answer_key": "It warns readers not to harden their hearts like the wilderness generation who failed to enter God's rest through unbelief; the promise of rest remains, fulfilled in God's Sabbath rest entered by faith today."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HEB"
+    },
+    {
+      "id": "ger-02",
+      "title": "Hebrews 5-10 - The Great High Priest and the New Covenant",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret Christ's priesthood after the order of Melchizedek."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the new covenant and the once-for-all sacrifice (Hebrews 8-10)."
+        },
+        {
+          "id": "o3",
+          "text": "Compare interpretations of the warning passage in Hebrews 6:4-8."
+        }
+      ],
+      "scripture_passages": [
+        "Hebrews 5:1-10",
+        "Hebrews 6:4-12",
+        "Hebrews 7:11-28",
+        "Hebrews 10:1-25"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 15, section 6 (the priestly office of Christ)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'A Call to Backsliders'"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVI, chapter 22 (Melchizedek)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Melchizedek",
+          "definition": "King of Salem and priest of God Most High (Gen 14), type of Christ's priesthood."
+        },
+        {
+          "term": "Once for all (ephapax)",
+          "definition": "Christ's single, sufficient sacrifice (Heb 7:27; 10:10)."
+        },
+        {
+          "term": "Warning passages",
+          "definition": "Hebrews 2:1-4; 3:7-4:13; 5:11-6:12; 10:26-39; 12:14-29."
+        },
+        {
+          "term": "Apostasy",
+          "definition": "Falling away from the faith."
+        }
+      ],
+      "discussion_questions": [
+        "Why is Christ's priesthood 'after the order of Melchizedek' rather than Aaron?",
+        "Present Reformed, Arminian and other readings of Hebrews 6:4-6.",
+        "How should Hebrews 10:24-25 shape church life?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Melchizedek was king of",
+          "options": [
+            "Jerusalem called Jebus",
+            "Salem",
+            "Sodom",
+            "Egypt"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Hebrews 7:25 says Christ is able to save to the uttermost because",
+          "options": [
+            "he keeps the law",
+            "he always lives to make intercession for them",
+            "he was a Levite",
+            "the temple stands"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Hebrews 10:4 says it is impossible for",
+          "options": [
+            "faith to save",
+            "the blood of bulls and goats to take away sins",
+            "angels to worship",
+            "Christ to die"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Hebrews 6:4-6 speaks of those who were once enlightened and then",
+          "options": [
+            "became apostles",
+            "fell away",
+            "were baptized again",
+            "moved to Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Hebrews 8 quotes the new covenant promise from",
+          "options": [
+            "Ezekiel 36",
+            "Jeremiah 31",
+            "Isaiah 53",
+            "Joel 2"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize three interpretations of Hebrews 6:4-6.",
+          "answer_key": "Arminian/Wesleyan - true believers can apostatize and lose salvation; Reformed - those described had experienced blessings but were not truly regenerate (or the warning is a means God uses to preserve the elect); hypothetical - describing what would happen if a believer could fall away. All take the warning seriously."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is Christ's sacrifice described as 'once for all'?",
+          "answer_key": "As the sinless Son and eternal high priest he offered himself, a perfect sacrifice that truly removes sin and perfects believers, so no repeated sacrifices are needed, unlike the Levitical system."
+        }
+      ]
+    },
+    {
+      "id": "ger-03",
+      "title": "Hebrews 11-13 - Faith and Perseverance",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the definition and examples of faith in Hebrews 11."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the call to endurance and the discipline of the Lord (12)."
+        },
+        {
+          "id": "o3",
+          "text": "Apply the final exhortations (13)."
+        }
+      ],
+      "scripture_passages": [
+        "Hebrews 11:1-40",
+        "Hebrews 12:1-17",
+        "Hebrews 12:18-29",
+        "Hebrews 13:1-21"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 7-8 (faith, hope and love; faith defined from Hebrews 11)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Second Part of the Second Part (II-II), Question 4, Article 1 (on Hebrews 11:1 as a definition of faith)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Hebrews, chapter 11"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Faith (Heb 11",
+          "definition": "1): The assurance of things hoped for, the conviction of things not seen."
+        },
+        {
+          "term": "Cloud of witnesses",
+          "definition": "The faithful of Hebrews 11 surrounding the runners (12:1)."
+        },
+        {
+          "term": "Discipline",
+          "definition": "God's fatherly training through hardship (12:5-11)."
+        },
+        {
+          "term": "Mount Zion",
+          "definition": "The heavenly Jerusalem believers have come to (12:22)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Aquinas analyze Hebrews 11:1 as a definition of faith?",
+        "What do the examples in Hebrews 11 have in common?",
+        "How does Hebrews 12 reframe suffering?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Hebrews 11:6 says without faith it is impossible",
+          "options": [
+            "to know the law",
+            "to please God",
+            "to be baptized",
+            "to prophesy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The 'cloud of witnesses' refers to",
+          "options": [
+            "angels",
+            "the faithful men and women of Hebrews 11",
+            "the apostles",
+            "the martyrs of Rome only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Hebrews 12:2 calls Jesus",
+          "options": [
+            "the second Moses",
+            "the founder and perfecter of our faith",
+            "the high priest only",
+            "the lawgiver"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Hebrews 12:6 says the Lord disciplines",
+          "options": [
+            "his enemies",
+            "the one he loves",
+            "only unbelievers",
+            "angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Hebrews 13:8 declares that Jesus Christ is",
+          "options": [
+            "coming soon",
+            "the same yesterday and today and forever",
+            "a priest like Aaron",
+            "the new temple"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What do the heroes of Hebrews 11 have in common?",
+          "answer_key": "They trusted God's promises and acted on them though they did not receive the final fulfilment in their lifetimes, looking ahead to a better, heavenly country and resurrection - showing faith as confident hope that obeys."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does Hebrews 12 interpret suffering?",
+          "answer_key": "Hardship is the Father's loving discipline training his children in holiness and righteousness; believers should endure, looking to Jesus who endured the cross, and strengthen weak knees."
+        }
+      ]
+    },
+    {
+      "id": "ger-04",
+      "title": "James - Wisdom and Living Faith",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe James's setting and wisdom-like style."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret James 2:14-26 on faith and works in relation to Paul."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret James on trials, the tongue, wealth and prayer."
+        }
+      ],
+      "scripture_passages": [
+        "James 1:2-27",
+        "James 2:14-26",
+        "James 3:1-12",
+        "James 5:13-20"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "The Bondage of the Will",
+          "section": "Luther on faith and works (and compare his famous criticism of James)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapter 17, sections 11-12 (reconciling James and Paul)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on James, chapter 5"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Wisdom from above",
+          "definition": "Pure, peaceable, gentle wisdom (Jas 3:17)."
+        },
+        {
+          "term": "Doers of the word",
+          "definition": "Those who act on what they hear (1:22)."
+        },
+        {
+          "term": "Dead faith",
+          "definition": "Faith without works (2:17, 26)."
+        },
+        {
+          "term": "Anointing with oil",
+          "definition": "Prayer for the sick by elders (5:14)."
+        }
+      ],
+      "discussion_questions": [
+        "Luther once called James 'an epistle of straw'. Why, and was he right?",
+        "How do different traditions understand James 5:14-15 (anointing, healing, the sacrament of anointing)?",
+        "What does James say about the rich and poor in the church?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "James 1:22 urges believers to be",
+          "options": [
+            "hearers only",
+            "doers of the word",
+            "teachers",
+            "silent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "James 2:19 says even the demons believe and",
+          "options": [
+            "are saved",
+            "shudder",
+            "worship",
+            "repent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "James compares the tongue to",
+          "options": [
+            "a sword and shield",
+            "a small fire setting a forest ablaze",
+            "a river",
+            "a lamp"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "James 5:14 instructs the sick to call for",
+          "options": [
+            "a physician only",
+            "the elders of the church to pray and anoint with oil",
+            "the apostles",
+            "the prophets"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "James uses as examples of faith shown by works",
+          "options": [
+            "Moses and David",
+            "Abraham and Rahab",
+            "Noah and Enoch",
+            "Peter and Paul"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How can James 2 and Paul's teaching on justification be reconciled?",
+          "answer_key": "Paul refutes reliance on works of the law as the ground of justification; James refutes a dead, merely intellectual faith; genuine justifying faith always produces works, which vindicate/demonstrate it (Calvin - faith alone justifies, but faith that justifies is not alone)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do traditions interpret James 5:14-15?",
+          "answer_key": "Catholics see a basis for the sacrament of anointing of the sick; many Protestants practice prayer and anointing for healing (especially Pentecostals); others see oil as medicinal or symbolic; all affirm prayer, confession and the elders' care."
+        }
+      ]
+    },
+    {
+      "id": "ger-05",
+      "title": "1 Peter - Hope for Exiles in Suffering",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe 1 Peter's setting among suffering believers in Asia Minor."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the themes of new birth, living hope and identity as God's people."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret suffering, submission and the debated passage 3:18-22."
+        }
+      ],
+      "scripture_passages": [
+        "1 Peter 1:3-12",
+        "1 Peter 2:4-25",
+        "1 Peter 3:18-22",
+        "1 Peter 4:12-19"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XVIII, chapter 50 (the growth of the church through persecution)"
+        },
+        {
+          "author": "Church of Smyrna",
+          "title": "The Martyrdom of Polycarp",
+          "section": "Chapters 1-4 and 17-19"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on 1 Peter, chapter 3"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Elect exiles",
+          "definition": "Peter's description of believers (1:1)."
+        },
+        {
+          "term": "Living hope",
+          "definition": "Hope through Christ's resurrection (1:3)."
+        },
+        {
+          "term": "Royal priesthood",
+          "definition": "The church as God's priestly people (2:9)."
+        },
+        {
+          "term": "Spirits in prison",
+          "definition": "A debated phrase (3:19) - Christ's proclamation to disobedient spirits or souls."
+        }
+      ],
+      "discussion_questions": [
+        "How does 1 Peter use Old Testament Israel's identity for the church?",
+        "Present the main interpretations of 1 Peter 3:19-20.",
+        "How can suffering believers 'do good' and bear witness (2:12; 3:15)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 Peter 1:3 says God caused us to be born again to a living hope through",
+          "options": [
+            "baptism alone",
+            "the resurrection of Jesus Christ from the dead",
+            "the law",
+            "the apostles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 Peter 2:9 calls believers",
+          "options": [
+            "servants of Rome",
+            "a chosen race, a royal priesthood, a holy nation",
+            "the new Levites",
+            "strangers to God"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 Peter 3:15 says always be prepared to",
+          "options": [
+            "fight",
+            "make a defense for the hope that is in you",
+            "flee",
+            "keep silent"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 Peter 4:12 says not to be surprised at",
+          "options": [
+            "blessings",
+            "the fiery trial",
+            "false teachers",
+            "prosperity"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "1 Peter 3:21 says baptism, which corresponds to the flood, now",
+          "options": [
+            "is unnecessary",
+            "saves you... through the resurrection of Jesus Christ",
+            "removes dirt",
+            "replaces faith"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize three interpretations of 1 Peter 3:19-20.",
+          "answer_key": "Christ, between death and resurrection, proclaimed victory to fallen angels imprisoned (Gen 6); he preached to the souls of the dead (descent to Hades, offering or announcing salvation); the pre-incarnate Christ preached through Noah to people of Noah's day who are now 'in prison'."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does 1 Peter encourage suffering Christians?",
+          "answer_key": "By reminding them of their new birth and inheritance, their identity as God's people, Christ's example of innocent suffering, the refining purpose of trials, the blessing of suffering for Christ, and the glory to be revealed."
+        }
+      ]
+    },
+    {
+      "id": "ger-06",
+      "title": "2 Peter and Jude - Contending for the Faith",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the false teaching opposed in 2 Peter and Jude."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret 2 Peter's teaching on Scripture and the delay of the parousia."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss Jude's use of 1 Enoch and the Assumption of Moses."
+        }
+      ],
+      "scripture_passages": [
+        "2 Peter 1:3-21",
+        "2 Peter 3:1-18",
+        "Jude 1:3-25"
+      ],
+      "library_readings": [
+        {
+          "author": "Eusebius",
+          "title": "Church History",
+          "section": "Book III, chapter 25 (2 Peter and Jude among the disputed books)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book I, chapters 1 and 31 (the Gnostic teachers and their licentiousness)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on 2 Peter, chapter 3"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Antilegomena",
+          "definition": "Books disputed for a time before acceptance (including 2 Peter and Jude)."
+        },
+        {
+          "term": "Scoffers",
+          "definition": "Those mocking the promise of Christ's coming (2 Pet 3:3-4)."
+        },
+        {
+          "term": "Day of the Lord",
+          "definition": "The final judgment and renewal (2 Pet 3:10)."
+        },
+        {
+          "term": "1 Enoch",
+          "definition": "A Jewish apocalyptic work quoted in Jude 14-15."
+        }
+      ],
+      "discussion_questions": [
+        "How does 2 Peter answer the objection 'Where is the promise of his coming?'",
+        "What does Jude's quotation of 1 Enoch imply (and not imply) about that book?",
+        "What marks of false teachers appear in 2 Peter 2 and Jude?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "2 Peter 3:8 says with the Lord one day is as",
+          "options": [
+            "one hour",
+            "a thousand years",
+            "a week",
+            "an age"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "2 Peter 3:9 says the Lord is not slow but patient, not wishing that any should",
+          "options": [
+            "suffer",
+            "perish, but that all should reach repentance",
+            "doubt",
+            "sin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Jude 3 urges readers to",
+          "options": [
+            "avoid controversy",
+            "contend for the faith once for all delivered to the saints",
+            "form a new church",
+            "keep the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Jude 14-15 quotes a prophecy attributed to",
+          "options": [
+            "Isaiah",
+            "Enoch",
+            "Daniel",
+            "Moses"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "2 Peter 1:4 says believers may become partakers of",
+          "options": [
+            "the law",
+            "the divine nature",
+            "angelic life",
+            "Israel's inheritance"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why were 2 Peter and Jude disputed for a time, and why were they accepted?",
+          "answer_key": "Questions about authorship, style differences (2 Peter vs 1 Peter), limited early use and Jude's citation of non-canonical books; they were accepted because of apostolic claims, orthodox content and growing recognition by the churches."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does 2 Peter 3 explain the apparent delay of Christ's return?",
+          "answer_key": "God's timescale differs from ours (a day like a thousand years), and his delay is patience giving time for repentance; the day will come suddenly, so believers should live holy lives and hasten its coming."
+        }
+      ]
+    },
+    {
+      "id": "ger-07",
+      "title": "The Letters of John - Truth, Love and Assurance",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe the setting of 1-3 John and the secessionists."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret John's tests of genuine faith (belief, obedience, love)."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret teaching on sin and assurance (1 John 1:8-2:2; 3:6-9; 5:13)."
+        }
+      ],
+      "scripture_passages": [
+        "1 John 1:1-2:6",
+        "1 John 3:1-10",
+        "1 John 4:1-21",
+        "1 John 5:6-13"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "Enchiridion",
+          "section": "Chapters 64-65 and 71-72 (sins of the regenerate and forgiveness)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The Great Privilege of those that are Born of God'"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on 1 John, chapter 4"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Antichrists",
+          "definition": "Those who went out from the church denying Jesus came in the flesh (1 John 2:18-22)."
+        },
+        {
+          "term": "Docetism",
+          "definition": "The teaching that Christ only seemed to have a body."
+        },
+        {
+          "term": "Assurance",
+          "definition": "Knowing that one has eternal life (1 John 5:13)."
+        },
+        {
+          "term": "Propitiation",
+          "definition": "Christ as the atoning sacrifice for our sins (1 John 2:2; 4:10)."
+        }
+      ],
+      "discussion_questions": [
+        "How can 1 John 1:8 ('if we say we have no sin') and 3:9 ('cannot keep on sinning') both be true?",
+        "What are John's tests of genuine faith?",
+        "How does 1 John ground assurance?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 John 1:8 says if we say we have no sin",
+          "options": [
+            "we are perfect",
+            "we deceive ourselves",
+            "we are apostles",
+            "we are forgiven"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "1 John 4:2-3 identifies the spirit of antichrist as denying that",
+          "options": [
+            "God exists",
+            "Jesus Christ has come in the flesh",
+            "the law is holy",
+            "baptism is needed"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "1 John 5:13 says 'I write these things... that you may know that",
+          "options": [
+            "the end is near'",
+            "you have eternal life'",
+            "I am an apostle'",
+            "love is the law'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "1 John 4:19 says we love because",
+          "options": [
+            "we are commanded",
+            "he first loved us",
+            "love is natural",
+            "it brings reward"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "3 John commends",
+          "options": [
+            "Diotrephes",
+            "Gaius (and Demetrius)",
+            "the elect lady",
+            "Jezebel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How do Augustine and Wesley read 1 John 3:9 differently?",
+          "answer_key": "Augustine emphasizes that believers still sin daily and need forgiveness, so 3:9 refers to not sinning the sin that destroys love (or not sinning insofar as born of God); Wesley reads it as the privilege of the born-again not to commit outward, willful sin while they keep themselves in faith and love."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What three tests of genuine faith appear in 1 John?",
+          "answer_key": "Doctrinal (confessing Jesus as the Christ come in the flesh), moral (keeping his commandments, walking in the light), and social (loving one another)."
+        }
+      ]
+    },
+    {
+      "id": "ger-08",
+      "title": "Introduction to Revelation - Genre, Structure and Interpretation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Describe Revelation's genre as apocalypse, prophecy and circular letter."
+        },
+        {
+          "id": "o2",
+          "text": "Explain its use of Old Testament symbolism and numbers."
+        },
+        {
+          "id": "o3",
+          "text": "Compare preterist, historicist, futurist and idealist approaches, and millennial views."
+        }
+      ],
+      "scripture_passages": [
+        "Revelation 1:1-20",
+        "Revelation 20:1-10",
+        "Daniel 7:1-14"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapters 6-10 (the first resurrection and the thousand years)"
+        },
+        {
+          "author": "Justin Martyr",
+          "title": "Dialogue with Trypho",
+          "section": "Chapters 80-81 (a premillennial view in the second century)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book V, chapters 32-36 (the kingdom of the righteous)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Amillennialism",
+          "definition": "The millennium symbolizes Christ's present reign (Augustine)."
+        },
+        {
+          "term": "Premillennialism",
+          "definition": "Christ returns before an earthly millennium (Justin, Irenaeus; historic and dispensational forms)."
+        },
+        {
+          "term": "Postmillennialism",
+          "definition": "Christ returns after a golden age of gospel success."
+        },
+        {
+          "term": "Symbolic numbers",
+          "definition": "Seven (completeness), twelve (God's people), 666, 144,000, etc."
+        }
+      ],
+      "discussion_questions": [
+        "How do Justin and Irenaeus differ from Augustine on the millennium?",
+        "Why is Revelation full of Old Testament allusions but no direct quotations?",
+        "What difference does genre make for interpreting Revelation's symbols?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Revelation 1:3 pronounces a blessing on the one who",
+          "options": [
+            "understands every symbol",
+            "reads aloud and those who hear and keep it",
+            "calculates dates",
+            "translates it"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Justin Martyr and Irenaeus held a",
+          "options": [
+            "amillennial view",
+            "premillennial view",
+            "postmillennial view",
+            "preterist view only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Augustine identified the thousand years with",
+          "options": [
+            "a future earthly reign",
+            "the present age of the church",
+            "the time before Christ",
+            "Constantine's reign"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "The number seven in Revelation typically symbolizes",
+          "options": [
+            "evil",
+            "completeness",
+            "Israel",
+            "judgment only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The idealist approach reads Revelation primarily as",
+          "options": [
+            "a timetable",
+            "symbolic of timeless spiritual realities",
+            "fulfilled by AD 70 only",
+            "a history of Europe"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the three main millennial views.",
+          "answer_key": "Premillennial - Christ returns before a literal thousand-year reign on earth (historic premillennialism and dispensationalism); amillennial - the thousand years symbolize the present reign of Christ with the saints between his comings; postmillennial - the gospel's success brings a long era of righteousness before Christ returns."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Why is recognizing Revelation's genre important?",
+          "answer_key": "As apocalyptic prophecy it communicates through symbols drawn largely from the OT, not literal photographs; readers should seek the symbols' meaning (often interpreted in the text), the main message and the first readers' situation before application."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/rev"
+    },
+    {
+      "id": "ger-09",
+      "title": "Revelation 1-5 - The Risen Christ, the Churches and the Throne",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the vision of the risen Christ (1:9-20)."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the seven letters to the churches (2-3)."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the throne room vision and the Lamb (4-5)."
+        }
+      ],
+      "scripture_passages": [
+        "Revelation 1:9-20",
+        "Revelation 2:1-7",
+        "Revelation 3:14-22",
+        "Revelation 5:1-14"
+      ],
+      "library_readings": [
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Revelation, chapter 3"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapter 17 (the new Jerusalem and the church)"
+        },
+        {
+          "author": "Cyprian",
+          "title": "On the Unity of the Church",
+          "section": "Chapters 1-6"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Son of Man vision",
+          "definition": "John's vision of the glorified Christ among the lampstands."
+        },
+        {
+          "term": "Seven churches",
+          "definition": "Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, Laodicea."
+        },
+        {
+          "term": "Lukewarm",
+          "definition": "Laodicea's condition (3:15-16)."
+        },
+        {
+          "term": "Worthy is the Lamb",
+          "definition": "The heavenly hymn of Revelation 5."
+        }
+      ],
+      "discussion_questions": [
+        "What does the vision of Christ in chapter 1 communicate to suffering churches?",
+        "What pattern do the seven letters follow?",
+        "Why is the Lamb worthy to open the scroll?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The seven lampstands represent",
+          "options": [
+            "seven angels",
+            "the seven churches",
+            "seven spirits",
+            "seven apostles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The church in Ephesus is rebuked for",
+          "options": [
+            "false doctrine",
+            "abandoning the love it had at first",
+            "immorality",
+            "wealth"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Laodicea is described as",
+          "options": [
+            "poor but rich",
+            "lukewarm",
+            "faithful unto death",
+            "having a little power"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Revelation 4 the throne is surrounded by",
+          "options": [
+            "seven angels",
+            "twenty-four elders and four living creatures",
+            "twelve apostles",
+            "the martyrs only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Lamb is worthy because he was slain and by his blood ransomed people",
+          "options": [
+            "of Israel only",
+            "from every tribe and language and people and nation",
+            "of Rome",
+            "of the priests"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "What common pattern do the seven letters follow?",
+          "answer_key": "Address to the angel of the church, description of Christ (from chapter 1), commendation, rebuke, exhortation/warning, call to hear what the Spirit says, and promise to the one who conquers (some elements missing in some letters)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What does Revelation 5 reveal about Christ?",
+          "answer_key": "He is the Lion of Judah who conquers as a slain Lamb, worthy to open God's scroll and execute his purposes, redeeming a multinational people and receiving worship equal to God's."
+        }
+      ]
+    },
+    {
+      "id": "ger-10",
+      "title": "Revelation 6-18 - Seals, Trumpets, Bowls and the Conflict of the Ages",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the seals, trumpets and bowls and the question of recapitulation."
+        },
+        {
+          "id": "o2",
+          "text": "Interpret the dragon, the beasts and Babylon (12-18)."
+        },
+        {
+          "id": "o3",
+          "text": "Apply Revelation's call to faithful witness and worship."
+        }
+      ],
+      "scripture_passages": [
+        "Revelation 6:1-17",
+        "Revelation 7:9-17",
+        "Revelation 12:1-17",
+        "Revelation 13:1-18"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapters 11-14 (Gog and Magog; the beast)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book V, chapters 28-30 (the number of the beast)"
+        },
+        {
+          "author": "Matthew Henry",
+          "title": "Commentary on the Whole Bible",
+          "section": "Commentary on Revelation, chapter 12"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Recapitulation",
+          "definition": "The view that seals, trumpets and bowls describe the same period from different angles."
+        },
+        {
+          "term": "Beast from the sea",
+          "definition": "A symbol of oppressive political power (Rev 13)."
+        },
+        {
+          "term": "Babylon",
+          "definition": "Symbol of the idolatrous world-system (Rev 17-18), often identified with Rome."
+        },
+        {
+          "term": "666",
+          "definition": "The number of the beast (13:18), interpreted in many ways."
+        }
+      ],
+      "discussion_questions": [
+        "Do the seals, trumpets and bowls follow in sequence or recapitulate?",
+        "How did Irenaeus handle speculation about 666?",
+        "What does Revelation 12 reveal about the spiritual conflict behind persecution?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "In Revelation 7:9 John sees a great multitude from",
+          "options": [
+            "Israel only",
+            "every nation, tribe, people and language",
+            "the twelve tribes",
+            "Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "In Revelation 12 the dragon is identified as",
+          "options": [
+            "Rome",
+            "the devil and Satan, the ancient serpent",
+            "Babylon",
+            "the beast"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Revelation 13:18 says the number of the beast is",
+          "options": [
+            "777",
+            "666",
+            "144,000",
+            "1,260"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Irenaeus advised regarding the name of the Antichrist",
+          "options": [
+            "to announce it boldly",
+            "caution in speculating about the name",
+            "that it is Nero",
+            "that it is unknowable forever"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Babylon in Revelation 17-18 is often understood as",
+          "options": [
+            "the literal ancient city",
+            "the idolatrous, oppressive world-system (first seen in Rome)",
+            "Jerusalem only",
+            "the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Revelation 12 interpret the church's suffering?",
+          "answer_key": "It reveals a cosmic conflict - the dragon (Satan) was defeated at Christ's exaltation and cast down, and in his fury persecutes the woman (God's people); believers conquer by the blood of the Lamb and the word of their testimony."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the recapitulation view of the seals, trumpets and bowls?",
+          "answer_key": "The three series portray the same period between Christ's comings (or the end) from different angles with increasing intensity, each ending near the final judgment, rather than a strict chronological sequence."
+        }
+      ]
+    },
+    {
+      "id": "ger-11",
+      "title": "Revelation 19-22 - The Return of Christ and the New Creation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Interpret the return of Christ and the final judgment."
+        },
+        {
+          "id": "o2",
+          "text": "Compare millennial interpretations of Revelation 20."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the new heavens and new earth and the new Jerusalem."
+        }
+      ],
+      "scripture_passages": [
+        "Revelation 19:6-21",
+        "Revelation 20:11-15",
+        "Revelation 21:1-27",
+        "Revelation 22:1-21"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XX, chapters 7-9 and Book XXII, chapter 30 (the millennium; the eternal Sabbath)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book V, chapters 35-36 (the new Jerusalem and new creation)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 3, Part IV (eschatology: the second advent)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Marriage supper of the Lamb",
+          "definition": "The consummation of Christ's union with his bride, the church."
+        },
+        {
+          "term": "Great white throne",
+          "definition": "The final judgment (20:11)."
+        },
+        {
+          "term": "New Jerusalem",
+          "definition": "The holy city coming down from heaven, the bride of the Lamb."
+        },
+        {
+          "term": "Tree of life",
+          "definition": "Restored access to life in God's presence (22:2)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Revelation 21-22 echo Genesis 1-3?",
+        "What does 'I am making all things new' (21:5) say about the future of creation?",
+        "How should the church live in light of 'Come, Lord Jesus' (22:20)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Revelation 19:11 describes Christ as a rider on",
+          "options": [
+            "a pale horse",
+            "a white horse, called Faithful and True",
+            "a donkey",
+            "a chariot"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Revelation 21:4 promises that God will wipe away every tear and",
+          "options": [
+            "restore the temple",
+            "death shall be no more",
+            "rebuild Babylon",
+            "the sea will grow"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "In the new Jerusalem there is no temple because",
+          "options": [
+            "it was destroyed",
+            "the Lord God Almighty and the Lamb are its temple",
+            "worship ends",
+            "the priests are gone"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Revelation 22:2 describes the tree of life whose leaves are for",
+          "options": [
+            "food",
+            "the healing of the nations",
+            "the priests",
+            "decoration"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The Bible's final prayer is",
+          "options": [
+            "'Our Father'",
+            "'Come, Lord Jesus'",
+            "'Holy, holy, holy'",
+            "'Amen and amen'"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "How does Revelation 21-22 fulfill the story begun in Genesis 1-3?",
+          "answer_key": "New heavens and new earth replace the old creation; God dwells with humanity as in Eden; the curse is removed; the tree of life and river of life return; death, pain and the sea (chaos) are gone; God's people see his face and reign forever."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the Christian hope according to Revelation 21-22?",
+          "answer_key": "Not escape from creation but the renewal of all things - bodily life with God in a new creation, the end of sin, suffering and death, and eternal worship and reign with the Lamb."
+        }
+      ]
+    },
+    {
+      "id": "ger-12",
+      "title": "Preaching the General Epistles and Revelation",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Develop principles for preaching warning passages, ethics and apocalyptic texts."
+        },
+        {
+          "id": "o2",
+          "text": "Avoid sensationalism and date-setting while preaching hope."
+        },
+        {
+          "id": "o3",
+          "text": "Prepare an exegetical paper on a passage from these books."
+        }
+      ],
+      "scripture_passages": [
+        "Revelation 1:3",
+        "Hebrews 13:7-8",
+        "2 Peter 3:11-14",
+        "Jude 1:20-25"
+      ],
+      "library_readings": [
+        {
+          "author": "C. H. Spurgeon",
+          "title": "Lectures to My Students",
+          "section": "First Series, lecture 'On Spiritualizing'"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Christian Doctrine",
+          "section": "Book IV, chapters 12-19 (teaching, delighting and moving hearers)"
+        },
+        {
+          "author": "Gregory the Great",
+          "title": "Pastoral Rule",
+          "section": "Part III, chapters 1-2 (adapting preaching to hearers)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Pastoral application",
+          "definition": "Bringing a text's message to bear on a congregation's life."
+        },
+        {
+          "term": "Sensationalism",
+          "definition": "Speculative, fear-driven handling of prophecy."
+        },
+        {
+          "term": "Doxology",
+          "definition": "Praise to God, like Jude 24-25."
+        },
+        {
+          "term": "Exhortation",
+          "definition": "Urgent encouragement to act on truth."
+        }
+      ],
+      "discussion_questions": [
+        "How should warning passages be preached to both the complacent and the fearful?",
+        "What are the dangers of date-setting and newspaper exegesis?",
+        "How does Jude 20-25 model pastoral care?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "2 Peter 3:11 draws from the coming day of God the conclusion that we should live",
+          "options": [
+            "carefree",
+            "lives of holiness and godliness",
+            "in isolation",
+            "calculating dates"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Hebrews 13:7 tells readers to remember their leaders and",
+          "options": [
+            "obey them blindly",
+            "imitate their faith",
+            "forget them",
+            "pay them"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Jude's doxology praises God who is able to",
+          "options": [
+            "make you rich",
+            "keep you from stumbling and present you blameless",
+            "reveal dates",
+            "remove all suffering now"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Augustine says the Christian teacher should teach, delight and",
+          "options": [
+            "entertain",
+            "move (persuade)",
+            "impress",
+            "shock"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Gregory the Great's Pastoral Rule teaches that preaching should",
+          "options": [
+            "be the same for everyone",
+            "be adapted to the different conditions of hearers",
+            "avoid rebuke",
+            "be brief only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give three principles for preaching Revelation.",
+          "answer_key": "Read it as the first readers would (symbols rooted in the OT, encouragement to persecuted churches); preach the central message - the Lamb's victory, faithful witness, worship, judgment and hope; avoid speculation and date-setting; present interpretive options humbly; apply to worship, endurance and mission."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How should a pastor preach Hebrews' warning passages?",
+          "answer_key": "Take them seriously as real warnings against unbelief and apostasy; pair them with the book's assurances (6:9-12; 10:39); aim to awaken the complacent and comfort the anxious; point to Christ's priesthood as the ground of perseverance."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word exegetical paper on ONE passage from Hebrews, the General Epistles or Revelation (8-20 verses). Include historical context, literary context and structure, detailed exegesis, the history of interpretation (at least two library sources, cited as Author, Title, section - where the passage is disputed, present the major views fairly), theological synthesis and a sermon outline with application."
+    }
+  ]
+}

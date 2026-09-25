@@ -1,0 +1,1674 @@
+{
+  "id": "systematic-2",
+  "title": "Systematic Theology II: Humanity, Sin, Christ and Salvation",
+  "tier": 4,
+  "tier_name": "Theology",
+  "description": "The second systematic theology course covers theological anthropology (the image of God, body and soul, gender), hamartiology (the fall, original sin, the bondage of the will), Christology (the person of Christ, the incarnation, the two natures, the states and offices of Christ), the atonement (its theories and extent), and soteriology (calling, regeneration, faith, justification, sanctification, perseverance). Disputed questions - such as original sin, free will, the extent of the atonement and perseverance - are presented from each tradition's own sources.",
+  "prerequisites": [
+    "systematic-1"
+  ],
+  "lessons": [
+    {
+      "id": "st2-01",
+      "title": "Humanity in the Image of God",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare structural, relational and functional (vocational) views of the image of God."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the implications of the image for human dignity and ethics."
+        },
+        {
+          "id": "o3",
+          "text": "Relate the image to Christ, the true image (Colossians 1:15)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 1:26-28",
+        "Genesis 9:6",
+        "Psalm 8:3-8",
+        "Colossians 3:9-10"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "On the Trinity",
+          "section": "Books XII and XIV (the image of God in the mind)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book I, Chapter 15 (the image of God)"
+        },
+        {
+          "author": "Irenaeus",
+          "title": "Against Heresies",
+          "section": "Book V, chapter 6 (image and likeness)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Imago Dei",
+          "definition": "The image of God in humanity."
+        },
+        {
+          "term": "Structural view",
+          "definition": "The image consists in capacities like reason and will."
+        },
+        {
+          "term": "Relational view",
+          "definition": "The image consists in relationship with God and others."
+        },
+        {
+          "term": "Functional view",
+          "definition": "The image consists in representing God's rule over creation."
+        }
+      ],
+      "discussion_questions": [
+        "Irenaeus distinguished 'image' and 'likeness'. Is that distinction exegetically sound?",
+        "How does Genesis 9:6 ground the sanctity of human life?",
+        "What does it mean that believers are renewed in the image (Col 3:10)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Genesis 9:6 prohibits murder because",
+          "options": [
+            "life is short",
+            "God made man in his own image",
+            "the law says so",
+            "Noah decreed it"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Irenaeus taught that the fall lost the",
+          "options": [
+            "image",
+            "likeness (the Spirit's life), though the image remained",
+            "soul",
+            "body"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Calvin placed the image primarily in",
+          "options": [
+            "the body",
+            "the soul, renewed in knowledge, righteousness and holiness",
+            "work",
+            "government"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Psalm 8 describes humanity as crowned with glory and honor and given",
+          "options": [
+            "wings",
+            "dominion over the works of God's hands",
+            "eternal life",
+            "the law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The functional view emphasizes humanity's role as",
+          "options": [
+            "worshippers only",
+            "God's representatives ruling creation",
+            "thinking animals",
+            "spirits"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare three views of the image of God.",
+          "answer_key": "Structural (reason, will, moral capacity - Augustine, Aquinas), relational (made for relationship with God and one another - Barth and others), functional (representing God's rule on earth as vice-regents - many modern exegetes); many combine them."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What ethical implications follow from the image of God?",
+          "answer_key": "Every human has inherent dignity and worth regardless of ability, race, sex or status; murder and oppression are attacks on God's image; it grounds human rights, care for the vulnerable and stewardship of creation."
+        }
+      ]
+    },
+    {
+      "id": "st2-02",
+      "title": "Body, Soul and Human Nature",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare dichotomy, trichotomy and holistic (monist) views."
+        },
+        {
+          "id": "o2",
+          "text": "Explain creationism and traducianism on the origin of the soul."
+        },
+        {
+          "id": "o3",
+          "text": "Discuss male and female, marriage and sexuality in creation."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 2:7",
+        "Matthew 10:28",
+        "1 Thessalonians 5:23",
+        "Genesis 2:18-25"
+      ],
+      "library_readings": [
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 2, Part II, Chapters 2-3 (the nature of man; the origin of the soul)"
+        },
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIV, chapters 2-5 (flesh and spirit)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "Part I, Questions 75-76 and 90-92 (the soul; the creation of the first man and woman)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Dichotomy",
+          "definition": "Humans consist of body and soul/spirit."
+        },
+        {
+          "term": "Trichotomy",
+          "definition": "Humans consist of body, soul and spirit."
+        },
+        {
+          "term": "Creationism (of souls)",
+          "definition": "God creates each soul directly."
+        },
+        {
+          "term": "Traducianism",
+          "definition": "Souls are transmitted from parents."
+        }
+      ],
+      "discussion_questions": [
+        "Does 1 Thessalonians 5:23 teach trichotomy?",
+        "How does Augustine read 'flesh' in Paul - body or sinful orientation?",
+        "What do Genesis 2:18-25 and Aquinas teach about man and woman?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Hodge defended",
+          "options": [
+            "trichotomy",
+            "dichotomy (body and soul)",
+            "monism",
+            "reincarnation"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Traducianism holds that souls",
+          "options": [
+            "are created directly by God",
+            "are passed on from parents",
+            "pre-exist",
+            "are angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Aquinas taught that the soul is",
+          "options": [
+            "a separate being trapped in the body",
+            "the form of the body",
+            "material",
+            "mortal"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Matthew 10:28 distinguishes those who kill the body from God who can destroy",
+          "options": [
+            "cities",
+            "both soul and body in hell",
+            "only souls",
+            "only bodies"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Augustine explains that 'living according to the flesh' means",
+          "options": [
+            "having a body",
+            "living according to man rather than God",
+            "eating",
+            "marriage"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare dichotomy and trichotomy.",
+          "answer_key": "Dichotomy holds two aspects - material body and immaterial soul/spirit (soul and spirit used interchangeably in Scripture); trichotomy distinguishes soul (life, emotions) from spirit (God-consciousness), citing 1 Thess 5:23 and Heb 4:12. Many argue those texts describe the whole person rather than parts."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the difference between creationism and traducianism regarding souls?",
+          "answer_key": "Creationism - God creates each individual soul directly at conception; traducianism - the soul is transmitted with the body from parents, which some use to explain the inheritance of original sin."
+        }
+      ]
+    },
+    {
+      "id": "st2-03",
+      "title": "The Fall and the Nature of Sin",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the historical fall and its consequences."
+        },
+        {
+          "id": "o2",
+          "text": "Define sin (lawlessness, missing the mark, rebellion, idolatry, privation)."
+        },
+        {
+          "id": "o3",
+          "text": "Distinguish kinds of sin (mortal/venial, sins of commission/omission, willful and unintentional)."
+        }
+      ],
+      "scripture_passages": [
+        "Genesis 3:1-19",
+        "Romans 1:18-25",
+        "1 John 3:4",
+        "James 1:13-15"
+      ],
+      "library_readings": [
+        {
+          "author": "Augustine",
+          "title": "City of God",
+          "section": "Book XIV, chapters 11-15 (the first sin: pride)"
+        },
+        {
+          "author": "Thomas Aquinas",
+          "title": "Summa Theologica",
+          "section": "First Part of the Second Part (I-II), Questions 71-73 and 88 (sin; mortal and venial sin)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'On Sin in Believers'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Sin",
+          "definition": "Lawlessness (1 John 3:4), rebellion against God, falling short of his glory."
+        },
+        {
+          "term": "Pride",
+          "definition": "Augustine's root of sin - the soul turning from God to itself."
+        },
+        {
+          "term": "Mortal and venial sin",
+          "definition": "Catholic distinction between sins that destroy charity and lesser sins."
+        },
+        {
+          "term": "Concupiscence",
+          "definition": "Disordered desire remaining after baptism (debated whether it is sin)."
+        }
+      ],
+      "discussion_questions": [
+        "Why did Augustine see pride as the beginning of sin?",
+        "How do Catholic and Protestant views of concupiscence differ?",
+        "How does James 1:14-15 describe sin's progression?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 John 3:4 defines sin as",
+          "options": [
+            "weakness",
+            "lawlessness",
+            "ignorance",
+            "misfortune"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Augustine identifies the root of the first sin as",
+          "options": [
+            "hunger",
+            "pride",
+            "ignorance",
+            "fear"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Aquinas distinguishes sins that destroy charity (mortal) from",
+          "options": [
+            "original sin",
+            "venial sins",
+            "sins of omission",
+            "sins of angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "James 1:15 says desire gives birth to sin, and sin when fully grown brings forth",
+          "options": [
+            "regret",
+            "death",
+            "wisdom",
+            "punishment later"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Wesley's sermon 'On Sin in Believers' argues that",
+          "options": [
+            "believers never sin",
+            "sin remains in believers though it does not reign",
+            "believers are never tempted",
+            "sin is illusory"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Give three biblical descriptions of sin.",
+          "answer_key": "Lawlessness/transgression of God's law (1 John 3:4); missing the mark/falling short of God's glory (Rom 3:23); rebellion and idolatry - exchanging God for created things (Rom 1:23); unbelief; failure to love God and neighbor."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do Catholic and Protestant traditions differ on concupiscence?",
+          "answer_key": "Catholicism (Trent) teaches concupiscence remaining after baptism is not properly sin but an inclination to it; Lutheran and Reformed teach it is truly sin, though not imputed to believers."
+        }
+      ]
+    },
+    {
+      "id": "st2-04",
+      "title": "Original Sin and the Bondage of the Will",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare views of original sin (Augustinian, Reformed federal, Orthodox ancestral sin, Pelagian, Wesleyan)."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the Luther-Erasmus debate on free will."
+        },
+        {
+          "id": "o3",
+          "text": "Explain Wesley's doctrine of prevenient grace."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 5:12-21",
+        "Psalm 51:5",
+        "Ephesians 2:1-3",
+        "John 6:44"
+      ],
+      "library_readings": [
+        {
+          "author": "Martin Luther",
+          "title": "The Bondage of the Will",
+          "section": "Luther's central argument that the will is bound apart from grace"
+        },
+        {
+          "author": "Augustine",
+          "title": "On Nature and Grace",
+          "section": "Chapters 1-20"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Original Sin' and 'On Working Out Our Own Salvation' (prevenient grace)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Original sin",
+          "definition": "The guilt and/or corruption inherited from Adam."
+        },
+        {
+          "term": "Total depravity",
+          "definition": "Sin affects every part of human nature (not that people are as bad as possible)."
+        },
+        {
+          "term": "Bondage of the will",
+          "definition": "Luther's teaching that the fallen will cannot choose God without grace."
+        },
+        {
+          "term": "Prevenient grace",
+          "definition": "Grace that goes before, restoring the ability to respond to God (Wesley)."
+        }
+      ],
+      "discussion_questions": [
+        "Present Luther's and Erasmus's positions fairly. Where do they agree?",
+        "How does Wesley's prevenient grace differ from Pelagianism and from Calvinism?",
+        "How does the Orthodox view of 'ancestral sin' differ from Augustine's?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Luther's The Bondage of the Will responded to",
+          "options": [
+            "Calvin",
+            "Erasmus",
+            "Zwingli",
+            "the pope"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Ephesians 2:1 describes people apart from Christ as",
+          "options": [
+            "sick",
+            "dead in trespasses and sins",
+            "neutral",
+            "seeking God"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Wesley taught that prevenient grace",
+          "options": [
+            "saves everyone automatically",
+            "is given to all, enabling a free response to God",
+            "is only for the elect",
+            "is earned"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "'Total depravity' means",
+          "options": [
+            "people are as evil as possible",
+            "sin has corrupted every part of human nature",
+            "humans have no conscience",
+            "only the body is sinful"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "John 6:44 says no one can come to Jesus unless",
+          "options": [
+            "baptized",
+            "the Father who sent him draws him",
+            "he keeps the law",
+            "he is Jewish"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare Augustinian/Reformed and Wesleyan views of human ability after the fall.",
+          "answer_key": "Both affirm total depravity - fallen humans cannot turn to God on their own. Augustinian/Reformed - God's effectual grace regenerates the elect so they will to believe; Wesleyan - God's prevenient grace given to all partially restores freedom so all can respond, though they may resist."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What was at stake in the Luther-Erasmus debate?",
+          "answer_key": "Whether the human will has any power to contribute to salvation; Erasmus defended a limited free will cooperating with grace; Luther argued the will is bound to sin and salvation is entirely God's work, grounding assurance in God's sovereign grace."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on original sin and free will. Present the strongest case for at least two views (e.g. Augustine/Luther/Calvin, Wesley/Arminius, the Orthodox or Catholic view), each from its own sources in the library (cite as Author, Title, section), exegete Romans 5:12-21, and explain which view you find most persuasive and its pastoral implications."
+    },
+    {
+      "id": "st2-05",
+      "title": "The Person of Christ I - Deity and Humanity",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Demonstrate the full deity of Christ from Scripture."
+        },
+        {
+          "id": "o2",
+          "text": "Demonstrate the full humanity of Christ from Scripture."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the virgin birth and its significance."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:1-14",
+        "Philippians 2:5-11",
+        "Hebrews 4:14-16",
+        "Luke 1:26-38"
+      ],
+      "library_readings": [
+        {
+          "author": "Athanasius",
+          "title": "On the Incarnation of the Word",
+          "section": "Sections 1-19"
+        },
+        {
+          "author": "Gregory of Nazianzus",
+          "title": "Theological Orations",
+          "section": "The Fourth Theological Oration (Oration 30, on the Son)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 2, Part III, Chapter 3 (the person of Christ)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Incarnation",
+          "definition": "The eternal Son taking human nature."
+        },
+        {
+          "term": "Virgin birth (virginal conception)",
+          "definition": "Jesus conceived by the Holy Spirit in the Virgin Mary."
+        },
+        {
+          "term": "Docetism",
+          "definition": "The error that Christ only seemed human."
+        },
+        {
+          "term": "Apollinarianism",
+          "definition": "The error that the divine Logos replaced Christ's human mind/soul."
+        }
+      ],
+      "discussion_questions": [
+        "Why does Athanasius say the Word became man?",
+        "What is the significance of 'what is not assumed is not healed'?",
+        "Why does the virgin birth matter theologically?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Athanasius wrote that the Word became man so that",
+          "options": [
+            "God might change",
+            "we might become god (be deified)",
+            "the law might end",
+            "angels might worship"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Apollinarius taught that in Christ the divine Word replaced",
+          "options": [
+            "the body",
+            "the human mind/rational soul",
+            "the will only",
+            "nothing"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Hebrews 4:15 says Jesus was tempted in every way as we are,",
+          "options": [
+            "and sometimes sinned",
+            "yet without sin",
+            "but only in the desert",
+            "but not truly"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Luke 1:35 says the Holy Spirit will come upon Mary and therefore the child will be called",
+          "options": [
+            "son of Joseph",
+            "holy - the Son of God",
+            "prophet of the Most High only",
+            "king of Rome"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Docetism denied Christ's",
+          "options": [
+            "deity",
+            "real humanity",
+            "resurrection only",
+            "miracles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Why must Christ be both fully God and fully man to save?",
+          "answer_key": "As man he can represent humanity, obey, suffer and die in our place; as God his obedience and sacrifice have infinite worth, he conquers death and unites us to God - only the God-man can reconcile God and humanity (Anselm, Athanasius)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the significance of the virgin birth?",
+          "answer_key": "It shows salvation is God's supernatural work; the eternal Son became truly human without ceasing to be God; it fulfills prophecy (Isa 7:14); it is associated with his sinlessness; and it affirms both his humanity (born of a woman) and deity."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/JES"
+    },
+    {
+      "id": "st2-06",
+      "title": "The Person of Christ II - Chalcedon and Beyond",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the hypostatic union and the Chalcedonian Definition."
+        },
+        {
+          "id": "o2",
+          "text": "Explain the communication of properties (communicatio idiomatum) and Lutheran/Reformed differences."
+        },
+        {
+          "id": "o3",
+          "text": "Explain dyothelitism (two wills) and the kenotic debate."
+        }
+      ],
+      "scripture_passages": [
+        "John 1:14",
+        "Colossians 2:9",
+        "Mark 13:32",
+        "Matthew 26:39"
+      ],
+      "library_readings": [
+        {
+          "author": "Leo the Great",
+          "title": "Letters (including the Tome)",
+          "section": "Letter 28 (the Tome)"
+        },
+        {
+          "author": "Henry R. Percival (ed.)",
+          "title": "The Seven Ecumenical Councils",
+          "section": "Chalcedon (the Definition) and Constantinople III (the two wills)"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 14 (how the two natures constitute one person)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Hypostatic union",
+          "definition": "The union of divine and human natures in the one person of the Son."
+        },
+        {
+          "term": "Communicatio idiomatum",
+          "definition": "Attributes of either nature are predicated of the one person."
+        },
+        {
+          "term": "Extra Calvinisticum",
+          "definition": "Reformed teaching that the Son is not confined to his human nature."
+        },
+        {
+          "term": "Dyothelitism",
+          "definition": "Christ has two wills, divine and human (Constantinople III, 681)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Leo's Tome describe the natures acting 'in communion'?",
+        "How does Mark 13:32 fit with Christ's deity?",
+        "What is at stake in the Lutheran-Reformed debate about Christ's humanity?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The union of the divine and human natures in one person is called",
+          "options": [
+            "kenosis",
+            "the hypostatic union",
+            "perichoresis",
+            "theosis"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Constantinople III (681) affirmed that Christ has",
+          "options": [
+            "one will",
+            "two wills, divine and human",
+            "no human will",
+            "three wills"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The 'extra Calvinisticum' teaches that",
+          "options": [
+            "Christ was not human",
+            "the eternal Son exists also beyond his human nature",
+            "Christ's body is everywhere",
+            "Christ has two persons"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Colossians 2:9 says in Christ the whole fullness of deity dwells",
+          "options": [
+            "symbolically",
+            "bodily",
+            "temporarily",
+            "partially"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Leo's Tome says each nature does what is proper to it",
+          "options": [
+            "independently",
+            "in communion with the other",
+            "in opposition",
+            "only in heaven"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain the communicatio idiomatum with an example.",
+          "answer_key": "Because Christ is one person, what is true of either nature can be said of the person: 'the Lord of glory was crucified' (1 Cor 2:8), 'God purchased the church with his own blood' (Acts 20:28) - without confusing the natures."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How do Lutheran and Reformed Christology differ?",
+          "answer_key": "Lutherans teach a real communication of divine attributes to Christ's human nature (e.g. ubiquity of his body, supporting his presence in the Supper); the Reformed teach the natures remain distinct, Christ's body is in heaven, and the Son is also 'beyond' the flesh (extra Calvinisticum)."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/JES"
+    },
+    {
+      "id": "st2-07",
+      "title": "The States and Offices of Christ",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the states of humiliation and exaltation."
+        },
+        {
+          "id": "o2",
+          "text": "Explain Christ's threefold office as prophet, priest and king."
+        },
+        {
+          "id": "o3",
+          "text": "Interpret the descent into hell clause in different traditions."
+        }
+      ],
+      "scripture_passages": [
+        "Philippians 2:6-11",
+        "Hebrews 1:1-3",
+        "Psalm 110:1-4",
+        "1 Peter 3:18-19"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapters 15-16 (the threefold office; the descent into hell)"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 2, Part III, Chapters 11-13 (the prophetic, priestly and kingly offices)"
+        },
+        {
+          "author": "Cyril of Jerusalem",
+          "title": "Catechetical Lectures",
+          "section": "Lectures 13-14 (the crucifixion, descent, resurrection and ascension)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "State of humiliation",
+          "definition": "Christ's incarnation, suffering, death and burial."
+        },
+        {
+          "term": "State of exaltation",
+          "definition": "His resurrection, ascension, session and return."
+        },
+        {
+          "term": "Munus triplex",
+          "definition": "Christ's threefold office of prophet, priest and king."
+        },
+        {
+          "term": "Descensus ad inferos",
+          "definition": "'He descended into hell' - variously interpreted."
+        }
+      ],
+      "discussion_questions": [
+        "How does the threefold office summarize Christ's work?",
+        "Compare Calvin's view of the descent (Christ's suffering of God's wrath) with the patristic 'harrowing of hell'.",
+        "Why does the ascension matter for the church today?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "The threefold office of Christ is",
+          "options": [
+            "teacher, healer, exorcist",
+            "prophet, priest and king",
+            "son, servant, shepherd",
+            "judge, lawgiver, warrior"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "Calvin interpreted 'he descended into hell' as",
+          "options": [
+            "a myth",
+            "Christ's enduring the torments of God's wrath in his soul on the cross",
+            "a trip to purgatory",
+            "the burial only"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Psalm 110:4 declares the messianic king to be also",
+          "options": [
+            "a prophet",
+            "a priest forever after the order of Melchizedek",
+            "a judge",
+            "a Levite"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Christ's resurrection, ascension and session belong to his state of",
+          "options": [
+            "humiliation",
+            "exaltation",
+            "incarnation",
+            "kenosis"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Cyril of Jerusalem taught catechumens that Christ descended to the dead in order to",
+          "options": [
+            "suffer more",
+            "deliver those who awaited him (the righteous of old)",
+            "preach to angels only",
+            "be judged"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Explain Christ's threefold office.",
+          "answer_key": "As prophet he reveals God and his will; as priest he offers himself as sacrifice and intercedes; as king he rules and defends his people and subdues his enemies - fulfilling the OT offices of anointed prophet, priest and king."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize three interpretations of the descent into hell.",
+          "answer_key": "The harrowing of hell - Christ went to the realm of the dead to proclaim victory and free the OT saints (patristic, Orthodox, Catholic); Christ's experience of hell's agony on the cross (Calvin, Heidelberg Catechism); simply his being truly dead and in the grave (Westminster)."
+        }
+      ]
+    },
+    {
+      "id": "st2-08",
+      "title": "The Atonement - Its Necessity and Models",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the necessity of the atonement."
+        },
+        {
+          "id": "o2",
+          "text": "Compare models - ransom/Christus Victor, recapitulation, satisfaction, penal substitution, moral influence, governmental."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate how the models relate to one another."
+        }
+      ],
+      "scripture_passages": [
+        "Isaiah 53:4-12",
+        "Mark 10:45",
+        "Romans 3:21-26",
+        "Colossians 2:13-15"
+      ],
+      "library_readings": [
+        {
+          "author": "Anselm",
+          "title": "Cur Deus Homo",
+          "section": "Book I, chapters 11-25 and Book II, chapters 6-20"
+        },
+        {
+          "author": "Athanasius",
+          "title": "On the Incarnation of the Word",
+          "section": "Sections 6-10 and 20-25"
+        },
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book II, Chapter 16 (Christ's redemptive work)"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Christus Victor",
+          "definition": "Christ's victory over sin, death and the devil."
+        },
+        {
+          "term": "Satisfaction",
+          "definition": "Anselm's view that Christ restores God's honor."
+        },
+        {
+          "term": "Penal substitution",
+          "definition": "Christ bore the penalty of sin in our place."
+        },
+        {
+          "term": "Moral influence",
+          "definition": "Christ's death reveals God's love to move us (Abelard)."
+        }
+      ],
+      "discussion_questions": [
+        "How does Athanasius frame the 'divine dilemma' that required the incarnation and death of Christ?",
+        "How does penal substitution differ from Anselm's satisfaction model?",
+        "Should one model be central? Or are they complementary?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Anselm grounds the necessity of the atonement in",
+          "options": [
+            "the devil's rights",
+            "God's honor and the debt sin owes",
+            "moral example alone",
+            "church law"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The model emphasizing Christ's triumph over evil powers is",
+          "options": [
+            "moral influence",
+            "Christus Victor",
+            "governmental",
+            "satisfaction"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The moral influence theory is associated especially with",
+          "options": [
+            "Anselm",
+            "Peter Abelard",
+            "Athanasius",
+            "Calvin"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Colossians 2:15 says Christ disarmed the rulers and authorities and",
+          "options": [
+            "joined them",
+            "triumphed over them in the cross",
+            "ignored them",
+            "made peace with them"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Athanasius's 'divine dilemma' was that God could not let his creation",
+          "options": [
+            "become too powerful",
+            "perish through corruption, yet could not ignore his word that sin brings death",
+            "worship angels",
+            "know him"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare Anselm's satisfaction theory with penal substitution.",
+          "answer_key": "Anselm - sin robs God of honor; Christ's voluntary death offers satisfaction (a gift of infinite value) that restores honor instead of punishment. Penal substitution (Reformers) - Christ bore the penal consequences of sin, God's just wrath, in our place, satisfying divine justice."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How can the atonement models be integrated?",
+          "answer_key": "Many see penal substitution as the mechanism by which Christ defeats the powers (Christus Victor), recapitulates Adam's history, satisfies justice and reveals God's love (moral influence); Scripture uses many images - sacrifice, ransom, reconciliation, victory - that together express the work."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on the atonement. Explain at least three models from their primary sources in the library (for example Irenaeus, Athanasius, Anselm, Aquinas, Calvin, Hodge; cite as Author, Title, section), exegete one key text (Isaiah 53, Mark 10:45, Romans 3:21-26 or Colossians 2:13-15), and argue how the models should be related."
+    },
+    {
+      "id": "st2-09",
+      "title": "The Extent of the Atonement",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Compare definite (particular) atonement, unlimited atonement (Arminian/Wesleyan), and hypothetical universalism."
+        },
+        {
+          "id": "o2",
+          "text": "Exegete key texts (John 10, 1 John 2:2, 1 Timothy 2:6, 2 Peter 2:1)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain the practical implications for evangelism and assurance."
+        }
+      ],
+      "scripture_passages": [
+        "John 10:11-15",
+        "1 John 2:1-2",
+        "1 Timothy 2:3-6",
+        "2 Peter 2:1"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, Canons of the Synod of Dort (Second Head) and the Five Arminian Articles"
+        },
+        {
+          "author": "Charles Hodge",
+          "title": "Systematic Theology",
+          "section": "Volume 2, Part III, Chapter 8 (for whom did Christ die?)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'Free Grace'"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Definite (limited) atonement",
+          "definition": "Christ died to secure the salvation of the elect."
+        },
+        {
+          "term": "Unlimited atonement",
+          "definition": "Christ died for all people, making salvation possible for all."
+        },
+        {
+          "term": "Sufficient for all, efficient for the elect",
+          "definition": "A classic formula (Lombard, Dort)."
+        },
+        {
+          "term": "Hypothetical universalism",
+          "definition": "Christ died for all conditionally, and for the elect effectually (Amyraldism and others)."
+        }
+      ],
+      "discussion_questions": [
+        "How do Calvinists and Arminians read 1 John 2:2?",
+        "What does Dort's Second Head actually affirm about sufficiency and efficiency?",
+        "How does each view affect the free offer of the gospel?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "1 John 2:2 says Christ is the propitiation for our sins, and",
+          "options": [
+            "only ours",
+            "also for the sins of the whole world",
+            "for Israel only",
+            "for the apostles"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Canons of Dort affirm that Christ's death is",
+          "options": [
+            "insufficient for some",
+            "of infinite value, sufficient for the whole world",
+            "for all equally effective",
+            "only symbolic"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "John 10:11 says the good shepherd lays down his life for",
+          "options": [
+            "the wolves",
+            "the sheep",
+            "the world only",
+            "the hirelings"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "2 Peter 2:1 speaks of false teachers denying",
+          "options": [
+            "the law",
+            "the Master who bought them",
+            "the prophets",
+            "the resurrection"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "The formula 'sufficient for all, efficient for the elect' is associated with",
+          "options": [
+            "Arminius alone",
+            "Peter Lombard and later Reformed writers",
+            "Pelagius",
+            "Wesley"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Summarize the strongest case for definite atonement.",
+          "answer_key": "Christ's death actually accomplishes salvation (redemption, propitiation) rather than making it merely possible; he died for his sheep/church (John 10; Eph 5:25); the Trinity acts in unity - the Son dies for those the Father elects and the Spirit applies it; universal language refers to all kinds of people."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "Summarize the strongest case for unlimited atonement.",
+          "answer_key": "Many texts say Christ died for the world/all (John 3:16; 1 Tim 2:6; 1 John 2:2; Heb 2:9) and even for those who perish (2 Pet 2:1; Rom 14:15); God desires all to be saved; a universal atonement grounds a sincere universal offer of the gospel."
+        }
+      ]
+    },
+    {
+      "id": "st2-10",
+      "title": "The Order of Salvation - Calling, Regeneration, Faith and Repentance",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Explain the ordo salutis in Reformed, Lutheran, Wesleyan and Catholic accounts."
+        },
+        {
+          "id": "o2",
+          "text": "Distinguish the general call and effectual call."
+        },
+        {
+          "id": "o3",
+          "text": "Define regeneration, faith and repentance and their relationship."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 8:29-30",
+        "John 3:1-8",
+        "Ephesians 2:4-10",
+        "Acts 16:14"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapters 2-3 (faith; regeneration by faith and repentance)"
+        },
+        {
+          "author": "John Wesley",
+          "title": "Sermons on Several Occasions",
+          "section": "'The New Birth' and 'The Scripture Way of Salvation'"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "Small Catechism",
+          "section": "The Creed, Third Article"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Ordo salutis",
+          "definition": "The logical order of the application of salvation."
+        },
+        {
+          "term": "Effectual call",
+          "definition": "The Spirit's inward calling that infallibly brings the elect to faith (Reformed)."
+        },
+        {
+          "term": "Regeneration",
+          "definition": "New birth by the Spirit."
+        },
+        {
+          "term": "Faith (fides)",
+          "definition": "Knowledge, assent and trust (notitia, assensus, fiducia)."
+        }
+      ],
+      "discussion_questions": [
+        "Does regeneration precede faith (Reformed) or follow it (Wesleyan)? What is at stake?",
+        "What does Acts 16:14 ('the Lord opened her heart') suggest?",
+        "How does Luther's explanation of the Third Article describe faith as the Spirit's gift?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Romans 8:30 says those God predestined he also called, justified and",
+          "options": [
+            "tested",
+            "glorified",
+            "abandoned",
+            "judged"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The three elements of faith in Reformed theology are knowledge, assent and",
+          "options": [
+            "obedience",
+            "trust (fiducia)",
+            "baptism",
+            "feeling"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Wesley's 'The Scripture Way of Salvation' teaches that salvation is received by",
+          "options": [
+            "works",
+            "faith, including faith for sanctification",
+            "baptism only",
+            "reason"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "In Acts 16:14 Lydia responded because",
+          "options": [
+            "Paul was persuasive",
+            "the Lord opened her heart",
+            "she was a Jew",
+            "she saw a miracle"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "In the Reformed ordo salutis regeneration logically",
+          "options": [
+            "follows faith",
+            "precedes faith",
+            "follows justification",
+            "is unnecessary"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare the Reformed and Wesleyan orders of regeneration and faith.",
+          "answer_key": "Reformed - the effectual call and regeneration by the Spirit logically precede and produce faith (dead sinners must be made alive to believe); Wesleyan - prevenient grace enables a free response of faith, after which God justifies and regenerates the believer (new birth simultaneous with justification)."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is the relationship between faith and repentance?",
+          "answer_key": "They are two sides of conversion - turning from sin (repentance) and turning to Christ (faith); they are inseparable gifts of grace and continue throughout the Christian life."
+        }
+      ]
+    },
+    {
+      "id": "st2-11",
+      "title": "Justification",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the Reformation doctrine of justification by faith alone (imputation)."
+        },
+        {
+          "id": "o2",
+          "text": "Articulate the Catholic doctrine (Trent) and Orthodox perspectives fairly."
+        },
+        {
+          "id": "o3",
+          "text": "Evaluate the New Perspective and the Joint Declaration debates."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 4:1-8",
+        "Galatians 2:16",
+        "Philippians 3:8-9",
+        "James 2:21-24"
+      ],
+      "library_readings": [
+        {
+          "author": "John Calvin",
+          "title": "Institutes of the Christian Religion",
+          "section": "Book III, Chapters 11 and 14 (justification; the beginning of justification and its continual progress)"
+        },
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 2, Council of Trent, Sixth Session (decree on justification)"
+        },
+        {
+          "author": "Martin Luther",
+          "title": "The Bondage of the Will",
+          "section": "Luther on justification by grace alone through faith"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Forensic justification",
+          "definition": "A legal declaration of righteousness."
+        },
+        {
+          "term": "Imputation",
+          "definition": "Christ's righteousness credited to the believer."
+        },
+        {
+          "term": "Infusion",
+          "definition": "Grace poured into the soul making one righteous (Catholic view)."
+        },
+        {
+          "term": "Sola fide",
+          "definition": "Justification by faith alone."
+        }
+      ],
+      "discussion_questions": [
+        "How does Trent's Sixth Session describe justification, and how does it critique Protestant views?",
+        "How does Philippians 3:9 support imputation?",
+        "What remains disputed after the Lutheran-Catholic Joint Declaration (1999)?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Philippians 3:9 contrasts 'a righteousness of my own' with righteousness",
+          "options": [
+            "from the temple",
+            "from God that depends on faith",
+            "from angels",
+            "from the church"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "The Council of Trent's decree on justification was issued at the",
+          "options": [
+            "Fourth Session",
+            "Sixth Session",
+            "Thirteenth Session",
+            "Twenty-fifth Session"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "Imputation means",
+          "options": [
+            "gradual transformation",
+            "crediting righteousness to someone's account",
+            "infusing grace",
+            "rewarding works"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Trent taught that justification includes",
+          "options": [
+            "only forgiveness",
+            "the sanctification and renewal of the inner man",
+            "no role for faith",
+            "no grace"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Calvin called justification",
+          "options": [
+            "a secondary doctrine",
+            "the main hinge on which religion turns",
+            "a Lutheran error",
+            "the same as sanctification"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare the Reformation and Tridentine doctrines of justification.",
+          "answer_key": "Reformation - God declares sinners righteous on the basis of Christ's righteousness imputed and received by faith alone; sanctification follows inseparably. Trent - justification is the renewal of the inner person by infused grace received in baptism, increased by cooperation and good works, and lost by mortal sin; Trent anathematized 'faith alone' understood as mere trust."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "How does the Orthodox tradition typically frame salvation?",
+          "answer_key": "As theosis - union with God and transformation into his likeness through participation in the life of the Trinity, the sacraments and ascetic struggle; forensic categories are less central, though forgiveness is affirmed."
+        }
+      ],
+      "supplementary_viewing": "https://thirdmill.org/seminary/course.asp/vs/HPT"
+    },
+    {
+      "id": "st2-12",
+      "title": "Sanctification, Perseverance and Glorification",
+      "objectives": [
+        {
+          "id": "o1",
+          "text": "Articulate the doctrine of sanctification (definitive and progressive)."
+        },
+        {
+          "id": "o2",
+          "text": "Compare views on perseverance and apostasy (Reformed, Lutheran, Arminian/Wesleyan, Catholic)."
+        },
+        {
+          "id": "o3",
+          "text": "Explain glorification as the completion of salvation."
+        }
+      ],
+      "scripture_passages": [
+        "Romans 6:11-14",
+        "Philippians 1:6",
+        "John 10:27-29",
+        "Hebrews 6:4-8"
+      ],
+      "library_readings": [
+        {
+          "author": "Philip Schaff",
+          "title": "The Creeds of Christendom",
+          "section": "Volume 3, Canons of the Synod of Dort (Fifth Head: perseverance) and the Five Arminian Articles (Article 5)"
+        },
+        {
+          "author": "James Arminius",
+          "title": "Works",
+          "section": "Volume 1, Declaration of Sentiments, 'On the Perseverance of the Saints' and 'On the Assurance of Salvation'"
+        },
+        {
+          "author": "John Wesley",
+          "title": "A Plain Account of Christian Perfection",
+          "section": "Wesley on whether perfection can be lost and the need for watchfulness"
+        }
+      ],
+      "key_terms": [
+        {
+          "term": "Definitive sanctification",
+          "definition": "The once-for-all break with sin's dominion in union with Christ."
+        },
+        {
+          "term": "Progressive sanctification",
+          "definition": "Ongoing growth in holiness."
+        },
+        {
+          "term": "Perseverance of the saints",
+          "definition": "True believers will persevere to the end (Reformed)."
+        },
+        {
+          "term": "Glorification",
+          "definition": "The final perfection of believers in body and soul."
+        }
+      ],
+      "discussion_questions": [
+        "How do Reformed and Arminian theologians read John 10:28-29 and Hebrews 6:4-6?",
+        "What did Arminius himself say about perseverance?",
+        "How should assurance be grounded in each view?"
+      ],
+      "quiz_bank": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "Philippians 1:6 says he who began a good work in you will",
+          "options": [
+            "probably finish it",
+            "bring it to completion at the day of Jesus Christ",
+            "leave it to you",
+            "judge it"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "John 10:28 says no one will snatch Christ's sheep out of",
+          "options": [
+            "the church",
+            "his hand",
+            "the fold",
+            "heaven"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "The Fifth Head of the Canons of Dort teaches",
+          "options": [
+            "believers can lose salvation",
+            "the perseverance of the saints",
+            "universal salvation",
+            "purgatory"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "Arminius, in his Declaration of Sentiments, on whether true believers can totally fall away,",
+          "options": [
+            "denied it absolutely",
+            "said he had not taught it but thought the matter needed further study of Scripture",
+            "affirmed it strongly",
+            "refused to discuss it"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "Glorification includes",
+          "options": [
+            "only the soul's release",
+            "the resurrection of the body and perfect conformity to Christ",
+            "reincarnation",
+            "becoming angels"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "q6",
+          "type": "short_answer",
+          "question": "Compare Reformed and Arminian/Wesleyan views of perseverance.",
+          "answer_key": "Reformed - those truly regenerated will certainly persevere because God preserves them, though they may fall seriously for a time; Arminian/Wesleyan - believers are kept through faith, but can make shipwreck of faith and finally fall away through persistent unbelief, so warnings describe a real possibility."
+        },
+        {
+          "id": "q7",
+          "type": "short_answer",
+          "question": "What is glorification?",
+          "answer_key": "The final stage of salvation when Christ returns: believers are raised with glorified, immortal bodies, freed completely from sin, perfectly conformed to Christ's image, and enjoy God forever in the new creation (Rom 8:30; 1 Cor 15; Phil 3:21)."
+        }
+      ],
+      "paper_prompt": "Write a 1,500-2,000 word paper on perseverance and assurance. Present the strongest case for the Reformed and the Arminian/Wesleyan views from their own sources (for example Dort, Calvin, Arminius, Wesley; cite as Author, Title, section), exegete John 10:27-29 and Hebrews 6:4-8, and explain how each view grounds a believer's assurance and how you would counsel a doubting Christian."
+    }
+  ]
+}
